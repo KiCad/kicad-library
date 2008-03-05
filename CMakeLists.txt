@@ -13,7 +13,6 @@ PROJECT(kicad)
 
 CMAKE_MINIMUM_REQUIRED(VERSION 2.4.6 FATAL_ERROR)
 
-SET(CMAKE_INSTALL_PREFIX /usr/local CACHE PATH "")
 # Locations for install targets.
 IF(UNIX)
     IF(APPLE)
@@ -39,4 +38,3 @@ ENDIF(WIN32)
 # Resources.
 ADD_SUBDIRECTORY(library)
 ADD_SUBDIRECTORY(modules)
-
