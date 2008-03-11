@@ -9,32 +9,32 @@
 #
 # Our project is called 'kicad'. This is what it will be called in
 # our makefiles.
-PROJECT(kicad)
+project(kicad)
 
-CMAKE_MINIMUM_REQUIRED(VERSION 2.4.6 FATAL_ERROR)
+cmake_minimum_required(VERSION 2.4.6 FATAL_ERROR)
 
 # Locations for install targets.
-IF(UNIX)
-    IF(APPLE)
-    ELSE(APPLE)
+if(UNIX)
+    if(APPLE)
+    else(APPLE)
         # Like all variables, CMAKE_INSTALL_PREFIX can be over-ridden on the command line.
-        SET(CMAKE_INSTALL_PREFIX /usr/local CACHE PATH "")
+        set(CMAKE_INSTALL_PREFIX /usr/local CACHE PATH "")
         # When used later, "bin" and others with no leading / is relative to CMAKE_INSTALL_PREFIX.
-        SET(KICAD_DATA share/kicad CACHE PATH "Location of KiCad data files.")
-        SET(KICAD_MODULES ${KICAD_DATA}/modules)
-        SET(KICAD_LIBRARY ${KICAD_DATA}/library)
-    ENDIF(APPLE)
-ENDIF(UNIX)
+        set(KICAD_DATA share/kicad CACHE PATH "Location of KiCad data files.")
+        set(KICAD_MODULES ${KICAD_DATA}/modules)
+        set(KICAD_LIBRARY ${KICAD_DATA}/library)
+    endif(APPLE)
+endif(UNIX)
 
-IF(WIN32)
+if(WIN32)
     # Like all variables, CMAKE_INSTALL_PREFIX can be over-ridden on the command line.
-    SET(CMAKE_INSTALL_PREFIX c:/kicad CACHE PATH "")
+    set(CMAKE_INSTALL_PREFIX c:/kicad CACHE PATH "")
     # When used later, "winexe" and others with no leading / is relative to CMAKE_INSTALL_PREFIX.
-    SET(KICAD_MODULES modules)
-    SET(KICAD_LIBRARY library)
-ENDIF(WIN32)
+    set(KICAD_MODULES modules)
+    set(KICAD_LIBRARY library)
+endif(WIN32)
 
 # CMake will look in these dirs for nested 'CMakeLists.txt' files.
 # Resources.
-ADD_SUBDIRECTORY(library)
-ADD_SUBDIRECTORY(modules)
+add_subdirectory(library)
+add_subdirectory(modules)

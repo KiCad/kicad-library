@@ -1,12 +1,12 @@
-FILE(GLOB brd_files "*.brd")
-FILE(GLOB equ_files "*.equ")
-FILE(GLOB mdc_files "*.mdc")
-FILE(GLOB mod_files "*.mod")
+file(GLOB brd_files "*.brd")
+file(GLOB equ_files "*.equ")
+file(GLOB mdc_files "*.mdc")
+file(GLOB mod_files "*.mod")
 
-INSTALL(FILES ${brd_files} DESTINATION ${KICAD_MODULES} COMPONENT resources)
-INSTALL(FILES ${equ_files} DESTINATION ${KICAD_MODULES} COMPONENT resources)
-INSTALL(FILES ${mdc_files} DESTINATION ${KICAD_MODULES} COMPONENT resources)
-INSTALL(FILES ${mod_files} DESTINATION ${KICAD_MODULES} COMPONENT resources)
+install(FILES ${brd_files} DESTINATION ${KICAD_MODULES} COMPONENT resources)
+install(FILES ${equ_files} DESTINATION ${KICAD_MODULES} COMPONENT resources)
+install(FILES ${mdc_files} DESTINATION ${KICAD_MODULES} COMPONENT resources)
+install(FILES ${mod_files} DESTINATION ${KICAD_MODULES} COMPONENT resources)
 
-INSTALL(DIRECTORY packages3d DESTINATION ${KICAD_MODULES} COMPONENT resources
+install(DIRECTORY packages3d DESTINATION ${KICAD_MODULES} COMPONENT resources
     PATTERN ".svn" EXCLUDE)
