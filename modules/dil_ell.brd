@@ -1,11 +1,11 @@
-PCBNEW-BOARD Version 7 date 11/1/2005-10:11:05
+PCBNEW-BOARD Version 1 date 18/8/2008-20:15:08
 
 $GENERAL
 LayerCount 2
 Ly 1FFF8001
 Links 0
 NoConn 0
-Di 7925 8000 104158 75573
+Di 7925 8000 104060 75575
 Ndraw 0
 Ntrack 0
 Nzone 0
@@ -16,9 +16,9 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "dil_ell.lib"
-Date "11 jan 2005"
+Date "18 aug 2008"
 Rev "1"
-Comp "Kicad pcbnew"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -27,11 +27,14 @@ $EndSHEETDESCR
 
 $SETUP
 InternalUnit 0.000100 INCH
-GridSize 500 500
+UserGridSize 0.010000 0.010000 mm
 ZoneGridSize 100
 Layers 2
+Layer[0] Cuivre signal
+Layer[15] Composant signal
 TrackWidth 150
 TrackWidthHistory 150
+TrackWidthHistory 170
 TrackWidthHistory 250
 TrackClearence 120
 ZoneClearence 200
@@ -41,6 +44,9 @@ ViaSize 450
 ViaDrill 250
 ViaSizeHistory 450
 ViaSizeHistory 800
+MicroViaSize 200
+MicroViaDrill 80
+MicroViasAllowed 0
 TextPcbWidth 120
 TextPcbSize 600 600
 EdgeModWidth 120
@@ -93,6 +99,7 @@ Li 64DIP-ELL900
 Cd Module Dil 64 pins, pads elliptiques, e=900 mils
 Kw DIL
 Sc AF27D8A2
+AR 
 Op 0 0 0
 T0 -12500 -2000 700 500 0 120 N V 21 "U***"
 T1 8500 1500 700 700 0 120 N V 21 "64DIP-ELL900"
@@ -564,6 +571,7 @@ Li 40dip-Ell1000
 Cd Module Dip 40 pins, pads elliptiques, e= 1 pouce
 Kw DIL
 Sc AE6A8232
+AR 
 Op 0 0 0
 T0 0 500 700 700 0 120 N V 21 "40DIP-ELL1000"
 T1 0 -2000 650 650 0 120 N V 21 "U***"
@@ -868,6 +876,7 @@ Li 28DIP-ELL300-600
 Cd Module Dil 28 pins, pads elliptiques, e=600 mils
 Kw DIL
 Sc 3ED1C827
+AR 
 Op 0 0 0
 T0 -5000 -1500 700 450 0 120 N V 21 "U***"
 T1 -50 1650 700 700 0 120 N V 21 "28DIP-ELL300-600"
@@ -1190,6 +1199,7 @@ Li 10DIP-ELL300
 Cd Module Dil 10 pins, pads elliptiques
 Kw DIL
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -500 600 450 0 120 N V 21 "U***"
 T1 0 500 600 450 0 120 N V 21 "10DIP-ELL300"
@@ -1283,6 +1293,7 @@ Li 6DIP-ELL300
 Cd Module Dil 6 pins, pads elliptiques
 Kw DIL
 Sc B0606540
+AR 
 Op 0 0 0
 T0 -2500 0 750 400 900 120 N V 21 "U***"
 T1 0 0 600 350 1800 120 N V 21 "6DIP-ELL300"
@@ -1348,6 +1359,7 @@ Li 64DIP-ELL600
 Cd Module Dil 64 pins, pads elliptiques, e=600 mils
 Kw DIL
 Sc AF26E936
+AR 
 Op 0 0 0
 T0 -13000 -1000 700 450 0 120 N V 21 "U***"
 T1 8500 500 700 800 0 120 N V 21 "64DIP-ELL600"
@@ -1819,6 +1831,7 @@ Li 48DIP-ELL600
 Cd Module Dil 48 pins, pads elliptiques, e=600 mils
 Kw DIL
 Sc AF26E72E
+AR 
 Op 0 0 0
 T0 -10000 -1000 700 450 0 120 N V 21 "U***"
 T1 5500 1000 700 700 0 120 N V 21 "48DIP-ELL600"
@@ -2178,6 +2191,7 @@ Li 40DIP-ELL600
 Cd Module Dil 40 pins, pads elliptiques, e=600 mils
 Kw DIL
 Sc AF26E609
+AR 
 Op 0 0 0
 T0 -7500 -1500 700 450 0 120 N V 21 "U***"
 T1 0 1000 700 700 0 120 N V 21 "40DIP-ELL600"
@@ -2481,6 +2495,7 @@ Li 32DIP-ELL600
 Cd Module Dil 32 pins, pads elliptiques, e=600 mils
 Kw DIL
 Sc AF26E4B2
+AR 
 Op 0 0 0
 T0 -5500 -1500 700 700 0 120 N V 21 "U***"
 T1 -250 1250 700 700 0 120 N V 21 "32DIP-ELL600"
@@ -2728,6 +2743,7 @@ Li 28DIP-ELL600
 Cd Module Dil 28 pins, pads elliptiques, e=600 mils
 Kw DIL
 Sc AF26E1C7
+AR 
 Op 0 0 0
 T0 -5000 -1500 700 450 0 120 N V 21 "U***"
 T1 250 1500 700 700 0 120 N V 21 "28DIP-ELL600"
@@ -2948,6 +2964,7 @@ Li 24DIP-ELL600
 Cd Module Dil 24 pins, pads elliptiques, e=600 mils
 Kw DIL
 Sc AF26DFD7
+AR 
 Op 0 0 0
 T0 -4500 -1500 700 450 0 120 N V 21 "U***"
 T1 0 1000 700 650 0 120 N V 21 "24DIP-ELL600"
@@ -3139,6 +3156,7 @@ Li 24DIP-ELL400
 Cd Module dil 24 pins, pads elliptiques, e=400 mils
 Kw DIL
 Sc AF26DE86
+AR 
 Op 0 0 0
 T0 -4000 -1000 700 450 0 120 N V 21 "U***"
 T1 2500 500 700 450 0 120 N V 21 "24DIP-ELL400"
@@ -3330,6 +3348,7 @@ Li 22DIP-ELL400
 Cd Module Dil 22 pins, pads elliptiques, e=400 mils
 Kw DIL
 Sc AF26CF49
+AR 
 Op 0 0 0
 T0 -2750 -750 700 450 0 120 N V 21 "U***"
 T1 1000 500 700 450 0 120 N V 21 "22DIP-ELL400"
@@ -3507,6 +3526,7 @@ Li 20DIP-ELL300
 Cd Module Dil 20 pins, pads elliptiques
 Kw DIL
 Sc AF26CD1F
+AR 
 Op 0 0 0
 T0 -3500 -500 700 450 0 120 N V 21 "U***"
 T1 1400 400 700 450 0 120 N V 21 "20DIP-ELL300"
@@ -3669,6 +3689,7 @@ Po 46000 11500 0 15 00200000 AF26CC37 ~~
 Li 18DIP-ELL300
 Cd Module Dil 18 pins, pads elliptiques
 Sc AF26CC37
+AR 
 Op 0 0 0
 T0 -3000 -500 700 450 0 120 N V 21 "U***"
 T1 600 400 700 450 0 120 N V 21 "18DIP-ELL300"
@@ -3818,6 +3839,7 @@ Li 16DIP-ELL300
 Cd Module Dil 16 pins, pads elliptiques
 Kw DIL
 Sc AF26CA34
+AR 
 Op 0 0 0
 T0 -2500 -500 600 450 0 120 N V 21 "U***"
 T1 500 500 600 450 0 120 N V 21 "16DIP-ELL300"
@@ -3954,6 +3976,7 @@ Li 14DIP-ELL300
 Cd Module Dil 14 pins, pads elliptiques
 Kw DIL
 Sc AF26C8A6
+AR 
 Op 0 0 0
 T0 -2000 -500 600 450 0 120 N V 21 "U***"
 T1 500 500 600 450 0 120 N V 21 "14DIP-ELL300"
@@ -4075,6 +4098,7 @@ Li 28DIP-ELL300
 Cd Module Dil 28 pins, pads elliptiques, e=300 mils
 Kw DIL
 Sc AE6A80C2
+AR 
 Op 0 0 0
 T0 -4500 0 600 450 0 120 N V 21 "U***"
 T1 2750 0 600 450 0 120 N V 21 "28DIP-ELL300"
@@ -4294,6 +4318,7 @@ Li 40tex-Ell600
 Cd Support TEXTOOL Dil 40 pins, pads elliptiques, e=600 mils
 Kw DEV
 Sc AE50503F
+AR 
 Op 0 0 0
 T0 -1500 -1250 800 500 0 120 N V 21 "U***"
 T1 -2250 750 800 500 0 120 N V 21 "40TEX-ELL600"
@@ -4637,6 +4662,7 @@ Li 28TEX-Ell600
 Cd Support TEXTOOL Dil 26 pins, pads elliptiques, e=600 mils
 Kw DEV
 Sc AE5038E3
+AR 
 Op 0 0 0
 T0 -750 -750 800 500 0 120 N V 21 "U***"
 T1 -1250 1000 800 500 0 120 N V 21 "28TEX-ELL600"
@@ -4890,6 +4916,7 @@ Li 24TEXT-Ell300
 Cd Support Dil TEXTOOL 24 pins, pads elliptiques, e=300 mils
 Kw DEV
 Sc AE50362B
+AR 
 Op 0 0 0
 T0 -5500 -250 800 500 0 120 N V 21 "U***"
 T1 750 250 800 500 0 120 N V 21 "24TEX-ELL300"
@@ -5116,6 +5143,7 @@ Li 8DIP-ELL300
 Cd Module Dil 8 pins, pads elliptiques
 Kw DIL
 Sc AE501265
+AR 
 Op 0 0 0
 T0 -2500 0 700 450 900 120 N V 21 "U***"
 T1 0 0 700 400 0 120 N V 21 "8DIP-ELL300"
@@ -5195,6 +5223,7 @@ Li 24DIP-ELL300
 Cd Module Dil 24 pins, pads elliptiques, e=300 mils
 Kw DIL
 Sc AE4FD452
+AR 
 Op 0 0 0
 T0 -3500 -500 700 450 0 120 N V 21 "U***"
 T1 1500 500 700 450 0 120 N V 21 "24DIP-ELL300"
@@ -5387,6 +5416,7 @@ Li 22DIP-ELL300
 Cd Module Dil 22 pins, pads elliptiques, e=300 mils
 Kw DIL
 Sc AE4FC9A5
+AR 
 Op 0 0 0
 T0 -3000 -500 600 450 0 120 N V 21 "U***"
 T1 1400 400 600 450 0 120 N V 21 "22DIP-ELL300"
@@ -5564,6 +5594,7 @@ Li 20TEX-ELL300
 Cd Support Dil TEXTOOL 20 pins, pads elliptiques, e=300 mils
 Kw DEV
 Sc AE4FC31E
+AR 
 Op 0 0 0
 T0 -4500 -500 700 500 1800 120 N V 21 "U***"
 T1 2500 500 700 500 1800 120 N V 21 "20TEX-ELL300"
@@ -5756,11 +5787,12 @@ Po 3500 4000
 $EndPAD
 $EndMODULE  20TEX-ELL300
 $MODULE SUPPORT_SO8_ZIF
-Po 97600 56350 0 15 3FFD2682 3FFD32ED ~~
+Po 97500 56000 0 15 3FFD2682 3FFD32ED ~~
 Li SUPPORT_SO8_ZIF
 Cd Module Dil 8 pins, pads elliptiques
 Kw DIL
 Sc 3FFD32ED
+AR 
 Op 0 0 0
 T0 0 -3000 700 450 0 120 N V 21 "SUPPORT_SO8_ZIF"
 T1 -2000 2000 600 400 0 120 N V 21 "VAL*"

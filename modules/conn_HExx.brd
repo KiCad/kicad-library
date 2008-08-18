@@ -1,11 +1,11 @@
-PCBNEW-BOARD Version 7 date 11/1/2005-10:09:18
+PCBNEW-BOARD Version 1 date 18/8/2008-20:18:58
 
 $GENERAL
 LayerCount 2
 Ly 1FFF8001
 Links 0
 NoConn 0
-Di 4925 6840 110758 76058
+Di 4925 6840 110760 76060
 Ndraw 0
 Ntrack 0
 Nzone 0
@@ -16,9 +16,9 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "HExx connectors"
-Date "11 jan 2005"
+Date "18 aug 2008"
 Rev ""
-Comp "Kicad pcbnew"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -27,11 +27,14 @@ $EndSHEETDESCR
 
 $SETUP
 InternalUnit 0.000100 INCH
-GridSize 500 500
+UserGridSize 0.010000 0.010000 mm
 ZoneGridSize 250
 Layers 2
+Layer[0] Cuivre signal
+Layer[15] Composant signal
 TrackWidth 150
 TrackWidthHistory 150
+TrackWidthHistory 170
 TrackWidthHistory 250
 TrackClearence 110
 ZoneClearence 0
@@ -40,6 +43,9 @@ EdgeSegmWidth 150
 ViaSize 450
 ViaDrill 250
 ViaSizeHistory 450
+MicroViaSize 200
+MicroViaDrill 80
+MicroViasAllowed 0
 TextPcbWidth 120
 TextPcbSize 600 2
 EdgeModWidth 80
@@ -60,6 +66,7 @@ Li HE10_40D
 Cd Connecteur HE10 40 contacts droit
 Kw CONN HE10
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -6750 -2250 600 400 0 120 N V 21 "HE10_40D"
 T1 7000 -2250 600 400 0 120 N V 21 "Val**"
@@ -378,6 +385,7 @@ Li HE10_20D
 Cd Connecteur HE10 20 contacts droit
 Kw CONN HE10
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -5000 -2250 600 400 0 120 N V 21 "HE10-20D"
 T1 3750 -2250 600 400 0 120 N V 21 "Val**"
@@ -556,6 +564,7 @@ Li HE10_64D
 Cd Connecteur HE10 64 contacts droit
 Kw CONN HE10
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -4300 -2300 600 400 0 120 N V 21 "HE10-64D"
 T1 2100 -2300 600 400 0 120 N V 21 "Val**"
@@ -1042,6 +1051,7 @@ Li HE10_60D
 Cd Connecteur HE10 60 contacts droit
 Kw CONN HE10
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -6500 -2500 600 600 0 120 N V 21 "HE10-60D"
 T1 4250 -2500 600 600 0 120 N V 21 "Val**"
@@ -1500,6 +1510,7 @@ Li HE10_50D
 Cd Connecteur HE10 50 contacts droit
 Kw CONN HE10
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -3200 -2300 600 400 0 120 N V 21 "HE10-50D"
 T1 4500 -2400 600 400 0 120 N V 21 "Val**"
@@ -1888,6 +1899,7 @@ Li HE10_34D
 Cd Connecteur HE10 34 contacts droit
 Kw CONN HE10
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -3500 -2300 600 400 0 120 N V 21 "HE10-34D"
 T1 3600 -2300 600 400 0 120 N V 21 "Val**"
@@ -2164,6 +2176,7 @@ Li HE10_26D
 Cd Connecteur HE10 26 contacts droit
 Kw CONN HE10
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -6000 -2250 600 600 0 150 N V 21 "HE10-26D"
 T1 5250 -2250 600 600 0 150 N V 21 "Val**"
@@ -2384,6 +2397,7 @@ Li he10-10d
 Cd Connecteur HE10 10 contacts droit
 Kw CONN HE10
 Sc AFF777A3
+AR 
 Op 0 0 0
 T0 -2400 -2300 700 700 0 120 N V 21 "HE10-10D"
 T1 2400 2300 700 700 0 120 N V 21 "Val**"
@@ -2492,6 +2506,7 @@ Li he10-14c
 Cd Connecteur HE10 14 contacts couche
 Kw CONN HE10
 Sc AFF778E4
+AR 
 Op 0 0 0
 T0 0 1500 700 700 1800 120 N V 21 "HE10-14C"
 T1 -1000 3000 700 700 1800 120 N V 21 "Val**"
@@ -2636,6 +2651,7 @@ Li he10-14d
 Cd Connecteur HE10 14 contacts droit
 Kw CONN HE10
 Sc AFF77A0B
+AR 
 Op 0 0 0
 T0 -3100 -2300 700 700 0 120 N V 21 "HE10-14D"
 T1 3300 2300 700 700 0 120 N V 21 "Val**"
@@ -2772,6 +2788,7 @@ Li he10-16c
 Cd Connecteur HE10 16 contacts couche
 Kw CONN HE10
 Sc AFF77B60
+AR 
 Op 0 0 0
 T0 0 1500 700 700 1800 120 N V 21 "HE10-16C"
 T1 -500 3000 700 700 1800 120 N V 21 "Val**"
@@ -2930,6 +2947,7 @@ Li he10-16d
 Cd Connecteur HE10 16 contacts droit
 Kw CONN HE10
 Sc AFF77D31
+AR 
 Op 0 0 0
 T0 -2200 -2400 700 700 0 120 N V 21 "HE10-16D"
 T1 5000 2400 700 700 0 120 N V 21 "Val**"
@@ -3080,6 +3098,7 @@ Li he10-20c
 Cd Connecteur HE10 20 contacts couche
 Kw CONN HE10
 Sc AFF77E81
+AR 
 Op 0 0 0
 T0 0 1500 700 700 1800 120 N V 21 "HE10-20C"
 T1 -500 3000 700 700 1800 120 N V 21 "Val**"
@@ -3266,6 +3285,7 @@ Li he10-34c
 Cd Connecteur HE10 34 contacts couche
 Kw CONN HE10
 Sc AFF79AE3
+AR 
 Op 0 0 0
 T0 -6000 -2000 700 700 0 120 N V 21 "HE10-34C"
 T1 5000 -2000 700 700 0 120 N V 21 "Val**"
@@ -3550,6 +3570,7 @@ Li he10-40c
 Cd Connecteur HE10 40 contacts couche
 Kw CONN HE10
 Sc AFF79D93
+AR 
 Op 0 0 0
 T0 -6500 -2000 700 700 0 120 N V 21 "HE10-40C"
 T1 6000 -2000 700 700 0 120 N V 21 "Val**"
@@ -3876,6 +3897,7 @@ Li he10-50c
 Cd Connecteur HE10 50 contacts couche
 Kw CONN HE10
 Sc AFF7A08A
+AR 
 Op 0 0 0
 T0 -7000 -2000 700 700 0 120 N V 21 "HE10-50C"
 T1 7000 -2000 700 700 0 120 N V 21 "Val**"
@@ -4272,6 +4294,7 @@ Li he10-60c
 Cd Connecteur HE10 60 contacts couche
 Kw CONN HE10
 Sc AFF7A283
+AR 
 Op 0 0 0
 T0 -9000 -2000 700 700 0 120 N V 21 "HE10-60C"
 T1 9000 -2000 700 700 0 120 N V 21 "Val**"
@@ -4738,6 +4761,7 @@ Li he10-26c
 Cd Connecteur HE10 26 contacts couche
 Kw CONN HE10
 Sc AFF7D437
+AR 
 Op 0 0 0
 T0 -200 1800 700 700 1800 120 N V 21 "HE10-26C"
 T1 -1000 3200 700 700 1800 120 N V 21 "Val**"
@@ -4966,6 +4990,7 @@ Li HE10-10C
 Cd Connecteur HE10 10 contacts couche
 Kw CONN HE10
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -600 2000 699 625 0 120 N V 21 "HE10-10C"
 T1 -800 3200 450 450 1800 120 N V 21 "Val**"

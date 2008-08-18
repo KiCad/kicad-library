@@ -1,11 +1,11 @@
-PCBNEW-BOARD Version 7 date 11/1/2005-10:45:57
+PCBNEW-BOARD Version 1 date 18/8/2008-15:15:06
 
 $GENERAL
 LayerCount 2
 Ly 1FFF8001
 Links 0
 NoConn 0
-Di 5925 5725 111823 76973
+Di 5925 5725 111825 76975
 Ndraw 0
 Ntrack 0
 Nzone 0
@@ -16,7 +16,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "sockets for integrated circuits - part 1"
-Date "11 jan 2005"
+Date "18 aug 2008"
 Rev ""
 Comp "Kicad pcbnew"
 Comment1 ""
@@ -27,11 +27,14 @@ $EndSHEETDESCR
 
 $SETUP
 InternalUnit 0.000100 INCH
-GridSize 500 500
+UserGridSize 0.010000 0.010000 mm
 ZoneGridSize 250
 Layers 2
+Layer[0] Cuivre signal
+Layer[15] Composant signal
 TrackWidth 150
 TrackWidthHistory 150
+TrackWidthHistory 170
 TrackWidthHistory 250
 TrackClearence 110
 ZoneClearence 0
@@ -41,6 +44,9 @@ ViaSize 800
 ViaDrill 250
 ViaSizeHistory 450
 ViaSizeHistory 800
+MicroViaSize 200
+MicroViaDrill 80
+MicroViasAllowed 0
 TextPcbWidth 120
 TextPcbSize 600 2
 EdgeModWidth 80
@@ -56,11 +62,12 @@ Na 0 ""
 St ~
 $EndEQUIPOT
 $MODULE H08
-Po 32850 32850 0 15 00200000 00000000 ~~
+Po 33000 33000 0 15 00200000 00000000 ~~
 Li H08
 Cd Module boitier metalique H 8 pins
 Kw DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 100 -3700 1032 573 0 120 N V 21 "H***"
 T1 -100 -2300 600 600 0 120 N V 21 "H08"
@@ -131,6 +138,7 @@ Li zip28
 Cd Module ZIP 28 pins
 Kw ZIP
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -3750 -1750 600 600 0 120 N V 21 "ZIP28"
 T1 4750 -1750 600 600 0 120 N V 21 "Val**"
@@ -343,6 +351,7 @@ Li zip24
 Cd Module ZIP 24 pins
 Kw ZIP
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -3250 -1750 600 600 0 120 N V 21 "ZIP24"
 T1 3750 -1750 600 600 0 120 N V 21 "Val**"
@@ -527,6 +536,7 @@ Li zip20
 Cd Module ZIP 20 pins
 Kw ZIP
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -3750 -1750 600 600 0 120 N V 21 "ZIP20"
 T1 2750 -1750 600 600 0 120 N V 21 "Val**"
@@ -683,6 +693,7 @@ Li SIMM
 Cd Support pour barettes SIMM 9 bits
 Kw SIMM
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -11250 -2250 600 600 0 120 N V 21 "SIMM"
 T1 10750 -2250 600 600 0 120 N V 21 "U***"
@@ -921,6 +932,7 @@ Li PGA224
 Cd Support PGA 224 pins
 Kw PGA
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -2000 1000 800 0 120 N V 21 "U***"
 T1 0 1000 1000 800 0 120 N V 21 "PGA18X18"
@@ -2508,6 +2520,7 @@ Li PGA84
 Cd Support PGA 84 pins
 Kw PGA
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 800 500 0 120 N V 21 "U***"
 T1 0 1000 800 500 0 120 N V 21 "PGA84"
@@ -3117,6 +3130,7 @@ Li PGA120
 Cd Support PGA 120 pins
 Kw PGA
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1500 1000 800 1800 80 N V 21 "PGA120"
 T1 0 1500 1000 620 0 80 N V 21 "VAL**"
@@ -3978,6 +3992,7 @@ Li SIM72
 Cd Support 72 pins pour barettes SIMM 32 bits
 Kw SIMM
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -7300 -1300 800 800 0 120 N V 21 "U***"
 T1 4400 -1300 800 800 0 120 N V 21 "SIM72"
@@ -4519,6 +4534,7 @@ Li PGA18X18
 Cd Support modele pour PGA 18 x 18 pins, pads ronds
 Kw PGA
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -6000 10500 1016 800 0 120 N V 21 "U***"
 T1 4000 10500 1000 800 0 120 N V 21 "PGA18X18"
@@ -6801,6 +6817,7 @@ Li PLCC28
 Cd Support Plcc 28 pins, pads ronds
 Kw PLCC
 Sc 00000000
+AR 
 Op 0 0 0
 T0 500 4000 800 500 0 120 N V 21 "PLCC28"
 T1 0 0 800 500 0 120 N I 21 "U***"
@@ -7012,6 +7029,7 @@ Li PGA224
 Cd Support PGA 224 pins
 Kw PGA
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -2000 1000 800 0 120 N V 21 "U***"
 T1 0 1000 1000 800 0 120 N V 21 "PGA224"
@@ -8599,6 +8617,7 @@ Li PGA16X16
 Cd Support modele pour PGA 16 x 16 pins, pads ronds
 Kw PGA
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -5500 9500 890 574 0 120 N V 21 "U***"
 T1 5000 9500 878 611 0 120 N V 21 "PGA16X16"
@@ -10405,6 +10424,7 @@ Li PGA156
 Cd Support PGA 156 pins, pads ronds
 Kw PGA
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 1298 665 0 120 N V 21 "U***"
 T1 0 1000 1072 661 0 120 N V 21 "PGA156"
@@ -11518,6 +11538,7 @@ Li PLCC52
 Cd Support Plcc 52 pins, pads ronds
 Kw PLCC
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 1125 593 0 120 N V 21 "U***"
 T1 0 1000 976 470 0 120 N V 21 "PLCC52"
@@ -11902,6 +11923,7 @@ Li PLCC44
 Cd Support Plcc 44 pins, pads ronds
 Kw PLCC
 Sc 00000000
+AR 
 Op 0 0 0
 T0 5500 -500 700 700 0 120 N V 21 "PLCC44"
 T1 -1000 0 614 549 0 120 N V 21 "U***"
@@ -12225,6 +12247,7 @@ Li PGA15X15
 Cd Module modele pour PGA 15 x 15 pins, pads ronds
 Kw PGA
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -5000 9000 1164 632 0 120 N V 21 "U***"
 T1 3400 9000 990 739 0 120 N V 21 "PGA15X15"
@@ -13814,6 +13837,7 @@ Li PGA144
 Cd Module PGA 144 pins, pads ronds
 Kw PGA
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1500 1346 779 0 120 N V 21 "U***"
 T1 0 2000 1205 644 0 120 N V 21 "PGA144"
@@ -14842,6 +14866,7 @@ Po 65450 11800 0 15 00200000 00000000 ~~
 Li 80188
 Cd Module specifique pour 80188, pads ronds
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 1053 696 0 120 N V 21 "U***"
 T1 0 1000 869 727 0 120 N V 21 "80188"
@@ -15337,6 +15362,7 @@ Po 38300 68000 0 15 00200000 00000000 ~~
 Li ADSP2100
 Cd Support pour ADSP 2100, pads ronds
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -500 1202 735 0 120 N V 21 "U***"
 T1 0 2500 1198 596 0 120 N V 21 "ADSP2100"
@@ -16080,6 +16106,7 @@ Li PLCC68
 Cd Support Plcc 68 pins, pads ronds
 Kw PLCC
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 1011 593 0 120 N V 21 "U***"
 T1 0 1000 1007 586 0 120 N V 21 "PLCC68"
@@ -16581,6 +16608,7 @@ Li PLCC84
 Cd Support Plcc 84 pins, pads ronds
 Kw PLCC
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 1314 767 0 120 N V 21 "U***"
 T1 0 1500 1144 668 0 120 N V 21 "PLCC84"
