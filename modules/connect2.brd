@@ -1,11 +1,11 @@
-PCBNEW-BOARD Version 7 date 11/1/2005-10:49:59
+PCBNEW-BOARD Version 1 date 18/8/2008-08:39:35
 
 $GENERAL
 LayerCount 2
 Ly 1FFF8001
 Links 0
 NoConn 0
-Di 8786 6440 79558 76558
+Di 8786 6440 79560 76060
 Ndraw 0
 Ntrack 0
 Nzone 0
@@ -16,7 +16,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "CONNECTORS - page 2"
-Date "11 jan 2005"
+Date "18 aug 2008"
 Rev ""
 Comp "Kicad pcbnew"
 Comment1 ""
@@ -27,11 +27,14 @@ $EndSHEETDESCR
 
 $SETUP
 InternalUnit 0.000100 INCH
-GridSize 500 500
+UserGridSize 0.010000 0.010000 mm
 ZoneGridSize 250
 Layers 2
+Layer[0] Cuivre signal
+Layer[15] Composant signal
 TrackWidth 150
 TrackWidthHistory 150
+TrackWidthHistory 170
 TrackWidthHistory 250
 TrackClearence 110
 ZoneClearence 0
@@ -40,6 +43,9 @@ EdgeSegmWidth 150
 ViaSize 450
 ViaDrill 250
 ViaSizeHistory 450
+MicroViaSize 200
+MicroViaDrill 80
+MicroViasAllowed 0
 TextPcbWidth 120
 TextPcbSize 600 800
 EdgeModWidth 120
@@ -60,6 +66,7 @@ Li SIL-2
 Cd Connecteurs 2 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 681 428 0 120 N V 21 "SIL-2"
 T1 0 -1000 600 400 0 120 N I 21 "Val**"
@@ -88,6 +95,7 @@ Li SIL-3
 Cd Connecteur 3 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 705 424 0 120 N V 21 "SIL-3"
 T1 0 -1000 600 400 0 120 N I 21 "Val**"
@@ -130,6 +138,7 @@ Li SIL-4
 Cd Connecteur 4 pibs
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 683 428 0 120 N V 21 "SIL-4"
 T1 0 -1000 600 400 0 120 N I 21 "Val**"
@@ -175,6 +184,7 @@ Li SIL-5
 Cd Connecteur 5 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -250 -1000 681 428 0 120 N V 21 "SIL-5"
 T1 0 -1000 600 400 0 120 N I 21 "Val**"
@@ -225,6 +235,7 @@ Li SIL-6
 Cd Connecteur 6 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 681 428 0 120 N V 21 "SIL-6"
 T1 0 -1000 600 400 0 120 N I 21 "Val**"
@@ -282,6 +293,7 @@ Li SIL-8
 Cd Connecteur 8 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -2500 -1000 681 428 0 120 N V 21 "SIL-8"
 T1 2000 -1000 600 400 0 120 N V 21 "Val**"
@@ -353,6 +365,7 @@ Li SIL-7
 Cd Connecteur 7 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 0 -1000 681 428 0 120 N V 21 "SIL-7"
 T1 0 -1000 600 400 0 120 N I 21 "Val**"
@@ -419,6 +432,7 @@ Li SIL-9
 Cd Connecteur 9 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -3000 -1000 681 428 0 120 N V 21 "SIL-9"
 T1 2000 -1000 600 400 0 120 N V 21 "Val**"
@@ -497,6 +511,7 @@ Li SIL-10
 Cd Connecteur 10 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -2500 -1000 681 428 0 120 N V 21 "SIL-10"
 T1 2500 -1000 600 400 0 120 N V 21 "Val**"
@@ -582,6 +597,7 @@ Li SIL-12
 Cd Connecteur 12 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -3000 -1000 681 428 0 120 N V 21 "SIL-12"
 T1 3000 -1000 600 400 0 120 N V 21 "Val**"
@@ -693,6 +709,7 @@ Li SIL-13
 Cd Connecteur 13 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -4000 -1000 681 428 0 120 N V 21 "SIL-13"
 T1 2000 -1000 600 400 0 120 N V 21 "Val**"
@@ -799,6 +816,7 @@ Li SIL-14
 Cd Connecteur 14 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -4000 -1000 681 428 0 120 N V 21 "SIL-14"
 T1 3000 -1000 600 400 0 120 N V 21 "Val**"
@@ -911,6 +929,7 @@ Li SIL-15
 Cd Connecteur 15 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -4500 -1000 681 428 0 120 N V 21 "SIL-15"
 T1 2500 -1000 600 400 0 120 N V 21 "Val**"
@@ -1030,6 +1049,7 @@ Li SIL-18
 Cd Connecteur 18 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -5000 -1000 681 428 0 120 N V 21 "SIL-18"
 T1 3500 -1000 600 400 0 120 N V 21 "Val**"
@@ -1171,6 +1191,7 @@ Li SIL-26
 Cd Connecteur 26 pins
 Kw CONN DEV
 Sc 00000000
+AR 
 Op 0 0 0
 T0 -5500 -1000 681 428 1800 120 N V 21 "SIL-26"
 T1 2000 -1000 600 400 1800 120 N V 21 "Val**"
@@ -1363,11 +1384,12 @@ Po 12500 0
 $EndPAD
 $EndMODULE  SIL-26
 $MODULE 3M-N7E50
-Po 19000 61500 0 15 00200000 00000003 ~~
+Po 19000 61000 0 15 00200000 00000003 ~~
 Li 3M-N7E50
 Cd Connecteur PCMCIA + carte
 Kw CONN
 Sc 00000003
+AR 
 Op 0 0 0
 T0 0 1750 600 600 0 150 N V 21 "3M-N7E50"
 T1 0 3000 600 600 0 150 N V 21 "VAL**"
@@ -1817,6 +1839,7 @@ Li head_2x2
 Cd Double rangee de contacts 2 x 2 pins
 Kw CONN
 Sc 3F9EDAA5
+AR 
 Op 0 0 0
 T0 160 -1620 700 600 0 120 N V 21 "HEAD_2X2"
 T1 160 -1620 700 600 0 120 N I 21 "Val**"
@@ -1859,6 +1882,7 @@ Li head_4x2
 Cd Double rangee de contacts 2 x 4 pins
 Kw CONN
 Sc 3F9EDABB
+AR 
 Op 0 0 0
 T0 0 -1750 700 600 0 120 N V 21 "HEAD_4X2"
 T1 0 -1750 700 600 0 120 N I 21 "Val**"
@@ -1929,6 +1953,7 @@ Li head_5x2
 Cd Double rangee de contacts 2 x 5 pins
 Kw CONN
 Sc 3F9EDAC5
+AR 
 Op 0 0 0
 T0 0 -1750 700 700 0 120 N V 21 "HEAD_5X2"
 T1 250 -1750 700 700 0 120 N I 21 "Val**"
@@ -2013,6 +2038,7 @@ Li head_6x2
 Cd Double rangee de contacts 2 x 6 pins
 Kw CONN
 Sc 3F9EDAE5
+AR 
 Op 0 0 0
 T0 0 -1800 700 700 0 120 N V 21 "HEAD_6X2"
 T1 0 -1800 700 700 0 120 N I 21 "Val**"
@@ -2111,6 +2137,7 @@ Li head_8x2
 Cd Double rangee de contacts 2 x 8 pins
 Kw CONN
 Sc 3F9EDAED
+AR 
 Op 0 0 0
 T0 250 -1500 700 700 0 120 N V 21 "HEAD_8X2"
 T1 250 -1500 700 700 0 120 N I 21 "Val**"
@@ -2237,6 +2264,7 @@ Li head_12x
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
 Sc 3F9EDAF9
+AR 
 Op 0 0 0
 T0 0 -1750 700 700 0 120 N V 21 "HEAD_12X"
 T1 0 -1750 700 700 0 120 N I 21 "Val**"
