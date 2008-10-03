@@ -18843,7 +18843,7 @@ Ne 0 ""
 Po -2362 0
 $EndPAD
 $SHAPE3D
-Na "connectors/USB_type_B.wrl"
+Na "connectors/usb/normal/usb_b/usb_b_through_hole.wrl"
 Sc 0.393700 0.393700 0.393700
 Of 0.000000 0.000000 0.001000
 Ro 0.000000 0.000000 0.000000
@@ -18904,7 +18904,7 @@ Ne 0 ""
 Po 1050 2800
 $EndPAD
 $SHAPE3D
-Na "connectors/usb_a_through_hole.wrl"
+Na "connectors/usb/normal/usb_a/usb_a_through_hole.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
