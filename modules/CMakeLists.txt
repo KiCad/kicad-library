@@ -23,3 +23,8 @@ install(DIRECTORY packages3d
         DESTINATION ${KICAD_MODULES}
         COMPONENT resources
         PATTERN ".svn" EXCLUDE)
+
+install(DIRECTORY footprints_doc
+        DESTINATION ${KICAD_MODULES}
+        COMPONENT resources
+        PATTERN ".svn" EXCLUDE)
