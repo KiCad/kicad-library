@@ -1,9 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 23 Feb 2009 14:28:58 CET
+EESchema-DOCLIB  Version 2.0  Date: 28/07/2009 16:42:31
 #
 $CMP 7805
 D Linear Regulator +5V
 K POWER REGUL
-F regulator/lm78*.*
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP 7805MS
@@ -15,19 +15,19 @@ $ENDCMP
 $CMP 78L05
 D Linear Regulator +5V
 K POWER REGUL
-F regulator/lm78*.*
+F regulator\lm78lxx.pdf
 $ENDCMP
 #
 $CMP 7905
 D Linear Regulator -5V
 K POWER REGUL
-F regulator/lm79*.pdf
+F regulator\lm79xx.pdf
 $ENDCMP
 #
 $CMP 79L05
 D Linear Regulator -5V
 K POWER REGUL
-F regulator/lm79*.pdf
+F regulator\lm79lxx.pdf
 $ENDCMP
 #
 $CMP ADP1108
@@ -61,25 +61,25 @@ $ENDCMP
 $CMP LM7805
 D Linear Regulator +5V
 K POWER REGUL
-F regulator/lm78*.*
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP LM7812
 D Linear Regulator +12V
 K POWER REGUL
-F regulator/lm78*.*
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP LM7905
 D Linear Regulator -5V
 K POWER REGUL
-F regulator/lm79*.pdf
+F regulator\lm79xx.pdf
 $ENDCMP
 #
 $CMP LM7912
 D Linear Regulator -12V
 K POWER REGUL
-F regulator/lm79*.pdf
+F regulator\lm79xx.pdf
 $ENDCMP
 #
 $CMP LP2985LV
@@ -141,6 +141,12 @@ D Linear Regulator (adjustable)
 K POWER REGUL
 $ENDCMP
 #
+$CMP LT1761
+D MICROPOWER 150mA Regulator   tiny SOT-23 5-leads package
+K REGUL POWER
+F linear-tec\lt1761.pdf
+$ENDCMP
+#
 $CMP LT3010
 D Adj Low drop Linear Regulator (MSOP package 9 pins), Vin <= 80V
 K REGUL POWER
@@ -187,6 +193,16 @@ K REGUL POWER
 F linear-tec/ltc1878.pdf
 $ENDCMP
 #
+$CMP LTC3442
+D Micropower Synchronous Buck-Boost DC/DC Converter with Automatic Burst Mode Operation
+F linear-tec\ltc3442.pdf
+$ENDCMP
+#
+$CMP LTC3525
+D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+F linear-tec\ltc3525.pdf
+$ENDCMP
+#
 $CMP MAX1647
 D Battery Charger
 F maxim\MAX1647-MAX1648.pdf
@@ -205,6 +221,12 @@ $ENDCMP
 $CMP MC34063
 D 1.5A step up/down/inverting switching regulator
 F regulator/mc34063.pdf
+$ENDCMP
+#
+$CMP MIC2026
+D Dual-Channel Power Distribution Switch
+K PWR SWITCH
+F micrel\mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2177
