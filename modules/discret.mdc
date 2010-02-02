@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  Mon 23 Feb 2009 14:55:47 CET
+PCBNEW-LibDoc----V1  21/07/2009 13:54:42
 #
 $MODULE LCD4
 Li LCD4
@@ -251,6 +251,12 @@ Cd Regulateur TO220 serie LM78xx
 Kw TR TO220
 $EndMODULE
 #
+$MODULE TO220
+Li TO220
+Cd Transistor TO 220
+Kw TR TO220 DEV
+$EndMODULE
+#
 $MODULE LEDV
 Li LEDV
 Cd Led verticale diam 6mm
@@ -359,6 +365,12 @@ Cd Quartz boitier HC-18U vertical
 Kw QUARTZ DEV
 $EndMODULE
 #
+$MODULE TO220_VERT
+Li TO220_VERT
+Cd Regulateur TO220 serie LM78xx
+Kw TR TO220
+$EndMODULE
+#
 $MODULE INDUCTOR_V
 Li INDUCTOR_V
 Cd Inductor (vertical)
@@ -399,6 +411,12 @@ $MODULE TO39EBC
 Li TO39EBC
 Cd Transistor TO38
 Kw TO38
+$EndMODULE
+#
+$MODULE SW_SPDT
+Li SW_SPDT
+Cd Switch inverseur
+Kw SWITCH DEV
 $EndMODULE
 #
 $MODULE C2V8
@@ -455,22 +473,9 @@ Cd Connecteur 3 pins
 Kw CONN DEV
 $EndMODULE
 #
-$MODULE SW_SPDT
-Li SW_SPDT
-Cd Switch inverseur
-Kw SWITCH DEV
-$EndMODULE
-#
-$MODULE TO220
-Li TO220
-Cd Transistor TO 220
-Kw TR TO220 DEV
-$EndMODULE
-#
-$MODULE TO220_VERT
-Li TO220_VERT
-Cd Regulateur TO220 serie LM78xx
-Kw TR TO220
+$MODULE self_cms_we-tpc/XL
+Li self_cms_we-tpc/XL
+Cd SELF WE-PD3L
 $EndMODULE
 #
 $EndLIBDOC
