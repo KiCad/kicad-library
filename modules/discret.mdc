@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  Sun 08 Aug 2010 11:55:01 PM ICT
+PCBNEW-LibDoc----V1  Tue 10 Aug 2010 05:19:52 PM ICT
 #
 $MODULE LCD4
 Li LCD4
@@ -365,12 +365,6 @@ Cd Quartz boitier HC-18U vertical
 Kw QUARTZ DEV
 $EndMODULE
 #
-$MODULE TO220_VERT
-Li TO220_VERT
-Cd Regulateur TO220 serie LM78xx
-Kw TR TO220
-$EndMODULE
-#
 $MODULE INDUCTOR_V
 Li INDUCTOR_V
 Cd Inductor (vertical)
@@ -478,16 +472,16 @@ Li self_cms_we-tpc/XL
 Cd SELF WE-PD3L
 $EndMODULE
 #
-$MODULE DO-41
-Li DO-41
-Cd Diode 3 pas
-Kw DIODE DEV
+$MODULE TO92-123
+Li TO92-123
+Cd Transistor TO92 brochage type BC237
+Kw TR TO92
 $EndMODULE
 #
-$MODULE DO-35
-Li DO-35
-Cd Diode 3 pas
-Kw DIODE DEV
+$MODULE TO220_VERT
+Li TO220_VERT
+Cd Regulateur TO220 serie LM78xx
+Kw TR TO220
 $EndMODULE
 #
 $MODULE HC-49V
@@ -496,10 +490,28 @@ Cd Quartz boitier HC-49 Vertical
 Kw QUARTZ DEV
 $EndMODULE
 #
+$MODULE DO-35
+Li DO-35
+Cd Diode 3 pas
+Kw DIODE DEV
+$EndMODULE
+#
+$MODULE DO-41
+Li DO-41
+Cd Diode 3 pas
+Kw DIODE DEV
+$EndMODULE
+#
 $MODULE LM78XXV
 Li LM78XXV
 Cd Regulateur TO220 serie LM78xx
 Kw TR TO220
+$EndMODULE
+#
+$MODULE LM78XX-TO92
+Li LM78XX-TO92
+Cd 7805
+Kw TR TO92
 $EndMODULE
 #
 $EndLIBDOC
