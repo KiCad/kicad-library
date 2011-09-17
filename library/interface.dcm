@@ -1,7 +1,36 @@
-EESchema-DOCLIB  Version 2.0  Date: Fri 05 Nov 2010 11:15:41 AM ICT
+EESchema-DOCLIB  Version 2.0  Date: 17/03/2011 10:23:59
+#
+$CMP AD5280
+D ANALOG DEVICES/TSSOP14
+$ENDCMP
+#
+$CMP AD5282
+D ANALOG DEVICES/TSSOP14
+$ENDCMP
+#
+$CMP AD5282_ABC
+D TSSOP16
+$ENDCMP
+#
+$CMP AD5290
+D Digital Potentiometer  256 steps   (SPI control) +- 15V
+K R POT
+F analog-dev/AD5290.pdf
+$ENDCMP
+#
+$CMP AD5293
+D Digital potentiometer 1024 pos (SPI)
+K R POT
+F analog-dev/AD5293.pdf
+$ENDCMP
 #
 $CMP EL7242C
 D Translateur TTL->VMOS. Double driver VMOS
+$ENDCMP
+#
+$CMP FT232RL
+D USB to serial interface
+K USB
 $ENDCMP
 #
 $CMP IR2110
@@ -19,6 +48,11 @@ $ENDCMP
 $CMP MAX232
 D Driver de Ligne RS232
 K RS232
+$ENDCMP
+#
+$CMP TMC809
+D Microcontroller reset monitor
+F microchip/TCM809_reset_controller.pdf
 $ENDCMP
 #
 #End Doc Library

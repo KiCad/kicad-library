@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Fri 26 Nov 2010 10:20:26 AM ICT
+EESchema-DOCLIB  Version 2.0  Date: 28/07/2011 15:35:53
 #
 $CMP 7SEGM
 D Afficheur Leds 7 segments
@@ -39,6 +39,14 @@ $ENDCMP
 #
 $CMP CP1
 D Condensateur polarise
+$ENDCMP
+#
+$CMP CPSMALL
+D Condensateur polarise
+$ENDCMP
+#
+$CMP CSMALL
+D Condensateur non polarise
 $ENDCMP
 #
 $CMP DIODE
@@ -207,6 +215,11 @@ K VR  DEV
 $ENDCMP
 #
 $CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+$CMP ZENERSMALL
 D Diode zener
 K DEV DIODE
 $ENDCMP

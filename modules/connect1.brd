@@ -1,25 +1,26 @@
-PCBNEW-BOARD Version 1 date 21/07/2009 13:46:48
+PCBNEW-BOARD Version 1 date 16/08/2010 18:08:01
 
-# Created by Pcbnew(20090712-unstable)
+# Created by Pcbnew(2010-08-09 BZR 2439)-unstable
 
 $GENERAL
 LayerCount 2
 Ly 1FFF8001
+EnabledLayers 1FFF8001
 Links 3
 NoConn 3
-Di 6940 7686 111540 72930
+Di 6779 5825 111640 73061
 Ndraw 0
 Ntrack 0
 Nzone 0
-LayerThickness 630
-Nmodule 30
+BoardThickness 630
+Nmodule 31
 Nnets 14
 $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "CONNECTORS - page 1"
-Date "21 jul 2009"
+Date "16 aug 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -34,128 +35,112 @@ ZoneGridSize 250
 Layers 2
 Layer[0] Cuivre signal
 Layer[15] Composant signal
-TrackWidth 150
-TrackWidthHistory 150
-TrackWidthHistory 170
-TrackClearence 110
-TrackClearenceHistory 60
+TrackWidth 78
+TrackClearence 100
 ZoneClearence 0
 TrackMinWidth 78
 DrawSegmWidth 150
 EdgeSegmWidth 150
-ViaSize 450
+ViaSize 250
 ViaDrill 250
-ViaAltDrill 250
 ViaMinSize 250
-ViaSizeHistory 450
-MicroViaSize 200
-MicroViaDrill 80
+ViaMinDrill 200
+MicroViaSize 198
+MicroViaDrill 50
 MicroViasAllowed 0
 MicroViaMinSize 198
+MicroViaMinDrill 50
 TextPcbWidth 120
 TextPcbSize 600 800
-EdgeModWidth 120
+EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
-PadSize 1890 1890
-PadDrill 400
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
 $EndSETUP
 
-$NETCLASS
-Name "default"
-$PARAMS_START
-TracksWidth 170
-TracksMinWidth 150
-ViasSize 550
-ViasMinSize 400
-Clearance 140
-MinClearance 110
-$PARAMS_END
-AddNet "1"
-AddNet "17"
-AddNet "18"
-AddNet "N-000161"
-AddNet "CANTAR_LIGNE+8_1"
-AddNet "CANTAR_LIGNE-8_1"
-AddNet "CANTAR_LIGNE-7_1"
-AddNet "CANTAR_LIGNE+7_1"
-AddNet "GND"
-AddNet "CANTAR_MICRO+4_1"
-AddNet "MASSE"
-AddNet "CANTAR_MICRO-4_1"
-AddNet "N-000121"
-$EndNETCLASS
 $EQUIPOT
 Na 0 ""
 St ~
-NetClass ""
 $EndEQUIPOT
 $EQUIPOT
 Na 1 "1"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 2 "17"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 3 "18"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 4 "CANTAR_LIGNE+7_1"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 5 "CANTAR_LIGNE+8_1"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 6 "CANTAR_LIGNE-7_1"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 7 "CANTAR_LIGNE-8_1"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 8 "CANTAR_MICRO+4_1"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 9 "CANTAR_MICRO-4_1"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 10 "GND"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 11 "MASSE"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 12 "N-000121"
 St ~
-NetClass "default"
 $EndEQUIPOT
 $EQUIPOT
 Na 13 "N-000161"
 St ~
-NetClass "default"
 $EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "Ceci est la Netclass par défaut"
+Clearance 100
+TrackWidth 78
+ViaDia 250
+ViaDrill 250
+uViaDia 198
+uViaDrill 50
+AddNet ""
+AddNet "1"
+AddNet "17"
+AddNet "18"
+AddNet "CANTAR_LIGNE+7_1"
+AddNet "CANTAR_LIGNE+8_1"
+AddNet "CANTAR_LIGNE-7_1"
+AddNet "CANTAR_LIGNE-8_1"
+AddNet "CANTAR_MICRO+4_1"
+AddNet "CANTAR_MICRO-4_1"
+AddNet "GND"
+AddNet "MASSE"
+AddNet "N-000121"
+AddNet "N-000161"
+$EndNCLASS
 $MODULE bnc
 Po 53000 29500 0 15 00200000 AF8BF471 ~~
 Li bnc
@@ -6183,7 +6168,7 @@ Po 0 500
 $EndPAD
 $EndMODULE  GS3
 $MODULE RJ12_E
-Po 96500 25000 0 15 4639F0DE 4639F128 ~~
+Po 85500 36500 0 15 4639F0DE 4639F128 ~~
 Li RJ12_E
 Sc 4639F128
 AR 
@@ -8493,6 +8478,136 @@ Ne 0 ""
 Po -7370 880
 $EndPAD
 $EndMODULE  SATA-22_SMD
+$MODULE RJ45_TRANSFO
+Po 98500 19500 0 15 4BD6B6BE 4C696209 ~~
+Li RJ45_TRANSFO
+Kw RJ45
+Sc 4C696209
+AR 
+Op 0 0 0
+T0 0 3200 600 600 0 120 N V 21 N"RJ45_TRANSFO"
+T1 56 -40 394 394 0 80 N V 21 N"VAL**"
+DS 1550 7900 1550 3200 120 21
+DS 1550 1950 1550 -1950 120 21
+DS -4750 7900 -4750 3200 120 21
+DS -4750 1950 -4750 -1950 120 21
+DS 1550 -1950 1150 -1950 120 21
+DS -2150 -1950 -850 -1950 120 21
+DS -4750 -1950 -4250 -1950 120 21
+DS -4750 7918 1550 7918 120 21
+$PAD
+Sh "Hole" C 1516 1516 0 0 0
+Dr 1300 0 0
+At STD N 00F0FFFF
+Ne 0 ""
+Po 750 3500
+$EndPAD
+$PAD
+Sh "Hole" C 1516 1516 0 0 0
+Dr 1300 0 0
+At STD N 00F0FFFF
+Ne 0 ""
+Po -3750 3500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3250 1000
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3000 0
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2250 1000
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2000 0
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1250 1000
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -250 1000
+$EndPAD
+$PAD
+Sh "13" C 1000 1000 0 0 0
+Dr 700 0 0
+At STD N 00F0FFFF
+Ne 0 ""
+Po 1550 2300
+$EndPAD
+$PAD
+Sh "13" C 1000 1000 0 0 0
+Dr 700 0 0
+At STD N 00F0FFFF
+Ne 0 ""
+Po -4550 2300
+$EndPAD
+$PAD
+Sh "YK" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2650 -1900
+$EndPAD
+$PAD
+Sh "GA" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -350 -1900
+$EndPAD
+$PAD
+Sh "YA" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3650 -1900
+$EndPAD
+$PAD
+Sh "GK" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 650 -1900
+$EndPAD
+$PAD
+Sh "1" R 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  RJ45_TRANSFO
 $TRACK
 $EndTRACK
 $ZONE

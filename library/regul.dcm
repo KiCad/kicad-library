@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 22 Nov 2010 01:43:02 PM ICT
+EESchema-DOCLIB  Version 2.0  Date: 16/12/2010 17:06:38
 #
 $CMP 7805
 D Linear Regulator +5V
@@ -100,6 +100,12 @@ K REGUL POWER
 F regulator/lp3963.pdf
 $ENDCMP
 #
+$CMP LT_1129_QP
+D LowDrop Linear Regulator (QPACK 5 pins)
+K REGUL POWER
+F linear-tec/lt1129.pdf
+$ENDCMP
+#
 $CMP LT1108
 D Switching Regulator
 $ENDCMP
@@ -164,10 +170,8 @@ D DC/DC converter for CCD bias
 F regulator/lt3472.pdf
 $ENDCMP
 #
-$CMP LT_1129_QP
-D LowDrop Linear Regulator (QPACK 5 pins)
-K REGUL POWER
-F linear-tec/lt1129.pdf
+$CMP LT3757EMSE
+D Boost, flyback, SEPIC and inverting regulator (MSOP package)
 $ENDCMP
 #
 $CMP LTC1307
@@ -247,6 +251,10 @@ $ENDCMP
 $CMP TL497A
 D 500 mA step up/step down switching regulator
 F texas/tl497a.pdf
+$ENDCMP
+#
+$CMP TPS769XX
+D Low drop regulator 1.2 .. 5V SOT23 package
 $ENDCMP
 #
 #End Doc Library
