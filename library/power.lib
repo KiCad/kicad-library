@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 28/07/2011 17:09:43
+EESchema-LIBRARY Version 2.3  Date: 25/10/2011 11:55:37
 #encoding utf-8
 #
 # +1.2V
@@ -169,6 +169,18 @@ DRAW
 X +3.3VP 1 0 0 0 U 20 20 0 0 W N
 P 3 0 1 0  0 0  0 40  0 40 N
 P 7 0 1 0  20 30  0 40  -20 30  -10 70  10 70  20 30  20 30 N
+ENDDRAW
+ENDDEF
+#
+# +36V
+#
+DEF +36V #PWR 0 0 N Y 1 F P
+F0 "#PWR" 0 -30 30 H I C CNN
+F1 "+36V" 0 110 40 H V C CNN
+DRAW
+X +36V 1 0 0 0 U 30 30 0 0 W N
+C 0 60 20 0 1 0 N
+P 4 0 1 0  0 0  0 40  0 40  0 40 N
 ENDDRAW
 ENDDEF
 #
