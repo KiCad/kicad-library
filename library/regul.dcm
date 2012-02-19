@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 16/12/2010 17:06:38
+EESchema-DOCLIB  Version 2.0  Date: 19/02/2012 19:46:34
 #
 $CMP 7805
 D Linear Regulator +5V
@@ -42,6 +42,12 @@ F regulator\bq2003.pdf
 $ENDCMP
 #
 $CMP LM317
+D Linear Regulator (adjustable)
+K POWER REGUL
+F regulator/lm117.pdf
+$ENDCMP
+#
+$CMP LM317_SOT223
 D Linear Regulator (adjustable)
 K POWER REGUL
 F regulator/lm117.pdf
@@ -98,12 +104,6 @@ $CMP LP3966
 D LowDrop Linear Regulator (QPACK 5 pins)
 K REGUL POWER
 F regulator/lp3963.pdf
-$ENDCMP
-#
-$CMP LT_1129_QP
-D LowDrop Linear Regulator (QPACK 5 pins)
-K REGUL POWER
-F linear-tec/lt1129.pdf
 $ENDCMP
 #
 $CMP LT1108
@@ -172,6 +172,12 @@ $ENDCMP
 #
 $CMP LT3757EMSE
 D Boost, flyback, SEPIC and inverting regulator (MSOP package)
+$ENDCMP
+#
+$CMP LT_1129_QP
+D LowDrop Linear Regulator (QPACK 5 pins)
+K REGUL POWER
+F linear-tec/lt1129.pdf
 $ENDCMP
 #
 $CMP LTC1307
