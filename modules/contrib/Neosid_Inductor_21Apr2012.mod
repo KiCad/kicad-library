@@ -1,0 +1,1166 @@
+PCBNEW-LibModule-V1  Mi 25 Apr 2012 15:54:18 CEST
+# encoding utf-8
+$INDEX
+Neosid_Inductor_MA-Bs75_RevA_21Apr2012
+Neosid_Inductor_Ms42_RevA_21Apr2012
+Neosid_Inductor_Ms50T_RevA_21Apr2012
+Neosid_Inductor_Ms50_RevA_21Apr2012
+Neosid_Inductor_Ms85_RevA_21Apr2012
+Neosid_Inductor_Ms95_RevA_21Apr2012
+Neosid_Inductor_NE-CBP11E-N_RevA_21Apr2012
+Neosid_Inductor_NE-CPB07E_RevA_21Apr2012
+Neosid_Inductor_SM-NE127_RevA_21Apr2012
+Neosid_Inductor_SM-NE150_RevA_21Apr2012
+Neosid_Inductor_SM-NE29_SMD1008_RevA_21Apr2012
+Neosid_Inductor_SM-NE30_SMD1210_RevA_21Apr2012
+Neosid_Inductor_SM-NE45_SMD1812_RevA_21Apr2012
+Neosid_Inductor_SM-NE56_SMD2220_RevA_21Apr2012
+Neosid_Inductor_SM-NE95H_RevA_21Apr2012
+Neosid_Inductor_SM-PIC0512H_RevA_21Apr2012
+Neosid_Inductor_SM-PIC0602H_RevA_21Apr2012
+Neosid_Inductor_SM-PIC0612H_RevA_21Apr2012
+Neosid_Inductor_SM-PIC1004H_RevA_21Apr2012
+Neosid_Inductor_SM0603CG_RevA_21Apr2012
+Neosid_Inductor_SM1206_RevA_21Apr2012
+Neosid_Inductor_SMS-ME3010_RevA_21Apr2012
+Neosid_Inductor_SMS-ME3015_RevA_21Apr2012
+Neosid_Inductor_SMs42_RevA_21Apr2012
+Neosid_Inductor_SMs50_RevA_21Apr2012
+Neosid_Inductor_SMs85_RevA_21Apr2012
+Neosid_Inductor_SMs95_RevA_21Apr2012
+Neosid_Inductor_SMs95p_RevA_21Apr2012
+Neosid_Inductor_Sd12k-style1_RevA_21Apr2012
+Neosid_Inductor_Sd12k-style2_RevA_21Apr2012
+Neosid_Inductor_Sd12k-style3_RevA_21Apr2012
+Neosid_Inductor_Sd14_RevA_21Apr2012
+Neosid_Inductor_Sd75_RevA_21Apr2012
+Neosid_Inductor_Sd8_RevA_21Apr2012
+Neosid_MicroCoil_Inductor_Ms36-L_RevA_21Apr2012
+$EndINDEX
+$MODULE Neosid_Inductor_SM-NE45_SMD1812_RevA_21Apr2012
+Po 0 0 0 15 4F931770 00000000 ~~
+Li Neosid_Inductor_SM-NE45_SMD1812_RevA_21Apr2012
+Cd Neosid, SM-Ne45, (1812), SMD Chip Inductor, Festinduktivitaet,
+Kw Neosid, SM-Ne45, (1812), SMD Chip Inductor, Festinduktivitaet,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -1280 600 600 0 120 N V 21 N "L"
+T1 0 1476 600 600 0 120 N I 21 N "Neosid_Inductor_SM-NE45_SMD1812_RevA_21Apr2012"
+DS -394 630 394 630 150 21
+DS 0 -630 394 -630 150 21
+DS 0 -630 -394 -630 150 21
+$PAD
+Sh "1" R 591 1102 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 0
+$EndPAD
+$PAD
+Sh "2" R 591 1102 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 886 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-NE45_SMD1812_RevA_21Apr2012
+$MODULE Neosid_Inductor_Ms95_RevA_21Apr2012
+Po 0 0 0 15 4F931B1B 00000000 ~~
+Li Neosid_Inductor_Ms95_RevA_21Apr2012
+Cd Neosid,Inductor,Ms95, Ms95a, Ms95T, Festinduktivitaet, SMD,
+Kw Neosid,Inductor,Ms95, Ms95a, Ms95T, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -2835 600 600 0 120 N V 21 N "L"
+T1 79 2913 600 600 0 120 N I 21 N "Neosid_Inductor_Ms95_RevA_21Apr2012"
+DS 1850 1102 1102 1850 150 21
+DS 1102 1850 -1063 1850 150 21
+DS -1063 1850 -1850 1102 150 21
+DS 1850 -1102 1102 -1850 150 21
+DS 1102 -1850 -1102 -1850 150 21
+DS -1102 -1850 -1850 -1102 150 21
+$PAD
+Sh "1" R 1142 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2067 0
+$EndPAD
+$PAD
+Sh "2" R 1142 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2067 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Ms95_RevA_21Apr2012
+$MODULE Neosid_Inductor_Ms85_RevA_21Apr2012
+Po 0 0 0 15 4F931748 00000000 ~~
+Li Neosid_Inductor_Ms85_RevA_21Apr2012
+Cd Neosid, Ms85, Ms85T, SMD Inductor, Festinduktivitaet, SMD,
+Kw Neosid, Ms85, Ms85T, SMD Inductor, Festinduktivitaet, SMD,
+Sc 00000000
+AR L
+Op 0 0 0
+At SMD
+T0 0 -2264 600 600 0 120 N V 21 N "L"
+T1 0 2461 600 600 0 120 N I 21 N "Neosid_Inductor_Ms85_RevA_21Apr2012"
+DS -1673 1083 -1083 1083 150 21
+DS -1083 1083 -1083 1575 150 21
+DS -1083 1575 1083 1575 150 21
+DS 1083 1575 1083 1083 150 21
+DS 1083 1083 1673 1083 150 21
+DS 1673 -1083 1083 -1083 150 21
+DS 1083 -1083 1083 -1575 150 21
+DS 1083 -1575 -1083 -1575 150 21
+DS -1083 -1575 -1083 -1083 150 21
+DS -1083 -1083 -1673 -1083 150 21
+$PAD
+Sh "1" R 886 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2008 0
+$EndPAD
+$PAD
+Sh "2" R 886 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2008 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Ms85_RevA_21Apr2012
+$MODULE Neosid_Inductor_MA-Bs75_RevA_21Apr2012
+Po 0 0 0 15 4F965E04 00000000 ~~
+Li Neosid_Inductor_MA-Bs75_RevA_21Apr2012
+Cd Neosid, Inductor, Bs75, Festinduktivitaet, Through hole, magneticaly shielded,
+Kw Neosid, Inductor, Bs75, Festinduktivitaet, Through hole, magneticaly shielded,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1870 600 600 0 120 N V 21 N "L"
+T1 0 1969 600 600 0 120 N I 21 N "Neosid_Inductor_MA-Bs75_RevA_21Apr2012"
+DS 1673 -1181 -1673 -1181 150 21
+DS -1673 -1181 -1673 1181 150 21
+DS -1673 1181 1673 1181 150 21
+DS 1673 1181 1673 -1181 150 21
+$PAD
+Sh "1" C 709 709 0 0 1800
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$PAD
+Sh "2" C 709 709 0 0 1800
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_MA-Bs75_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-PIC0512H_RevA_21Apr2012
+Po 0 0 0 15 4F96613C 00000000 ~~
+Li Neosid_Inductor_SM-PIC0512H_RevA_21Apr2012
+Cd Neosid, Inductor, PIC0512H, Power Inductor, Festinduktivitaet, SMD,
+Kw Neosid, Inductor, PIC0512H, Power Inductor, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -1654 600 600 0 120 N V 21 N "L"
+T1 0 2008 600 600 0 120 N I 21 N "Neosid_Inductor_SM-PIC0512H_RevA_21Apr2012"
+DS 1220 709 1220 1063 150 21
+DS 1220 1063 -1220 1063 150 21
+DS -1220 1063 -1220 709 150 21
+DS 1220 -1063 1220 -709 150 21
+DS 1220 -1063 -1220 -1063 150 21
+DS -1220 -1063 -1220 -709 150 21
+$PAD
+Sh "1" R 787 984 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -984 0
+$EndPAD
+$PAD
+Sh "2" R 787 984 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 984 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-PIC0512H_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-PIC0602H_RevA_21Apr2012
+Po 0 0 0 15 4F96644A 00000000 ~~
+Li Neosid_Inductor_SM-PIC0602H_RevA_21Apr2012
+Cd Neosid, Power Inductor, SM-PIC0602H, Festinduktivitaet, SMD,
+Kw Neosid, Power Inductor, SM-PIC0602H, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -2126 600 600 0 120 N V 21 N "L"
+T1 0 2165 600 600 0 120 N I 21 N "Neosid_Inductor_SM-PIC0602H_RevA_21Apr2012"
+DS 1496 -945 1496 -1299 150 21
+DS -1496 945 -1496 1299 150 21
+DS -1496 1299 1496 1299 150 21
+DS 1496 1299 1496 945 150 21
+DS 1496 -1299 -1496 -1299 150 21
+DS -1496 -1299 -1496 -945 150 21
+$PAD
+Sh "1" R 925 1378 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1191 0
+$EndPAD
+$PAD
+Sh "2" R 925 1378 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1191 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-PIC0602H_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-PIC0612H_RevA_21Apr2012
+Po 0 0 0 15 4F966659 00000000 ~~
+Li Neosid_Inductor_SM-PIC0612H_RevA_21Apr2012
+Cd Neosid, Power Inductor, SM-PIC0612H, Festinduktivitaet, SMD,
+Kw Neosid, Power Inductor, SM-PIC0612H, Festinduktivitaet, SMD,
+Sc 00000000
+AR Neosid_Inductor_SM-PIC0602H_RevA_21Apr2012
+Op 0 0 0
+At SMD
+T0 0 -2126 600 600 0 120 N V 21 N "L"
+T1 0 2165 600 600 0 120 N I 21 N "Neosid_Inductor_SM-PIC0612H_RevA_21Apr2012"
+DS 1496 -945 1496 -1299 150 21
+DS -1496 945 -1496 1299 150 21
+DS -1496 1299 1496 1299 150 21
+DS 1496 1299 1496 945 150 21
+DS 1496 -1299 -1496 -1299 150 21
+DS -1496 -1299 -1496 -945 150 21
+$PAD
+Sh "1" R 925 1181 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1191 0
+$EndPAD
+$PAD
+Sh "2" R 925 1181 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1191 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-PIC0612H_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-PIC1004H_RevA_21Apr2012
+Po 0 0 0 15 4F96687C 00000000 ~~
+Li Neosid_Inductor_SM-PIC1004H_RevA_21Apr2012
+Cd Neosid, Inductor, SM-PIC1004H, Festinduktivitaet, SMD,
+Kw Neosid, Inductor, SM-PIC1004H, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -2717 600 600 0 120 N V 21 N "L"
+T1 0 2835 600 600 0 120 N I 21 N "Neosid_Inductor_SM-PIC1004H_RevA_21Apr2012"
+DS 2362 -1024 2362 -2028 150 21
+DS -2362 1024 -2362 2028 150 21
+DS -2362 2028 2362 2028 150 21
+DS 2362 2028 2362 1024 150 21
+DS 2362 -2028 -2362 -2028 150 21
+DS -2362 -2028 -2362 -1024 150 21
+$PAD
+Sh "1" R 1417 1614 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1870 0
+$EndPAD
+$PAD
+Sh "2" R 1417 1614 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1870 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-PIC1004H_RevA_21Apr2012
+$MODULE Neosid_Inductor_NE-CPB07E_RevA_21Apr2012
+Po 0 0 0 15 4F97E907 00000000 ~~
+Li Neosid_Inductor_NE-CPB07E_RevA_21Apr2012
+Cd Neosid, Power Inductor, NE-CPB07E, through hole, Festinduktivitaet,
+Kw Neosid, Power Inductor, NE-CPB07E, through hole, Festinduktivitaet,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -2264 600 600 0 120 N V 21 N "L"
+T1 -98 2362 600 600 0 120 N I 21 N "Neosid_Inductor_NE-CPB07E_RevA_21Apr2012"
+DS -1673 -1673 -1673 1673 150 21
+DS -1673 1673 1673 1673 150 21
+DS 1673 1673 1673 -1673 150 21
+DS 1673 -1673 -1673 -1673 150 21
+$PAD
+Sh "1" C 709 709 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$PAD
+Sh "2" C 709 709 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_NE-CPB07E_RevA_21Apr2012
+$MODULE Neosid_Inductor_Ms50_RevA_21Apr2012
+Po 0 0 0 15 4F97E92B 00000000 ~~
+Li Neosid_Inductor_Ms50_RevA_21Apr2012
+Cd Neosid, Power Inductor, Ms50, SMD, Festinduktivitaet,
+Kw Neosid, Power Inductor, Ms50, SMD, Festinduktivitaet,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -1417 600 600 0 120 N V 21 N "L"
+T1 0 1772 600 600 0 120 N I 21 N "Neosid_Inductor_Ms50_RevA_21Apr2012"
+DS -551 787 551 787 150 21
+DS 551 -787 -551 -787 150 21
+$PAD
+Sh "1" R 551 1102 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -945 0
+$EndPAD
+$PAD
+Sh "2" R 551 1102 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 945 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Ms50_RevA_21Apr2012
+$MODULE Neosid_Inductor_Ms42_RevA_21Apr2012
+Po 0 0 0 15 4F97E94D 00000000 ~~
+Li Neosid_Inductor_Ms42_RevA_21Apr2012
+Cd Neosid, Power Inductor, Ms42, SMD, Festinduktivitaet,
+Kw Neosid, Power Inductor, Ms42, SMD, Festinduktivitaet,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -1575 600 600 0 120 N V 21 N "L"
+T1 0 1575 600 600 0 120 N I 21 N "Neosid_Inductor_Ms42_RevA_21Apr2012"
+DS 787 787 -787 787 150 21
+DS 787 -787 -787 -787 150 21
+$PAD
+Sh "1" R 394 945 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -906 0
+$EndPAD
+$PAD
+Sh "2" R 394 945 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 906 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Ms42_RevA_21Apr2012
+$MODULE Neosid_Inductor_Ms50T_RevA_21Apr2012
+Po 0 0 0 15 4F97E967 00000000 ~~
+Li Neosid_Inductor_Ms50T_RevA_21Apr2012
+Cd Neosid, Power Inductor, Ms50T, SMD, Festinduktivitaet,  high temperature,
+Kw Neosid, Power Inductor, Ms50T, SMD, Festinduktivitaet, high temperature,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -1417 600 600 0 120 N V 21 N "L"
+T1 0 1772 600 600 0 120 N I 21 N "Neosid_Inductor_Ms50T_RevA_21Apr2012"
+DS -551 787 551 787 150 21
+DS 551 -787 -551 -787 150 21
+$PAD
+Sh "1" R 551 1102 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -945 0
+$EndPAD
+$PAD
+Sh "2" R 551 1102 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 945 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Ms50T_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-NE150_RevA_21Apr2012
+Po 0 0 0 15 4F97E9BB 00000000 ~~
+Li Neosid_Inductor_SM-NE150_RevA_21Apr2012
+Cd Neosid, Inductor, SM-NE150, Festinduktivitaet, SMD,
+Kw Neosid, Inductor, SM-NE150, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 -20 -3524 600 600 0 120 N V 21 N "L"
+T1 -39 3957 600 600 0 120 N I 21 N "Neosid_Inductor_SM-NE150_RevA_21Apr2012"
+DS -2343 -846 -2205 -1181 150 21
+DS -2205 -1181 -2008 -1476 150 21
+DS -2008 -1476 -1772 -1772 150 21
+DS -1772 -1772 -1417 -2067 150 21
+DS -1417 -2067 -1083 -2264 150 21
+DS -1083 -2264 -630 -2402 150 21
+DS -630 -2402 -217 -2480 150 21
+DS -217 -2480 177 -2500 150 21
+DS 177 -2500 610 -2402 150 21
+DS 610 -2402 1142 -2205 150 21
+DS 1142 -2205 1713 -1811 150 21
+DS 1713 -1811 2067 -1417 150 21
+DS 2067 -1417 2382 -807 150 21
+DS 2382 807 2205 1161 150 21
+DS 2205 1161 2028 1476 150 21
+DS 2028 1476 1791 1772 150 21
+DS 1791 1772 1437 2047 150 21
+DS 1437 2047 1083 2264 150 21
+DS 1083 2264 571 2421 150 21
+DS 571 2421 0 2500 150 21
+DS 0 2500 -531 2441 150 21
+DS -531 2441 -1102 2244 150 21
+DS -1102 2244 -1654 1890 150 21
+DS -1654 1890 -2126 1378 150 21
+DS -2126 1378 -2382 807 150 21
+DS 3425 709 1575 3012 150 21
+DS 1575 3012 -1575 3012 150 21
+DS -1575 3012 -3425 709 150 21
+DS 3425 -709 1575 -3012 150 21
+DS 1575 -3012 -1575 -3012 150 21
+DS -1575 -3012 -3425 -709 150 21
+$PAD
+Sh "2" T 1004 1083 79 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3002 0
+$EndPAD
+$PAD
+Sh "1" T 1004 1083 79 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3002 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-NE150_RevA_21Apr2012
+$MODULE Neosid_Inductor_SMS-ME3010_RevA_21Apr2012
+Po 0 0 0 15 4F97E9F6 00000000 ~~
+Li Neosid_Inductor_SMS-ME3010_RevA_21Apr2012
+Cd Neosid, Inductor, SMS-ME3010, Festinduktivitaet, SMD, magnetically shielded,
+Kw Neosid, Inductor, SMS-ME3010, Festinduktivitaet, SMD, magnetically shielded,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 79 -1260 600 600 0 120 N V 21 N "L"
+T1 -138 1437 600 600 0 120 N I 21 N "Neosid_Inductor_SMS-ME3010_RevA_21Apr2012"
+DS 591 709 -591 709 150 21
+DS 591 -709 -591 -709 150 21
+$PAD
+Sh "1" R 394 1063 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -433 0
+$EndPAD
+$PAD
+Sh "2" R 394 1063 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 433 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SMS-ME3010_RevA_21Apr2012
+$MODULE Neosid_Inductor_SMS-ME3015_RevA_21Apr2012
+Po 0 0 0 15 4F97EA1D 00000000 ~~
+Li Neosid_Inductor_SMS-ME3015_RevA_21Apr2012
+Cd Neosid, Power Inductor, SMS-ME3015, Festinduktivitaet, SMD, magnetically shielded,
+Kw Neosid, Power Inductor, SMS-ME3015, Festinduktivitaet, SMD, magnetically shielded,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 79 -1260 600 600 0 120 N V 21 N "L"
+T1 -138 1437 600 600 0 120 N I 21 N "Neosid_Inductor_SMS-ME3015_RevA_21Apr2012"
+DS 591 709 -591 709 150 21
+DS 591 -709 -591 -709 150 21
+$PAD
+Sh "1" R 394 1063 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -433 0
+$EndPAD
+$PAD
+Sh "2" R 394 1063 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 433 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SMS-ME3015_RevA_21Apr2012
+$MODULE Neosid_Inductor_SMs42_RevA_21Apr2012
+Po 0 0 0 15 4F97EA37 00000000 ~~
+Li Neosid_Inductor_SMs42_RevA_21Apr2012
+Cd Neosid, Inductor, SMs42, Festinduktivitaet, SMD, magneticaly shielded,
+Kw Neosid, Inductor, SMs42, Festinduktivitaet, SMD, magneticaly shielded,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -1575 600 600 0 120 N V 21 N "L"
+T1 0 1772 600 600 0 120 N I 21 N "Neosid_Inductor_SMs42_RevA_21Apr2012"
+DS 1102 984 -1102 984 150 21
+DS -1102 984 -1102 709 150 21
+DS 1102 709 1102 984 150 21
+DS 1102 -984 1102 -748 150 21
+DS 1102 -748 1102 -709 150 21
+DS 1102 -984 -1102 -984 150 21
+DS -1102 -984 -1102 -709 150 21
+DS -1102 -709 -1102 -787 150 21
+DS -1102 -787 -1102 -709 150 21
+$PAD
+Sh "1" R 394 945 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -906 0
+$EndPAD
+$PAD
+Sh "2" R 394 945 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 906 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SMs42_RevA_21Apr2012
+$MODULE Neosid_Inductor_SMs50_RevA_21Apr2012
+Po 0 0 0 15 4F97EA51 00000000 ~~
+Li Neosid_Inductor_SMs50_RevA_21Apr2012
+Cd Neosid, Inductor, SMs50, Festinduktivitaet, SMD, magneticaly shielded,
+Kw Neosid, Inductor, SMs50, Festinduktivitaet, SMD, magneticaly shielded,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -1693 600 600 0 120 N V 21 N "L"
+T1 0 1772 600 600 0 120 N I 21 N "Neosid_Inductor_SMs50_RevA_21Apr2012"
+DS 984 -1201 984 -787 150 21
+DS -984 1201 984 1201 150 21
+DS 984 1201 984 787 150 21
+DS -984 787 -984 1201 150 21
+DS 984 -1201 -984 -1201 150 21
+DS -984 -1201 -984 -787 150 21
+DS -984 -787 -984 -807 150 21
+$PAD
+Sh "1" R 551 945 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -669 0
+$EndPAD
+$PAD
+Sh "2" R 551 945 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 669 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SMs50_RevA_21Apr2012
+$MODULE Neosid_Inductor_SMs95p_RevA_21Apr2012
+Po 0 0 0 15 4F97EA81 00000000 ~~
+Li Neosid_Inductor_SMs95p_RevA_21Apr2012
+Cd Neosid, Inductor, SMs95p, Festinduktivitaet, SMD, magnetically shielded,
+Kw Neosid, Inductor, SMs95p, Festinduktivitaet, SMD, magnetically shielded,
+Sc 00000000
+AR
+Op 0 0 0
+.SolderPasteRatio 3.5468e-315
+At SMD
+T0 0 -2953 600 600 0 120 N V 21 N "L"
+T1 20 2913 600 600 0 120 N I 21 N "Neosid_Inductor_SMs95p_RevA_21Apr2012"
+DS 2953 -1181 1575 -2362 150 21
+DS 1575 -2362 -1575 -2362 150 21
+DS -1575 -2362 -2953 -1181 150 21
+DS -2953 -1181 -2953 1181 150 21
+DS -2953 1181 -1575 2362 150 21
+DS -1575 2362 1575 2362 150 21
+DS 1575 2362 2953 1181 150 21
+DS 2953 1181 2953 -984 150 21
+DS 2953 -984 2953 -1181 150 21
+$PAD
+Sh "1" R 1142 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2067 0
+$EndPAD
+$PAD
+Sh "2" R 1142 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2067 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SMs95p_RevA_21Apr2012
+$MODULE Neosid_Inductor_SMs95_RevA_21Apr2012
+Po 0 0 0 15 4F97EA9D 00000000 ~~
+Li Neosid_Inductor_SMs95_RevA_21Apr2012
+Cd Neosid, Inductor, SMs95, Festinduktivitaet, SMD, magnetically shielded,
+Kw Neosid, Inductor, SMs95, Festinduktivitaet, SMD, magnetically shielded,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -2953 600 600 0 120 N V 21 N "L"
+T1 20 2913 600 600 0 120 N I 21 N "Neosid_Inductor_SMs95_RevA_21Apr2012"
+DS 2953 -1181 1575 -2362 150 21
+DS 1575 -2362 -1575 -2362 150 21
+DS -1575 -2362 -2953 -1181 150 21
+DS -2953 -1181 -2953 1181 150 21
+DS -2953 1181 -1575 2362 150 21
+DS -1575 2362 1575 2362 150 21
+DS 1575 2362 2953 1181 150 21
+DS 2953 1181 2953 -984 150 21
+DS 2953 -984 2953 -1181 150 21
+$PAD
+Sh "1" R 1142 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2067 0
+$EndPAD
+$PAD
+Sh "2" R 1142 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2067 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SMs95_RevA_21Apr2012
+$MODULE Neosid_MicroCoil_Inductor_Ms36-L_RevA_21Apr2012
+Po 0 0 0 15 4F97EAC0 00000000 ~~
+Li Neosid_MicroCoil_Inductor_Ms36-L_RevA_21Apr2012
+Cd Neosid, Micro Coil, Inductor, Ms36-L, SMD, Festinduktivitaet, anti clockwise,
+Kw Neosid, Micro Coil, Inductor, Ms36-L, SMD, Festinduktivitaet, anti clockwise,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 59 -1575 600 600 0 120 N V 21 N "L"
+T1 -39 1575 600 600 0 120 N I 21 N "Neosid_MicroCoil_Inductor_Ms36-L_RevA_21Apr2012"
+DS 1575 787 -1575 787 150 21
+DS 1575 -787 -1575 -787 150 21
+$PAD
+Sh "1" R 1181 1181 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1575 0
+$EndPAD
+$PAD
+Sh "2" R 1181 1181 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 0
+$EndPAD
+$EndMODULE  Neosid_MicroCoil_Inductor_Ms36-L_RevA_21Apr2012
+$MODULE Neosid_Inductor_NE-CBP11E-N_RevA_21Apr2012
+Po 0 0 0 15 4F97EB9E 00000000 ~~
+Li Neosid_Inductor_NE-CBP11E-N_RevA_21Apr2012
+Cd Neosid, Inductor, NE-CBP11E-N, Festinduktivitaet, Through hole,
+Kw Neosid, Inductor, NE-CBP11E-N, Festinduktivitaet, Through hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -2756 600 600 0 120 N V 21 N "L"
+T1 197 3346 600 600 0 120 N I 21 N "Neosid_Inductor_NE-CBP11E-N_RevA_21Apr2012"
+DS -2165 -2165 2165 -2165 150 21
+DS 2165 -2165 2165 2165 150 21
+DS 2165 2165 -2165 2165 150 21
+DS -2165 2165 -2165 -2165 150 21
+$PAD
+Sh "2" C 787 787 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1181 -1181
+$EndPAD
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1181 1181
+$EndPAD
+$EndMODULE  Neosid_Inductor_NE-CBP11E-N_RevA_21Apr2012
+$MODULE Neosid_Inductor_Sd12k-style3_RevA_21Apr2012
+Po 0 0 0 15 4F97EEB6 00000000 ~~
+Li Neosid_Inductor_Sd12k-style3_RevA_21Apr2012
+Cd Neosid, Inductor, Sd12k-style3, Festinduktivitaet, Through hole,
+Kw Neosid, Inductor, Sd12k-style3, Festinduktivitaet, Through hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -2756 600 600 0 120 N V 21 N "L"
+T1 197 3346 600 600 0 120 N I 21 N "Neosid_Inductor_Sd12k-style3_RevA_21Apr201"
+DC 0 0 2067 0 150 21
+$PAD
+Sh "2" C 984 984 0 0 0
+Dr 551 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$PAD
+Sh "1" C 984 984 0 0 0
+Dr 551 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Sd12k-style3_RevA_21Apr2012
+$MODULE Neosid_Inductor_Sd12k-style2_RevA_21Apr2012
+Po 0 0 0 15 4F97EE38 00000000 ~~
+Li Neosid_Inductor_Sd12k-style2_RevA_21Apr2012
+Cd Neosid, Inductor, Sd12k-style2, Festinduktivitaet, Through hole,
+Kw Neosid, Inductor, Sd12k-style2, Festinduktivitaet, Through hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -2756 600 600 0 120 N V 21 N "L"
+T1 197 3346 600 600 0 120 N I 21 N "Neosid_Inductor_Sd12k-style2_RevA_21Apr201"
+DC 0 0 2362 0 150 21
+$PAD
+Sh "2" C 984 984 0 0 0
+Dr 551 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$PAD
+Sh "1" C 984 984 0 0 0
+Dr 551 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Sd12k-style2_RevA_21Apr2012
+$MODULE Neosid_Inductor_Sd12k-style1_RevA_21Apr2012
+Po 0 0 0 15 4F97EDAC 00000000 ~~
+Li Neosid_Inductor_Sd12k-style1_RevA_21Apr2012
+Cd Neosid, Inductor, Sd12k-style1, Festinduktivitaet, Through hole,
+Kw Neosid, Inductor, Sd12k-style1, Festinduktivitaet, Through hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -2756 600 600 0 120 N V 21 N "L"
+T1 197 3346 600 600 0 120 N I 21 N "Neosid_Inductor_Sd12k-style1_RevA_21Apr201"
+DS -2244 827 -2283 630 150 21
+DS -2283 -630 -2165 -945 150 21
+DS -2165 -945 -1890 -1457 150 21
+DS -1890 -1457 -1535 -1811 150 21
+DS -1535 -1811 -1063 -2126 150 21
+DS -1063 -2126 -433 -2323 150 21
+DS -433 -2323 197 -2362 150 21
+DS 197 -2362 984 -2165 150 21
+DS 984 -2165 1693 -1654 150 21
+DS 1693 -1654 2165 -984 150 21
+DS 2165 -984 2283 -630 150 21
+DS 2283 669 2087 1142 150 21
+DS 2087 1142 1772 1575 150 21
+DS 1772 1575 1339 1969 150 21
+DS 1339 1969 748 2244 150 21
+DS 748 2244 -39 2362 150 21
+DS -39 2362 -787 2244 150 21
+DS -787 2244 -1378 1890 150 21
+DS -1378 1890 -1929 1339 150 21
+DS -1929 1339 -2244 827 150 21
+$PAD
+Sh "2" C 984 984 0 0 0
+Dr 551 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 0
+$EndPAD
+$PAD
+Sh "1" C 984 984 0 0 0
+Dr 551 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Sd12k-style1_RevA_21Apr2012
+$MODULE Neosid_Inductor_Sd75_RevA_21Apr2012
+Po 0 0 0 15 4F97F273 00000000 ~~
+Li Neosid_Inductor_Sd75_RevA_21Apr2012
+Cd Neosid, Inductor, Sd75, Festinduktivitaet, Through hole,
+Kw Neosid, Inductor, Sd75, Festinduktivitaet, Through hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 20 -1693 600 600 0 120 N V 21 N "L"
+T1 59 1594 600 600 0 120 N I 21 N "Neosid_Inductor_Sd75_RevA_21Apr201"
+DS -1476 394 -1476 906 150 21
+DS 1476 394 1476 906 150 21
+DS 1476 906 -1476 906 150 21
+DS 1476 -906 1476 -394 150 21
+DS 1476 -906 -1476 -906 150 21
+DS -1476 -906 -1476 -394 150 21
+$PAD
+Sh "2" C 748 748 0 0 0
+Dr 354 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$PAD
+Sh "1" C 748 748 0 0 0
+Dr 354 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Sd75_RevA_21Apr2012
+$MODULE Neosid_Inductor_Sd14_RevA_21Apr2012
+Po 0 0 0 15 4F97F343 00000000 ~~
+Li Neosid_Inductor_Sd14_RevA_21Apr2012
+Cd Neosid, Inductor, Sd14, Festinduktivitaet, Through hole,
+Kw Neosid, Inductor, Sd14, Festinduktivitaet, Through hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 39 -3465 600 600 0 120 N V 21 N "L"
+T1 -39 3465 600 600 0 120 N I 21 N "Neosid_Inductor_Sd14_RevA_21Apr201"
+DC 0 0 2795 0 150 21
+$PAD
+Sh "2" C 984 984 0 0 0
+Dr 551 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 0
+$EndPAD
+$PAD
+Sh "1" C 984 984 0 0 0
+Dr 551 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Sd14_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM0603CG_RevA_21Apr2012
+Po 0 0 0 15 4F97F448 00000000 ~~
+Li Neosid_Inductor_SM0603CG_RevA_21Apr2012
+Cd Neosid, Inductor, SM0603CG, Festinduktivitaet, SMD,
+Kw Neosid, Inductor, SM0603CG, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 39 -906 600 600 0 120 N V 21 N "L"
+T1 -79 1063 600 600 0 120 N I 21 N "Neosid_Inductor_SM0603CG_RevA_21Apr201"
+$PAD
+Sh "2" R 236 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 276 0
+$EndPAD
+$PAD
+Sh "1" R 236 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -276 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM0603CG_RevA_21Apr2012
+$MODULE Neosid_Inductor_Sd8_RevA_21Apr2012
+Po 0 0 0 15 4F97F591 00000000 ~~
+Li Neosid_Inductor_Sd8_RevA_21Apr2012
+Cd Neosid, Inductor, Sd8, Festinduktivitaet, Through hole,
+Kw Neosid, Inductor, Sd8, Festinduktivitaet, Through hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 39 -2165 600 600 0 120 N V 21 N "L"
+T1 79 2205 600 600 0 120 N I 21 N "Neosid_Inductor_Sd8_RevA_21Apr201"
+DC 0 0 1575 0 150 21
+$PAD
+Sh "2" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_Sd8_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-NE56_SMD2220_RevA_21Apr2012
+Po 0 0 0 15 4F97FF55 00000000 ~~
+Li Neosid_Inductor_SM-NE56_SMD2220_RevA_21Apr2012
+Cd Neosid, Inductor, SM-NE56, SMD2220, Festinduktivitaet, SMD,
+Kw Neosid, Inductor, SM-NE56, SMD2220, Festinduktivitaet, SMD,
+Sc 00000000
+AR Neosid_Inductor_SM-NE45_RevA_21Apr2012
+Op 0 0 0
+At SMD
+T0 39 -1516 600 600 0 120 N V 21 N "L"
+T1 0 1654 600 600 0 120 N I 21 N "Neosid_Inductor_SM-NE56_SMD2220_RevA_21Apr201"
+DS 551 984 -551 984 150 21
+DS 551 -984 -551 -984 150 21
+$PAD
+Sh "2" R 787 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 0
+$EndPAD
+$PAD
+Sh "1" R 787 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1181 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-NE56_SMD2220_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-NE29_SMD1008_RevA_21Apr2012
+Po 0 0 0 15 4F97FAFB 00000000 ~~
+Li Neosid_Inductor_SM-NE29_SMD1008_RevA_21Apr2012
+Cd Neosid, Inductor, SM-NE29, SMD1008, Festinduktivitaet, SMD,
+Kw Neosid, Inductor, SM-NE29, SMD1008, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 -79 -1260 600 600 0 120 N V 21 N "L"
+T1 0 1260 600 600 0 120 N I 21 N "Neosid_Inductor_SM-NE29_SMD1008_RevA_21Apr201"
+$PAD
+Sh "2" R 402 1000 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 451 0
+$EndPAD
+$PAD
+Sh "1" R 402 1000 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -451 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-NE29_SMD1008_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-NE30_SMD1210_RevA_21Apr2012
+Po 0 0 0 15 4F97FC33 00000000 ~~
+Li Neosid_Inductor_SM-NE30_SMD1210_RevA_21Apr2012
+Cd Neosid, Inductor, SM-NE30, SMD1210, Festinduktivitaet, SMD,
+Kw Neosid, Inductor, SM-NE30, SMD1210, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 -79 -1260 600 600 0 120 N V 21 N "L"
+T1 0 1260 600 600 0 120 N I 21 N "Neosid_Inductor_SM-NE30_SMD1210_RevA_21Apr201"
+DS 197 512 -197 512 150 21
+DS 197 -512 -197 -512 150 21
+$PAD
+Sh "2" R 394 748 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 630 0
+$EndPAD
+$PAD
+Sh "1" R 394 748 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -630 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-NE30_SMD1210_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-NE95H_RevA_21Apr2012
+Po 0 0 0 15 4F93243F 00000000 ~~
+Li Neosid_Inductor_SM-NE95H_RevA_21Apr2012
+Cd Neosid, Inductor,SM-NE95H, Festinduktivitaet, SMD,
+Kw Neosid, Inductor,SM-NE95H, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -2480 600 600 0 120 N V 21 N "L"
+T1 20 2559 600 600 0 120 N I 21 N "Neosid_Inductor_SM-NE95H_RevA_21Apr2012"
+DS -1457 -748 -1378 -925 150 21
+DS -1378 -925 -1240 -1102 150 21
+DS -1240 -1102 -1024 -1299 150 21
+DS -1024 -1299 -728 -1476 150 21
+DS -728 -1476 -394 -1594 150 21
+DS -394 -1594 0 -1654 150 21
+DS 0 -1654 315 -1634 150 21
+DS 315 -1634 669 -1516 150 21
+DS 669 -1516 1083 -1280 150 21
+DS 1083 -1280 1358 -965 150 21
+DS 1358 -965 1476 -768 150 21
+DS 1496 748 1358 945 150 21
+DS 1358 945 1161 1201 150 21
+DS 1161 1201 906 1378 150 21
+DS 906 1378 571 1555 150 21
+DS 571 1555 256 1634 150 21
+DS 256 1634 -138 1654 150 21
+DS -138 1654 -551 1555 150 21
+DS -551 1555 -1004 1339 150 21
+DS -1004 1339 -1280 1083 150 21
+DS -1280 1083 -1457 768 150 21
+DS -1457 768 -1476 728 150 21
+DS 2677 787 787 1850 150 21
+DS 787 1850 -787 1850 150 21
+DS -787 1850 -2677 787 150 21
+DS 2677 -787 787 -1850 150 21
+DS 787 -1850 -787 -1850 150 21
+DS -787 -1850 -2677 -787 150 21
+$PAD
+Sh "1" R 1142 1102 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2028 0
+$EndPAD
+$PAD
+Sh "2" R 1142 1102 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2028 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-NE95H_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM-NE127_RevA_21Apr2012
+Po 0 0 0 15 4F97F98F 00000000 ~~
+Li Neosid_Inductor_SM-NE127_RevA_21Apr2012
+Cd Neosid, Inductor, SM-NE127, Festinduktivitaet, SMD,
+Kw Neosid, Inductor, SM-NE127, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -2992 600 600 0 120 N V 21 N "L"
+T1 0 3268 600 600 0 120 N I 21 N "Neosid_Inductor_SM-NE127_RevA_21Apr201"
+DS -1850 1299 -1614 1575 150 21
+DS -1614 1575 -1102 1969 150 21
+DS -1102 1969 -512 2205 150 21
+DS -512 2205 315 2244 150 21
+DS 315 2244 1024 2008 150 21
+DS 1024 2008 1535 1654 150 21
+DS 1535 1654 1850 1260 150 21
+DS 1811 -1299 1654 -1496 150 21
+DS 1654 -1496 1260 -1850 150 21
+DS 1260 -1850 748 -2126 150 21
+DS 748 -2126 79 -2244 150 21
+DS 79 -2244 -472 -2205 150 21
+DS -472 -2205 -984 -2008 150 21
+DS -984 -2008 -1417 -1732 150 21
+DS -1417 -1732 -1850 -1299 150 21
+DS 2441 -1260 2441 -2441 150 21
+DS -2441 1260 -2441 2441 150 21
+DS -2441 2441 2441 2441 150 21
+DS 2441 2441 2441 1260 150 21
+DS 2441 -2441 -2441 -2441 150 21
+DS -2441 -2441 -2441 -1260 150 21
+$PAD
+Sh "2" R 1142 2126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1949 0
+$EndPAD
+$PAD
+Sh "1" R 1142 2126 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1949 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM-NE127_RevA_21Apr2012
+$MODULE Neosid_Inductor_SM1206_RevA_21Apr2012
+Po 0 0 0 15 4F97F786 00000000 ~~
+Li Neosid_Inductor_SM1206_RevA_21Apr2012
+Cd Neosid, Inductor, SM1206, Festinduktivitaet, SMD,
+Kw Neosid, Inductor, SM1206, Festinduktivitaet, SMD,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -1102 600 600 0 120 N V 21 N "L"
+T1 79 1654 600 600 0 120 N I 21 N "Neosid_Inductor_SM1206_RevA_21Apr201"
+DS 866 472 -866 472 150 21
+DS 866 -472 -827 -472 150 21
+$PAD
+Sh "2" R 453 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 640 0
+$EndPAD
+$PAD
+Sh "1" R 453 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SM1206_RevA_21Apr2012
+$MODULE Neosid_Inductor_SMs85_RevA_21Apr2012
+Po 0 0 0 15 4F97EA6A 00000000 ~~
+Li Neosid_Inductor_SMs85_RevA_21Apr2012
+Cd Neosid, Inductor, SMs85, Festinduktivitaet, SMD, magnetically shielded,
+Kw Neosid, Inductor, SMs85, Festinduktivitaet, SMD, magnetically shielded,
+Sc 00000000
+AR 
+Op 0 0 0
+At SMD 
+T0 138 -2697 600 600 0 120 N V 21 N "L"
+T1 20 2913 600 600 0 120 N I 21 N "Neosid_Inductor_SMs85_RevA_21Apr2012"
+DS 1319 1181 1319 2106 150 21
+DS 1319 2106 -1319 2106 150 21
+DS -1319 2106 -1319 1181 150 21
+DS 1319 -2106 1319 -1181 150 21
+DS 1319 -2106 -1319 -2106 150 21
+DS -1319 -2106 -1319 -1181 150 21
+$PAD
+Sh "1" R 886 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1329 0
+$EndPAD
+$PAD
+Sh "2" R 886 1772 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1329 0
+$EndPAD
+$EndMODULE  Neosid_Inductor_SMs85_RevA_21Apr2012
+$EndLIBRARY
