@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2012-05-06 10:16:52
+EESchema-DOCLIB  Version 2.0  Date: 2012-05-20 12:52:01
 #
 $CMP BC237
 F transistors/bipolar/bc237.pdf
@@ -68,6 +68,12 @@ K BC560 PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BC557.pdf
 $ENDCMP
 #
+$CMP BC636
+D BC636, 45V Vce, 1A Ic, PNP Medium Power Transistor, TO-92
+K BC636 PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC636.pdf
+$ENDCMP
+#
 $CMP BC817-40
 D BC817-40, 45V Vce, 0.8A Ic, NPN, SOT-23
 K BC817 BC337 Equivalent
@@ -108,6 +114,30 @@ $CMP BC858
 D BC858, 30V Vce, 0.1A Ic, PNP, SOT-23
 K BC858 BC558 Equivalent
 F http://www.fairchildsemi.com/ds/BC/BC856.pdf
+$ENDCMP
+#
+$CMP BCP51
+D BCP51, 45V Vce, 1A Ic, PNP Medium Power Transistor, SOT-223
+K BCP51 PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BCP51.pdf
+$ENDCMP
+#
+$CMP BCX51
+D BCX51, 45V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89
+K BCX51 PNP Transistor
+F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
+$ENDCMP
+#
+$CMP BCX52
+D BCX52, 60V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89
+K BCX52 PNP Transistor
+F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
+$ENDCMP
+#
+$CMP BCX53
+D BCX53, 80V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89
+K BCX53 PNP Transistor
+F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
 $ENDCMP
 #
 $CMP BD135
@@ -640,10 +670,28 @@ K HEXFET N-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
 $ENDCMP
 #
+$CMP IRF7309IPBF
+D IRF7309IPBF, 30V Vds, 3A Id, Dual HEXFET MOSFET, SO8
+K Dual HEXFET N-Channel P-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf
+$ENDCMP
+#
+$CMP IRF7343PBF
+D IRF7343PBF, 55V Vds, 4A Id, Dual HEXFET MOSFET, SO8
+K Dual HEXFET N-Channel P-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
+$ENDCMP
+#
 $CMP IRF9540N
 D IRF9540N, -100V Vds, -23A Id, HEXFET P-Channel MOSFET, TO220
 K HEXFET P-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf9540n.pdf
+$ENDCMP
+#
+$CMP IRG4PF50W
+D IRG4PF50W, 28A, 900V, N-Channel IGBT
+K N-Channel IGBT Power Transistor
+F http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf
 $ENDCMP
 #
 $CMP MAT02
@@ -660,6 +708,54 @@ $ENDCMP
 #
 $CMP MPSA92
 F transistors/bipolar/mpsa92.pdf
+$ENDCMP
+#
+$CMP PN2222A
+D PN2222A, 40V Vce, 1A Ic, NPN, General Purpose Transistor,TO-92
+K NPN General Puprose Transistor TO92
+F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
+$ENDCMP
+#
+$CMP PZT2222A
+D PZT2222A, 40V Vce, 1A Ic, NPN, General Purpose Transistor, SOT223
+K NPN General Puprose Transistor SMD SOT223
+F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
+$ENDCMP
+#
+$CMP TIP120
+D TIP120, 5A Ic, 60V Vce, Silicon Darlington Power Transistor NPN
+K Darlington Power Transistor NPN
+F http://www.fairchildsemi.com/ds/TI/TIP120.pdf
+$ENDCMP
+#
+$CMP TIP121
+D TIP121, 5A Ic, 80V Vce, Silicon Darlington Power Transistor NPN
+K Darlington Power Transistor NPN
+F http://www.fairchildsemi.com/ds/TI/TIP120.pdf
+$ENDCMP
+#
+$CMP TIP122
+D TIP122, 5A Ic, 100V Vce, Silicon Darlington Power Transistor NPN
+K Darlington Power Transistor NPN
+F http://www.fairchildsemi.com/ds/TI/TIP120.pdf
+$ENDCMP
+#
+$CMP TIP125
+D TIP125, 5A Ic, 60V Vce, Silicon Darlington Power Transistor PNP
+K Darlington Power Transistor PNP
+F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
+$ENDCMP
+#
+$CMP TIP126
+D TIP126, 5A Ic, 80V Vce, Silicon Darlington Power Transistor PNP
+K Darlington Power Transistor PNP
+F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
+$ENDCMP
+#
+$CMP TIP127
+D TIP127, 5A Ic, 100V Vce, Silicon Darlington Power Transistor PNP
+K Darlington Power Transistor PNP
+F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
 $ENDCMP
 #
 #End Doc Library
