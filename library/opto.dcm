@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2012-06-17 10:45:33
+EESchema-DOCLIB  Version 2.0  Date: 2012-07-08 16:21:22
 #
 $CMP 4N25
 D 4N25, DIP6, DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V
@@ -20,6 +20,30 @@ $CMP 6N136
 D 6N136, DIP8, High Speed Optocoupler, TTL Compatible, CTR 24%
 K High Speed Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf
+$ENDCMP
+#
+$CMP CNY17-1
+D CNY17-1, DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 40-80%, Viso 5000V (RMS)
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CNY17-2
+D CNY17-2, DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 63-125%, Viso 5000V (RMS)
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CNY17-3
+D CNY17-3, DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS)
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CNY17-4
+D CNY17-4, DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS)
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
 $ENDCMP
 #
 $CMP LTV-352T
@@ -190,6 +214,18 @@ K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
 $ENDCMP
 #
+$CMP PC3H4
+D PC3H4, SOP4, AC/DC Optocoupler, Vce 70V, CTR 100-250%
+K NPN AC DC Optocoupler
+F http://www.sharpsme.com/download/pc3h4-epdf
+$ENDCMP
+#
+$CMP PC3H4A
+D PC3H4A, SOP4, AC/DC Optocoupler, Vce 70V, CTR 100-250%
+K NPN AC DC Optocoupler
+F http://www.sharpsma.com/webfm_send/395
+$ENDCMP
+#
 $CMP PC817
 D PC817, DIP4, DC Optocoupler, Vce 35V, CTR 50-300%
 K NPN DC Optocoupler
@@ -236,6 +272,12 @@ $CMP TLP137
 D TLP137, MFSOP6, DC Optocoupler Base Connected, Vce 80V, CTR 100-200%
 K NPN DC Optocoupler Base Connected
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP137_en_datasheet_071001.pdf
+$ENDCMP
+#
+$CMP TLP141G
+D TLP141G, MFSOP6, DC Optocoupler Thyristor Based, Vdrm 400V, It 150mA, Viso 2500V
+K OptoThyristor DC Optocoupler
+F http://www.toshiba.com/taec/components2/Datasheet_Sync/209/4314.pdf
 $ENDCMP
 #
 $CMP TLP175A
