@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Fri 12 Nov 2010 01:09:32 PM ICT
+EESchema-DOCLIB  Version 2.0  Date: 2012-07-13 19:15:47
 #
 $CMP 2130
 D biPort RAM (1Ko)
@@ -111,14 +111,180 @@ D Flash EEProm 512PP (TSOP 32) 3,3V
 K EEPROM FLASH 512KO
 $ENDCMP
 #
+$CMP 6116
+D Static RAM 2KB
+K SRAM Static RAM Random Access Memory
+$ENDCMP
+#
 $CMP 628128
 D RAM 128 Ko
 K RAM 128KO
 $ENDCMP
 #
+$CMP AM29PDL128G
+D 128 Megabit (8 M x 16-Bit/4 M x 32-Bit), Simultaneous Operation Flash Memory with VersatileIO™ Control
+$ENDCMP
+#
+$CMP AT45DB161-JC
+D AT45DB161-JC, 16Mb Serial DataFlash, PLCC32, Vcc=2.7V
+K Atmel DataFlash
+F http://www.atmel.com/Images/doc0807.pdf
+$ENDCMP
+#
+$CMP AT45DB161-RC
+D AT45DB161-RC, 16Mb Serial DataFlash, SOIC28, Vcc=2.7V
+K Atmel DataFlash
+F http://www.atmel.com/Images/doc0807.pdf
+$ENDCMP
+#
+$CMP AT45DB161-TC
+D AT45DB161-TC, 16Mb Serial DataFlash, TSSOP28, Vcc=2.7V
+K Atmel DataFlash
+F http://www.atmel.com/Images/doc0807.pdf
+$ENDCMP
+#
+$CMP AT45DB161B-RC
+D AT45DB161B-RC, 16Mb Serial DataFlash, SOIC28, Vcc=2.7V
+K Atmel DataFlash
+F http://www.atmel.com/Images/doc2224.pdf
+$ENDCMP
+#
+$CMP AT45DB161B-RC-2.5
+D AT45DB161B-RC-2.5, 16Mb Serial DataFlash, SOIC28, Vcc=2.5V
+K Atmel DataFlash
+F http://www.atmel.com/Images/doc2224.pdf
+$ENDCMP
+#
+$CMP AT45DB161B-TC
+D AT45DB161B-TC, 16Mb Serial DataFlash, TSSOP28, Vcc=2.7V
+K Atmel DataFlash
+F http://www.atmel.com/Images/doc2224.pdf
+$ENDCMP
+#
+$CMP AT45DB161B-TC-2.5
+D AT45DB161B-TC-2.5, 16Mb Serial DataFlash, TSSOP28, Vcc=2.5V
+K Atmel DataFlash
+F http://www.atmel.com/Images/doc2224.pdf
+$ENDCMP
+#
 $CMP DRAM_1MX16_SOJ
 D DRAM 16 MBits (1M x 16bits)
 K DRAM 2MO
+$ENDCMP
+#
+$CMP FM1608B-SG
+D FM1608B-SG, FRAM Nonvolatile Memory 8Kx8 (64Kb), 5V only, SOIC28
+K FRAM  Nonvolatile Memory 8K 8bit
+F http://www.ramtron.com/files/datasheets/FM1808B_ds.pdf
+$ENDCMP
+#
+$CMP FM16W08-SG
+D FM16W08-SG, FRAM Nonvolatile Memory 8Kx8 (64Kb), SOIC28
+K FRAM  Nonvolatile Memory 8K 8bit
+F http://www.ramtron.com/files/datasheets/FM16W08_ds.pdf
+$ENDCMP
+#
+$CMP FM1808B-SG
+D FM1808B-SG, FRAM Nonvolatile Memory 32Kx8 (256Kb), 5V only, SOIC28
+K FRAM  Nonvolatile Memory 32K 8bit
+F http://www.ramtron.com/files/datasheets/FM1808B_ds.pdf
+$ENDCMP
+#
+$CMP FM18W08-SG
+D FM18W08-SG, FRAM Nonvolatile Memory 32Kx8 (256Kb), SOIC28
+K FRAM  Nonvolatile Memory 32K 8bit
+F http://www.ramtron.com/files/datasheets/FM18W08_ds.pdf
+$ENDCMP
+#
+$CMP FM24C64B
+D FM24C64B-G, 64Kb Serial 5V FRAM Nonvolatile Memory I2C Interface
+K FRAM I2C Serial 5V FRAM Nonvolatile Memory
+F http://www.ramtron.com/files/datasheets/FM24C64B_ds.pdf
+$ENDCMP
+#
+$CMP FM24C64C
+D FM24C64C-G, 64Kb Serial 5V FRAM Nonvolatile Memory I2C Interface
+K FRAM I2C Serial 5V FRAM Nonvolatile Memory
+F http://www.ramtron.com/files/datasheets/FM24C64C_ds.pdf
+$ENDCMP
+#
+$CMP HM62256BLFP-4SLT
+D SRAM 32K x  8 bits, SOP28 450mil, 45ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLFP-5SLT
+D SRAM 32K x  8 bits, SOP28 450mil, 55ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLFP-7SLT
+D SRAM 32K x  8 bits, SOP28 450mil, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLFP-7T
+D SRAM 32K x  8 bits, SOP28 450mil, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLP-7
+D SRAM 32K x  8 bits, DIP28 600mil, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLSP-7
+D SRAM 32K x  8 bits, DIP28 300mil, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLT-7SL
+D SRAM 32K x  8 bits, TSOP32 8x14mm, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLT-8
+D SRAM 32K x  8 bits, TSOP32 8x14mm, 85ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLTM-4SL
+D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 45ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLTM-5SL
+D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 55ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLTM-7SL
+D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLTM-7UL
+D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLTM-8
+D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 85ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM628512BFP-5
+D SRAM 512K x 8-bit, 525mil SOP32, 55ns
+K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM628512BFP-7
+D SRAM 512K x 8-bit, 525mil SOP32, 70ns
+K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP IDT71V65903S
+D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
 #
 $CMP M29W004
