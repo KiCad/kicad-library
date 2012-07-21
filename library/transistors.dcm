@@ -1,10 +1,14 @@
-EESchema-DOCLIB  Version 2.0  Date: 2012-07-20 18:51:47
+EESchema-DOCLIB  Version 2.0  Date: 2012-07-21 19:58:16
 #
 $CMP BC237
+D BC237, Vce 50V, Ic 100mA, NPN Epitaxial Silicon Transistor, TO-92
+K NPN Epitaxial Silicon Transistor
 F transistors/bipolar/bc237.pdf
 $ENDCMP
 #
 $CMP BC307
+D BC307, Vce 45V, Ic 100mA, PNP Epitaxial Silicon Transistor, TO-92
+K PNP Epitaxial Silicon Transistor
 F transistors/bipolar/bc307.pdf
 $ENDCMP
 #
@@ -153,39 +157,75 @@ F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
 $ENDCMP
 #
 $CMP BD135
-D BD135, 1.5A, Low Voltage Transistor
+D BD135, Vce 45V, Ic 1.5A, Low Voltage Transistor
 K Low Voltage Transistor TO126
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
 $ENDCMP
 #
 $CMP BD136
-D BD136, 1.5A, Low Voltage Transistor
+D BD136, Vce 45V, Ic 1.5A, Low Voltage Transistor
 K Low Voltage Transistor TO126
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
 $ENDCMP
 #
 $CMP BD137
-D BD137, 1.5A, Low Voltage Transistor
+D BD137, Vce 60V, Ic 1.5A, Low Voltage Transistor
 K Low Voltage Transistor TO126
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
 $ENDCMP
 #
 $CMP BD138
-D BD138, 1.5A, Low Voltage Transistor
+D BD138, Vce 60V, Ic 1.5A, Low Voltage Transistor
 K Low Voltage Transistor TO126
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
 $ENDCMP
 #
 $CMP BD139
-D BD139, 1.5A, Low Voltage Transistor
+D BD139, Vce 80V, Ic 1.5A, Low Voltage Transistor
 K Low Voltage Transistor TO126
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
 $ENDCMP
 #
 $CMP BD140
-D BD140, 1.5A, Low Voltage Transistor
+D BD140, Vce 80V, Ic 1.5A, Low Voltage Transistor
 K Low Voltage Transistor TO126
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
+$ENDCMP
+#
+$CMP BD233
+D BD233, Vce 45V, Ic 2A, Low Voltage Transistor
+K Low Voltage Transistor TO126
+F http://www.fairchildsemi.com/ds/BD/BD233.pdf
+$ENDCMP
+#
+$CMP BD234
+D BD234, Vce 45V, Ic 2A, Low Voltage Transistor
+K Low Voltage Transistor TO126
+F http://www.electronica-pt.com/datasheets/bd/BD234.pdf
+$ENDCMP
+#
+$CMP BD235
+D BD235, Vce 60V, Ic 2A, Low Voltage Transistor
+K Low Voltage Transistor TO126
+F http://www.fairchildsemi.com/ds/BD/BD233.pdf
+$ENDCMP
+#
+$CMP BD236
+D BD236, Vce 60V, 2A, Low Voltage Transistor
+K Low Voltage Transistor TO126
+F http://www.electronica-pt.com/datasheets/bd/BD234.pdf
+$ENDCMP
+#
+$CMP BD237
+D BD237, Vce 80V, Ic 2A, Low Voltage Transistor
+K Low Voltage Transistor TO126
+F http://www.fairchildsemi.com/ds/BD/BD233.pdf
+$ENDCMP
+#
+$CMP BD238
+D BD238, Vce 80V, Ic 2A, Low Voltage Transistor
+K Low Voltage Transistor TO126
+F http://www.electronica-pt.com/datasheets/bd/BD234.pdf
 $ENDCMP
 #
 $CMP BD249
@@ -785,6 +825,24 @@ K  Intelligent Power Switch High Side MOSFET
 F http://www.irf.com/product-info/datasheets/data/ips6041pbf.pdf
 $ENDCMP
 #
+$CMP IPS6041PBF
+D IPS6041PbF, 39V, 5A, Intelligent Power Switch High Side, TO220
+K Intelligent Power Switch High Side MOSFET
+F http://www.irf.com/product-info/datasheets/data/ips6041pbf.pdf
+$ENDCMP
+#
+$CMP IPS6041RPBF
+D IPS6041RPbF, 39V, 5A, Intelligent Power Switch High Side, DPAK 5pin
+K Intelligent Power Switch High Side MOSFET
+F http://www.irf.com/product-info/datasheets/data/ips6041pbf.pdf
+$ENDCMP
+#
+$CMP IPS6041SPBF
+D IPS6041SPbF, 39V, 5A, Intelligent Power Switch High Side, D2PAK 5pin
+K Intelligent Power Switch High Side MOSFET
+F http://www.irf.com/product-info/datasheets/data/ips6041pbf.pdf
+$ENDCMP
+#
 $CMP IPS7091GPBF
 D IPS7091GPbF, 70V, 5A, Intelligent Power Switch High Side, D2-PAK 5pin
 K  Intelligent Power Switch High Side MOSFET
@@ -834,7 +892,9 @@ F http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf
 $ENDCMP
 #
 $CMP MAT02
-F transistors/bipolar/bc237.pdf
+D MAT02, Precision Dual Monolithic Transistor, Low Noise, Low Offset, Vce 40V, Ic 20mA, TO-78
+K Precision Dual Monolithic Transistor Low Noise EOL
+F http://www.elenota.pl/datasheet_download/93431/MAT02
 $ENDCMP
 #
 $CMP MJE13003
@@ -866,10 +926,14 @@ D SI4456DY - SO8
 $ENDCMP
 #
 $CMP MPSA42
+D MPSA42, Vce 300V, Ic 500mA, NPN High Voltage Transistor
+K NPN High Voltage Transistor
 F transistors/bipolar/MPSA42.pdf
 $ENDCMP
 #
 $CMP MPSA92
+D MPSA92, Vce 300V, Ic 500mA, PNP High Voltage Transistor
+K PNP High Voltage Transistor
 F transistors/bipolar/mpsa92.pdf
 $ENDCMP
 #
