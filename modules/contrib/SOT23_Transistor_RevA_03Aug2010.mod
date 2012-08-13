@@ -1,10 +1,86 @@
-PCBNEW-LibModule-V1  03.08.2010 19:39:42
+PCBNEW-LibModule-V1  Sa 04 Aug 2012 16:13:57 CEST
+# encoding utf-8
 $INDEX
-SOT23_Transistor_RevA_03Aug2010
-SOT23_Transistor_Handsoldering_RevA_03Aug2010
-SOT23_Transistor_BC846_RevA_03Aug2010
 SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010
+SOT23_Transistor_BC846_RevA_03Aug2010
+SOT23_Transistor_Handsoldering_RevA_03Aug2010
+SOT23_Transistor_RevA_03Aug2010
 $EndINDEX
+$MODULE SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010
+Po 0 0 0 15 4C58544E 00000000 ~~
+Li SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010
+Cd SOT23,  Transistor, Handsoldering, BC846,
+Kw SOT23,  Transistor, Handsoldering, BC846,
+Sc 00000000
+AR SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010
+Op 0 0 0
+At SMD
+T0 0 -1500 600 600 0 120 N V 21 N "T"
+T1 0 1500 600 600 0 120 N I 21 N "SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010"
+DS -433 20 -433 -256 150 21
+DS -433 -256 -335 -256 150 21
+DS 354 -256 433 -256 150 21
+DS 433 -256 433 20 150 21
+$PAD
+Sh "B" R 315 709 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -276 591
+$EndPAD
+$PAD
+Sh "E" R 315 709 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 276 591
+$EndPAD
+$PAD
+Sh "C" R 315 709 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -591
+$EndPAD
+$EndMODULE  SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010
+$MODULE SOT23_Transistor_BC846_RevA_03Aug2010
+Po 0 0 0 15 4C5853EF 00000000 ~~
+Li SOT23_Transistor_BC846_RevA_03Aug2010
+Cd SOT23, Standard, Transistor, BC846,
+Kw SOT23, Standard, Transistor, BC846,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 0 -1500 600 600 0 120 N V 21 N "T"
+T1 0 1500 600 600 0 120 N I 21 N "SOT23_Transistor_BC846_RevA_03Aug2010"
+DS 354 -256 335 -256 150 21
+DS -433 20 -433 -256 150 21
+DS -433 -256 -335 -256 150 21
+DS 354 -256 433 -256 150 21
+DS 433 -256 433 20 150 21
+$PAD
+Sh "B" R 315 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -276 394
+$EndPAD
+$PAD
+Sh "E" R 315 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 276 394
+$EndPAD
+$PAD
+Sh "C" R 315 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -393
+$EndPAD
+$EndMODULE  SOT23_Transistor_BC846_RevA_03Aug2010
 $MODULE SOT23_Transistor_Handsoldering_RevA_03Aug2010
 Po 0 0 0 15 4C584CEC 00000000 ~~
 Li SOT23_Transistor_Handsoldering_RevA_03Aug2010
@@ -13,8 +89,9 @@ Kw SOT23,  Transistor, Handsoldering,
 Sc 00000000
 AR
 Op 0 0 0
-T0 0 -1500 600 600 0 120 N V 21 N"T"
-T1 0 1500 600 600 0 120 N V 21 N"SOT23_Transistor_Handsoldering_RevA_03Aug2010"
+At SMD
+T0 0 -1500 600 600 0 120 N V 21 N "T"
+T1 0 1500 600 600 0 120 N I 21 N "SOT23_Transistor_Handsoldering_RevA_03Aug2010"
 DS -433 20 -433 -256 150 21
 DS -433 -256 -335 -256 150 21
 DS 354 -256 433 -256 150 21
@@ -47,10 +124,11 @@ Li SOT23_Transistor_RevA_03Aug2010
 Cd SOT23, Standard, Transistor,
 Kw SOT23, Standard, Transistor,
 Sc 00000000
-AR
+AR 
 Op 0 0 0
-T0 0 -1500 600 600 0 120 N V 21 N"T"
-T1 0 1500 600 600 0 120 N V 21 N"SOT23_Transistor_RevA_03Aug2010"
+At SMD 
+T0 0 -1500 600 600 0 120 N V 21 N "T"
+T1 0 1500 600 600 0 120 N I 21 N "SOT23_Transistor_RevA_03Aug2010"
 DS 354 -256 335 -256 150 21
 DS -433 20 -433 -256 150 21
 DS -433 -256 -335 -256 150 21
@@ -78,77 +156,4 @@ Ne 0 ""
 Po 0 -393
 $EndPAD
 $EndMODULE  SOT23_Transistor_RevA_03Aug2010
-$MODULE SOT23_Transistor_BC846_RevA_03Aug2010
-Po 0 0 0 15 4C5853EF 00000000 ~~
-Li SOT23_Transistor_BC846_RevA_03Aug2010
-Cd SOT23, Standard, Transistor, BC846,
-Kw SOT23, Standard, Transistor, BC846,
-Sc 00000000
-AR
-Op 0 0 0
-T0 0 -1500 600 600 0 120 N V 21 N"T"
-T1 0 1500 600 600 0 120 N V 21 N"SOT23_Transistor_BC846_RevA_03Aug2010"
-DS 354 -256 335 -256 150 21
-DS -433 20 -433 -256 150 21
-DS -433 -256 -335 -256 150 21
-DS 354 -256 433 -256 150 21
-DS 433 -256 433 20 150 21
-$PAD
-Sh "B" R 315 315 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -276 394
-$EndPAD
-$PAD
-Sh "E" R 315 315 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 276 394
-$EndPAD
-$PAD
-Sh "C" R 315 315 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 -393
-$EndPAD
-$EndMODULE  SOT23_Transistor_BC846_RevA_03Aug2010
-$MODULE SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010
-Po 0 0 0 15 4C58544E 00000000 ~~
-Li SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010
-Cd SOT23,  Transistor, Handsoldering, BC846,
-Kw SOT23,  Transistor, Handsoldering, BC846,
-Sc 00000000
-AR 
-Op 0 0 0
-T0 0 -1500 600 600 0 120 N V 21 N"T"
-T1 0 1500 600 600 0 120 N V 21 N"SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010"
-DS -433 20 -433 -256 150 21
-DS -433 -256 -335 -256 150 21
-DS 354 -256 433 -256 150 21
-DS 433 -256 433 20 150 21
-$PAD
-Sh "B" R 315 709 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -276 591
-$EndPAD
-$PAD
-Sh "E" R 315 709 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 276 591
-$EndPAD
-$PAD
-Sh "C" R 315 709 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 -591
-$EndPAD
-$EndMODULE  SOT23_Transistor_BC846_Handsoldering_RevA_03Aug2010
 $EndLIBRARY
