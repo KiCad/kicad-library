@@ -1,11 +1,18 @@
-PCBNEW-LibModule-V1  Di 01 Jan 2002 01:20:37 CET
+PCBNEW-LibModule-V1  Di 28 Aug 2012 17:48:39 CEST
+# encoding utf-8
 $INDEX
+Fuse_SMD1206_HandSoldering_RevA_28Aug2012
+Fuse_SMD1206_Reflow_RevA_28Aug2012
+Fuse_SMD1206_Wave_RevA_28Aug2012
+Fuse_TE5_Littlefuse-395Series_RevA_28Aug2012
+Fuseholder5x20_Horizontal_closed_Bulgin_FX0457_RevA_Date28Aug2012
 Fuseholder5x20_horiz_SemiClosed_Casing10x25mm_RevA_Date25Jul2010
-Fuseholder5x20_vert_closed_Bulgin_FX0456_RevB_Date05Jul2010
-Fuseholder6x32_Horiz_Open_Schurter0031-8002_RevB_Date05Jul2010
 Fuseholder5x20_horiz_open_inline_Type-I_RevC_Date24Feb2011
 Fuseholder5x20_horiz_open_lateral_Type-II_RevC_Date24Feb2011
 Fuseholder5x20_horiz_open_universal_Type-III_RevC_Date24Feb2011
+Fuseholder5x20_vert_closed_Bulgin_FX0456_RevB_Date05Jul2010
+Fuseholder6x32_Horiz_Open_Schurter0031-8002_RevB_Date05Jul2010
+Fuseholder_Fuse_TR5_Littlefuse-No560_No460_RevA_28Aug2012
 $EndINDEX
 $MODULE Fuseholder5x20_horiz_SemiClosed_Casing10x25mm_RevA_Date25Jul2010
 Po 0 0 0 15 4C320AB0 00000000 ~~
@@ -149,50 +156,6 @@ Ne 0 ""
 Po 1970 1970
 $EndPAD
 $EndMODULE  Fuseholder5x20_vert_closed_Bulgin_FX0456_RevB_Date05Jul2010
-$MODULE Fuseholder6x32_Horiz_Open_Schurter0031-8002_RevB_Date05Jul2010
-Po 0 0 0 15 4C320F68 00000000 ~~
-Li Fuseholder6x32_Horiz_Open_Schurter0031-8002_RevB_Date05Jul2010
-Cd Fuseholder, horizontal, open, 6x32, Schurter, 0031.8002,
-Kw Fuseholder, horizontal, open, 6x32, Schurter, 0031.8002, Sicherungshalter,
-Sc 00000000
-AR
-Op 0 0 0
-T0 0 -4000 600 600 0 120 N V 21 N"F"
-T1 -500 4500 600 600 0 120 N I 21 N"Fuseholder6x32_Horizontal_Open_Schurter0031-8002_RevB_Date05Jul2010"
-DS -8600 1000 -8600 3000 150 21
-DS -8600 -3000 -8600 -1000 150 21
-DS -8600 -1000 -8000 -1000 150 21
-DS -8000 1000 -8600 1000 150 21
-DS 8600 1000 8600 3000 150 21
-DS 8600 -3000 8600 -1000 150 21
-DS 8600 -1000 8000 -1000 150 21
-DS 8000 1000 8600 1000 150 21
-DS -8600 -2150 8600 -2150 150 21
-DS 8600 2150 -8600 2150 150 21
-DS 8600 3000 -8600 3000 150 21
-DS -8600 -3000 8600 -3000 150 21
-$PAD
-Sh "~" C 1280 1280 0 0 0
-Dr 1280 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "2" O 1280 2362 0 0 900
-Dr 512 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 7400 0
-$EndPAD
-$PAD
-Sh "1" O 1280 2362 0 0 900
-Dr 512 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po -7400 0
-$EndPAD
-$EndMODULE  Fuseholder6x32_Horiz_Open_Schurter0031-8002_RevB_Date05Jul2010
 $MODULE Fuseholder5x20_horiz_open_inline_Type-I_RevC_Date24Feb2011
 Po 0 0 0 15 4D66D34B 00000000 ~~
 Li Fuseholder5x20_horiz_open_inline_Type-I_RevC_Date24Feb2011
@@ -420,4 +383,224 @@ Ne 0 ""
 Po -3015 1000
 $EndPAD
 $EndMODULE  Fuseholder5x20_horiz_open_universal_Type-III_RevC_Date24Feb2011
+$MODULE Fuseholder_Fuse_TR5_Littlefuse-No560_No460_RevA_28Aug2012
+Po 0 0 0 15 503CDD96 00000000 ~~
+Li Fuseholder_Fuse_TR5_Littlefuse-No560_No460_RevA_28Aug2012
+Cd Fuse, Fuseholder, TR5, Littlefuse/Wickmann, No. 460, No560,
+Kw Fuse, Fuseholder, TR5, Littlefuse/Wickmann, No. 460, No560,
+Sc 00000000
+AR Fuseholder_Fuse_TR5_Littlefuse-No560_No460_RevA_28Aug2012
+Op 0 0 0
+T0 -59 -2713 600 600 0 120 N V 21 N "F"
+T1 -59 2925 600 600 0 120 N I 21 N "Fuseholder_Fuse_TR5_Littlefuse-No560_No460_RevA_28Aug2012"
+DS 1516 1098 1563 1154 150 21
+DS 1563 1154 1598 1217 150 21
+DS 1598 1217 1618 1315 150 21
+DS 1618 1315 1606 1417 150 21
+DS 1606 1417 1547 1520 150 21
+DS 1547 1520 1461 1587 150 21
+DS 1461 1587 1346 1618 150 21
+DS 1346 1618 1232 1602 150 21
+DS 1232 1602 1161 1571 150 21
+DS 1161 1571 1110 1512 150 21
+DC 0 4 1870 4 150 21
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" C 591 591 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 4
+$EndPAD
+$EndMODULE  Fuseholder_Fuse_TR5_Littlefuse-No560_No460_RevA_28Aug2012
+$MODULE Fuse_TE5_Littlefuse-395Series_RevA_28Aug2012
+Po 0 0 0 15 503CDEC3 00000000 ~~
+Li Fuse_TE5_Littlefuse-395Series_RevA_28Aug2012
+Cd Fuse, TE5, Littlefuse/Wickmann, No. 460, No560,
+Kw Fuse, TE5, Littlefuse/Wickmann, No. 460, No560,
+Sc 00000000
+AR Fuseholder_Fuse_TR5_Littlefuse-No560_No460_RevA_28Aug2012
+Op 0 0 0
+T0 39 -1339 600 600 0 120 N V 21 N "F"
+T1 -79 1457 600 600 0 120 N I 21 N "Fuse_TE5_Littlefuse-395Series_RevA_28Aug2012"
+DS -1673 787 1673 787 150 21
+DS 1673 787 1673 -787 150 21
+DS 1673 -787 -1673 -787 150 21
+DS -1673 -787 -1673 787 150 21
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" C 591 591 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 4
+$EndPAD
+$EndMODULE  Fuse_TE5_Littlefuse-395Series_RevA_28Aug2012
+$MODULE Fuseholder5x20_Horizontal_closed_Bulgin_FX0457_RevA_Date28Aug2012
+Po 0 0 0 15 503CE618 00000000 ~~
+Li Fuseholder5x20_Horizontal_closed_Bulgin_FX0457_RevA_Date28Aug2012
+Cd Fuseholder, 5x20, closed, horizontal, Bulgin, FX0457, Sicherungshalter,
+Kw Fuseholder, 5x20, closed, horizontal, Bulgin, FX0457, Sicherungshalter,
+Sc 00000000
+AR
+Op 0 0 0
+T0 110 -3230 600 600 0 120 N V 21 N "F"
+T1 0 3500 600 600 0 120 N I 21 N "Fuseholder5x20_Horizontal_closed_Bulgin_FX0457_RevA_Date28Aug2012"
+DS 10906 -315 10591 -315 150 21
+DS 10591 -315 10591 315 150 21
+DS 10591 315 10906 315 150 21
+DS 7756 2480 7756 -2480 150 21
+DS 10906 -2480 -2913 -2480 150 21
+DS 10906 2480 10906 -2480 150 21
+DS -2913 2480 10906 2480 150 21
+DS -2913 2480 -2913 -2480 150 21
+$PAD
+Sh "2" C 1181 1181 0 0 0
+Dr 531 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2000 0
+$EndPAD
+$PAD
+Sh "1" C 1181 1181 0 0 0
+Dr 531 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2000 0
+$EndPAD
+$EndMODULE  Fuseholder5x20_Horizontal_closed_Bulgin_FX0457_RevA_Date28Aug2012
+$MODULE Fuse_SMD1206_HandSoldering_RevA_28Aug2012
+Po 0 0 0 15 503CE334 00000000 ~~
+Li Fuse_SMD1206_HandSoldering_RevA_28Aug2012
+Cd Fuse, Sicherung, SMD1206, Littlefuse-Wickmann 433 Series, Hand Soldering,
+Kw Fuse, Sicherung, SMD1206,  Littlefuse-Wickmann 433 Series, Hand Soldering,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 -20 -866 600 600 0 120 N V 21 N "F"
+T1 -59 984 600 600 0 120 N I 21 N "Fuse_SMD1206_HandSoldering_RevA_28Aug2012"
+$PAD
+Sh "1" R 799 1044 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -821 0
+$EndPAD
+$PAD
+Sh "2" R 799 1044 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 821 0
+$EndPAD
+$EndMODULE  Fuse_SMD1206_HandSoldering_RevA_28Aug2012
+$MODULE Fuse_SMD1206_Reflow_RevA_28Aug2012
+Po 0 0 0 15 503CE25F 00000000 ~~
+Li Fuse_SMD1206_Reflow_RevA_28Aug2012
+Cd Fuse, Sicherung, SMD1206, Littlefuse-Wickmann, Reflow,
+Kw Fuse, Sicherung, SMD1206,  Littlefuse-Wickmann, Reflow,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 -39 -1083 600 600 0 120 N V 21 N "F"
+T1 -177 1260 600 600 0 120 N I 21 N "Fuse_SMD1206_Reflow_RevA_28Aug2012"
+$PAD
+Sh "1" R 799 449 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -474 0
+$EndPAD
+$PAD
+Sh "2" R 799 449 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 474 0
+$EndPAD
+$EndMODULE  Fuse_SMD1206_Reflow_RevA_28Aug2012
+$MODULE Fuse_SMD1206_Wave_RevA_28Aug2012
+Po 0 0 0 15 503CE282 00000000 ~~
+Li Fuse_SMD1206_Wave_RevA_28Aug2012
+Cd Fuse, Sicherung, SMD1206, Littlefuse-Wickmann 433 Series, Wave,
+Kw Fuse, Sicherung, SMD1206,  Littlefuse-Wickmann 433 Series, Wave,
+Sc 00000000
+AR
+Op 0 0 0
+At SMD
+T0 -20 -866 600 600 0 120 N V 21 N "F"
+T1 -59 984 600 600 0 120 N I 21 N "Fuse_SMD1206_Wave_RevA_28Aug2012"
+$PAD
+Sh "1" R 799 650 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -624 0
+$EndPAD
+$PAD
+Sh "2" R 799 650 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 624 0
+$EndPAD
+$EndMODULE  Fuse_SMD1206_Wave_RevA_28Aug2012
+$MODULE Fuseholder6x32_Horiz_Open_Schurter0031-8002_RevB_Date05Jul2010
+Po 0 0 0 15 503CE846 00000000 ~~
+Li Fuseholder6x32_Horiz_Open_Schurter0031-8002_RevB_Date05Jul2010
+Cd Fuseholder, horizontal, open, 6x32, Schurter, 0031.8002,
+Kw Fuseholder, horizontal, open, 6x32, Schurter, 0031.8002, Sicherungshalter,
+Sc 00000000
+AR 
+Op 0 0 0
+T0 0 -4000 600 600 0 120 N V 21 N "F"
+T1 -500 4500 600 600 0 120 N I 21 N "Fuseholder6x32_Horizontal_Open_Schurter0031-8002_RevB_Date05Jul2010"
+DS -8600 1000 -8600 3000 150 21
+DS -8600 -3000 -8600 -1000 150 21
+DS -8600 -1000 -8000 -1000 150 21
+DS -8000 1000 -8600 1000 150 21
+DS 8600 1000 8600 3000 150 21
+DS 8600 -3000 8600 -1000 150 21
+DS 8600 -1000 8000 -1000 150 21
+DS 8000 1000 8600 1000 150 21
+DS -8600 -2150 8600 -2150 150 21
+DS 8600 2150 -8600 2150 150 21
+DS 8600 3000 -8600 3000 150 21
+DS -8600 -3000 8600 -3000 150 21
+$PAD
+Sh "" C 1280 1280 0 0 0
+Dr 1280 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" O 1280 2362 0 0 900
+Dr 512 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7400 0
+$EndPAD
+$PAD
+Sh "1" O 1280 2362 0 0 900
+Dr 512 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7400 0
+$EndPAD
+$EndMODULE  Fuseholder6x32_Horiz_Open_Schurter0031-8002_RevB_Date05Jul2010
 $EndLIBRARY
