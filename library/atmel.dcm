@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2012-08-15 11:56:13
+EESchema-DOCLIB  Version 2.0  Date: 2012-09-01 08:49:10
 #
 $CMP AT89C2051-P
 D 89C2051, PDIP20, 2k Flash, 128B SRAM
@@ -1566,8 +1566,8 @@ K AVR 8bit Microcontroller tinyAVR
 F http://www.atmel.com/dyn/resources/prod_documents/doc8006.pdf
 $ENDCMP
 #
-$CMP ATTINY44-SS
-D ATTINY44, SO14, 4k Flash, 256B SRAM, 256B EEPROM, dW
+$CMP ATTINY44-S
+D ATTINY44, SO14, 4k Flash, 256B SRAM, 128B EEPROM, dW
 K AVR 8bit Microcontroller tinyAVR
 F http://www.atmel.com/dyn/resources/prod_documents/doc8006.pdf
 $ENDCMP
@@ -1698,10 +1698,34 @@ K AVR 8bit Microcontroller tinyAVR
 F http://www.atmel.com/dyn/resources/prod_documents/doc8006.pdf
 $ENDCMP
 #
-$CMP ATTINY84-SS
-D ATTINY84, SO14, 8k Flash, 512B SRAM, 512B EEPROM, dW
+$CMP ATTINY84-S
+D ATTINY84, SO14, 8k Flash, 512B SRAM, 128B EEPROM, dW
 K AVR 8bit Microcontroller tinyAVR
 F http://www.atmel.com/dyn/resources/prod_documents/doc8006.pdf
+$ENDCMP
+#
+$CMP ATTINY84A-M
+D ATTINY84A, QFN/MLF20, 8k Flash, 512B SRAM, 512B EEPROM, dW
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8183.pdf
+$ENDCMP
+#
+$CMP ATTINY84A-MM
+D ATTINY84A, VQFN20, 8k Flash, 512B SRAM, 512B EEPROM, dW
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8183.pdf
+$ENDCMP
+#
+$CMP ATTINY84A-P
+D ATTINY84A, PDIP14, 8k Flash, 512B SRAM, 512B EEPROM, dW
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8183.pdf
+$ENDCMP
+#
+$CMP ATTINY84A-SS
+D ATTINY84A, SO14, 8k Flash, 512B SRAM, 512B EEPROM, dW
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8183.pdf
 $ENDCMP
 #
 $CMP ATTINY85-M
@@ -2299,6 +2323,16 @@ $ENDCMP
 $CMP AVR-JTAG-10
 D Standard IDC10 Male Connector, ATMEL JTAG ICE mkI/mkII
 K IDC10 Male Connector
+$ENDCMP
+#
+$CMP AVR-PDI-6
+D Standard IDC6 Male Connector, ATMEL PDI 6pin
+K IDC6 Male Connector
+$ENDCMP
+#
+$CMP AVR-TPI-6
+D Standard IDC6 Male Connector, ATMEL TPI 6pin
+K IDC6 Male Connector
 $ENDCMP
 #
 #End Doc Library
