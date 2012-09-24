@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sun 19 Aug 2012 06:30:04 PM PET
+EESchema-DOCLIB  Version 2.0  Date: Mo 24 Sep 2012 00:46:47 CEST
 #
 $CMP 7805
 D Linear Regulator +5V
@@ -257,6 +257,15 @@ K REGUL POWER
 F micrel/mic2177.pdf
 $ENDCMP
 #
+$CMP NCP1117ST33T3G
+D Low drop-out 1A regulator 3.3V
+K REGULATOR
+$ENDCMP
+#
+$CMP NCP1117ST50T3G
+D Low drop-out 1A regulator 5V (Adjustable)
+$ENDCMP
+#
 $CMP PT6100
 D REG.ADJ.1A
 $ENDCMP
@@ -273,10 +282,6 @@ $ENDCMP
 #
 $CMP TPS769XX
 D Low drop regulator 1.2 .. 5V SOT23 package
-$ENDCMP
-#
-$CMP NCP1117ST50T3G
-D Low drop-out 1A regulator 5V (Adjustable)
 $ENDCMP
 #
 #End Doc Library
