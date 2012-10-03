@@ -1,0 +1,1289 @@
+PCBNEW-LibModule-V1  Di 14 Aug 2012 18:08:59 CEST
+# encoding utf-8
+$INDEX
+Dummy_Empty_RevA_Date10Mar2011
+NetTie-III_Connected_RevA_20Mar2011
+NetTie-III_Connected_SMD_RevA_20Mar2011
+NetTie-III_RevA_20Mar2011
+NetTie-III_SMD_RevA_20Mar2011
+NetTie-II_Connected_RevA_20Mar2011
+NetTie-II_Connected_SMD_RevA_20Mar2011
+NetTie-II_RevA_20Mar2011
+NetTie-II_SMD_RevA_20Mar2011
+NetTie-I_Connected_RevA_20Mar2011
+NetTie-I_Connected_SMD_RevA_20Mar2011
+NetTie-I_RevA_20Mar2011
+NetTie-I_SMD_RevA_20Mar2011
+Stitches_10X08mm_14Aug2012
+Stitches_15X08mm_14Aug2012
+Stitches_20X08mm_14Aug2012
+Stitches_30X08mm_14Aug2012
+Stitches_5X08mm_14Aug2012
+$EndINDEX
+$MODULE Dummy_Empty_RevA_Date10Mar2011
+Po 0 0 0 15 3C3112B8 00000000 ~~
+Li Dummy_Empty_RevA_Date10Mar2011
+Cd Only empty Dummy to give satsfaction to DRC
+Kw Only empty Dummy to give satsfaction to DRC
+Sc 00000000
+AR
+Op 0 0 0
+T0 28 -984 500 500 0 100 N I 21 N"Dummy_Empty_RevA_Date10Mar2011"
+T1 0 0 500 500 0 100 N I 21 N"NIL"
+$EndMODULE  Dummy_Empty_RevA_Date10Mar2011
+$MODULE NetTie-I_RevA_20Mar2011
+Po 0 0 0 15 3C3118A2 00000000 ~~
+Li NetTie-I_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 -16 1602 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-I_RevA_10Mar2011"
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 0
+$EndPAD
+$EndMODULE  NetTie-I_RevA_20Mar2011
+$MODULE NetTie-I_Connected_RevA_20Mar2011
+Po 0 0 0 15 3C3116F3 00000000 ~~
+Li NetTie-I_Connected_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC.
+Sc 00000000
+AR
+Op 0 0 0
+T0 -16 1602 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-I_Connected_RevA_10Mar2011"
+DS 700 400 -700 400 120 0
+DS -700 400 -700 300 120 0
+DS -700 300 700 300 120 0
+DS 700 300 700 200 120 0
+DS 700 200 -700 200 120 0
+DS -700 200 -700 100 120 0
+DS -700 100 700 100 120 0
+DS 700 100 700 0 120 0
+DS 700 0 -700 0 120 0
+DS -700 0 -700 -100 120 0
+DS -700 -100 700 -100 120 0
+DS 700 -100 700 -200 120 0
+DS 700 -200 -700 -200 120 0
+DS -700 -200 -700 -300 120 0
+DS -700 -300 700 -300 120 0
+DS 700 -300 700 -400 120 0
+DS 700 -400 -700 -400 120 0
+DS 700 -400 -700 -400 120 15
+DS -700 -300 700 -300 120 15
+DS 700 -200 -700 -200 120 15
+DS -700 -100 700 -100 120 15
+DS 700 0 -700 0 120 15
+DS -700 100 700 100 120 15
+DS 700 200 -700 200 120 15
+DS -700 300 700 300 120 15
+DS 700 400 -700 400 120 15
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 0
+$EndPAD
+$EndMODULE  NetTie-I_Connected_RevA_20Mar2011
+$MODULE NetTie-I_Connected_SMD_RevA_20Mar2011
+Po 0 0 0 15 3C311A0D 00000000 ~~
+Li NetTie-I_Connected_SMD_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC.
+Sc 00000000
+AR
+Op 0 0 0
+T0 -16 1602 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-I_Connected_SMD_RevA_10Mar2011"
+DS 700 -400 -700 -400 120 15
+DS -700 -300 700 -300 120 15
+DS 700 -200 -700 -200 120 15
+DS -700 -100 700 -100 120 15
+DS 700 0 -700 0 120 15
+DS -700 100 700 100 120 15
+DS 700 200 -700 200 120 15
+DS -700 300 700 300 120 15
+DS 700 400 -700 400 120 15
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1000 0
+$EndPAD
+$EndMODULE  NetTie-I_Connected_SMD_RevA_20Mar2011
+$MODULE NetTie-I_SMD_RevA_20Mar2011
+Po 0 0 0 15 3C311A3F 00000000 ~~
+Li NetTie-I_SMD_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 -16 1602 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-I_SMD_RevA_10Mar2011"
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1000 0
+$EndPAD
+$EndMODULE  NetTie-I_SMD_RevA_20Mar2011
+$MODULE NetTie-II_Connected_SMD_RevA_20Mar2011
+Po 0 0 0 15 3C311C39 00000000 ~~
+Li NetTie-II_Connected_SMD_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 -16 1602 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-II_Connected_SMD_RevA_10Mar2011"
+DS 300 400 1200 400 120 15
+DS 1200 300 300 300 120 15
+DS 300 200 1200 200 120 15
+DS 1200 100 300 100 120 15
+DS 300 0 1200 0 120 15
+DS 1200 -100 300 -100 120 15
+DS 300 -200 1200 -200 120 15
+DS 1200 -300 300 -300 120 15
+DS 300 -400 1200 -400 120 15
+DS -1200 -400 -300 -400 120 15
+DS -300 -300 -1200 -300 120 15
+DS -1200 -200 -300 -200 120 15
+DS -300 -100 -1200 -100 120 15
+DS -1200 0 -300 0 120 15
+DS -300 100 -1200 100 120 15
+DS -1200 200 -300 200 120 15
+DS -300 300 -1200 300 120 15
+DS -1200 400 -300 400 120 15
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1500 0
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1500 0
+$EndPAD
+$EndMODULE  NetTie-II_Connected_SMD_RevA_20Mar2011
+$MODULE NetTie-II_Connected_RevA_20Mar2011
+Po 0 0 0 15 3C311E7A 00000000 ~~
+Li NetTie-II_Connected_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 -16 1602 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-II_Connected_RevA_10Mar2011"
+DS 300 -400 1200 -400 120 0
+DS 1200 -400 1200 -300 120 0
+DS 1200 -300 300 -300 120 0
+DS 300 -300 300 -200 120 0
+DS 300 -200 1200 -200 120 0
+DS 1200 -200 1200 -100 120 0
+DS 1200 -100 300 -100 120 0
+DS 300 -100 300 0 120 0
+DS 300 0 1200 0 120 0
+DS 1200 0 1200 100 120 0
+DS 1200 100 300 100 120 0
+DS 300 100 300 200 120 0
+DS 300 200 1200 200 120 0
+DS 1200 200 1200 300 120 0
+DS 1200 300 300 300 120 0
+DS 300 300 300 400 120 0
+DS 300 400 1200 400 120 0
+DS -1200 400 -300 400 120 0
+DS -300 400 -300 300 120 0
+DS -300 300 -1200 300 120 0
+DS -1200 300 -1200 200 120 0
+DS -1200 200 -300 200 120 0
+DS -300 200 -300 100 120 0
+DS -300 100 -1200 100 120 0
+DS -1200 100 -1200 0 120 0
+DS -1200 0 -300 0 120 0
+DS -300 0 -300 -100 120 0
+DS -300 -100 -1200 -100 120 0
+DS -1200 -100 -1200 -200 120 0
+DS -1200 -200 -300 -200 120 0
+DS -300 -200 -300 -300 120 0
+DS -300 -300 -1200 -300 120 0
+DS -1200 -300 -1200 -400 120 0
+DS -1200 -400 -300 -400 120 0
+DS 300 -400 1200 -400 120 15
+DS 1200 -400 1200 -300 120 15
+DS 1200 -300 300 -300 120 15
+DS 300 -300 300 -200 120 15
+DS 300 -200 1200 -200 120 15
+DS 1200 -200 1200 -100 120 15
+DS 1200 -100 300 -100 120 15
+DS 300 -100 300 0 120 15
+DS 300 0 1200 0 120 15
+DS 1200 0 1200 100 120 15
+DS 1200 100 300 100 120 15
+DS 300 100 300 200 120 15
+DS 300 200 1200 200 120 15
+DS 1200 200 1200 300 120 15
+DS 1200 300 300 300 120 15
+DS 300 300 300 400 120 15
+DS 300 400 1200 400 120 15
+DS -1200 400 -300 400 120 15
+DS -300 400 -300 300 120 15
+DS -300 300 -1200 300 120 15
+DS -1200 300 -1200 200 120 15
+DS -1200 200 -300 200 120 15
+DS -300 200 -300 100 120 15
+DS -300 100 -1200 100 120 15
+DS -1200 100 -1200 0 120 15
+DS -1200 0 -300 0 120 15
+DS -300 0 -300 -100 120 15
+DS -300 -100 -1200 -100 120 15
+DS -1200 -100 -1200 -200 120 15
+DS -1200 -200 -300 -200 120 15
+DS -300 -200 -300 -300 120 15
+DS -300 -300 -1200 -300 120 15
+DS -1200 -300 -1200 -400 120 15
+DS -1200 -400 -300 -400 120 15
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1500 0
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1500 0
+$EndPAD
+$EndMODULE  NetTie-II_Connected_RevA_20Mar2011
+$MODULE NetTie-III_Connected_SMD_RevA_20Mar2011
+Po 0 0 0 15 3C3120BB 00000000 ~~
+Li NetTie-III_Connected_SMD_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 0 3000 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-III_Connected_SMD_RevA_10Mar2011"
+DS 600 500 600 -500 120 15
+DS 700 -500 700 500 120 15
+DS 800 500 800 -500 120 15
+DS 900 -500 900 500 120 15
+DS 1000 500 1000 -500 120 15
+DS 1100 -500 1100 500 120 15
+DS 1200 500 1200 -500 120 15
+DS 1300 -500 1300 500 120 15
+DS 1400 500 1400 -500 120 15
+DS -600 500 -600 -500 120 15
+DS -700 -500 -700 500 120 15
+DS -800 500 -800 -500 120 15
+DS -900 -500 -900 500 120 15
+DS -1000 -500 -1000 500 120 15
+DS -1100 -500 -1100 500 120 15
+DS -1200 -500 -1200 500 120 15
+DS -1300 -500 -1300 500 120 15
+DS -1400 -400 -1400 -500 120 15
+DS -1400 -400 -1400 500 120 15
+DS -700 1100 700 1100 120 15
+DS 700 1000 -700 1000 120 15
+DS -700 900 700 900 120 15
+DS -700 800 700 800 120 15
+DS -700 700 700 700 120 15
+DS -700 600 700 600 120 15
+DS -700 500 700 500 120 15
+DS -700 400 -600 400 120 15
+DS -600 400 700 400 120 15
+DS -700 -1100 700 -1100 120 15
+DS -700 -1000 700 -1000 120 15
+DS -700 -900 700 -900 120 15
+DS -700 -800 700 -800 120 15
+DS -700 -700 700 -700 120 15
+DS -700 -600 700 -600 120 15
+DS -700 -500 700 -500 120 15
+DS -700 -400 700 -400 120 15
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 -750
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 750
+$EndPAD
+$PAD
+Sh "3" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1000 -750
+$EndPAD
+$PAD
+Sh "4" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1000 750
+$EndPAD
+$EndMODULE  NetTie-III_Connected_SMD_RevA_20Mar2011
+$MODULE NetTie-III_Connected_RevA_20Mar2011
+Po 0 0 0 15 3C3122E5 00000000 ~~
+Li NetTie-III_Connected_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 100 2000 500 500 0 100 N V 21 N"NetTie"
+T1 100 -1700 500 500 0 100 N I 21 N"NetTie-III_Connected_RevA_10Mar2011"
+DS 1000 -400 1000 400 120 0
+DS 1400 -500 1400 500 120 0
+DS 1400 500 1300 500 120 0
+DS 1300 500 1300 -500 120 0
+DS 1300 -500 1200 -500 120 0
+DS 1200 -500 1200 500 120 0
+DS 1200 500 1100 500 120 0
+DS 1100 500 1100 -500 120 0
+DS 600 -500 600 500 120 0
+DS 600 500 700 500 120 0
+DS 700 500 700 -500 120 0
+DS 700 -500 800 -500 120 0
+DS 800 -500 800 500 120 0
+DS 800 500 900 500 120 0
+DS 900 500 900 -500 120 0
+DS 700 1100 -700 1100 120 0
+DS -700 1100 -700 1000 120 0
+DS -700 1000 700 1000 120 0
+DS 700 1000 700 900 120 0
+DS 700 900 -700 900 120 0
+DS -700 900 -700 800 120 0
+DS -700 800 700 800 120 0
+DS 700 800 700 700 120 0
+DS 700 700 -700 700 120 0
+DS -700 700 -700 600 120 0
+DS -700 600 700 600 120 0
+DS 700 600 700 500 120 0
+DS 700 500 -700 500 120 0
+DS -700 500 -700 400 120 0
+DS -700 400 700 400 120 0
+DS 700 400 700 300 120 0
+DS 700 300 700 400 120 0
+DS 700 -1100 -700 -1100 120 0
+DS -700 -1100 -700 -1000 120 0
+DS -700 -1000 700 -1000 120 0
+DS 700 -1000 700 -900 120 0
+DS 700 -900 -700 -900 120 0
+DS -700 -900 -700 -800 120 0
+DS -700 -800 700 -800 120 0
+DS 700 -800 700 -700 120 0
+DS 700 -700 -700 -700 120 0
+DS -700 -700 -700 -600 120 0
+DS -700 -600 600 -600 120 0
+DS 600 -600 700 -600 120 0
+DS 700 -600 700 -500 120 0
+DS 700 -500 -700 -500 120 0
+DS -700 -500 -700 -400 120 0
+DS -700 -400 700 -400 120 0
+DS -1000 -400 -1000 400 120 0
+DS -900 500 -900 -500 120 0
+DS -900 -500 -800 -500 120 0
+DS -800 -500 -800 500 120 0
+DS -800 500 -700 500 120 0
+DS -700 500 -700 -500 120 0
+DS -700 -500 -600 -500 120 0
+DS -600 -500 -600 500 120 0
+DS -1400 -500 -1400 500 120 0
+DS -1400 500 -1300 500 120 0
+DS -1300 500 -1300 -500 120 0
+DS -1300 -500 -1200 -500 120 0
+DS -1200 -500 -1200 500 120 0
+DS -1200 500 -1100 500 120 0
+DS -1100 500 -1100 -500 120 0
+DS 1000 -400 1000 400 120 15
+DS -1000 -400 -1000 400 120 15
+DS 600 500 600 -500 120 15
+DS 700 -500 700 500 120 15
+DS 800 500 800 -500 120 15
+DS 900 -500 900 500 120 15
+DS 1100 -500 1100 500 120 15
+DS 1200 500 1200 -500 120 15
+DS 1300 -500 1300 500 120 15
+DS 1400 500 1400 -500 120 15
+DS -600 500 -600 -500 120 15
+DS -700 -500 -700 500 120 15
+DS -800 500 -800 -500 120 15
+DS -900 -500 -900 500 120 15
+DS -1100 -500 -1100 500 120 15
+DS -1200 -500 -1200 500 120 15
+DS -1300 -500 -1300 500 120 15
+DS -1400 -400 -1400 -500 120 15
+DS -1400 -400 -1400 500 120 15
+DS -700 1100 700 1100 120 15
+DS 700 1000 -700 1000 120 15
+DS -700 900 700 900 120 15
+DS -700 800 700 800 120 15
+DS -700 700 700 700 120 15
+DS -700 600 700 600 120 15
+DS -700 500 700 500 120 15
+DS -700 400 -600 400 120 15
+DS -600 400 700 400 120 15
+DS -700 -1100 700 -1100 120 15
+DS -700 -1000 700 -1000 120 15
+DS -700 -900 700 -900 120 15
+DS -700 -800 700 -800 120 15
+DS -700 -700 700 -700 120 15
+DS -700 -600 700 -600 120 15
+DS -700 -500 700 -500 120 15
+DS -700 -400 700 -400 120 15
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 -750
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 750
+$EndPAD
+$PAD
+Sh "3" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 -750
+$EndPAD
+$PAD
+Sh "4" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 750
+$EndPAD
+$EndMODULE  NetTie-III_Connected_RevA_20Mar2011
+$MODULE NetTie-II_RevA_20Mar2011
+Po 0 0 0 15 3C311BA3 00000000 ~~
+Li NetTie-II_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between the pads by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between the pads by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 -16 1602 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-II_RevA_10Mar2011"
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1500 0
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1500 0
+$EndPAD
+$EndMODULE  NetTie-II_RevA_20Mar2011
+$MODULE NetTie-III_RevA_20Mar2011
+Po 0 0 0 15 3C311F63 00000000 ~~
+Li NetTie-III_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between The Pads by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between the pads by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 0 3000 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-III_RevA_10Mar2011"
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 -750
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 750
+$EndPAD
+$PAD
+Sh "3" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 -750
+$EndPAD
+$PAD
+Sh "4" R 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 750
+$EndPAD
+$EndMODULE  NetTie-III_RevA_20Mar2011
+$MODULE NetTie-III_SMD_RevA_20Mar2011
+Po 0 0 0 15 3C311F0D 00000000 ~~
+Li NetTie-III_SMD_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between the pads by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between the pads by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 0 3000 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-III_SMD_RevA_10Mar2011"
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 1500
+$EndPAD
+$PAD
+Sh "3" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1000 0
+$EndPAD
+$PAD
+Sh "4" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1000 1500
+$EndPAD
+$EndMODULE  NetTie-III_SMD_RevA_20Mar2011
+$MODULE NetTie-II_SMD_RevA_20Mar2011
+Po 0 0 0 15 3C311AC3 00000000 ~~
+Li NetTie-II_SMD_RevA_20Mar2011
+Cd Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between the pads by yourself.
+Kw Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between the pads by yourself.
+Sc 00000000
+AR NetTie-I_Connected_RevA_20Mar2011
+Op 0 0 0
+T0 -16 1602 500 500 0 100 N V 21 N"NetTie"
+T1 0 -1200 500 500 0 100 N I 21 N"NetTie-II_SMD_RevA_10Mar2011"
+$PAD
+Sh "1" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1500 0
+$EndPAD
+$PAD
+Sh "2" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 787 787 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1500 0
+$EndPAD
+$EndMODULE  NetTie-II_SMD_RevA_20Mar2011
+$MODULE Stitches_15X08mm_14Aug2012
+Po 0 0 0 15 502A771C 00000000 ~~
+Li Stitches_15X08mm_14Aug2012
+Cd 15 Stiches, 0,8mm hole,
+Kw 15 Stiches, 0,8mm hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -2165 600 600 0 120 N I 21 N "Stitch"
+T1 0 2165 600 600 0 120 N I 21 N "Stitches_15X08mm_14Aug2012"
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 0
+$EndPAD
+$EndMODULE  Stitches_15X08mm_14Aug2012
+$MODULE Stitches_10X08mm_14Aug2012
+Po 0 0 0 15 502A76B5 00000000 ~~
+Li Stitches_10X08mm_14Aug2012
+Cd 10 Stiches, 0,8mm hole,
+Kw 10 Stiches, 0,8mm hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1969 600 600 0 120 N I 21 N "Stitch"
+T1 0 984 600 600 0 120 N I 21 N "Stitches_10X08mm_14Aug2012"
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 0
+$EndPAD
+$EndMODULE  Stitches_10X08mm_14Aug2012
+$MODULE Stitches_5X08mm_14Aug2012
+Po 0 0 0 15 502A7677 00000000 ~~
+Li Stitches_5X08mm_14Aug2012
+Cd 5 Stiches, 0,8mm hole,
+Kw 5 Stiches, 0,8mm hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1378 600 600 0 120 N I 21 N "Stitch"
+T1 0 984 600 600 0 120 N I 21 N "Stitches_5X08mm_14Aug2012"
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 0
+$EndPAD
+$EndMODULE  Stitches_5X08mm_14Aug2012
+$MODULE Stitches_30X08mm_14Aug2012
+Po 0 0 0 15 502A77F4 00000000 ~~
+Li Stitches_30X08mm_14Aug2012
+Cd 30 Stiches, 0,8mm hole,
+Kw 30 Stiches, 0,8mm hole,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -4921 600 600 0 120 N I 21 N "Stitch"
+T1 0 2165 600 600 0 120 N I 21 N "Stitches_30X08mm_14Aug2012"
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 -2953
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 -2953
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -2953
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 -2953
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 -2953
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 -3937
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 -3937
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3937
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 -3937
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 -3937
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 0
+$EndPAD
+$EndMODULE  Stitches_30X08mm_14Aug2012
+$MODULE Stitches_20X08mm_14Aug2012
+Po 0 0 0 15 502A77BA 00000000 ~~
+Li Stitches_20X08mm_14Aug2012
+Cd 20 Stiches, 0,8mm hole,
+Kw 20 Stiches, 0,8mm hole,
+Sc 00000000
+AR 
+Op 0 0 0
+T0 0 -3150 600 600 0 120 N I 21 N "Stitch"
+T1 0 2165 600 600 0 120 N I 21 N "Stitches_20X08mm_14Aug2012"
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 -1969
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 984
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 -985
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1969 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1969 0
+$EndPAD
+$EndMODULE  Stitches_20X08mm_14Aug2012
+$EndLIBRARY
