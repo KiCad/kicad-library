@@ -1,134 +1,13 @@
-PCBNEW-LibModule-V1  Sa 30 Apr 2011 17:14:03 CEST
-$# encoding utf-8
+PCBNEW-LibModule-V1  Mi 24 Okt 2012 10:30:06 CEST
+# encoding utf-8
 $INDEX
-Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
-Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D
 Pentawatt_Neutral_Staggered-Typ1_Horizontal_TO220-5-TA05B
 Pentawatt_Neutral_Staggered-Typ2_Horizontal_TO220-5-T05E
+Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D
+Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
 $EndINDEX
-$MODULE Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
-Po 46063 22047 0 15 4DBC26C8 00000000 ~~
-Li Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
-Cd Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
-Kw Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
-Sc 00000000
-AR
-Op 0 0 0
-T0 0 -2000 600 600 0 120 N V 21 N "IC"
-T1 500 3000 600 600 0 120 N V 21 N "Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A"
-DS 1811 -787 2087 -787 150 21
-DS 1024 -787 1142 -787 150 21
-DS 315 -787 394 -787 150 21
-DS -354 -787 -315 -787 150 21
-DS -1102 -787 -1063 -787 150 21
-DS -2087 -787 -1811 -787 150 21
-DS 591 -1181 591 -906 150 21
-DS -591 -1181 -591 -906 150 21
-DS -2087 709 2087 709 150 21
-T2 -2500 1500 600 600 0 120 N V 21 N "1"
-DS 2100 -750 2100 700 150 21
-DS -2100 700 -2100 -750 150 21
-DS 2100 -1200 2100 -750 150 21
-DS -2100 -750 -2100 -1200 150 21
-DS 0 -1200 -2100 -1200 150 21
-DS 0 -1200 2100 -1200 150 21
-$PAD
-Sh "3" O 984 591 0 0 900
-Dr 433 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 0 -236
-$EndPAD
-$PAD
-Sh "1" O 984 591 0 0 900
-Dr 433 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po -1457 -236
-$EndPAD
-$PAD
-Sh "5" O 984 591 0 0 900
-Dr 433 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 1457 -236
-$EndPAD
-$PAD
-Sh "4" O 984 591 0 0 900
-Dr 433 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 709 -236
-$EndPAD
-$PAD
-Sh "2" O 984 591 0 0 900
-Dr 433 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po -709 -236
-$EndPAD
-$EndMODULE  Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
-$MODULE Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D
-Po 70472 21260 0 15 4DBC26D0 00000000 ~~
-Li Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D
-Cd Pentawatt, Neutral, Staggered, Verical, TO220-5, T05D,
-Kw Pentawatt, Neutral, Staggered, Verical, TO220-5, T05D,
-Sc 00000000
-AR Pentawatt_Vertical
-Op 0 0 0
-T0 0 -2000 600 600 0 120 N V 21 N "IC"
-T1 500 3000 600 600 0 120 N V 21 N "Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D"
-T2 -2500 1500 600 600 0 120 N V 21 N "1"
-DS 1300 700 2100 700 150 21
-DS -200 700 200 700 150 21
-DS -2100 700 -1350 700 150 21
-DS -600 -1200 -600 -750 150 21
-DS 600 -1200 600 -750 150 21
-DS 2100 -750 2100 700 150 21
-DS -2100 700 -2100 -750 150 21
-DS 2100 -1200 2100 -750 150 21
-DS 2100 -750 -2100 -750 150 21
-DS -2100 -750 -2100 -1200 150 21
-DS 0 -1200 -2100 -1200 150 21
-DS 0 -1200 2100 -1200 150 21
-$PAD
-Sh "3" O 984 709 0 0 900
-Dr 472 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 0 1496
-$EndPAD
-$PAD
-Sh "1" O 984 709 0 0 900
-Dr 472 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po -1378 1496
-$EndPAD
-$PAD
-Sh "5" O 984 709 0 0 900
-Dr 472 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 1378 1496
-$EndPAD
-$PAD
-Sh "4" O 984 709 0 0 900
-Dr 472 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 709 315
-$EndPAD
-$PAD
-Sh "2" O 984 709 0 0 900
-Dr 472 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po -709 315
-$EndPAD
-$EndMODULE  Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D
 $MODULE Pentawatt_Neutral_Staggered-Typ1_Horizontal_TO220-5-TA05B
-Po 48819 43307 0 15 4DBC26D8 00000000 ~~
+Po 0 0 0 15 4DBC26D8 00000000 ~~
 Li Pentawatt_Neutral_Staggered-Typ1_Horizontal_TO220-5-TA05B
 Cd Pentawatt, Neutral, Staggered Typ 1, Horizontal, TO220-5, TA05B,
 Kw Pentawatt, Neutral, Staggered Typ 1, Horizontal, TO220-5, TA05B,
@@ -193,9 +72,148 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po 669 -827
 $EndPAD
+$SHAPE3D
+Na "TO220-5_Pentawatt_Wings3d_RevA_24Oct2012/TO220-5_TO5B_Pentawatt_Horizontal_Staggered_RevA_Faktor03937_24Oct2012.wrl"
+Sc 0.393700 0.393700 0.393700
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
 $EndMODULE  Pentawatt_Neutral_Staggered-Typ1_Horizontal_TO220-5-TA05B
+$MODULE Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
+Po 0 0 0 15 4DBC26C8 00000000 ~~
+Li Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
+Cd Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
+Kw Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -2000 600 600 0 120 N V 21 N "IC"
+T1 500 3000 600 600 0 120 N V 21 N "Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A"
+DS 1811 -787 2087 -787 150 21
+DS 1024 -787 1142 -787 150 21
+DS 315 -787 394 -787 150 21
+DS -354 -787 -315 -787 150 21
+DS -1102 -787 -1063 -787 150 21
+DS -2087 -787 -1811 -787 150 21
+DS 591 -1181 591 -906 150 21
+DS -591 -1181 -591 -906 150 21
+DS -2087 709 2087 709 150 21
+T2 -2500 1500 600 600 0 120 N V 21 N "1"
+DS 2100 -750 2100 700 150 21
+DS -2100 700 -2100 -750 150 21
+DS 2100 -1200 2100 -750 150 21
+DS -2100 -750 -2100 -1200 150 21
+DS 0 -1200 -2100 -1200 150 21
+DS 0 -1200 2100 -1200 150 21
+$PAD
+Sh "3" O 984 591 0 0 900
+Dr 433 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -236
+$EndPAD
+$PAD
+Sh "1" O 984 591 0 0 900
+Dr 433 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1457 -236
+$EndPAD
+$PAD
+Sh "5" O 984 591 0 0 900
+Dr 433 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1457 -236
+$EndPAD
+$PAD
+Sh "4" O 984 591 0 0 900
+Dr 433 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 709 -236
+$EndPAD
+$PAD
+Sh "2" O 984 591 0 0 900
+Dr 433 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -709 -236
+$EndPAD
+$SHAPE3D
+Na "TO220-5_Pentawatt_Wings3d_RevA_24Oct2012/TO220-5_TO5A_Pentawatt_Vertical_Inline_RevA_Faktor03937_24Oct2012.wrl"
+Sc 0.393700 0.393700 0.393700
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A
+$MODULE Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D
+Po 0 0 0 15 4DBC26D0 00000000 ~~
+Li Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D
+Cd Pentawatt, Neutral, Staggered, Verical, TO220-5, T05D,
+Kw Pentawatt, Neutral, Staggered, Verical, TO220-5, T05D,
+Sc 00000000
+AR Pentawatt_Vertical
+Op 0 0 0
+T0 0 -2000 600 600 0 120 N V 21 N "IC"
+T1 500 3000 600 600 0 120 N V 21 N "Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D"
+T2 -2500 1500 600 600 0 120 N V 21 N "1"
+DS 1300 700 2100 700 150 21
+DS -200 700 200 700 150 21
+DS -2100 700 -1350 700 150 21
+DS -600 -1200 -600 -750 150 21
+DS 600 -1200 600 -750 150 21
+DS 2100 -750 2100 700 150 21
+DS -2100 700 -2100 -750 150 21
+DS 2100 -1200 2100 -750 150 21
+DS 2100 -750 -2100 -750 150 21
+DS -2100 -750 -2100 -1200 150 21
+DS 0 -1200 -2100 -1200 150 21
+DS 0 -1200 2100 -1200 150 21
+$PAD
+Sh "3" O 984 709 0 0 900
+Dr 472 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1496
+$EndPAD
+$PAD
+Sh "1" O 984 709 0 0 900
+Dr 472 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1378 1496
+$EndPAD
+$PAD
+Sh "5" O 984 709 0 0 900
+Dr 472 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1378 1496
+$EndPAD
+$PAD
+Sh "4" O 984 709 0 0 900
+Dr 472 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 709 315
+$EndPAD
+$PAD
+Sh "2" O 984 709 0 0 900
+Dr 472 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -709 315
+$EndPAD
+$SHAPE3D
+Na "TO220-5_Pentawatt_Wings3d_RevA_24Oct2012/TO220-5_TO5D_Pentawatt_Vertical_Staggered_RevA_Faktor03937_24Oct2012.wrl"
+Sc 0.393700 0.393700 0.393700
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D
 $MODULE Pentawatt_Neutral_Staggered-Typ2_Horizontal_TO220-5-T05E
-Po 71260 40945 0 15 4DBC26E0 00000000 ~~
+Po 0 0 0 15 4DBC26E0 00000000 ~~
 Li Pentawatt_Neutral_Staggered-Typ2_Horizontal_TO220-5-T05E
 Cd Pentawatt, Neutral, Staggered Typ 2, Horizontal, TO220-5, T05E,
 Kw Pentawatt, Neutral, Staggered Typ 2, Horizontal, TO220-5, T05E,
@@ -260,5 +278,11 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po 669 551
 $EndPAD
+$SHAPE3D
+Na "TO220-5_Pentawatt_Wings3d_RevA_24Oct2012/TO220-5_TO5E_Pentawatt_Horizontal_Staggered_RevA_Faktor03937_24Oct2012.wrl"
+Sc 0.393700 0.393700 0.393700
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
 $EndMODULE  Pentawatt_Neutral_Staggered-Typ2_Horizontal_TO220-5-T05E
 $EndLIBRARY
