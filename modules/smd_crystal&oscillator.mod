@@ -1,0 +1,101 @@
+PCBNEW-LibModule-V1  21/03/2013 14:07:44
+# encoding utf-8
+Units mm
+$INDEX
+Q_49U3HMS
+crystal_FA238-TSX3225
+$EndINDEX
+$MODULE Q_49U3HMS
+Po 0 0 0 15 511CC0BB 00000000 ~~
+Li Q_49U3HMS
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.1 -1.6 0.8 0.8 0 0.15 N V 21 N "Q_49U3HMS"
+T1 0 1.7 0.8 0.8 0 0.15 N V 21 N "VAL***"
+DS -4.953 -1.651 -4.953 -1.27 0.15 21
+DS -4.953 1.651 -4.953 1.27 0.15 21
+DS 4.953 1.651 4.953 1.27 0.15 21
+DS 4.953 -1.651 4.953 -1.27 0.15 21
+DS 5.715 -2.54 5.715 -1.27 0.15 21
+DS 5.715 2.54 5.715 1.27 0.15 21
+DS -5.715 2.54 -5.715 1.27 0.15 21
+DS -5.715 -2.54 -5.715 -1.27 0.15 21
+DS -4.953 1.651 -4.318 2.286 0.15 21
+DS -4.318 2.286 4.318 2.286 0.15 21
+DS 4.318 2.286 4.953 1.651 0.15 21
+DS 4.953 -1.651 4.318 -2.286 0.15 21
+DS 4.318 -2.286 -4.318 -2.286 0.15 21
+DS -4.318 -2.286 -4.953 -1.651 0.15 21
+DS 5.715 2.54 -5.715 2.54 0.15 21
+DS -5.715 -2.54 5.715 -2.54 0.15 21
+$PAD
+Sh "1" R 5.4991 1.99898 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.699 0
+$EndPAD
+$PAD
+Sh "2" R 5.4991 1.99898 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.699 0
+$EndPAD
+$SHAPE3D
+Na "smd/smd_crystal&oscillator/crystal_hc-49-smd.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE Q_49U3HMS
+$MODULE crystal_FA238-TSX3225
+Po 0 0 0 15 514AEB06 00000000 ~~
+Li crystal_FA238-TSX3225
+Cd crystal Epson Toyocom FA-238 and TSX-3225 series
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.1 -2.3 0.8 0.8 0 0.15 N V 21 N "crystal_FA238-TSX3225"
+T1 0.2 2.3 0.8 0.8 0 0.15 N V 21 N "VAL***"
+DS -1.6 -1.3 1.6 -1.3 0.15 21
+DS 1.6 -1.3 1.6 1.3 0.15 21
+DS 1.6 1.3 -1.6 1.3 0.15 21
+DS -1.6 1.3 -1.6 -1.3 0.15 21
+$PAD
+Sh "1" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0.8
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0.8
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 -0.8
+$EndPAD
+$PAD
+Sh "2" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 -0.8
+$EndPAD
+$SHAPE3D
+Na "smd/smd_crystal&oscillator/crystal_4pins_smd.wrl"
+Sc 0.24 0.24 0.24
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE crystal_FA238-TSX3225
+$EndLIBRARY
