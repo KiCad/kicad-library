@@ -18,6 +18,7 @@ if(UNIX)
             CACHE PATH "Location of KiCad data files.")
         set(KICAD_MODULES ${KICAD_DATA}/modules)
         set(KICAD_LIBRARY ${KICAD_DATA}/library)
+        set(KICAD_TEMPLATES ${KICAD_DATA}/template)
     endif(APPLE)
 endif(UNIX)
 
@@ -28,6 +29,7 @@ if(WIN32)
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
     set(KICAD_MODULES modules)
     set(KICAD_LIBRARY library)
+    set(KICAD_TEMPLATES template)
 endif(WIN32)
 
 mark_as_advanced(KICAD_DATA
@@ -38,3 +40,4 @@ mark_as_advanced(KICAD_DATA
 # Resources.
 add_subdirectory(library)
 add_subdirectory(modules)
+add_subdirectory(template)
