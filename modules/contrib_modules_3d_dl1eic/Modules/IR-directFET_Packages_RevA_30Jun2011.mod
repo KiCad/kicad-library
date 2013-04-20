@@ -1,0 +1,1622 @@
+PCBNEW-LibModule-V1  Fr 01 Jul 2011 02:12:56 CEST
+# encoding utf-8
+$INDEX
+IR-directFET_ST-Outline_Names_RevA_30Jun2011
+IR-directFET_ST-Outline_Numbers_RevA_30Jun2011
+IR-directFET_ST-Outline_Numbers_SquareHeatSink_RevA_30Jun2011
+IR-directFET_MN-Outline_Names_RevA_30Jun2011
+IR-directFET_MN-Outline_Numbers_RevA_30Jun2011
+IR-directFET_SJ-Outline_Names_RevA_30Jun2011
+IR-directFET_SJ-Outline_Numbers_RevA_30Jun2011
+IR-directFET_SH-Outline_Names_RevA_30Jun2011
+IR-directFET_SH-Outline_Numbers_RevA_30Jun2011
+IR-directFET_MZ-Outline_Names_RevA_30Jun2011
+IR-directFET_MZ-Outline_Numnbers_RevA_30Jun2011
+IR-directFET_SQ-Outline_Names_RevA_30Jun2011
+IR-directFET_SQ-Outline_Numbers_RevA_30Jun2011
+IR-directFET_S1-Outline_Names_RevA_30Jun2011
+IR-directFET_S1-Outline_Numbers_RevA_30Jun2011
+IR-directFET_MP-Outline_Names_RevA_30Jun2011
+IR-directFET_MP-Outline_Numbers_RevA_30Jun2011
+IR-directFET_MT-Outline_Numbers_RevA_30Jun2011
+IR-directFET_MT-Outline_Names_RevA_30Jun2011
+IR-directFET_MX-Outline_Names_RevA_30Jun2011
+IR-directFET_MX-Outline_Numbers_RevA_30Jun2011
+IR-directFET_L8-Outline_Names_RevA_30Jun2011
+IR-directFET_L8-Outline_Numbers_RevA_30Jun2011
+$EndINDEX
+$MODULE IR-directFET_ST-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0BBD2B 00000000 ~~
+Li IR-directFET_ST-Outline_Names_RevA_30Jun2011
+Cd IR directFRT, ST-Outline, Pads named,
+Kw IR directFRT, ST-Outline, Pads named,
+Sc 00000000
+AR
+Op 0 0 0
+T0 -4 -1819 600 600 0 120 N V 21 N "T"
+T1 -4 1575 600 600 0 120 N I 21 N "IR-directFET_ST-Outline_Names_RevA_30Jun2011"
+DS -748 748 748 748 150 21
+DS -748 -748 748 -748 150 21
+$PAD
+Sh "G" R 256 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -244 0
+$EndPAD
+$PAD
+Sh "S" R 256 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 303 -205
+.SolderMask 79
+$EndPAD
+$PAD
+Sh "S" R 256 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 303 205
+.SolderMask 39
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -909 -323
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -909 323
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 984 -323
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 984 323
+$EndPAD
+$EndMODULE  IR-directFET_ST-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_ST-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0C4B5B 00000000 ~~
+Li IR-directFET_ST-Outline_Numbers_RevA_30Jun2011
+Cd IR directFRT, ST-Outline, Pads munbered,
+Kw IR directFRT, ST-Outline, Pads numbered,
+Sc 00000000
+AR IR-directFET_ST-Outline_Numbers_RevA_30Jun2011
+Op 0 0 0
+T0 -4 -1819 600 600 0 120 N V 21 N "T"
+T1 -4 1575 600 600 0 120 N I 21 N "IR-directFET_ST-Outline_Numbers_RevA_30Jun2011"
+DS -748 748 748 748 150 21
+DS -748 -748 748 -748 150 21
+$PAD
+Sh "5" R 256 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -244 0
+$EndPAD
+$PAD
+Sh "4" R 256 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 303 -205
+.SolderMask 79
+$EndPAD
+$PAD
+Sh "4" R 256 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 303 205
+.SolderMask 39
+$EndPAD
+$PAD
+Sh "6" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -909 -323
+$EndPAD
+$PAD
+Sh "7" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -909 323
+$EndPAD
+$PAD
+Sh "1" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 984 -323
+$EndPAD
+$PAD
+Sh "3" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 984 323
+$EndPAD
+$EndMODULE  IR-directFET_ST-Outline_Numbers_RevA_30Jun2011
+$MODULE IR-directFET_ST-Outline_Numbers_SquareHeatSink_RevA_30Jun2011
+Po 0 0 0 15 4E0CC6B9 00000000 ~~
+Li IR-directFET_ST-Outline_Numbers_SquareHeatSink_RevA_30Jun2011
+Cd IR directFRT, ST-Outline, Pads munbered,
+Kw IR directFRT, ST-Outline, Pads numbered,
+Sc 00000000
+AR IR-directFET_ST-Outline_Numbers_RevA_30Jun2011
+Op 0 0 0
+T0 0 -5800 600 600 0 120 N V 21 N "T"
+T1 0 6400 600 600 0 120 N I 21 N "IR-directFET_ST-Outline_Numbers_SquareHeatSink_RevA_30Jun2011"
+DS -900 4800 -1900 4800 150 15
+DS -1900 4800 -2000 5000 150 15
+DS -4800 4800 -900 4900 150 15
+DS -4800 -400 -900 -400 150 15
+DS -4900 -800 -1000 -800 150 15
+DS -4900 -4800 4900 -4800 150 15
+DS 1000 4600 4900 4600 400 15
+DS 1000 4200 4900 4200 400 15
+DS 1000 3800 4900 3800 400 15
+DS 1000 3400 4900 3400 400 15
+DS 1000 3000 4900 3000 400 15
+DS 1000 2600 4900 2600 400 15
+DS 1000 2200 4900 2200 400 15
+DS 1000 1800 4900 1800 400 15
+DS 1000 1400 4900 1400 400 15
+DS 1000 1000 4800 1000 400 15
+DS 1000 600 4800 600 400 15
+DS 1000 200 4800 200 400 15
+DS 1000 -200 4900 -200 400 15
+DS 1000 -600 4900 -600 400 15
+DS 4900 5000 1000 5000 400 15
+DS -4900 4600 -1000 4600 400 15
+DS -4900 4200 -1000 4200 400 15
+DS -4900 3800 -1000 3800 400 15
+DS -4900 3400 -1000 3400 400 15
+DS -4900 3000 -900 3000 400 15
+DS -4900 2600 -1000 2600 400 15
+DS -4900 2200 -900 2200 400 15
+DS -5000 1800 -900 1800 400 15
+DS -4800 1400 -900 1400 400 15
+DS -4900 1000 -900 1000 400 15
+DS -4900 600 -1000 600 400 15
+DS -4900 200 -1000 200 400 15
+DS -4900 -200 -900 -200 400 15
+DS -4900 -600 -1000 -600 300 15
+DS -4900 -1000 4900 -1000 400 15
+DS -4900 -1400 4900 -1400 400 15
+DS -4900 -1800 4900 -1800 400 15
+DS -4900 -2200 4900 -2200 400 15
+DS -4900 -2600 4900 -2600 400 15
+DS -4900 -3000 4900 -3000 400 15
+DS -4900 -3400 4900 -3400 400 15
+DS -4900 -3800 4900 -3800 400 15
+DS -4900 -4200 4900 -4200 400 15
+DS -4900 -4600 4900 -4600 400 15
+DS -800 800 -800 -800 300 15
+DS -800 -800 800 -800 300 15
+DS 900 -800 900 1000 300 15
+DS -800 1000 -800 800 300 15
+DS 4800 -5000 -800 -5000 300 15
+DS 5000 4800 5000 -4800 300 15
+DS -4800 5000 -800 5000 300 15
+DS -5000 -4800 -5000 4800 300 15
+DS -800 -5000 -4800 -5000 300 15
+DS -5000 4800 -5000 5000 300 15
+DS -5000 5000 -4800 5000 300 15
+DS -4800 -5000 -5000 -5000 300 15
+DS -5000 -5000 -5000 -4800 300 15
+DS 4800 -5000 5000 -5000 300 15
+DS 5000 -5000 5000 -4800 300 15
+DS 4800 5000 5000 5000 300 15
+DS 5000 5000 5000 4800 300 15
+DS -800 1000 -800 5000 300 15
+DS 900 1000 900 5000 300 15
+DS -748 748 748 748 150 25
+DS -748 -748 748 -748 150 25
+$PAD
+Sh "5" R 256 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -244 0
+$EndPAD
+$PAD
+Sh "4" R 256 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 303 -205
+.SolderMask 79
+$EndPAD
+$PAD
+Sh "4" R 256 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 303 205
+.SolderMask 39
+$EndPAD
+$PAD
+Sh "6" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -909 -323
+$EndPAD
+$PAD
+Sh "7" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -909 323
+$EndPAD
+$PAD
+Sh "1" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 984 -323
+$EndPAD
+$PAD
+Sh "3" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 984 323
+$EndPAD
+$EndMODULE  IR-directFET_ST-Outline_Numbers_SquareHeatSink_RevA_30Jun2011
+$MODULE IR-directFET_MN-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0CD1C2 00000000 ~~
+Li IR-directFET_MN-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, MN-Outline, Pads with Names,
+Kw IR-directFET, MN-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 4 -1543 600 600 0 120 N V 21 N "T"
+T1 0 1800 600 600 0 120 N I 21 N "IR-directFET_MN-Outline_Names_RevA_30Jun201"
+DS -961 -965 965 -965 150 21
+DS 965 -965 965 965 150 21
+DS 965 965 -965 965 150 21
+DS -965 965 -965 -965 150 21
+DS -965 -965 -965 -969 150 21
+$PAD
+Sh "G" R 335 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -441 0
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 -465
+.SolderPasteRatio -0.001
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1252 -465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1252 465
+$EndPAD
+$PAD
+Sh "S" R 571 374 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 276 -276
+$EndPAD
+$PAD
+Sh "S" R 571 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 276 276
+$EndPAD
+$EndMODULE  IR-directFET_MN-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_MN-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0CD233 00000000 ~~
+Li IR-directFET_MN-Outline_Numbers_RevA_30Jun2011
+Cd IR-directFET, MN-Outline, Pads with Numbers,
+Kw IR-directFET, MN-Outline, Pads with Numbers,
+Sc 00000000
+AR
+Op 0 0 0
+T0 4 -1543 600 600 0 120 N V 21 N "T"
+T1 0 1800 600 600 0 120 N I 21 N "IR-directFET_MN-Outline_Numbers_RevA_30Jun201"
+DS -961 -965 965 -965 150 21
+DS 965 -965 965 965 150 21
+DS 965 965 -965 965 150 21
+DS -965 965 -965 -965 150 21
+DS -965 -965 -965 -969 150 21
+$PAD
+Sh "5" R 335 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -441 0
+$EndPAD
+$PAD
+Sh "6" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 -465
+.SolderPasteRatio -0.001
+$EndPAD
+$PAD
+Sh "7" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 465
+$EndPAD
+$PAD
+Sh "1" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1252 -465
+$EndPAD
+$PAD
+Sh "2" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1252 465
+$EndPAD
+$PAD
+Sh "3" R 571 374 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 276 -276
+$EndPAD
+$PAD
+Sh "4" R 571 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 276 276
+$EndPAD
+$EndMODULE  IR-directFET_MN-Outline_Numbers_RevA_30Jun2011
+$MODULE IR-directFET_SJ-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0CD8B0 00000000 ~~
+Li IR-directFET_SJ-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, SJ-Outline, Pads with Names,
+Kw IR-directFET, SJ-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 4 -1543 600 600 0 120 N V 21 N "T"
+T1 0 1800 600 600 0 120 N I 21 N "IR-directFET_SJ-Outline_Names_RevA_30Jun201"
+DS 787 787 -787 787 150 21
+DS -787 -787 787 -787 150 21
+DS 787 -787 791 -787 150 21
+$PAD
+Sh "G" R 256 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -280 -4
+$EndPAD
+$PAD
+Sh "S" R 295 295 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 255 -189
+$EndPAD
+$PAD
+Sh "S" R 295 295 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 255 189
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 -327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 964 -327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 964 327
+$EndPAD
+$EndMODULE  IR-directFET_SJ-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_SJ-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0CD965 00000000 ~~
+Li IR-directFET_SJ-Outline_Numbers_RevA_30Jun2011
+Cd IR-directFET, SJ-Outline, Pads with Numbers,
+Kw IR-directFET, SJ-Outline, Pads with Numbers,
+Sc 00000000
+AR
+Op 0 0 0
+T0 4 -1543 600 600 0 120 N V 21 N "T"
+T1 0 1800 600 600 0 120 N I 21 N "IR-directFET_SJ-Outline_Numbers_RevA_30Jun201"
+DS 787 787 -787 787 150 21
+DS -787 -787 787 -787 150 21
+DS 787 -787 791 -787 150 21
+$PAD
+Sh "5" R 256 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -280 -4
+$EndPAD
+$PAD
+Sh "3" R 295 295 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 255 -189
+$EndPAD
+$PAD
+Sh "4" R 295 295 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 255 189
+$EndPAD
+$PAD
+Sh "6" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 -327
+$EndPAD
+$PAD
+Sh "7" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 327
+$EndPAD
+$PAD
+Sh "1" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 964 -327
+$EndPAD
+$PAD
+Sh "2" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 964 327
+$EndPAD
+$EndMODULE  IR-directFET_SJ-Outline_Numbers_RevA_30Jun2011
+$MODULE IR-directFET_SH-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0CDF5B 00000000 ~~
+Li IR-directFET_SH-Outline_Numbers_RevA_30Jun2011
+Cd IR-directFET, SH-Outline, Pads with Numbers,
+Kw IR-directFET, SH-Outline, Pads with Numbers,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1457 600 600 0 120 N V 21 N "T"
+T1 0 1732 600 600 0 120 N I 21 N "IR-directFET_SH-Outline_Numbers_RevA_30Jun2011"
+DS 787 787 -787 787 150 21
+DS -787 -787 787 -787 150 21
+$PAD
+Sh "G" R 256 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -276 -4
+$EndPAD
+$PAD
+Sh "S" R 276 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 252 0
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -961 -327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 956 -327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 956 327
+$EndPAD
+$EndMODULE  IR-directFET_SH-Outline_Numbers_RevA_30Jun2011
+$MODULE IR-directFET_SH-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0CE00D 00000000 ~~
+Li IR-directFET_SH-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, SH-Outline, Pads with Names,
+Kw IR-directFET, SH-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1600 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_SH-Outline_Names_RevA_30Jun2011"
+DS 787 787 -787 787 150 21
+DS -787 -787 787 -787 150 21
+$PAD
+Sh "G" R 256 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -276 -4
+$EndPAD
+$PAD
+Sh "S" R 276 354 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 252 0
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -961 -327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 956 -327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 956 327
+$EndPAD
+$EndMODULE  IR-directFET_SH-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_MZ-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0CE44F 00000000 ~~
+Li IR-directFET_MZ-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, MZ-Outline, Pads with Names,
+Kw IR-directFET, MZ-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1800 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_MZ-Outline_Names_RevA_30Jun2011"
+DS 1024 1024 -1024 1024 150 21
+DS -1024 -1024 1024 -1024 150 21
+$PAD
+Sh "G" R 295 295 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -472 0
+$EndPAD
+$PAD
+Sh "S" R 394 276 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 130 -189
+$EndPAD
+$PAD
+Sh "S" R 394 276 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 130 189
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1259 -465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1259 465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 -465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 465
+$EndPAD
+$EndMODULE  IR-directFET_MZ-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_MZ-Outline_Numnbers_RevA_30Jun2011
+Po 0 0 0 15 4E0CE507 00000000 ~~
+Li IR-directFET_MZ-Outline_Numnbers_RevA_30Jun2011
+Cd IR-directFET, MZ-Outline, Pads with Numnbers
+Kw IR-directFET, MZ-Outline, Pads with Numnbers
+Sc 00000000
+AR
+Op 0 0 0
+T0 -39 -1850 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_MZ-Outline_Numnbers_RevA_30Jun2011"
+DS 1024 1024 -1024 1024 150 21
+DS -1024 -1024 1024 -1024 150 21
+$PAD
+Sh "5" R 295 295 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -472 0
+$EndPAD
+$PAD
+Sh "4" R 394 276 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 130 -189
+$EndPAD
+$PAD
+Sh "4" R 394 276 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 130 189
+$EndPAD
+$PAD
+Sh "6" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1259 -465
+$EndPAD
+$PAD
+Sh "7" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1259 465
+$EndPAD
+$PAD
+Sh "1" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 -465
+$EndPAD
+$PAD
+Sh "2" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 465
+$EndPAD
+$EndMODULE  IR-directFET_MZ-Outline_Numnbers_RevA_30Jun2011
+$MODULE IR-directFET_SQ-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0CEDC4 00000000 ~~
+Li IR-directFET_SQ-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, SQ-Outline, Pads with Names,
+Kw IR-directFET, SQ-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1575 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_SQ-Outline_Names_RevA_30Jun2011"
+DS 787 787 -787 787 150 21
+DS -787 -787 787 -787 150 21
+$PAD
+Sh "G" R 217 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -315 0
+$EndPAD
+$PAD
+Sh "S" R 374 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 0
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 -327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 965 -327
+$EndPAD
+$PAD
+Sh "D" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 965 327
+$EndPAD
+$EndMODULE  IR-directFET_SQ-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_SQ-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0CEE8E 00000000 ~~
+Li IR-directFET_SQ-Outline_Numbers_RevA_30Jun2011
+Cd IR-directFET, SQ-Outline, Pads with Numbers,
+Kw IR-directFET, SQ-Outline, Pads with Numbers,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1575 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_SQ-Outline_Numbers_RevA_30Jun2011"
+DS 787 787 -787 787 150 21
+DS -787 -787 787 -787 150 21
+$PAD
+Sh "4" R 217 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -315 0
+$EndPAD
+$PAD
+Sh "3" R 374 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 197 0
+$EndPAD
+$PAD
+Sh "5" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 -327
+$EndPAD
+$PAD
+Sh "6" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -965 327
+$EndPAD
+$PAD
+Sh "1" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 965 -327
+$EndPAD
+$PAD
+Sh "2" R 354 492 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 965 327
+$EndPAD
+$EndMODULE  IR-directFET_SQ-Outline_Numbers_RevA_30Jun2011
+$MODULE IR-directFET_S1-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0CF22D 00000000 ~~
+Li IR-directFET_S1-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, S1-Outline, Pads with Names,
+Kw IR-directFET, S1-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1575 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_S1-Outline_Names_RevA_30Jun2011"
+DS 787 787 -787 787 150 21
+DS -787 -787 787 -787 150 21
+$PAD
+Sh "G" R 217 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -350 -4
+$EndPAD
+$PAD
+Sh "S" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "S" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 355 0
+$EndPAD
+$PAD
+Sh "D" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -964 -327
+$EndPAD
+$PAD
+Sh "D" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -964 327
+$EndPAD
+$PAD
+Sh "D" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 965 -327
+$EndPAD
+$PAD
+Sh "D" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 965 327
+$EndPAD
+$EndMODULE  IR-directFET_S1-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_S1-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0CF2A9 00000000 ~~
+Li IR-directFET_S1-Outline_Numbers_RevA_30Jun2011
+Cd IR-directFET, S1-Outline, Pads with Numbers,
+Kw IR-directFET, S1-Outline, Pads with Numbers,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1575 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_S1-Outline_Numbers_RevA_30Jun2011"
+DS 787 787 -787 787 150 21
+DS -787 -787 787 -787 150 21
+$PAD
+Sh "5" R 217 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -350 -4
+$EndPAD
+$PAD
+Sh "4" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 355 0
+$EndPAD
+$PAD
+Sh "6" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -964 -327
+$EndPAD
+$PAD
+Sh "7" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -964 327
+$EndPAD
+$PAD
+Sh "1" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 965 -327
+$EndPAD
+$PAD
+Sh "2" R 217 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 965 327
+$EndPAD
+$EndMODULE  IR-directFET_S1-Outline_Numbers_RevA_30Jun2011
+$MODULE IR-directFET_MP-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0CF76C 00000000 ~~
+Li IR-directFET_MP-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, MP-Outline, Pads with Names,
+Kw IR-directFET, MP-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1614 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_MP-Outline_Names_RevA_30Jun2011"
+DS 1024 1024 -1024 1024 150 21
+DS -1024 -1024 1024 -1024 150 21
+$PAD
+Sh "G" R 256 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -315 0
+$EndPAD
+$PAD
+Sh "S" R 327 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 232 -165
+$EndPAD
+$PAD
+Sh "S" R 327 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 232 165
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 -465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 -465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 465
+$EndPAD
+$EndMODULE  IR-directFET_MP-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_MP-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0CF7E1 00000000 ~~
+Li IR-directFET_MP-Outline_Numbers_RevA_30Jun2011
+Cd IR-directFET, MP-Outline, Pads with Numbers,
+Kw IR-directFET, MP-Outline, Pads with Numbers,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1614 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_MP-Outline_Numbers_RevA_30Jun2011"
+DS 1024 1024 -1024 1024 150 21
+DS -1024 -1024 1024 -1024 150 21
+$PAD
+Sh "5" R 256 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -315 0
+$EndPAD
+$PAD
+Sh "3" R 327 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 232 -165
+$EndPAD
+$PAD
+Sh "4" R 327 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 232 165
+$EndPAD
+$PAD
+Sh "6" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 -465
+$EndPAD
+$PAD
+Sh "7" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 465
+$EndPAD
+$PAD
+Sh "1" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 -465
+$EndPAD
+$PAD
+Sh "2" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 465
+$EndPAD
+$EndMODULE  IR-directFET_MP-Outline_Numbers_RevA_30Jun2011
+$MODULE IR-directFET_MT-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0CFF35 00000000 ~~
+Li IR-directFET_MT-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, MT-Outline, Pads with Names,
+Kw IR-directFET, MT-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1614 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_MT-Outline_Names_RevA_30Jun2011"
+DS 1024 1024 -1024 1024 150 21
+DS -1024 -1024 1024 -1024 150 21
+$PAD
+Sh "G" R 335 374 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -555 0
+$EndPAD
+$PAD
+Sh "S" R 728 413 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 272 -327
+$EndPAD
+$PAD
+Sh "S" R 728 413 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 272 327
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1264 -465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1264 465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 -465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 465
+$EndPAD
+$EndMODULE  IR-directFET_MT-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_MT-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0CFFC2 00000000 ~~
+Li IR-directFET_MT-Outline_Numbers_RevA_30Jun2011
+Cd IR-directFET, MT-Outline, Pads with Numbers,
+Kw IR-directFET, MT-Outline, Pads with Numbers,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1614 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_MT-Outline_Numbers_RevA_30Jun2011"
+DS 1024 1024 -1024 1024 150 21
+DS -1024 -1024 1024 -1024 150 21
+$PAD
+Sh "5" R 335 374 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -555 0
+$EndPAD
+$PAD
+Sh "3" R 728 413 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 272 -327
+$EndPAD
+$PAD
+Sh "4" R 728 413 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 272 327
+$EndPAD
+$PAD
+Sh "6" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1264 -465
+$EndPAD
+$PAD
+Sh "7" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1264 465
+$EndPAD
+$PAD
+Sh "1" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 -465
+$EndPAD
+$PAD
+Sh "2" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 465
+$EndPAD
+$EndMODULE  IR-directFET_MT-Outline_Numbers_RevA_30Jun2011
+$MODULE IR-directFET_MX-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0D0366 00000000 ~~
+Li IR-directFET_MX-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, MX-Outline, Pads with Names,
+Kw IR-directFET, MX-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 12 -1705 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_MX-Outline_Names_RevA_30Jun2011"
+DS 1024 1024 -1024 1024 150 21
+DS -1024 -1024 1024 -1024 150 21
+$PAD
+Sh "G" R 295 295 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -571 0
+$EndPAD
+$PAD
+Sh "S" R 571 343 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 118 -240
+$EndPAD
+$PAD
+Sh "S" R 571 343 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 118 240
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 -465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 -465
+$EndPAD
+$EndMODULE  IR-directFET_MX-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_MX-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0D0366 00000000 ~~
+Li IR-directFET_MX-Outline_Numbers_RevA_30Jun2011
+Cd IR-directFET, MX-Outline, Pads with Numbers,
+Kw IR-directFET, MX-Outline, Pads with Numbers,
+Sc 00000000
+AR
+Op 0 0 0
+T0 12 -1705 600 600 0 120 N V 21 N "T"
+T1 0 1900 600 600 0 120 N I 21 N "IR-directFET_MX-Outline_Numbers_RevA_30Jun2011"
+DS 1024 1024 -1024 1024 150 21
+DS -1024 -1024 1024 -1024 150 21
+$PAD
+Sh "G" R 295 295 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -571 0
+$EndPAD
+$PAD
+Sh "S" R 571 343 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 118 -240
+$EndPAD
+$PAD
+Sh "S" R 571 343 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 118 240
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 -465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1260 465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 465
+$EndPAD
+$PAD
+Sh "D" R 354 728 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1260 -465
+$EndPAD
+$EndMODULE  IR-directFET_MX-Outline_Numbers_RevA_30Jun2011
+$MODULE IR-directFET_L8-Outline_Names_RevA_30Jun2011
+Po 0 0 0 15 4E0D1025 00000000 ~~
+Li IR-directFET_L8-Outline_Names_RevA_30Jun2011
+Cd IR-directFET, L8-Outline, Pads with Names,
+Kw IR-directFET, L8-Outline, Pads with Names,
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1969 600 600 0 120 N V 21 N "T"
+T1 0 2362 600 600 0 120 N I 21 N "IR-directFET_L8-Outline_Names_RevA_30Jun2011"
+DS -1398 -1398 1398 -1398 150 21
+DS 1398 -1398 1398 1398 150 21
+DS 1398 1398 -1398 1398 150 21
+DS -1398 1398 -1398 -1398 150 21
+$PAD
+Sh "G" R 276 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 0
+$EndPAD
+$PAD
+Sh "S" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -335 -228
+$EndPAD
+$PAD
+Sh "S" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -335 228
+$EndPAD
+$PAD
+Sh "S" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 228
+$EndPAD
+$PAD
+Sh "S" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 -228
+$EndPAD
+$PAD
+Sh "S" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -335 -681
+$EndPAD
+$PAD
+Sh "S" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 -681
+$EndPAD
+$PAD
+Sh "S" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -335 681
+$EndPAD
+$PAD
+Sh "S" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 681
+$EndPAD
+$PAD
+Sh "D" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1772 0
+$EndPAD
+$PAD
+Sh "D" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1772 -866
+$EndPAD
+$PAD
+Sh "D" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1772 866
+$EndPAD
+$PAD
+Sh "D" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1771 0
+$EndPAD
+$PAD
+Sh "D" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1771 866
+$EndPAD
+$PAD
+Sh "D" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1771 -866
+$EndPAD
+$EndMODULE  IR-directFET_L8-Outline_Names_RevA_30Jun2011
+$MODULE IR-directFET_L8-Outline_Numbers_RevA_30Jun2011
+Po 0 0 0 15 4E0D1104 00000000 ~~
+Li IR-directFET_L8-Outline_Numbers_RevA_30Jun2011
+Cd IR-directFET, L8-Outline, Pads with Numbers,
+Kw IR-directFET, L8-Outline, Pads with Numbers,
+Sc 00000000
+AR 
+Op 0 0 0
+T0 0 -1969 600 600 0 120 N V 21 N "T"
+T1 0 2362 600 600 0 120 N I 21 N "IR-directFET_L8-Outline_Numbers_RevA_30Jun2011"
+DS -1398 -1398 1398 -1398 150 21
+DS 1398 -1398 1398 1398 150 21
+DS 1398 1398 -1398 1398 150 21
+DS -1398 1398 -1398 -1398 150 21
+$PAD
+Sh "12" R 276 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 0
+$EndPAD
+$PAD
+Sh "9" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -335 -228
+$EndPAD
+$PAD
+Sh "10" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -335 228
+$EndPAD
+$PAD
+Sh "6" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 228
+$EndPAD
+$PAD
+Sh "5" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 -228
+$EndPAD
+$PAD
+Sh "8" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -335 -681
+$EndPAD
+$PAD
+Sh "4" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 -681
+$EndPAD
+$PAD
+Sh "11" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -335 681
+$EndPAD
+$PAD
+Sh "7" R 433 335 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 768 681
+$EndPAD
+$PAD
+Sh "14" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1772 0
+$EndPAD
+$PAD
+Sh "13" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1772 -866
+$EndPAD
+$PAD
+Sh "15" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1772 866
+$EndPAD
+$PAD
+Sh "2" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1771 0
+$EndPAD
+$PAD
+Sh "3" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1771 866
+$EndPAD
+$PAD
+Sh "1" R 433 669 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1771 -866
+$EndPAD
+$EndMODULE  IR-directFET_L8-Outline_Numbers_RevA_30Jun2011
+$EndLIBRARY
