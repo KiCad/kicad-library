@@ -4,11 +4,11 @@ DEF tab Transform {
   children [
     Shape {
       appearance Appearance {
-        material DEF default Material {
+        material DEF pin Material {
           diffuseColor 1.0 1.0 1.0
-          emissiveColor 0.0 0.0 0.0
-          specularColor 1.0 1.0 1.0
-          ambientIntensity 1.0
+          emissiveColor 0.611765 0.8705882352941177 0.8274509803921568
+          specularColor 0.611765 0.8705882352941177 0.8274509803921568
+          ambientIntensity 0.7699347385620916
           transparency 0.0
           shininess 1.0
         }
@@ -65,7 +65,7 @@ DEF tab Transform {
           4, 7, 11, 10, -1,
           8, 9, 10, 11, -1 ]
         color Color { color [
-          0.47451 0.6705882352941176 0.6039215686274509,
+          0.4745100140571594 0.6705882549285889 0.6039215922355652,
           1.0 1.0 1.0 ] }
         colorIndex [
           0, 0, 0, 0, -1,
@@ -87,14 +87,7 @@ DEF pin3 Transform {
   children [
     Shape {
       appearance Appearance {
-        material DEF pin Material {
-          diffuseColor 1.0 1.0 1.0
-          emissiveColor 0.611765 0.8705882352941177 0.8274509803921568
-          specularColor 0.611765 0.8705882352941177 0.8274509803921568
-          ambientIntensity 0.7699347385620916
-          transparency 0.0
-          shininess 1.0
-        }
+        material USE pin
       }
       geometry IndexedFaceSet {
         normalPerVertex TRUE
@@ -192,7 +185,7 @@ DEF pin3 Transform {
           18, 19, 23, 21, -1,
           20, 21, 23, 22, -1 ]
         color Color { color [
-          0.545098 0.7725490196078432 0.7333333333333333,
+          0.5450980067253113 0.772549033164978 0.7333333492279053,
           1.0 1.0 1.0 ] }
         colorIndex [
           0, 0, 0, 0, -1,
@@ -322,7 +315,7 @@ DEF pin1 Transform {
           18, 19, 23, 21, -1,
           20, 21, 23, 22, -1 ]
         color Color { color [
-          0.545098 0.7725490196078432 0.7333333333333333,
+          0.5450980067253113 0.772549033164978 0.7333333492279053,
           1.0 1.0 1.0 ] }
         colorIndex [
           0, 0, 0, 0, -1,
@@ -354,11 +347,11 @@ DEF body Transform {
   children [
     Shape {
       appearance Appearance {
-        material DEF body Material {
+        material DEF default Material {
           diffuseColor 1.0 1.0 1.0
-          emissiveColor 0.12549 0.1450980392156863 0.3686274509803922
-          specularColor 0.12549 0.1450980392156863 0.3686274509803922
-          ambientIntensity 0.21307183006535949
+          emissiveColor 0.0 0.0 0.0
+          specularColor 0.15368888888888893 0.10515555555555556 0.6066666666666667
+          ambientIntensity 0.2888888300653594
           transparency 0.0
           shininess 1.0
         }
@@ -405,7 +398,7 @@ DEF body Transform {
           4, 5, 6, 7, -1,
           4, 7, 9, 8, -1 ]
         color Color { color [
-          0.117647 0.13725490196078433 0.34901960784313724,
+          0.11764699965715408 0.13725490868091583 0.3490196168422699,
           1.0 1.0 1.0 ] }
         colorIndex [
           0, 0, 0, 0, 0, -1,
@@ -462,7 +455,7 @@ DEF pin2 Transform {
           2, 3, 7, 6, -1,
           4, 5, 6, 7, -1 ]
         color Color { color [
-          0.545098 0.7725490196078432 0.7333333333333333,
+          0.5450980067253113 0.772549033164978 0.7333333492279053,
           1.0 1.0 1.0 ] }
         colorIndex [
           0, 0, 0, 0, -1,
