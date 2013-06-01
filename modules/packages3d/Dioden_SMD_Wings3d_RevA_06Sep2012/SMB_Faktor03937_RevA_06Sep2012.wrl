@@ -4,11 +4,11 @@ DEF pin2 Transform {
   children [
     Shape {
       appearance Appearance {
-        material DEF body Material {
-          diffuseColor 1.0 1.0 1.0
-          emissiveColor 0.0 0.0 0.0
-          specularColor 0.0 0.18823529411764706 0.29411764705882354
-          ambientIntensity 0.16
+        material DEF pin Material {
+          diffuseColor 0.905882 1.0 0.9607843137254902
+          emissiveColor 0.54902 0.6549019607843137 0.5686274509803921
+          specularColor 0.54902 0.6549019607843137 0.5686274509803921
+          ambientIntensity 0.5903923048571689
           transparency 0.0
           shininess 1.0
         }
@@ -67,14 +67,7 @@ DEF pin1 Transform {
   children [
     Shape {
       appearance Appearance {
-        material DEF pin Material {
-          diffuseColor 1.0 1.0 1.0
-          emissiveColor 0.54902 0.6549019607843137 0.5686274509803921
-          specularColor 0.54902 0.6549019607843137 0.5686274509803921
-          ambientIntensity 0.5903923048571689
-          transparency 0.0
-          shininess 1.0
-        }
+        material USE pin
       }
       geometry IndexedFaceSet {
         normalPerVertex TRUE
@@ -131,10 +124,10 @@ DEF body Transform {
     Shape {
       appearance Appearance {
         material DEF ring Material {
-          diffuseColor 1.0 1.0 1.0
-          emissiveColor 0.929412 0.9294117647058824 0.8823529411764706
-          specularColor 0.929412 0.9294117647058824 0.8784313725490196
-          ambientIntensity 0.9137255686274509
+          diffuseColor 0.929412 0.9294117647058824 0.6392156862745098
+          emissiveColor 0.929412 0.9294117647058824 0.64
+          specularColor 0.9294117647058824 0.9294117647058824 0.6392156862745098
+          ambientIntensity 0.8326797385620915
           transparency 0.0
           shininess 1.0
         }
@@ -182,7 +175,14 @@ DEF body Transform {
     },
     Shape {
       appearance Appearance {
-        material USE body
+        material DEF body Material {
+          diffuseColor 0.0 0.6352941176470588 0.9882352941176471
+          emissiveColor 0.0 0.18823529411764706 0.29411764705882354
+          specularColor 0.0 0.18823529411764706 0.29411764705882354
+          ambientIntensity 0.5406465753424657
+          transparency 0.0
+          shininess 1.0
+        }
       }
       geometry IndexedFaceSet {
         normalPerVertex TRUE
