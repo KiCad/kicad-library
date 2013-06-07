@@ -1,0 +1,548 @@
+PCBNEW-LibModule-V1  Fr 07 Jun 2013 10:34:00 CEST
+# encoding utf-8
+Units mm
+$INDEX
+EuroBoard160mmX100mm
+EuroBoard160mmX100mm_holes
+EuroBoard_achtel_Type-II_80mmX25mm
+EuroBoard_achtel_Type-II_80mmX25mm_holes
+EuroBoard_achtel_Type-I_40mmX50mm
+EuroBoard_achtel_Type-I_40mmX50mm_holes
+EuroBoard_halb_Type-II_160mmX50mm
+EuroBoard_halb_Type-II_160mmX50mm_holes
+EuroBoard_halb_Type-I_100mmX80mm
+EuroBoard_halb_Type-I_100mmX80mm_holes
+EuroBoard_sechzehntel_Type-I_40mmX25mm
+EuroBoard_sechzehntel_Type-I_40mmX25mm_holes
+EuroBoard_viertel_Type-III_160mmX25mm
+EuroBoard_viertel_Type-III_160mmX25mm_holes
+EuroBoard_viertel_Type-II_100mmX40mm
+EuroBoard_viertel_Type-II_100mmX40mm_holes
+EuroBoard_viertel_Type-I_80mmX50mm
+EuroBoard_viertel_Type-I_80mmX50mm_holes
+$EndINDEX
+$MODULE EuroBoard160mmX100mm
+Po 0 0 0 15 4BAFCCC6 00000000 ~~
+Li EuroBoard160mmX100mm
+Cd Outline, Eurocard, 100x160mm,
+Kw Outline, Eurocard, 100x160mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 78.74 -60.96 5.00126 5.00126 0 0.50038 N V 21 N "Outl"
+T1 85.09 -35.56 5.00126 5.00126 0 0.50038 N V 21 N "EuroBoard160mmX100mm"
+DS 1.00076 -99.9998 0 -99.9998 0.381 21
+DS 0 -99.9998 0 0 0.381 28
+DS 0 0 159.99968 0 0.381 28
+DS 159.99968 0 159.99968 -99.9998 0.381 28
+DS 159.99968 -99.9998 1.00076 -99.9998 0.381 28
+$EndMODULE EuroBoard160mmX100mm
+$MODULE EuroBoard160mmX100mm_holes
+Po 0 0 0 15 51B1996B 00000000 ~~
+Li EuroBoard160mmX100mm_holes
+Cd Outline, Eurocard, 100x160mm, with holes 3,5mm,
+Kw Outline, Eurocard, 100x160mm, with holes 3,5mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 78.74 -60.96 5.00126 5.00126 0 0.50038 N V 21 N "Outl"
+T1 85.09 -35.56 5.00126 5.00126 0 0.50038 N V 21 N "EuroBoard160mmX100mm_holes"
+DS 1.00076 -99.9998 0 -99.9998 0.381 21
+DS 0 -99.9998 0 0 0.381 28
+DS 0 0 159.99968 0 0.381 28
+DS 159.99968 0 159.99968 -99.9998 0.381 28
+DS 159.99968 -99.9998 1.00076 -99.9998 0.381 28
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -95.00108
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 155.00096 -95.00108
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 155.00096 -5.00126
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -5.00126
+$EndPAD
+$EndMODULE EuroBoard160mmX100mm_holes
+$MODULE EuroBoard_achtel_Type-II_80mmX25mm
+Po 0 0 0 15 4D9A18FF 00000000 ~~
+Li EuroBoard_achtel_Type-II_80mmX25mm
+Cd Outline, Eurocard 1/8, Type II,  80x25mm,
+Kw Outline, Eurocard 1/8, Type I, 80x25mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 41.00068 -29.99994 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 41.9989 5.99948 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_achtel_Type-II_80mmX25mm"
+DS 0 0 79.99984 0 0.381 28
+DS 79.99984 0 79.99984 -25.00122 0.381 28
+DS 79.99984 -25.00122 0 -25.00122 0.381 28
+DS 0 -25.00122 0 0 0.381 28
+$EndMODULE EuroBoard_achtel_Type-II_80mmX25mm
+$MODULE EuroBoard_achtel_Type-II_80mmX25mm_holes
+Po 0 0 0 15 51B199A5 00000000 ~~
+Li EuroBoard_achtel_Type-II_80mmX25mm_holes
+Cd Outline, Eurocard 1/8, Type II,  80x25mm, with holes 3,5mm,
+Kw Outline, Eurocard 1/8, Type I, 80x25mm, with holes 3,5mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 41.00068 -29.99994 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 41.9989 5.99948 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_achtel_Type-II_80mmX25mm_holes"
+DS 0 0 79.99984 0 0.381 28
+DS 79.99984 0 79.99984 -25.00122 0.381 28
+DS 79.99984 -25.00122 0 -25.00122 0.381 28
+DS 0 -25.00122 0 0 0.381 28
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -5.00126
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -19.99996
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 75.00112 -19.99996
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 75.00112 -5.00126
+$EndPAD
+$EndMODULE EuroBoard_achtel_Type-II_80mmX25mm_holes
+$MODULE EuroBoard_achtel_Type-I_40mmX50mm
+Po 0 0 0 15 4D9A0BD4 00000000 ~~
+Li EuroBoard_achtel_Type-I_40mmX50mm
+Cd Outline, Eurocard 1/8, Type I,  40x50mm,
+Kw Outline, Eurocard 1/8, Type I, 40x50mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 19.99996 -52.99964 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 19.99996 7.00024 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_achtel_Type-I_40mmX50mm"
+DS 0 0 39.99992 0 0.381 28
+DS 39.99992 0 39.99992 -49.9999 0.381 28
+DS 39.99992 -49.9999 0 -49.9999 0.381 28
+DS 0 -49.9999 0 0 0.381 28
+$EndMODULE EuroBoard_achtel_Type-I_40mmX50mm
+$MODULE EuroBoard_achtel_Type-I_40mmX50mm_holes
+Po 0 0 0 15 51B199D1 00000000 ~~
+Li EuroBoard_achtel_Type-I_40mmX50mm_holes
+Cd Outline, Eurocard 1/8, Type I,  40x50mm, with holes 3,5mm,
+Kw Outline, Eurocard 1/8, Type I, 40x50mm, with holes 3,5mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 19.99996 -52.99964 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 19.99996 7.00024 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_achtel_Type-I_40mmX50mm_holes"
+DS 0 0 39.99992 0 0.381 28
+DS 39.99992 0 39.99992 -49.9999 0.381 28
+DS 39.99992 -49.9999 0 -49.9999 0.381 28
+DS 0 -49.9999 0 0 0.381 28
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -5.00126
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -45.00118
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 35.0012 -45.00118
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 35.0012 -5.00126
+$EndPAD
+$EndMODULE EuroBoard_achtel_Type-I_40mmX50mm_holes
+$MODULE EuroBoard_halb_Type-II_160mmX50mm
+Po 0 0 0 15 4D9A0DCD 00000000 ~~
+Li EuroBoard_halb_Type-II_160mmX50mm
+Cd Outline, Eurocard 1/2, Type II, 160x50mm,
+Kw Outline, Eurocard 1/2, Type II, 160x50mm,
+Sc 0
+AR EuroBoard-halb-100mmX80mm
+Op 0 0 0
+T0 77.0001 -54.0004 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 78.00086 5.99948 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_halb_Type-II_160mmX50mm"
+DS 0 0 159.99968 0 0.381 28
+DS 159.99968 0 159.99968 -49.9999 0.381 28
+DS 159.99968 -49.9999 0 -49.9999 0.381 28
+DS 0 -49.9999 0 0 0.381 28
+$EndMODULE EuroBoard_halb_Type-II_160mmX50mm
+$MODULE EuroBoard_halb_Type-II_160mmX50mm_holes
+Po 0 0 0 15 51B199FE 00000000 ~~
+Li EuroBoard_halb_Type-II_160mmX50mm_holes
+Cd Outline, Eurocard 1/2, Type II, 160x50mm, with holes 3,5mm,
+Kw Outline, Eurocard 1/2, Type II, 160x50mm, with holes 3,5mm,
+Sc 0
+AR EuroBoard-halb-100mmX80mm
+Op 0 0 0
+T0 77.0001 -54.0004 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 78.00086 5.99948 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_halb_Type-II_160mmX50mm_holes"
+DS 0 0 159.99968 0 0.381 28
+DS 159.99968 0 159.99968 -49.9999 0.381 28
+DS 159.99968 -49.9999 0 -49.9999 0.381 28
+DS 0 -49.9999 0 0 0.381 28
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -5.00126
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -45.00118
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 155.00096 -45.00118
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 155.00096 -5.00126
+$EndPAD
+$EndMODULE EuroBoard_halb_Type-II_160mmX50mm_holes
+$MODULE EuroBoard_halb_Type-I_100mmX80mm
+Po 0 0 0 15 4C5AC96B 00000000 ~~
+Li EuroBoard_halb_Type-I_100mmX80mm
+Cd Outline, Eurocard 1/2, Type I, 100x80mm,
+Kw Outline, Eurocard 1/2, Type I, 100x80mm,
+Sc 0
+AR EuroBoard-halb-100mmX80mm
+Op 0 0 0
+T0 54.61 -86.36 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 53.34 7.62 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_halb_Type-I_100mmX80mm"
+DS 0 0 0 -79.99984 0.381 28
+DS 0 -79.99984 99.9998 -79.99984 0.381 28
+DS 99.9998 -79.99984 99.9998 0 0.381 28
+DS 99.9998 0 0 0 0.381 28
+$EndMODULE EuroBoard_halb_Type-I_100mmX80mm
+$MODULE EuroBoard_halb_Type-I_100mmX80mm_holes
+Po 0 0 0 15 51B19A34 00000000 ~~
+Li EuroBoard_halb_Type-I_100mmX80mm_holes
+Cd Outline, Eurocard 1/2, Type I, 100x80mm, with holes 3,5mm
+Kw Outline, Eurocard 1/2, Type I, 100x80mm, with holes 3,5mm
+Sc 0
+AR EuroBoard-halb-100mmX80mm
+Op 0 0 0
+T0 54.61 -86.36 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 53.34 7.62 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_halb_Type-I_100mmX80mm_holes"
+DS 0 0 0 -79.99984 0.381 28
+DS 0 -79.99984 99.9998 -79.99984 0.381 28
+DS 99.9998 -79.99984 99.9998 0 0.381 28
+DS 99.9998 0 0 0 0.381 28
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -5.00126
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -75.00112
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 95.00108 -75.00112
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 95.00108 -5.00126
+$EndPAD
+$EndMODULE EuroBoard_halb_Type-I_100mmX80mm_holes
+$MODULE EuroBoard_sechzehntel_Type-I_40mmX25mm
+Po 0 0 0 15 4D9A0CDA 00000000 ~~
+Li EuroBoard_sechzehntel_Type-I_40mmX25mm
+Cd Outline, Eurocard 1/16, Type I,  40x25mm,
+Kw Outline, Eurocard 1/16, Type I, 40x25mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 19.99996 -28.99918 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 19.99996 5.00126 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_sechzehntel_Type-I_40mmX25mm"
+DS 39.99992 0 39.99992 -25.00122 0.381 28
+DS 39.99992 -25.00122 0 -25.00122 0.381 28
+DS 0 -25.00122 0 0 0.381 28
+DS 0 0 39.99992 0 0.381 28
+$EndMODULE EuroBoard_sechzehntel_Type-I_40mmX25mm
+$MODULE EuroBoard_sechzehntel_Type-I_40mmX25mm_holes
+Po 0 0 0 15 51B19A51 00000000 ~~
+Li EuroBoard_sechzehntel_Type-I_40mmX25mm_holes
+Cd Outline, Eurocard 1/16, Type I,  40x25mm, with holes 3,5mm,
+Kw Outline, Eurocard 1/16, Type I, 40x25mm, with holes 3,5mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 19.99996 -28.99918 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 19.99996 5.00126 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_sechzehntel_Type-I_40mmX25mm_holes"
+DS 39.99992 0 39.99992 -25.00122 0.381 28
+DS 39.99992 -25.00122 0 -25.00122 0.381 28
+DS 0 -25.00122 0 0 0.381 28
+DS 0 0 39.99992 0 0.381 28
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -12.49934
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 34.50082 -12.49934
+$EndPAD
+$EndMODULE EuroBoard_sechzehntel_Type-I_40mmX25mm_holes
+$MODULE EuroBoard_viertel_Type-III_160mmX25mm
+Po 0 0 0 15 4D9A0EF4 00000000 ~~
+Li EuroBoard_viertel_Type-III_160mmX25mm
+Cd Outline, Eurocard 1/4, Type III,  160x25mm,
+Kw Outline, Eurocard 1/4, Type III, 160x25mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 77.0001 -28.99918 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 82.99958 5.99948 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_viertel_Type-III_160mmX25mm"
+DS 0 0 159.99968 0 0.381 28
+DS 159.99968 0 159.99968 -25.00122 0.381 28
+DS 159.99968 -25.00122 0 -25.00122 0.381 28
+DS 0 -25.00122 0 0 0.381 28
+$EndMODULE EuroBoard_viertel_Type-III_160mmX25mm
+$MODULE EuroBoard_viertel_Type-III_160mmX25mm_holes
+Po 0 0 0 15 51B19A9D 00000000 ~~
+Li EuroBoard_viertel_Type-III_160mmX25mm_holes
+Cd Outline, Eurocard 1/4, Type III,  160x25mm, with holes 3,5mm,
+Kw Outline, Eurocard 1/4, Type III, 160x25mm, with holes 3,5mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 77.0001 -28.99918 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 82.99958 5.99948 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_viertel_Type-III_160mmX25mm_holes"
+DS 0 0 159.99968 0 0.381 28
+DS 159.99968 0 159.99968 -25.00122 0.381 28
+DS 159.99968 -25.00122 0 -25.00122 0.381 28
+DS 0 -25.00122 0 0 0.381 28
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -5.00126
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -19.99996
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 79.99984 -19.99996
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 155.00096 -19.99996
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 155.00096 -5.00126
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 79.99984 -5.00126
+$EndPAD
+$EndMODULE EuroBoard_viertel_Type-III_160mmX25mm_holes
+$MODULE EuroBoard_viertel_Type-II_100mmX40mm
+Po 0 0 0 15 4D9A1048 00000000 ~~
+Li EuroBoard_viertel_Type-II_100mmX40mm
+Cd Outline, Eurocard 1/4, Type I, 100x40mm,
+Kw Outline, Eurocard 1/4, Type II, 100x40mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 51.99888 -44.00042 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 51.00066 7.00024 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_viertel_Type-II_100mmX40mm"
+DS 0 0 99.9998 0 0.381 28
+DS 99.9998 0 99.9998 -39.99992 0.381 28
+DS 99.9998 -39.99992 0 -39.99992 0.381 28
+DS 0 -39.99992 0 0 0.381 28
+$EndMODULE EuroBoard_viertel_Type-II_100mmX40mm
+$MODULE EuroBoard_viertel_Type-II_100mmX40mm_holes
+Po 0 0 0 15 51B19ACE 00000000 ~~
+Li EuroBoard_viertel_Type-II_100mmX40mm_holes
+Cd Outline, Eurocard 1/4, Type I, 100x40mm, with holes 3,5mm,
+Kw Outline, Eurocard 1/4, Type II, 100x40mm, with holes 3,5mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 51.99888 -44.00042 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 51.00066 7.00024 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_viertel_Type-II_100mmX40mm_holes"
+DS 0 0 99.9998 0 0.381 28
+DS 99.9998 0 99.9998 -39.99992 0.381 28
+DS 99.9998 -39.99992 0 -39.99992 0.381 28
+DS 0 -39.99992 0 0 0.381 28
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -5.00126
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -35.0012
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 95.00108 -35.0012
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 95.00108 -5.00126
+$EndPAD
+$EndMODULE EuroBoard_viertel_Type-II_100mmX40mm_holes
+$MODULE EuroBoard_viertel_Type-I_80mmX50mm
+Po 0 0 0 15 4D9A1D7A 00000000 ~~
+Li EuroBoard_viertel_Type-I_80mmX50mm
+Cd Outline, Eurocard 1/4, Type I,  80x50mm,
+Kw Outline, Eurocard 1/4, Type I, 80x50mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 41.00068 -52.99964 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 41.9989 5.99948 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_viertel_Type-I_80mmX50mm"
+DS 0 0 0 -49.9999 0.381 28
+DS 0 -49.9999 79.99984 -49.9999 0.381 28
+DS 79.99984 -49.9999 79.99984 0 0.381 28
+DS 79.99984 0 0 0 0.381 28
+$EndMODULE EuroBoard_viertel_Type-I_80mmX50mm
+$MODULE EuroBoard_viertel_Type-I_80mmX50mm_holes
+Po 0 0 0 15 51B19AF2 00000000 ~~
+Li EuroBoard_viertel_Type-I_80mmX50mm_holes
+Cd Outline, Eurocard 1/4, Type I,  80x50mm, with holes 3,5mm,
+Kw Outline, Eurocard 1/4, Type I, 80x50mm, with holes 3,5mm,
+Sc 0
+AR 
+Op 0 0 0
+T0 41.00068 -54.0004 2.99974 2.99974 0 0.50038 N V 21 N "Outl"
+T1 41.9989 5.00126 3.00228 3.00228 0 0.50038 N I 21 N "EuroBoard_viertel_Type-I_80mmX50mm_holes"
+DS 0 0 0 -49.9999 0.381 28
+DS 0 -49.9999 79.99984 -49.9999 0.381 28
+DS 79.99984 -49.9999 79.99984 0 0.381 28
+DS 79.99984 0 0 0 0.381 28
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -5.00126
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.00126 -45.00118
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 75.00112 -45.00118
+$EndPAD
+$PAD
+Sh "" C 3.50012 3.50012 0 0 0
+Dr 3.50012 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 75.00112 -5.00126
+$EndPAD
+$EndMODULE EuroBoard_viertel_Type-I_80mmX50mm_holes
+$EndLIBRARY
