@@ -1,0 +1,190 @@
+PCBNEW-LibModule-V1  Fr 14 Jun 2013 20:10:03 CEST
+# encoding utf-8
+Units mm
+$INDEX
+SIP9_Housing_14Jun2013
+SIP9_Housing_BigPads_14Jun2013
+$EndINDEX
+$MODULE SIP9_Housing_14Jun2013
+Po 0 0 0 15 51BB4FFD 00000000 ~~
+Li SIP9_Housing_14Jun2013
+Cd SIP9
+Kw SIP9
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.6 1.524 1.524 0 0.3048 N V 21 N "U"
+T1 -0.1 3.7 1.524 1.524 0 0.3048 N I 21 N "SIP9_Housing_14Jun2013"
+DS -8.7 1.7 -8.7 1 0.381 21
+DS -8.7 -1.7 -8.7 -1 0.381 21
+DS 0 1.7 -11.2 1.7 0.381 21
+DS -11.2 1.7 -11.2 1.4 0.381 21
+DS 11.2 -1.2 11.2 -1 0.381 21
+DS 0 1.7 11.2 1.7 0.381 21
+DS 11.2 1.7 11.2 1 0.381 21
+DS 0.1 -1.7 -11.2 -1.7 0.381 21
+DS -11.2 -1.7 -11.2 -1.4 0.381 21
+DS 0 -1.7 11.2 -1.7 0.381 21
+DS 11.2 -1.7 11.2 -1.1 0.381 21
+$PAD
+Sh "1" R 1.8 1.8 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "2" C 1.8 1.8 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "3" C 1.8 1.8 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "4" C 1.8 1.8 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "5" C 1.8 1.8 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" C 1.8 1.8 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "7" C 1.8 1.8 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "8" C 1.8 1.8 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "9" C 1.8 1.8 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$SHAPE3D
+Na "SIP9-Housing_Wings3d_14Jun2013/SIP9_Housing_Faktor03937_14Jun2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SIP9_Housing_14Jun2013
+$MODULE SIP9_Housing_BigPads_14Jun2013
+Po 0 0 0 15 51BB518D 00000000 ~~
+Li SIP9_Housing_BigPads_14Jun2013
+Cd SIP9, Big Pads,
+Kw SIP9, Big Pads,
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.6 1.524 1.524 0 0.3048 N V 21 N "U"
+T1 -0.1 3.7 1.524 1.524 0 0.3048 N I 21 N "SIP9_Housing_BigPads_14Jun2013"
+DS -8.7 1.7 -8.7 1 0.381 21
+DS -8.7 -1.7 -8.7 -1 0.381 21
+DS 0 1.7 -11.2 1.7 0.381 21
+DS -11.2 1.7 -11.2 1.4 0.381 21
+DS 11.2 -1.2 11.2 -1 0.381 21
+DS 0 1.7 11.2 1.7 0.381 21
+DS 11.2 1.7 11.2 1 0.381 21
+DS 0.1 -1.7 -11.2 -1.7 0.381 21
+DS -11.2 -1.7 -11.2 -1.4 0.381 21
+DS 0 -1.7 11.2 -1.7 0.381 21
+DS 11.2 -1.7 11.2 -1.1 0.381 21
+$PAD
+Sh "1" R 2.7 1.6 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "2" O 2.7 1.6 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "3" O 2.7 1.6 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "4" O 2.7 1.6 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "5" O 2.7 1.6 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" O 2.7 1.6 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "7" O 2.7 1.6 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "8" O 2.7 1.6 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "9" O 2.7 1.6 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$SHAPE3D
+Na "SIP9-Housing_Wings3d_14Jun2013/SIP9_Housing_Faktor03937_14Jun2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SIP9_Housing_BigPads_14Jun2013
+$EndLIBRARY
