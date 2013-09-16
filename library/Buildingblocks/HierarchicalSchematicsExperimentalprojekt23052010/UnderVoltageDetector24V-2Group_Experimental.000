@@ -1,0 +1,165 @@
+PCBNEW-BOARD Version 1 date 28.05.2010 17:07:54
+
+# Created by Pcbnew(2010-05-05 BZR 2356)-stable
+
+$GENERAL
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 0
+NoConn 0
+Di 28174 15040 47826 29960
+Ndraw 0
+Ntrack 1
+Nzone 0
+BoardThickness 630
+Nmodule 5
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "28 may 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+ZoneGridSize 250
+Layers 2
+Layer[0] Rückseite signal
+Layer[15] Vorderseite signal
+TrackWidth 80
+TrackClearence 100
+ZoneClearence 200
+TrackMinWidth 80
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 591 591
+PadDrill 394
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "Dies ist die voreingestellte Netzklasse."
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+$EndNCLASS
+$MODULE hole4
+Po 36000 17500 0 15 4BFFDA07 4BFFD471 ~~
+Li hole4
+Sc 4BFFD471
+AR 
+Op 0 0 0
+T0 0 -2000 600 600 0 120 N V 21 N"hole"
+T1 0 2000 600 600 0 120 N V 21 N"VAL**"
+$PAD
+Sh "1" C 394 394 0 0 0
+Dr 394 0 0
+At STD N 00008000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  hole4
+$MODULE hole3
+Po 30000 27500 0 15 4BFFD21B 4BFFD477 ~~
+Li hole3
+Sc 4BFFD477
+AR 
+Op 0 0 0
+T0 0 -2000 600 600 0 120 N V 21 N"hole"
+T1 0 2000 600 600 0 120 N V 21 N"VAL**"
+$PAD
+Sh "1" C 394 394 0 0 0
+Dr 394 0 0
+At STD N 00000000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  hole3
+$MODULE hole3
+Po 42000 17500 0 15 4BFFDA7A 4BFFD496 ~~
+Li hole3
+Sc 4BFFD496
+AR 
+Op 0 0 0
+T0 0 -2000 600 600 0 120 N V 21 N"loch"
+T1 0 2000 600 600 0 120 N V 21 N"durchm"
+$PAD
+Sh "1" C 394 394 0 0 0
+Dr 394 0 0
+At STD N 00000000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  hole3
+$MODULE hole3
+Po 46000 21000 0 15 4BFFD21B 4BFFD49D ~~
+Li hole3
+Sc 4BFFD49D
+AR 
+Op 0 0 0
+T0 0 -2000 600 600 0 120 N V 21 N"hole"
+T1 0 2000 600 600 0 120 N V 21 N"VAL**"
+$PAD
+Sh "1" C 394 394 0 0 0
+Dr 394 0 0
+At STD N 00000000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  hole3
+$MODULE hole5
+Po 31500 17500 0 15 4BFFDB9C 4BFFDC15 ~~
+Li hole5
+Sc 4BFFDC15
+AR 
+Op 0 0 0
+T0 0 -2000 600 600 0 120 N V 21 N"hole5"
+T1 0 2000 600 600 0 120 N V 21 N"VALzzz**"
+$PAD
+Sh "1" C 591 591 0 0 0
+Dr 394 0 0
+At STD N 00008000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  hole5
+$TRACK
+Po 0 30000 20500 37500 20500 80 -1
+De 15 0 0 0 0
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
