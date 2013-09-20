@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Di 17 Sep 2013 22:37:45 CEST
+PCBNEW-LibModule-V1  Fr 20 Sep 2013 16:36:59 CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -7,7 +7,7 @@ $INDEX
 7SegmentLED_SBC18-11EGWA_16Sep2013
 $EndINDEX
 $MODULE 7SEGMENT-LED__HDSM531_HDSM533_SMD_16SEP2013
-Po 0 0 0 15 5237330E 00000000 ~~
+Po 0 0 0 15 523C5D80 00000000 ~~
 Li 7SEGMENT-LED__HDSM531_HDSM533_SMD_16SEP2013
 Sc 0
 AR 
@@ -30,6 +30,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "2" R 1.8 3 0 0 0
@@ -37,6 +38,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2.45 9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "1" R 1.8 3 0 0 0
@@ -44,6 +46,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -4.9 9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "4" R 1.8 3 0 0 0
@@ -51,6 +54,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.45 9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "5" R 1.8 3 0 0 0
@@ -58,6 +62,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 4.9 9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "6" R 1.8 3 0 0 0
@@ -65,6 +70,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 4.9 -9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "7" R 1.8 3 0 0 0
@@ -72,6 +78,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.45 -9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "8" R 1.8 3 0 0 0
@@ -79,6 +86,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 -9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "9" R 1.8 3 0 0 0
@@ -86,6 +94,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2.45 -9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "10" R 1.8 3 0 0 0
@@ -93,6 +102,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -4.9 -9.5
+.SolderPaste -0.2
 $EndPAD
 $PAD
 Sh "" O 4 6 0 0 0

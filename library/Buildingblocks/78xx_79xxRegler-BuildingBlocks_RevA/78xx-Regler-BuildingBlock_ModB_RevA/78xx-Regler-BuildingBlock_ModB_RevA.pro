@@ -1,5 +1,5 @@
 update=19.04.2011 14:56:28
-last_client=eeschema
+last_clCRLF line endingsient=eeschema
 [eeschema]
 version=1
 LibDir=../78xx-Regler-BuildingBlock_ModB_RevA
