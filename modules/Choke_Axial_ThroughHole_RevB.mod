@@ -1,0 +1,203 @@
+PCBNEW-LibModule-V1  Mo 28 Mär 2011 20:33:22 CEST
+# encoding utf-8
+$INDEX
+Choke_Horizontal_RM10mm_RevB
+Choke_Horizontal_RM20mm_RevB
+Choke_Horizontal_RM25mm_RevB
+Choke_Horizontal_RM30mm_RevB
+Choke_Horizontal_RM30mm_Narrow_RevB
+Choke_Horizontal_RM15mm_RevB
+$EndINDEX
+$INDEX
+Choke_Horizontal_RM15mm_RevB
+$EndINDEX
+$MODULE Choke_Horizontal_RM30mm_RevB
+Po 0 0 0 15 4D90CE40 00000000 ~~
+Li Choke_Horizontal_RM30mm_RevB
+Cd Choke, Axial, RM 30mm,
+Kw Choke, Axial, RM 30mm,
+Sc 00000000
+AR Choke_Horizontal_RM30mm
+Op 0 0 0
+T0 0 -2953 600 600 0 120 N V 21 N"L"
+T1 0 2756 591 591 0 79 N I 21 N"Choke_Horizontal_RM30mm_RevB"
+DS -4528 0 -5315 0 120 21
+DS 4528 0 5118 0 120 21
+DS 4528 0 4528 1969 120 21
+DS 4528 1969 -4528 1969 120 21
+DS 4528 0 4528 -1969 120 21
+DS 4528 -1969 -4528 -1969 120 21
+DS -4528 0 -4528 1969 120 21
+DS -4528 0 -4528 -1969 120 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po -5906 0
+$EndPAD
+$PAD
+Sh "2" C 906 906 0 0 0
+Dr 472 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 5905 0
+$EndPAD
+$EndMODULE  Choke_Horizontal_RM30mm_RevB
+$MODULE Choke_Horizontal_RM30mm_Narrow_RevB
+Po 0 0 0 15 4D90CF36 00000000 ~~
+Li Choke_Horizontal_RM30mm_Narrow_RevB
+Cd Choke, Axial, RM 30mm, narrow,
+Kw Choke, Axial, RM 30mm, narrow,
+Sc 00000000
+AR Choke_Horizontal_RM30mm_Narrow
+Op 0 0 0
+T0 0 -2362 600 600 0 120 N V 21 N"L"
+T1 0 2559 591 591 0 79 N I 21 N"Choke_Horizontal_RM30mm_Narrow_RevB"
+DS -4528 0 -5118 0 120 21
+DS 4528 0 5118 0 120 21
+DS -4528 -1575 4528 -1575 120 21
+DS 4528 -1575 4528 1575 120 21
+DS 4528 1575 -4528 1575 120 21
+DS -4528 0 -4528 1575 120 21
+DS -4528 0 -4528 -1575 120 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po -5906 0
+$EndPAD
+$PAD
+Sh "2" C 906 906 0 0 0
+Dr 472 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 5905 0
+$EndPAD
+$EndMODULE  Choke_Horizontal_RM30mm_Narrow_RevB
+$MODULE Choke_Horizontal_RM25mm_RevB
+Po 0 0 0 15 4D90CD1C 00000000 ~~
+Li Choke_Horizontal_RM25mm_RevB
+Cd Choke, Axial, RM 25mm,
+Kw Choke, Axial, RM 25mm,
+Sc 00000000
+AR Choke_Horizontal_RM25mm
+Op 0 0 0
+T0 5000 -2500 600 600 0 120 N V 21 N"L"
+T1 0 2165 591 591 0 79 N I 21 N"Choke_Horizontal_RM25mm_RevB"
+DS -3521 0 -4321 0 150 21
+DS 3679 0 4279 0 150 21
+DS -3421 -1500 -3421 1500 150 21
+DS -3421 1500 3579 1500 150 21
+DS 3579 1500 3579 -1500 150 21
+DS 3579 -1500 -3421 -1500 150 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po -4921 0
+$EndPAD
+$PAD
+Sh "2" C 906 906 0 0 0
+Dr 472 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 4922 0
+$EndPAD
+$EndMODULE  Choke_Horizontal_RM25mm_RevB
+$MODULE Choke_Horizontal_RM20mm_RevB
+Po 0 0 0 15 4D90CCAB 00000000 ~~
+Li Choke_Horizontal_RM20mm_RevB
+Cd Choke, Axial, 20mm,
+Kw Choke, Axial, 20mm,
+Sc 00000000
+AR Choke_Horizontal_RM20mm
+Op 0 0 0
+T0 0 -1772 600 600 0 120 N V 21 N"L"
+T1 0 1969 591 591 0 79 N I 21 N"Choke_Horizontal_RM20mm_RevB"
+DS 3150 0 3346 0 120 21
+DS -3150 0 -3346 0 120 21
+DS -3150 -1181 -3150 1181 120 21
+DS -3150 1181 3150 1181 120 21
+DS 3150 1181 3150 -1181 120 21
+DS 3150 -1181 -3150 -1181 120 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po -3937 0
+$EndPAD
+$PAD
+Sh "2" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 3937 0
+$EndPAD
+$EndMODULE  Choke_Horizontal_RM20mm_RevB
+$MODULE Choke_Horizontal_RM15mm_RevB
+Po 0 0 0 15 4D90CB63 00000000 ~~
+Li Choke_Horizontal_RM15mm_RevB
+Cd Choke, Axial, 15mm
+Kw Choke, Axial, 15mm
+Sc 00000000
+AR Choke_Horizontal_RM15mm
+Op 0 0 0
+T0 0 -1378 600 600 0 120 N V 21 N"L"
+T1 0 1500 591 591 0 79 N I 21 N"Choke_Horizontal_RM15mm_RevB"
+DS 2047 0 2447 0 150 21
+DS -1953 0 -2353 0 150 21
+DS -1953 -500 2047 -500 150 21
+DS 2047 -500 2047 500 150 21
+DS 2047 500 -1953 500 150 21
+DS -1953 500 -1953 -500 150 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po -2953 0
+$EndPAD
+$PAD
+Sh "2" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 3047 0
+$EndPAD
+$EndMODULE  Choke_Horizontal_RM15mm_RevB
+$MODULE Choke_Horizontal_RM10mm_RevB
+Po 0 0 0 15 4D90CBE2 00000000 ~~
+Li Choke_Horizontal_RM10mm_RevB
+Cd Choke, Axial, 10mm
+Kw Choke, Axial, 10mm
+Sc 00000000
+AR Choke_Horizontal_RM10mm
+Op 0 0 0
+T0 0 -1378 600 600 0 120 N V 21 N"L"
+T1 0 1575 591 591 0 79 N I 21 N"Choke_Horizontal_RM10mm_RevB"
+DS -1069 0 -1369 0 150 21
+DS 1081 0 1431 0 150 21
+DS -1069 500 -1069 -550 150 21
+DS -1069 -550 1081 -550 150 21
+DS 1081 -550 1081 500 150 21
+DS 1081 500 -1069 500 150 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po -1969 0
+$EndPAD
+$PAD
+Sh "2" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 2031 0
+$EndPAD
+$EndMODULE  Choke_Horizontal_RM10mm_RevB
+$EndLIBRARY
