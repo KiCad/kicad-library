@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  So 29 Sep 2013 00:52:59 CEST
+PCBNEW-LibModule-V1  Di 01 Okt 2013 22:03:23 CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -145,6 +145,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 4.49834 -2.19964
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_L8-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_L8-Outline_Names_RevA_30Jun2011
 $MODULE IR-directFET_L8-Outline_Numbers_RevA_30Jun2011
 Po 0 0 0 15 4E0D1104 00000000 ~~
@@ -265,6 +271,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 4.49834 -2.19964
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_L8-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_L8-Outline_Numbers_RevA_30Jun2011
 $MODULE IR-directFET_MN-Outline_Names_RevA_30Jun2011
 Po 0 0 0 15 4E0CD1C2 00000000 ~~
@@ -331,6 +343,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 0.70104 0.70104
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MN-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MN-Outline_Names_RevA_30Jun2011
 $MODULE IR-directFET_MN-Outline_Numbers_RevA_30Jun2011
 Po 0 0 0 15 4E0CD233 00000000 ~~
@@ -397,6 +415,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 0.70104 0.70104
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MN-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MN-Outline_Numbers_RevA_30Jun2011
 $MODULE IR-directFET_MP-Outline_Names_RevA_30Jun2011
 Po 0 0 0 15 4E0CF76C 00000000 ~~
@@ -459,6 +483,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.2004 1.1811
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MP-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MP-Outline_Names_RevA_30Jun2011
 $MODULE IR-directFET_MP-Outline_Numbers_RevA_30Jun2011
 Po 0 0 0 15 4E0CF7E1 00000000 ~~
@@ -521,6 +551,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.2004 1.1811
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MP-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MP-Outline_Numbers_RevA_30Jun2011
 $MODULE IR-directFET_MT-Outline_Names_RevA_30Jun2011
 Po 0 0 0 15 4E0CFF35 00000000 ~~
@@ -583,6 +619,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.2004 1.1811
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MT-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MT-Outline_Names_RevA_30Jun2011
 $MODULE IR-directFET_MT-Outline_Numbers_RevA_30Jun2011
 Po 0 0 0 15 4E0CFFC2 00000000 ~~
@@ -645,6 +687,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.2004 1.1811
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MT-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MT-Outline_Numbers_RevA_30Jun2011
 $MODULE IR-directFET_MX-Outline_Names_RevA_30Jun2011
 Po 0 0 0 15 4E0D0366 00000000 ~~
@@ -707,6 +755,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.2004 -1.1811
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MX-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MX-Outline_Names_RevA_30Jun2011
 $MODULE IR-directFET_MX-Outline_Numbers_RevA_30Jun2011
 Po 0 0 0 15 4E0D0366 00000000 ~~
@@ -769,6 +823,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.2004 -1.1811
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MX-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MX-Outline_Numbers_RevA_30Jun2011
 $MODULE IR-directFET_MZ-Outline_Names_RevA_30Jun2011
 Po 0 0 0 15 4E0CE44F 00000000 ~~
@@ -831,6 +891,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.2004 1.1811
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MZ-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MZ-Outline_Names_RevA_30Jun2011
 $MODULE IR-directFET_MZ-Outline_Numnbers_RevA_30Jun2011
 Po 0 0 0 15 4E0CE507 00000000 ~~
@@ -893,6 +959,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.2004 1.1811
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_MZ-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_MZ-Outline_Numnbers_RevA_30Jun2011
 $MODULE IR-directFET_S1-Outline_Names_RevA_30Jun2011
 Po 0 0 0 15 4E0CF22D 00000000 ~~
@@ -955,6 +1027,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 2.4511 0.83058
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_S1-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_S1-Outline_Names_RevA_30Jun2011
 $MODULE IR-directFET_S1-Outline_Numbers_RevA_30Jun2011
 Po 0 0 0 15 4E0CF2A9 00000000 ~~
@@ -1017,6 +1095,12 @@ At SMD N 00888000
 Ne 0 ""
 Po 2.4511 0.83058
 $EndPAD
+$SHAPE3D
+Na "IR-directFET_Packages_Wings3d_RevB_28Sep2013/IR-directFET_S1-Outline_Faktor03937_RevA_28Sep2013.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE IR-directFET_S1-Outline_Numbers_RevA_30Jun2011
 $MODULE IR-directFET_SH-Outline_Names_RevA_30Jun2011
 Po 0 0 0 15 4E0CE00D 00000000 ~~
