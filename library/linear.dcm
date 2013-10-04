@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 19/11/2011 08:24:18
+EESchema-DOCLIB  Version 2.0  Date: 04/07/2013 11:45:52
 #
 $CMP 1408
 D CDA 8 bits
@@ -15,6 +15,11 @@ $CMP AD813
 D Ampli Op 3 state out
 K AmpliOp
 F AmpliOp.sch
+$ENDCMP
+#
+$CMP ADA4075
+D Very low noise audio op amp
+F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
 $CMP CA3130
@@ -81,7 +86,7 @@ $ENDCMP
 $CMP LM318N
 D ampli Op
 K AmpliOp
-F AmpliOp.sch
+F op_amps/LM118.pdf
 $ENDCMP
 #
 $CMP LM319
@@ -210,13 +215,13 @@ $ENDCMP
 $CMP OP275
 D Dual Op amp (low power)
 K ampliop
-F ns/lm158.pdf
+F analog-dev/op275.pdf
 $ENDCMP
 #
 $CMP TL071
 D Op amp.
 K AmpliOp
-F AmpliOp.sch
+F op_amps/tl071.pdf
 $ENDCMP
 #
 $CMP TL072
@@ -227,6 +232,10 @@ $ENDCMP
 $CMP TL074
 D Quad Op amp. Mos
 K AmpliOp Mos
+$ENDCMP
+#
+$CMP TL081
+F op_amps/tl081.pdf
 $ENDCMP
 #
 $CMP TL082
