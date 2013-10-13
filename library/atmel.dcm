@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2013-07-29 22:02:53
+EESchema-DOCLIB  Version 2.0
 #
 $CMP AT89C2051-P
 D 89C2051, PDIP20, 2k Flash, 128B SRAM
@@ -630,6 +630,30 @@ K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/dyn/resources/prod_documents/doc8209.pdf
 $ENDCMP
 #
+$CMP ATMEGA16U4-A
+D ATMEGA16U4, TQFP44, 16K Flash, 1.25K SRAM, 512B EEPROM, USB2.0
+K AVR 8bit Microcontroller MegaAVR USB
+F http://www.atmel.com/Images/doc7766.pdf
+$ENDCMP
+#
+$CMP ATMEGA16U4-M
+D ATMEGA16U4, QFN44, 16K Flash, 1.25K SRAM, 512B EEPROM, USB2.0
+K AVR 8bit Microcontroller MegaAVR USB
+F http://www.atmel.com/Images/doc7766.pdf
+$ENDCMP
+#
+$CMP ATMEGA16U4RC-A
+D ATMEGA16U4RC, TQFP44, 16K Flash, 1.25K SRAM, 512B EEPROM, USB2.0, RC Osc
+K AVR 8bit Microcontroller MegaAVR USB
+F http://www.atmel.com/Images/doc7766.pdf
+$ENDCMP
+#
+$CMP ATMEGA16U4RC-M
+D ATMEGA16U4RC, QFN44, 16K Flash, 1.25K SRAM, 512B EEPROM, USB2.0, RC Osc
+K AVR 8bit Microcontroller MegaAVR USB
+F http://www.atmel.com/Images/doc7766.pdf
+$ENDCMP
+#
 $CMP ATMEGA2560-A
 D ATMEGA2560, TQFP100, 256k Flash, 8k SRAM, 4k EEPROM, JTAG
 K AVR 8bit Microcontroller MegaAVR
@@ -899,9 +923,33 @@ D 8-Bit AVR Microcontroller with 32K Bytes of ISP Flash and USB Controller
 K Microcontroller, ATmega32U4
 $ENDCMP
 #
+$CMP ATMEGA32U4-A
+D ATMEGA32U4, TQFP44, 32K Flash, 2.5K SRAM, 1K EEPROM, USB2.0
+K AVR 8bit Microcontroller MegaAVR USB
+F http://www.atmel.com/Images/doc7766.pdf
+$ENDCMP
+#
 $CMP ATMEGA32U4-AU
 D 8-Bit AVR Microcontroller with 32K Bytes of ISP Flash and USB Controller
 K Microcontroller, ATmega32U4-AU
+$ENDCMP
+#
+$CMP ATMEGA32U4-M
+D ATMEGA32U4, QFN44, 32K Flash, 2.5K SRAM, 1K EEPROM, USB2.0
+K AVR 8bit Microcontroller MegaAVR USB
+F http://www.atmel.com/Images/doc7766.pdf
+$ENDCMP
+#
+$CMP ATMEGA32U4RC-A
+D ATMEGA32U4RC, TQFP44, 32K Flash, 2.5K SRAM, 1K EEPROM, USB2.0
+K AVR 8bit Microcontroller MegaAVR USB
+F http://www.atmel.com/Images/doc7766.pdf
+$ENDCMP
+#
+$CMP ATMEGA32U4RC-M
+D ATMEGA32U4RC, QFN44, 32K Flash, 2.5K SRAM, 1K EEPROM, USB2.0
+K AVR 8bit Microcontroller MegaAVR USB
+F http://www.atmel.com/Images/doc7766.pdf
 $ENDCMP
 #
 $CMP ATMEGA48-A
@@ -2565,6 +2613,54 @@ $ENDCMP
 $CMP AVR-TPI-6
 D Standard IDC6 Male Connector, ATMEL TPI 6pin
 K IDC6 Male Connector
+$ENDCMP
+#
+$CMP SAMD20E14A-A
+D SAMD20E14A-A, TQFP32, 16K Flash, 2K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20E15A-A
+D SAMD20E15A-A, TQFP32, 32K Flash, 4K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20E16A-A
+D SAMD20E16A-A, TQFP32, 64K Flash, 8K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20E17A-A
+D SAMD20E17A-A, TQFP32, 128K Flash, 16K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20E14A-M
+D SAMD20E14A-M, QFN32, 16K Flash, 2K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20E15A-M
+D SAMD20E15A-M, QFN32, 32K Flash, 4K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20E16A-M
+D SAMD20E16A-M, QFN32, 64K Flash, 8K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20E17A-M
+D SAMD20E17A-M, QFN32, 128K Flash, 16K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
 $ENDCMP
 #
 #End Doc Library
