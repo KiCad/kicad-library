@@ -32,9 +32,20 @@ if(WIN32)
     set(KICAD_TEMPLATES template)
 endif(WIN32)
 
-mark_as_advanced(KICAD_DATA
-                 KICAD_MODULES
-                 KICAD_LIBRARY)
+mark_as_advanced( KICAD_DATA KICAD_MODULES KICAD_LIBRARY )
+
+
+#================================================
+# "make uninstall" rules
+#================================================
+configure_file(
+    "${PROJECT_SOURCE_DIR}/CMakeModules/cmake_uninstall.cmake.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/cmake_uninstall.cmake"
+    IMMEDIATE @ONLY )
+
+add_custom_target( uninstall
+    "${CMAKE_COMMAND}" -P "${CMAKE_CURRENT_BINARY_DIR}/cmake_uninstall.cmake" )
+
 
 # CMake will look in these dirs for nested 'CMakeLists.txt' files.
 # Resources.
