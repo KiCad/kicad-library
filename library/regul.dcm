@@ -41,6 +41,24 @@ D Controleur de chargeur de batteries
 F regulator\bq2003.pdf
 $ENDCMP
 #
+$CMP KA378R05
+D KA378R05, Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 5V, TO-220F-4L
+K Voltage Regulator 3A Positive LDO Disable Pin
+F http://www.fairchildsemi.com/ds/KA/KA378R05.pdf
+$ENDCMP
+#
+$CMP KA378R12C
+D KA378R12C, Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 12V, TO-220F-4L
+K Voltage Regulator 3A Positive LDO Disable Pin
+F http://www.fairchildsemi.com/ds/KA/KA378R12CTU.pdf
+$ENDCMP
+#
+$CMP KA378R33
+D KA378R33, Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 3.3V, TO-220F-4L
+K Voltage Regulator 3A Positive LDO Disable Pin
+F http://www.fairchildsemi.com/ds/KA/KA378R33.pdf
+$ENDCMP
+#
 $CMP LD3985G
 D 150 mA Low Dropout Voltage Regulator
 K LDO Regulator
@@ -1344,7 +1362,9 @@ F http://www.ti.com/lit/ds/symlink/tps75005.pdf
 $ENDCMP
 #
 $CMP TPS769XX
-D Low drop regulator 1.2 .. 5V SOT23 package
+D TPS769xx-Q1, Ultra Low Power 100mA Low Drop Out Regulator 1.2...5V, SOT23-5
+K Ultra Low Power Fixed Adjustable LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps76950-q1.pdf
 $ENDCMP
 #
 #End Doc Library
