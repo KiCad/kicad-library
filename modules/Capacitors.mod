@@ -64,7 +64,7 @@ Ne 0 ""
 Po 500 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_3mm_disc.wrl"
+Na "discret/Capacitor/cnp_3mm_disc.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -99,7 +99,7 @@ Ne 0 ""
 Po 1000 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_6mm_disc.wrl"
+Na "discret/Capacitor/cnp_6mm_disc.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -134,7 +134,7 @@ Ne 0 ""
 Po 1000 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_7.5mm_disc.wrl"
+Na "discret/Capacitor/cnp_7.5mm_disc.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -168,7 +168,7 @@ Ne 0 ""
 Po 1000 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_7x2mm.wrl"
+Na "discret/Capacitor/cnp_7x2mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -202,7 +202,7 @@ Ne 0 ""
 Po 1000 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_7x4.5mm.wrl"
+Na "discret/Capacitor/cnp_7x4.5mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -236,7 +236,7 @@ Ne 0 ""
 Po 1000 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_7x6mm.wrl"
+Na "discret/Capacitor/cnp_7x6mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -271,7 +271,7 @@ Ne 0 ""
 Po 1500 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_12mm_disc.wrl"
+Na "discret/Capacitor/cnp_12mm_disc.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -305,7 +305,7 @@ Ne 0 ""
 Po 2000 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_13x4mm.wrl"
+Na "discret/Capacitor/cnp_13x4mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -339,7 +339,7 @@ Ne 0 ""
 Po 3000 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_18x5mm.wrl"
+Na "discret/Capacitor/cnp_18x5mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -373,7 +373,7 @@ Ne 0 ""
 Po 3000 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_18x6mm.wrl"
+Na "discret/Capacitor/cnp_18x6mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -407,7 +407,7 @@ Ne 0 ""
 Po -3000 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cnp_18x8mm.wrl"
+Na "discret/Capacitor/cnp_18x8mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -451,7 +451,7 @@ Ne 0 ""
 Po 0 -2000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_35x51mm.wrl"
+Na "discret/Capacitor/cp_35x51mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -509,7 +509,7 @@ Ne 0 ""
 Po 0 -2000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_30x51mm.wrl"
+Na "discret/Capacitor/cp_30x51mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -555,7 +555,7 @@ Ne 0 ""
 Po 0 -2000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_26x45mm.wrl"
+Na "discret/Capacitor/cp_26x45mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -601,7 +601,7 @@ Ne 0 ""
 Po 0 -2000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_26x31mm.wrl"
+Na "discret/Capacitor/cp_26x31mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -645,7 +645,7 @@ Ne 0 ""
 Po 0 -2000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_22x41mm.wrl"
+Na "discret/Capacitor/cp_22x41mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -687,7 +687,7 @@ Ne 0 ""
 Po 0 -1500
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_16x25mm.wrl"
+Na "discret/Capacitor/cp_16x25mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -731,7 +731,7 @@ Ne 0 ""
 Po 0 -1000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_13x25mm.wrl"
+Na "discret/Capacitor/cp_13x25mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -775,7 +775,7 @@ Ne 0 ""
 Po 0 -1000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_13x21mm.wrl"
+Na "discret/Capacitor/cp_13x21mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -816,7 +816,7 @@ Ne 0 ""
 Po 0 -1000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_10x25mm.wrl"
+Na "discret/Capacitor/cp_10x25mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -857,7 +857,7 @@ Ne 0 ""
 Po 0 -1000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_10x21mm.wrl"
+Na "discret/Capacitor/cp_10x21mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -898,7 +898,7 @@ Ne 0 ""
 Po 0 -1000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_10x16mm.wrl"
+Na "discret/Capacitor/cp_10x16mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -939,7 +939,7 @@ Ne 0 ""
 Po 0 -1000
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_10x13mm.wrl"
+Na "discret/Capacitor/cp_10x13mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -978,7 +978,7 @@ Ne 0 ""
 Po 0 -750
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_8x21mm.wrl"
+Na "discret/Capacitor/cp_8x21mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -1017,7 +1017,7 @@ Ne 0 ""
 Po 0 -750
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_8x13mm.wrl"
+Na "discret/Capacitor/cp_8x13mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -1053,7 +1053,7 @@ Ne 0 ""
 Po 0 -500
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_5x11mm.wrl"
+Na "discret/Capacitor/cp_5x11mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -1089,7 +1089,7 @@ Ne 0 ""
 Po 0 -500
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cp_5x6mm.wrl"
+Na "discret/Capacitor/cp_5x6mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -1137,7 +1137,7 @@ Ne 0 ""
 Po -9500 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cpa_16x40mm.wrl"
+Na "discret/Capacitor/cpa_16x40mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -1185,7 +1185,7 @@ Ne 0 ""
 Po -7500 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cpa_16x31mm.wrl"
+Na "discret/Capacitor/cpa_16x31mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -1233,7 +1233,7 @@ Ne 0 ""
 Po -7500 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cpa_13x31mm.wrl"
+Na "discret/Capacitor/cpa_13x31mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -1281,7 +1281,7 @@ Ne 0 ""
 Po -5500 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cpa_8x21mm.wrl"
+Na "discret/Capacitor/cpa_8x21mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -1329,7 +1329,7 @@ Ne 0 ""
 Po -3500 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cpa_6x11mm.wrl"
+Na "discret/Capacitor/cpa_6x11mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
@@ -1377,7 +1377,7 @@ Ne 0 ""
 Po -3500 0
 $EndPAD
 $SHAPE3D
-Na "discret/capacitor/cpa_5x11mm.wrl"
+Na "discret/Capacitor/cpa_5x11mm.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000

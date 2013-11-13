@@ -50,7 +50,7 @@ Ne 0 ""
 Po 246 0
 $EndPAD
 $SHAPE3D
-Na "connectors/conn_df13/df13-2p-125dsa.wrl"
+Na "Connectors/conn_df13/df13-2p-125dsa.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -102,7 +102,7 @@ Ne 0 ""
 Po 492 0
 $EndPAD
 $SHAPE3D
-Na "connectors/conn_df13/df13-3p-125dsa.wrl"
+Na "Connectors/conn_df13/df13-3p-125dsa.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -165,7 +165,7 @@ Ne 0 ""
 Po 738 0
 $EndPAD
 $SHAPE3D
-Na "connectors/conn_df13/df13-4p-125dsa.wrl"
+Na "Connectors/conn_df13/df13-4p-125dsa.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 180
@@ -231,7 +231,7 @@ Ne 0 ""
 Po 984 0
 $EndPAD
 $SHAPE3D
-Na "connectors/conn_df13/df13-5p-125dsa.wrl"
+Na "Connectors/conn_df13/df13-5p-125dsa.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 180
@@ -306,7 +306,7 @@ Ne 0 ""
 Po 1230 0
 $EndPAD
 $SHAPE3D
-Na "connectors/conn_df13/df13-6p-125dsa.wrl"
+Na "Connectors/conn_df13/df13-6p-125dsa.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -388,7 +388,7 @@ Ne 0 ""
 Po 1476 0
 $EndPAD
 $SHAPE3D
-Na "connectors/conn_df13/df13-7p-125dsa.wrl"
+Na "Connectors/conn_df13/df13-7p-125dsa.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -479,7 +479,7 @@ Ne 0 ""
 Po 1722 0
 $EndPAD
 $SHAPE3D
-Na "connectors/conn_df13/df13-8p-125dsa.wrl"
+Na "Connectors/conn_df13/df13-8p-125dsa.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 180
@@ -577,7 +577,7 @@ Ne 0 ""
 Po 1969 0
 $EndPAD
 $SHAPE3D
-Na "connectors/conn_df13/df13-9p-125dsa.wrl"
+Na "Connectors/conn_df13/df13-9p-125dsa.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 180

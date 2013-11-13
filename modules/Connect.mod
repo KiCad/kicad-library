@@ -3833,7 +3833,7 @@ Ne 0 ""
 Po 39.37 -2.54
 $EndPAD
 $SHAPE3D
-Na "conn_europe/c96abcfd.wrl"
+Na "Conn_Europe/c96abcfd.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -4546,7 +4546,7 @@ Ne 0 ""
 Po 39.37 2.54
 $EndPAD
 $SHAPE3D
-Na "conn_europe/c96abcmd.wrl"
+Na "Conn_Europe/c96abcmd.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -4758,7 +4758,7 @@ Ne 0 ""
 Po 8.2804 -1.27
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db15_female_pin90deg.wrl"
+Na "Conn_DBxx/db15_female_pin90deg.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -4898,7 +4898,7 @@ Ne 0 ""
 Po -7.747 1.524
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db15_female.wrl"
+Na "Conn_DBxx/db15_female.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -5038,7 +5038,7 @@ Ne 0 ""
 Po 8.382 2.667
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db15_female.wrl"
+Na "Conn_DBxx/db15_female.wrl"
 Sc 1 1 1
 Of 0 0 -0.033
 Ro 90 180 0
@@ -5193,7 +5193,7 @@ Ne 0 ""
 Po 8.2804 -1.27
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db15_male_pin90deg.wrl"
+Na "Conn_DBxx/db15_male_pin90deg.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -5333,7 +5333,7 @@ Ne 0 ""
 Po 7.62 1.524
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db15_male.wrl"
+Na "Conn_DBxx/db15_male.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -5473,7 +5473,7 @@ Ne 0 ""
 Po -8.382 2.667
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db15_male.wrl"
+Na "Conn_DBxx/db15_male.wrl"
 Sc 1 1 1
 Of 0 0 -0.033
 Ro 90 180 0
@@ -5699,7 +5699,7 @@ Ne 0 ""
 Po 15.24 -1.27
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db25_female_pin90deg.wrl"
+Na "Conn_DBxx/db25_female_pin90deg.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -5911,7 +5911,7 @@ Ne 0 ""
 Po -15.24 1.397
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db25_female.wrl"
+Na "Conn_DBxx/db25_female.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -6120,7 +6120,7 @@ Ne 0 ""
 Po 14.986 2.667
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db25_female.wrl"
+Na "Conn_DBxx/db25_female.wrl"
 Sc 0.98 1 1
 Of 0 0 -0.033
 Ro 90 180 0
@@ -6346,7 +6346,7 @@ Ne 0 ""
 Po 15.24 -1.27
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db25_male_pin90deg.wrl"
+Na "Conn_DBxx/db25_male_pin90deg.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -6558,7 +6558,7 @@ Ne 0 ""
 Po 15.24 1.397
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db25_male.wrl"
+Na "Conn_DBxx/db25_male.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -6766,7 +6766,7 @@ Ne 0 ""
 Po 14.986 2.667
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db25_male.wrl"
+Na "Conn_DBxx/db25_male.wrl"
 Sc 0.98 1 1
 Of 0 0 -0.033
 Ro 90 180 0
@@ -7065,7 +7065,7 @@ Ne 0 ""
 Po 23.5204 -1.4224
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db37_female_pin90deg.wrl"
+Na "Conn_DBxx/db37_female_pin90deg.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -7746,7 +7746,7 @@ Ne 0 ""
 Po 4.191 -1.27
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db9_female_pin90deg.wrl"
+Na "Conn_DBxx/db9_female_pin90deg.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -7844,7 +7844,7 @@ Ne 0 ""
 Po -4.064 1.27
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db9_female.wrl"
+Na "Conn_DBxx/db9_female.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -7942,7 +7942,7 @@ Ne 0 ""
 Po 4.191 2.54
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db9_female.wrl"
+Na "Conn_DBxx/db9_female.wrl"
 Sc 1 1 1
 Of 0 0 -0.033
 Ro 90 180 0
@@ -8040,7 +8040,7 @@ Ne 0 ""
 Po 4.191 2.54
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db9_female.wrl"
+Na "Conn_DBxx/db9_female.wrl"
 Sc 1 1 1
 Of 0 0 -0.033
 Ro 90 0 0
@@ -8144,7 +8144,7 @@ Ne 0 ""
 Po 4.191 -1.27
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db9_male_pin90deg.wrl"
+Na "Conn_DBxx/db9_male_pin90deg.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -8242,7 +8242,7 @@ Ne 0 ""
 Po 4.191 1.397
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db9_male.wrl"
+Na "Conn_DBxx/db9_male.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -8340,7 +8340,7 @@ Ne 0 ""
 Po 4.191 2.667
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db9_male.wrl"
+Na "Conn_DBxx/db9_male.wrl"
 Sc 1 1 1
 Of 0 0 -0.033
 Ro 90 180 0
@@ -8438,7 +8438,7 @@ Ne 0 ""
 Po 4.191 2.54
 $EndPAD
 $SHAPE3D
-Na "conn_DBxx/db9_male.wrl"
+Na "Conn_DBxx/db9_male.wrl"
 Sc 1 1 1
 Of 0 0 -0.033
 Ro 90 0 0
@@ -9238,7 +9238,7 @@ Ne 0 ""
 Po 20.32 0.254
 $EndPAD
 $SHAPE3D
-Na "conn_HExx/he10_20.wrl"
+Na "Conn_HExx/he10_20.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -11435,7 +11435,7 @@ Ne 0 ""
 Po 2.286 5.08
 $EndPAD
 $SHAPE3D
-Na "connectors/POWER_21.wrl"
+Na "Connectors/POWER_21.wrl"
 Sc 0.8 0.8 0.8
 Of 0 0 0
 Ro 0 0 0
@@ -12095,7 +12095,7 @@ Ne 98 "N-000161"
 Po 0 0
 $EndPAD
 $SHAPE3D
-Na "pin_array/pin_array_1x1.wrl"
+Na "Pin_Array/pin_array_1x1.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -12515,7 +12515,7 @@ Ne 0 ""
 Po 9.3599 1.78562
 $EndPAD
 $SHAPE3D
-Na "connectors/samtec-connectors/QMS-026-9.75-SL-D-A.wrl"
+Na "Connectors/samtec-connectors/QMS-026-9.75-SL-D-A.wrl"
 Sc 0.4 0.4 0.4
 Of 0 0 0
 Ro 0 0 0
@@ -13882,7 +13882,7 @@ Ne 0 ""
 Po 4.445 -8.89
 $EndPAD
 $SHAPE3D
-Na "connectors/RJ45_8.wrl"
+Na "Connectors/RJ45_8.wrl"
 Sc 0.4 0.4 0.4
 Of 0 0 0
 Ro 0 0 0
@@ -14451,7 +14451,7 @@ Ne 0 ""
 Po 13.97 0
 $EndPAD
 $SHAPE3D
-Na "pin_array\\pins_array_12x1.wrl"
+Na "Pin_Array/pins_array_12x1.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -15821,7 +15821,7 @@ Ne 0 ""
 Po 1.27 0
 $EndPAD
 $SHAPE3D
-Na "connectors/testpoint.wrl"
+Na "Connectors/testpoint.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -15882,7 +15882,7 @@ Ne 0 ""
 Po 2.667 7.112
 $EndPAD
 $SHAPE3D
-Na "connectors/usb_a_through_hole.wrl"
+Na "Connectors/usb_a_through_hole.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -15944,7 +15944,7 @@ Ne 0 ""
 Po -5.99948 0
 $EndPAD
 $SHAPE3D
-Na "connectors/USB_type_B.wrl"
+Na "Connectors/USB_type_B.wrl"
 Sc 0.3937 0.3937 0.3937
 Of 0 0 0.001
 Ro 0 0 0
@@ -16513,7 +16513,7 @@ Ne 0 ""
 Po 0 5.08
 $EndPAD
 $SHAPE3D
-Na "connectors/xrl3male_90deg.wrl"
+Na "Connectors/xrl3male_90deg.wrl"
 Sc 2 2 2
 Of 0 0 0
 Ro 0 0 0
@@ -16594,7 +16594,7 @@ Ne 0 ""
 Po -5.08 17.78
 $EndPAD
 $SHAPE3D
-Na "connectors/xrl5male_90deg.wrl"
+Na "Connectors/xrl5male_90deg.wrl"
 Sc 2 2 2
 Of 0 0 0
 Ro 0 0 0
@@ -16629,7 +16629,7 @@ Ne 0 ""
 Po 12.7 0
 $EndPAD
 $SHAPE3D
-Na "device/bnc.wrl"
+Na "Device/bnc.wrl"
 Sc 2 2 2
 Of 0 0 0
 Ro 0 0 0
@@ -16680,7 +16680,7 @@ Ne 0 ""
 Po 3.175 3.175
 $EndPAD
 $SHAPE3D
-Na "device/bnc-ci.wrl"
+Na "Device/bnc-ci.wrl"
 Sc 2 2 2
 Of 0 0 0
 Ro 0 0 0
@@ -16716,7 +16716,7 @@ Ne 0 ""
 Po 2.54 0
 $EndPAD
 $SHAPE3D
-Na "device/bornier_2.wrl"
+Na "Device/bornier_2.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -16759,7 +16759,7 @@ Ne 0 ""
 Po 5.08 0
 $EndPAD
 $SHAPE3D
-Na "device/bornier_3.wrl"
+Na "Device/bornier_3.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -16809,7 +16809,7 @@ Ne 0 ""
 Po 7.62 0
 $EndPAD
 $SHAPE3D
-Na "device/bornier_4.wrl"
+Na "Device/bornier_4.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -16866,7 +16866,7 @@ Ne 0 ""
 Po 10.16 0
 $EndPAD
 $SHAPE3D
-Na "device/bornier_5.wrl"
+Na "Device/bornier_5.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -16930,7 +16930,7 @@ Ne 0 ""
 Po 12.7 0
 $EndPAD
 $SHAPE3D
-Na "device/bornier_6.wrl"
+Na "Device/bornier_6.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -17415,7 +17415,7 @@ Ne 0 ""
 Po 44.45 -1.27
 $EndPAD
 $SHAPE3D
-Na "conn_europe/c64abfd.wrl"
+Na "Conn_Europe/c64abfd.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -17900,7 +17900,7 @@ Ne 0 ""
 Po 39.37 1.27
 $EndPAD
 $SHAPE3D
-Na "conn_europe/c64abmd.wrl"
+Na "Conn_Europe/c64abmd.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -18387,7 +18387,7 @@ Ne 0 ""
 Po 39.37 -2.54
 $EndPAD
 $SHAPE3D
-Na "conn_europe/c64acfd.wrl"
+Na "Conn_Europe/c64acfd.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -18502,7 +18502,7 @@ Ne 0 ""
 Po 5.08 -1.27
 $EndPAD
 $SHAPE3D
-Na "conn_HExx/he10_10.wrl"
+Na "Conn_HExx/he10_10.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
