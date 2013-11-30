@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2013-06-15 12:44:04
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 2SA1016
 D 2SA1016, 50V Vce, 0.15A Ic, Low Noise Audio PNP Transistor, TO-92
@@ -46,6 +46,54 @@ $CMP BC307
 D BC307, Vce 45V, Ic 100mA, PNP Epitaxial Silicon Transistor, TO-92
 K PNP Epitaxial Silicon Transistor
 F transistors/bipolar/bc307.pdf
+$ENDCMP
+#
+$CMP BC413
+D BC413, 30V Vce, 0.1A Ic, NPN, Small Signal Transistor,TO-92
+K BC413 NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC413B
+D BC413B, 30V Vce, 0.1A Ic, NPN, Small Signal Transistor,TO-92
+K BC413 NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC413C
+D BC413C, 30V Vce, 0.1A Ic, NPN, Small Signal Transistor,TO-92
+K BC413 NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC414
+D BC414, 45V Vce, 0.1A Ic, NPN, Small Signal Transistor,TO-92
+K BC414 NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC414B
+D BC414B, 45V Vce, 0.1A Ic, NPN, Small Signal Transistor,TO-92
+K BC414 NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC414C
+D BC414C, 45V Vce, 0.1A Ic, NPN, Small Signal Transistor,TO-92
+K BC413 NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC516
+D BC516, 30V Vce, 1A Ic, NPN Darlington Transistor,TO-92
+K BC516 NPN Darlington Darl Transistor
+F http://www.fairchildsemi.com/ds/BC/BC516.pdf
+$ENDCMP
+#
+$CMP BC517
+D BC517, 30V Vce, 1A Ic, NPN Darlington Transistor,TO-92
+K BC517 NPN Darlington Darl Transistor
+F http://www.fairchildsemi.com/ds/BC/BC517.pdf
 $ENDCMP
 #
 $CMP BC546
@@ -312,6 +360,66 @@ K  Power Transistor PNP
 F http://www.bourns.com/data/global/pdfs/bd250.pdf
 $ENDCMP
 #
+$CMP BD433
+D BD433, 22V Vce, 4A Ic, NPN Power Transistor, TO126
+K BD433 NPN Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD434
+D BD434, 22V Vce, 4A Ic, PNP Power Transistor, TO126
+K BD434 PNP Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD435
+D BD435, 32V Vce, 4A Ic, NPN Power Transistor, TO126
+K BD435 NPN Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD436
+D BD436, 32V Vce, 4A Ic, PNP Power Transistor, TO126
+K BD436 PNP Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD437
+D BD437, 45V Vce, 4A Ic, NPN Power Transistor, TO126
+K BD437 NPN Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD438
+D BD438, 45V Vce, 4A Ic, PNP Power Transistor, TO126
+K BD438 PNP Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD439
+D BD439, 60V Vce, 4A Ic, NPN Power Transistor, TO126
+K BD439 NPN Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD440
+D BD440, 60V Vce, 4A Ic, PNP Power Transistor, TO126
+K BD440 PNP Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD441
+D BD441, 80V Vce, 4A Ic, NPN Power Transistor, TO126
+K BD441 NPN Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD442
+D BD442, 80V Vce, 4A Ic, PNP Power Transistor, TO126
+K BD442 PNP Power Transistor TO126
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
 $CMP BD909
 D BD909, 15A, Silicon Power Transistors NPN
 K Power Transistor NPN
@@ -336,33 +444,85 @@ K Power Transistor PNP
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf
 $ENDCMP
 #
+$CMP BF240
+D BF240, 40V Vce, 0.05A Ic, NPN, RF Signal Transistor,TO-92
+K BF240 NPN RF Transistor
+F http://www.fairchildsemi.com/ds/BF/BF240.pdf
+$ENDCMP
+#
+$CMP BF244A
+D BF244A, 30V Vgs, 0.05A Id, N-Cannel FET Transistor, TO92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF244A.pdf
+$ENDCMP
+#
+$CMP BF244B
+D BF244B, 30V Vgs, 0.05A Id, N-Cannel FET Transistor, TO92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF244A.pdf
+$ENDCMP
+#
+$CMP BF244C
+D BF244C, 30V Vgs, 0.05A Id, N-Cannel FET Transistor, TO92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF244A.pdf
+$ENDCMP
+#
 $CMP BF245A
-D BF245, N-Cannel FET Transistor, Low Voltage, TO92
-K N-Channel FET Transistor Low Voltage Field Effect
-F http://www.noise.physx.u-szeged.hu/Education/ELabor/BF245.pdf
+D BF245A, 30V Vgs, 0.01A Id, N-Cannel FET Transistor, TO92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
 $ENDCMP
 #
 $CMP BF245B
-D BF245, N-Cannel FET Transistor, Low Voltage, TO92
-K N-Channel FET Transistor Low Voltage Field Effect
-F http://www.noise.physx.u-szeged.hu/Education/ELabor/BF245.pdf
+D BF245B, 30V Vgs, 0.01A Id, N-Cannel FET Transistor, TO92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
 $ENDCMP
 #
 $CMP BF245C
-D BF245, N-Cannel FET Transistor, Low Voltage, TO92
-K N-Channel FET Transistor Low Voltage Field Effect
-F http://www.noise.physx.u-szeged.hu/Education/ELabor/BF245.pdf
+D BF245C, 30V Vgs, 0.01A Id, N-Cannel FET Transistor, TO92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
+$ENDCMP
+#
+$CMP BF457
+D BF457, 160V Vce, 0.1A Ic, NPN, High Voltage Transistor,TO126
+K BF457 NPN HV High Voltage Transistor
+$ENDCMP
+#
+$CMP BF458
+D BF458, 250V Vce, 0.1A Ic, NPN, High Voltage Transistor,TO126
+K BF458 NPN HV High Voltage Transistor
+$ENDCMP
+#
+$CMP BF459
+D BF459, 300V Vce, 0.1A Ic, NPN, High Voltage Transistor,TO126
+K BF457 NPN HV High Voltage Transistor
 $ENDCMP
 #
 $CMP BFR92
-D NPN 5 GHz wideband transistor
-F transistors/bipolar/BFR92.pdf
+D BFR92, 15V Vce, 0.025A Ic, NPN 5GHz Wideband Transistor, SOT323
+K RF 5GHz NPN Transistor
+F http://www.nxp.com/documents/data_sheet/BFR92A_N.pdf
+$ENDCMP
+#
+$CMP BFT92
+D BFT92, 15V Vce, 0.025A Ic, PNP 5GHz Wideband Transistor, SOT23
+K RF 5GHz NPN Transistor
+F http://www.nxp.com/documents/data_sheet/BFT92_CNV.pdf
 $ENDCMP
 #
 $CMP BS107
 D BS107, 200V Vds, N-Channel MOSFET, TO92
 K N-Channel MOSFET
 F http://www.vishay.com/docs/70215/70215.pdf
+$ENDCMP
+#
+$CMP BS170
+D BS170, 60V Vds 0.5A Id, N-Channel MOSFET, TO92
+K N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/BS/BS170.pdf
 $ENDCMP
 #
 $CMP BSS138
@@ -1015,6 +1175,12 @@ $CMP MJE13009G
 D MJE13009G, 12A Ic, 400V Vce, Silicon Switching Power Transistors NPN, TO220
 K Switching Power Transistor NPN
 F http://www.onsemi.com/pub_link/Collateral/MJE13009-D.PDF
+$ENDCMP
+#
+$CMP MMBF170
+D MMBF170, 60V Vds 0.5A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/BS/BS170.pdf
 $ENDCMP
 #
 $CMP MOSN-SO8
