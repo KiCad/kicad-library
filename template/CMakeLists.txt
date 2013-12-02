@@ -1,19 +1,14 @@
 
-# "template_lst" will be a list of all templates.
-# Each template is a directory here.
-file( GLOB template_lst RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} * )
-#message( template_lst:${template_lst} )
+# Update this "template_lst" when you add or remove a project template
+set( template_lst
+    raspberrypi-gpio
+    stm32f100-discovery-shield
+    ti-stellaris-boosterpack40
+    ti-stellaris-boosterpack40_min
+    )
 
-# don't include CMakeLists.txt or CMakeLists.txt~ which could be in the GLOB list
-string( REGEX REPLACE "CMakeLists.txt~*;?" "" template_lst "${template_lst}" )
-
-# guard against an in tree "build"
-string( REGEX REPLACE "CMakeFiles/[^;]+;?" "" template_lst "${template_lst}" )
-
-#message( template_lst:${template_lst} )
 
 foreach( tpl ${template_lst} )
-    #message( tpl:${tpl} )
     install( DIRECTORY ${tpl} DESTINATION ${KICAD_TEMPLATE} COMPONENT templates )
 endforeach()
 
