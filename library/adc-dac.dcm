@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2013-01-22 21:33:02
+EESchema-DOCLIB  Version 2.0
 #
 $CMP AD390JD
 D Quadruple Convertisseur D->A 12 bits
@@ -87,6 +87,18 @@ $CMP ADC1173
 D Fast ADC  (15 Mhz)
 K ADC CAN VIDEO
 F adc-dac/adc1173.pdf
+$ENDCMP
+#
+$CMP ADS1232IPW
+D ADS1232, Single Bridge 24bit ADC for Sensors, TSSOP24
+K ADC 24bit Sensors Dual Channel
+F http://www.ti.com/lit/ds/symlink/ads1232.pdf
+$ENDCMP
+#
+$CMP ADS1234IPW
+D ADS1234, Dual Bridge 24bit ADC for Sensors, TSSOP28
+K ADC 24bit Sensors Quad Channel
+F http://www.ti.com/lit/ds/symlink/ads1232.pdf
 $ENDCMP
 #
 $CMP CA3300
