@@ -1,0 +1,68 @@
+KiCad Library Convention
+========================
+
+General Rules
+-------------
+
+1. Writing uses C-style naming with the first letter of each word being capitalized. Ex: "Socket_Strip_Straight_2x06"
+2. Every acronym has all of its letters capitalized.
+3. Manufacturer name is capitalized as usual. Ex: NEC, Microchip
+4. Component name must match its filename
+5. When dimensions are used in part name, they are in millimeters and unit is not capitalized. Ex: "Cap_10x13mm_RM5"
+6. Filename is the same as the part name.
+
+
+Symbols
+-------
+
+1. Using a 100mil grid, pin ends and origin must lie on grid nodes (IEC-60617).
+2. Pin must have a length of 100mil or more in increments of 50mil if number needs more space.
+3. Black-box components group pins logically, for example by function set, and ports in counter-clockwise position.
+4. Whenever possible, inputs are on the left and outputs are on the right.
+5. Field text must use a common size of 50mils.
+
+
+Footprint Library Names (.pretty repositories)
+----------------------------------------------
+
+1. Part type (resistor, cap, etc), must be in plural form.
+2. Package type (SOIC, SMD, etc).
+3. Manufacturer.
+4. Part number.
+
+
+Footprints
+----------
+
+1. Follows datasheet recommendation unless intentional variation, for example longer pads for hand soldering.
+2. Pad 1 must be on the left first, then at the top, except at the top for PLCC (IPC-7351).
+3. For through-hole components, origin is set on pad 1.
+4. For surface-mount devices, origin is placed in the middle with respect to device lead ends (IPC-7351).
+
+
+Names for footprints of Surface-Mount Devices (SMD)
+---------------------------------------------------
+
+1. Specific package feature first, not separated by anything.
+2. Package name, numbers separated from letters using hyphen. Ex: "SOT-89"
+3. Pin number is expanded with '+' sign for extra pads to package, with acronym for type of pad. Ex: Exposed pad under QFP: "QFP-48+1EP".
+4. Variation of package, separated by another hyphen. Ex: "SOT-23-5"
+5. If it's a manufacturer-specific package, name can be appended, separated by an underscore.
+6. Any modification to the original footprint, indicated by appending the reason. Ex: longer pads are used to facilitate hand soldering of a QFN component: "QFN-52_HandSoldering"
+
+
+Names for footprints of common devices, such as resistors, capacitors, etc
+--------------------------------------------------------------------------
+
+1. Name of part, may be shortened for common components. ex: "Cap", "Socket_Strip", etc.
+2. Dimension, which may include at its end the positioning. Ex: "TO-220_Horiz", "1x02_Angled"
+3. Pad distance, in the form of an RM rating.
+4. Any modification to the original footprint, indicated by appending the reason.
+
+
+Names for footprints of specific devices
+----------------------------------------
+
+1. Name of part.
+2. Part number. Ex: "Oscillator_SI570"
+4. Any modification to the original footprint, indicated by appending the reason.
