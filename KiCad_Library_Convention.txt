@@ -1,6 +1,6 @@
 KiCad Library Convention
 ========================
-Revision 0.1, May 8th 2014
+Revision 0.2, May 8th 2014
 Devised by Carl Poirier
 With help from members of:
 kicad-lib-committers@lists.launchpad.net
@@ -26,8 +26,8 @@ kicad-developers@lists.launchpad.net
 TODO
 
 
-3. Symbols
-----------
+3. General Rules for Symbols
+----------------------------
 
 3.1. Using a 100mil grid, pin ends and origin must lie on grid nodes (IEC-60617).
 3.2. Pin must have a length of 100mil or more in increments of 50mil if number needs more space.
@@ -35,7 +35,7 @@ TODO
 3.4. Black-box components group pins logically, for example by function set, and ports in counter-clockwise position.
 3.5. Whenever possible, inputs are on the left and outputs are on the right.
 3.6. Field text uses a common size of 50mils.
-3.7. The reference field is prefilled with the reference designator of the symbol.
+3.7. The reference field is prefilled with the reference designator of the symbol (IEEE 315-1975).
 
 
 4. Symbol Names
@@ -53,13 +53,14 @@ TODO
 5.4. Part number.
 
 
-6. Footprints
--------------
+6. General Rules for Footprints
+-------------------------------
 
 6.1. Follows datasheet recommendation unless intentional variation, for example longer pads for hand soldering.
 6.2. Pad 1 must be on the left first, then at the top, except at the top for PLCC (IPC-7351).
 6.3. For through-hole components, origin is set on pad 1.
 6.4. For surface-mount devices, origin is placed in the middle with respect to device lead ends (IPC-7351).
+6.5. Silkscreen must not be superposed to pads.
 
 
 7. Names for footprints of Surface-Mount Devices (SMD)
