@@ -971,12 +971,6 @@ K Adjustable Voltage Regulator 1.5A Negative
 F http://www.ti.com/lit/ds/symlink/lm337-n.pdf
 $ENDCMP
 #
-$CMP LM317_SOT223
-D Linear Regulator (adjustable)
-K POWER REGUL
-F regulator/lm117.pdf
-$ENDCMP
-#
 $CMP LM317AEMP
 D LM317AEMP, 1A 35V Adjustable Linear Regulator, SOT-223
 K Adjustable Voltage Regulator 1A Positive
@@ -1035,6 +1029,12 @@ $CMP LM317T
 D LM317T, 1.5A 35V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 1.5A Positive
 F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP LM317_SOT223
+D Linear Regulator (adjustable)
+K POWER REGUL
+F regulator/lm117.pdf
 $ENDCMP
 #
 $CMP LM337H
@@ -1454,18 +1454,6 @@ $CMP LT1108
 D Switching Regulator
 $ENDCMP
 #
-$CMP LT1129_QPACK
-D LowDrop Linear Regulator (QPACK 5 pins)
-K REGUL POWER
-F linear-tec/lt1129.pdf
-$ENDCMP
-#
-$CMP LT1129_SO8
-D LowDrop Linear Regulator (8 pins SOJ)
-K REGUL POWER
-F linear-tec/lt1129.pdf
-$ENDCMP
-#
 $CMP LT1129CQ
 D LT1129CQ, 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, TO263
 K 700mA LDO Regulator Adjustable Positive
@@ -1604,12 +1592,24 @@ K 700mA LDO Regulator 3.3V Positive
 F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
 $ENDCMP
 #
-$CMP LT1175_QP
+$CMP LT1129_QPACK
+D LowDrop Linear Regulator (QPACK 5 pins)
+K REGUL POWER
+F linear-tec/lt1129.pdf
+$ENDCMP
+#
+$CMP LT1129_SO8
+D LowDrop Linear Regulator (8 pins SOJ)
+K REGUL POWER
+F linear-tec/lt1129.pdf
+$ENDCMP
+#
+$CMP LT1175CN8
 D REGULATOR (Negative voltage)
 F linear-tec/lt1175.pdf
 $ENDCMP
 #
-$CMP LT1175CN8
+$CMP LT1175_QP
 D REGULATOR (Negative voltage)
 F linear-tec/lt1175.pdf
 $ENDCMP
@@ -1647,6 +1647,11 @@ K REGUL POWER
 F linear-tec/lt3430f.pdf
 $ENDCMP
 #
+$CMP LT3439
+D Low EMI DC/DC converter.
+F regulator/lt3439.pdf
+$ENDCMP
+#
 $CMP LT3472
 D DC/DC converter for CCD bias
 F regulator/lt3472.pdf
@@ -1654,12 +1659,6 @@ $ENDCMP
 #
 $CMP LT3757EMSE
 D Boost, flyback, SEPIC and inverting regulator (MSOP package)
-$ENDCMP
-#
-$CMP LT_1129_QP
-D LowDrop Linear Regulator (QPACK 5 pins)
-K REGUL POWER
-F linear-tec/lt1129.pdf
 $ENDCMP
 #
 $CMP LTC1307
@@ -1693,6 +1692,12 @@ $ENDCMP
 $CMP LTC3525
 D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
 F linear-tec\ltc3525.pdf
+$ENDCMP
+#
+$CMP LT_1129_QP
+D LowDrop Linear Regulator (QPACK 5 pins)
+K REGUL POWER
+F linear-tec/lt1129.pdf
 $ENDCMP
 #
 $CMP MAX1647
