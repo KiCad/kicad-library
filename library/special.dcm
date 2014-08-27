@@ -28,6 +28,12 @@ D TimeKeeper DALLAS/MAXIM
 F maxim/DS1302.pdf
 $ENDCMP
 #
+$CMP DS1307+
+D I2C Real-Time Clock
+K Time Clock
+F http://datasheets.maximintegrated.com/en/ds/DS1307.pdf
+$ENDCMP
+#
 $CMP DS1602
 D Low Power Counter/TimeKeeper  DALLAS
 $ENDCMP
@@ -138,10 +144,6 @@ $CMP MAX5436
 D Digital Potentiometer (SPI ctrl)
 K POT
 F maxim/MAX5436-MAX5439.pdf
-$ENDCMP
-#
-$CMP MAX691
-F maxim/max690-max695.pdf
 $ENDCMP
 #
 $CMP MAX777
