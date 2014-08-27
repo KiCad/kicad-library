@@ -4,13 +4,13 @@ DEF cylinder2_sep3 Transform {
   children [
     Shape {
       appearance Appearance {
-        material DEF default Material {
-          diffuseColor 0.7898538076923077 0.8133333333333334 0.6940444444444445
+        material DEF color_256_256_256 Material {
+          diffuseColor 1.0 1.0 1.0
           emissiveColor 0.0 0.0 0.0
-          specularColor 0.0 0.0 0.0
-          ambientIntensity 0.765743861823362
+          specularColor 1.0 1.0 1.0
+          ambientIntensity 1.0
           transparency 0.0
-          shininess 0.0
+          shininess 1.0
         }
       }
       geometry IndexedFaceSet {
@@ -1030,7 +1030,14 @@ DEF cylinder2_sep2 Transform {
   children [
     Shape {
       appearance Appearance {
-        material USE default
+        material DEF color_256_213_128 Material {
+          diffuseColor 1.0 0.8333333333333333 0.5
+          emissiveColor 0.0 0.0 0.0
+          specularColor 1.0 1.0 1.0
+          ambientIntensity 1.0
+          transparency 0.0
+          shininess 1.0
+        }
       }
       geometry IndexedFaceSet {
         normalPerVertex TRUE
@@ -1972,7 +1979,7 @@ DEF cylinder2_sep2 Transform {
           215, 221, 222, 216, -1,
           216, 222, 223, 217, -1 ]
         color Color { color [
-          0.86 0.86 0.5333333333333333,
+          1.0 0.8333333333333333 0.5,
           1.0 1.0 1.0 ] }
         colorIndex [
           0, 0, 0, 0, -1,
@@ -2210,7 +2217,7 @@ DEF cylinder2 Transform {
   children [
     Shape {
       appearance Appearance {
-        material USE default
+        material USE color_256_256_256
       }
       geometry IndexedFaceSet {
         normalPerVertex TRUE
