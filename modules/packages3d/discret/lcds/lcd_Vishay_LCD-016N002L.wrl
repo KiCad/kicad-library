@@ -5142,14 +5142,7 @@ DEF Cube1 Transform {
     },
     Shape {
       appearance Appearance {
-        material DEF lcd Material {
-          diffuseColor 1.0 1.0 1.0
-          emissiveColor 0.0 0.0 0.0
-          specularColor 0.0 0.0 0.0
-          ambientIntensity 1.0
-          transparency 0.0
-          shininess 0.0
-        }
+        material USE color_256_255_255
       }
       geometry IndexedFaceSet {
         normalPerVertex TRUE
@@ -5172,7 +5165,7 @@ DEF Cube1 Transform {
           0.1666666716337204 0.1666666716337204 0.1666666716337204,
           1.0 1.0 1.0 ] }
         colorIndex [
-          0, 0, 0, 0, -1 ]
+          1, 1, 1, 1, -1 ]
       }
     }
   ]
