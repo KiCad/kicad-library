@@ -28,6 +28,12 @@ D TimeKeeper DALLAS/MAXIM
 F maxim/DS1302.pdf
 $ENDCMP
 #
+$CMP DS1307+
+D I2C Real-Time Clock
+K Time Clock
+F http://datasheets.maximintegrated.com/en/ds/DS1307.pdf
+$ENDCMP
+#
 $CMP DS1602
 D Low Power Counter/TimeKeeper  DALLAS
 $ENDCMP
