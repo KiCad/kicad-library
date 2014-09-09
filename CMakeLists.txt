@@ -41,11 +41,16 @@ mark_as_advanced( KICAD_DATA KICAD_MODULES KICAD_LIBRARY )
 
 
 if( UNIX )
-    set( KICAD_USER_CONFIG_DIR "$ENV{HOME}/.config/kicad"
-         CACHE PATH "Location of user specifig KiCad config files" )
+    if( APPLE )
+        set( KICAD_USER_CONFIG_DIR $ENV{HOME}/Library/Preferences/kicad
+            CACHE PATH "Location of user specifig KiCad config files" )
+    else()
+        set( KICAD_USER_CONFIG_DIR $ENV{HOME}/.config/kicad
+            CACHE PATH "Location of user specifig KiCad config files" )
+    endif()
 elseif( MINGW )
-    set( KICAD_USER_CONFIG_DIR "$ENV{%APPDATA%}/kicad"
-         CACHE PATH "Location of user specifig KiCad config files" )
+    set( KICAD_USER_CONFIG_DIR $ENV{%APPDATA%}/kicad
+        CACHE PATH "Location of user specifig KiCad config files" )
 endif()
 
 mark_as_advanced( KICAD_USER_CONFIG_DIR )
