@@ -1354,10 +1354,28 @@ K Voltage Regulator 0.5A Negative
 F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
 $ENDCMP
 #
-$CMP LP2981
-D MICROPOWER 100mA Regulator 
-K REGUL POWER  SOT23-5
-F http://www.ti.com/lit/gpn/lp2981-33
+$CMP LP2981-5.0
+D LP2981-5.0, 100mA Linear LDO Regulator, Low Noise, Fixed Output 5V, SOT-23-5
+K Linear LDO Regulator 100mA 5V SOT23-5
+F http://www.ti.com/lit/ds/symlink/lp2981-33.pdf
+$ENDCMP
+#
+$CMP LP2981-3.3
+D LP2981-3.3, 100mA Linear LDO Regulator, Low Noise, Fixed Output 3.3V, SOT-23-5
+K Linear LDO Regulator 100mA 5V SOT23-5
+F http://www.ti.com/lit/ds/symlink/lp2981-33.pdf
+$ENDCMP
+#
+$CMP LP2981-3.0
+D LP2981-3.0, 100mA Linear LDO Regulator, Low Noise, Fixed Output 3.0V, SOT-23-5
+K Linear LDO Regulator 100mA 5V SOT23-5
+F http://www.ti.com/lit/ds/symlink/lp2981-33.pdf
+$ENDCMP
+#
+$CMP LP2981-2.8
+D LP2981-3.3, 100mA Linear LDO Regulator, Low Noise, Fixed Output 3.3V, SOT-23-5
+K Linear LDO Regulator 100mA 5V SOT23-5
+F http://www.ti.com/lit/ds/symlink/lp2981-33.pdf
 $ENDCMP
 #
 $CMP LP2985LV
