@@ -1,0 +1,128 @@
+KiCadライブラリの慣例
+========================
+Revision 0.7, September 18th 2014
+Devised by Carl Poirier
+With help from members of:
+kicad-lib-committers@lists.launchpad.net
+kicad-developers@lists.launchpad.net
+
+
+1. 一般ルール
+----------------
+
+1.1. C言語スタイルの命名法で，単語の一文字目を大文字にする．例："Socket_Strip_Straight_2x06"
+1.2. 頭文字で短縮された語の場合は，全て大文字にする．
+1.3. 製造元の名前は，通常の書き方にする．例：NEC, Microchip
+1.4. パーツ名に寸法を含める場合は，ミリメートル単位にし，少数部分はドット"."で区切る．単位は大文字にしない．例："Cap_10x13mm_RM5"
+1.5. ファイル名はパーツ名と同じにする．
+1.6. 名前中の要素の順番は，このドキュメントで示された番号と同じにする．
+
+
+2. シンボルライブラリ名 (.lib files)
+------------------------------------
+
+2.1. 製造元
+2.2. カテゴリまたはパーツファミリ．例："Capacitors", "Spartan6", など
+
+
+3. シンボルについての一般ルール
+----------------------------
+
+3.1. 100milグリッドを使用し，ピンの先端と中心がグリッド上に配置されるようにする (IEC-60617)．
+3.2. ピンの長さは100milが基準で，ナンバーがスペースを必要とする場合は，50mil刻みの長さ（150, 200, ...）で長くする．
+3.3. シンボルの中央に中心が配置されるようにする．
+3.4. Black-box components group pins logically, for example by function set, and ports in counter-clockwise position.
+3.5. Whenever possible, inputs are on the left and outputs are on the right.
+3.6. Field text uses a common size of 50mils.
+3.7. The reference field is prefilled with the reference designator of the symbol (IEEE 315-1975).
+3.8. The Value field is prefilled with the object name.
+
+
+4. Symbol Names
+---------------
+
+4.1. Name of symbol, may be shortened for common components or use reference designator of the symbol (IEEE 315-1975). ex: "Conn_4x2", "C"etc.
+4.2. Manufacturer.
+4.3. Part number, including extension for specific footprint. (JEDEC for common devices, ex: 1N4001)
+4.4. Any modification to the original footprint, indicated by appending the reason. Ex: different pin ordering: "transistor_PNP_pinswap1"
+4.5. Indication of quantity if symbol is an array. ex: resistor array: "Resistor_x8"
+
+
+5. Footprint Library Names (.pretty repositories)
+-------------------------------------------------
+
+5.1. Part type (resistor, cap, etc), must be in plural form.
+5.2. Package type (SOIC, SMD, etc).
+5.3. Manufacturer.
+5.4. Part number.
+
+
+6. General Rules for Footprints
+-------------------------------
+
+6.1. Follows datasheet recommendation unless intentional variation, for example longer pads for hand soldering.
+6.2. Pad 1 is on the left first, then at the top, except at the top for PLCC (IPC-7351).
+6.3. For through-hole components, footprint anchor is set on pad 1.
+6.4. For surface-mount devices, footprint anchor is placed in the middle with respect to device lead ends. (IPC-7351)
+6.5. Silkscreen is not superposed to pads, its outline is completely visible after board assembly, uses 0.15mm line width and provides a reference mark for pin 1. (IPC-7351)
+6.6. Courtyard has a clearance of 0.25mm, except aluminum capacitors at 0.5mm and BGA at 1.0mm, all rounded on a grid of 0.05mm. (IPC-7351)
+6.7. Cannot be duplicated to match a different pin ordering. This is to be handled in the symbol libraries.
+6.8. Footprint name must match its filename. (.kicad_mod files)
+6.9. The value and reference designator must be placed on silkscreen.
+
+
+7. Names for footprints of Surface-Mount Devices (SMD)
+------------------------------------------------------
+
+7.1. Specific package feature first, not separated by anything. Ex: "TSSOP"
+7.2. Package name, numbers separated from letters using hyphen. Ex: "SOT-89"
+7.3. Variation of package, separated by another hyphen. Ex: SOT-23 with 5 pins: "SOT-23-5", Exposed pad under package: "QFP-48-1EP"
+7.4. If it's a manufacturer-specific package, name can be appended, separated by an underscore.
+7.5. Any modification to the original footprint, indicated by appending the reason. Ex: longer pads used to facilitate hand soldering of a QFN component: "QFN-52_HandSoldering"
+
+
+8. Names for footprints of common devices, such as resistors, capacitors, etc
+-----------------------------------------------------------------------------
+
+8.1. Name of part, may be shortened for common components. ex: "Cap", "Socket_Strip", etc.
+8.2. Dimension, which may include at its end the positioning. Ex: "5x7mm_Horiz", "1x02_Angled"
+8.3. Pad distance, in the form of an RM rating.
+8.4. Any modification to the original footprint, indicated by appending the reason.
+
+
+9. Names for footprints of specific devices
+-------------------------------------------
+
+9.1. Name of part.
+9.2. Part number. Ex: "Oscillator_SI570"
+9.4. Any modification to the original footprint, indicated by appending the reason.
+
+
+Changelog
+---------
+
+    Revision 0.1, May 8th 2014
+    1. Initial Commit
+    
+    Revision 0.2, May 19th 2014
+    1. Minor clarifications to few items.
+    2. Exposed pad is now considered as a variation of a package, thus separated by hyphen instead of plus sign.
+    3. Added 2-level numbering.
+
+    Revision 0.3, June 8th 2014
+    1. Specified that pin ordering duplicates are to be handled in symbol libraries.
+    2. Specified the rules for footprint silkscreen.
+
+    Revision 0.4, July 30th 2014
+    1. Completion of convention for symbols.
+    2. Rule 6.7 moved from section 1 since it pertains only to footprints.
+    
+    Revision 0.5, August 6th 2014
+    1. Specified in 6.5 that only the outline must be completely visible after assembly.
+    2. Rule 3.8 moved from section 1 since it pertains only to symbols.
+    
+    Revision 0.6, September 14th 2014
+    1. Specified in 6.9 that value and reference designators must be placed on silkscreen.
+    
+    Revision 0.7, September 18th 2014
+    1. Added rule 6.6 for courtyard
