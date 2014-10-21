@@ -31,98 +31,98 @@ kicad-developers@lists.launchpad.net
 3.1. 100milグリッドを使用し，ピンの先端と中心がグリッド上に配置されるようにする (IEC-60617)．
 3.2. ピンの長さは100milが基準で，ナンバーがスペースを必要とする場合は，50mil刻みの長さ（150, 200, ...）で長くする．
 3.3. シンボルの中央に中心が配置されるようにする．
-3.4. ブラックボックスのコンポーネントはピンを機能セットなどで論理的にまとめる．ポートは反時計回りで配置する
+3.4. ブラックボックスのコンポーネントはピンを機能セットなどで論理的にグループ化する．ポートは反時計回りで配置する
 3.5. いつもできるだけ，インプットを左にアウトプットを右に配置する．
 3.6. フィールドのテキストは通常の50milサイズにする．
 3.7. リファレンスのフィールドは，シンボルのリファレンスデジグネータで埋めておく (IEEE 315-1975)．
 3.8. 値のフィールドはオブジェクト名で埋めておく．
 
 
-4. Symbol Names
+4. シンボル名称
 ---------------
 
-4.1. Name of symbol, may be shortened for common components or use reference designator of the symbol (IEEE 315-1975). ex: "Conn_4x2", "C"etc.
-4.2. Manufacturer.
-4.3. Part number, including extension for specific footprint. (JEDEC for common devices, ex: 1N4001)
-4.4. Any modification to the original footprint, indicated by appending the reason. Ex: different pin ordering: "transistor_PNP_pinswap1"
-4.5. Indication of quantity if symbol is an array. ex: resistor array: "Resistor_x8"
+4.1. シンボル名称は通常のコンポーネントを短縮するか，シンボルのデジグネータを使用する．例："Conn_4x2", "C" など．
+4.2. 製造元
+4.3. フットプリントの仕様を含んだパーツ番号．(通常のデバイスはJEDEC 例：1N4001)
+4.4. オリジナルのフットプリントに編集を加えた場合は，その理由を追加する．例：ピンの順番を入れ替えた場合："transistor_PNP_pinswap1"
+4.5. 複数の同型シンボルが並んでいる場合は数を表記．例：集合抵抗："Resistor_x8"
 
 
-5. Footprint Library Names (.pretty repositories)
+5. フットプリントライブラリの名称 (.pretty リポジトリ)
 -------------------------------------------------
 
-5.1. Part type (resistor, cap, etc), must be in plural form.
-5.2. Package type (SOIC, SMD, etc).
-5.3. Manufacturer.
-5.4. Part number.
+5.1. パーツの種類（抵抗，コンデンサなど）を複数形で．
+5.2. パッケージタイプ (SOIC, SMD, など).
+5.3. 製造元
+5.4. パーツ番号
 
 
-6. General Rules for Footprints
+6. フットプリントについての一般ルール
 -------------------------------
 
-6.1. Follows datasheet recommendation unless intentional variation, for example longer pads for hand soldering.
-6.2. Pad 1 is on the left first, then at the top, except at the top for PLCC (IPC-7351).
-6.3. For through-hole components, footprint anchor is set on pad 1.
-6.4. For surface-mount devices, footprint anchor is placed in the middle with respect to device lead ends. (IPC-7351)
-6.5. Silkscreen is not superposed to pads, its outline is completely visible after board assembly, uses 0.15mm line width and provides a reference mark for pin 1. (IPC-7351)
-6.6. Courtyard has a clearance of 0.25mm, except aluminum capacitors at 0.5mm and BGA at 1.0mm, all rounded on a grid of 0.05mm. (IPC-7351)
-6.7. Cannot be duplicated to match a different pin ordering. This is to be handled in the symbol libraries.
-6.8. Footprint name must match its filename. (.kicad_mod files)
-6.9. The value and reference designator must be placed on silkscreen.
+6.1. 意図的な変更以外はデータシートの要求通りにする．例えば，手ハンダのための長めのパッドなど．
+6.2. パッド1を左上にする，PLCCの上端以外は (IPC-7351)．
+6.3. スルーホールのコンポーネントは，フットプリントのアンカーをパッド1の上に配置する．
+6.4. 表面実装部品は，フットプリントのアンカーをデバイスのリード端で囲まれた中央に配置する (IPC-7351)．
+6.5. シルクスクリーンはパッド上を避け，ボードのアセンブリ後も外周が完全に見えるように，0.15mm幅の線で引く．ピン1にはリファレンスのマークをつける (IPC-7351)．
+6.6. コートヤードには0.25mmのクリアランスを設ける．ただしアルミコンデンサの場合は0.5mm，BGAの場合は1.0mm．全て0.05mmのグリッド上に配置すること (IPC-7351)．
+6.7. 異なるピンの順番に適合させるため，重複するフットプリントを作ってはならない．その場合はシンボルライブラリで調整する．
+6.8. フットプリントの名称はファイル名と一致させる (.kicad_mod ファイル)．
+6.9. 値とリファレンスのデジグネータはシルクスクリーン上に配置する．
 
 
-7. Names for footprints of Surface-Mount Devices (SMD)
+7. 表面実装部品（SMD）のフットプリントの名称
 ------------------------------------------------------
 
-7.1. Specific package feature first, not separated by anything. Ex: "TSSOP"
-7.2. Package name, numbers separated from letters using hyphen. Ex: "SOT-89"
-7.3. Variation of package, separated by another hyphen. Ex: SOT-23 with 5 pins: "SOT-23-5", Exposed pad under package: "QFP-48-1EP"
-7.4. If it's a manufacturer-specific package, name can be appended, separated by an underscore.
-7.5. Any modification to the original footprint, indicated by appending the reason. Ex: longer pads used to facilitate hand soldering of a QFN component: "QFN-52_HandSoldering"
+7.1. パッケージの種類が最初．間を分割する文字は削除．例："TSSOP"
+7.2. パッケージ名，番号とはハイフンで分ける．例："SOT-89"
+7.3. パッケージのバリエーションとは別のハイフンで分ける．例：5ピンのSOT-23："SOT-23-5"，パッケージ下のExposedパッド："QFP-48-1EP"
+7.4. 製造所固有のパッケージの場合は，アンダースコアで分けて名称を追加．
+7.5. オリジナルのフットプリントからの変更には，理由を付ける．例：QFNコンポーネントに手ハンダに便利なよう長めのパッドを付けた場合："QFN-52_HandSoldering"
 
 
-8. Names for footprints of common devices, such as resistors, capacitors, etc
+8. 抵抗，コンデンサー等の標準部品のフットプリントの名称
 -----------------------------------------------------------------------------
 
-8.1. Name of part, may be shortened for common components. ex: "Cap", "Socket_Strip", etc.
-8.2. Dimension, which may include at its end the positioning. Ex: "5x7mm_Horiz", "1x02_Angled"
-8.3. Pad distance, in the form of an RM rating.
-8.4. Any modification to the original footprint, indicated by appending the reason.
+8.1. パーツ名はよくあるように省略．例："Cap", "Socket_Strip", など．
+8.2. 寸法．配置方法を含めることもできる．例："5x7mm_Horiz", "1x02_Angled"
+8.3. パッド間の距離，in the form of an RM rating.
+8.4. オリジナルのフットプリントからの変更には，理由を付ける．
 
 
-9. Names for footprints of specific devices
+9. 特定のデバイスのフットプリントの名称
 -------------------------------------------
 
-9.1. Name of part.
-9.2. Part number. Ex: "Oscillator_SI570"
-9.4. Any modification to the original footprint, indicated by appending the reason.
+9.1. パーツ名．
+9.2. パーツ番号．例："Oscillator_SI570"
+9.4. オリジナルのフットプリントからの変更には，理由を付ける．
 
 
-Changelog
+変更履歴
 ---------
 
     Revision 0.1, May 8th 2014
-    1. Initial Commit
+    1. 最初のコミット
     
     Revision 0.2, May 19th 2014
-    1. Minor clarifications to few items.
-    2. Exposed pad is now considered as a variation of a package, thus separated by hyphen instead of plus sign.
-    3. Added 2-level numbering.
+    1. いくつかのアイテムの小さな明確化．
+    2. Exposedパッドをプラスではなくハイフン表記でパッケージのバリエーションとして扱うことにした．
+    3. 2レベルのナンバリングを追加．
 
     Revision 0.3, June 8th 2014
-    1. Specified that pin ordering duplicates are to be handled in symbol libraries.
-    2. Specified the rules for footprint silkscreen.
+    1. ピンの順番が異なる重複はシンボルライブラリで扱うことを明文化．
+    2. フットプリントのシルクスクリーンについて明文化．
 
     Revision 0.4, July 30th 2014
-    1. Completion of convention for symbols.
-    2. Rule 6.7 moved from section 1 since it pertains only to footprints.
+    1. シンボルの慣習について，完成．
+    2. ルール6.7がフットプリントにしか関連しなかったため，1章に移動．
     
     Revision 0.5, August 6th 2014
-    1. Specified in 6.5 that only the outline must be completely visible after assembly.
-    2. Rule 3.8 moved from section 1 since it pertains only to symbols.
+    1. 外形線がアセンブリ後も視認できることを6.5で明文化．
+    2. ルール3.8がシンボルにしか関連しなかっため，1章に移動．
     
     Revision 0.6, September 14th 2014
-    1. Specified in 6.9 that value and reference designators must be placed on silkscreen.
+    1. 値とリファレンスのデジグネータをシルクスクリーンに配置することを6.9で明文化．
     
     Revision 0.7, September 18th 2014
-    1. Added rule 6.6 for courtyard
+    1. コートヤードについてのルール6.6を追加．
