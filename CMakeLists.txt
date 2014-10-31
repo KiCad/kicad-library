@@ -3,38 +3,23 @@ project( kicad-library )
 cmake_minimum_required( VERSION 2.6.1 FATAL_ERROR )
 
 # Locations for install targets.
-if( UNIX )
-    if( APPLE )
-        # Like all variables, CMAKE_INSTALL_PREFIX can be over-ridden on the command line.
-        set( CMAKE_INSTALL_PREFIX /
-            CACHE PATH "" )
-        # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
-        set( KICAD_DATA "Library/Application Support/kicad/"
-            CACHE PATH "Location of KiCad data files." )
-        set( KICAD_MODULES ${KICAD_DATA}/modules )
-        set( KICAD_LIBRARY ${KICAD_DATA}/library )
-        set( KICAD_TEMPLATE ${KICAD_DATA}/template )
-    else()
-        # Like all variables, CMAKE_INSTALL_PREFIX can be over-ridden on the command line.
-        set( CMAKE_INSTALL_PREFIX /usr/local
-            CACHE PATH "")
-        # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
-        set( KICAD_DATA share/kicad
-            CACHE PATH "Location of KiCad data files." )
-        set( KICAD_MODULES ${KICAD_DATA}/modules )
-        set( KICAD_LIBRARY ${KICAD_DATA}/library )
-        set( KICAD_TEMPLATE ${KICAD_DATA}/template )
-    endif()
-endif()
-
-if(WIN32)
+if( APPLE )
     # Like all variables, CMAKE_INSTALL_PREFIX can be over-ridden on the command line.
-    set( CMAKE_INSTALL_PREFIX c:/kicad
+    set( CMAKE_INSTALL_PREFIX /
         CACHE PATH "" )
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
-    set( KICAD_MODULES modules )
-    set( KICAD_LIBRARY library )
-    set( KICAD_TEMPLATE template )
+    set( KICAD_DATA "Library/Application Support/kicad/"
+        CACHE PATH "Location of KiCad data files." )
+    set( KICAD_MODULES ${KICAD_DATA}/modules )
+    set( KICAD_LIBRARY ${KICAD_DATA}/library )
+    set( KICAD_TEMPLATE ${KICAD_DATA}/template )
+else()
+    # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
+    set( KICAD_DATA share/kicad
+        CACHE PATH "Location of KiCad data files." )
+    set( KICAD_MODULES ${KICAD_DATA}/modules )
+    set( KICAD_LIBRARY ${KICAD_DATA}/library )
+    set( KICAD_TEMPLATE ${KICAD_DATA}/template )
 endif()
 
 mark_as_advanced( KICAD_DATA KICAD_MODULES KICAD_LIBRARY )
