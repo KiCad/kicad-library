@@ -1,8 +1,24 @@
-EESchema-DOCLIB  Version 2.0  Date: 2/3/2006-07:15:17
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 16450
+D PC16450, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
 #
 $CMP 16550
-D Dual ACIA
-K ACIA UPRO
+D PC16550D, Universal Asynchronous Receiver/Transmitter with FIFOs, PDIP-40
+K 1ch UART FIFO
+F http://www.ti.com/lit/ds/symlink/pc16550d.pdf
+$ENDCMP
+#
+$CMP 8250
+D PC8250A, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
+#
+$CMP 8252
+D 8252, Universal Asynchronous Receiver/Transmitter, PDIP-28
+K UART Serial Interface
 $ENDCMP
 #
 $CMP 82C54_PLCC

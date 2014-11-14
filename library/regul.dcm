@@ -779,6 +779,66 @@ K Voltage Regulator 3A Positive LDO Disable Pin
 F http://www.fairchildsemi.com/ds/KA/KA378R33.pdf
 $ENDCMP
 #
+$CMP LD1117S12CTR
+D LD1117S12CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT223
+K REGULATOR LDO 1.2V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S12TR
+D LD1117S12TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT223
+K REGULATOR LDO 1.2V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S18CTR
+D LD1117S18CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT223
+K REGULATOR LDO 1.8V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S18TR
+D LD1117S18TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT223
+K REGULATOR LDO 1.8V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S25CTR
+D LD1117S25CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT223
+K REGULATOR LDO 2.5V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S25TR
+D LD1117S25TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT223
+K REGULATOR LDO 2.5V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S33CTR
+D LD1117S33CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S33TR
+D LD1117S33TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S50CTR
+D LD1117S50CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT223
+K REGULATOR LDO 5.0V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S50TR
+D LD1117S50TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT223
+K REGULATOR LDO 5.0V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
 $CMP LD3985G
 D 150 mA Low Dropout Voltage Regulator
 K LDO Regulator
@@ -983,6 +1043,12 @@ K REGULATOR LDO 5V
 F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
 $ENDCMP
 #
+$CMP LM317_SOT223
+D Linear Regulator (adjustable)
+K POWER REGUL
+F regulator/lm117.pdf
+$ENDCMP
+#
 $CMP LM317AEMP
 D LM317AEMP, 1A 35V Adjustable Linear Regulator, SOT-223
 K Adjustable Voltage Regulator 1A Positive
@@ -1041,12 +1107,6 @@ $CMP LM317T
 D LM317T, 1.5A 35V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 1.5A Positive
 F http://www.national.com/ds/LM/LM117.pdf
-$ENDCMP
-#
-$CMP LM317_SOT223
-D Linear Regulator (adjustable)
-K POWER REGUL
-F regulator/lm117.pdf
 $ENDCMP
 #
 $CMP LM337H
@@ -1466,6 +1526,18 @@ $CMP LT1108
 D Switching Regulator
 $ENDCMP
 #
+$CMP LT1129_QPACK
+D LowDrop Linear Regulator (QPACK 5 pins)
+K REGUL POWER
+F linear-tec/lt1129.pdf
+$ENDCMP
+#
+$CMP LT1129_SO8
+D LowDrop Linear Regulator (8 pins SOJ)
+K REGUL POWER
+F linear-tec/lt1129.pdf
+$ENDCMP
+#
 $CMP LT1129CQ
 D LT1129CQ, 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, TO263
 K 700mA LDO Regulator Adjustable Positive
@@ -1604,24 +1676,12 @@ K 700mA LDO Regulator 3.3V Positive
 F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
 $ENDCMP
 #
-$CMP LT1129_QPACK
-D LowDrop Linear Regulator (QPACK 5 pins)
-K REGUL POWER
-F linear-tec/lt1129.pdf
-$ENDCMP
-#
-$CMP LT1129_SO8
-D LowDrop Linear Regulator (8 pins SOJ)
-K REGUL POWER
-F linear-tec/lt1129.pdf
-$ENDCMP
-#
-$CMP LT1175CN8
+$CMP LT1175_QP
 D REGULATOR (Negative voltage)
 F linear-tec/lt1175.pdf
 $ENDCMP
 #
-$CMP LT1175_QP
+$CMP LT1175CN8
 D REGULATOR (Negative voltage)
 F linear-tec/lt1175.pdf
 $ENDCMP
@@ -1647,6 +1707,18 @@ K REGUL POWER
 F linear-tec\lt1761.pdf
 $ENDCMP
 #
+$CMP LT1761-BYP
+D MICROPOWER 150mA Regulator tiny SOT-23 5-leads package
+K REGUL POWER
+F linear-tec\lt1761.pdf
+$ENDCMP
+#
+$CMP LT1964-BYP
+D MICROPOWER 150mA Regulator tiny SOT-23 5-leads package
+K REGUL POWER
+F linear-tec\lt1761.pdf
+$ENDCMP
+#
 $CMP LT3010
 D Adj Low drop Linear Regulator (MSOP package 9 pins), Vin <= 80V
 K REGUL POWER
@@ -1666,6 +1738,12 @@ $ENDCMP
 #
 $CMP LT3757EMSE
 D Boost, flyback, SEPIC and inverting regulator (MSOP package)
+$ENDCMP
+#
+$CMP LT_1129_QP
+D LowDrop Linear Regulator (QPACK 5 pins)
+K REGUL POWER
+F linear-tec/lt1129.pdf
 $ENDCMP
 #
 $CMP LTC1307
@@ -1699,12 +1777,6 @@ $ENDCMP
 $CMP LTC3525
 D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
 F linear-tec\ltc3525.pdf
-$ENDCMP
-#
-$CMP LT_1129_QP
-D LowDrop Linear Regulator (QPACK 5 pins)
-K REGUL POWER
-F linear-tec/lt1129.pdf
 $ENDCMP
 #
 $CMP MAX1647
