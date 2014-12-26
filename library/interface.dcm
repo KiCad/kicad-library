@@ -24,6 +24,12 @@ K R POT
 F analog-dev/AD5293.pdf
 $ENDCMP
 #
+$CMP AD9834
+D AD9834, 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP20
+K Direct Digital Synthesizer DDS
+F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
+$ENDCMP
+#
 $CMP AD9951
 D AD9951, 14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48
 K Direct Digital Synthesizer DDS
@@ -245,6 +251,24 @@ $ENDCMP
 #
 $CMP MCP41100
 D Single Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42010
+D Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42050
+D Dual Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42100
+D Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
 K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
