@@ -24,13 +24,19 @@ K R POT
 F analog-dev/AD5293.pdf
 $ENDCMP
 #
+$CMP AD9834
+D AD9834, 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP20
+K Direct Digital Synthesizer DDS
+F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
+$ENDCMP
+#
 $CMP AD9951
 D AD9951, 14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48
 K Direct Digital Synthesizer DDS
 F http://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
 $ENDCMP
 #
-$CMP ADUM1200AR
+$CMP ADuM1200AR
 D ADuM1200AR, Dual-Channel Digital Isolator, 1Mbps 150ns, SO8
 K 2Ch Dual Digital Isolator 1Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
@@ -66,7 +72,7 @@ K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
-$CMP ADUM1201AR
+$CMP ADuM1201AR
 D ADuM1201AR, Dual-Channel Digital Isolator, 1Mbps 150ns, SO8
 K 2Ch Dual Digital Isolator 1Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
@@ -118,11 +124,6 @@ $CMP EL7242C
 D Translateur TTL->VMOS. Double driver VMOS
 $ENDCMP
 #
-$CMP FT232RL
-D USB to serial interface
-K USB
-$ENDCMP
-#
 $CMP GD65232DB
 D GD65232DB, Multiple RS-232 Driver and Receiver, SSOP-20
 K RS232 UART Driver Receiver Interface
@@ -165,21 +166,63 @@ K RS232 UART Driver Receiver Interface
 F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
 #
-$CMP IR2110
-D VMOS Driver
-K VMOS
-F ir/ir2110.pdf
-$ENDCMP
-#
 $CMP LTC2861
 D 20Mbps RS485 transceiver with tntegrated switchable termination
 K RS485
 F linear-tec\ltc2859-2861.pdf
 $ENDCMP
 #
+$CMP MAX13450E
+D 20Mbps RS485 transceiver with integrated switchable termination
+K RS485
+F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
+$ENDCMP
+#
 $CMP MAX232
 D Driver de Ligne RS232
 K RS232
+$ENDCMP
+#
+$CMP MAX31855EASA
+D MAX31855EASA, Cold Junction E-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855JASA
+D MAX31855JASA, Cold Junction J-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855KASA
+D MAX31855KASA, Cold Junction K-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855NASA
+D MAX31855NASA, Cold Junction N-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855RASA
+D MAX31855RASA, Cold Junction R-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855SASA
+D MAX31855SASA, Cold Junction S-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855TASA
+D MAX31855TASA, Cold Junction T-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
 $ENDCMP
 #
 $CMP MCP2551-I/P
@@ -192,6 +235,42 @@ $CMP MCP2551-I/SN
 D MCP2551-I/SN, High-Speed CAN Transceiver, SO8
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
+$ENDCMP
+#
+$CMP MCP41010
+D Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41050
+D Single Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41100
+D Single Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42010
+D Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42050
+D Dual Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42100
+D Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
 #
 $CMP SP3481CN
