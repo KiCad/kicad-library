@@ -16,7 +16,7 @@ K Pont Diode
 $ENDCMP
 #
 $CMP C
-D Condensateur non polarise
+D Unpolarized capacitor
 $ENDCMP
 #
 $CMP CERAMIC_FILTER
@@ -45,8 +45,12 @@ $CMP CP_Small
 D Polarised capacitor
 $ENDCMP
 #
-$CMP DIODE
-D Diode simple
+$CMP C_Small
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP D
+D Diode
 K DEV DIODE
 $ENDCMP
 #
@@ -94,6 +98,10 @@ D Dual Switch inverseur
 K switch
 $ENDCMP
 #
+$CMP D_Small
+D Diode
+$ENDCMP
+#
 $CMP EMI_FILTER
 D Filtre EMI
 K EMI
@@ -116,6 +124,10 @@ $ENDCMP
 $CMP LED_RCBG
 D Common Cathode RGB LED
 K RGB LED
+$ENDCMP
+#
+$CMP L_Small
+D Inductor
 $ENDCMP
 #
 $CMP MOSFET_N
@@ -157,7 +169,7 @@ K R PR Photo Photoresistor
 $ENDCMP
 #
 $CMP R
-D Resistance
+D Resistor
 K R DEV
 $ENDCMP
 #
@@ -174,6 +186,10 @@ $ENDCMP
 $CMP R_PACK8
 D 8 resistors Pack
 K R DEV
+$ENDCMP
+#
+$CMP R_Small
+D Resistor
 $ENDCMP
 #
 $CMP SCHDPAK
