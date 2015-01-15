@@ -682,6 +682,27 @@ X C 6 500 -100 300 L 60 60 2 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Schottky_Small
+#
+DEF D_Schottky_Small D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_Schottky_Small" -280 -80 50 H V L CNN
+F2 "" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  30 -40  30 40 N
+P 3 0 1 0  30 -40  20 -40  20 -30 N
+P 3 0 1 0  30 40  40 40  40 30 N
+P 4 0 1 0  -30 -40  30 0  -30 40  -30 -40 F
+X A 1 -100 0 70 R 40 40 1 1 P
+X C 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_Small
 #
 DEF D_Small D 0 10 N N 1 F N
