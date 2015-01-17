@@ -145,9 +145,11 @@ F1 "C" 50 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- SM*
  C?
- C1-1
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
 $ENDFPLIST
 DRAW
 P 2 0 1 20  -80 -30  80 -30 N
@@ -214,9 +216,12 @@ F1 "CP" 50 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- SM*
- C?
- C1-1
+ CP*
+ Elko*
+ TantalC*
+ C*elec
+ c_elec*
+ SMD*_Pol
 $ENDFPLIST
 DRAW
 S -90 20 -90 40 0 1 0 N
@@ -239,8 +244,12 @@ F1 "CP1" 50 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
+ SMD*_Pol
+ c_elec*
+ C*elec
+ TantalC*
+ Elko*
  CP*
- SM*
 $ENDFPLIST
 DRAW
 T 0 -50 100 80 0 0 0 +  Normal 0 C C
@@ -260,7 +269,11 @@ F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
  CP*
- SM*
+ Elko*
+ TantalC*
+ C*elec
+ c_elec*
+ SMD*_Pol
 $ENDFPLIST
 DRAW
 A 0 -140 125 1186 614 0 1 10 N -60 -30 60 -30
@@ -281,7 +294,11 @@ F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
  CP*
- SM*
+ Elko*
+ TantalC*
+ C*elec
+ c_elec*
+ SMD*_Pol
 $ENDFPLIST
 DRAW
 S -60 -15 60 -30 0 1 0 F
@@ -352,8 +369,11 @@ F1 "C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- CP*
- SM*
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
 $ENDFPLIST
 DRAW
 P 2 0 1 10  -60 -20  60 -20 N
