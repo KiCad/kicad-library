@@ -4,16 +4,6 @@ $CMP C
 D Unpolarized capacitor
 $ENDCMP
 #
-$CMP CERAMIC_FILTER
-D Ceramic filter
-K FILTER
-$ENDCMP
-#
-$CMP CODING_SWITCH
-D CODING SWITCH 4 Bits
-K SWITCH
-$ENDCMP
-#
 $CMP CP
 D Polarised capacitor
 $ENDCMP
@@ -30,55 +20,37 @@ $CMP CP_Small
 D Polarised capacitor
 $ENDCMP
 #
+$CMP CTRIM
+D Variable capacitor
+K trimmer
+$ENDCMP
+#
 $CMP C_Small
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP Coded_Switch
+D 4 bits rotary switch
+K Rotary, Hex
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K Quartz, Ceramic, Filter, Resonator
+$ENDCMP
+#
 $CMP Crystal_Small
-K Quartz, Resonator, Ceramic
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
 $ENDCMP
 #
 $CMP D
 D Diode
 $ENDCMP
 #
-$CMP DISPLAY
-D Afficheur LCD nLignes
-K DEV
-$ENDCMP
-#
-$CMP DISPLAY_3_LIGNE
-D DISPLAY EA7123-12C
-$ENDCMP
-#
-$CMP DISPLAY_BL
-D Afficheur LCD nLignes
-K DEV
-$ENDCMP
-#
-$CMP DOUBLE_SCHOTTKY
-D Double diode Shottky (Serie)
-K DEV DIODE
-$ENDCMP
-#
-$CMP DOUBLE_SCH_KCOM
-D Double diode Shottky Cathodes communes
-K DEV DIODE
-$ENDCMP
-#
-$CMP DPST
-D Interrupteur double
-K switch
-$ENDCMP
-#
 $CMP DUAL_POT
 D Potentionmetre
 K R
-$ENDCMP
-#
-$CMP DUAL_SWITCH_INV
-D Dual Switch inverseur
-K switch
 $ENDCMP
 #
 $CMP D_Schottky
@@ -89,8 +61,22 @@ $CMP D_Schottky_Small
 D Diode Schottky
 $ENDCMP
 #
+$CMP D_Schottky_x2_KCom
+D Two Schottky diode with common cathode
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial
+D Double diode Shottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
 $CMP D_Small
 D Diode
+$ENDCMP
+#
+$CMP Darl_NPN
+D Darlington NPN transistor
+K Q
 $ENDCMP
 #
 $CMP Diode_Bridge
@@ -108,6 +94,11 @@ D Filtre EMI
 K EMI
 $ENDCMP
 #
+$CMP FET_N
+D Junction Field Effect Transistor, N-channel 
+K JFET
+$ENDCMP
+#
 $CMP FILTER
 D Filtre EMI
 K EMI
@@ -119,10 +110,6 @@ $ENDCMP
 #
 $CMP F_Small
 D Fuse
-$ENDCMP
-#
-$CMP Jumper
-K Jumper, Breaker, Bridge
 $ENDCMP
 #
 $CMP Jumper_NC_Small
@@ -179,7 +166,12 @@ F transistors/mos/*.*
 $ENDCMP
 #
 $CMP NPN
+D Bipolar junction transistor NPN
 F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP NPN_Small
+D Bipolar junction transistor NPN
 $ENDCMP
 #
 $CMP PHOTORESISTOR
@@ -187,6 +179,7 @@ D Photo resistor
 $ENDCMP
 #
 $CMP PNP
+D Bipolar junction transistor PNP
 F transistors/bipolar/*.*
 $ENDCMP
 #
@@ -255,6 +248,15 @@ $ENDCMP
 $CMP SW_PUSH
 D Push Button
 K Switch
+$ENDCMP
+#
+$CMP Switch_DPST
+D Double Pole Single Throw (DPST) Switch
+K switch
+$ENDCMP
+#
+$CMP Switch_SPDT_x2
+D Double Single Pole Double Throw (SPDT) switch
 $ENDCMP
 #
 $CMP THERMISTOR
