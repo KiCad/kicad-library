@@ -1,20 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 7SEGM
-D Afficheur Leds 7 segments
-K DEV
-$ENDCMP
-#
-$CMP BI_LED
-D LED DOUBLE type Bicolore
-K LED
-$ENDCMP
-#
-$CMP BRIDGE
-D Pont de Diodes
-K Pont Diode
-$ENDCMP
-#
 $CMP C
 D Unpolarized capacitor
 $ENDCMP
@@ -55,12 +40,6 @@ $ENDCMP
 #
 $CMP D
 D Diode
-K DEV DIODE
-$ENDCMP
-#
-$CMP DIODESCH
-D Diode schottky
-K DEV DIODE
 $ENDCMP
 #
 $CMP DISPLAY
@@ -102,12 +81,21 @@ D Dual Switch inverseur
 K switch
 $ENDCMP
 #
+$CMP D_Schottky
+D Diode schottky
+$ENDCMP
+#
 $CMP D_Schottky_Small
 D Diode Schottky
 $ENDCMP
 #
 $CMP D_Small
 D Diode
+$ENDCMP
+#
+$CMP Diode_Bridge
+D Diode bridge
+K Graetz
 $ENDCMP
 #
 $CMP EMI_FILTER
@@ -131,6 +119,10 @@ $ENDCMP
 #
 $CMP F_Small
 D Fuse
+$ENDCMP
+#
+$CMP Jumper
+K Jumper, Breaker, Bridge
 $ENDCMP
 #
 $CMP Jumper_NC_Small
@@ -163,6 +155,11 @@ $ENDCMP
 #
 $CMP Led_Small
 D Led
+$ENDCMP
+#
+$CMP Led_x2
+D LED DOUBLE type Bicolore
+K LED
 $ENDCMP
 #
 $CMP MOSFET_N
@@ -224,6 +221,10 @@ K R DEV
 $ENDCMP
 #
 $CMP R_Small
+D Resistor
+$ENDCMP
+#
+$CMP R_Small_2
 D Resistor
 $ENDCMP
 #
