@@ -48,6 +48,42 @@ K MCS-51 8bit Flash Microcontroller
 F http://www.atmel.com/Images/doc3390.pdf
 $ENDCMP
 #
+$CMP AT90CAN128-A
+D AT90CAN128-A, 128k Flash, 4k SRAM, 4k EEPROM, JTAG, CAN, TQFP64
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN128-M
+D AT90CAN128-M, 128k Flash, 4k SRAM, 4k EEPROM, JTAG, CAN, QFN64
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN32-A
+D AT90CAN32-A, 32k Flash, 2k SRAM, 1k EEPROM, JTAG, CAN, TQFP64
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN32-M
+D AT90CAN32-M, 32k Flash, 2k SRAM, 1k EEPROM, JTAG, CAN, QFN64
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN64-A
+D AT90CAN64-A, 64k Flash, 4k SRAM, 2k EEPROM, JTAG, CAN, TQFP64
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN64-M
+D AT90CAN64-M, 64k Flash, 4k SRAM, 2k EEPROM, JTAG, CAN, QFN64
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7679.pdf
+$ENDCMP
+#
 $CMP AT90PWM1-M
 D AT90PWM1, QFN/MLF32, 8k Flash, 512B SRAM, 512B EEPROM
 K AVR 8bit Microcontroller LightingAVR PWM
@@ -630,6 +666,12 @@ K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/Images/doc8209.pdf
 $ENDCMP
 #
+$CMP ATMEGA16U2
+D ATMEGA16U2, TQFP-32, 16k Flash, 512B SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7799.pdf
+$ENDCMP
+#
 $CMP ATMEGA16U4-A
 D ATMEGA16U4, TQFP44, 16K Flash, 1.25K SRAM, 512B EEPROM, USB2.0
 K AVR 8bit Microcontroller MegaAVR USB
@@ -918,21 +960,15 @@ K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/Images/doc8209.pdf
 $ENDCMP
 #
-$CMP ATMEGA32U4
-D 8-Bit AVR Microcontroller with 32K Bytes of ISP Flash and USB Controller
-K Microcontroller, ATmega32U4
-F http://www.atmel.com/images/atmel-7766-8-bit-avr-atmega16u4-32u4_%20datasheet.pdf
+$CMP ATMEGA32U2
+D ATMEGA32U2, TQFP-32, 32k Flash, 1024B SRAM, 1024B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7799.pdf
 $ENDCMP
 #
 $CMP ATMEGA32U4-A
 D ATMEGA32U4, TQFP44, 32K Flash, 2.5K SRAM, 1K EEPROM, USB2.0
 K AVR 8bit Microcontroller MegaAVR USB
-F http://www.atmel.com/images/atmel-7766-8-bit-avr-atmega16u4-32u4_%20datasheet.pdf
-$ENDCMP
-#
-$CMP ATMEGA32U4-AU
-D 8-Bit AVR Microcontroller with 32K Bytes of ISP Flash and USB Controller
-K Microcontroller, ATmega32U4-AU
 F http://www.atmel.com/images/atmel-7766-8-bit-avr-atmega16u4-32u4_%20datasheet.pdf
 $ENDCMP
 #
@@ -1382,18 +1418,6 @@ $ENDCMP
 #
 $CMP ATMEGA8U2
 D ATMEGA8U2, TQFP-32, 8k Flash, 512B SRAM, 512B EEPROM
-K AVR 8bit Microcontroller MegaAVR
-F http://www.atmel.com/Images/doc7799.pdf
-$ENDCMP
-#
-$CMP ATMEGA16U2
-D ATMEGA16U2, TQFP-32, 16k Flash, 512B SRAM, 512B EEPROM
-K AVR 8bit Microcontroller MegaAVR
-F http://www.atmel.com/Images/doc7799.pdf
-$ENDCMP
-#
-$CMP ATMEGA32U2
-D ATMEGA32U2, TQFP-32, 32k Flash, 1024B SRAM, 1024B EEPROM
 K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/Images/doc7799.pdf
 $ENDCMP
