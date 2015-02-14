@@ -16,6 +16,7 @@ kicad-developers@lists.launchpad.net
 1.4.  When dimensions are used in part name, they are in millimeters, decimal places separated by a dot, and unit is not capitalized. Ex: "Cap_10x13mm_RM5"
 1.5.  Filename is the same as the part name.
 1.6.  The order of elements in names must be the same as the enumerations presented in this document.
+1.7.  Reference fields are prefilled with the reference designator of the part (IEEE 315-1975).
 
 
 2. Symbol Library Names (.lib files)
@@ -34,8 +35,7 @@ kicad-developers@lists.launchpad.net
 3.4.  Black-box components group pins logically, for example by function set, and ports in counter-clockwise position.
 3.5.  Whenever possible, inputs are on the left and outputs are on the right.
 3.6.  Field text uses a common size of 50mils.
-3.7.  The reference field is prefilled with the reference designator of the symbol (IEEE 315-1975).
-3.8.  The Value field is prefilled with the object name.
+3.7.  The Value field is prefilled with the object name.
 
 
 4. Symbol Names
@@ -68,8 +68,7 @@ kicad-developers@lists.launchpad.net
 6.6.  Courtyard line has a width 0.05mm. This line is placed so that its clearance is measured from its center to the edges of pads and body, and its position is rounded on a grid of 0.05mm.
 6.7.  Courtyard clearance is 0.25mm except for components smaller than 0603 at 0.15mm, connectors, SMD canned capacitors and crystals at 0.5mm and BGA at 1.0mm. (IPC-7251, IPC-7351B)
 6.8.  Cannot be duplicated to match a different pin ordering. This is to be handled in the symbol libraries.
-6.9.  Footprint name must match its filename. (.kicad_mod files)
-6.10. The value and reference designator must be placed on silkscreen.
+6.16. 3D Shape ".wrl" files are named the same as their footprint and are placed in a folder named the same as the footprint library replacing the ".pretty" with ".3dshapes".
 
 
 7. Names for footprints of Surface-Mount Devices (SMD)
@@ -96,8 +95,19 @@ kicad-developers@lists.launchpad.net
 
 9.1.  Name of part.
 9.2.  Part number. Ex: "Oscillator_SI570"
-9.4.  Any modification to the original footprint, indicated by appending the reason.
+9.3.  Any modification to the original footprint, indicated by appending the reason.
 
+
+10. Footprint properties
+------------------------
+
+10.1. Footprint name must match its filename. (.kicad_mod files)
+10.2. Text is placed on silkscreen and uses a height of 1mm.
+10.3. Doc property contains a full description of footprint.
+10.4. Keywords are separated by spaces.
+10.5. Value is filled with footprint name.
+10.6. Attributes is set to the appropriate value, see tooltip for more information.
+10.7. All other properties are left to default values. (Move and Place: Free; Auto Place: 0 and 0,  Local Clearance Values: 0)
 
 Changelog
 ---------
@@ -130,3 +140,8 @@ Changelog
     
     Revision 0.8, January 19th 2015
     1. More thorough rule about courtyard has been split over 6.6 and 6.7.
+    
+    Revision 0.9, February 14th 2015
+    1. Added section and rules about footprint properties
+    2. Specified the path to 3d models
+    3. Moved the reference fields rule to the general section
