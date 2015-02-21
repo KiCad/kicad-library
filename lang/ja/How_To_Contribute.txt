@@ -1,0 +1,27 @@
+KiCadライブラリへの貢献方法
+========================
+
+
+1) 持っていなければ，www.github.com にアカウントを作る．
+
+2) 自分のアカウント下に，作業したいリポジトリをフォークする：
+    https://help.github.com/articles/fork-a-repo
+
+3) 新しく作成したフォークをクローンする：
+    https://help.github.com/articles/fetching-a-remote
+
+4) テキストエディタやライブラリエディタで編集する：
+    https://github.com/KiCad/kicad-library/blob/master/KiCad_Library_Convention.txt
+
+5) 編集をコミットする：
+    git add -A
+    git commit -m "place your commit message here"
+
+6) 自分のブランチにプッシュする：
+    git push
+
+7) プルリクエストを作る：
+    https://help.github.com/articles/using-pull-requests
+    コメントにデータシート等のリファレンスを含める．
+
+8) ライブラリ管理者があなたの仕事を承認するまで待つ．議論ややり直しが必要になる場合もある．
