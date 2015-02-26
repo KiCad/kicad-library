@@ -109,13 +109,13 @@ $CMP LED
 K LED
 $ENDCMP
 #
-$CMP LED_RCBG
-D Common Cathode RGB LED
+$CMP LED_RABG
+D Common Anode RGB LED
 K RGB LED
 $ENDCMP
 #
-$CMP LED_RABG
-D Common Anode RGB LED
+$CMP LED_RCBG
+D Common Cathode RGB LED
 K RGB LED
 $ENDCMP
 #
@@ -131,6 +131,266 @@ $ENDCMP
 $CMP Photores
 D Photores
 K R PR Photo Photoresistor
+$ENDCMP
+#
+$CMP Q_NIGBT_CEG
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_CGE
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_ECG
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_ECGC
+D Transistor N-IGBT, collector connected to mounting plane (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_EGC
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_GCE
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_GCEC
+D Transistor N-IGBT, collector connected to mounting plane (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_GEC
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NJFET_DGS
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_DSG
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_GDS
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_GSD
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_SDG
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_SGD
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_DGS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_DSG
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_GDS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_GDSD
+D Transistor N-MOSFET, collector connected to mounting plane (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_SDG
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_SDGD
+D Transistor N-MOSFET, collector connected to mounting plane (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_SGD
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NPN_BCE
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_BCEC
+D Transistor NPN, collector connected to mounting plane (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_BEC
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_CBE
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_CEB
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_EBC
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_ECB
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_ECBC
+D Transistor NPN, collector connected to mounting plane (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_PJFET_DGS
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_DSG
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_GDS
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_GSD
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_SDG
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_SGD
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_DGS
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_DSG
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_GDS
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_GDSD
+D Transistor P-MOSFET, collector connected to mounting plane (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_GSD
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_SDG
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_SDGD
+D Transistor P-MOSFET, collector connected to mounting plane (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_SGD
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PNP_BCE
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_BCEC
+D Transistor PNP, collector connected to mounting plane (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_BEC
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_CBE
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_CEB
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_EBC
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_ECB
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_ECBC
+D Transistor PNP, collector connected to mounting plane (general)
+K pnp transistor
 $ENDCMP
 #
 $CMP R
