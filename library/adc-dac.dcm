@@ -1,126 +1,344 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AD390JD
-D Quadruple Convertisseur D->A 12 bits
-K DAC CNA
+D AD390JD, Quad 12bit DAC, 4LSB Gain Error, DH-28
+K Quad DAC 12bit
+F http://www.analog.com/static/imported-files/data_sheets/AD390MIL.pdf
 $ENDCMP
 #
-$CMP AD558
-D DA Converter
-K DAC CNA
+$CMP AD390KD
+D AD390KD, Quad 12bit DAC, 2LSB Gain Error, DH-28
+K Quad DAC 12bit
+F http://www.analog.com/static/imported-files/data_sheets/AD390MIL.pdf
 $ENDCMP
 #
-$CMP AD7224
-D DA converter
-K DAC CNA
+$CMP AD558JN
+D AD558JN, Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
 $ENDCMP
 #
-$CMP AD7225
-D DAC (4 outputs)
-K DAC CAN
+$CMP AD558JP
+D AD558JP, Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
 $ENDCMP
 #
-$CMP AD7226
-D DA Converter (4 outputs)
-K DAC CNA
+$CMP AD558KN
+D AD558KN, Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
 $ENDCMP
 #
-$CMP AD7228
-D DA Converter (8 outputs)
-K DAC CNA
+$CMP AD558KP
+D AD558KP, Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
 $ENDCMP
 #
-$CMP AD7533
-D DA Converter
-K DAC CNA
-F adc-dac/ad7533.pdf
+$CMP AD7224KN
+D AD7224KN, 8bit DAC, Dual or Single Supply, DIP-18
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224KP
+D AD7224KP, 8bit DAC, Dual or Single Supply, PLCC-20
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224KR-1
+D AD7224KR-1, 8bit DAC, Dual or Single Supply, SOIC-20
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224KR-18
+D AD7224KR-18, 8bit DAC, Dual or Single Supply, SOIC-18
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224LN
+D AD7224LN, 8bit DAC, Dual or Single Supply, DIP-18
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224LP
+D AD7224LP, 8bit DAC, Dual or Single Supply, PLCC-20
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224LR-1
+D AD7224LR-1, 8bit DAC, Dual or Single Supply, SOIC-20
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224LR-18
+D AD7224LR-18, 8bit DAC, Dual or Single Supply, SOIC-18
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7225BRS
+D AD7225BRS, Quad 8bit DAC, Separate Reference Voltage, SSOP-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225CRS
+D AD7225CRS, Quad 8bit DAC, Separate Reference Voltage, SSOP-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225KN
+D AD7225KN, Quad 8bit DAC, Separate Reference Voltage, PDIP-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225KP
+D AD7225KP, Quad 8bit DAC, Separate Reference Voltage, PLCC-28
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225KR
+D AD7225KR, Quad 8bit DAC, Separate Reference Voltage, SOIC-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225LN
+D AD7225LN, Quad 8bit DAC, Separate Reference Voltage, PDIP-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225LP
+D AD7225LP, Quad 8bit DAC, Separate Reference Voltage, PLCC-28
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225LR
+D AD7225LR, Quad 8bit DAC, Separate Reference Voltage, SO-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7226BRSZ
+D AD7226BRSZ, Quad 8bit DAC, 4 Channel, Single Reference Voltage, SSOP-20
+K 4CH DAC 8bit
+F http://www.analog.com/static/imported-files/data_sheets/AD7226.pdf
+$ENDCMP
+#
+$CMP AD7226KN
+D AD7226KN, Quad 8bit DAC, 4 Channel, Single Reference Voltage, DIP-20
+K 4CH DAC 8bit
+F http://www.analog.com/static/imported-files/data_sheets/AD7226.pdf
+$ENDCMP
+#
+$CMP AD7226KP
+D AD7226KP, Quad 8bit DAC, 4 Channel, Single Reference Voltage, PLCC-20
+K 4CH DAC 8bit
+F http://www.analog.com/static/imported-files/data_sheets/AD7226.pdf
+$ENDCMP
+#
+$CMP AD7226KR
+D AD7226KR, Quad 8bit DAC, 4 Channel, Single Reference Voltage, SOIC-20
+K 4CH DAC 8bit
+F http://www.analog.com/static/imported-files/data_sheets/AD7226.pdf
+$ENDCMP
+#
+$CMP AD7228ABN
+D AD7228ABN, 8bit DAC 8 Channel, Single Reference, DIP-24
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7228ABP
+D AD7228ABP, 8bit DAC 8 Channel, Single Reference, PLCC-28
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7228ABR
+D AD7228ABR, 8bit DAC 8 Channel, Single Reference, SOIC-24
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7228ACN
+D AD7228ACN, 8bit DAC 8 Channel, Single Reference, DIP-24
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7228ACP
+D AD7228ACP, 8bit DAC 8 Channel, Single Reference, PLCC-28
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7228ACR
+D AD7228ACR, 8bit DAC 8 Channel, Single Reference, SOIC-24
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7533JN
+D AD7533JN, 10bit Multiplying DAC, 1 Channel, DIP-16
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533JP
+D AD7533JP, 10bit Multiplying DAC, 1 Channel, PLCC-20
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533KN
+D AD7533KN, 10bit Multiplying DAC, 1 Channel, DIP-16
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533KP
+D AD7533KP, 10bit Multiplying DAC, 1 Channel, PLCC-20
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533KR
+D AD7533KR, 10bit Multiplying DAC, 1 Channel, SOIC-16
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533LN
+D AD7533LN, 10bit Multiplying DAC, 1 Channel, DIP-16
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
 $ENDCMP
 #
 $CMP AD775
-D DA Converter 8 bits -20MHz
+D AD775, DA Converter 8 bits - 20MHz, PDIP/SOIC-24
 K DAC CNA
-F adc-dac/ad775.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD775.pdf
 $ENDCMP
 #
 $CMP AD7819
-D Analog to Digital 8 bits converter
+D AD7819, Analog to Digital 8 bits converter, PDIP/SOIC/TSSOP-16
 K CAD
-F adc-dac/ad7819.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7819.pdf
 $ENDCMP
 #
 $CMP AD9280ARS
-D Video ADC  (32 Mhz)
+D AD9280ARS, Video ADC (32 Mhz), SSOP-28
 K ADC CAN VIDEO
-F analog-dev/ad9280.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9280.pdf
 $ENDCMP
 #
 $CMP AD9283
-D ADC 50MHz 8 bits
+D AD9283, ADC 50MHz 8 bits, SSOP-20
 K ADC 
-F analog-dev/AD9283.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9283.pdf
 $ENDCMP
 #
 $CMP AD9708AR
-D Video DAC (32 MHz)
+D AD9708AR, Video DAC (32 MHz), SOIC/TSSOP-28
 K DAC CNA VIDEO
-F analog-dev/ad9708.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9708.pdf
 $ENDCMP
 #
 $CMP ADC0800
-D Analog to Digital 8 bits converter
+D ADC0800, Analog to Digital 8 bits converter, DIP-18 (Hermetic)
 K CAD
-F adc-dac/adc0800.pdf
+F http://www.ti.com/lit/ds/snas562/snas562.pdf
 $ENDCMP
 #
 $CMP ADC08060
-D Fast ADC  (20 .. 60 Mhz)
+D ADC08060, Fast ADC  (20 .. 60 Mhz), TSSOP-24
 K ADC CAN VIDEO
-F adc-dac/adc08060.pdf
+F http://www.ti.com/lit/ds/symlink/adc08060.pdf
 $ENDCMP
 #
 $CMP ADC0832
-D 2 inputs AD Converter (serial output)
+D ADC0832, 2 inputs AD Converter (serial output), 
 K ADC CAN
+F http://www.ti.com/lit/ds/symlink/adc0831-n.pdf
 $ENDCMP
 #
 $CMP ADC1173
-D Fast ADC  (15 Mhz)
+D ADC1173, Fast ADC  (15 Mhz), TSSOP-24
 K ADC CAN VIDEO
-F adc-dac/adc1173.pdf
+F http://www.ti.com/lit/ds/symlink/adc1173.pdf
 $ENDCMP
 #
 $CMP ADS1232IPW
-D ADS1232, Single Bridge 24bit ADC for Sensors, TSSOP24
+D ADS1232, Single Bridge 24bit ADC for Sensors, TSSOP-24
 K ADC 24bit Sensors Dual Channel
 F http://www.ti.com/lit/ds/symlink/ads1232.pdf
 $ENDCMP
 #
 $CMP ADS1234IPW
-D ADS1234, Dual Bridge 24bit ADC for Sensors, TSSOP28
+D ADS1234, Dual Bridge 24bit ADC for Sensors, TSSOP-28
 K ADC 24bit Sensors Quad Channel
 F http://www.ti.com/lit/ds/symlink/ads1232.pdf
 $ENDCMP
 #
 $CMP CA3300
-D Convertisseur A->D 6 bits rapide
+D CA3300, Convertisseur A->D 6 bits rapide
 K ADC CAN
 $ENDCMP
 #
 $CMP DAC08
-D DA Converter 8 bits
+D DAC08, DA Converter 8 bits
 K DAC CNA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/DAC08.pdf
 $ENDCMP
 #
 $CMP LTC1406CGN
-D AD converter 8 bits 20MHz
-K ADC
-F adc-dac\ltc1406.pdf
+D LTC1406CGN, ADC 8bit Low Power 20Msps, SSOP-24
+K Low Power ADC 8bit 20Msps
+F http://cds.linear.com/docs/en/datasheet/1406f.pdf
+$ENDCMP
+#
+$CMP LTC1406IGN
+D LTC1406IGN, ADC 8bit Low Power 20Msps, SSOP-24
+K Low Power ADC 8bit 20Msps
+F http://cds.linear.com/docs/en/datasheet/1406f.pdf
 $ENDCMP
 #
 $CMP LTC1594CS
-D adc 12 bits - 4 channels (serial)
-K ADC
-F linear-tec/ltc1594-8.pdf
+D LTC1594CS, Micropower 12-bit 4 Channel ADC, Serial IO, SOIC-16
+K 12bit ADC 4 Channel
+F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+$ENDCMP
+#
+$CMP LTC1594IS
+D LTC1594IS, Micropower 12-bit 4 Channel ADC, Serial IO, SO-16
+K 12bit ADC 4 Channel
+F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+$ENDCMP
+#
+$CMP LTC1598CG
+D LTC1598CS, Micropower 12-bit 8 Channel ADC, Serial IO, SSOP-24
+K 12bit ADC 4 Channel
+F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+$ENDCMP
+#
+$CMP LTC1598IG
+D LTC1598IG, Micropower 12-bit 8 Channel ADC, Serial IO, SSOP-24
+K 12bit ADC 4 Channel
+F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
 $ENDCMP
 #
 $CMP LTC1664CGN
@@ -178,25 +396,25 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/22072b.pdf
 $ENDCMP
 #
 $CMP MCP3550-50-E/MS
-D MCP3550-50, Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, 50Hz Rejection, MSOP8
+D MCP3550-50, Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, 50Hz Rejection, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
 $ENDCMP
 #
 $CMP MCP3550-60-E/SN
-D MCP3550-60, Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, 60Hz Rejection, MSOP8
+D MCP3550-60, Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, 60Hz Rejection, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
 $ENDCMP
 #
 $CMP MCP3551-E/MS
-D MCP3551, Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP8
+D MCP3551, Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
 $ENDCMP
 #
 $CMP MCP3553-E/SN
-D MCP3553, Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP8
+D MCP3553, Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
 $ENDCMP
@@ -214,7 +432,7 @@ F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
 $ENDCMP
 #
 $CMP MCP4921-E/SN
-D MCP4921, Single 12-bit Digital to Analog Converter, SPI Interface, SO8
+D MCP4921, Single 12-bit Digital to Analog Converter, SPI Interface, SOIC-8
 K Single DAC 1ch 12bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
 $ENDCMP
@@ -226,7 +444,7 @@ F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
 $ENDCMP
 #
 $CMP MCP4922-E/SL
-D MCP4922, Dual 12-bit Digital to Analog Converter, SPI Interface, SO14
+D MCP4922, Dual 12-bit Digital to Analog Converter, SPI Interface, SOIC-14
 K Dual DAC 1ch 12bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
 $ENDCMP
@@ -238,13 +456,19 @@ F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
 $ENDCMP
 #
 $CMP TDA8702
-D Video DAC (32 MHz)
+D TDA8702, 8bit Video DAC (32 MHz), DIP-16
+K DAC CNA VIDEO
+F philips/tda8702.pdf
+$ENDCMP
+#
+$CMP TDA8702T
+D TDA8702T, 8bit Video DAC (32 MHz), SOIC-16
 K DAC CNA VIDEO
 F philips/tda8702.pdf
 $ENDCMP
 #
 $CMP TLV5627CD
-D TLV5627, 4-Channel DAC, 8bit, w/ Power Down, SO-16
+D TLV5627, 4-Channel DAC, 8bit, w/ Power Down, SOIC-16
 K DAC 4CH 8bit
 F http://www.ti.com/lit/ds/symlink/tlv5627.pdf
 $ENDCMP
