@@ -29,8 +29,8 @@ kicad-developers@lists.launchpad.net
 3. General Rules for Symbols
 ----------------------------
 
-3.1.  Using a 100mil grid, pin ends and origin must lie on grid nodes (IEC-60617).
-3.2.  For black-box symbols, pins have a length of 100mil. Large pin numbers can be accomodated by incrementing the width in steps of 50mil.
+3.1.  Using a 100mils grid, pin ends and origin must lie on grid nodes (IEC-60617).
+3.2.  For black-box symbols, pins have a length of 100mils. Large pin numbers can be accomodated by incrementing the width in steps of 50mil.
 3.3.  Origin is placed in the middle of symbol.
 3.4.  Black-box components group pins logically, for example by function set, and ports in counter-clockwise position.
 3.5.  Whenever possible, inputs are on the left and outputs are on the right.
@@ -102,12 +102,12 @@ kicad-developers@lists.launchpad.net
 ------------------------
 
 10.1. Footprint name must match its filename. (.kicad_mod files)
-10.3. Doc property contains a full description of footprint.
-10.4. Keywords are separated by spaces.
-10.5. Value is filled with footprint name and is placed on the fabrication layer.
-10.6. Attributes is set to the appropriate value, see tooltip for more information.
-10.7. All other properties are left to default values. (Move and Place: Free; Auto Place: 0 and 0,  Local Clearance Values: 0)
-10.8. 3D Shape ".wrl" files are named the same as their footprint and are placed in a folder named the same as the footprint library replacing the ".pretty" with ".3dshapes".
+10.2. Doc property contains a full description of footprint.
+10.3. Keywords are separated by spaces.
+10.4. Value is filled with footprint name and is placed on the fabrication layer.
+10.5. Attributes is set to the appropriate value, see tooltip for more information.
+10.6. All other properties are left to default values. (Move and Place: Free; Auto Place: 0 and 0,  Local Clearance Values: 0)
+10.7. 3D Shape ".wrl" files are named the same as their footprint and are placed in a folder named the same as the footprint library replacing the ".pretty" with ".3dshapes".
 
 
 Changelog
