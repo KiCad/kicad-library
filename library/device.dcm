@@ -1,83 +1,51 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 7SEGM
-D Afficheur Leds 7 segments
-K DEV
-$ENDCMP
-#
-$CMP BI_LED
-D LED DOUBLE type Bicolore
-K LED
-$ENDCMP
-#
-$CMP BRIDGE
-D Pont de Diodes
-K Pont Diode
-$ENDCMP
-#
 $CMP C
-D Condensateur non polarise
-$ENDCMP
-#
-$CMP CAPAPOL
-D Condensateur polarise
-$ENDCMP
-#
-$CMP CERAMIC_FILTER
-D Ceramic filter
-K FILTER
-$ENDCMP
-#
-$CMP CODING_SWITCH
-D CODING SWITCH 4 Bits
-K SWITCH
+D Unpolarized capacitor
 $ENDCMP
 #
 $CMP CP
-D Condensateur polarise
+D Polarised capacitor
 $ENDCMP
 #
 $CMP CP1
-D Condensateur polarise
+D Polarised capacitor
 $ENDCMP
 #
-$CMP DIODE
-D Diode simple
-K DEV DIODE
+$CMP CP1_Small
+D Polarised capacitor
 $ENDCMP
 #
-$CMP DIODESCH
-D Diode schottky
-K DEV DIODE
+$CMP CP_Small
+D Polarised capacitor
 $ENDCMP
 #
-$CMP DISPLAY
-D Afficheur LCD nLignes
-K DEV
+$CMP CTRIM
+D Variable capacitor
+K trimmer
 $ENDCMP
 #
-$CMP DISPLAY_3_LIGNE
-D DISPLAY EA7123-12C
+$CMP C_Small
+D Unpolarized capacitor
 $ENDCMP
 #
-$CMP DISPLAY_BL
-D Afficheur LCD nLignes
-K DEV
+$CMP Coded_Switch
+D 4 bits rotary switch
+K Rotary, Hex
 $ENDCMP
 #
-$CMP DOUBLE_SCHOTTKY
-D Double diode Shottky (Serie)
-K DEV DIODE
+$CMP Crystal
+D Two pin crystal
+K Quartz, Ceramic, Filter, Resonator
 $ENDCMP
 #
-$CMP DOUBLE_SCH_KCOM
-D Double diode Shottky Cathodes communes
-K DEV DIODE
+$CMP Crystal_Small
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
 $ENDCMP
 #
-$CMP DPST
-D Interrupteur double
-K switch
+$CMP D
+D Diode
 $ENDCMP
 #
 $CMP DUAL_POT
@@ -85,9 +53,35 @@ D Potentionmetre
 K R
 $ENDCMP
 #
-$CMP DUAL_SWITCH_INV
-D Dual Switch inverseur
-K switch
+$CMP D_Schottky
+D Diode schottky
+$ENDCMP
+#
+$CMP D_Schottky_Small
+D Diode Schottky
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom
+D Two Schottky diode with common cathode
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial
+D Double diode Shottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Small
+D Diode
+$ENDCMP
+#
+$CMP Darl_NPN
+D Darlington NPN transistor
+K Q
+$ENDCMP
+#
+$CMP Diode_Bridge
+D Diode bridge
+K Graetz
 $ENDCMP
 #
 $CMP EMI_FILTER
@@ -105,6 +99,24 @@ D Filtre EMI
 K EMI
 $ENDCMP
 #
+$CMP FP_Small
+D Fuse polarised
+$ENDCMP
+#
+$CMP F_Small
+D Fuse
+$ENDCMP
+#
+$CMP Jumper_NC_Small
+D Jumper normally close
+K Jumper, Link
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper normally open
+K Jumper, Link
+$ENDCMP
+#
 $CMP LED
 K LED
 $ENDCMP
@@ -119,6 +131,24 @@ D Common Cathode RGB LED
 K RGB LED
 $ENDCMP
 #
+$CMP L_Small
+D Inductor
+$ENDCMP
+#
+$CMP Led_RGB_CA
+D Common Anode RGB LED
+K RGB LED
+$ENDCMP
+#
+$CMP Led_Small
+D Led
+$ENDCMP
+#
+$CMP Led_x2
+D LED DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
 $CMP PHOTORESISTOR
 D Photo resistor
 $ENDCMP
@@ -126,11 +156,6 @@ $ENDCMP
 $CMP POT
 D Potentionmetre
 K R
-$ENDCMP
-#
-$CMP Photores
-D Photores
-K R PR Photo Photoresistor
 $ENDCMP
 #
 $CMP Q_NIGBT_CEG
@@ -394,7 +419,7 @@ K pnp transistor
 $ENDCMP
 #
 $CMP R
-D Resistance
+D Resistor
 K R DEV
 $ENDCMP
 #
@@ -411,6 +436,10 @@ $ENDCMP
 $CMP R_PACK8
 D 8 resistors Pack
 K R DEV
+$ENDCMP
+#
+$CMP R_Small
+D Resistor
 $ENDCMP
 #
 $CMP SCHDPAK
@@ -445,6 +474,15 @@ $ENDCMP
 $CMP SW_PUSH
 D Push Button
 K Switch
+$ENDCMP
+#
+$CMP Switch_DPST
+D Double Pole Single Throw (DPST) Switch
+K switch
+$ENDCMP
+#
+$CMP Switch_SPDT_x2
+D Double Single Pole Double Throw (SPDT) switch
 $ENDCMP
 #
 $CMP THERMISTOR
