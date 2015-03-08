@@ -7,45 +7,56 @@ F http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf
 $ENDCMP
 #
 $CMP 2SB631
-D 2SB631, Vce 100V, Ic 1A, High Voltage Power Transistor
-K High Voltage Transistor TO126
+D 2SB631, Vce 100V, Ic 1A, High Voltage Power Transistor, TO-126
+K High Voltage Transistor
 $ENDCMP
 #
 $CMP 2SB817
 D 2SB817, 12A Ic, 140V Vce, Silicon Power Transistors PNP, TO-3PB
-K  Power Transistor PNP
+K Power Transistor PNP
 $ENDCMP
 #
 $CMP 2SC1815
 D 2SC1815, 50V Vce, 0.15A Ic, Low Noise Audio NPN Transistor,TO-92
-K Low Noise Audio NPN Transistor 2SC1815
+K Low Noise Audio NPN Transistor
 $ENDCMP
 #
 $CMP 2SC1941
 D 2SC1941, 160V Vce, 0.05A Ic, Audio High Voltage NPN Transistor,TO-92
-K Audio High Voltage NPN Transistor 2SC1941
+K Audio High Voltage NPN Transistor
+$ENDCMP
+#
+$CMP 2SC1945
+D 2SC1945, 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
+K RF Power Transistor NPN 
 $ENDCMP
 #
 $CMP 2SD1047
 D 2SD1047, 12A Ic, 140V Vce, Silicon Power Transistors NPN, TO-3PB
-K  Power Transistor NPN
+K Power Transistor NPN
 $ENDCMP
 #
 $CMP 2SD600
-D 2SD600, Vce 100V, Ic 1A, High Voltage Power Transistor
-K High Voltage Power Transistor TO126
+D 2SD600, Vce 100V, Ic 1A, High Voltage Power Transistor, TO-126
+K High Voltage Power Transistor
+$ENDCMP
+#
+$CMP 3SK263
+D 3SK263, 30mA Id, 15V Vds, N-Channel Dual Gate MOSFET, SOT-143/343
+K NMOS Dual Gate
+F http://www.onsemi.com/pub_link/Collateral/EN4423-D.PDF
 $ENDCMP
 #
 $CMP BC237
 D BC237, Vce 50V, Ic 100mA, NPN Epitaxial Silicon Transistor, TO-92
 K NPN Epitaxial Silicon Transistor
-F transistors/bipolar/bc237.pdf
+F http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF
 $ENDCMP
 #
 $CMP BC307
 D BC307, Vce 45V, Ic 100mA, PNP Epitaxial Silicon Transistor, TO-92
 K PNP Epitaxial Silicon Transistor
-F transistors/bipolar/bc307.pdf
+F http://www.onsemi.com/pub_link/Collateral/BC307-D.PDF
 $ENDCMP
 #
 $CMP BC413
@@ -487,17 +498,17 @@ F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
 $ENDCMP
 #
 $CMP BF457
-D BF457, 160V Vce, 0.1A Ic, NPN, High Voltage Transistor,TO126
+D BF457, 160V Vce, 0.1A Ic, NPN, High Voltage Transistor, TO126
 K BF457 NPN HV High Voltage Transistor
 $ENDCMP
 #
 $CMP BF458
-D BF458, 250V Vce, 0.1A Ic, NPN, High Voltage Transistor,TO126
+D BF458, 250V Vce, 0.1A Ic, NPN, High Voltage Transistor, TO126
 K BF458 NPN HV High Voltage Transistor
 $ENDCMP
 #
 $CMP BF459
-D BF459, 300V Vce, 0.1A Ic, NPN, High Voltage Transistor,TO126
+D BF459, 300V Vce, 0.1A Ic, NPN, High Voltage Transistor, TO126
 K BF457 NPN HV High Voltage Transistor
 $ENDCMP
 #
@@ -1149,7 +1160,8 @@ $ENDCMP
 #
 $CMP KTD1624
 D KTD1624, EPITAXIAL PLANAR NPN TRANSISTOR, SOT-89
-K KTD1624, NPN, transistor
+K NPN Switching Transistor
+F http://www2.kec.co.kr/data/databook/pdf/KTD/Eng/KTD1624.pdf
 $ENDCMP
 #
 $CMP MAT02
@@ -1200,20 +1212,16 @@ K MMBT3904 PNP Transistor
 F http://www.nxp.com/documents/data_sheet/MMBT3906.pdf
 $ENDCMP
 #
-$CMP MOSN-SO8
-D SI4456DY - SO8
-$ENDCMP
-#
 $CMP MPSA42
 D MPSA42, Vce 300V, Ic 500mA, NPN High Voltage Transistor
 K NPN High Voltage Transistor
-F transistors/bipolar/MPSA42.pdf
+F http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF
 $ENDCMP
 #
 $CMP MPSA92
 D MPSA92, Vce 300V, Ic 500mA, PNP High Voltage Transistor
 K PNP High Voltage Transistor
-F transistors/bipolar/mpsa92.pdf
+F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
 $ENDCMP
 #
 $CMP PN2222A
