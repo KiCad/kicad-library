@@ -152,14 +152,32 @@ D LTV-814, DIP4, AC/DC Optocoupler, Vce 35V, CTR 20%
 K NPN AC DC Optocoupler
 $ENDCMP
 #
+$CMP LTV-817
+D LTV-817, DIP-4, DC Optocoupler, Vce 35V, CTR 50%
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
 $CMP LTV-824
 D LTV-824, DIP8, Dual AC/DC Optocoupler, Vce 35V, CTR 20%
 K Dual NPN AC DC Optocoupler
 $ENDCMP
 #
+$CMP LTV-827
+D LTV-827, DIP-8, Dual DC Optocoupler, Vce 35V, CTR 50%
+K NPN DC Dual Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
 $CMP LTV-844
 D LTV-824, DIP16, Quad AC/DC Optocoupler, Vce 35V, CTR 20%
 K Quad NPN AC DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-847
+D LTV-847, DIP-16, Quad DC Optocoupler, Vce 35V, CTR 50%
+K NPN DC Quad Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
 $CMP MOC3010M
@@ -298,6 +316,31 @@ $CMP MOC3163M
 D MOC3163M, DIP6,  Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, dv/dt 1000
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
+$ENDCMP
+#
+$CMP OPTO-DARLINGTON
+D Generic DC Darlington Optocoupler
+K NPN Darlington DC Optocoupler
+$ENDCMP
+#
+$CMP OPTO-THYRISTOR
+D Generic DC Optocoupler Thyristor Based
+K OptoThyristor DC Optocoupler
+$ENDCMP
+#
+$CMP OPTO-TRANSISTOR
+D Generic Optocoupler with Base Connected
+K NPN DC Optocoupler Base Connected
+$ENDCMP
+#
+$CMP OPTO-TRANSISTOR-4
+D Generic DC Quad Optocoupler
+K NPN DC Quad Optocoupler
+$ENDCMP
+#
+$CMP OPTO-TRIAC
+D Generic Random Phase Opto-Triac
+K Opto-Triac Opto Triac Random Phase
 $ENDCMP
 #
 $CMP PC3H4
