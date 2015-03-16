@@ -579,6 +579,56 @@ X -9VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# Earth
+#
+DEF ~Earth #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 60 H I C CNN
+F1 "Earth" 0 -150 50 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  -25 -75  25 -75 N
+P 2 0 1 0  -5 -100  5 -100 N
+P 2 0 1 0  0 -50  0 0 N
+P 2 0 1 0  50 -50  -50 -50 N
+X Earth 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Earth_Clean
+#
+DEF ~Earth_Clean #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 250 0 60 H I C CNN
+F1 "Earth_Clean" 300 -150 50 H I C CNN
+F2 "" 0 -50 60 H V C CNN
+F3 "" 0 -50 60 H V C CNN
+DRAW
+A 0 -150 100 1 1799 0 1 0 N 100 -150 -100 -150
+P 2 0 1 0  -25 -125  25 -125 N
+P 2 0 1 0  -5 -150  5 -150 N
+P 2 0 1 0  0 -100  0 0 N
+P 2 0 1 0  50 -100  -50 -100 N
+X Earth_Clean 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Earth_Protective
+#
+DEF ~Earth_Protective #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 200 -350 60 H I C CNN
+F1 "Earth_Protective" 450 -150 50 H I C CNN
+F2 "" 0 -100 60 H V C CNN
+F3 "" 0 -100 60 H V C CNN
+DRAW
+C 0 -150 100 0 1 0 N
+P 2 0 1 0  -25 -175  25 -175 N
+P 2 0 1 0  -5 -200  5 -200 N
+P 2 0 1 0  0 -150  0 0 N
+P 2 0 1 0  50 -150  -50 -150 N
+X Earth_Protective 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # GND
 #
 DEF GND #PWR 0 0 Y Y 1 F P
