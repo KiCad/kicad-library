@@ -5,14 +5,18 @@
     (no_connects 4)
     (area 110.922999 72.949999 179.653001 126.440001)
     (thickness 1.6)
-    (drawings 30)
+    (drawings 26)
     (tracks 0)
     (zones 0)
-    (modules 4)
+    (modules 8)
     (nets 29)
   )
 
   (page A4)
+  (title_block
+    (date "lun. 30 mars 2015")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -58,8 +62,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.5 1.5)
-    (pad_drill 0.6)
+    (pad_size 4.064 4.064)
+    (pad_drill 3.048)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 110.998 126.365)
     (grid_origin 110.998 126.365)
@@ -158,7 +162,7 @@
     (add_net GND)
   )
 
-  (module Socket_Arduino_Uno:Socket_Strip_Arduino_1x08 (layer F.Cu) (tedit 5517B5EE) (tstamp 5519A672)
+  (module Socket_Arduino_Uno:Socket_Strip_Arduino_1x08 (layer F.Cu) (tedit 5517B5EE) (tstamp 551A79F9)
     (at 138.938 123.825)
     (descr "Through hole socket strip")
     (tags "socket strip")
@@ -196,14 +200,14 @@
       (net 6 GND))
     (pad 8 thru_hole oval (at 17.78 0) (size 1.7272 2.286) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 7 /Vin))
-    (model ${KIPRJMOD}/Socket_Arduino.3dshapes/Socket_header_Arduino_1x08.wrl
+    (model ${KIPRJMOD}/Socket_Arduino_Uno.3dshapes/Socket_header_Arduino_1x08.wrl
       (at (xyz 0.35 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
   )
 
-  (module Socket_Arduino_Uno:Socket_Strip_Arduino_1x06 (layer F.Cu) (tedit 5517B6F3) (tstamp 5519A67D)
+  (module Socket_Arduino_Uno:Socket_Strip_Arduino_1x06 (layer F.Cu) (tedit 5517B6F3) (tstamp 551A7A0E)
     (at 161.798 123.825)
     (descr "Through hole socket strip")
     (tags "socket strip")
@@ -237,14 +241,14 @@
       (net 13 "/A4(SDA)"))
     (pad 6 thru_hole oval (at 12.7 0) (size 1.7272 2.286) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 14 "/A5(SCL)"))
-    (model ${KIPRJMOD}/Socket_Arduino.3dshapes/Socket_header_Arduino_1x06.wrl
+    (model ${KIPRJMOD}/Socket_Arduino_Uno.3dshapes/Socket_header_Arduino_1x06.wrl
       (at (xyz 0.25 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
   )
 
-  (module Socket_Arduino_Uno:Socket_Strip_Arduino_1x10 (layer F.Cu) (tedit 5519A67E) (tstamp 5519A686)
+  (module Socket_Arduino_Uno:Socket_Strip_Arduino_1x10 (layer F.Cu) (tedit 551A7A0A) (tstamp 551A7A27)
     (at 129.794 75.565)
     (descr "Through hole socket strip")
     (tags "socket strip")
@@ -286,14 +290,14 @@
       (net 19 "/9(**)"))
     (pad 10 thru_hole oval (at 22.86 0) (size 1.7272 2.286) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 20 /8))
-    (model ${KIPRJMOD}/Socket_Arduino.3dshapes/Socket_header_Arduino_1x10.wrl
+    (model ${KIPRJMOD}/Socket_Arduino_Uno.3dshapes/Socket_header_Arduino_1x10.wrl
       (at (xyz 0.45 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
   )
 
-  (module Socket_Arduino_Uno:Socket_Strip_Arduino_1x08 (layer F.Cu) (tedit 5519A686) (tstamp 5519A693)
+  (module Socket_Arduino_Uno:Socket_Strip_Arduino_1x08 (layer F.Cu) (tedit 551A7A10) (tstamp 551A7A3E)
     (at 156.718 75.565)
     (descr "Through hole socket strip")
     (tags "socket strip")
@@ -331,11 +335,67 @@
       (net 27 "/1(Tx)"))
     (pad 8 thru_hole oval (at 17.78 0) (size 1.7272 2.286) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 28 "/0(Rx)"))
-    (model ${KIPRJMOD}/Socket_Arduino.3dshapes/Socket_header_Arduino_1x08.wrl
+    (model ${KIPRJMOD}/Socket_Arduino_Uno.3dshapes/Socket_header_Arduino_1x08.wrl
       (at (xyz 0.35 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 551AF6AF) (tstamp 551AF526)
+    (at 126.238 75.565)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
+    (pad "" thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 551AF6A9) (tstamp 551AF644)
+    (at 177.038 90.805)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
+    (pad "" thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 551AF6DC) (tstamp 551AF6B8)
+    (at 124.968 123.825)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
+    (pad "" thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 551AF703) (tstamp 551AF6E7)
+    (at 177.038 118.745)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
+    (pad "" thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
   )
 
   (gr_circle (center 117.348 76.962) (end 118.618 76.962) (layer Dwgs.User) (width 0.15))
@@ -344,7 +404,6 @@
   (gr_line (start 120.269 74.93) (end 120.269 78.994) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 114.427 74.93) (end 120.269 74.93) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 120.523 93.98) (end 104.648 93.98) (angle 90) (layer Dwgs.User) (width 0.15))
-  (gr_circle (center 177.038 90.805) (end 178.562 90.805) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 177.038 74.549) (end 175.514 73.025) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 177.038 85.979) (end 177.038 74.549) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 179.578 88.519) (end 177.038 85.979) (angle 90) (layer Edge.Cuts) (width 0.15))
@@ -353,9 +412,6 @@
   (gr_line (start 177.038 126.365) (end 177.038 123.825) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 110.998 126.365) (end 177.038 126.365) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 110.998 73.025) (end 110.998 126.365) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_circle (center 124.968 123.825) (end 123.444 123.825) (layer Edge.Cuts) (width 0.15))
-  (gr_circle (center 177.038 118.745) (end 175.514 118.745) (layer Edge.Cuts) (width 0.15))
-  (gr_circle (center 126.238 75.565) (end 124.714 75.565) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 175.514 73.025) (end 110.998 73.025) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 173.355 102.235) (end 173.355 94.615) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 178.435 102.235) (end 173.355 102.235) (angle 90) (layer Dwgs.User) (width 0.15))
