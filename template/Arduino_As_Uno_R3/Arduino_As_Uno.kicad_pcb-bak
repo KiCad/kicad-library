@@ -3,13 +3,13 @@
   (general
     (links 4)
     (no_connects 4)
-    (area 110.922999 72.949999 179.653001 126.440001)
+    (area 104.572999 71.392 180.241572 127.594)
     (thickness 1.6)
     (drawings 26)
     (tracks 0)
     (zones 0)
     (modules 8)
-    (nets 29)
+    (nets 33)
   )
 
   (page A4)
@@ -124,6 +124,10 @@
   (net 26 /2)
   (net 27 "/1(Tx)")
   (net 28 "/0(Rx)")
+  (net 29 "Net-(P5-Pad1)")
+  (net 30 "Net-(P6-Pad1)")
+  (net 31 "Net-(P7-Pad1)")
+  (net 32 "Net-(P8-Pad1)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -160,62 +164,10 @@
     (add_net /Reset)
     (add_net /Vin)
     (add_net GND)
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 551AF6AF) (tstamp 551AF526)
-    (at 126.238 75.565)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad "" thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 551AF6A9) (tstamp 551AF644)
-    (at 177.038 90.805)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad "" thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 551AF6DC) (tstamp 551AF6B8)
-    (at 124.968 123.825)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad "" thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 551AF703) (tstamp 551AF6E7)
-    (at 177.038 118.745)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad "" thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
+    (add_net "Net-(P5-Pad1)")
+    (add_net "Net-(P6-Pad1)")
+    (add_net "Net-(P7-Pad1)")
+    (add_net "Net-(P8-Pad1)")
   )
 
   (module Socket_Arduino_Uno:Socket_Strip_Arduino_1x08 (layer F.Cu) (tedit 551AF8B3) (tstamp 551AF9EA)
@@ -396,6 +348,70 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 551D91A6) (tstamp 551BBCF7)
+    (at 124.968 123.825)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path /551BBC06)
+    (fp_text reference P5 (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
+    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS)
+      (net 29 "Net-(P5-Pad1)"))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 551D91A2) (tstamp 551BBCFD)
+    (at 177.038 118.745)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path /551BBD10)
+    (fp_text reference P6 (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
+    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS)
+      (net 30 "Net-(P6-Pad1)"))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 551D9197) (tstamp 551BBD03)
+    (at 126.238 75.565)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path /551BBD30)
+    (fp_text reference P7 (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
+    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS)
+      (net 31 "Net-(P7-Pad1)"))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 551D919E) (tstamp 551BBD09)
+    (at 177.038 90.805)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path /551BBD52)
+    (fp_text reference P8 (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_1 (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
+    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS)
+      (net 32 "Net-(P8-Pad1)"))
   )
 
   (gr_circle (center 117.348 76.962) (end 118.618 76.962) (layer Dwgs.User) (width 0.15))

@@ -191,13 +191,13 @@ Text Label 10450 1900 0    60   ~ 0
 Text Label 10450 1800 0    60   ~ 0
 9(**)
 Text Label 10450 1700 0    60   ~ 0
-10(**)
+10(**/SS)
 Text Label 10450 1600 0    60   ~ 0
-11(**)
+11(**/MISO)
 Text Label 10450 1500 0    60   ~ 0
-12
+12(MOSI)
 Text Label 10450 1400 0    60   ~ 0
-13
+13(SCK)
 Text Label 10525 1200 0    60   ~ 0
 AREF
 $Comp
