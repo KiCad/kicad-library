@@ -47,109 +47,109 @@ $EndDescr
 $Comp
 L CONN_8 P2
 U 1 1 5519888A
-P 9225 1550
-F 0 "P2" V 9175 1550 60  0000 C CNN
-F 1 "Power" V 9275 1550 60  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9225 1550 60  0001 C CNN
-F 3 "" H 9225 1550 60  0000 C CNN
-	1    9225 1550
+P 9550 1775
+F 0 "P2" V 9500 1775 60  0000 C CNN
+F 1 "Power" V 9600 1775 60  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 1775 60  0001 C CNN
+F 3 "" H 9550 1775 60  0000 C CNN
+	1    9550 1775
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_8 P3
 U 1 1 5519891B
-P 9225 2475
-F 0 "P3" V 9175 2475 60  0000 C CNN
-F 1 "Analog" V 9275 2475 60  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9225 2475 60  0001 C CNN
-F 3 "" H 9225 2475 60  0000 C CNN
-	1    9225 2475
+P 9550 2700
+F 0 "P3" V 9500 2700 60  0000 C CNN
+F 1 "Analog" V 9600 2700 60  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 2700 60  0001 C CNN
+F 3 "" H 9550 2700 60  0000 C CNN
+	1    9550 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_8 P4
 U 1 1 551989CF
-P 9225 3400
-F 0 "P4" V 9175 3400 60  0000 C CNN
-F 1 "Analog" V 9275 3400 60  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9225 3400 60  0001 C CNN
-F 3 "" H 9225 3400 60  0000 C CNN
-	1    9225 3400
+P 9550 3625
+F 0 "P4" V 9500 3625 60  0000 C CNN
+F 1 "Analog" V 9600 3625 60  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 3625 60  0001 C CNN
+F 3 "" H 9550 3625 60  0000 C CNN
+	1    9550 3625
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_8 P6
 U 1 1 55198A32
-P 10100 2475
-F 0 "P6" V 10050 2475 60  0000 C CNN
-F 1 "PWM" V 10150 2475 60  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 10100 2475 60  0001 C CNN
-F 3 "" H 10100 2475 60  0000 C CNN
-	1    10100 2475
+P 9875 2700
+F 0 "P6" V 9825 2700 60  0000 C CNN
+F 1 "PWM" V 9925 2700 60  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9875 2700 60  0001 C CNN
+F 3 "" H 9875 2700 60  0000 C CNN
+	1    9875 2700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_8 P7
 U 1 1 55198B76
-P 10100 3400
-F 0 "P7" V 10050 3400 60  0000 C CNN
-F 1 "Communication" V 10150 3400 60  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 10100 3400 60  0001 C CNN
-F 3 "" H 10100 3400 60  0000 C CNN
-	1    10100 3400
+P 9875 3625
+F 0 "P7" V 9825 3625 60  0000 C CNN
+F 1 "Communication" V 9925 3625 60  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9875 3625 60  0001 C CNN
+F 3 "" H 9875 3625 60  0000 C CNN
+	1    9875 3625
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_10 P5
 U 1 1 55198BE2
-P 10100 1450
-F 0 "P5" V 10050 1450 60  0000 C CNN
-F 1 "PWM" V 10150 1450 60  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x10" H 10100 1450 60  0001 C CNN
-F 3 "" H 10100 1450 60  0000 C CNN
-	1    10100 1450
+P 9875 1675
+F 0 "P5" V 9825 1675 60  0000 C CNN
+F 1 "PWM" V 9925 1675 60  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x10" H 9875 1675 60  0001 C CNN
+F 3 "" H 9875 1675 60  0000 C CNN
+	1    9875 1675
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 8500 1200
-Text Label 8625 1200 0    60   ~ 0
+NoConn ~ 8425 1425
+Text Label 8450 1425 0    60   ~ 0
 NC
-Text Label 8575 1300 0    60   ~ 0
+Text Label 9125 1250 1    60   ~ 0
 IOREF
-Text Label 8575 1400 0    60   ~ 0
+Text Label 8450 1625 0    60   ~ 0
 Reset
-Text Label 8625 1900 0    60   ~ 0
+Text Label 8750 1250 1    60   ~ 0
 Vin
-Text Label 8500 2125 0    60   ~ 0
+Text Label 8450 2350 0    60   ~ 0
 A0
-Text Label 8500 2225 0    60   ~ 0
+Text Label 8450 2450 0    60   ~ 0
 A1
-Text Label 8500 2325 0    60   ~ 0
+Text Label 8450 2550 0    60   ~ 0
 A2
-Text Label 8500 2425 0    60   ~ 0
+Text Label 8450 2650 0    60   ~ 0
 A3
-Text Label 8500 2525 0    60   ~ 0
+Text Label 8450 2750 0    60   ~ 0
 A4
-Text Label 8500 2625 0    60   ~ 0
+Text Label 8450 2850 0    60   ~ 0
 A5
-Text Label 8500 2725 0    60   ~ 0
+Text Label 8450 2950 0    60   ~ 0
 A6
-Text Label 8500 2825 0    60   ~ 0
+Text Label 8450 3050 0    60   ~ 0
 A7
-Text Label 8500 3050 0    60   ~ 0
+Text Label 8450 3275 0    60   ~ 0
 A8
-Text Label 8500 3150 0    60   ~ 0
+Text Label 8450 3375 0    60   ~ 0
 A9
-Text Label 8500 3250 0    60   ~ 0
+Text Label 8450 3475 0    60   ~ 0
 A10
-Text Label 8500 3350 0    60   ~ 0
+Text Label 8450 3575 0    60   ~ 0
 A11
-Text Label 8500 3450 0    60   ~ 0
+Text Label 8450 3675 0    60   ~ 0
 A12
-Text Label 8500 3550 0    60   ~ 0
+Text Label 8450 3775 0    60   ~ 0
 A13
-Text Label 8500 3650 0    60   ~ 0
+Text Label 8450 3875 0    60   ~ 0
 A14
-Text Label 8500 3750 0    60   ~ 0
+Text Label 8450 3975 0    60   ~ 0
 A15
 Text Label 10400 4675 1    60   ~ 0
 22
@@ -215,123 +215,112 @@ Text Label 9000 6000 1    60   ~ 0
 51(MOSI)
 Text Label 8900 6000 1    60   ~ 0
 53(SS)
-Text Label 10450 3750 0    60   ~ 0
+Text Label 10375 3975 0    60   ~ 0
 21(SCL)
-Text Label 10450 3650 0    60   ~ 0
+Text Label 10375 3875 0    60   ~ 0
 20(SDA)
-Text Label 10450 3550 0    60   ~ 0
-19(Rx)
-Text Label 10450 3450 0    60   ~ 0
-18(Tx)
-Text Label 10450 3350 0    60   ~ 0
-17(Rx)
-Text Label 10450 3250 0    60   ~ 0
-16(Tx)
-Text Label 10450 3150 0    60   ~ 0
-15(Rx)
-Text Label 10450 3050 0    60   ~ 0
-14(Tx)
-Text Label 10450 1400 0    60   ~ 0
+Text Label 10375 3775 0    60   ~ 0
+19(Rx1)
+Text Label 10375 3675 0    60   ~ 0
+18(Tx1)
+Text Label 10375 3575 0    60   ~ 0
+17(Rx2)
+Text Label 10375 3475 0    60   ~ 0
+16(Tx2)
+Text Label 10375 3375 0    60   ~ 0
+15(Rx3)
+Text Label 10375 3275 0    60   ~ 0
+14(Tx3)
+Text Label 10375 1625 0    60   ~ 0
 13(**)
-Text Label 10450 1500 0    60   ~ 0
+Text Label 10375 1725 0    60   ~ 0
 12(**)
-Text Label 10450 1600 0    60   ~ 0
+Text Label 10375 1825 0    60   ~ 0
 11(**)
-Text Label 10450 1700 0    60   ~ 0
+Text Label 10375 1925 0    60   ~ 0
 10(**)
-Text Label 10450 1800 0    60   ~ 0
+Text Label 10375 2025 0    60   ~ 0
 9(**)
-Text Label 10450 1900 0    60   ~ 0
+Text Label 10375 2125 0    60   ~ 0
 8(**)
-Text Label 10450 2125 0    60   ~ 0
+Text Label 10375 2350 0    60   ~ 0
 7(**)
-Text Label 10450 2225 0    60   ~ 0
+Text Label 10375 2450 0    60   ~ 0
 6(**)
-Text Label 10450 2325 0    60   ~ 0
+Text Label 10375 2550 0    60   ~ 0
 5(**)
-Text Label 10450 2425 0    60   ~ 0
+Text Label 10375 2650 0    60   ~ 0
 4(**)
-Text Label 10450 2525 0    60   ~ 0
+Text Label 10375 2750 0    60   ~ 0
 3(**)
-Text Label 10450 2625 0    60   ~ 0
+Text Label 10375 2850 0    60   ~ 0
 2(**)
-Text Label 10450 2725 0    60   ~ 0
-1(Tx)
-Text Label 10450 2825 0    60   ~ 0
-0(Rx)
-Text Label 10550 1100 0    60   ~ 0
+Text Label 10375 2950 0    60   ~ 0
+1(Tx0)
+Text Label 10375 3050 0    60   ~ 0
+0(Rx0)
+Text Label 10375 1325 0    60   ~ 0
 SDA
-Text Label 10550 1000 0    60   ~ 0
+Text Label 10375 1225 0    60   ~ 0
 SCL
-Text Label 10550 1200 0    60   ~ 0
+Text Label 10375 1425 0    60   ~ 0
 AREF
-$Comp
-L GND #PWR01
-U 1 1 5519C84C
-P 8250 1875
-F 0 "#PWR01" H 8250 1875 30  0001 C CNN
-F 1 "GND" H 8250 1805 30  0001 C CNN
-F 2 "" H 8250 1875 60  0000 C CNN
-F 3 "" H 8250 1875 60  0000 C CNN
-	1    8250 1875
-	1    0    0    -1  
-$EndComp
 $Comp
 L +5V #PWR02
 U 1 1 5519CA9C
-P 8250 1575
-F 0 "#PWR02" H 8250 1665 20  0001 C CNN
-F 1 "+5V" H 8250 1665 30  0000 C CNN
-F 2 "" H 8250 1575 60  0000 C CNN
-F 3 "" H 8250 1575 60  0000 C CNN
-	1    8250 1575
+P 8875 1250
+F 0 "#PWR02" H 8875 1340 20  0001 C CNN
+F 1 "+5V" H 8875 1340 30  0000 C CNN
+F 2 "" H 8875 1250 60  0000 C CNN
+F 3 "" H 8875 1250 60  0000 C CNN
+	1    8875 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR03
 U 1 1 5519CAB8
-P 8375 1475
-F 0 "#PWR03" H 8375 1435 30  0001 C CNN
-F 1 "+3.3V" H 8375 1585 30  0000 C CNN
-F 2 "" H 8375 1475 60  0000 C CNN
-F 3 "" H 8375 1475 60  0000 C CNN
-	1    8375 1475
+P 9000 1250
+F 0 "#PWR03" H 9000 1210 30  0001 C CNN
+F 1 "+3.3V" H 9000 1360 30  0000 C CNN
+F 2 "" H 9000 1250 60  0000 C CNN
+F 3 "" H 9000 1250 60  0000 C CNN
+	1    9000 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR04
 U 1 1 5519CC01
-P 10950 1375
-F 0 "#PWR04" H 10950 1375 30  0001 C CNN
-F 1 "GND" H 10950 1305 30  0001 C CNN
-F 2 "" H 10950 1375 60  0000 C CNN
-F 3 "" H 10950 1375 60  0000 C CNN
-	1    10950 1375
+P 10300 2200
+F 0 "#PWR04" H 10300 2200 30  0001 C CNN
+F 1 "GND" H 10300 2130 30  0001 C CNN
+F 2 "" H 10300 2200 60  0000 C CNN
+F 3 "" H 10300 2200 60  0000 C CNN
+	1    10300 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 5519CDF8
-P 8675 6075
-F 0 "#PWR05" H 8675 6075 30  0001 C CNN
-F 1 "GND" H 8675 6005 30  0001 C CNN
-F 2 "" H 8675 6075 60  0000 C CNN
-F 3 "" H 8675 6075 60  0000 C CNN
-	1    8675 6075
+P 8675 6125
+F 0 "#PWR05" H 8675 6125 30  0001 C CNN
+F 1 "GND" H 8675 6055 30  0001 C CNN
+F 2 "" H 8675 6125 60  0000 C CNN
+F 3 "" H 8675 6125 60  0000 C CNN
+	1    8675 6125
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR06
 U 1 1 5519D165
-P 10625 4425
-F 0 "#PWR06" H 10625 4515 20  0001 C CNN
-F 1 "+5V" H 10625 4515 30  0000 C CNN
-F 2 "" H 10625 4425 60  0000 C CNN
-F 3 "" H 10625 4425 60  0000 C CNN
-	1    10625 4425
+P 10625 4325
+F 0 "#PWR06" H 10625 4415 20  0001 C CNN
+F 1 "+5V" H 10625 4415 30  0000 C CNN
+F 2 "" H 10625 4325 60  0000 C CNN
+F 3 "" H 10625 4325 60  0000 C CNN
+	1    10625 4325
 	1    0    0    -1  
 $EndComp
-Text Notes 8950 675  0    60   ~ 0
+Text Notes 8375 575  0    60   ~ 0
 Shield for Arduino Mega Rev 3
 $Comp
 L CONN_18X2 P1
@@ -344,86 +333,91 @@ F 3 "" H 9600 5075 60  0000 C CNN
 	1    9600 5225
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	8875 1200 8500 1200
-Wire Wire Line
-	8875 1300 8500 1300
-Wire Wire Line
-	8875 1400 8500 1400
-Wire Wire Line
-	8375 1500 8875 1500
-Wire Wire Line
-	8250 1600 8875 1600
-Wire Wire Line
-	8250 1700 8875 1700
-Wire Wire Line
-	8250 1800 8875 1800
-Wire Wire Line
-	8875 1900 8500 1900
-Wire Wire Line
-	8875 2125 8500 2125
-Wire Wire Line
-	8875 2225 8500 2225
-Wire Wire Line
-	8875 2325 8500 2325
-Wire Wire Line
-	8875 2425 8500 2425
-Wire Wire Line
-	8875 2525 8500 2525
-Wire Wire Line
-	8875 2625 8500 2625
-Wire Wire Line
-	8875 2725 8500 2725
-Wire Wire Line
-	8875 2825 8500 2825
-Wire Wire Line
-	8875 3050 8500 3050
-Wire Wire Line
-	8875 3150 8500 3150
-Wire Wire Line
-	8875 3250 8500 3250
-Wire Wire Line
-	8875 3350 8500 3350
-Wire Wire Line
-	8875 3450 8500 3450
-Wire Wire Line
-	8875 3550 8500 3550
-Wire Wire Line
-	8875 3650 8500 3650
-Wire Wire Line
-	8875 3750 8500 3750
-Wire Wire Line
-	10825 3050 10450 3050
-Wire Wire Line
-	10825 3150 10450 3150
-Wire Wire Line
-	10825 3250 10450 3250
-Wire Wire Line
-	10825 3350 10450 3350
-Wire Wire Line
-	10825 3450 10450 3450
-Wire Wire Line
-	10825 3550 10450 3550
-Wire Wire Line
-	10825 3650 10450 3650
-Wire Wire Line
-	10825 3750 10450 3750
-Wire Wire Line
-	10825 2125 10450 2125
-Wire Wire Line
-	10825 2225 10450 2225
-Wire Wire Line
-	10825 2325 10450 2325
-Wire Wire Line
-	10825 2425 10450 2425
-Wire Wire Line
-	10825 2525 10450 2525
-Wire Wire Line
-	10825 2625 10450 2625
-Wire Wire Line
-	10825 2725 10450 2725
-Wire Wire Line
-	10825 2825 10450 2825
+$Comp
+L CONN_1 P8
+U 1 1 551BBA20
+P 10725 700
+F 0 "P8" H 10805 700 40  0000 L CNN
+F 1 "CONN_1" H 10725 755 30  0001 C CNN
+F 2 "Connect:1pin" H 10725 700 60  0001 C CNN
+F 3 "" H 10725 700 60  0000 C CNN
+	1    10725 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P9
+U 1 1 551BBB85
+P 10800 700
+F 0 "P9" H 10880 700 40  0000 L CNN
+F 1 "CONN_1" H 10800 755 30  0001 C CNN
+F 2 "Connect:1pin" H 10800 700 60  0001 C CNN
+F 3 "" H 10800 700 60  0000 C CNN
+	1    10800 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P10
+U 1 1 551BBBAB
+P 10875 700
+F 0 "P10" H 10955 700 40  0000 L CNN
+F 1 "CONN_1" H 10875 755 30  0001 C CNN
+F 2 "Connect:1pin" H 10875 700 60  0001 C CNN
+F 3 "" H 10875 700 60  0000 C CNN
+	1    10875 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P11
+U 1 1 551BBBD7
+P 10950 700
+F 0 "P11" H 11030 700 40  0000 L CNN
+F 1 "CONN_1" H 10950 755 30  0001 C CNN
+F 2 "Connect:1pin" H 10950 700 60  0001 C CNN
+F 3 "" H 10950 700 60  0000 C CNN
+	1    10950 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P12
+U 1 1 551BBC10
+P 11025 700
+F 0 "P12" H 11105 700 40  0000 L CNN
+F 1 "CONN_1" H 11025 755 30  0001 C CNN
+F 2 "Connect:1pin" H 11025 700 60  0001 C CNN
+F 3 "" H 11025 700 60  0000 C CNN
+	1    11025 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P13
+U 1 1 551BBC3C
+P 11100 700
+F 0 "P13" H 11180 700 40  0000 L CNN
+F 1 "CONN_1" H 11100 755 30  0001 C CNN
+F 2 "Connect:1pin" H 11100 700 60  0001 C CNN
+F 3 "" H 11100 700 60  0000 C CNN
+	1    11100 700 
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 10725 850 
+NoConn ~ 10800 850 
+NoConn ~ 10875 850 
+NoConn ~ 10950 850 
+NoConn ~ 11025 850 
+NoConn ~ 11100 850 
+Text Notes 10800 975  0    60   ~ 0
+Holes
+$Comp
+L GND #PWR01
+U 1 1 5519C84C
+P 9125 2200
+F 0 "#PWR01" H 9125 2200 30  0001 C CNN
+F 1 "GND" H 9125 2130 30  0001 C CNN
+F 2 "" H 9125 2200 60  0000 C CNN
+F 3 "" H 9125 2200 60  0000 C CNN
+	1    9125 2200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	8900 4450 8900 4825
 Wire Wire Line
@@ -497,36 +491,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 5625 10500 6000
 Wire Wire Line
-	10825 1200 10450 1200
-Wire Wire Line
-	10450 1300 10950 1300
-Wire Wire Line
-	10825 1400 10450 1400
-Wire Wire Line
-	10825 1500 10450 1500
-Wire Wire Line
-	10825 1600 10450 1600
-Wire Wire Line
-	10825 1700 10450 1700
-Wire Wire Line
-	10825 1800 10450 1800
-Wire Wire Line
-	10825 1900 10450 1900
-Wire Wire Line
-	10450 1100 10825 1100
-Wire Wire Line
-	10450 1000 10825 1000
-Wire Wire Line
-	8250 1700 8250 1875
-Connection ~ 8250 1800
-Wire Wire Line
-	8375 1500 8375 1475
-Wire Wire Line
-	8250 1600 8250 1575
-Wire Wire Line
-	10950 1300 10950 1375
-Wire Wire Line
-	8675 4450 8675 6075
+	8675 4450 8675 6125
 Wire Wire Line
 	8800 4450 8675 4450
 Wire Wire Line
@@ -535,90 +500,133 @@ Connection ~ 8675 6000
 Wire Wire Line
 	10500 4450 10625 4450
 Wire Wire Line
-	10625 4425 10625 6000
-Wire Wire Line
-	10625 6000 10500 6000
+	10500 6000 10625 6000
 Connection ~ 10625 4450
+Wire Wire Line
+	9200 1525 9125 1525
+Wire Wire Line
+	9125 1525 9125 1250
+Wire Wire Line
+	9200 1725 9000 1725
+Wire Wire Line
+	9000 1725 9000 1250
+Wire Wire Line
+	8875 1250 8875 1825
+Wire Wire Line
+	8875 1825 9200 1825
+Wire Wire Line
+	8750 1250 8750 2125
+Wire Wire Line
+	8750 2125 9200 2125
+Wire Wire Line
+	10625 6000 10625 4325
+Wire Wire Line
+	10225 1625 10950 1625
+Wire Wire Line
+	10225 1725 10950 1725
+Wire Wire Line
+	10225 1825 10950 1825
+Wire Wire Line
+	10225 1925 10950 1925
+Wire Wire Line
+	10225 2025 10950 2025
+Wire Wire Line
+	10225 2125 10950 2125
+Wire Wire Line
+	9125 2200 9125 1925
+Wire Wire Line
+	9125 1925 9200 1925
+Wire Wire Line
+	9125 2025 9200 2025
+Connection ~ 9125 2025
+Wire Wire Line
+	9200 1425 8425 1425
+Wire Wire Line
+	9200 1625 8425 1625
+Wire Wire Line
+	9200 2350 8425 2350
+Wire Wire Line
+	9200 2450 8425 2450
+Wire Wire Line
+	9200 2550 8425 2550
+Wire Wire Line
+	9200 2650 8425 2650
+Wire Wire Line
+	9200 2750 8425 2750
+Wire Wire Line
+	9200 2850 8425 2850
+Wire Wire Line
+	9200 2950 8425 2950
+Wire Wire Line
+	9200 3050 8425 3050
+Wire Wire Line
+	9200 3275 8425 3275
+Wire Wire Line
+	9200 3375 8425 3375
+Wire Wire Line
+	9200 3475 8425 3475
+Wire Wire Line
+	9200 3575 8425 3575
+Wire Wire Line
+	9200 3675 8425 3675
+Wire Wire Line
+	9200 3775 8425 3775
+Wire Wire Line
+	9200 3875 8425 3875
+Wire Wire Line
+	9200 3975 8425 3975
+Wire Wire Line
+	10225 2350 10950 2350
+Wire Wire Line
+	10225 2450 10950 2450
+Wire Wire Line
+	10225 2550 10950 2550
+Wire Wire Line
+	10225 2650 10950 2650
+Wire Wire Line
+	10225 2750 10950 2750
+Wire Wire Line
+	10225 2850 10950 2850
+Wire Wire Line
+	10225 3275 10950 3275
+Wire Wire Line
+	10225 3375 10950 3375
+Wire Wire Line
+	10225 3475 10950 3475
+Wire Wire Line
+	10225 3575 10950 3575
+Wire Wire Line
+	10225 3675 10950 3675
+Wire Wire Line
+	10225 3775 10950 3775
+Wire Wire Line
+	10225 2950 10950 2950
+Wire Wire Line
+	10225 3050 10950 3050
+Wire Wire Line
+	10225 3875 10950 3875
+Wire Wire Line
+	10225 3975 10950 3975
+Wire Wire Line
+	10225 1225 10950 1225
+Wire Wire Line
+	10225 1325 10950 1325
+Wire Wire Line
+	10225 1425 10950 1425
 Wire Notes Line
-	11225 6300 7900 6300
+	11225 1025 10625 1025
 Wire Notes Line
-	7900 6300 7900 475 
-$Comp
-L CONN_1 P8
-U 1 1 551BBA20
-P 8050 650
-F 0 "P8" H 8130 650 40  0000 L CNN
-F 1 "CONN_1" H 8050 705 30  0001 C CNN
-F 2 "Connect:1pin" H 8050 650 60  0001 C CNN
-F 3 "" H 8050 650 60  0000 C CNN
-	1    8050 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P9
-U 1 1 551BBB85
-P 8125 650
-F 0 "P9" H 8205 650 40  0000 L CNN
-F 1 "CONN_1" H 8125 705 30  0001 C CNN
-F 2 "Connect:1pin" H 8125 650 60  0001 C CNN
-F 3 "" H 8125 650 60  0000 C CNN
-	1    8125 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P10
-U 1 1 551BBBAB
-P 8200 650
-F 0 "P10" H 8280 650 40  0000 L CNN
-F 1 "CONN_1" H 8200 705 30  0001 C CNN
-F 2 "Connect:1pin" H 8200 650 60  0001 C CNN
-F 3 "" H 8200 650 60  0000 C CNN
-	1    8200 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P11
-U 1 1 551BBBD7
-P 8275 650
-F 0 "P11" H 8355 650 40  0000 L CNN
-F 1 "CONN_1" H 8275 705 30  0001 C CNN
-F 2 "Connect:1pin" H 8275 650 60  0001 C CNN
-F 3 "" H 8275 650 60  0000 C CNN
-	1    8275 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P12
-U 1 1 551BBC10
-P 8350 650
-F 0 "P12" H 8430 650 40  0000 L CNN
-F 1 "CONN_1" H 8350 705 30  0001 C CNN
-F 2 "Connect:1pin" H 8350 650 60  0001 C CNN
-F 3 "" H 8350 650 60  0000 C CNN
-	1    8350 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P13
-U 1 1 551BBC3C
-P 8425 650
-F 0 "P13" H 8505 650 40  0000 L CNN
-F 1 "CONN_1" H 8425 705 30  0001 C CNN
-F 2 "Connect:1pin" H 8425 650 60  0001 C CNN
-F 3 "" H 8425 650 60  0000 C CNN
-	1    8425 650 
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 8050 800 
-NoConn ~ 8125 800 
-NoConn ~ 8200 800 
-NoConn ~ 8275 800 
-NoConn ~ 8350 800 
-NoConn ~ 8425 800 
-Text Notes 8125 925  0    60   ~ 0
-Holes
+	10625 1025 10625 475 
 Wire Notes Line
-	7900 950  8575 950 
+	11225 6250 8350 6250
 Wire Notes Line
-	8575 950  8575 475 
+	8350 6250 8350 475 
+Wire Notes Line
+	8350 650  9850 650 
+Wire Notes Line
+	9850 650  9850 475 
+Wire Wire Line
+	10300 2200 10300 1525
+Wire Wire Line
+	10300 1525 10225 1525
 $EndSCHEMATC
