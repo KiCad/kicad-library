@@ -166,8 +166,8 @@ Text Label 10725 2050 0    60   ~ 0
 A4
 Text Label 10725 1950 0    60   ~ 0
 A5
-NoConn ~ 11100 1850
-NoConn ~ 11100 1750
+NoConn ~ 10325 1850
+NoConn ~ 10325 1750
 $Comp
 L GND #PWR01
 U 1 1 551FBEC7
@@ -203,10 +203,6 @@ F 3 "" H 10525 975 60  0000 C CNN
 $EndComp
 Text Notes 8550 575  0    60   ~ 0
 Shield Arduino Micro Rev 3
-Text Label 10725 1750 0    60   ~ 0
-NC
-Text Label 10725 1850 0    60   ~ 0
-NC
 Text Notes 10875 925  0    60   ~ 0
 Holes
 NoConn ~ 10875 800 
@@ -251,10 +247,6 @@ Wire Wire Line
 	10325 1250 11100 1250
 Wire Wire Line
 	10325 1550 11100 1550
-Wire Wire Line
-	10325 1750 11100 1750
-Wire Wire Line
-	10325 1850 11100 1850
 Wire Wire Line
 	10325 1950 11100 1950
 Wire Wire Line

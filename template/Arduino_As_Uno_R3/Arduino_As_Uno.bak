@@ -129,9 +129,9 @@ Text Label 10550 1925 0    60   ~ 0
 Text Label 10550 1825 0    60   ~ 0
 10(**/SS)
 Text Label 10550 1725 0    60   ~ 0
-11(**/MISO)
+11(**/MOSI)
 Text Label 10550 1625 0    60   ~ 0
-12(MOSI)
+12(MISO)
 Text Label 10550 1525 0    60   ~ 0
 13(SCK)
 Text Label 10625 1325 0    60   ~ 0
@@ -180,9 +180,7 @@ F 3 "" H 9175 1350 60  0000 C CNN
 	1    9175 1350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8600 1525
-Text Label 8625 1525 0    60   ~ 0
-NC
+NoConn ~ 9375 1525
 Text Label 10550 1225 0    60   ~ 0
 A4(SDA)
 Text Label 10550 1125 0    60   ~ 0
@@ -275,8 +273,6 @@ Wire Wire Line
 	9050 1925 9375 1925
 Wire Wire Line
 	9300 2025 9300 3100
-Wire Wire Line
-	8600 1525 9375 1525
 Wire Wire Line
 	8600 1725 9375 1725
 Wire Wire Line
