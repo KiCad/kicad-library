@@ -3,9 +3,9 @@
   (general
     (links 7)
     (no_connects 7)
-    (area 137.109999 81.229999 154.990001 114.350001)
+    (area 136.454999 80.574999 155.645001 115.015001)
     (thickness 1.6)
-    (drawings 10)
+    (drawings 11)
     (tracks 0)
     (zones 0)
     (modules 5)
@@ -246,11 +246,6 @@
       (net 4 GND))
     (pad 6 thru_hole oval (at 12.7 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 4 GND))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x06.wrl
-      (at (xyz 0.25 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
-    )
   )
 
   (module Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x02 (layer F.Cu) (tedit 55211235) (tstamp 552111F2)
@@ -362,6 +357,9 @@
       (net 27 /A6))
   )
 
+  (gr_text 1 (at 136.525 85.217) (layer Dwgs.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 143.51 113.03) (end 143.51 107.95) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 148.59 113.03) (end 143.51 113.03) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 148.59 107.95) (end 148.59 113.03) (angle 90) (layer Dwgs.User) (width 0.15))
