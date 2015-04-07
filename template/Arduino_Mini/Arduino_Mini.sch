@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Arduino_Mini-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -120,10 +121,6 @@ F 3 "" H 9200 3175 60  0000 C CNN
 	1    9200 3175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9275 2200 9200 2200
-Wire Wire Line
-	9200 2200 9200 3175
 $Comp
 L GND #PWR02
 U 1 1 552004E7
@@ -135,10 +132,6 @@ F 3 "" H 10400 3175 60  0000 C CNN
 	1    10400 3175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10400 3175 10400 2000
-Wire Wire Line
-	10400 2000 10325 2000
 $Comp
 L GND #PWR03
 U 1 1 5520051A
@@ -150,10 +143,6 @@ F 3 "" H 10125 1350 60  0000 C CNN
 	1    10125 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10125 1350 10125 1225
-Wire Wire Line
-	10125 1225 10000 1225
 $Comp
 L GND #PWR04
 U 1 1 552005CB
@@ -165,8 +154,6 @@ F 3 "" H 10300 3950 60  0000 C CNN
 	1    10300 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10300 3775 10300 3950
 $Comp
 L +5V #PWR05
 U 1 1 5520063F
@@ -178,10 +165,6 @@ F 3 "" H 9975 3650 60  0000 C CNN
 	1    9975 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9975 3650 9975 3775
-Wire Wire Line
-	9975 3775 10100 3775
 $Comp
 L +5V #PWR06
 U 1 1 5520074F
@@ -193,8 +176,6 @@ F 3 "" H 9900 900 60  0000 C CNN
 	1    9900 900 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 900  9900 1225
 $Comp
 L +5V #PWR07
 U 1 1 552007C6
@@ -206,10 +187,6 @@ F 3 "" H 10525 1775 60  0000 C CNN
 	1    10525 1775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10525 1775 10525 2200
-Wire Wire Line
-	10525 2200 10325 2200
 $Comp
 L +9V #PWR08
 U 1 1 55200856
@@ -221,31 +198,27 @@ F 3 "" H 10400 1775 60  0000 C CNN
 	1    10400 1775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10400 1775 10400 1900
-Wire Wire Line
-	10400 1900 10325 1900
-Text Label 8900 1900 0    60   ~ 0
+Text Label 8750 1900 0    60   ~ 0
 1(Tx)
-Text Label 8900 2000 0    60   ~ 0
+Text Label 8750 2000 0    60   ~ 0
 0(Rx)
-Text Label 8900 2100 0    60   ~ 0
+Text Label 8750 2100 0    60   ~ 0
 Reset
-Text Label 8900 2300 0    60   ~ 0
+Text Label 8750 2300 0    60   ~ 0
 2
-Text Label 8900 2400 0    60   ~ 0
+Text Label 8750 2400 0    60   ~ 0
 3(**)
-Text Label 8900 2500 0    60   ~ 0
+Text Label 8750 2500 0    60   ~ 0
 4
-Text Label 8900 2600 0    60   ~ 0
+Text Label 8750 2600 0    60   ~ 0
 5(**)
-Text Label 8900 2700 0    60   ~ 0
+Text Label 8750 2700 0    60   ~ 0
 6(**)
-Text Label 8900 2800 0    60   ~ 0
+Text Label 8750 2800 0    60   ~ 0
 7
-Text Label 8900 2900 0    60   ~ 0
+Text Label 8750 2900 0    60   ~ 0
 8
-Text Label 8900 3000 0    60   ~ 0
+Text Label 8750 3000 0    60   ~ 0
 9(**)
 Text Label 9700 1225 1    60   ~ 0
 1(Tx)
@@ -253,12 +226,6 @@ Text Label 9800 1225 1    60   ~ 0
 0(Rx)
 Text Label 9600 1225 1    60   ~ 0
 Reset
-Wire Wire Line
-	9700 1225 9700 925 
-Wire Wire Line
-	9600 1225 9600 925 
-Wire Wire Line
-	9800 1225 9800 925 
 Text Label 9300 3775 3    60   ~ 0
 A6
 Text Label 9500 3775 3    60   ~ 0
@@ -267,14 +234,6 @@ Text Label 9625 3775 3    60   ~ 0
 A7
 Text Label 9825 3775 3    60   ~ 0
 A5
-Wire Wire Line
-	9300 3775 9300 3950
-Wire Wire Line
-	9500 3775 9500 3950
-Wire Wire Line
-	9625 3775 9625 3950
-Wire Wire Line
-	9825 3775 9825 3950
 Text Label 10600 3000 0    60   ~ 0
 10(**/SS)
 Text Label 10600 2900 0    60   ~ 0
@@ -293,6 +252,50 @@ Text Label 10600 2300 0    60   ~ 0
 A3
 Text Label 10600 2100 0    60   ~ 0
 Reset
+Text Notes 8675 575  0    60   ~ 0
+Shield Arduino Mini 05
+Wire Wire Line
+	9275 2200 9200 2200
+Wire Wire Line
+	9200 2200 9200 3175
+Wire Wire Line
+	10400 3175 10400 2000
+Wire Wire Line
+	10400 2000 10325 2000
+Wire Wire Line
+	10125 1350 10125 1225
+Wire Wire Line
+	10125 1225 10000 1225
+Wire Wire Line
+	10300 3775 10300 3950
+Wire Wire Line
+	9975 3650 9975 3775
+Wire Wire Line
+	9975 3775 10100 3775
+Wire Wire Line
+	9900 900  9900 1225
+Wire Wire Line
+	10525 1775 10525 2200
+Wire Wire Line
+	10525 2200 10325 2200
+Wire Wire Line
+	10400 1775 10400 1900
+Wire Wire Line
+	10400 1900 10325 1900
+Wire Wire Line
+	9700 1225 9700 925 
+Wire Wire Line
+	9600 1225 9600 925 
+Wire Wire Line
+	9800 1225 9800 925 
+Wire Wire Line
+	9300 3775 9300 3950
+Wire Wire Line
+	9500 3775 9500 3950
+Wire Wire Line
+	9625 3775 9625 3950
+Wire Wire Line
+	9825 3775 9825 3950
 Wire Wire Line
 	10325 2800 11150 2800
 Wire Wire Line
@@ -311,36 +314,34 @@ Wire Wire Line
 	10325 2300 11150 2300
 Wire Wire Line
 	10325 2100 11150 2100
-Text Notes 8825 575  0    60   ~ 0
-Shield Arduino Mini 05
+Wire Wire Line
+	9275 1900 8725 1900
+Wire Wire Line
+	9275 2000 8725 2000
+Wire Wire Line
+	9275 2100 8725 2100
+Wire Wire Line
+	9275 2300 8725 2300
+Wire Wire Line
+	9275 2400 8725 2400
+Wire Wire Line
+	9275 2500 8725 2500
+Wire Wire Line
+	9275 2600 8725 2600
+Wire Wire Line
+	9275 2700 8725 2700
+Wire Wire Line
+	9275 2800 8725 2800
+Wire Wire Line
+	9275 2900 8725 2900
+Wire Wire Line
+	9275 3000 8725 3000
 Wire Notes Line
-	11225 4075 8800 4075
+	11225 4075 8650 4075
 Wire Notes Line
-	8800 650  9950 650 
+	8650 4075 8650 475 
 Wire Notes Line
-	9950 650  9950 475 
-Wire Wire Line
-	9275 3000 8875 3000
-Wire Wire Line
-	9275 2900 8875 2900
-Wire Wire Line
-	9275 2800 8875 2800
-Wire Wire Line
-	9275 2700 8875 2700
-Wire Wire Line
-	9275 2600 8875 2600
-Wire Wire Line
-	9275 2500 8875 2500
-Wire Wire Line
-	9275 2400 8875 2400
-Wire Wire Line
-	9275 2300 8875 2300
-Wire Wire Line
-	9275 2100 8875 2100
-Wire Wire Line
-	9275 2000 8875 2000
-Wire Wire Line
-	9275 1900 8875 1900
+	8650 650  9800 650 
 Wire Notes Line
-	8800 4075 8800 475 
+	9800 650  9800 475 
 $EndSCHEMATC
