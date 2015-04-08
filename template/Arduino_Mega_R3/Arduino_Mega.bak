@@ -110,9 +110,7 @@ F 3 "" H 9875 1675 60  0000 C CNN
 	1    9875 1675
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 8425 1425
-Text Label 8450 1425 0    60   ~ 0
-NC
+NoConn ~ 9200 1425
 Text Label 9125 1250 1    60   ~ 0
 IOREF
 Text Label 8450 1625 0    60   ~ 0
@@ -539,8 +537,6 @@ Wire Wire Line
 Wire Wire Line
 	9125 2025 9200 2025
 Connection ~ 9125 2025
-Wire Wire Line
-	9200 1425 8425 1425
 Wire Wire Line
 	9200 1625 8425 1625
 Wire Wire Line
