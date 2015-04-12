@@ -185,15 +185,13 @@ Text Label 10550 1225 0    60   ~ 0
 A4(SDA)
 Text Label 10550 1125 0    60   ~ 0
 A5(SCL)
-Text Notes 8550 750  0    60   ~ 0
-Shield for Arduino who use \nthe same pin disposition \nlike "Uno" board Rev 3.
 $Comp
 L CONN_1 P5
 U 1 1 551BBC06
 P 10875 650
 F 0 "P5" H 10955 650 40  0000 L CNN
 F 1 "CONN_1" H 10875 705 30  0001 C CNN
-F 2 "Connect:1pin" H 10875 650 60  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10875 650 60  0001 C CNN
 F 3 "" H 10875 650 60  0000 C CNN
 	1    10875 650 
 	0    -1   -1   0   
@@ -204,7 +202,7 @@ U 1 1 551BBD10
 P 10950 650
 F 0 "P6" H 11030 650 40  0000 L CNN
 F 1 "CONN_1" H 10950 705 30  0001 C CNN
-F 2 "Connect:1pin" H 10950 650 60  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10950 650 60  0001 C CNN
 F 3 "" H 10950 650 60  0000 C CNN
 	1    10950 650 
 	0    -1   -1   0   
@@ -215,7 +213,7 @@ U 1 1 551BBD30
 P 11025 650
 F 0 "P7" H 11105 650 40  0000 L CNN
 F 1 "CONN_1" H 11025 705 30  0001 C CNN
-F 2 "Connect:1pin" H 11025 650 60  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 11025 650 60  0001 C CNN
 F 3 "" H 11025 650 60  0000 C CNN
 	1    11025 650 
 	0    -1   -1   0   
@@ -226,7 +224,7 @@ U 1 1 551BBD52
 P 11100 650
 F 0 "P8" H 11180 650 40  0000 L CNN
 F 1 "CONN_1" H 11100 705 30  0001 C CNN
-F 2 "Connect:1pin" H 11100 650 60  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 11100 650 60  0001 C CNN
 F 3 "" H 11100 650 60  0000 C CNN
 	1    11100 650 
 	0    -1   -1   0   
@@ -321,7 +319,9 @@ Wire Notes Line
 Wire Notes Line
 	8525 3225 8525 475 
 Wire Notes Line
-	8525 825  9850 825 
+	8525 825  9925 825 
+Text Notes 8550 750  0    60   ~ 0
+Shield for Arduino that uses\nthe same pin disposition\nlike "Uno" board Rev 3.
 Wire Notes Line
-	9850 825  9850 475 
+	9925 825  9925 475 
 $EndSCHEMATC

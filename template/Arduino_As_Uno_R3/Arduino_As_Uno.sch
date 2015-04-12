@@ -185,8 +185,6 @@ Text Label 10550 1225 0    60   ~ 0
 A4(SDA)
 Text Label 10550 1125 0    60   ~ 0
 A5(SCL)
-Text Notes 8550 750  0    60   ~ 0
-Shield for Arduino who use \nthe same pin disposition \nlike "Uno" board Rev 3.
 $Comp
 L CONN_1 P5
 U 1 1 551BBC06
@@ -321,7 +319,9 @@ Wire Notes Line
 Wire Notes Line
 	8525 3225 8525 475 
 Wire Notes Line
-	8525 825  9850 825 
+	8525 825  9925 825 
+Text Notes 8550 750  0    60   ~ 0
+Shield for Arduino that uses\nthe same pin disposition\nlike "Uno" board Rev 3.
 Wire Notes Line
-	9850 825  9850 475 
+	9925 825  9925 475 
 $EndSCHEMATC
