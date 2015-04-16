@@ -1,6 +1,6 @@
 KiCad Library Convention
 ========================
-Revision 0.10, March 1st 2015
+Revision 0.11, April 6th 2015
 Devised by Carl Poirier
 With help from members of:
 kicad-lib-committers@lists.launchpad.net
@@ -13,7 +13,7 @@ kicad-developers@lists.launchpad.net
 1.1.  Writing uses C-style naming with the first letter of each word being capitalized. Ex: "Socket_Strip_Straight_2x06"
 1.2.  Every acronym has all of its letters capitalized.
 1.3.  Manufacturer name is capitalized as usual. Ex: NEC, Microchip
-1.4.  When dimensions are used in part name, they are in millimeters, decimal places separated by a dot, and unit is not capitalized. Ex: "Cap_10x13mm_RM5"
+1.4.  When dimensions are used in part name, they are in millimeters, decimal places separated by a dot, and unit is not mentioned. Ex: "C_Rect_L13_W4_P10"
 1.5.  Filename is the same as the part name.
 1.6.  The order of elements in names must be the same as the enumerations presented in this document.
 1.7.  Reference fields are prefilled with the reference designator of the part (IEEE 315-1975).
@@ -112,6 +112,9 @@ kicad-developers@lists.launchpad.net
 
 Changelog
 ---------
+
+    Revision 0.11, April 6th 2015
+    1. Updated rule 1.4 about dimensions. Units in millimeters are now implicit.
 
     Revision 0.10, March 1st 2015
     1. Moved the footprint value property to the fabrication layer
