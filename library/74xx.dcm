@@ -680,8 +680,9 @@ K TTL DECOD DECOD7 OpenCol
 $ENDCMP
 #
 $CMP 74LS51
-D Dual And-Nor ( S =/(AB+CD) )
+D Dual 3- and 2-input AND-NOR ( S = /(AB[C] + DE[F]) )
 K TTL ANDNOR
+F http://www.ti.com/lit/ds/symlink/sn74ls51.pdf
 $ENDCMP
 #
 $CMP 74LS54
