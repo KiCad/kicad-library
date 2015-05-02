@@ -36,12 +36,6 @@ K Direct Digital Synthesizer DDS
 F http://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
 $ENDCMP
 #
-$CMP ADUM1200AR
-D ADuM1200AR, Dual-Channel Digital Isolator, 1Mbps 150ns, SO8
-K 2Ch Dual Digital Isolator 1Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
-$ENDCMP
-#
 $CMP ADuM1200BR
 D ADuM1200BR, Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
 K 2Ch Dual Digital Isolator 10Mbps
@@ -69,12 +63,6 @@ $ENDCMP
 $CMP ADuM1200WU
 D ADuM1200WU, Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Tem. Grade, SO8
 K 2Ch Dual Digital Isolator 25Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
-$ENDCMP
-#
-$CMP ADUM1201AR
-D ADuM1201AR, Dual-Channel Digital Isolator, 1Mbps 150ns, SO8
-K 2Ch Dual Digital Isolator 1Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
@@ -166,6 +154,12 @@ K RS232 UART Driver Receiver Interface
 F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
 #
+$CMP ISL83491
+D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
+K RS485 RS422 transceiver full duplex
+F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
+$ENDCMP
+#
 $CMP LTC2861
 D 20Mbps RS485 transceiver with tntegrated switchable termination
 K RS485
@@ -188,6 +182,11 @@ $CMP MAX13450E
 D 20Mbps RS485 transceiver with integrated switchable termination
 K RS485
 F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
+$ENDCMP
+#
+$CMP MAX202
+D Driver de Ligne RS232
+K RS232
 $ENDCMP
 #
 $CMP MAX232
