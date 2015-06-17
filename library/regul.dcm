@@ -793,7 +793,8 @@ F http://www.a-powerusa.com/docs/APE8865-3.pdf
 $ENDCMP
 #
 $CMP BQ2003
-D Controleur de chargeur de batteries
+D fast charge control
+K bq2003 charge battery
 F regulator\bq2003.pdf
 $ENDCMP
 #
@@ -1184,6 +1185,7 @@ $ENDCMP
 $CMP LM723
 D Linear Regulator (adjustable)
 K POWER REGUL
+F http://www.ti.com/lit/ds/symlink/lm723.pdf
 $ENDCMP
 #
 $CMP LM7805
@@ -1714,16 +1716,19 @@ $ENDCMP
 #
 $CMP LT1175CN8
 D REGULATOR (Negative voltage)
+K negative regulator
 F linear-tec/lt1175.pdf
 $ENDCMP
 #
 $CMP LT1175_QP
 D REGULATOR (Negative voltage)
+K negative regulator
 F linear-tec/lt1175.pdf
 $ENDCMP
 #
 $CMP LT1372
 D Set up/step down switching regulator
+K switching regulator
 F regulator/lt1372-1377.pdf
 $ENDCMP
 #
