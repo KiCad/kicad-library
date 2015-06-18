@@ -1740,6 +1740,7 @@ $ENDCMP
 $CMP LT1585CM
 D Linear Regulator (adjustable)
 K POWER REGUL
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
 $ENDCMP
 #
 $CMP LT1761
@@ -1774,16 +1775,20 @@ $ENDCMP
 #
 $CMP LT3472
 D DC/DC converter for CCD bias
+K converter CCD
 F regulator/lt3472.pdf
 $ENDCMP
 #
 $CMP LT3757EMSE
 D Boost, flyback, SEPIC and inverting regulator (MSOP package)
+K Boost flyback SEPIC regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
 $ENDCMP
 #
 $CMP LTC1307
 D Switching Regulator (Single cell micropower)
-K POWER
+K power regulator
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
 $ENDCMP
 #
 $CMP LTC1624
@@ -1804,13 +1809,21 @@ K REGUL POWER
 F linear-tec/ltc1878.pdf
 $ENDCMP
 #
+$CMP LTC3406B-1.2
+D Synchronous Step-Down Regulator 
+K synchronous step-down regulator 
+F http://cds.linear.com/docs/en/datasheet/3406b12fs.pdf
+$ENDCMP
+#
 $CMP LTC3442
 D Micropower Synchronous Buck-Boost DC/DC Converter with Automatic Burst Mode Operation
+K buck boost converter
 F linear-tec\ltc3442.pdf
 $ENDCMP
 #
 $CMP LTC3525
 D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K synchronous converter
 F linear-tec\ltc3525.pdf
 $ENDCMP
 #
@@ -1822,11 +1835,13 @@ $ENDCMP
 #
 $CMP MAX1647
 D Battery Charger
+K Battery Charger
 F maxim\MAX1647-MAX1648.pdf
 $ENDCMP
 #
 $CMP MAX1648
 D Battery Charger
+K battery charger
 F maxim\MAX1647-MAX1648.pdf
 $ENDCMP
 #
@@ -1890,13 +1905,21 @@ K Linear LDO Regulator 500mA 3.3V
 F http://datasheets.maximintegrated.com/en/ds/MAX603-MAX604.pdf
 $ENDCMP
 #
+$CMP MAX666
+D CMOS regulator, fixed, adjustable
+K CMOS regulator fixed adjustable
+F http://pdfserv.maximintegrated.com/en/ds/MAX663-MAX666.pdf
+$ENDCMP
+#
 $CMP MAX874
-D Voltage reference
+D Low-Dropout, Precision Voltage Reference
+K LDO voltage reference
 F maxim\MAX872-MAX874.pdf
 $ENDCMP
 #
 $CMP MC34063
 D 1.5A step up/down/inverting switching regulator
+K switching regulator
 F regulator/mc34063.pdf
 $ENDCMP
 #
@@ -2020,6 +2043,12 @@ K REGUL POWER
 F micrel/mic2177.pdf
 $ENDCMP
 #
+$CMP MIC4690
+D 500kHz step-down PWM voltage regulator
+K PWM voltage regulator
+F http://www.micrel.com/_PDF/mic4690.pdf
+$ENDCMP
+#
 $CMP NCP1117ST12T3G
 D NCP1117ST120T3G, 1A Low drop-out regulator, Fixed Output 12V, SOT223
 K REGULATOR LDO 12V
@@ -2069,42 +2098,51 @@ F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
 $CMP PT6100
-D REG.ADJ.1A
+D 1A Wide Input Adjustable Step-Down
+K adjustable step-down
+F http://www.ti.com/lit/ds/symlink/pt6101.pdf
 $ENDCMP
 #
 $CMP SPX2920M3-3.3
 D SPX2920M3-3.3, 400mA Low drop-out regulator, Fixed Output 3.3V, SOT223
 K REGULATOR LDO 3.3V
+F http://pdf.datasheetcatalog.com/datasheet/sipex/SPX2920M3-5.0.pdf
 $ENDCMP
 #
 $CMP SPX2920M3-5.0
 D SPX2920M3-5.0, 400mA Low drop-out regulator, Fixed Output 5V, SOT223
 K REGULATOR LDO 5V
+F http://pdf.datasheetcatalog.com/datasheet/sipex/SPX2920M3-5.0.pdf
 $ENDCMP
 #
 $CMP SPX2920S-3.3
 D SPX2920S-3.3, 400mA Fixed/Adjustable 1.2-20V Low Drop-out Voltage Regualtor, SO-8
 K LDO Voltage Regulator 400mA 3.3V Adjustable
+F http://pdf.datasheetcatalog.com/datasheet/sipex/SPX2920M3-5.0.pdf
 $ENDCMP
 #
 $CMP SPX2920S-5.0
 D SPX2920S-5.0, 400mA Fixed/Adjustable 1.2-20V Low Drop-out Voltage Regualtor, SO-8
 K LDO Voltage Regulator 400mA 5V Adjustable
+F http://pdf.datasheetcatalog.com/datasheet/sipex/SPX2920M3-5.0.pdf
 $ENDCMP
 #
 $CMP SPX2920T-3.3
 D SPX2920T-3.3, 400mA Low drop-out regulator, Fixed Output 3.3V, TO-263
 K REGULATOR LDO 3.3V
+F http://pdf.datasheetcatalog.com/datasheet/sipex/SPX2920M3-5.0.pdf
 $ENDCMP
 #
 $CMP SPX2920T-5.0
 D SPX2920T-5.0, 400mA Low drop-out regulator, Fixed Output 5V, TO-263
 K REGULATOR LDO 5V
+F http://pdf.datasheetcatalog.com/datasheet/sipex/SPX2920M3-5.0.pdf
 $ENDCMP
 #
 $CMP SPX2920U-3.3
 D SPX2920U-3.3, 400mA Low drop-out regulator, Fixed Output 3.3V, TO-220
 K REGULATOR LDO 3.3V
+F http://pdf.datasheetcatalog.com/datasheet/sipex/SPX2920M3-5.0.pdf
 $ENDCMP
 #
 $CMP SPX2920U-5.0
@@ -2114,6 +2152,7 @@ $ENDCMP
 #
 $CMP TL497
 D 500 mA step up/step down switching regulator
+K switching regulator
 F texas/tl497a.pdf
 $ENDCMP
 #
