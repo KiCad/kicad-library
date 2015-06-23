@@ -1,6 +1,13 @@
 
 # Update this "template_lst" when you add or remove a project template
 set( template_lst
+    Arduino_As_Uno_R3
+    Arduino_Fio
+    Arduino_Mega_R3
+    Arduino_Micro
+    Arduino_Mini
+    Arduino_Nano
+    Arduino_Pro_Mini
     raspberrypi-gpio
     stm32f100-discovery-shield
     ti-stellaris-boosterpack40
