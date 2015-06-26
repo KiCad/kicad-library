@@ -30,12 +30,6 @@ K POWER REGUL
 F regulator\lm79lxx.pdf
 $ENDCMP
 #
-$CMP ADP1108
-D Switching Regulator
-K POWER
-F linear-tec/lt1108.pdf
-$ENDCMP
-#
 $CMP AP1117E
 D AP1117E, Adjustable 1A Low Dropout regulator, Positive
 K REGULATOR LDO Adjustable
@@ -1170,12 +1164,6 @@ K Adjustable Voltage Regulator 3A Positive
 F http://www.fairchildsemi.com/ds/LM/LM350.pdf
 $ENDCMP
 #
-$CMP LM3578
-D Switching Regulator (adjustable)
-K POWER REGUL
-F regulator\lm1578a.pdf
-$ENDCMP
-#
 $CMP LM723
 D Linear Regulator (adjustable)
 K POWER REGUL
@@ -1554,10 +1542,6 @@ K REGUL POWER
 F regulator/lp3963.pdf
 $ENDCMP
 #
-$CMP LT1108
-D Switching Regulator
-$ENDCMP
-#
 $CMP LT1129CQ
 D LT1129CQ, 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, TO263
 K 700mA LDO Regulator Adjustable Positive
@@ -1720,17 +1704,6 @@ K negative regulator
 F linear-tec/lt1175.pdf
 $ENDCMP
 #
-$CMP LT1372
-D Set up/step down switching regulator
-K switching regulator
-F regulator/lt1372-1377.pdf
-$ENDCMP
-#
-$CMP LT1373
-D Set up/step down switching regulator
-F regulator/lt1373.pdf
-$ENDCMP
-#
 $CMP LT1585CM
 D Linear Regulator (adjustable)
 K POWER REGUL
@@ -1761,34 +1734,10 @@ K REGUL POWER
 F linear-tec/lt3010.pdf
 $ENDCMP
 #
-$CMP LT3430
-D Hight Voltage Step-down switching regulator (synchronous)  3 A
-K REGUL POWER
-F linear-tec/lt3430f.pdf
-$ENDCMP
-#
-$CMP LT3472
-D DC/DC converter for CCD bias
-K converter CCD
-F regulator/lt3472.pdf
-$ENDCMP
-#
 $CMP LT3757EMSE
 D Boost, flyback, SEPIC and inverting regulator (MSOP package)
 K Boost flyback SEPIC regulator
 F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
-$ENDCMP
-#
-$CMP LTC1307
-D Switching Regulator (Single cell micropower)
-K power regulator
-F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
-$ENDCMP
-#
-$CMP LTC1624
-D Switching Regulator Controller
-K POWER
-F linear-tec\ltc1624.pdf
 $ENDCMP
 #
 $CMP LTC1878
@@ -1911,12 +1860,6 @@ K LDO voltage reference
 F maxim\MAX872-MAX874.pdf
 $ENDCMP
 #
-$CMP MC34063
-D 1.5A step up/down/inverting switching regulator
-K switching regulator
-F regulator/mc34063.pdf
-$ENDCMP
-#
 $CMP MC78L05AACP
 D MC78L05AACP, Positive 100mA 30V Linear Regulator, Fixed Output 5V, Highest Accurate, TO-92
 K Voltage Regulator 100mA Positive Highest Accurate
@@ -2025,18 +1968,6 @@ K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
-$CMP MIC2026
-D Dual-Channel Power Distribution Switch
-K PWR SWITCH
-F micrel\mic2026.pdf
-$ENDCMP
-#
-$CMP MIC2177
-D Step-down switching regulator (synchronous)  2.5 A
-K REGUL POWER
-F micrel/mic2177.pdf
-$ENDCMP
-#
 $CMP MIC4690
 D 500kHz step-down PWM voltage regulator
 K PWM voltage regulator
@@ -2142,17 +2073,6 @@ $ENDCMP
 $CMP SPX2920U-5.0
 D SPX2920U-5.0, 400mA Low drop-out regulator, Fixed Output 5V, TO-220
 K REGULATOR LDO 5V
-$ENDCMP
-#
-$CMP TL497
-D 500 mA step up/step down switching regulator
-K switching regulator
-F texas/tl497a.pdf
-$ENDCMP
-#
-$CMP TL497A
-D 500 mA step up/step down switching regulator
-F texas/tl497a.pdf
 $ENDCMP
 #
 $CMP TLV70012DCK
