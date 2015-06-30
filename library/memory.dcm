@@ -335,6 +335,11 @@ D DRAM 16 MBits (1M x 16bits)
 K DRAM 2MO
 $ENDCMP
 #
+$CMP EEPROM_SPI
+D EEPROM SPI - 8 Pin
+K EEPROM, SPI
+$ENDCMP
+#
 $CMP FM1608B-SG
 D FM1608B-SG, FRAM Nonvolatile Memory 8Kx8 (64Kb), 5V only, SOIC28
 K FRAM  Nonvolatile Memory 8K 8bit
@@ -513,11 +518,6 @@ $ENDCMP
 $CMP SIMM
 D Barrette SIMM 1 Mo ( 1M x 9 bits)
 K DRAM 1MO
-$ENDCMP
-#
-$CMP SRAM_512KO
-D SRAM 512Kbytes 32 pins
-K RAM
 $ENDCMP
 #
 $CMP SST39SF010
