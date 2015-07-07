@@ -305,6 +305,12 @@ K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/DAC08.pdf
 $ENDCMP
 #
+$CMP LTC1257
+D LTC1257, Single Supply 12-bit DAC with Internal Reference Voltage, SOIC-8
+K DAC 12-bit
+F http://cds.linear.com/docs/en/datasheet/1257fc.pdf
+$ENDCMP
+#
 $CMP LTC1406CGN
 D LTC1406CGN, ADC 8bit Low Power 20Msps, SSOP-24
 K Low Power ADC 8bit 20Msps
@@ -467,6 +473,10 @@ K DAC CNA VIDEO
 F philips/tda8702.pdf
 $ENDCMP
 #
+$CMP TDC1408
+D TDC1408
+$ENDCMP
+#
 $CMP TLV5627CD
 D TLV5627, 4-Channel DAC, 8bit, w/ Power Down, SOIC-16
 K DAC 4CH 8bit
@@ -477,6 +487,16 @@ $CMP TLV5627CPW
 D TLV5627, 4-Channel DAC, 8bit, w/ Power Down, TSSOP-16
 K DAC 4CH 8bit
 F http://www.ti.com/lit/ds/symlink/tlv5627.pdf
+$ENDCMP
+#
+$CMP UVC3100
+D UVC3100, High Speed 30MHz Flash 8-bit ADC 10MHz 10-bit DAC, For CCD Digitizers
+K 8bit ADC 10bit DAC CCD
+$ENDCMP
+#
+$CMP UVC3101
+D UVC3101, High Speed 30MHz Flash 8-bit ADC 10MHz 10-bit DAC, For CCD Digitizers
+K 8bit ADC 10bit DAC CCD
 $ENDCMP
 #
 #End Doc Library

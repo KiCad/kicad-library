@@ -2,6 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP BARREL_JACK
 D DC Barrel Jack
+K DC power barrel jack connector
 $ENDCMP
 #
 $CMP BUSAT
@@ -99,11 +100,6 @@ D audio jack TRS 6 pins
 K audio jack connector TRS
 $ENDCMP
 #
-$CMP MC34063
-D 1.5A step up/down/inverting switching regulator
-F regulator/mc34063.pdf
-$ENDCMP
-#
 $CMP PCI_5V_32BIT
 D Connecteur BUS PCI
 K PCI
@@ -135,14 +131,24 @@ K CONN SD
 F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
 $ENDCMP
 #
-$CMP USB-MICRO-B
-D USB Micro B connector
-K USB Micro B, USB
+$CMP TEST
+D Test point
+K point tp
 $ENDCMP
 #
-$CMP USB-MINI-B
-D USB Mini B connector
-K USB Mini B, USB
+$CMP USB_A
+D USB A connector
+K USB USB_A
+$ENDCMP
+#
+$CMP USB_B
+D USB B connector
+K USB USB_B
+$ENDCMP
+#
+$CMP USB_OTG
+D USB OTG micro/mini connector
+K USB USB_OTG USB_mini USB_micro
 $ENDCMP
 #
 $CMP XLR3
