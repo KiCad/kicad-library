@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 04/07/2013 11:45:52
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 1408
 D CDA 8 bits
@@ -61,12 +61,6 @@ F op_amps/lm324.pdf
 $ENDCMP
 #
 $CMP LM2903
-D Dual Voltage Comparator
-K Comp
-F ns/lm193.pdf
-$ENDCMP
-#
-$CMP LM2903SMALL
 D Dual Voltage Comparator
 K Comp
 F ns/lm193.pdf
@@ -216,6 +210,12 @@ $CMP OP275
 D Dual Op amp (low power)
 K ampliop
 F analog-dev/op275.pdf
+$ENDCMP
+#
+$CMP OPA317_SC70
+D Low Offset, Rail-to-Rail I/O Operational Amplifier 
+K Opamp Op Amp Operational Amplifier Texas Instruments OPA317 Rail 
+F http://www.ti.com/lit/gpn/opa317
 $ENDCMP
 #
 $CMP TL071
