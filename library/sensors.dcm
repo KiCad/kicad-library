@@ -95,9 +95,15 @@ K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
-$CMP INA193/4/5
-D INA193/4/5 current shunt monitor with independent supply, -16V to +80V common mode range
-K INA193 INA194 INA195 current sensor shunt monitor high low side
+$CMP INA193
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K Current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA196
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
