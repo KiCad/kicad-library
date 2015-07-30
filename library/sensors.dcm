@@ -95,6 +95,24 @@ K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
+$CMP INA193
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K Current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA196
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA197/8/9
+D INA196/7/8 current shunt monitor with independent supply, -16V to +80V common mode range
+K INA196 INA197 INA198 current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
 $CMP L3G4200D
 D L3G4200D, 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
 K 3-Axis MEMS Gyroscope
@@ -129,6 +147,12 @@ $CMP TMP411
 D TMP411 - Remote and Local TEMPERATURE SENSOR
 K Temperature sensor remote local i2c
 F http://www.ti.com.cn/cn/lit/ds/symlink/tmp411.pdf
+$ENDCMP
+#
+$CMP ZXCT1009
+D High side current sensor, SOT-23
+K High side current sensor monitor shunt
+F www.diodes.com/datasheets/ZXCT1009.pdf
 $ENDCMP
 #
 #End Doc Library
