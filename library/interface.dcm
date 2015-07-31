@@ -266,6 +266,18 @@ K Cold Junction Termocouple Interface SPI
 F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
 $ENDCMP
 #
+$CMP MCP100-TT
+D Microcontroller reset controller in SOT23-3 package, active LOW reset output
+K microcontroller reset monitor voltage supervisory supervisor 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP101-TT
+D Microcontroller reset controller in SOT23-3 package, active HIGH reset output
+K microcontroller reset monitor voltage supervisory supervisor 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
 $CMP MCP2551-I/P
 D MCP2551-I/P, High-Speed CAN Transceiver, PDIP8
 K High-Speed CAN Transceiver
