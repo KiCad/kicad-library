@@ -16,6 +16,12 @@ K I2C MEMORY
 F memory/24xx512.pdf
 $ENDCMP
 #
+$CMP 25LC_EEPROM
+D External EEPROM with SPI interface in 8-pin package
+K EEPROM memory SPI serial
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf
+$ENDCMP
+#
 $CMP 27128
 D REPROM 128KO
 K REPROM 128KO
@@ -459,6 +465,18 @@ D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
 $ENDCMP
 #
+$CMP MB85RS16
+D FRAM memory (EEPROM compatible) with SPI interface in 8-pin package
+K FRAM, SPI
+F http://edevice.fujitsu.com/fj/DATASHEET/e-ds/MB85RS16-DS501-00014-7v0-E.pdf
+$ENDCMP
+#
+$CMP MR20H40
+D 4Mb serial SPI MRAM in DFN-8 package
+K MRAM memory EEPROM non-volatile
+F https://www.everspin.com/file/217/download
+$ENDCMP
+#
 $CMP MS628128
 D SRAM 128K x 8 bits
 K RAM SRAM
@@ -513,11 +531,6 @@ $ENDCMP
 $CMP SIMM
 D Barrette SIMM 1 Mo ( 1M x 9 bits)
 K DRAM 1MO
-$ENDCMP
-#
-$CMP SRAM_512KO
-D SRAM 512Kbytes 32 pins
-K RAM
 $ENDCMP
 #
 $CMP SST39SF010
