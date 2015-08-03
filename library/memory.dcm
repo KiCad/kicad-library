@@ -330,6 +330,12 @@ K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf
 $ENDCMP
 #
+$CMP AT25_EEPROM
+D Atmel serial EEPROM with SPI interface
+K serial EEPROM memory Atmel 
+F http://www.atmel.com/products/Memories/serial/spi.aspx
+$ENDCMP
+#
 $CMP AT45DB161-JC
 D AT45DB161-JC, 16Mb Serial DataFlash, PLCC32, Vcc=2.7V
 K Atmel DataFlash
@@ -370,6 +376,18 @@ $CMP AT45DB161B-TC-2.5
 D AT45DB161B-TC-2.5, 16Mb Serial DataFlash, TSSOP28, Vcc=2.5V
 K Atmel DataFlash
 F http://www.atmel.com/Images/doc2224.pdf
+$ENDCMP
+#
+$CMP BR25S_EEPROM
+D ROHM Semiconductor serial EEPROM with SPI interface in 8-pin package
+K serial SPI EEPROM memory external
+F http://www.rohm.com/web/global/products/-/product/BR25G128F-3
+$ENDCMP
+#
+$CMP CAT250_EEPROM
+D ON Semiconductor serial EEPROM with SPI interface in 8-pin package
+K serial EEPROM SPI interface memory external 
+F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
 $ENDCMP
 #
 $CMP DRAM_1MX16_SOJ
@@ -510,6 +528,12 @@ $ENDCMP
 $CMP MR20H40
 D 4Mb serial SPI MRAM in DFN-8 package
 K MRAM memory EEPROM non-volatile
+F https://www.everspin.com/file/217/download
+$ENDCMP
+#
+$CMP MR25H40
+D 4KBit MRAM with SPI interface in DFN-8 package
+K memory MRAM external SPI 
 F https://www.everspin.com/file/217/download
 $ENDCMP
 #
