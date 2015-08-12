@@ -11,23 +11,73 @@ K 1ch UART FIFO
 F http://www.ti.com/lit/ds/symlink/pc16550d.pdf
 $ENDCMP
 #
+$CMP 8035
+D MCS-48 8-bit Microcontroller, No (EP)ROM, 64B RAM, DIP-40
+K MCS-48 uC Microcontroller
+$ENDCMP
+#
+$CMP 8039
+D MCS-48 8-bit Microcontroller, No (EP)ROM, 128B RAM, DIP-40
+K MCS-48 uC Microcontroller
+$ENDCMP
+#
+$CMP 8040
+D MCS-48 8-bit Microcontroller, No (EP)ROM, 256B RAM, DIP-40
+K MCS-48 uC Microcontroller
+$ENDCMP
+#
+$CMP 8048
+D MCS-48 8-bit Microcontroller, 1KB Mask ROM, 64B RAM, DIP-40
+K MCS-48 uC Microcontroller
+$ENDCMP
+#
+$CMP 8049
+D MCS-48 8-bit Microcontroller, 2KB Mask ROM, 128B RAM, DIP-40
+K MCS-48 uC Microcontroller
+$ENDCMP
+#
+$CMP 8050
+D MCS-48 8-bit Microcontroller, 4KB Mask ROM, 256B RAM, DIP-40
+K MCS-48 uC Microcontroller
+$ENDCMP
+#
 $CMP 8250
 D PC8250A, Universal Asynchronous Receiver/Transmitter, PDIP-40
 K 1ch UART
 $ENDCMP
 #
 $CMP 8252
-D 8252, Universal Asynchronous Receiver/Transmitter, PDIP-28
+D Universal Asynchronous Receiver/Transmitter, PDIP-28
 K UART Serial Interface
 $ENDCMP
 #
-$CMP 82C54_PLCC
-D Timer (plcc pack.)
-K TIMER UPRO
+$CMP 82720
+D Graphics Display Controller, PDIP-40
+K Graphics Controller
 $ENDCMP
 #
-$CMP I386EX-PQFP
-D Intel I386EX Embedded microprocessor
+$CMP 8284
+D Clock Generator and Driver for i8086/88 Microcontrollers, PDIP-18
+K Clock Generator
+$ENDCMP
+#
+$CMP 82C54_PLCC
+D 82C54, Triple Channel Timer/Counter, PLCC-28
+K Timer Counter
+$ENDCMP
+#
+$CMP 8748
+D i8748, MCS-48 8-bit Microcontroller with Internal EPROM, 1KB EPROM, 64B RAM, DIP-40
+K MCS-48 uC Microcontroller
+$ENDCMP
+#
+$CMP 8749
+D i8748, MCS-48 8-bit Microcontroller with Internal EPROM, 2KB EPROM, 128B RAM, DIP-40
+K MCS-48 uC Microcontroller
+$ENDCMP
+#
+$CMP I386EX_PQFP
+D Intel I386EX Embedded microprocessor, PQFP-132
 K MPRO
 $ENDCMP
 #

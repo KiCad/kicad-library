@@ -2,6 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP BARREL_JACK
 D DC Barrel Jack
+K DC power barrel jack connector
 $ENDCMP
 #
 $CMP BUSAT
@@ -39,159 +40,9 @@ D Symbole general de connexion
 K CONN
 $ENDCMP
 #
-$CMP CONN_1
-D 1 pin
-K CONN
-$ENDCMP
-#
-$CMP CONN_10
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_10X2
-D symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_11
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_12
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_12X2
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_13
-D Symbole general de connexion
-K CONN
-$ENDCMP
-#
-$CMP CONN_14
-D Symbole general de connexion
-K CONN
-$ENDCMP
-#
 $CMP CONN_15X4
 D Connecteur Europe, 60 contacts, rangees A,B,C,D
 K CONN CONN
-$ENDCMP
-#
-$CMP CONN_17
-D Symbole general de connexion
-K CONN
-$ENDCMP
-#
-$CMP CONN_19
-D Symbole general de connexion
-K CONN
-$ENDCMP
-#
-$CMP CONN_2
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_20
-D Symbole general de connexion
-K CONN
-$ENDCMP
-#
-$CMP CONN_20X4
-D Connecteur Europe, 80 contacts, rangees A,B,C,D
-K CONN CONN
-$ENDCMP
-#
-$CMP CONN_25
-D Symbole general de connexion
-K CONN
-$ENDCMP
-#
-$CMP CONN_2X2
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_3
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_30
-D Symbole general de connexion
-K CONN
-$ENDCMP
-#
-$CMP CONN_3X2
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_4
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_4X2
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_5
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_5X2
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_6
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_6X2
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_7
-D Symbole general pour connexions
-K CONN
-$ENDCMP
-#
-$CMP CONN_7X2
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_8
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_8X2
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_9
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_9X2
-D ymbole general de connecteur
-K CONN
 $ENDCMP
 #
 $CMP DB15
@@ -211,8 +62,8 @@ K CONN
 $ENDCMP
 #
 $CMP DIN_5
-D Connecteur Din 5 broches
-K CONN DIN
+D 5 pins connector, 41524
+K CONN DIN 5-pins 41524
 $ENDCMP
 #
 $CMP HE10-16
@@ -244,9 +95,9 @@ D Symbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MC34063
-D 1.5A step up/down/inverting switching regulator
-F regulator/mc34063.pdf
+$CMP JACK_TRS_6PINS
+D audio jack TRS 6 pins
+K audio jack connector TRS
 $ENDCMP
 #
 $CMP PCI_5V_32BIT
@@ -264,6 +115,11 @@ D RJ45 with transformer + leds WURTH
 K RJ45
 $ENDCMP
 #
+$CMP RJ45_LEDS
+D RJ45, status leds
+K RJ45 RJ45_LEDS
+$ENDCMP
+#
 $CMP SCART-F
 D Prise Peritel
 K CONN
@@ -275,23 +131,38 @@ K CONN SD
 F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
 $ENDCMP
 #
-$CMP USB-MINI-B
-D USB Mini B connector
-K USB Mini B, USB
+$CMP TEST
+D point
+K point tp
+$ENDCMP
+#
+$CMP USB_A
+D A connector
+K USB USB_A
+$ENDCMP
+#
+$CMP USB_B
+D B connector
+K USB USB_B
+$ENDCMP
+#
+$CMP USB_OTG
+D micro/mini connector
+K USB USB_OTG USB_mini USB_micro
 $ENDCMP
 #
 $CMP XLR3
-D XLR 3 pins
+D 3 pins
 K CONN
 $ENDCMP
 #
 $CMP XLR4
-D XLR 4 pins
+D 4 pins
 K CONN
 $ENDCMP
 #
 $CMP XLR5
-D XLR 5 pins
+D 5 pins
 K CONN
 $ENDCMP
 #

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 21/02/2013 11:13:20
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 7400
 D Quad nand2
@@ -680,8 +680,9 @@ K TTL DECOD DECOD7 OpenCol
 $ENDCMP
 #
 $CMP 74LS51
-D Dual And-Nor ( S =/(AB+CD) )
+D Dual 3- and 2-input AND-NOR ( S = /(AB[C] + DE[F]) )
 K TTL ANDNOR
+F http://www.ti.com/lit/ds/symlink/sn74ls51.pdf
 $ENDCMP
 #
 $CMP 74LS54
@@ -723,11 +724,6 @@ $ENDCMP
 $CMP 74LS596
 D 8 bits serial in // out Shift Register Open Collect.
 K HCMOS SR OpenCol
-$ENDCMP
-#
-$CMP 74ls670
-D 4 x 4 Register Files 3 State Out
-K TTL Register 3State
 $ENDCMP
 #
 $CMP 74LS688
@@ -810,6 +806,11 @@ $ENDCMP
 $CMP 74LV14
 D Hex Inverseur
 K TTL not inv
+$ENDCMP
+#
+$CMP 74ls670
+D 4 x 4 Register Files 3 State Out
+K TTL Register 3State
 $ENDCMP
 #
 #End Doc Library

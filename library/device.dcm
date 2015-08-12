@@ -1,91 +1,51 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 7SEGM
-D Afficheur Leds 7 segments
-K DEV
-$ENDCMP
-#
-$CMP BI_LED
-D LED DOUBLE type Bicolore
-K LED
-$ENDCMP
-#
-$CMP BRIDGE
-D Pont de Diodes
-K Pont Diode
-$ENDCMP
-#
 $CMP C
-D Condensateur non polarise
-$ENDCMP
-#
-$CMP CAPAPOL
-D Condensateur polarise
-$ENDCMP
-#
-$CMP CERAMIC_FILTER
-D Ceramic filter
-K FILTER
-$ENDCMP
-#
-$CMP CODING_SWITCH
-D CODING SWITCH 4 Bits
-K SWITCH
+D Unpolarized capacitor
 $ENDCMP
 #
 $CMP CP
-D Condensateur polarise
+D Polarised capacitor
 $ENDCMP
 #
 $CMP CP1
-D Condensateur polarise
+D Polarised capacitor
 $ENDCMP
 #
-$CMP CPSMALL
-D Condensateur polarise
+$CMP CP1_Small
+D Polarised capacitor
 $ENDCMP
 #
-$CMP CSMALL
-D Condensateur non polarise
+$CMP CP_Small
+D Polarised capacitor
 $ENDCMP
 #
-$CMP DIODE
-D Diode simple
-K DEV DIODE
+$CMP CTRIM
+D Variable capacitor
+K trimmer
 $ENDCMP
 #
-$CMP DIODESCH
-D Diode schottky
-K DEV DIODE
+$CMP C_Small
+D Unpolarized capacitor
 $ENDCMP
 #
-$CMP DISPLAY
-D Afficheur LCD nLignes
-K DEV
+$CMP Coded_Switch
+D 4 bits rotary switch
+K Rotary, Hex
 $ENDCMP
 #
-$CMP DISPLAY_3_LIGNE
-D DISPLAY EA7123-12C
+$CMP Crystal
+D Two pin crystal
+K Quartz, Ceramic, Filter, Resonator
 $ENDCMP
 #
-$CMP DISPLAY_BL
-D Afficheur LCD nLignes
-K DEV
+$CMP Crystal_Small
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
 $ENDCMP
 #
-$CMP DOUBLE_SCHOTTKY
-D Double diode Shottky (Serie)
-K DEV DIODE
-$ENDCMP
-#
-$CMP DOUBLE_SCH_KCOM
-D Double diode Shottky Cathodes communes
-K DEV DIODE
-$ENDCMP
-#
-$CMP DPST
-D Interrupteur double
-K switch
+$CMP D
+D Diode
 $ENDCMP
 #
 $CMP DUAL_POT
@@ -93,9 +53,86 @@ D Potentionmetre
 K R
 $ENDCMP
 #
-$CMP DUAL_SWITCH_INV
-D Dual Switch inverseur
-K switch
+$CMP D_Schottky
+D Diode schottky
+$ENDCMP
+#
+$CMP D_Schottky_Small
+D Diode Schottky
+$ENDCMP
+#
+$CMP D_Schottky_x2_ACom_AKK
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_ACom_KAK
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_ACom_KKA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_AAK
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_AKA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_KAA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_ACK
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_AKC
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_CAK
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_CKA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_KAC
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_KCA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Small
+D Diode
+$ENDCMP
+#
+$CMP Darl_NPN
+D Darlington NPN transistor
+K Q
+$ENDCMP
+#
+$CMP Diode_Bridge
+D Diode bridge
+K Graetz
 $ENDCMP
 #
 $CMP EMI_FILTER
@@ -113,36 +150,66 @@ D Filtre EMI
 K EMI
 $ENDCMP
 #
+$CMP FP_Small
+D Fuse polarised
+$ENDCMP
+#
+$CMP F_Small
+D Fuse
+$ENDCMP
+#
+$CMP Jumper_NC_Small
+D Jumper normally close
+K Jumper, Link
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper normally open
+K Jumper, Link
+$ENDCMP
+#
 $CMP LED
 K LED
 $ENDCMP
 #
-$CMP MOSFET_N
-F transistors/mos/*.*
+$CMP LED_RABG
+D Common Anode RGB LED
+K RGB LED
 $ENDCMP
 #
-$CMP MOSFET_P
-F transistors/mos/*.*
+$CMP LED_RCBG
+D Common Cathode RGB LED
+K RGB LED
 $ENDCMP
 #
-$CMP MOS_N
-F transistors/mos/*.*
+$CMP LED_RGB
+D LED RGB 6 pins
 $ENDCMP
 #
-$CMP MOS_P
-F transistors/mos/*.*
+$CMP LED_RGB_EP
+D LED RGB 6 pins, exposed pad
 $ENDCMP
 #
-$CMP NPN
-F transistors/bipolar/*.*
+$CMP L_Small
+D Inductor
+$ENDCMP
+#
+$CMP Led_RGB_CA
+D Common Anode RGB LED
+K RGB LED
+$ENDCMP
+#
+$CMP Led_Small
+D Led
+$ENDCMP
+#
+$CMP Led_x2
+D DOUBLE type Bicolore
+K LED
 $ENDCMP
 #
 $CMP PHOTORESISTOR
 D Photo resistor
-$ENDCMP
-#
-$CMP PNP
-F transistors/bipolar/*.*
 $ENDCMP
 #
 $CMP POT
@@ -150,8 +217,268 @@ D Potentionmetre
 K R
 $ENDCMP
 #
+$CMP Q_NIGBT_CEG
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_CGE
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_ECG
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_ECGC
+D Transistor N-IGBT, collector connected to mounting plane (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_EGC
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_GCE
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_GCEC
+D Transistor N-IGBT, collector connected to mounting plane (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NIGBT_GEC
+D Transistor N-IGBT (general)
+K igbt n-igbt transistor
+$ENDCMP
+#
+$CMP Q_NJFET_DGS
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_DSG
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_GDS
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_GSD
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_SDG
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NJFET_SGD
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_DGS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_DSG
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_GDS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_GDSD
+D Transistor N-MOSFET, collector connected to mounting plane (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_SDG
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_SDGD
+D Transistor N-MOSFET, collector connected to mounting plane (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_SGD
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NPN_BCE
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_BCEC
+D Transistor NPN, collector connected to mounting plane (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_BEC
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_CBE
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_CEB
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_EBC
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_ECB
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_NPN_ECBC
+D Transistor NPN, collector connected to mounting plane (general)
+K npn transistor
+$ENDCMP
+#
+$CMP Q_PJFET_DGS
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_DSG
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_GDS
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_GSD
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_SDG
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PJFET_SGD
+D Transistor P-JFET (general)
+K pjfet p-jfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_DGS
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_DSG
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_GDS
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_GDSD
+D Transistor P-MOSFET, collector connected to mounting plane (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_GSD
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_SDG
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_SDGD
+D Transistor P-MOSFET, collector connected to mounting plane (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_SGD
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PNP_BCE
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_BCEC
+D Transistor PNP, collector connected to mounting plane (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_BEC
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_CBE
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_CEB
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_EBC
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_ECB
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Q_PNP_ECBC
+D Transistor PNP, collector connected to mounting plane (general)
+K pnp transistor
+$ENDCMP
+#
 $CMP R
-D Resistance
+D Resistor
 K R DEV
 $ENDCMP
 #
@@ -170,6 +497,10 @@ D 8 resistors Pack
 K R DEV
 $ENDCMP
 #
+$CMP R_Small
+D Resistor
+$ENDCMP
+#
 $CMP SCHDPAK
 D Diode schotty - cms
 K DIODE SCHOTTKY CMS
@@ -179,13 +510,18 @@ $CMP SCR
 D Thyristor
 $ENDCMP
 #
+$CMP SP3T
+D 3 position switch, SP3T
+K switch SP3T
+$ENDCMP
+#
 $CMP SPST
 D Interrupteur simple
 K switch
 $ENDCMP
 #
 $CMP SWITCH_INV
-D Switch inverseur
+D inverseur
 K switch
 $ENDCMP
 #
@@ -195,8 +531,17 @@ K switch
 $ENDCMP
 #
 $CMP SW_PUSH
-D Push Button
+D Button
 K Switch
+$ENDCMP
+#
+$CMP Switch_DPST
+D Double Pole Single Throw (DPST) Switch
+K switch
+$ENDCMP
+#
+$CMP Switch_SPDT_x2
+D Double Single Pole Double Throw (SPDT) switch
 $ENDCMP
 #
 $CMP THERMISTOR

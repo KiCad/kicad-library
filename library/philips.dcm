@@ -1,56 +1,73 @@
-EESchema-DOCLIB  Version 2.0  Date: 28/11/2008-15:41:09
+EESchema-DOCLIB  Version 2.0
 #
 $CMP HTRC11001T
-D hitag reader - SO14
-K HITAG
-F philips/HTRC11001T-hitag_reader.pdf
+D HITAG RF Reader Device, SOIC-14
+K HITAG RFID
+F http://www.nxp.com/documents/data_sheet/HTRC11001T.pdf
 $ENDCMP
 #
 $CMP P82B96
-D I2C Bus tranceiver
-K I2C
+D Dual I2C Bus Buffer, DIP8/SO8/TSSOP8
+K I2C Bus Buffer
+F http://www.nxp.com/documents/data_sheet/P82B96.pdf
 $ENDCMP
 #
 $CMP PCA82C251
-D CAN Transceiver
+D CAN Transceiver for 24V Systems, SOIC-8
 K BUS CAN
+F http://www.nxp.com/documents/data_sheet/PCA82C251.pdf
 $ENDCMP
 #
 $CMP PCA9516
-D 5 channels I2C Hub
-K I2C
-F philips/pca9516.pdf
-$ENDCMP
-#
-$CMP PCD8584
-D Adaptateur pour Bus I2C
-K I2C
+D 5 channels I2C Hub, SO/TSSOP16
+K I2C Hub
+F http://www.nxp.com/documents/data_sheet/PCA9518.pdf
 $ENDCMP
 #
 $CMP PCF8563
-K I2C
+D Realtime Clock/Calendar I2C Interface, DIP/SOIC/TSSOP-8
+K I2C RTC Clock Calendar
+F http://www.nxp.com/documents/data_sheet/PCF8563.pdf
 $ENDCMP
 #
 $CMP PCF8574
-D 8 BitsPort to I2C bus
-K I2C
-F philips/pcf8574.pdf
+D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
+K I2C Expander
+F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
+$ENDCMP
+#
+$CMP PCF8574A
+D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
+K I2C Expander
+F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
+$ENDCMP
+#
+$CMP PCF8584
+D I2C Bus Controller, DIP/SOIC-20
+K I2C Bus
+F http://www.nxp.com/documents/data_sheet/PCF8584.pdf
 $ENDCMP
 #
 $CMP PCF8591
-D ANALOG to DIGITAL Conv. I2C bus
-K I2C
-F philips/pcf8591.pdf
+D 4ch ADC, 1 DAC, I2C Bus Interface, DIP/SOIC-16
+K I2C ADC DAC
+F http://www.nxp.com/documents/data_sheet/PCF8591.pdf
+$ENDCMP
+#
+$CMP SAA7182
+D Digital Video Encoder, Obsolete
+K Video Encoder
 $ENDCMP
 #
 $CMP TDA8501
-D Modulateur Pal/NTSC, entree RGB ou Y,Y-R,Y-B
-K video modulateur
+D PAL/NTSC Encoder, RGB or Y/Y-R/Y-B Inputs, DIP/SOIC-20
+K Video Encoder
+F http://www.nxp.com/documents/data_sheet/TDA8501.pdf
 $ENDCMP
 #
 $CMP TDA8772
-D Triple convertisseur Video
-K Video CAD couleur
+D Triple 8bit Video DAC, QFP-44
+K Video DAC Colour 8bit
 $ENDCMP
 #
 #End Doc Library
