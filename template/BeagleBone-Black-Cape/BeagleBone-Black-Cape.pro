@@ -1,4 +1,4 @@
-update=wto, 23 cze 2015, 17:35:31
+update=2015-08-27 22:41:46
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -58,3 +56,5 @@ LibName26=siliconi
 LibName27=opto
 LibName28=atmel
 LibName29=contrib
+[general]
+version=1
