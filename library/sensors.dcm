@@ -83,6 +83,12 @@ K Hall Current Sensor
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS754-200-Datasheet.ashx
 $ENDCMP
 #
+$CMP AD8418
+D Bidirectional zero-drift current sense amplifier, 20V/V
+K current sense amplifier shunt high side bidirectional
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
+$ENDCMP
+#
 $CMP BMP085
 D 19-Bit Digital Barometer, LCC-8
 K Digital Barometer
@@ -93,6 +99,42 @@ $CMP DHT11
 D - Temperature and humidity module
 K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
+$ENDCMP
+#
+$CMP INA193
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K Current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA194
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K Current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA195
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K Current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA196
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA197
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K Current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA198
+D Current shunt monitor with independent supply, -16V to +80V common mode range
+K Current sensor shunt monitor high low side
+F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP L3G4200D
@@ -107,6 +149,12 @@ K 3-Axis MEMS Gyroscope
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00036465.pdf
 $ENDCMP
 #
+$CMP LIS331HH
+D 3-Axis Accelerometer, 6g/12g/24g range, 1000Hz, I2C and SPI interface
+K 3-axis accelerometer SPI I2C 
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00250937.pdf
+$ENDCMP
+#
 $CMP LSM303DLHC
 D 16-bit 3 Axis Digital MEMS Accelerometer + Magnetometer, LGA-14
 K 3-Axis MEMS Accelerometer Magnetometer
@@ -119,6 +167,30 @@ K Thermocouple Converter
 F http://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/MAX31855.html#popuppdf
 $ENDCMP
 #
+$CMP MCP9700-TT
+D Linear active thermistor in SOT23-3 package
+K thermistor temperature sensor sot23-3 sot-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
+$CMP MCP9700_LT
+D Linear active thermistor in SC70-5 package
+K linear active thermistor temperature sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
+$CMP MCP9701-TT
+D Linear active thermistor in SOT23-3 package
+K linear active thermistor temperature sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
+$CMP MCP9701_LT
+D Linear active thermistor in SC70-5 package
+K linear active thermistor temperature sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
 $CMP MP45DT02
 D MEMS Omnidirectional Digital Microphone, HLGA-6
 K MEMS Microphone
@@ -129,6 +201,12 @@ $CMP TMP411
 D - Remote and Local TEMPERATURE SENSOR
 K Temperature sensor remote local i2c
 F http://www.ti.com.cn/cn/lit/ds/symlink/tmp411.pdf
+$ENDCMP
+#
+$CMP ZXCT1009
+D High side current sensor, SOT-23
+K High side current sensor monitor shunt
+F www.diodes.com/datasheets/ZXCT1009.pdf
 $ENDCMP
 #
 #End Doc Library
