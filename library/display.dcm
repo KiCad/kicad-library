@@ -6,7 +6,7 @@ K DEV
 $ENDCMP
 #
 $CMP AG12864E
-D AG12864E, Graphics Display 128x64px,  1/64 Duty, KS108B Controller, AMPIRE
+D Graphics Display 128x64px,  1/64 Duty, KS108B Controller, AMPIRE
 K LCD Graphics 128x64 KS108 Ampire
 $ENDCMP
 #
@@ -44,7 +44,7 @@ D DISPLAY EA7123-12C
 $ENDCMP
 #
 $CMP DOT-BAR
-D BAR GRAPH unit
+D GRAPH unit
 K BAR DOT
 F Display/HDSP-48xx.pdf
 $ENDCMP
@@ -59,6 +59,12 @@ $CMP HY1602E
 D HY1602E
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
 F http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
+$ENDCMP
+#
+$CMP ILI9341_LCD_Breakout
+D ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V
+K GLCD TFT ILI9341 320x240
+F www.newhavendisplay.com/app_notes/ILI9341.pdf
 $ENDCMP
 #
 $CMP LCD-016N002L
