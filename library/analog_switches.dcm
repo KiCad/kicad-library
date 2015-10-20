@@ -1,4 +1,10 @@
-EESchema-DOCLIB  Version 2.0  Date: 21/01/2011 13:15:12
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADG729
+D matrix switch, TWI control, Ron 2.5R, Dual 4x1, power on reset, 2.7V ~ 5.5V
+K matrix switch twi
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG728_729.pdf
+$ENDCMP
 #
 $CMP CPC1017N
 D opto mos
@@ -48,10 +54,22 @@ K SWITCH
 F intersil/dg441_2.pdf
 $ENDCMP
 #
+$CMP DG884
+D 32 T-switches, 8x4 matrix, 300MHz, 45R
+K switch matrix
+F http://www.vishay.com/docs/70071/dg884.pdf
+$ENDCMP
+#
 $CMP DG9421
 D Analog Switch ( 6pins TSOP)
 K SWITCH
 F analog_mux&switches/dg9421-22.pdf
+$ENDCMP
+#
+$CMP HI524
+D 4 ch CMOS analog multiplexer, 10MHz, TTL compatible
+K CMOS analog multiplexer
+F http://www.intersil.com/content/dam/Intersil/documents/hi-5/hi-524.pdf
 $ENDCMP
 #
 $CMP LAA110
