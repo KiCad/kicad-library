@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADP2108
+D 3MHz switching buck regulator, 600mA fixed output voltage in SOT23-5 package
+K Voltage regulator switching buck fixed output analog 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
 $CMP APE1707H-12-HF
 D 12V 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
 K 12V 2A 150KHz PWM Buck DC/DC
@@ -188,6 +194,12 @@ $CMP GL2576-ATB5T
 D Adjustable 3A, 52KHz Step Down Converter, TO220-5
 K Adjustable 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP ISL8117
+D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v output
+K PWM step down buck converter controller synchronous POL
+F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
 $ENDCMP
 #
 $CMP LM2574HVH-12
@@ -638,6 +650,12 @@ $CMP LM3407MY
 D LED Lighting CC Floating Buck Switching Regulator, eMSOP-8
 K LED Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm3407.pdf
+$ENDCMP
+#
+$CMP LM3670MF
+D Miniature Step-Down DC-DC Converter, 2.5V < Vin < 5.5V
+K DC-DC buck conveter step down voltage regulator
+F www.ti.com/lit/ds/symlink/lm3670.pdf
 $ENDCMP
 #
 $CMP LM5006MM
