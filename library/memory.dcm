@@ -16,6 +16,12 @@ K I2C MEMORY
 F memory/24xx512.pdf
 $ENDCMP
 #
+$CMP 25LC_EEPROM
+D External EEPROM with SPI interface in 8-pin package
+K EEPROM memory SPI serial
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf
+$ENDCMP
+#
 $CMP 27128
 D REPROM 128KO
 K REPROM 128KO
@@ -120,6 +126,42 @@ $ENDCMP
 $CMP 628128
 D RAM 128 Ko
 K RAM 128KO
+$ENDCMP
+#
+$CMP 93AAxxA
+D Serial EEPROM, 93 series in 8-pin package, 1.8V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93AAxxC
+D Serial EEPROM, 93 series in 8-pin package with ORG pin, 1.8V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93CxxA
+D Serial EEPROM, 93 series in 8-pin package, 5.0V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93CxxC
+D Serial EEPROM, 93 series in 8-pin package with ORG pin, 5.0V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93LCxxA
+D Serial EEPROM, 93 series in 8-pin package, 2.5V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93LCxxC
+D Serial EEPROM, 93 series in 8-pin package with ORG pin, 2.5V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
 $ENDCMP
 #
 $CMP AM29PDL128G
@@ -288,6 +330,12 @@ K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf
 $ENDCMP
 #
+$CMP AT25_EEPROM
+D Atmel serial EEPROM with SPI interface
+K serial EEPROM memory Atmel 
+F http://www.atmel.com/products/Memories/serial/spi.aspx
+$ENDCMP
+#
 $CMP AT45DB161-JC
 D 16Mb Serial DataFlash, PLCC32, Vcc=2.7V
 K Atmel DataFlash
@@ -328,6 +376,18 @@ $CMP AT45DB161B-TC-2.5
 D 16Mb Serial DataFlash, TSSOP28, Vcc=2.5V
 K Atmel DataFlash
 F http://www.atmel.com/Images/doc2224.pdf
+$ENDCMP
+#
+$CMP BR25S_EEPROM
+D ROHM Semiconductor serial EEPROM with SPI interface in 8-pin package
+K serial SPI EEPROM memory external
+F http://www.rohm.com/web/global/products/-/product/BR25G128F-3
+$ENDCMP
+#
+$CMP CAT250_EEPROM
+D ON Semiconductor serial EEPROM with SPI interface in 8-pin package
+K serial EEPROM SPI interface memory external 
+F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
 $ENDCMP
 #
 $CMP DRAM_1MX16_SOJ
@@ -459,6 +519,24 @@ D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
 $ENDCMP
 #
+$CMP MB85RS16
+D FRAM memory (EEPROM compatible) with SPI interface in 8-pin package
+K FRAM, SPI
+F http://edevice.fujitsu.com/fj/DATASHEET/e-ds/MB85RS16-DS501-00014-7v0-E.pdf
+$ENDCMP
+#
+$CMP MR20H40
+D 4Mb serial SPI MRAM in DFN-8 package
+K MRAM memory EEPROM non-volatile
+F https://www.everspin.com/file/217/download
+$ENDCMP
+#
+$CMP MR25H40
+D 4KBit MRAM with SPI interface in DFN-8 package
+K memory MRAM external SPI 
+F https://www.everspin.com/file/217/download
+$ENDCMP
+#
 $CMP MS628128
 D SRAM 128K x 8 bits
 K RAM SRAM
@@ -513,11 +591,6 @@ $ENDCMP
 $CMP SIMM
 D Barrette SIMM 1 Mo ( 1M x 9 bits)
 K DRAM 1MO
-$ENDCMP
-#
-$CMP SRAM_512KO
-D SRAM 512Kbytes 32 pins
-K RAM
 $ENDCMP
 #
 $CMP SST39SF010

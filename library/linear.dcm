@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 04/07/2013 11:45:52
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 1408
 D CDA 8 bits
@@ -20,6 +20,12 @@ $ENDCMP
 $CMP ADA4075
 D Very low noise audio op amp
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
+$ENDCMP
+#
+$CMP ADS1118
+D 16-bit ADC with Integrated MUX, PGA, Temperature sensor, Oscillator and Reference
+K Analog converter amplifier programmable gain SPI thermocouple precision 
+F http://www.ti.com/lit/ds/symlink/ads1118.pdf
 $ENDCMP
 #
 $CMP CA3130
@@ -61,12 +67,6 @@ F op_amps/lm324.pdf
 $ENDCMP
 #
 $CMP LM2903
-D Dual Voltage Comparator
-K Comp
-F ns/lm193.pdf
-$ENDCMP
-#
-$CMP LM2903SMALL
 D Dual Voltage Comparator
 K Comp
 F ns/lm193.pdf
@@ -173,6 +173,12 @@ K AmpliOp
 F AmpliOp.sch
 $ENDCMP
 #
+$CMP LM7332
+D High voltage dual rail to rail op-amp 30V
+K high voltage op amp rail dual
+F http://www.ti.com/lit/gpn/lm7332
+$ENDCMP
+#
 $CMP LM733CH
 D Differential Video amp
 K Video Diff
@@ -212,10 +218,40 @@ K ampliop
 F onsemi/mc33178.pdf
 $ENDCMP
 #
+$CMP MCP6001
+D Op Amp in 5-pin package
+K op amp amplifier operational 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6001R
+D Op Amp in 5-pin package
+K op amp amplifier operational 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6002
+D Dual general purpose rail-to-rail op amp
+K dual op amp rail 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6004
+D Microchip quad general purpose rail to rail op-amp, 1MHz GBWP
+K quad op amp operational amplifier 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
 $CMP OP275
 D Dual Op amp (low power)
 K ampliop
 F analog-dev/op275.pdf
+$ENDCMP
+#
+$CMP OPA376AIDCK
+D Op Amp in 5-pin package
+K op amp amplifier operational 
+F http://www.ti.com/lit/gpn/opa376
 $ENDCMP
 #
 $CMP TL071

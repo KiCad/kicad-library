@@ -912,9 +912,27 @@ K 300mA LDO Regulator Fixed Positive
 F http://www.a-powerusa.com/docs/APE8865-3.pdf
 $ENDCMP
 #
+$CMP AS8506C
+D Stackable cell monitor and cell balancer IC with SPI interface
+K battery balance lithium SPI stack monitor analog front end
+F http://ams.com/eng/content/download/476603/1402377/252935
+$ENDCMP
+#
 $CMP BQ2003
 D Controleur de chargeur de batteries
 F regulator\bq2003.pdf
+$ENDCMP
+#
+$CMP BQ76940
+D 15-series cell battery monitor, multi-chemistry, integrated balancing with I2C interface
+K lithium li-ion li-po battery balance charge AFE
+F http://www.ti.com/lit/gpn/bq76940
+$ENDCMP
+#
+$CMP BQ78350
+D Li-Ion Gas Gauge and Battery Managment Controller Companion to bq769x0
+K lithium li-ion li-po battery management controller companion
+F http://www.ti.com/lit/ds/symlink/bq78350.pdf
 $ENDCMP
 #
 $CMP KA378R05
@@ -1929,6 +1947,12 @@ D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
 F linear-tec\ltc3525.pdf
 $ENDCMP
 #
+$CMP LTC6803-2
+D 12-cell Multicell Battery Stack Monitor
+K Battery monitor balance analog SPI
+F http://www.linear.com/docs/30265
+$ENDCMP
+#
 $CMP LT_1129_QP
 D LowDrop Linear Regulator (QPACK 5 pins)
 K REGUL POWER
@@ -2123,6 +2147,12 @@ K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
+$CMP MCP73831/OT
+D Single cell Lithium Ion / Lithium Polymer Charge Controller
+K Battery charger lithium ion polymer lipo liion 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+$ENDCMP
+#
 $CMP MIC2026
 D Dual-Channel Power Distribution Switch
 K PWR SWITCH
@@ -2225,6 +2255,24 @@ $ENDCMP
 $CMP SPX2920U-5.0
 D 400mA Low drop-out regulator, Fixed Output 5V, TO-220
 K REGULATOR LDO 5V
+$ENDCMP
+#
+$CMP TC1054
+D 50mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
+K LDO regulator voltage 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
+$ENDCMP
+#
+$CMP TC1055
+D 100mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
+K LDO regulator voltage 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
+$ENDCMP
+#
+$CMP TC1186
+D 150mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
+K LDO regulator voltage 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
 $ENDCMP
 #
 $CMP TL497

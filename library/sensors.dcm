@@ -102,39 +102,69 @@ F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
 $CMP INA193
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 20V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA194
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 50V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA195
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 100V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA196
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 20V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA197
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 50V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA198
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 100V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA282
+D 50V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
+$ENDCMP
+#
+$CMP INA283
+D 200V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
+$ENDCMP
+#
+$CMP INA284
+D 500V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
+$ENDCMP
+#
+$CMP INA285
+D 1000V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
+$ENDCMP
+#
+$CMP INA286
+D 100V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
 $ENDCMP
 #
 $CMP L3G4200D
@@ -189,6 +219,12 @@ $CMP MCP9701_LT
 D Linear active thermistor in SC70-5 package
 K linear active thermistor temperature sensor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
+$CMP MMA8653FCR1
+D 3-Axis 10-bit Digital Accelerometer with I2C interface
+K Accelerometer I2C 
+F http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8653FC.pdf
 $ENDCMP
 #
 $CMP MP45DT02
