@@ -20,6 +20,11 @@ $CMP CP_Small
 D Polarised capacitor
 $ENDCMP
 #
+$CMP CRYSTAL_SMD
+D Crystal Oscillator
+K XTAL 
+$ENDCMP
+#
 $CMP CTRIM
 D Variable capacitor
 K trimmer
@@ -177,7 +182,8 @@ K Jumper, Link
 $ENDCMP
 #
 $CMP LED
-K LED
+D LED
+K LED light emitting diode
 $ENDCMP
 #
 $CMP LED_DUAL
