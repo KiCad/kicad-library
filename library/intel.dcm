@@ -41,6 +41,12 @@ D MCS-48 8-bit Microcontroller, 4KB Mask ROM, 256B RAM, DIP-40
 K MCS-48 uC Microcontroller
 $ENDCMP
 #
+$CMP 8088
+D 8088, 8-Bit HMOS Microprocessor, PDIP-40
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf
+$ENDCMP
+#
 $CMP 8250
 D PC8250A, Universal Asynchronous Receiver/Transmitter, PDIP-40
 K 1ch UART
@@ -49,6 +55,12 @@ $ENDCMP
 $CMP 8252
 D Universal Asynchronous Receiver/Transmitter, PDIP-28
 K UART Serial Interface
+$ENDCMP
+#
+$CMP 8259
+D 8259, Programmable Interrupt Controller, PDIP-28
+K PIC
+F http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
 $ENDCMP
 #
 $CMP 82720
