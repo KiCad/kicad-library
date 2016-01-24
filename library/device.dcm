@@ -61,12 +61,63 @@ $CMP D_Schottky_Small
 D Diode Schottky
 $ENDCMP
 #
-$CMP D_Schottky_x2_KCom
-D Two Schottky diode with common cathode
+$CMP D_Schottky_x2_ACom_AKK
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
-$CMP D_Schottky_x2_Serial
-D Double diode Shottky (Serie)
+$CMP D_Schottky_x2_ACom_KAK
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_ACom_KKA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_AAK
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_AKA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_KAA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_ACK
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_AKC
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_CAK
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_CKA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_KAC
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial_KCA
+D Double diode Schottky (Serie)
 K DEV DIODE
 $ENDCMP
 #
@@ -131,6 +182,14 @@ D Common Cathode RGB LED
 K RGB LED
 $ENDCMP
 #
+$CMP LED_RGB
+D LED RGB 6 pins
+$ENDCMP
+#
+$CMP LED_RGB_EP
+D LED RGB 6 pins, exposed pad
+$ENDCMP
+#
 $CMP L_Small
 D Inductor
 $ENDCMP
@@ -145,7 +204,7 @@ D Led
 $ENDCMP
 #
 $CMP Led_x2
-D LED DOUBLE type Bicolore
+D DOUBLE type Bicolore
 K LED
 $ENDCMP
 #
@@ -462,7 +521,7 @@ K switch
 $ENDCMP
 #
 $CMP SWITCH_INV
-D Switch inverseur
+D inverseur
 K switch
 $ENDCMP
 #
@@ -472,7 +531,7 @@ K switch
 $ENDCMP
 #
 $CMP SW_PUSH
-D Push Button
+D Button
 K Switch
 $ENDCMP
 #
