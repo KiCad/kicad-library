@@ -1,17 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 74HC1GU04GW
-D Single input inverter
-$ENDCMP
-#
 $CMP 74HC_TripleInverter
 D 3 Input inverter
 K inverter, logic
-$ENDCMP
-#
-$CMP 74LVC1G08
-D Dual Input AND Gate
-K AND
 $ENDCMP
 #
 $CMP ACS758XCB
@@ -105,6 +96,12 @@ $ENDCMP
 #
 $CMP MOS_N
 F transistors/mos/*.*
+$ENDCMP
+#
+$CMP NC7SZ08
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP NC7WZ16
