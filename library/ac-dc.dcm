@@ -126,6 +126,12 @@ K SMPS Controller AC-DC
 F http://www.fairchildsemi.com/ds/AR/AR3522X.pdf
 $ENDCMP
 #
+$CMP NCP1200D
+D SMPS Controller, AC-DC, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1200-D.PDF
+$ENDCMP
+#
 $CMP NCP1200P
 D SMPS Controller, AC-DC, PDIP-8
 K SMPS Controller AC-DC
@@ -143,16 +149,22 @@ D UC3846x-DO8-T, SMPS Flyback PWM Controller, DIP8
 K SMPS PWM Controller
 $ENDCMP
 #
-$CMP VIPER22ADIP-E
-D 12W SMPS Controller, AC-DC, PDIP-8
-K SMPS Controller with MOSFET 12W AC-DC
-F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00087939.pdf
+$CMP VIPer22ADIP-E
+D Low power OFF-line SMPS primary switcher
+K SMPS
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
 $ENDCMP
 #
-$CMP VIPER22AS-E
-D 12W SMPS Controller, AC-DC, SO-8
-K SMPS Controller with MOSFET 12W AC-DC
-F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00087939.pdf
+$CMP VIPer22AS-E
+D Low power OFF-line SMPS primary switcher
+K SMPS
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
+$ENDCMP
+#
+$CMP VIPer22ASTR-E
+D Low power OFF-line SMPS primary switcher
+K SMPS
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
 $ENDCMP
 #
 $CMP VIPer25HN
