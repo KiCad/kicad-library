@@ -12,6 +12,7 @@ set( template_lst
     stm32f100-discovery-shield
     ti-stellaris-boosterpack40
     ti-stellaris-boosterpack40_min
+    BeagleBone-Black-Cape
     )
 
 
