@@ -255,8 +255,8 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
 $CMP OP275
-D Dual Op amp (low power)
-K ampliop
+D Dual bipolar audio Op Amp ±22V Input
+K operational amplifier 
 F analog-dev/op275.pdf
 $ENDCMP
 #
@@ -296,6 +296,12 @@ $ENDCMP
 $CMP TLC274
 D Quad Op amp. Mos
 K AmpliOp Mos
+$ENDCMP
+#
+$CMP TLV272
+D Dual rail to rail Op Amp +16V or ±8V Input
+K operational amplifier 
+F http://www.ti.com/lit/ds/symlink/tlv272.pdf
 $ENDCMP
 #
 #End Doc Library
