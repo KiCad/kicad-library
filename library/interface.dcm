@@ -202,9 +202,27 @@ K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
 $ENDCMP
 #
+$CMP LM5060
+D High side protection controller +5.5V to +65V in VSSOP-10 package
+K high voltage MOSFET FET driver hot swap
+F http://www.ti.com/lit/ds/symlink/lm5060.pdf
+$ENDCMP
+#
 $CMP LT1080
 D Advanced low power 5V RS232 Dual driver/receiver
 F http://cds.linear.com/docs/en/datasheet/10801fe.pdf
+$ENDCMP
+#
+$CMP LT1641-1
+D Positive high voltage hot swap controller 9V to 80V with latched operation
+K power switch FET driver
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
+$CMP LT1641-2
+D Positive high voltage hot swap controller 9V to 80V with auto-retry operation
+K power switch FET driver
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
 $ENDCMP
 #
 $CMP LTC2861
@@ -467,6 +485,18 @@ $CMP MCP42100
 D Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
 K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MIC2587-1
+D Positive high voltage hot swap controller +10V to +80V with latched operation
+K power switch FET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
+$ENDCMP
+#
+$CMP MIC2587R-1
+D Positive high voltage hot swap controller +10V to +80V with auto-retry operation
+K power switch FET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
 $ENDCMP
 #
 $CMP SP3481CN
