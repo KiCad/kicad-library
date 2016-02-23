@@ -1,6 +1,6 @@
 KiCad Library Convention
 ========================
-Revision 0.11, April 6th 2015
+Revision 1.0, November 15th 2015
 Devised by Carl Poirier
 With help from members of:
 kicad-lib-committers@lists.launchpad.net
@@ -36,6 +36,7 @@ kicad-developers@lists.launchpad.net
 3.5.  Whenever possible, inputs are on the left and outputs are on the right.
 3.6.  Field text uses a common size of 50mils.
 3.7.  The Value field is prefilled with the object name.
+3.8.  Description and keywords properties contain the relevant information.
 
 
 4. Symbol Names
@@ -112,6 +113,11 @@ kicad-developers@lists.launchpad.net
 
 Changelog
 ---------
+
+    Revision 1.0, November 15th 2015
+    1. Fixed some repetition.
+    2. Added rule 3.8 from the checklib scripts.
+    3. Tagged as 1.0 for the KiCad 4.0.0 release.
 
     Revision 0.11, April 6th 2015
     1. Updated rule 1.4 about dimensions. Units in millimeters are now implicit.

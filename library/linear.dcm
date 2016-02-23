@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 04/07/2013 11:45:52
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 1408
 D CDA 8 bits
@@ -61,12 +61,6 @@ F op_amps/lm324.pdf
 $ENDCMP
 #
 $CMP LM2903
-D Dual Voltage Comparator
-K Comp
-F ns/lm193.pdf
-$ENDCMP
-#
-$CMP LM2903SMALL
 D Dual Voltage Comparator
 K Comp
 F ns/lm193.pdf
@@ -173,6 +167,12 @@ K AmpliOp
 F AmpliOp.sch
 $ENDCMP
 #
+$CMP LM7332
+D High voltage dual rail to rail op-amp 30V
+K high voltage op amp rail dual
+F http://www.ti.com/lit/gpn/lm7332
+$ENDCMP
+#
 $CMP LM733CH
 D Differential Video amp
 K Video Diff
@@ -196,6 +196,24 @@ K ampliop
 F op_amps/lmc6082.pdf
 $ENDCMP
 #
+$CMP MAX4081F
+D 76V High-side differntial current sense amplifier 5V/V gain
+K telecom automotive backplane external reference
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4081S
+D 76V High-side differntial current sense amplifier 60V/V gain
+K telecom automotive backplane external reference
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4081T
+D 76V High-side differntial current sense amplifier 20V/V gain
+K telecom automotive backplane external reference
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
 $CMP MAX471
 D High-Side Current-Sense Amplifier
 F maxim/max471-max472.pdf
@@ -212,10 +230,40 @@ K ampliop
 F onsemi/mc33178.pdf
 $ENDCMP
 #
+$CMP MCP6001
+D Op Amp in 5-pin package
+K op amp amplifier operational 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6001R
+D Op Amp in 5-pin package
+K op amp amplifier operational 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6002
+D Dual general purpose rail-to-rail op amp
+K dual op amp rail 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6004
+D Microchip quad general purpose rail to rail op-amp, 1MHz GBWP
+K quad op amp operational amplifier 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
 $CMP OP275
 D Dual Op amp (low power)
 K ampliop
 F analog-dev/op275.pdf
+$ENDCMP
+#
+$CMP OPA376AIDCK
+D Op Amp in 5-pin package
+K op amp amplifier operational 
+F http://www.ti.com/lit/gpn/opa376
 $ENDCMP
 #
 $CMP TL071
@@ -235,6 +283,8 @@ K AmpliOp Mos
 $ENDCMP
 #
 $CMP TL081
+D Op amp.
+K AmpliOp
 F op_amps/tl081.pdf
 $ENDCMP
 #
