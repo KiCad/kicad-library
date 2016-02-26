@@ -5,6 +5,12 @@ D biPort RAM (1Ko)
 K RAM BiPort 1KO
 $ENDCMP
 #
+$CMP 23LCV1024
+D 1 Mbit SPI serial SRAM with battery backup and SDI interface
+K serial sram spi 1Mb 128kB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25156A.pdf
+$ENDCMP
+#
 $CMP 24C16
 D I2C Serial EEPROM
 K EEPROM Serial
