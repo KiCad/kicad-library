@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -44,186 +43,56 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_14 P1
-U 1 1 551FCE8A
-P 9700 1725
-F 0 "P1" V 9670 1725 60  0000 C CNN
-F 1 "Digital" V 9780 1725 60  0000 C CNN
-F 2 "Socket_Arduino_Fio:Socket_Strip_Straight_1x14" H 9700 1725 60  0001 C CNN
-F 3 "" H 9700 1725 60  0000 C CNN
-	1    9700 1725
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_14 P2
-U 1 1 551FCED2
-P 10125 1725
-F 0 "P2" V 10095 1725 60  0000 C CNN
-F 1 "Analog" V 10205 1725 60  0000 C CNN
-F 2 "Socket_Arduino_Fio:Socket_Strip_Straight_1x14" H 10125 1725 60  0001 C CNN
-F 3 "" H 10125 1725 60  0000 C CNN
-	1    10125 1725
-	-1   0    0    -1  
-$EndComp
-Text Label 8650 1275 0    60   ~ 0
+Text Label 8850 1250 0    60   ~ 0
 2
-Text Label 8650 1375 0    60   ~ 0
+Text Label 8850 1350 0    60   ~ 0
 3(**)
-Text Label 8650 1475 0    60   ~ 0
+Text Label 8850 1450 0    60   ~ 0
 4
-Text Label 8650 1575 0    60   ~ 0
+Text Label 8850 1550 0    60   ~ 0
 5(**)
-Text Label 8650 1675 0    60   ~ 0
+Text Label 8850 1650 0    60   ~ 0
 6(**)
-Text Label 8650 1775 0    60   ~ 0
+Text Label 8850 1750 0    60   ~ 0
 7
-Text Label 8650 1875 0    60   ~ 0
+Text Label 8850 1850 0    60   ~ 0
 8
-Text Label 8650 1975 0    60   ~ 0
+Text Label 8850 1950 0    60   ~ 0
 9(**)
-Text Label 8650 2075 0    60   ~ 0
+Text Label 8850 2050 0    60   ~ 0
 10(**/SCK)
-Text Label 8650 2175 0    60   ~ 0
+Text Label 8850 2150 0    60   ~ 0
 11(**/MOSI)
-Text Label 8650 2275 0    60   ~ 0
+Text Label 8850 2250 0    60   ~ 0
 12(MISO)
-Text Label 8650 2375 0    60   ~ 0
+Text Label 8850 2350 0    60   ~ 0
 13(SS)
-Text Label 10700 2375 0    60   ~ 0
+Text Label 10700 2350 0    60   ~ 0
 A7
-Text Label 10700 2275 0    60   ~ 0
+Text Label 10700 2250 0    60   ~ 0
 A6
-Text Label 10700 2175 0    60   ~ 0
+Text Label 10700 2150 0    60   ~ 0
 A5(SCL)
-Text Label 10700 2075 0    60   ~ 0
+Text Label 10700 2050 0    60   ~ 0
 A4(SDA)
-Text Label 10700 1975 0    60   ~ 0
+Text Label 10700 1950 0    60   ~ 0
 A3
-Text Label 10700 1875 0    60   ~ 0
+Text Label 10700 1850 0    60   ~ 0
 A2
-Text Label 10700 1775 0    60   ~ 0
+Text Label 10700 1750 0    60   ~ 0
 A1
-Text Label 10700 1675 0    60   ~ 0
+Text Label 10700 1650 0    60   ~ 0
 A0
-Text Label 10700 1575 0    60   ~ 0
+Text Label 10700 1550 0    60   ~ 0
 DTR
-Text Label 10700 1475 0    60   ~ 0
+Text Label 10700 1450 0    60   ~ 0
 TxO
-Text Label 10700 1375 0    60   ~ 0
+Text Label 10700 1350 0    60   ~ 0
 RxI
-Text Label 10700 1175 0    60   ~ 0
+Text Label 10700 1150 0    60   ~ 0
 AREF
-$Comp
-L GND #PWR01
-U 1 1 551FD34C
-P 9275 2550
-F 0 "#PWR01" H 9275 2550 30  0001 C CNN
-F 1 "GND" H 9275 2480 30  0001 C CNN
-F 2 "" H 9275 2550 60  0000 C CNN
-F 3 "" H 9275 2550 60  0000 C CNN
-	1    9275 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 551FD39C
-P 10625 2550
-F 0 "#PWR02" H 10625 2550 30  0001 C CNN
-F 1 "GND" H 10625 2480 30  0001 C CNN
-F 2 "" H 10625 2550 60  0000 C CNN
-F 3 "" H 10625 2550 60  0000 C CNN
-	1    10625 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR03
-U 1 1 551FD4E9
-P 9275 900
-F 0 "#PWR03" H 9275 860 30  0001 C CNN
-F 1 "+3.3V" H 9275 1010 30  0000 C CNN
-F 2 "" H 9275 900 60  0000 C CNN
-F 3 "" H 9275 900 60  0000 C CNN
-	1    9275 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR04
-U 1 1 551FD521
-P 10550 900
-F 0 "#PWR04" H 10550 860 30  0001 C CNN
-F 1 "+3.3V" H 10550 1010 30  0000 C CNN
-F 2 "" H 10550 900 60  0000 C CNN
-F 3 "" H 10550 900 60  0000 C CNN
-	1    10550 900 
-	1    0    0    -1  
-$EndComp
 Text Notes 8600 575  0    60   ~ 0
 Shield Arduino Fio 
-Wire Wire Line
-	8650 1275 9350 1275
-Wire Wire Line
-	8650 1375 9350 1375
-Wire Wire Line
-	8650 1475 9350 1475
-Wire Wire Line
-	8650 1575 9350 1575
-Wire Wire Line
-	8650 1675 9350 1675
-Wire Wire Line
-	8650 1775 9350 1775
-Wire Wire Line
-	8650 1875 9350 1875
-Wire Wire Line
-	8650 1975 9350 1975
-Wire Wire Line
-	8650 2075 9350 2075
-Wire Wire Line
-	8650 2175 9350 2175
-Wire Wire Line
-	8650 2275 9350 2275
-Wire Wire Line
-	8650 2375 9350 2375
-Wire Wire Line
-	10475 1175 11075 1175
-Wire Wire Line
-	10475 1375 11075 1375
-Wire Wire Line
-	10475 1475 11075 1475
-Wire Wire Line
-	10475 1575 11075 1575
-Wire Wire Line
-	10475 1675 11075 1675
-Wire Wire Line
-	10475 1775 11075 1775
-Wire Wire Line
-	10475 1875 11075 1875
-Wire Wire Line
-	10475 1975 11075 1975
-Wire Wire Line
-	10475 2075 11075 2075
-Wire Wire Line
-	10475 2175 11075 2175
-Wire Wire Line
-	10475 2275 11075 2275
-Wire Wire Line
-	10475 2375 11075 2375
-Wire Wire Line
-	10550 900  10550 1275
-Wire Wire Line
-	9275 1175 9275 2550
-Wire Wire Line
-	9350 1175 9275 1175
-Wire Wire Line
-	9275 900  9275 1075
-Wire Wire Line
-	9275 1075 9350 1075
-Wire Wire Line
-	10550 1275 10475 1275
-Wire Wire Line
-	10625 1075 10625 2550
-Wire Wire Line
-	10625 1075 10475 1075
 Wire Notes Line
 	8575 475  8575 2675
 Wire Notes Line
@@ -232,4 +101,136 @@ Wire Notes Line
 	9500 650  9500 475 
 Wire Notes Line
 	8575 2675 11225 2675
+$Comp
+L CONN_01X14 P1
+U 1 1 56D705A1
+P 9750 1700
+F 0 "P1" H 9750 2450 50  0000 C CNN
+F 1 "Digital" V 9850 1700 50  0000 C CNN
+F 2 "Socket_Arduino_Fio:Socket_Strip_Straight_1x14" H 9750 1700 50  0001 C CNN
+F 3 "" H 9750 1700 50  0000 C CNN
+	1    9750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X14 P2
+U 1 1 56D706EC
+P 10100 1700
+F 0 "P2" H 10100 2450 50  0000 C CNN
+F 1 "Analog" V 10200 1700 50  0000 C CNN
+F 2 "Socket_Arduino_Fio:Socket_Strip_Straight_1x14" H 10100 1700 50  0001 C CNN
+F 3 "" H 10100 1700 50  0000 C CNN
+	1    10100 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR01
+U 1 1 56D707AD
+P 9450 950
+F 0 "#PWR01" H 9450 800 50  0001 C CNN
+F 1 "+3.3V" H 9450 1090 50  0000 C CNN
+F 2 "" H 9450 950 50  0000 C CNN
+F 3 "" H 9450 950 50  0000 C CNN
+	1    9450 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1050 9450 1050
+Wire Wire Line
+	9450 1050 9450 950 
+Wire Wire Line
+	9550 1150 9450 1150
+$Comp
+L GND #PWR02
+U 1 1 56D7084A
+P 9450 2450
+F 0 "#PWR02" H 9450 2200 50  0001 C CNN
+F 1 "GND" H 9450 2300 50  0000 C CNN
+F 2 "" H 9450 2450 50  0000 C CNN
+F 3 "" H 9450 2450 50  0000 C CNN
+	1    9450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1150 9450 2450
+Wire Wire Line
+	8850 1250 9550 1250
+Wire Wire Line
+	8850 1350 9550 1350
+Wire Wire Line
+	8850 1450 9550 1450
+Wire Wire Line
+	9550 1550 8850 1550
+Wire Wire Line
+	8850 1650 9550 1650
+Wire Wire Line
+	8850 1750 9550 1750
+Wire Wire Line
+	8850 1850 9550 1850
+Wire Wire Line
+	9550 1950 8850 1950
+Wire Wire Line
+	8850 2050 9550 2050
+Wire Wire Line
+	8850 2150 9550 2150
+Wire Wire Line
+	8850 2250 9550 2250
+Wire Wire Line
+	9550 2350 8850 2350
+Wire Wire Line
+	10300 1250 10400 1250
+Wire Wire Line
+	10400 1250 10400 950 
+$Comp
+L +3.3V #PWR03
+U 1 1 56D70A18
+P 10400 950
+F 0 "#PWR03" H 10400 800 50  0001 C CNN
+F 1 "+3.3V" H 10400 1090 50  0000 C CNN
+F 2 "" H 10400 950 50  0000 C CNN
+F 3 "" H 10400 950 50  0000 C CNN
+	1    10400 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1050 10500 1050
+Wire Wire Line
+	10500 1050 10500 2450
+$Comp
+L GND #PWR04
+U 1 1 56D70A5E
+P 10500 2450
+F 0 "#PWR04" H 10500 2200 50  0001 C CNN
+F 1 "GND" H 10500 2300 50  0000 C CNN
+F 2 "" H 10500 2450 50  0000 C CNN
+F 3 "" H 10500 2450 50  0000 C CNN
+	1    10500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1150 10700 1150
+Wire Wire Line
+	10700 1350 10300 1350
+Wire Wire Line
+	10700 1450 10300 1450
+Wire Wire Line
+	10700 1550 10300 1550
+Wire Wire Line
+	10700 1650 10300 1650
+Wire Wire Line
+	10300 1750 10700 1750
+Wire Wire Line
+	10700 1850 10300 1850
+Wire Wire Line
+	10700 1950 10300 1950
+Wire Wire Line
+	10700 2050 10300 2050
+Wire Wire Line
+	10300 2150 10700 2150
+Wire Wire Line
+	10700 2250 10300 2250
+Wire Wire Line
+	10700 2350 10300 2350
+Text Notes 9850 1050 0    60   ~ 0
+1
 $EndSCHEMATC
