@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM5060
+D High side protection controller +5.5V to +65V in VSSOP-10 package
+K high voltage MOSFET FET driver hot swap
+F http://www.ti.com/lit/ds/symlink/lm5060.pdf
+$ENDCMP
+#
+$CMP LT1641-1
+D Positive high voltage hot swap controller 9V to 80V with latched operation
+K power switch FET driver
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
+$CMP LT1641-2
+D Positive high voltage hot swap controller 9V to 80V with auto-retry operation
+K power switch FET driver
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
 $CMP LTC4359-MS8
 D Ideal diode controller with reverse input protection
 K mosfet load switch shutdown high voltage battery protection
@@ -16,6 +34,18 @@ $CMP LTC4365_TS8
 D Overvoltage, Undervoltage and Reverse Supply Protection Controller in TSOT23-8 package
 K overvoltage undervoltage reverse polarity power supply OV UV DFN TSOT T-SOT
 F http://www.linear.com/docs/29832
+$ENDCMP
+#
+$CMP MIC2587-1
+D Positive high voltage hot swap controller +10V to +80V with latched operation
+K power switch FET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
+$ENDCMP
+#
+$CMP MIC2587R-1
+D Positive high voltage hot swap controller +10V to +80V with auto-retry operation
+K power switch FET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
 $ENDCMP
 #
 #End Doc Library
