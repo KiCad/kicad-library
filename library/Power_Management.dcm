@@ -30,6 +30,47 @@ K mosfet load switch shutdown high voltage battery protection
 F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
 $ENDCMP
 #
+$CMP LTC4364IMS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in MSOP-16 package, -40°C to +85°C
+K surge overvoltage undervoltage reverse polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+
+#
+$CMP LTC4364IS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, -40°C to +85°C
+K surge overvoltage undervoltage reverse polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+
+#
+$CMP LTC4364HMS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in MSOP-16 package, -40°C to +125°C
+K surge overvoltage undervoltage reverse polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+
+#
+$CMP LTC4364HS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, -40°C to +125°C
+K surge overvoltage undervoltage reverse polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+
+#
+$CMP LTC4364CMS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in MSOP-16 package, 0°C to +40°C
+K surge overvoltage undervoltage reverse polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+
+#
+$CMP LTC4364CS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, 0°C to +40°C
+K surge overvoltage undervoltage reverse polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
 $CMP LTC4365_DDB
 D Overvoltage, Undervoltage and Reverse Supply Protection Controller in 3x2mm DFN-8 package
 K overvoltage undervoltage reverse polarity power supply OV UV DFN
