@@ -34,7 +34,7 @@ if( UNIX )
             CACHE PATH "Location of user specifig KiCad config files" )
     endif()
 elseif( MINGW )
-    set( KICAD_USER_CONFIG_DIR $ENV{%APPDATA%}/kicad
+    set( KICAD_USER_CONFIG_DIR $ENV{APPDATA}/kicad
         CACHE PATH "Location of user specifig KiCad config files" )
 endif()
 
