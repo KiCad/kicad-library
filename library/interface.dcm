@@ -42,21 +42,9 @@ K rs232 transceiver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
 $ENDCMP
 #
-$CMP ADM222
-D High-Speed 5V dual RS232 line driver
-K RS232 serial dual line driver transceiver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
-$ENDCMP
-#
 $CMP ADM232A
 D Dual RS232 transceiver, Single 5V supply, 200kB/s
 K rs232 serial dual line driver transceiver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
-$ENDCMP
-#
-$CMP ADM242
-D High-Speed 5V dual RS232 line driver
-K RS232 serial dual line driver transceiver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
@@ -248,27 +236,10 @@ D Driver de Ligne RS232
 K RS232
 $ENDCMP
 #
-$CMP MAX222
-D High-Speed 5V dual RS232 line driver
-K RS232 serial dual line driver transceiver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
-$ENDCMP
-#
 $CMP MAX232
-D Driver de Ligne RS232
-K RS232
-$ENDCMP
-#
-$CMP MAX232A
-D High-Speed 5V dual RS232 line driver
-K RS232 serial dual line driver transceiver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
-$ENDCMP
-#
-$CMP MAX242
-D High-Speed 5V dual RS232 line driver
-K RS232 serial dual line driver transceiver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+D Dual RS232 transceiver
+K rs232 serial 
+F http://www.ti.com/lit/ds/symlink/max232.pdf
 $ENDCMP
 #
 $CMP MAX3051
