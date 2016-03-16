@@ -107,8 +107,14 @@ K EEROM ROM
 F memory/28c256.pdf
 $ENDCMP
 #
+$CMP 28F004
+D PA28F004BX-T/B Flash EEProm 4-MBIT (512Kx8bits) 5V, 12V Prog
+K EEPROM FLASH 4MO
+F http://www.alldatasheet.com/datasheet-pdf/pdf/66061/INTEL/PA28F400BX-B80.html
+$ENDCMP
+#
 $CMP 28F400
-D Flash EEProm 4-MBIT (256K X 16, 512K X 8) (PSOP 44 pack.) 5V, 12V Prog
+D PA28F400BX-T/B Flash EEProm 4-MBIT (256Kx16bits, 512Kx8bits) 5V, 12V Prog
 K EEPROM FLASH 4MO
 F http://www.alldatasheet.com/datasheet-pdf/pdf/66061/INTEL/PA28F400BX-B80.html
 $ENDCMP
