@@ -55,26 +55,75 @@ F http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx
 $ENDCMP
 #
 $CMP ACS712ELCTR-05B-T
-D 5A Current Sensor with Hall Sensor, SO-8
+D 5A Bidirectional Current Sensor with Hall Sensor, 185mV/A, SO-8
 K Hall Effect Current Sensor
 F sensors/AC712_current_sensor.pdf
 $ENDCMP
 #
 $CMP ACS712ELCTR-20A-T
-D 5A Current Sensor with Hall Sensor, SO-8
+D 20A Bidirectional Current Sensor with Hall Sensor, 100mV/A, SO-8
 K Hall Effect Current Sensor
 F sensors/AC712_current_sensor.pdf
 $ENDCMP
 #
 $CMP ACS712ELCTR-30A-T
-D 30A Current Sensor with Hall Sensor, SO-8
+D 30A Bidirectional Current Sensor with Hall Sensor, 66mV/A, SO-8
 K Hall Effect Current Sensor
 F sensors/AC712_current_sensor.pdf
 $ENDCMP
 #
-$CMP ACS713ELCTR-30A-T
-D 30A Current Sensor with Hall-Effect Sensor, SOIC-8
+$CMP ACS713ELCTR-20A-T
+D 20A Unidirectional Current Sensor with Hall Sensor, 185mV/A, SO-8
 K Hall Effect Current Sensor
+F http://www.allegromicro.com/en/Products/Part_Numbers/0713/0713.pdf
+$ENDCMP
+#
+$CMP ACS713ELCTR-30A-T
+D 30A Unidirectional Current Sensor with Hall Sensor, 133mV/A, SO-8
+K Hall Effect Current Sensor
+F http://www.allegromicro.com/en/Products/Part_Numbers/0713/0713.pdf
+$ENDCMP
+#
+$CMP ACS722LLCTR-05AB-T
+D 5A Bidirectional Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC722_current_sensor.pdf
+$ENDCMP
+#
+$CMP ACS722LLCTR-10AB-T
+D 10A Bidirectional Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC722_current_sensor.pdf
+$ENDCMP
+#
+$CMP ACS722LLCTR-10AU-T
+D 10A Unidirectional Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC722_current_sensor.pdf
+$ENDCMP
+#
+$CMP ACS722LLCTR-20AB-T
+D 20A Bidirectional Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC722_current_sensor.pdf
+$ENDCMP
+#
+$CMP ACS722LLCTR-20AU-T
+D 20A Unidirectional Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC722_current_sensor.pdf
+$ENDCMP
+#
+$CMP ACS722LLCTR-40AB-T
+D 40A Bidirectional Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC722_current_sensor.pdf
+$ENDCMP
+#
+$CMP ACS722LLCTR-40AU-T
+D 40A Unidirectional Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC722_current_sensor.pdf
 $ENDCMP
 #
 $CMP ACS754SCB-200
@@ -102,39 +151,69 @@ F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
 $CMP INA193
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 20V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA194
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 50V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA195
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 100V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA196
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 20V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA197
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 50V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
 $ENDCMP
 #
 $CMP INA198
-D Current shunt monitor with independent supply, -16V to +80V common mode range
+D 100V/V Current shunt monitor with independent supply, -16V to +80V common mode range
 K Current sensor shunt monitor high low side
 F http://www.ti.com/lit/gpn/ina193
+$ENDCMP
+#
+$CMP INA282
+D 50V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
+$ENDCMP
+#
+$CMP INA283
+D 200V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
+$ENDCMP
+#
+$CMP INA284
+D 500V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
+$ENDCMP
+#
+$CMP INA285
+D 1000V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
+$ENDCMP
+#
+$CMP INA286
+D 100V/V High accuracy, wide common-mode range bidirectional current shunt monitor
+K current monitor shunt sensor bidirectional high low side common mode
+F http://www.ti.com/lit/ds/symlink/ina283.pdf
 $ENDCMP
 #
 $CMP L3G4200D
@@ -189,6 +268,12 @@ $CMP MCP9701_LT
 D Linear active thermistor in SC70-5 package
 K linear active thermistor temperature sensor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
+$CMP MMA8653FCR1
+D 3-Axis 10-bit Digital Accelerometer with I2C interface
+K Accelerometer I2C 
+F http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8653FC.pdf
 $ENDCMP
 #
 $CMP MP45DT02
