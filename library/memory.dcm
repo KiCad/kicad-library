@@ -107,6 +107,12 @@ K EEROM ROM
 F memory/28c256.pdf
 $ENDCMP
 #
+$CMP 28F400
+D PA28F400BX-T/B Flash EEProm 4-MBIT (256Kx16bits, 512Kx8bits) 5V, 12V Prog
+K EEPROM FLASH 4MO
+F http://download.intel.com/design/archives/flash/docs/29045101.pdf
+$ENDCMP
+#
 $CMP 29F010-TSOP-SP
 D Flash EEProm 128Ko (TSOP 32 pack.) 5V prog
 K EEPROM FLASH 128KO
