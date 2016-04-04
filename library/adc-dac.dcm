@@ -407,6 +407,18 @@ K analog digital converter internal serial interface
 F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
 $ENDCMP
 #
+$CMP MCP3002
+D MCP3008, Dual Channel 10-Bit A/D Converter with SPI Serial Interface
+K Dual Channel 10-Bit ADC SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21294E.pdf
+$ENDCMP
+#
+$CMP MCP3008
+D MCP3008, 8-Channel 10-Bit A/D Converters with SPI Serial Interface
+K 8-Channel 10-Bit ADC SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf
+$ENDCMP
+#
 $CMP MCP3421A0T-E/CH
 D MCP3421A0T, Single Delta-Sigma 18bit Analog to Digital Converter, I2C Interface, SOT-23-6
 K Sigma-Delta ADC Converter 18bit I2C
@@ -501,6 +513,12 @@ $CMP MCP4922-E/ST
 D MCP4922, Dual 12-bit Digital to Analog Converter, SPI Interface, TSSOP-14
 K Dual DAC 1ch 12bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
+$ENDCMP
+#
+$CMP PT2399
+D Echo Processor IC
+K CMOS ADC DAC 44K Digital processing VCO
+F http://sound.westhost.com/pt2399.pdf
 $ENDCMP
 #
 $CMP TDA8702
