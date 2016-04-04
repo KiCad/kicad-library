@@ -17,9 +17,129 @@ K AmpliOp
 F AmpliOp.sch
 $ENDCMP
 #
+$CMP AD8202
+D 28V High Common-Mode Voltage, Single-Supply Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 50kHz, Vcc=3.5V~12V, unidirectional
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8202.pdf
+$ENDCMP
+#
+$CMP AD8203
+D 30V High Common-Mode Voltage, Single-Supply Difference Amplifier, 7V/V x 2V/V adjustable gain, bandwidth 60kHz, Vcc=3.5V~12V, unidirectional
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8203.pdf
+$ENDCMP
+#
+$CMP AD8205
+D 65V Single-Supply, System Difference Amplifier, 50V/V gain, bandwidth 50kHz, Vcc=5V
+K highside HS difference amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8205.pdf
+$ENDCMP
+#
+$CMP AD8206
+D 65V High Common-Mode Voltage, Bidirectional, Current Shunt Amplifier, 20V/V gain, bandwidth 100kHz, Vcc=5V
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8206.pdf
+$ENDCMP
+#
+$CMP AD8207
+D 65V (35V) Zero-Drift, High Voltage, Bidirectional, Difference Amplifier, 20V/V gain, bandwidth 150kHz, Vcc=5V (3.3V), 
+K highside HS current sense difference amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8207.pdf
+$ENDCMP
+#
+$CMP AD8208
+D 45V High Voltage, Precision Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 70kHz, Vcc=5V, unidirectional
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8208.pdf
+$ENDCMP
+#
+$CMP AD8209
+D 45V High Voltage, Precision Difference Amplifier, 7V/V x 2V/V adjustable gain, bandwidth 80kHz, Vcc=5V, unidirectional
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8209.pdf
+$ENDCMP
+#
+$CMP AD8210
+D 65V High Voltage, Bidirectional Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8210.pdf
+$ENDCMP
+#
+$CMP AD8211
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
+$ENDCMP
+#
+$CMP AD8212
+D 65V High Voltage Current, Shunt Monitor, adjustable gain, bandwidth 1000kHz, Vcc=7V~65V, current output, unidirectional
+K highside HS current sense shunt monitor amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8212.pdf
+$ENDCMP
+#
+$CMP AD8213
+D 65V Dual, High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V
+K highside HS current sense amplifier linear buffered dual monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8213.pdf
+$ENDCMP
+#
+$CMP AD8215
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V, unidirectional
+K highside HS current sense amplifier linear buffered monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8215.pdf
+$ENDCMP
+#
+$CMP AD8216
+D 65V High Bandwidth, Bidirectional Difference Amplifier, 3V/V gain, bandwidth 3MHz, Vcc=5V
+K HS difference amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8216.pdf
+$ENDCMP
+#
+$CMP AD8217
+D 80V High Resolution, Zero-Drift, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, internal LDO, unidirectional
+K highside HS current sense amplifier linear buffered monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8217.pdf
+$ENDCMP
+#
+$CMP AD8218
+D 80V Zero Drift, Bidirectional, Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V (optional)
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8218.pdf
+$ENDCMP
+#
+$CMP AD8219
+D 80V Zero Drift, Unidirectional, Current Shunt Monitor, 60V/V gain, bandwidth 500kHz, Vcc=4V~80V
+K highside HS current sense amplifier linear buffered monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8219.pdf
+$ENDCMP
+#
+$CMP AD8417
+D 70V Bidirectional, Zero Drift, Current Sense Amplifier, 60V/V gain, bandwidth 250kHz, VS=2.7V~5.5V
+K highside HS current sense amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8417.pdf
+$ENDCMP
+#
+$CMP AD8418
+D 70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V
+K highside HS current sense amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
+$ENDCMP
+#
 $CMP ADA4075
 D Very low noise audio op amp
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
+$ENDCMP
+#
+$CMP CA3080
+D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1
+K intersil
+F http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf
+$ENDCMP
+#
+$CMP CA3080A
+D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 1.6:1
+K intersil
+F http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf
 $ENDCMP
 #
 $CMP CA3130
@@ -46,6 +166,12 @@ $ENDCMP
 $CMP LM101H
 D Ampli Op
 K AmpliOp
+$ENDCMP
+#
+$CMP LM13700
+D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers
+K National OTA
+F http://www.ti.com/lit/ds/symlink/lm13700.pdf
 $ENDCMP
 #
 $CMP LM193
@@ -196,6 +322,18 @@ K ampliop
 F op_amps/lmc6082.pdf
 $ENDCMP
 #
+$CMP LTC6082
+D Precision Quad Op amp.
+K LTC6082 opamp ltc
+F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
+$ENDCMP
+#
+$CMP LTC6362
+D Precision differential amplifier for dirving high resolution SAR ADCs
+K linear ltc diff amp
+F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
+$ENDCMP
+#
 $CMP MAX4081F
 D 76V High-side differntial current sense amplifier 5V/V gain
 K telecom automotive backplane external reference
@@ -252,6 +390,18 @@ $CMP MCP6004
 D Microchip quad general purpose rail to rail op-amp, 1MHz GBWP
 K quad op amp operational amplifier 
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP601
+D MCP601 opamp in 5-pin package
+K op amp amplifier operational 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP601R
+D MCP601R opamp in 5-pin package
+K op amp amplifier operational 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
 $ENDCMP
 #
 $CMP OP275
