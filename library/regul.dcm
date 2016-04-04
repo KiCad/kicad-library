@@ -911,31 +911,6 @@ D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.a-powerusa.com/docs/APE8865-3.pdf
 $ENDCMP
-#
-$CMP AS8506C
-D Stackable cell monitor and cell balancer IC with SPI interface
-K battery balance lithium SPI stack monitor analog front end
-F http://ams.com/eng/content/download/476603/1402377/252935
-$ENDCMP
-#
-$CMP BQ2003
-D Switch mode NiCd/NiMH battery charger with negative dV and dT/dt termination
-K battery nickel cadmium metal hydride 
-F regulator\bq2003.pdf
-$ENDCMP
-#
-$CMP BQ76940
-D 15-series cell battery monitor, multi-chemistry, integrated balancing with I2C interface
-K lithium li-ion li-po battery balance charge AFE
-F http://www.ti.com/lit/gpn/bq76940
-$ENDCMP
-#
-$CMP BQ78350
-D Li-Ion Gas Gauge and Battery Managment Controller Companion to bq769x0
-K lithium li-ion li-po battery management controller companion
-F http://www.ti.com/lit/ds/symlink/bq78350.pdf
-$ENDCMP
-#
 $CMP IS31LT3360
 D Constant current  LED driver, internal switch, up to 40V/1.2A, SOT-89-5
 K Switching LED driver
@@ -1954,26 +1929,10 @@ D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
 F linear-tec\ltc3525.pdf
 $ENDCMP
 #
-$CMP LTC6803-2
-D 12-cell Multicell Battery Stack Monitor
-K Battery monitor balance analog SPI
-F http://www.linear.com/docs/30265
-$ENDCMP
-#
 $CMP LT_1129_QP
 D LowDrop Linear Regulator (QPACK 5 pins)
 K REGUL POWER
 F linear-tec/lt1129.pdf
-$ENDCMP
-#
-$CMP MAX1647
-D Battery Charger
-F maxim\MAX1647-MAX1648.pdf
-$ENDCMP
-#
-$CMP MAX1648
-D Battery Charger
-F maxim\MAX1647-MAX1648.pdf
 $ENDCMP
 #
 $CMP MAX1658ESA
@@ -2153,36 +2112,6 @@ $CMP MCP1754ST-5002E/MB
 D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
-$ENDCMP
-#
-$CMP MCP73811T-420I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MCP73811T-435I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MCP73812T-420I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MCP73812T-435I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MIC2026
-D Dual-Channel Power Distribution Switch
-K PWR SWITCH
-F micrel\mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2177
