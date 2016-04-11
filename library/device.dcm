@@ -246,8 +246,8 @@ D Photo resistor
 $ENDCMP
 #
 $CMP POT
-D Potentionmetre
-K R
+D Potentionmeter
+K res variable
 $ENDCMP
 #
 $CMP Photores
@@ -523,6 +523,11 @@ $ENDCMP
 $CMP RR8
 D 8 resistors
 K R DEV
+$ENDCMP
+#
+$CMP RVAR
+D Variable resistor
+K res var potentiometer
 $ENDCMP
 #
 $CMP R_PACK4
