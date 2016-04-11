@@ -1863,21 +1863,21 @@ D Linear Regulator (adjustable)
 K POWER REGUL
 $ENDCMP
 #
-$CMP LT1761-BYP
-D MICROPOWER 100mA LDO regulator SOT-23 5-leads package
+$CMP LT1761-5
+D MICROPOWER 5V 100mA LDO regulator TSOT-23 5-leads package
 K REGUL POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-BYP
+D MICROPOWER 100mA LDO adjustable regulator TSOT-23 5-leads package
+K REGUL POWER LDO adjustable
 F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
 $ENDCMP
 #
 $CMP LT1761-SD
-D MICROPOWER 100mA LDO regulator SOT-23 5-leads package
-K REGUL POWER LDO
-F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
-$ENDCMP
-#
-$CMP LT1761-X
-D MICROPOWER 100mA LDO regulator SOT-23 5-leads package
-K REGUL POWER LDO
+D MICROPOWER 100mA LDO adjustable regulator TSOT-23 5-leads package
+K REGUL POWER LDO adjustable
 F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
 $ENDCMP
 #
