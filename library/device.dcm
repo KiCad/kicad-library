@@ -568,11 +568,6 @@ D Switch SPST, small symbol
 K sw single
 $ENDCMP
 #
-$CMP SWITCH_INV
-D inverseur
-K switch
-$ENDCMP
-#
 $CMP SWITCH_INV_MSM
 D Switch inverseur M S M
 K switch
@@ -586,6 +581,11 @@ $ENDCMP
 $CMP Switch_DPST
 D Double Pole Single Throw (DPST) Switch
 K switch
+$ENDCMP
+#
+$CMP Switch_SPDT
+D Switch SPDT
+K switch double
 $ENDCMP
 #
 $CMP Switch_SPDT_x2
