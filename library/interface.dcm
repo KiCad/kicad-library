@@ -229,14 +229,26 @@ K Temperature Voltage Current Monitor I2C AFE
 F http://cds.linear.com/docs/en/datasheet/2990fd.pdf
 $ENDCMP
 #
-$CMP MAX13432E
-D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 500kbps
+$CMP MAX13432EESD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 500kbps, SOIC-14 package
 K rs485 transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
 $ENDCMP
 #
-$CMP MAX13433E
-D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps
+$CMP MAX13432EETD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 500kbps, DFN-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MAX13433EESD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, SOIC-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MAX13433EETD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, DFN-14 package
 K rs485 transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
 $ENDCMP
