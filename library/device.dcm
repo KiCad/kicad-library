@@ -568,11 +568,6 @@ D Switch Single Pole Single Throw, small symbol
 K sw single spst
 $ENDCMP
 #
-$CMP SWITCH_INV_MSM
-D Switch inverseur M S M
-K switch
-$ENDCMP
-#
 $CMP SW_PUSH
 D Button
 K Switch
@@ -586,6 +581,11 @@ $ENDCMP
 $CMP Switch_SPDT
 D Switch Single Pole Double Throw
 K switch double spdt
+$ENDCMP
+#
+$CMP Switch_SPDT_MSM
+D Switch Single Pole Double Throw, with centre OFF position
+K switch spdt
 $ENDCMP
 #
 $CMP Switch_SPDT_x2
