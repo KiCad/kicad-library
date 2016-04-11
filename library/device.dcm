@@ -222,6 +222,11 @@ $CMP LED_RGB_EP
 D LED RGB 6 pins, exposed pad
 $ENDCMP
 #
+$CMP LED_Small
+D LED small symbol
+K led diode
+$ENDCMP
+#
 $CMP L_Small
 D Inductor
 $ENDCMP
@@ -231,13 +236,9 @@ D Common Anode RGB LED
 K RGB LED
 $ENDCMP
 #
-$CMP Led_Small
-D Led
-$ENDCMP
-#
 $CMP Led_x2
-D DOUBLE type Bicolore
-K LED
+D LED dual, common cathode
+K led diode bicolor dual
 $ENDCMP
 #
 $CMP PHOTORESISTOR
