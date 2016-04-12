@@ -149,6 +149,7 @@ $ENDCMP
 $CMP EMI_FILTER_Small
 D EMI Filter
 K dev emi
+F ~
 $ENDCMP
 #
 $CMP FILTER
@@ -202,6 +203,7 @@ $ENDCMP
 $CMP LED
 D LED generic
 K led
+F ~
 $ENDCMP
 #
 $CMP LED_RABG
@@ -225,6 +227,7 @@ $ENDCMP
 $CMP LED_Small
 D LED small symbol
 K led diode
+F ~
 $ENDCMP
 #
 $CMP L_Small
@@ -517,7 +520,8 @@ $ENDCMP
 #
 $CMP R
 D Resistor
-K R DEV
+K r dev
+F ~
 $ENDCMP
 #
 $CMP RR8
@@ -542,6 +546,8 @@ $ENDCMP
 #
 $CMP R_Small
 D Resistor
+K res 
+F ~
 $ENDCMP
 #
 $CMP SCHDPAK
@@ -558,19 +564,34 @@ D 3 position switch, SP3T
 K switch SP3T
 $ENDCMP
 #
+$CMP SPEAKER
+D Speaker, generic, 2-pin
+K speaker audio
+F ~
+$ENDCMP
+#
 $CMP SPST
 D Switch Single Pole Single Throw
 K sw single spst
+F ~
 $ENDCMP
 #
 $CMP SPST_Small
 D Switch Single Pole Single Throw, small symbol
 K sw single spst
+F ~
 $ENDCMP
 #
 $CMP SW_PUSH
-D Button
-K Switch
+D Button, generic, normally open
+K switch push no
+F ~
+$ENDCMP
+#
+$CMP SW_PUSH_SMALL
+D button, generic, small symbol
+K switch no push
+F ~
 $ENDCMP
 #
 $CMP Switch_DPST
@@ -581,11 +602,13 @@ $ENDCMP
 $CMP Switch_SPDT
 D Switch Single Pole Double Throw
 K switch double spdt
+F ~
 $ENDCMP
 #
 $CMP Switch_SPDT_MSM
 D Switch Single Pole Double Throw, with centre OFF position
 K switch spdt
+F ~
 $ENDCMP
 #
 $CMP Switch_SPDT_x2
@@ -609,7 +632,8 @@ $ENDCMP
 #
 $CMP VARICAP
 D Variable capacitor
-K dev cap
+K cap
+F ~
 $ENDCMP
 #
 $CMP VR
@@ -620,11 +644,13 @@ $ENDCMP
 $CMP ZENER
 D Diode zener
 K DEV DIODE
+F ~
 $ENDCMP
 #
 $CMP ZENERsmall
 D Zener diode, small symbol
 K dev diode zener
+F ~
 $ENDCMP
 #
 #End Doc Library
