@@ -560,6 +560,12 @@ D 3 position switch, SP3T
 K switch SP3T
 $ENDCMP
 #
+$CMP SPEAKER
+D Speaker, generic, 2-pin
+K speaker audio
+F ~
+$ENDCMP
+#
 $CMP SPST
 D Switch Single Pole Single Throw
 K sw single spst
@@ -615,7 +621,8 @@ $ENDCMP
 #
 $CMP VARICAP
 D Variable capacitor
-K dev cap
+K cap
+F ~
 $ENDCMP
 #
 $CMP VR
@@ -626,11 +633,13 @@ $ENDCMP
 $CMP ZENER
 D Diode zener
 K DEV DIODE
+F ~
 $ENDCMP
 #
 $CMP ZENERsmall
 D Zener diode, small symbol
 K dev diode zener
+F ~
 $ENDCMP
 #
 #End Doc Library
