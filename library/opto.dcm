@@ -111,6 +111,12 @@ K Opto-Triac Opto Triac Random Phase Mini-Flat
 F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
 $ENDCMP
 #
+$CMP HCPL3120
+D Gate Drive Optocoupler, Output Current 2,5[A]
+K MOSFET Driver IGBT Driver Optocoupler
+F http://www.avagotech.com/docs/AV02-0161EN
+$ENDCMP
+#
 $CMP IL300
 D Isolated Linear Photocoupler, High Gain, Wideband, DIP8/SMD8
 K Isolated Linear Photocoupler
@@ -518,6 +524,12 @@ K Dual MOSFET Output Photorelay 1-Form-A
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP222A_TLP222A-2_en_datasheet_071001.pdf
 $ENDCMP
 #
+$CMP TLP250
+D Gate Drive Optocoupler, Output Current 1,5[A]
+K MOSFET Driver IGBT Driver Optocoupler
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
+$ENDCMP
+#
 $CMP TLP290
 D SOP4, AC/DC Optocoupler, Vce 80V, CTR 50-100%
 K NPN AC DC Optocoupler
@@ -588,18 +600,6 @@ $CMP TLP785F
 D DIP4F (Wide), DC Optocoupler, Vce 80V, CTR 50-200%
 K NPN DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP785_TLP785F_en_datasheet_120220.pdf
-$ENDCMP
-#
-$CMP TLP250
-D Gate Drive Optocoupler, Output Current 1,5[A]
-K MOSFET Driver IGBT Driver Optocoupler
-F http://web.itu.edu.tr/yildiri1/mylibrary/data/tlp250.pdf
-$ENDCMP
-#
-$CMP HCPL3120
-D Gate Drive Optocoupler, Output Current 2,5[A]
-K MOSFET Driver IGBT Driver Optocoupler
-F http://www.avagotech.com/docs/AV02-0161EN
 $ENDCMP
 #
 #End Doc Library
