@@ -203,6 +203,7 @@ $ENDCMP
 $CMP LED
 D LED generic
 K led
+F ~
 $ENDCMP
 #
 $CMP LED_RABG
@@ -519,7 +520,8 @@ $ENDCMP
 #
 $CMP R
 D Resistor
-K R DEV
+K r dev
+F ~
 $ENDCMP
 #
 $CMP RR8
@@ -544,6 +546,8 @@ $ENDCMP
 #
 $CMP R_Small
 D Resistor
+K res 
+F ~
 $ENDCMP
 #
 $CMP SCHDPAK
@@ -579,8 +583,15 @@ F ~
 $ENDCMP
 #
 $CMP SW_PUSH
-D Button
-K Switch
+D Button, generic, normally open
+K switch push no
+F ~
+$ENDCMP
+#
+$CMP SW_PUSH_SMALL
+D button, generic, small symbol
+K switch no push
+F ~
 $ENDCMP
 #
 $CMP Switch_DPST
