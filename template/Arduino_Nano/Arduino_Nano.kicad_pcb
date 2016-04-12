@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-03-25 BZR 5536)-product")
+(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu14.04.1-stable)
 
   (general
     (links 2)
     (no_connects 2)
-    (area 136.242429 65.55 157.889572 112.597001)
+    (area 138.125999 67.386999 156.006001 110.667001)
     (thickness 1.6)
     (drawings 20)
     (tracks 0)
@@ -121,12 +121,12 @@
   (net 24 /A1)
   (net 25 /A0)
   (net 26 /AREF)
-  (net 27 +3.3V)
-  (net 28 "/13(SCK)")
-  (net 29 "Net-(P3-Pad1)")
-  (net 30 "Net-(P4-Pad1)")
-  (net 31 "Net-(P5-Pad1)")
-  (net 32 "Net-(P6-Pad1)")
+  (net 27 "/13(SCK)")
+  (net 28 "Net-(P3-Pad1)")
+  (net 29 "Net-(P4-Pad1)")
+  (net 30 "Net-(P5-Pad1)")
+  (net 31 "Net-(P6-Pad1)")
+  (net 32 +3V3)
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -135,7 +135,7 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (add_net +3.3V)
+    (add_net +3V3)
     (add_net +5V)
     (add_net "/0(Rx)")
     (add_net "/1(Tx)")
@@ -173,7 +173,7 @@
     (at 139.446 71.247 270)
     (descr "Through hole socket strip")
     (tags "socket strip")
-    (path /551D9496)
+    (path /56D73FAC)
     (fp_text reference P1 (at 16.383 -2.54 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -232,7 +232,7 @@
     (at 154.686 71.247 270)
     (descr "Through hole socket strip")
     (tags "socket strip")
-    (path /551D94EF)
+    (path /56D740C7)
     (fp_text reference P2 (at 16.383 2.54 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -277,9 +277,9 @@
     (pad 13 thru_hole oval (at 30.48 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 26 /AREF))
     (pad 14 thru_hole oval (at 33.02 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 27 +3.3V))
+      (net 32 +3V3))
     (pad 15 thru_hole oval (at 35.56 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 28 "/13(SCK)"))
+      (net 27 "/13(SCK)"))
     (model ${KIPRJMOD}/Socket_Arduino_Nano.3dshapes/Socket_header_Arduino_1x15.wrl
       (at (xyz 0.7 0 0))
       (scale (xyz 1 1 1))
@@ -291,60 +291,60 @@
     (at 139.446 68.707)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (path /551D9380)
+    (path /56D73ADD)
     (fp_text reference P3 (at 0 -2.032) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_1 (at 0 2.032) (layer F.Fab) hide
+    (fp_text value CONN_01X01 (at 0 2.032) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 1.778) (layers *.Cu *.Mask F.SilkS)
-      (net 29 "Net-(P3-Pad1)"))
+      (net 28 "Net-(P3-Pad1)"))
   )
 
   (module Socket_Arduino_Nano:1pin_Nano locked (layer F.Cu) (tedit 55211594) (tstamp 55211558)
     (at 139.446 109.347)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (path /551D9414)
+    (path /56D73D86)
     (fp_text reference P4 (at 0 -2.032) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_1 (at 0 2.032) (layer F.Fab) hide
+    (fp_text value CONN_01X01 (at 0 2.032) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 1.778) (layers *.Cu *.Mask F.SilkS)
-      (net 30 "Net-(P4-Pad1)"))
+      (net 29 "Net-(P4-Pad1)"))
   )
 
   (module Socket_Arduino_Nano:1pin_Nano locked (layer F.Cu) (tedit 552115A5) (tstamp 5521155D)
     (at 154.686 109.347)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (path /551D9432)
+    (path /56D73DAE)
     (fp_text reference P5 (at 0 -2.032) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_1 (at 0 2.032) (layer F.Fab) hide
+    (fp_text value CONN_01X01 (at 0 2.032) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 1.778) (layers *.Cu *.Mask F.SilkS)
-      (net 31 "Net-(P5-Pad1)"))
+      (net 30 "Net-(P5-Pad1)"))
   )
 
   (module Socket_Arduino_Nano:1pin_Nano locked (layer F.Cu) (tedit 552115BD) (tstamp 55211562)
     (at 154.686 68.707)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (path /551D9466)
+    (path /56D73DD9)
     (fp_text reference P6 (at 0 -2.032) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_1 (at 0 2.032) (layer F.Fab) hide
+    (fp_text value CONN_01X01 (at 0 2.032) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 1.778) (layers *.Cu *.Mask F.SilkS)
-      (net 32 "Net-(P6-Pad1)"))
+      (net 31 "Net-(P6-Pad1)"))
   )
 
   (gr_text 1 (at 141.732 71.247) (layer F.SilkS)
