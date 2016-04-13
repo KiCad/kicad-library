@@ -24,6 +24,18 @@ K power switch FET driver
 F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
 $ENDCMP
 #
+$CMP LTC4357DCB
+D Ideal diode controller, 9-80V operation, DFN-6 package
+K ideal diode oring
+F http://cds.linear.com/docs/en/datasheet/4357fd.pdf
+$ENDCMP
+#
+$CMP LTC4357MS8
+D Ideal diode controller, 9-80V operation, MSOP-8 package
+K ideal diode oring
+F http://cds.linear.com/docs/en/datasheet/4357fd.pdf
+$ENDCMP
+#
 $CMP LTC4359-MS8
 D Ideal diode controller with reverse input protection
 K mosfet load switch shutdown high voltage battery protection
@@ -84,26 +96,26 @@ K surge overvoltage undervoltage reverse polarity protection diode ORing MOSFET 
 F http://cds.linear.com/docs/en/datasheet/436412f.pdf
 $ENDCMP
 #
-$CMP LTC4365DDB-1
-D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 1ms fault recovery
-K overvoltage undervoltage reverse polarity protection
-F http://www.linear.com/docs/29832
-$ENDCMP
-#
-$CMP LTC4365TS8-1
-D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 1ms fault recovery
-K overvoltage undervoltage reverse polarity protection
-F http://www.linear.com/docs/29832
-$ENDCMP
-#
 $CMP LTC4365DDB
 D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 50Hz/60Hz noise rejection
 K overvoltage undervoltage reverse polarity protection
 F http://www.linear.com/docs/29832
 $ENDCMP
 #
+$CMP LTC4365DDB-1
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 1ms fault recovery
+K overvoltage undervoltage reverse polarity protection
+F http://www.linear.com/docs/29832
+$ENDCMP
+#
 $CMP LTC4365TS8
 D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 50Hz/60Hz noise rejection
+K overvoltage undervoltage reverse polarity protection
+F http://www.linear.com/docs/29832
+$ENDCMP
+#
+$CMP LTC4365TS8-1
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 1ms fault recovery
 K overvoltage undervoltage reverse polarity protection
 F http://www.linear.com/docs/29832
 $ENDCMP
@@ -156,26 +168,26 @@ K mosfet gate driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf
 $ENDCMP
 #
-$CMP MIC2026-1BN
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in DIP-8 Package
-K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
-$ENDCMP
-#
 $CMP MIC2026-1BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
 K mosfet distribution
 F http://www.micrel.com/_PDF/mic2026.pdf
 $ENDCMP
 #
-$CMP MIC2026-2BN
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in DIP-8 Package
+$CMP MIC2026-1BN
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in DIP-8 Package
 K mosfet distribution
 F http://www.micrel.com/_PDF/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-2BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in SOIC-8 Package
+K mosfet distribution
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2BN
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in DIP-8 Package
 K mosfet distribution
 F http://www.micrel.com/_PDF/mic2026.pdf
 $ENDCMP
