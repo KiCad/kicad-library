@@ -200,8 +200,15 @@ K RS232
 $ENDCMP
 #
 $CMP MAX232
-D Driver de Ligne RS232
-K RS232
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
+$ENDCMP
+#
+$CMP MAX232I
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, -40C-80C
+K rs232 transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
 $ENDCMP
 #
 $CMP MAX31855EASA
