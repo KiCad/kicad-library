@@ -46,6 +46,12 @@ K rs232 transceiver line-driver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
 $ENDCMP
 #
+$CMP ADM222
+D Dual RS232 driver/receiver, 5V supply, 200kb/s
+K rs232 transceiver 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+$ENDCMP
+#
 $CMP ADuM1200BR
 D Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
 K 2Ch Dual Digital Isolator 10Mbps
@@ -171,7 +177,7 @@ F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-
 $ENDCMP
 #
 $CMP LT1080
-D Dual RS232 driver/receiver
+D Dual RS232 driver/receiver, 5V supply, 120kb/s
 K rs232 transceiver 
 F http://cds.linear.com/docs/en/datasheet/10801fe.pdf
 $ENDCMP
