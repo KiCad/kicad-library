@@ -288,15 +288,21 @@ K ADC CAN VIDEO
 F http://www.ti.com/lit/ds/symlink/adc1173.pdf
 $ENDCMP
 #
-$CMP ADS1118
-D 16-bit ADC with integrated MUX, PGA and temperature sensor with SPI interface
-K Analog digital converter quad serial
-F http://www.ti.com/lit/ds/symlink/ads1118.pdf
+$CMP ADS1118I
+D 16-bit analog to digital converter, 2 or 4 inputs, integrated temperature sensor, SPI interface
+K adc spi quad double
+F http://www.ti.com/lit/ds/sbas457e/sbas457e.pdf
 $ENDCMP
 #
 $CMP ADS1120-PW
-D Low-power, low-noise 16-bit ADC for small-signal sensors
-K SPI serial temperature sensor analog digital conveter external internal reference
+D Low-power, quad-input, 16-bit analog to digital converter, integrated temperature sensor, SPI interface, TSSOP-16 package
+K adc spi
+F http://www.ti.com/lit/ds/symlink/ads1120.pdf
+$ENDCMP
+#
+$CMP ADS1120-RVA
+D Low-power, quad-input, 16-bit analog to digital converter, integrated temperature sensor, SPI interface, QFN-16 package
+K adc spi
 F http://www.ti.com/lit/ds/symlink/ads1120.pdf
 $ENDCMP
 #
@@ -426,26 +432,26 @@ F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
 $ENDCMP
 #
 $CMP MAX11614
-D 8-channel single-ended or 4-channel differential 12-bit ADC with I2C and 4.096V reference
-K analog digital converter internal serial interface
+D 8-channel single-ended or 4-channel, differential, 12-bit ADC, I2C, 4.096V internal reference
+K adc i2c
 F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
 $ENDCMP
 #
 $CMP MAX11615
-D 8-channel single-ended or 4-channel differential 12-bit ADC with I2C and 2.048V reference
-K analog digital converter internal serial interface
+D 8-channel single-ended or 4-channel, differential, 12-bit ADC, I2C, 2.048V internal reference
+K adc i2c
 F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
 $ENDCMP
 #
 $CMP MAX11616
-D 12-channel single-ended or 6-channel differential 12-bit ADC with I2C and 4.096V reference
-K analog digital converter internal serial interface
+D 12-channel single-ended or 6-channel, differential, 12-bit ADC, I2C, 4.096V internal reference
+K adc i2c
 F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
 $ENDCMP
 #
 $CMP MAX11617
-D 12-channel single-ended or 6-channel differential 12-bit ADC with I2C and 2.048V reference
-K analog digital converter internal serial interface
+D 12-channel single-ended or 6-channel, differential, 12-bit ADC, I2C, 2.048V internal reference
+K adc i2c
 F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
 $ENDCMP
 #
@@ -516,8 +522,8 @@ F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
 $ENDCMP
 #
 $CMP MCP4728
-D Quad 12-bit DAC with I2C interface
-K digital analog converter four channel I2C interface 2.048 reference internal EEPROM memory
+D 12-bit digital to analog converter, quad input, 2.048V internal reference, integrated EEPROM, I2C interface
+K dac i2c
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf
 $ENDCMP
 #
