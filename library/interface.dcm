@@ -41,27 +41,27 @@ F http://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
 $ENDCMP
 #
 $CMP ADM101E
-D Single supply, miniature RS232 converter, 460kbit/s
-K rs232 transceiver
+D Single RS232 driver/receiver, 5V supply, 460kb/s
+K rs232 transceiver line-driver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
 $ENDCMP
 #
-$CMP ADM232A
-D Dual RS232 transceiver, Single 5V supply, 200kB/s
-K rs232 serial dual line driver transceiver
+$CMP ADM222
+D Dual RS232 driver/receiver, 5V supply, 200kb/s
+K rs232 transceiver 
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
-$CMP ADUM3160
-D Full/Low Speed 2.5kV USB Digital Isolator
-K USB isolation interface data
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf
+$CMP ADM232A
+D Dual RS232 driver/receiver, 5V supply, 200kb/s
+K rs232 transceiver line-driver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
-$CMP ADUM4160
-D Full/Low Speed, USB Digital Isolator, 5kV protection
-K usb isolation 
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
+$CMP ADM242
+D Dual RS232 driver/receiver, 5V supply, 200kb/s, separate shutdown/enable pins
+K rs232 transceiver 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
 $CMP ADuM1200BR
@@ -189,7 +189,8 @@ F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-
 $ENDCMP
 #
 $CMP LT1080
-D Advanced low power 5V RS232 Dual driver/receiver
+D Dual RS232 driver/receiver, 5V supply, 120kb/s
+K rs232 transceiver 
 F http://cds.linear.com/docs/en/datasheet/10801fe.pdf
 $ENDCMP
 #
@@ -242,13 +243,20 @@ F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
 $ENDCMP
 #
 $CMP MAX202
-D Driver de Ligne RS232
-K RS232
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max202.pdf
 $ENDCMP
 #
 $CMP MAX232
-D Dual RS232 transceiver
-K rs232 serial 
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
+$ENDCMP
+#
+$CMP MAX232I
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, -40C-80C
+K rs232 transceiver line-driver
 F http://www.ti.com/lit/ds/symlink/max232.pdf
 $ENDCMP
 #
@@ -312,27 +320,16 @@ K serial UART 232
 F https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf
 $ENDCMP
 #
-$CMP MCP100-TT
-D Microcontroller reset controller, push pull, active LOW reset output
-K microcontroller reset monitor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
-$ENDCMP
-#
-$CMP MCP101-TT
-D Microcontroller reset controller, push pull, active HIGH reset output
-K microcontroller reset monitor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
-$ENDCMP
-#
+
 $CMP MCP2551-I/P
-D 1Mbps CAN Transceiver, DIP-8 package
-K can transceiver
+D High-Speed CAN Transceiver, PDIP8
+K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
 $ENDCMP
 #
 $CMP MCP2551-I/SN
-D 1Mbps CAN Transceiver, SOIC-8 package
-K can transceiver
+D High-Speed CAN Transceiver, SO8
+K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
 $ENDCMP
 #
