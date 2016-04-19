@@ -1,8 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP LM5051
-D Low side OR-ing FET controller, -6V to +100V operation
-K power mosfet driver n-channel nmos gate
+D Low side OR-ing FET controller, -6V to -100V operation
+K negative low-side or-ing ideal-diode
 F http://www.ti.com/lit/ds/symlink/lm5051.pdf
 $ENDCMP
 #
@@ -122,26 +122,110 @@ $ENDCMP
 #
 $CMP LTC4440EMS8
 D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, MSOP-8 package
-K mosfet driver  
+K high-side mosfet-driver  
 F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
 $ENDCMP
 #
 $CMP LTC4440ES6
 D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6 package 
-K mosfet driver  
+K high-side mosfet-driver
 F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
 $ENDCMP
 #
 $CMP LTC4440IMS8
 D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +125°C, MSOP-8 package
-K mosfet driver  
+K high-side mosfet-driver
 F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
 $ENDCMP
 #
 $CMP LTC4440IS6
 D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6 package
-K mosfet driver  
+K high-side mosfet-driver
 F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+$ENDCMP
+#
+$CMP MCP100-270
+D Microcontroller reset monitor, 2.70V threshold, active low output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP100-300
+D Microcontroller reset monitor, 3.00V threshold, active low output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP100-315
+D Microcontroller reset monitor, 3.15V threshold, active low output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP100-450
+D Microcontroller reset monitor, 4.50V threshold, active low output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP100-460
+D Microcontroller reset monitor, 4.60V threshold, active low output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP100-475
+D Microcontroller reset monitor, 4.75V threshold, active low output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP100-485
+D Microcontroller reset monitor, 4.85V threshold, active low output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP101-270
+D Microcontroller reset monitor, 2.70V threshold, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP101-300
+D Microcontroller reset monitor, 3.00V threshold, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP101-315
+D Microcontroller reset monitor, 3.15V threshold, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP101-450
+D Microcontroller reset monitor, 4.50V threshold, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP101-460
+D Microcontroller reset monitor, 4.60V threshold, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP101-475
+D Microcontroller reset monitor, 4.75V threshold, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP101-485
+D Microcontroller reset monitor, 4.85V threshold, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
 $CMP MCP1415
