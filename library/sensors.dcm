@@ -1,38 +1,110 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 40PC015G
+D Gauge pressure sensor, 0 to 15PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility
+K gage gauge pressure sensor
+F http://www.honeywellscportal.com//index.php?ci_id=138832
+$ENDCMP
+#
+$CMP 40PC100G
+D Gauge pressure sensor, 0 to 100PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility
+K gage gauge pressure sensor
+F http://www.honeywellscportal.com//index.php?ci_id=138832
+$ENDCMP
+#
+$CMP 40PC150G
+D Gauge pressure sensor, 0 to 150PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility
+K gage gauge pressure sensor
+F http://www.honeywellscportal.com//index.php?ci_id=138832
+$ENDCMP
+#
+$CMP 40PC250G
+D Gauge pressure sensor, 0 to 250PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility
+K gage gauge pressure sensor
+F http://www.honeywellscportal.com//index.php?ci_id=138832
+$ENDCMP
+#
+$CMP A1101ELHL
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C 
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1101LLHL
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +125C 
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1102ELHL
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +85C 
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1102LLHL
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +125C 
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1103ELHL
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +85C 
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1103LLHL
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +125C 
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1104LLHL
+D Hall effect switch, unipolar, Bop=240G, Brp=200G, -40C to +125C 
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1106LLHL
+D Hall effect switch, unipolar, Bop=340G, Brp=240G, -40C to +125C 
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
 $CMP A1301EUA-T
 D Linear Hall Effect Sensor, SIP 3pin
-K Hall Sensor
+K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1301KLHLT-T
 D Linear Hall Effect Sensor, SOT-23W
-K Hall Sensor
+K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1301KUA-T
 D Linear Hall Effect Sensor, SIP 3pin
-K Hall Sensor
+K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1302ELHLT-T
 D Linear Hall Effect Sensor, SOT-23W
-K Hall Sensor
+K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1302KLHLT-T
 D Linear Hall Effect Sensor, SOT-23W
-K Hall Sensor
+K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1302KUA-T
 D Linear Hall Effect Sensor, SIP 3pin
-K Hall Sensor
+K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
@@ -228,10 +300,22 @@ K 3-Axis MEMS Gyroscope
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00036465.pdf
 $ENDCMP
 #
+$CMP LIS2DH
+D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface
+K 3-axis accelerometer spi mems
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf
+$ENDCMP
+#
 $CMP LIS331HH
-D 3-Axis Accelerometer, 6g/12g/24g range, 1000Hz, I2C and SPI interface
-K 3-axis accelerometer SPI I2C 
+D 3-Axis Accelerometer, 6/12/24g range, 1000Hz, I2C and SPI interface
+K 3-axis accelerometer spi i2c mems
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00250937.pdf
+$ENDCMP
+#
+$CMP LSM303D
+D I2C/SPI, 3D Accelerometer and 3D Magnetometer
+K Accelerometer Magnetometer MEMS
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00057547.pdf
 $ENDCMP
 #
 $CMP LSM303DLHC
@@ -246,28 +330,52 @@ K Thermocouple Converter
 F http://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/MAX31855.html#popuppdf
 $ENDCMP
 #
-$CMP MCP9700-TT
-D Linear active thermistor in SOT23-3 package
-K thermistor temperature sensor sot23-3 sot-23
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$CMP MCP9700T-E/LT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
 #
-$CMP MCP9700_LT
-D Linear active thermistor in SC70-5 package
-K linear active thermistor temperature sensor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$CMP MCP9700T-E/TT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
 #
-$CMP MCP9701-TT
-D Linear active thermistor in SOT23-3 package
-K linear active thermistor temperature sensor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$CMP MCP9700T-H/LT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
 #
-$CMP MCP9701_LT
-D Linear active thermistor in SC70-5 package
-K linear active thermistor temperature sensor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$CMP MCP9700T-H/TT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700AT-E/LT
+D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +125C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700AT-E/TT
+D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +125C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700AT-H/LT
+D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +150C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700AT-H/TT
+D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +150C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
 #
 $CMP MMA8653FCR1
@@ -280,6 +388,30 @@ $CMP MP45DT02
 D MEMS Omnidirectional Digital Microphone, HLGA-6
 K MEMS Microphone
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00025467.pdf
+$ENDCMP
+#
+$CMP MPXA6115A
+D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, SO package
+K absolute pressure sensor
+F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+$ENDCMP
+#
+$CMP MPXAZ6115A
+D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, media resistant gel, SO package
+K absolute pressure sensor
+F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+$ENDCMP
+#
+$CMP MPXH6115A
+D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, SSO package
+K absolute pressure sensor
+F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+$ENDCMP
+#
+$CMP MPXHZ6115A
+D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, media resistant gel, SSO package
+K absolute pressure sensor
+F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
 $ENDCMP
 #
 $CMP TMP411
