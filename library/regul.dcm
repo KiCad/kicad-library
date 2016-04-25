@@ -1852,16 +1852,70 @@ D Linear Regulator (adjustable)
 K POWER REGUL
 $ENDCMP
 #
-$CMP LT1761
-D MICROPOWER 150mA Regulator   tiny SOT-23 5-leads package
-K REGUL POWER
-F linear-tec\lt1761.pdf
+$CMP LT1761-1.2
+D MICROPOWER 1.2V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POWER LDO POSITIVE
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-1.5
+D MICROPOWER 1.5V 100mA LDO regulator TSOT-23 5-leads package
+K POWER LDO REGULATOR POSITIVE
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-1.8
+D MICROPOWER 1.8V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-2
+D MICROPOWER 2V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-2.5
+D MICROPOWER 2.5V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-2.8
+D MICROPOWER 2.8V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-3
+D MICROPOWER 3V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-3.3
+D MICROPOWER 3.3V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-5
+D MICROPOWER 5V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
 $ENDCMP
 #
 $CMP LT1761-BYP
-D MICROPOWER 150mA Regulator tiny SOT-23 5-leads package
-K REGUL POWER
-F linear-tec\lt1761.pdf
+D MICROPOWER 100mA LDO adjustable regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO adjustable
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-SD
+D MICROPOWER 100mA LDO adjustable regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO adjustable
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
 $ENDCMP
 #
 $CMP LT1964-BYP
