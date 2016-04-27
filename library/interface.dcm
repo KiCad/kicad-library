@@ -1,11 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AD5280
-D ANALOG DEVICES/TSSOP14
+D Digital potentiometer, 256 position, single output, I2C interface
+K digital potentiometer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
 $ENDCMP
 #
 $CMP AD5282
-D ANALOG DEVICES/TSSOP14
+D Digital potentiometer, 256 position, dual output, I2C interface
+K digital potentiometer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
 $ENDCMP
 #
 $CMP AD5282_ABC
@@ -34,6 +38,42 @@ $CMP AD9951
 D 14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48
 K Direct Digital Synthesizer DDS
 F http://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
+$ENDCMP
+#
+$CMP ADM101E
+D Single RS232 driver/receiver, 5V supply, 460kb/s
+K rs232 uart transceiver line-driver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
+$ENDCMP
+#
+$CMP ADM222
+D Dual RS232 driver/receiver, 5V supply, 200kb/s
+K rs232 uart transceiver 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+$ENDCMP
+#
+$CMP ADM232A
+D Dual RS232 driver/receiver, 5V supply, 200kb/s
+K rs232 uart transceiver line-driver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+$ENDCMP
+#
+$CMP ADM242
+D Dual RS232 driver/receiver, 5V supply, 200kb/s, separate shutdown/enable pins
+K rs232 uart transceiver 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+$ENDCMP
+#
+$CMP ADUM3160
+D Full/Low Speed, iCoupler USB Digital Isolator, 2.5kV protection
+K usb isolation
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf
+$ENDCMP
+#
+$CMP ADUM4160
+D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection
+K usb isolation 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
 $CMP ADuM1200BR
@@ -160,6 +200,12 @@ K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
 $ENDCMP
 #
+$CMP LT1080
+D Dual RS232 driver/receiver, 5V supply, 120kb/s
+K rs232 uart transceiver 
+F http://cds.linear.com/docs/en/datasheet/10801fe.pdf
+$ENDCMP
+#
 $CMP LTC2861
 D 20Mbps RS485 transceiver with tntegrated switchable termination
 K RS485
@@ -178,6 +224,30 @@ K Temperature Voltage Current Monitor I2C AFE
 F http://cds.linear.com/docs/en/datasheet/2990fd.pdf
 $ENDCMP
 #
+$CMP MAX13432EESD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 500kbps, SOIC-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MAX13432EETD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 500kbps, DFN-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MAX13433EESD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, SOIC-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MAX13433EETD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, DFN-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
 $CMP MAX13450E
 D 20Mbps RS485 transceiver with integrated switchable termination
 K RS485
@@ -185,13 +255,21 @@ F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
 $ENDCMP
 #
 $CMP MAX202
-D Driver de Ligne RS232
-K RS232
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max202.pdf
 $ENDCMP
 #
 $CMP MAX232
-D Driver de Ligne RS232
-K RS232
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
+$ENDCMP
+#
+$CMP MAX232I
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, -40C-80C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
 $ENDCMP
 #
 $CMP MAX31855EASA
@@ -234,6 +312,18 @@ $CMP MAX31855TASA
 D Cold Junction T-type Termocouple Interface, SPI, SO8
 K Cold Junction Termocouple Interface SPI
 F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX3226
+D Single RS232 driver/receiver, 3.0V to 5V supply, 250kb/s, AutoShutdown Plus, SSOP-16 package
+K rs232 uart transceiver 
+F https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf
+$ENDCMP
+#
+$CMP MAX3227
+D Single RS232 driver/receiver, 3.0V to 5V supply, 1Mb/s, AutoShutdown Plus, SSOP-16 package
+K rs232 uart transceiver 
+F https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf
 $ENDCMP
 #
 $CMP MCP2551-I/P
@@ -330,11 +420,6 @@ $CMP SP3485EP
 D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, DIP8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
-$ENDCMP
-#
-$CMP TMC809
-D Microcontroller reset monitor
-F microchip/TCM809_reset_controller.pdf
 $ENDCMP
 #
 $CMP XTR115U
