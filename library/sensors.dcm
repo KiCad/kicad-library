@@ -210,6 +210,30 @@ K current sense amplifier shunt high side bidirectional
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
 $ENDCMP
 #
+$CMP AS5048A
+D Magnetic position sensor, 14-bit, PWM output, SPI Interface
+K sensor magnetic hall position rotation spi
+F http://ams.com/eng/content/download/438523/1341157/file/AS5048_Datasheet.pdf
+$ENDCMP
+#
+$CMP AS5048B
+D Magnetic position sensor, 14-bit, PWM output, I2C Interface
+K sensor magnetic hall position rotation i2c
+F http://ams.com/eng/content/download/438523/1341157/file/AS5048_Datasheet.pdf
+$ENDCMP
+#
+$CMP AS5050A
+D Magnetic position sensor, 10-bit, SPI interface
+K sensor magnetic hall position rotation spi
+F http://ams.com/eng/content/download/552303/1541697/file/AS5050A_Datasheet_EN_v6.pdf
+$ENDCMP
+#
+$CMP AS5055A
+D Magnetic position sensor, 12-bit, SPI interface
+K sensor magnetic hall position rotation spi
+F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
+$ENDCMP
+#
 $CMP BMP085
 D 19-Bit Digital Barometer, LCC-8
 K Digital Barometer
@@ -312,6 +336,30 @@ K 3-axis accelerometer spi i2c mems
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00250937.pdf
 $ENDCMP
 #
+$CMP LMT84DCK
+D Analog temperature sensor, NTC, 0.4C accuracy, -5.5mV/C, -50C to +150C, 1.5 to 5.5V, SC-70-5 package
+K temperature sensor thermistor ntc
+F http://www.ti.com/lit/ds/symlink/lmt84.pdf
+$ENDCMP
+#
+$CMP LMT85DCK
+D Analog temperature sensor, NTC, 0.3C accuracy, -8.2mV/C, -50C to +150C, 1.8 to 5.5V, SC-70-5 package
+K temperature sensor thermistor ntc
+F http://www.ti.com/lit/ds/symlink/lmt85-q1.pdf
+$ENDCMP
+#
+$CMP LMT86DCK
+D Analog temperature sensor, NTC, 0.25C accuracy, -10.9mV/C, -50C to +150C, 2.2 to 5.5V, SC-70-5 package
+K temperature sensor thermistor ntc
+F http://www.ti.com/lit/ds/symlink/lmt86-q1.pdf
+$ENDCMP
+#
+$CMP LMT87DCK
+D Analog temperature sensor, NTC, 0.3C accuracy, -13.6mV/C, -50C to +150C, 2.7 to 5.5V, SC-70-5 package
+K temperature sensor thermistor ntc
+F http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf
+$ENDCMP
+#
 $CMP LSM303D
 D I2C/SPI, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
@@ -319,9 +367,9 @@ F http://www.st.com/web/en/resource/technical/document/datasheet/DM00057547.pdf
 $ENDCMP
 #
 $CMP LSM303DLHC
-D 16-bit 3 Axis Digital MEMS Accelerometer + Magnetometer, LGA-14
-K 3-Axis MEMS Accelerometer Magnetometer
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00027543.pdf
+D I2C, 3D Accelerometer and 3D Magnetometer
+K Accelerometer Magnetometer MEMS
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00027543.pdf
 $ENDCMP
 #
 $CMP MAX31855
