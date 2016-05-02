@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LT1366.S8
+D LT1366, Dual Precision Rail-to-Rail Input and Output Op Amps, .(C), SO-8
+K dual precision RRI RRO OpAmp
+F http://www.linear.com/product/LT1366
+$ENDCMP
+#
+$CMP LT1368.S8
+D LT1368, Dual Precision Rail-to-Rail Input and Output Op Amps, .(C), SO-8
+K dual precision RRI RRO OpAmp
+F http://www.linear.com/product/LT1368
+$ENDCMP
+#
+$CMP LT1367.S
+D LT1367, Quad Precision Rail-to-Rail Input and Output Op Amps, .(C), SO-14
+K quad precision RRI RRO OpAmp
+F http://www.linear.com/product/LT1367
+$ENDCMP
+#
+$CMP LT1369.S
+D LT1369, Quad Precision Rail-to-Rail Input and Output Op Amps, .(C), SO-14
+K quad precision RRI RRO OpAmp
+F http://www.linear.com/product/LT1369
+$ENDCMP
+#
 $CMP LT1468.DD
 D LT1468, 90MHz, 22V/μs 16-Bit Accurate Operational Amplifier, .(C, I), DFN-8-1E
 K 90MHz ADC OpAmp
@@ -1038,6 +1062,12 @@ K High Voltage 42V Buck monolithic synchronous monitor control
 F http://www.linear.com/product/LT8613
 $ENDCMP
 #
+$CMP LT8614.UDC
+D LT8614, 42V, 4A Synchronous Step-Down Silent Switcher with 2.5μA Quiescent Current, QFN-18-EPAA
+K 42V, 4A Synchronous Step-Down Silent Switcher Buck
+F http://www.linear.com/product/LT8614
+$ENDCMP
+#
 $CMP LT8631.FE
 D LT8631, 100V, 1A Synchronous Micropower Step-Down Regulator, TSSOP-20-1E
 K High Voltage 100V 1A Buck monolithic synchronous
@@ -1045,7 +1075,13 @@ F http://www.linear.com/product/LT8631
 $ENDCMP
 #
 $CMP LT8640.UDC
-D LT8640, 42V, 5A Synchronous Step-Down Silent Switcher with 2.5μA Quiescent Current, QFN-22-LT
+D LT8640, 42V, 5A Synchronous Step-Down Silent Switcher with 2.5μA Quiescent Current, QFN-18-EPAA
+K 42V, 5A Synchronous Step-Down Silent Switcher Buck
+F http://www.linear.com/product/LT8640
+$ENDCMP
+#
+$CMP LT8640.UDC-1
+D LT8640-1, 42V, 5A Synchronous Step-Down Silent Switcher with 2.5μA Quiescent Current, QFN-18-EPAA
 K 42V, 5A Synchronous Step-Down Silent Switcher Buck
 F http://www.linear.com/product/LT8640
 $ENDCMP
@@ -1156,6 +1192,42 @@ $CMP LTC2052HV.S
 D LTC2052HV, Quad Zero-Drift Operational Amplifiers, Offset 3μV, Offset Drift 30nV/°C OpAmp, .(C, I, H), SO-14
 K quad zero-drift chopper OpAmp
 F http://www.linear.com/product/LTC2052
+$ENDCMP
+#
+$CMP LTC2310.MSE-12
+D LTC2310-12, 12-Bit, 2Msps Differential Input ADC with Wide Input Common Mode Range, MSOP-16-1E
+K 12-Bit, 2Msps, differential SAR ADC SPI LVDS
+F http://www.linear.com/product/LTC2310-12
+$ENDCMP
+#
+$CMP LTC2310.MSE-14
+D LTC2310-14, 14-Bit, 2Msps Differential Input ADC with Wide Input Common Mode Range, MSOP-16-1E
+K 14-Bit, 2Msps, differential SAR ADC SPI LVDS
+F http://www.linear.com/product/LTC2310-14
+$ENDCMP
+#
+$CMP LTC2310.MSE-16
+D LTC2310-16, 16-Bit, 2Msps Differential Input ADC with Wide Input Common Mode Range, MSOP-16-1E
+K 16-Bit, 2Msps, differential SAR ADC SPI LVDS
+F http://www.linear.com/product/LTC2310-16
+$ENDCMP
+#
+$CMP LTC2311.MSE-12
+D LTC2311-12, 12-Bit, 5Msps Differential Input ADC with Wide Input Common Mode Range, MSOP-16-1E
+K 12-Bit, 5Msps, differential SAR ADC SPI LVDS
+F http://www.linear.com/product/LTC2311-12
+$ENDCMP
+#
+$CMP LTC2311.MSE-14
+D LTC2311-14, 14-Bit, 5Msps Differential Input ADC with Wide Input Common Mode Range, MSOP-16-1E
+K 14-Bit, 5Msps, differential SAR ADC SPI LVDS
+F http://www.linear.com/product/LTC2311-14
+$ENDCMP
+#
+$CMP LTC2311.MSE-16
+D LTC2311-16, 16-Bit, 5Msps Differential Input ADC with Wide Input Common Mode Range, MSOP-16-1E
+K 16-Bit, 5Msps, differential SAR ADC SPI LVDS
+F http://www.linear.com/product/LTC2311-16
 $ENDCMP
 #
 $CMP LTC2312.TS8-12
@@ -2010,6 +2082,54 @@ K Dual Step-Down Synchronous Controller VID DCR Sensing Buck
 F http://www.linear.com/product/LTC3877
 $ENDCMP
 #
+$CMP LTC4380.DD-1
+D LTC4380-1, Low Quiescent Current Surge Stopper, Fixed, Latch-Off, DFN-10-1E
+K surge stopper fixed latch-off
+F http://www.linear.com/product/LTC4380
+$ENDCMP
+#
+$CMP LTC4380.DD-2
+D LTC4380-2, Low Quiescent Current Surge Stopper, Fixed, Retry, DFN-10-1E
+K surge stopper fixed retry
+F http://www.linear.com/product/LTC4380
+$ENDCMP
+#
+$CMP LTC4380.DD-3
+D LTC4380-3, Low Quiescent Current Surge Stopper, Adjustable, Latch-Off, DFN-10-1E
+K surge stopper adjustable latch-off
+F http://www.linear.com/product/LTC4380
+$ENDCMP
+#
+$CMP LTC4380.DD-4
+D LTC4380-4, Low Quiescent Current Surge Stopper, Adjustable, Retry, DFN-10-1E
+K surge stopper adjustable retry
+F http://www.linear.com/product/LTC4380
+$ENDCMP
+#
+$CMP LTC4380.MS-1
+D LTC4380-1, Low Quiescent Current Surge Stopper, Fixed, Latch-Off, MSOP-10
+K surge stopper fixed latch-off
+F http://www.linear.com/product/LTC4380
+$ENDCMP
+#
+$CMP LTC4380.MS-2
+D LTC4380-2, Low Quiescent Current Surge Stopper, Fixed, Retry, MSOP-10
+K surge stopper fixed retry
+F http://www.linear.com/product/LTC4380
+$ENDCMP
+#
+$CMP LTC4380.MS-3
+D LTC4380-3, Low Quiescent Current Surge Stopper, Adjustable, Latch-Off, MSOP-10
+K surge stopper adjustable latch-off
+F http://www.linear.com/product/LTC4380
+$ENDCMP
+#
+$CMP LTC4380.MS-4
+D LTC4380-4, Low Quiescent Current Surge Stopper, Adjustable, Retry, MSOP-10
+K surge stopper adjustable retry
+F http://www.linear.com/product/LTC4380
+$ENDCMP
+#
 $CMP LTC6078.DD
 D LTC6078, Dual Micropower Precision CMOS Rail-to-Rail Input/Output Amplifiers, .(C, I), DFN-10-1E
 K dual Micropower Precision CMOS RRI RRO OpAmp
@@ -2766,8 +2886,14 @@ K 20V 5A Step-Down DC/DC Buck μModule Regulator
 F http://www.linear.com/product/LTM4625
 $ENDCMP
 #
+$CMP LTM4642.Y
+D LTM4642, Dual 20VIN, Dual 4A or Single 8A DC/DC μModule Regulator, BGA-56
+K Dual DC/DC μModule Regulator 4A Array Buck
+F http://www.linear.com/product/LTM4642
+$ENDCMP
+#
 $CMP LTM4644.Y
-D LTM4644, Quad DC/DC μModule Regulator with Configurable 4A Output Array, LGA-25
+D LTM4644, Quad DC/DC μModule Regulator with Configurable 4A Output Array, BGA-77
 K Quad DC/DC μModule Regulator 4A Array Buck
 F http://www.linear.com/product/LTM4644
 $ENDCMP
