@@ -5,9 +5,15 @@ D CDA 8 bits
 K CDA
 $ENDCMP
 #
+$CMP 4558
+D Dual Op amp (general purpose)
+K ampliop
+F http://www.ti.com/lit/ds/symlink/rc4558.pdf
+$ENDCMP
+#
 $CMP AD620
 D Instrumentation amplifier
-K INSTRUMENTATION
+K Instrumentation OpAmp
 F analog-dev/AD620.pdf
 $ENDCMP
 #
@@ -127,6 +133,7 @@ $ENDCMP
 #
 $CMP ADA4075
 D Very low noise audio op amp
+K ampliop low-power
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
@@ -143,14 +150,15 @@ F http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf
 $ENDCMP
 #
 $CMP CA3130
-D Ampli Op Mos
+D 15MHz, BiMOS Operational Amplifier with MOSFET Input/CMOS Output
 K AmpliOp Mos
-F AmpliOp.sch
+F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3130-a.pdf
 $ENDCMP
 #
 $CMP CA3140
-D Ampli Op Mos
+D 4.5MHz, BiMOS Operational Amplifier with MOSFET Input/Bipolar Output
 K AmpliOp Mos
+F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3140-a.pdf
 $ENDCMP
 #
 $CMP LF398
@@ -161,11 +169,6 @@ $ENDCMP
 $CMP LH0002H
 D High speed analog Buffer 
 K Buffer
-$ENDCMP
-#
-$CMP LM101H
-D Ampli Op
-K AmpliOp
 $ENDCMP
 #
 $CMP LM13700
@@ -244,7 +247,7 @@ $ENDCMP
 #
 $CMP LM339
 D Quad comparator.
-K Comp
+K Comp diff
 F op_amps/lm139.pdf
 $ENDCMP
 #
@@ -261,8 +264,9 @@ F ns/lm158.pdf
 $ENDCMP
 #
 $CMP LM386
-D Audio Power Amp.
-K Audio Power
+D Low Voltage Audio Power Amp.
+K Audio Power OpAmp
+F http://www.ti.com/lit/ds/symlink/lm386.pdf
 $ENDCMP
 #
 $CMP LM393
@@ -272,25 +276,27 @@ F ns/lm193.pdf
 $ENDCMP
 #
 $CMP LM555N
+D 555-series timer IC
+K timer
 F ns/lm555.pdf
 $ENDCMP
 #
 $CMP LM6161
 D Op Amp.
 K AmpliOp
-F AmpliOp.sch
+F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
 $CMP LM6261
 D Op Amp.
 K AmpliOp
-F AmpliOp.sch
+F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
 $CMP LM6361
 D Op Amp.
 K AmpliOp
-F AmpliOp.sch
+F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
 $CMP LM7332
@@ -302,6 +308,7 @@ $ENDCMP
 $CMP LM733CH
 D Differential Video amp
 K Video Diff
+F http://www.soemtron.org/downloads/disposals/lm733cn.pdf
 $ENDCMP
 #
 $CMP LM741
@@ -429,6 +436,18 @@ K op amp amplifier operational
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
 $ENDCMP
 #
+$CMP NE5532
+D Dual Op amp (low noice)
+K ampliop
+F http://www.ti.com/lit/ds/symlink/ne5532.pdf
+$ENDCMP
+#
+$CMP NE555
+D 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
 $CMP OP275
 D Dual bipolar audio Op Amp ±22V Input
 K operational amplifier 
@@ -448,13 +467,15 @@ F op_amps/tl071.pdf
 $ENDCMP
 #
 $CMP TL072
-D Dual Op amp (low power)
+D Low-Noise Dual Op amp (low power)
 K ampliop
+F http://www.ti.com/lit/ds/symlink/tl074.pdf
 $ENDCMP
 #
 $CMP TL074
-D Quad Op amp. Mos
+D Wide-bandwidth (10 MHz) high-output-drive Quad Op amp. Mos
 K AmpliOp Mos
+F http://www.ti.com/lit/ds/symlink/tlc074.pdf
 $ENDCMP
 #
 $CMP TL081
@@ -464,13 +485,15 @@ F op_amps/tl081.pdf
 $ENDCMP
 #
 $CMP TL082
-D Dual Op amp (Cmos)
+D Wide Bandwidth Dual Op amp (Cmos)
 K ampliop
+F http://www.ti.com/lit/ds/symlink/tl082-n.pdf
 $ENDCMP
 #
 $CMP TLC274
-D Quad Op amp. Mos
+D Precision Quad Op amp. Mos
 K AmpliOp Mos
+F http://www.ti.com.cn/cn/lit/ds/symlink/tlc274.pdf
 $ENDCMP
 #
 $CMP TLV272
