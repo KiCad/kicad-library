@@ -577,13 +577,13 @@ $ENDCMP
 #
 $CMP SPST
 D Switch Single Pole Single Throw
-K sw single spst
+K switch single spst
 F ~
 $ENDCMP
 #
 $CMP SPST_Small
 D Switch Single Pole Single Throw, small symbol
-K sw single spst
+K switch single spst
 F ~
 $ENDCMP
 #
@@ -601,7 +601,8 @@ $ENDCMP
 #
 $CMP Switch_DPST
 D Double Pole Single Throw (DPST) Switch
-K switch
+K switch dual
+F ~
 $ENDCMP
 #
 $CMP Switch_SPDT
@@ -621,8 +622,8 @@ D Double Single Pole Double Throw (SPDT) switch
 $ENDCMP
 #
 $CMP THERMISTOR
-D Resistance
-K R DEV
+D Thermistor, temperature-dependent resistor
+K R thermistor
 $ENDCMP
 #
 $CMP THYRISTOR
