@@ -120,6 +120,12 @@ K ARM Stellaris Cortex M4 MCU NRND
 F http://www.ti.com/lit/ds/symlink/tm4c1230h6pm.pdf
 $ENDCMP
 #
+$CMP TLC555
+D CMOS Timer
+K Timer NE555
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
 $CMP TM4C1230C3PM
 D Tiva ARM 32bit CortexM4 Microcotroller, 80MHz, 32kB Flash, 12kB SRAM, 2k EEPROM, LQFP64
 K ARM Tiva Cortex M4 MCU
@@ -172,6 +178,18 @@ $CMP TMS470R1B768
 D ARM7TDM Microcontroller, 768KB Flash, 48KB RAM, PQFP-144
 K ARM 7TDM uC TMS470
 F http://www.ti.com/lit/ds/symlink/tms470r1b768.pdf
+$ENDCMP
+#
+$CMP TS5A3159
+D 1-Ohm SPDT Analog Switch, Break-Before-Make
+K SDPT Switch
+F http://www.ti.com/lit/ds/symlink/ts5a3159.pdf
+$ENDCMP
+#
+$CMP TS5A3160
+D 1-Ohm SPDT Analog Switch, Make-Before-Break
+K SDPT Switch
+F http://www.ti.com/lit/ds/symlink/ts5a3160.pdf
 $ENDCMP
 #
 $CMP TUSB2036
