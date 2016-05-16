@@ -846,11 +846,6 @@ K 300mA LDO Regulator Fixed Positive
 F http://www.a-powerusa.com/docs/APE8865-3.pdf
 $ENDCMP
 #
-$CMP BQ2003
-D Controleur de chargeur de batteries
-F regulator\bq2003.pdf
-$ENDCMP
-#
 $CMP IS31LT3360
 D Constant current  LED driver, internal switch, up to 40V/1.2A, SOT-89-5
 K Switching LED driver
@@ -1857,16 +1852,70 @@ D Linear Regulator (adjustable)
 K POWER REGUL
 $ENDCMP
 #
-$CMP LT1761
-D MICROPOWER 150mA Regulator   tiny SOT-23 5-leads package
-K REGUL POWER
-F linear-tec\lt1761.pdf
+$CMP LT1761-1.2
+D MICROPOWER 1.2V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POWER LDO POSITIVE
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-1.5
+D MICROPOWER 1.5V 100mA LDO regulator TSOT-23 5-leads package
+K POWER LDO REGULATOR POSITIVE
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-1.8
+D MICROPOWER 1.8V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-2
+D MICROPOWER 2V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-2.5
+D MICROPOWER 2.5V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-2.8
+D MICROPOWER 2.8V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-3
+D MICROPOWER 3V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-3.3
+D MICROPOWER 3.3V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-5
+D MICROPOWER 5V 100mA LDO regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
 $ENDCMP
 #
 $CMP LT1761-BYP
-D MICROPOWER 150mA Regulator tiny SOT-23 5-leads package
-K REGUL POWER
-F linear-tec\lt1761.pdf
+D MICROPOWER 100mA LDO adjustable regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO adjustable
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761-SD
+D MICROPOWER 100mA LDO adjustable regulator TSOT-23 5-leads package
+K REGULATOR POSITIVE POWER LDO adjustable
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
 $ENDCMP
 #
 $CMP LT1964-BYP
@@ -1926,23 +1975,44 @@ $ENDCMP
 #
 $CMP LTC3525
 D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
-F linear-tec\ltc3525.pdf
+K boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+$ENDCMP
+#
+$CMP LTC3525-3
+D Fixed 3V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+$ENDCMP
+#
+$CMP LTC3525-3.3
+D Fixed 3V3, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+$ENDCMP
+#
+$CMP LTC3525-5
+D Fixed 5V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+$ENDCMP
+#
+$CMP LTC3525D-3.3
+D Fixed 3V3, 400mA Micropower Synchronous Step-Up DC/DC Converter with Pass Through Mode
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525d33fb.pdf
+$ENDCMP
+#
+$CMP LTC3525L-3
+D Fixed 3V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525laf.pdf
 $ENDCMP
 #
 $CMP LT_1129_QP
 D LowDrop Linear Regulator (QPACK 5 pins)
 K REGUL POWER
 F linear-tec/lt1129.pdf
-$ENDCMP
-#
-$CMP MAX1647
-D Battery Charger
-F maxim\MAX1647-MAX1648.pdf
-$ENDCMP
-#
-$CMP MAX1648
-D Battery Charger
-F maxim\MAX1647-MAX1648.pdf
 $ENDCMP
 #
 $CMP MAX1658ESA
@@ -2122,30 +2192,6 @@ $CMP MCP1754ST-5002E/MB
 D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
-$ENDCMP
-#
-$CMP MCP73811T-420I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MCP73811T-435I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MCP73812T-420I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MCP73812T-435I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
 $ENDCMP
 #
 $CMP MIC2026
