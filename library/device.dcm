@@ -22,7 +22,7 @@ $ENDCMP
 #
 $CMP CRYSTAL_SMD
 D SMD crystal, with GND pin
-K dev oscillator quartz
+K oscillator quartz
 $ENDCMP
 #
 $CMP CTRIM
@@ -55,7 +55,7 @@ $ENDCMP
 #
 $CMP DUAL_POT
 D Potentiometer, dual
-K dev r variable
+K resistor variable
 $ENDCMP
 #
 $CMP D_Schottky
@@ -67,68 +67,68 @@ D Diode Schottky
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_AKK
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, common anode
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_KAK
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, common anode 
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_KKA
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, common anode
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_KCom_AAK
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, common cathode
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_KCom_AKA
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, common cathode
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_KCom_KAA
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, common cathode
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_ACK
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_AKC
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, 
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_CAK
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, 
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_CKA
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, 
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_KAC
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, 
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_KCA
-D Double diode Schottky (Serie)
-K DEV DIODE
+D Dual schottky diode, 
+K diode
 $ENDCMP
 #
 $CMP D_Small
 D Diode
-K dev diode
+K diode
 $ENDCMP
 #
 $CMP Darl_NPN
@@ -143,12 +143,12 @@ $ENDCMP
 #
 $CMP EMI_FILTER
 D EMI Filter
-K dev emi
+K emi
 $ENDCMP
 #
 $CMP EMI_FILTER_Small
 D EMI Filter
-K dev emi
+K emi
 F ~
 $ENDCMP
 #
@@ -163,7 +163,7 @@ $ENDCMP
 #
 $CMP FUSE
 D Fuse, generic
-K dev fuse
+K fuse
 $ENDCMP
 #
 $CMP F_Small
@@ -172,22 +172,22 @@ $ENDCMP
 #
 $CMP INDUCTOR
 D Inductor
-K dev inductor
+K inductor
 $ENDCMP
 #
 $CMP INDUCTOR_SMALL
 D Inductor, small symbol
-K dev inductor
+K inductor
 $ENDCMP
 #
 $CMP JUMPER
 D Jumper generic NC
-K dev jumper bridge
+K jumper bridge
 $ENDCMP
 #
 $CMP JUMPER3
 D Dual Jumper, NC
-K dev jumper bridge
+K jumper bridge
 $ENDCMP
 #
 $CMP Jumper_NC_Small
@@ -552,7 +552,7 @@ $ENDCMP
 #
 $CMP SCHDPAK
 D Diode schotty - cms
-K DIODE SCHOTTKY CMS
+K diode SCHOTTKY CMS
 $ENDCMP
 #
 $CMP SCR
@@ -622,12 +622,12 @@ $ENDCMP
 #
 $CMP THYRISTOR
 D Diode simple
-K DEV DIODE
+K diode
 $ENDCMP
 #
 $CMP TVS
 D Transient voltage suppressor diode (bi-directional)
-K dev tvs esd
+K tvs esd
 $ENDCMP
 #
 $CMP VARICAP
@@ -643,13 +643,13 @@ $ENDCMP
 #
 $CMP ZENER
 D Diode zener
-K DEV DIODE
+K diode
 F ~
 $ENDCMP
 #
 $CMP ZENERsmall
 D Zener diode, small symbol
-K dev diode zener
+K diode zener
 F ~
 $ENDCMP
 #
