@@ -541,12 +541,12 @@ $ENDCMP
 #
 $CMP R_PACK4
 D 4 resistors Pack
-K R DEV
+K r
 $ENDCMP
 #
 $CMP R_PACK8
 D 8 resistors Pack
-K R DEV
+K r
 $ENDCMP
 #
 $CMP R_Small
@@ -577,48 +577,49 @@ $ENDCMP
 #
 $CMP SPST
 D Switch Single Pole Single Throw
-K switch single spst
+K switch single-pole single-throw spst
 F ~
 $ENDCMP
 #
 $CMP SPST_Small
 D Switch Single Pole Single Throw, small symbol
-K switch single spst
+K switch single-pole single-throw spst
 F ~
 $ENDCMP
 #
 $CMP SW_PUSH
 D Button, generic, normally open
-K switch push no
+K switch push normally-open
 F ~
 $ENDCMP
 #
 $CMP SW_PUSH_SMALL
 D button, generic, small symbol
-K switch no push
+K switch normally-open push
 F ~
 $ENDCMP
 #
 $CMP Switch_DPST
 D Double Pole Single Throw (DPST) Switch
-K switch dual
+K switch dual double-pole single-throw
 F ~
 $ENDCMP
 #
 $CMP Switch_SPDT
 D Switch Single Pole Double Throw
-K switch double spdt
+K switch single-pole double-throw spdt
 F ~
 $ENDCMP
 #
 $CMP Switch_SPDT_MSM
 D Switch Single Pole Double Throw, with centre OFF position
-K switch spdt
+K switch spdt single-pole double-throw
 F ~
 $ENDCMP
 #
 $CMP Switch_SPDT_x2
-D Double Single Pole Double Throw (SPDT) switch
+D Dual Single Pole Double Throw (SPDT) switch
+K switch single-pole double-throw spdt
 $ENDCMP
 #
 $CMP THERMISTOR
@@ -638,7 +639,7 @@ $ENDCMP
 #
 $CMP VARICAP
 D Variable capacitor
-K cap
+K capacitor
 F ~
 $ENDCMP
 #
