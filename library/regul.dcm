@@ -2327,12 +2327,9 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
 $ENDCMP
 #
 $CMP TC1186
-D 150mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
-K LDO regulator voltage 
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
-$CMP TL431
 D Programmable precision reference
 K REF
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
 $ENDCMP
 #
 $CMP TC1262-25VDB
@@ -2363,6 +2360,12 @@ $CMP TC1262-50VDB
 D 500mA Low Dropout CMOS Voltage Regulator, Fixed Output 5.0V, SOT-223
 K Voltage Regulator 5.0V 500mA Positive CMOS LDO Microchip
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf
+$ENDCMP
+#
+$CMP TL431
+D Precision Programmable Reference
+K regulator
+F http://www.ti.com/lit/ds/symlink/tl431.pdf
 $ENDCMP
 #
 $CMP TL497
