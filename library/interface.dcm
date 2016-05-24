@@ -64,12 +64,6 @@ K rs232 uart transceiver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
-$CMP ADM3053
-D Isolated CAN Transceiver, integrated isolated DC-DC converter, 1Mbps
-K can transceiver isolated protected
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf
-$ENDCMP
-#
 $CMP ADUM3160
 D Full/Low Speed, iCoupler USB Digital Isolator, 2.5kV protection
 K usb isolation
@@ -81,7 +75,6 @@ D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection
 K usb isolation 
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
-#
 #
 $CMP ADuM1200BR
 D Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
@@ -219,18 +212,6 @@ K RS485
 F linear-tec\ltc2859-2861.pdf
 $ENDCMP
 #
-$CMP LTC2875-DD
-D High-Speed CAN Transceiver, 4Mbps, 3.3V or 5V supply, DFN8 package
-K High-Speed CAN Transceiver
-F http://cds.linear.com/docs/en/datasheet/2875f.pdf
-$ENDCMP
-#
-$CMP LTC2875-S8
-D High-Speed CAN Transceiver, 4Mbps, 3.3V or 5V supply, SOIC8 package
-K High-Speed CAN Transceiver
-F http://cds.linear.com/docs/en/datasheet/2875f.pdf
-$ENDCMP
-#
 $CMP LTC2983
 D Multi-Sensor Temperature Measurement System, High Accuracy, LQFP-48 (7x7mm)
 K Flexible Temperature Measurement RTD NTC Cold Junction Termocouple
@@ -291,12 +272,6 @@ K rs232 uart transceiver line-driver
 F http://www.ti.com/lit/ds/symlink/max232.pdf
 $ENDCMP
 #
-$CMP MAX3051
-D High-Speed CAN Transceiver, 1Mbps, 3.3V supply
-K High-Speed CAN Transceiver
-F http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf
-$ENDCMP
-#
 $CMP MAX31855EASA
 D Cold Junction E-type Termocouple Interface, SPI, SO8
 K Cold Junction Termocouple Interface SPI
@@ -339,12 +314,6 @@ K Cold Junction Termocouple Interface SPI
 F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
 $ENDCMP
 #
-$CMP MAX3221
-D RS232 transceiver with 15kV ESD protection
-K serial UART 232 
-F http://www.ti.com/lit/ds/symlink/max3221.pdf
-$ENDCMP
-#
 $CMP MAX3226
 D Single RS232 driver/receiver, 3.0V to 5V supply, 250kb/s, AutoShutdown Plus, SSOP-16 package
 K rs232 uart transceiver 
@@ -357,89 +326,16 @@ K rs232 uart transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf
 $ENDCMP
 #
-
 $CMP MCP2551-I/P
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, PDIP8 package
+D High-Speed CAN Transceiver, PDIP8
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
 $ENDCMP
 #
 $CMP MCP2551-I/SN
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC8 package
+D High-Speed CAN Transceiver, SO8
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
-$ENDCMP
-#
-$CMP MCP2561-E/MF
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, DFN8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2561-E/P
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, DIP8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2561-E/SN
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, SOIC8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2561-H/MF
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +150C, DFN8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2561-H/P
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +150C, DIP8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2561-H/SN
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +150C, SOIC8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2562-E/MF
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DFN8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2562-E/P
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DIP8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2562-E/SN
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2562-H/MF
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, DFN8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2562-H/P
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, DIP8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP2562-H/SN
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, SOIC8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
 $CMP MCP41010
