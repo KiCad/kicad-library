@@ -20,11 +20,6 @@ $CMP CP_Small
 D Polarised capacitor
 $ENDCMP
 #
-$CMP CRYSTAL_SMD
-D SMD crystal, with GND pin
-K oscillator quartz
-$ENDCMP
-#
 $CMP CTRIM
 D Variable capacitor
 K trimmer
@@ -54,8 +49,8 @@ D Diode
 $ENDCMP
 #
 $CMP DUAL_POT
-D Potentiometer, dual
-K resistor variable
+D Potentionmetre
+K R
 $ENDCMP
 #
 $CMP D_Schottky
@@ -67,68 +62,67 @@ D Diode Schottky
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_AKK
-D Dual schottky diode, common anode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_KAK
-D Dual schottky diode, common anode 
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_KKA
-D Dual schottky diode, common anode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_KCom_AAK
-D Dual schottky diode, common cathode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_KCom_AKA
-D Dual schottky diode, common cathode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_KCom_KAA
-D Dual schottky diode, common cathode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_ACK
-D Dual schottky diode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_AKC
-D Dual schottky diode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_CAK
-D Dual schottky diode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_CKA
-D Dual schottky diode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_KAC
-D Dual schottky diode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_KCA
-D Dual schottky diode
-K diode
+D Double diode Schottky (Serie)
+K DEV DIODE
 $ENDCMP
 #
 $CMP D_Small
 D Diode
-K diode
 $ENDCMP
 #
 $CMP Darl_NPN
@@ -142,54 +136,26 @@ K Graetz
 $ENDCMP
 #
 $CMP EMI_FILTER
-D EMI Filter
-K emi
+D Filtre EMI
+K EMI
 $ENDCMP
 #
-$CMP EMI_FILTER_Small
-D EMI Filter
-K emi
-F ~
+$CMP EMI_FILTER2
+D Filtre EMI
+K EMI
 $ENDCMP
 #
 $CMP FILTER
-D EMI Filter
-K emi
+D Filtre EMI
+K EMI
 $ENDCMP
 #
 $CMP FP_Small
-D Fuse, polarised
-K fuse
-$ENDCMP
-#
-$CMP FUSE
-D Fuse, generic
-K fuse
+D Fuse polarised
 $ENDCMP
 #
 $CMP F_Small
-D Fuse, small symbol
-K fuse
-$ENDCMP
-#
-$CMP INDUCTOR
-D Inductor
-K inductor
-$ENDCMP
-#
-$CMP INDUCTOR_SMALL
-D Inductor, small symbol
-K inductor
-$ENDCMP
-#
-$CMP JUMPER
-D Jumper generic NC
-K jumper bridge
-$ENDCMP
-#
-$CMP JUMPER3
-D Dual Jumper, NC
-K jumper bridge
+D Fuse
 $ENDCMP
 #
 $CMP Jumper_NC_Small
@@ -203,50 +169,43 @@ K Jumper, Link
 $ENDCMP
 #
 $CMP LED
-D LED generic
-K led diode
-F ~
+K LED
 $ENDCMP
 #
 $CMP LED_RABG
-D LED, RGB, common anode
-K RGB LED diode
+D Common Anode RGB LED
+K RGB LED
 $ENDCMP
 #
 $CMP LED_RCBG
-D LED, RGB, common cathode
-K RGB LED diode
+D Common Cathode RGB LED
+K RGB LED
 $ENDCMP
 #
 $CMP LED_RGB
 D LED RGB 6 pins
-K led rgb diode
 $ENDCMP
 #
 $CMP LED_RGB_EP
 D LED RGB 6 pins, exposed pad
-K led rgb diode
-$ENDCMP
-#
-$CMP LED_Small
-D LED small symbol
-K led diode
-F ~
 $ENDCMP
 #
 $CMP L_Small
 D Inductor
-K inductor
 $ENDCMP
 #
 $CMP Led_RGB_CA
 D Common Anode RGB LED
-K led rgb diode
+K RGB LED
+$ENDCMP
+#
+$CMP Led_Small
+D Led
 $ENDCMP
 #
 $CMP Led_x2
-D LED dual, common cathode
-K led diode bicolor dual
+D DOUBLE type Bicolore
+K LED
 $ENDCMP
 #
 $CMP PHOTORESISTOR
@@ -254,13 +213,8 @@ D Photo resistor
 $ENDCMP
 #
 $CMP POT
-D Potentionmeter
-K resistor variable
-$ENDCMP
-#
-$CMP Photores
-D Photoresistor
-K resistor variable
+D Potentionmetre
+K R
 $ENDCMP
 #
 $CMP Q_NIGBT_CEG
@@ -525,39 +479,31 @@ $ENDCMP
 #
 $CMP R
 D Resistor
-K r
-F ~
+K R DEV
 $ENDCMP
 #
 $CMP RR8
 D 8 resistors
-K r
-$ENDCMP
-#
-$CMP RVAR
-D Variable resistor
-K resistor var potentiometer
+K R DEV
 $ENDCMP
 #
 $CMP R_PACK4
 D 4 resistors Pack
-K r
+K R DEV
 $ENDCMP
 #
 $CMP R_PACK8
 D 8 resistors Pack
-K r
+K R DEV
 $ENDCMP
 #
 $CMP R_Small
-D Resistor, small symbol
-K r resistor 
-F ~
+D Resistor
 $ENDCMP
 #
 $CMP SCHDPAK
 D Diode schotty - cms
-K diode SCHOTTKY CMS
+K DIODE SCHOTTKY CMS
 $ENDCMP
 #
 $CMP SCR
@@ -569,78 +515,48 @@ D 3 position switch, SP3T
 K switch SP3T
 $ENDCMP
 #
-$CMP SPEAKER
-D Speaker, generic, 2-pin
-K speaker audio
-F ~
-$ENDCMP
-#
 $CMP SPST
-D Switch Single Pole Single Throw
-K switch single-pole single-throw spst
-F ~
+D Interrupteur simple
+K switch
 $ENDCMP
 #
-$CMP SPST_Small
-D Switch Single Pole Single Throw, small symbol
-K switch single-pole single-throw spst
-F ~
+$CMP SWITCH_INV
+D inverseur
+K switch
+$ENDCMP
+#
+$CMP SWITCH_INV_MSM
+D Switch inverseur M S M
+K switch
 $ENDCMP
 #
 $CMP SW_PUSH
-D Button, generic, normally open
-K switch push normally-open
-F ~
-$ENDCMP
-#
-$CMP SW_PUSH_SMALL
-D button, generic, small symbol
-K switch normally-open push
-F ~
+D Button
+K Switch
 $ENDCMP
 #
 $CMP Switch_DPST
 D Double Pole Single Throw (DPST) Switch
-K switch dual double-pole single-throw
-F ~
-$ENDCMP
-#
-$CMP Switch_SPDT
-D Switch Single Pole Double Throw
-K switch single-pole double-throw spdt
-F ~
-$ENDCMP
-#
-$CMP Switch_SPDT_MSM
-D Switch Single Pole Double Throw, with centre OFF position
-K switch spdt single-pole double-throw
-F ~
+K switch
 $ENDCMP
 #
 $CMP Switch_SPDT_x2
-D Dual Single Pole Double Throw (SPDT) switch
-K switch single-pole double-throw spdt
+D Double Single Pole Double Throw (SPDT) switch
 $ENDCMP
 #
 $CMP THERMISTOR
-D Thermistor, temperature-dependent resistor
-K R thermistor
+D Resistance
+K R DEV
 $ENDCMP
 #
 $CMP THYRISTOR
 D Diode simple
-K diode
+K DEV DIODE
 $ENDCMP
 #
 $CMP TVS
 D Transient voltage suppressor diode (bi-directional)
-K tvs esd
-$ENDCMP
-#
-$CMP VARICAP
-D Variable capacitor
-K capacitor
-F ~
+K DEV TVS TRANSIENT SUPPROESSOR ESD
 $ENDCMP
 #
 $CMP VR
@@ -650,14 +566,7 @@ $ENDCMP
 #
 $CMP ZENER
 D Diode zener
-K diode
-F ~
-$ENDCMP
-#
-$CMP ZENERsmall
-D Zener diode, small symbol
-K diode zener
-F ~
+K DEV DIODE
 $ENDCMP
 #
 #End Doc Library

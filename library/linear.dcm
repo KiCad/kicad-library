@@ -347,39 +347,20 @@ K linear ltc diff amp
 F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
 $ENDCMP
 #
-$CMP MAX4080F
-D 76V High-side unidirectional current sense amplifier 5V/V gain
-K telecom automotive backplane external reference
-F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
-$ENDCMP
-#
-$CMP MAX4080S
-D 76V High-side unidirectional current sense amplifier 60V/V gain
-K telecom automotive backplane external reference
-F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
-$ENDCMP
-#
-$CMP MAX4080T
-D 76V High-side unidirectional current sense amplifier 20V/V gain
-K telecom automotive backplane external reference
-F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
-$ENDCMP
-#
 $CMP MAX4081F
-D 76V High-side differential bipolar current sense amplifier 5V/V gain
+D 76V High-side differntial current sense amplifier 5V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
-
 $CMP MAX4081S
-D 76V High-side differential bipolar current sense amplifier 60V/V gain
+D 76V High-side differntial current sense amplifier 60V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4081T
-D 76V High-side differential bipolar current sense amplifier 20V/V gain
+D 76V High-side differntial current sense amplifier 20V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
@@ -449,8 +430,8 @@ F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
 $CMP OP275
-D Dual bipolar audio Op Amp ±22V Input
-K operational amplifier 
+D Dual Op amp (low power)
+K ampliop
 F analog-dev/op275.pdf
 $ENDCMP
 #
@@ -494,12 +475,6 @@ $CMP TLC274
 D Precision Quad Op amp. Mos
 K AmpliOp Mos
 F http://www.ti.com.cn/cn/lit/ds/symlink/tlc274.pdf
-$ENDCMP
-#
-$CMP TLV272
-D Dual rail to rail Op Amp +16V or ±8V Input
-K operational amplifier 
-F http://www.ti.com/lit/ds/symlink/tlv272.pdf
 $ENDCMP
 #
 #End Doc Library
