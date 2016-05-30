@@ -846,11 +846,6 @@ K 300mA LDO Regulator Fixed Positive
 F http://www.a-powerusa.com/docs/APE8865-3.pdf
 $ENDCMP
 #
-$CMP BQ2003
-D Controleur de chargeur de batteries
-F regulator\bq2003.pdf
-$ENDCMP
-#
 $CMP IS31LT3360
 D Constant current  LED driver, internal switch, up to 40V/1.2A, SOT-89-5
 K Switching LED driver
@@ -2020,16 +2015,6 @@ K REGUL POWER
 F linear-tec/lt1129.pdf
 $ENDCMP
 #
-$CMP MAX1647
-D Battery Charger
-F maxim\MAX1647-MAX1648.pdf
-$ENDCMP
-#
-$CMP MAX1648
-D Battery Charger
-F maxim\MAX1647-MAX1648.pdf
-$ENDCMP
-#
 $CMP MAX1658ESA
 D 350mA Linear LDO Regulator, Fixed Output 3.3V, SO-8
 K Linear LDO Regulator 350mA 3.3V
@@ -2209,30 +2194,6 @@ K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
-$CMP MCP73811T-420I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MCP73811T-435I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 85mA/450mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MCP73812T-420I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
-$CMP MCP73812T-435I/OT
-D Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA
-K Lithium-Ion Battery Charger
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf
-$ENDCMP
-#
 $CMP MIC2026
 D Dual-Channel Power Distribution Switch
 K PWR SWITCH
@@ -2337,10 +2298,29 @@ D 400mA Low drop-out regulator, Fixed Output 5V, TO-220
 K REGULATOR LDO 5V
 $ENDCMP
 #
+<<<<<<< HEAD
 $CMP SPX5205
 D 1% 150mA Low-Noise, Low Drop-out Voltage Regualtor, SOT-23-5
 K LDO voltage regulator 150mA 3.3V 5V 150mA
 F https://www.exar.com/content/document.ashx?id=618
+=======
+$CMP TC1054
+D 50mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
+K LDO regulator voltage 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
+$ENDCMP
+#
+$CMP TC1055
+D 100mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
+K LDO regulator voltage 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
+$ENDCMP
+#
+$CMP TC1186
+D 150mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
+K LDO regulator voltage 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
+>>>>>>> upstream/master
 $ENDCMP
 #
 $CMP TC1262-25VDB
@@ -2759,6 +2739,66 @@ $CMP TPS75005RGW
 D Integrated MCU Power Solution, Dual Low Drop-Out Regulator 500mA with Supervisor, VQFN20
 K Dual LDO Regulator Dual Integrated Power SVS Supervisor
 F http://www.ti.com/lit/ds/symlink/tps75005.pdf
+$ENDCMP
+#
+$CMP TPS76301
+D Low power 150mA LDO variable output voltage
+K linear low dropout Regulator adjustable
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76316
+D Low power 150mA LDO, 1.6V fixed output voltage
+K linear low dropout Regulator
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76318
+D Low power 150mA LDO 1.8V fixed output voltage
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76325
+D Low power 150mA LDO 2.5V fixed output voltage
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76327
+D Low power 150mA LDO 2.7V fixed output voltage
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76329
+D Low power 150mA LDO 2.8V fixed output voltage
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76330
+D Low power 150mA LDO 3.0V fixed output voltage
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76333
+D Low power 150mA LDO 3.3V fixed output voltage
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76338
+D Low power 150mA LDO 3.8V fixed output voltage
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76350
+D Low power 150mA LDO 5.0V fixed output voltage
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
 $ENDCMP
 #
 $CMP TPS769XX
