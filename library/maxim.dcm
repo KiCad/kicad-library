@@ -132,15 +132,9 @@ K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
 $ENDCMP
 #
-$CMP MAX481CPA
-D Low-Power, Slew-Rate-Limited, RS-485/RS-422 Transceivers DIP-8
-K RS485 RS422 Transceivers
-F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
-$ENDCMP
-#
-$CMP MAX481CSA
-D Low-Power, Slew-Rate-Limited, RS-485/RS-422 Transceivers SOIC-8
-K RS485 RS422 Transceivers
+$CMP MAX481
+D RS485 transceiver, half duplex, single supply, receiver/driver enable, 2.5Mbps, SOIC-8 package
+K rs485 transceiver
 F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
 $ENDCMP
 #
