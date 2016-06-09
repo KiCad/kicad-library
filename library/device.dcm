@@ -1,28 +1,40 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Battery
+D Battery
+K batt voltage-source cell
+F ~
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
+K cap capacitor
+F https://en.wikipedia.org/wiki/Capacitor
 $ENDCMP
 #
 $CMP CP
 D Polarised capacitor
+K cap capacitor
 $ENDCMP
 #
 $CMP CP1
 D Polarised capacitor
+K cap capacitor
 $ENDCMP
 #
 $CMP CP1_Small
 D Polarised capacitor
+K cap capacitor
 $ENDCMP
 #
 $CMP CP_Small
 D Polarised capacitor
+K cap capacitor
 $ENDCMP
 #
 $CMP CRYSTAL_SMD
 D SMD crystal, with GND pin
-K oscillator quartz
+K oscillator quartz resonator
 $ENDCMP
 #
 $CMP CTRIM
@@ -32,6 +44,8 @@ $ENDCMP
 #
 $CMP C_Small
 D Unpolarized capacitor
+K capacitor cap
+F https://en.wikipedia.org/wiki/Capacitor
 $ENDCMP
 #
 $CMP Coded_Switch
@@ -41,16 +55,24 @@ $ENDCMP
 #
 $CMP Crystal
 D Two pin crystal
-K Quartz, Ceramic, Filter, Resonator
+K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP Crystal_Small
 D Two pin crystal
-K Quartz, Resonator, Ceramic, Filter
+K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP D
 D Diode
+K diode
+F https://en.wikipedia.org/wiki/Diode
+$ENDCMP
+#
+$CMP DIODE
+D Diode
+K diode
+F https://en.wikipedia.org/wiki/Diode
 $ENDCMP
 #
 $CMP DUAL_POT
@@ -59,11 +81,13 @@ K resistor variable
 $ENDCMP
 #
 $CMP D_Schottky
-D Diode schottky
+D Schottky diode
+K diode schotty
 $ENDCMP
 #
 $CMP D_Schottky_Small
-D Diode Schottky
+D Schottky diode, small symbol
+K diode schottky
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_AKK
@@ -146,12 +170,6 @@ D EMI Filter
 K emi
 $ENDCMP
 #
-$CMP EMI_FILTER_Small
-D EMI Filter
-K emi
-F ~
-$ENDCMP
-#
 $CMP FILTER
 D EMI Filter
 K emi
@@ -172,14 +190,21 @@ D Fuse, small symbol
 K fuse
 $ENDCMP
 #
+$CMP HEATSINK
+D Heatsink
+K thermal heat temperature
+F ~
+$ENDCMP
+#
 $CMP INDUCTOR
 D Inductor
 K inductor
 $ENDCMP
 #
-$CMP INDUCTOR_SMALL
+$CMP INDUCTOR_Small
 D Inductor, small symbol
-K inductor
+K inductor choke coil reactor magnetic
+F https://en.wikipedia.org/wiki/Inductor
 $ENDCMP
 #
 $CMP JUMPER
@@ -205,7 +230,7 @@ $ENDCMP
 $CMP LED
 D LED generic
 K led diode
-F ~
+F https://en.wikipedia.org/wiki/Light-emitting_diode
 $ENDCMP
 #
 $CMP LED_RABG
@@ -229,14 +254,15 @@ K led rgb diode
 $ENDCMP
 #
 $CMP LED_Small
-D LED small symbol
-K led diode
-F ~
+D LED, small symbol
+K led diode light-emitting-diode
+F https://en.wikipedia.org/wiki/Light-emitting_diode
 $ENDCMP
 #
 $CMP L_Small
-D Inductor
-K inductor
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F https://en.wikipedia.org/wiki/Inductor
 $ENDCMP
 #
 $CMP Led_RGB_CA
@@ -525,7 +551,7 @@ $ENDCMP
 #
 $CMP R
 D Resistor
-K r
+K r res resistor
 F ~
 $ENDCMP
 #
@@ -566,17 +592,12 @@ F ~
 $ENDCMP
 #
 $CMP SCHDPAK
-D Diode schotty - cms
+D Diode schottky - cms
 K diode SCHOTTKY CMS
 $ENDCMP
 #
 $CMP SCR
 D Thyristor
-$ENDCMP
-#
-$CMP SP3T
-D 3 position switch, SP3T
-K switch SP3T
 $ENDCMP
 #
 $CMP SPEAKER
@@ -585,61 +606,70 @@ K speaker audio
 F ~
 $ENDCMP
 #
-$CMP SPST
-D Switch Single Pole Single Throw
-K switch single-pole single-throw spst
+$CMP SW_DPST
+D Double Pole Single Throw (DPST) Switch
+K switch dual double-pole single-throw OFF-ON
 F ~
 $ENDCMP
 #
-$CMP SPST_Small
-D Switch Single Pole Single Throw, small symbol
-K switch single-pole single-throw spst
+$CMP SW_DPST_Small
+D Double Pole Single Throw (DPST) Switch, small symbol
+K switch dual double-pole single-throw OFF-ON
 F ~
 $ENDCMP
 #
 $CMP SW_PUSH
-D Button, generic, normally open
-K switch push normally-open
+D Push button switch, normally open, two pins
+K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #
 $CMP SW_PUSH_SMALL
-D button, generic, small symbol
-K switch normally-open push
+D Push button switch, normally open, two pins, small symbol
+K switch normally-open pushbutton push-button
 F ~
-$ENDCMP
-#
-$CMP SW_PUSH_SMALL
-D Button
-K switch
 $ENDCMP
 #
 $CMP SW_PUSH_SMALL_H
-D Button
-K switch
-$ENDCMP
-#
-$CMP Switch_DPST
-D Double Pole Single Throw (DPST) Switch
-K switch dual double-pole single-throw
+D Push button switch, generic, small symbol, two pins
+K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #
-$CMP Switch_SPDT
-D Switch Single Pole Double Throw
-K switch single-pole double-throw spdt
+$CMP SW_SP3T
+D Switch, three position, single pole triple throw, 3 position switch, SP3T
+K switch sp3t ON-ON-ON
 F ~
 $ENDCMP
 #
-$CMP Switch_SPDT_MSM
-D Switch Single Pole Double Throw, with centre OFF position
-K switch spdt single-pole double-throw
+$CMP SW_SP3T_Small
+D Switch, three position, single pole triple throw, 3 position switch, SP3T, small symbol
+K switch sp3t ON-ON-ON
 F ~
 $ENDCMP
 #
-$CMP Switch_SPDT_x2
-D Dual Single Pole Double Throw (SPDT) switch
-K switch single-pole double-throw spdt
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
+$CMP SW_SPDT_MSM
+D Switch, single pole double throw, center OFF position
+K switch spdt single-pole double-throw ON-OFF-ON
+F ~
+$ENDCMP
+#
+$CMP SW_SPDT_Small
+D Switch, single pole double throw, small symbol
+K switch single-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
+$CMP SW_SPDT_x2
+D Dual Single Pole Double Throw switch
+K switch single-pole double-throw spdt ON-ON
+F ~
 $ENDCMP
 #
 $CMP THERMISTOR
