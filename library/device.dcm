@@ -1,8 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Battery
+D Battery
+K batt voltage-source cell
+F ~
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K cap capacitor
+F https://en.wikipedia.org/wiki/Capacitor
 $ENDCMP
 #
 $CMP CP
@@ -37,6 +44,8 @@ $ENDCMP
 #
 $CMP C_Small
 D Unpolarized capacitor
+K capacitor cap
+F https://en.wikipedia.org/wiki/Capacitor
 $ENDCMP
 #
 $CMP Coded_Switch
@@ -57,6 +66,13 @@ $ENDCMP
 $CMP D
 D Diode
 K diode
+F https://en.wikipedia.org/wiki/Diode
+$ENDCMP
+#
+$CMP DIODE
+D Diode
+K diode
+F https://en.wikipedia.org/wiki/Diode
 $ENDCMP
 #
 $CMP DUAL_POT
@@ -154,12 +170,6 @@ D EMI Filter
 K emi
 $ENDCMP
 #
-$CMP EMI_FILTER_Small
-D EMI Filter
-K emi
-F ~
-$ENDCMP
-#
 $CMP FILTER
 D EMI Filter
 K emi
@@ -180,14 +190,21 @@ D Fuse, small symbol
 K fuse
 $ENDCMP
 #
+$CMP HEATSINK
+D Heatsink
+K thermal heat temperature
+F ~
+$ENDCMP
+#
 $CMP INDUCTOR
 D Inductor
 K inductor
 $ENDCMP
 #
-$CMP INDUCTOR_SMALL
+$CMP INDUCTOR_Small
 D Inductor, small symbol
-K inductor
+K inductor choke coil reactor magnetic
+F https://en.wikipedia.org/wiki/Inductor
 $ENDCMP
 #
 $CMP JUMPER
@@ -213,7 +230,7 @@ $ENDCMP
 $CMP LED
 D LED generic
 K led diode
-F ~
+F https://en.wikipedia.org/wiki/Light-emitting_diode
 $ENDCMP
 #
 $CMP LED_RABG
@@ -237,14 +254,15 @@ K led rgb diode
 $ENDCMP
 #
 $CMP LED_Small
-D LED small symbol
-K led diode
-F ~
+D LED, small symbol
+K led diode light-emitting-diode
+F https://en.wikipedia.org/wiki/Light-emitting_diode
 $ENDCMP
 #
 $CMP L_Small
-D Inductor
-K inductor
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F https://en.wikipedia.org/wiki/Inductor
 $ENDCMP
 #
 $CMP Led_RGB_CA
