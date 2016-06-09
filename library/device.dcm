@@ -598,25 +598,21 @@ F ~
 $ENDCMP
 #
 $CMP SW_PUSH
-D Button, generic, normally open
-K switch push normally-open
+D Push button switch, normally open, two pins
+K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #
 $CMP SW_PUSH_SMALL
-D button, generic, small symbol
-K switch normally-open push
+D Push button switch, normally open, two pins, small symbol
+K switch normally-open pushbutton push-button
 F ~
-$ENDCMP
-#
-$CMP SW_PUSH_SMALL
-D Button
-K switch
 $ENDCMP
 #
 $CMP SW_PUSH_SMALL_H
-D Button
-K switch
+D Push button switch, generic, small symbol, two pins
+K switch normally-open pushbutton push-button
+F ~
 $ENDCMP
 #
 $CMP Switch_DPST
