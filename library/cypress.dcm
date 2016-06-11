@@ -13,11 +13,6 @@ F http://www.cypress.com/products/32-bit-arm-cortex-m0-psoc-4
 $ENDCMP
 #
 $CMP CY8C4125AXI-483
-D Programmable System-on-Chip, 24-MHz ARM® Cortex®-M0 , 32KB Flash, 4KB SRAM,44-TQFP, 36 GPIO, 12-BIT SAR ADC 806Ksps, CAPSENSE, LCD
-K CYPRESS PSOC CY8 CY8C4 ARM CORTEX M0 TQFP CAPSENSE LCD
-F http://www.cypress.com/products/32-bit-arm-cortex-m0-psoc-4
-=======
-$CMP CY8C4125AXI-M445
 D 64-TQFP, 0.8mm Pitch, 24-MHz ARM® Cortex®-M0, 32KB Flash, 4kB SRAM, NO UDB, CAP-SENSE,  NO IDAC, 12-BIT ADC, LCD DRIVE, CAN
 K CYPRESS PSOC4 PSOC ARM CORTEX M0 TQFP
 F http://www.cypress.com/products/psoc-4
@@ -125,7 +120,12 @@ K CYPRESS PSOC BLE CY8 CY8C4 ARM CORTEX M0 BLUETOOTH QFN
 F http://www.cypress.com/file/137466/download
 $ENDCMP
 #
-
+$CMP CY8C4127LTI-M475
+D  68-QFN, 24-MHz ARM® Cortex®-M0, 128KB Flash, 16kB SRAM, NO UDB, CAP-SENSE,  IDAC, 12-BIT ADC, NO LCD DRIVE, NO CAN
+K CYPRESS PSOC4 PSOC ARM CORTEX M0 QFN
+F http://www.cypress.com/products/psoc-4
+$ENDCMP
+#
 $CMP CY8C4244AXI-443
 D Programmable System-on-Chip, 48-MHz ARM® Cortex®-M0 , 16KB Flash, 4KB SRAM,44-TQFP, 36 GPIO, 12-BIT SAR ADC 1Msps, CAPSENSE, LCD
 K CYPRESS PSOC CY8 CY8C4 ARM CORTEX M0 TQFP CAPSENSE LCD PWM
@@ -142,12 +142,6 @@ $CMP CY8C4245AXI-483
 D Programmable System-on-Chip, 48-MHz ARM® Cortex®-M0 , 32KB Flash, 4KB SRAM,44-TQFP, 36 GPIO, 12-BIT SAR ADC 1Msps, CAPSENSE, LCD
 K CYPRESS PSOC CY8 CY8C4 ARM CORTEX M0 TQFP CAPSENSE LCD
 F http://www.cypress.com/products/32-bit-arm-cortex-m0-psoc-4
-$ENDCMP
-#
-$CMP CY8C4127LTI-M475
-D  68-QFN, 24-MHz ARM® Cortex®-M0, 128KB Flash, 16kB SRAM, NO UDB, CAP-SENSE,  IDAC, 12-BIT ADC, NO LCD DRIVE, NO CAN
-K CYPRESS PSOC4 PSOC ARM CORTEX M0 QFN
-F http://www.cypress.com/products/psoc-4
 $ENDCMP
 #
 $CMP CY8C4245AXI-M445
@@ -283,15 +277,9 @@ F http://www.cypress.com/file/137466/download
 $ENDCMP
 #
 $CMP CY8C4xx4AXI-4xx
-D Programmable System-on-Chip, 24/48-MHz ARM® Cortex®-M0 , 44-TQFP, 36 GPIO, 12-BIT SAR ADC 806Ksps
-K CYPRESS PSOC CY8 CY8C4 ARM CORTEX M0 TQFP
-F http://www.cypress.com/products/32-bit-arm-cortex-m0-psoc-4
-=======
-$CMP CY8C4247LTI-M475
-D  68-QFN, 48-MHz ARM® Cortex®-M0, 128KB Flash, 16kB SRAM, 4 UDB, CAP-SENSE, IDAC, 12-BIT ADC, NO LCD DRIVE, NO CAN
+D Programmable System-on-Chip, 48-MHz ARM® Cortex®-M0 , 16KB Flash, 4KB SRAM,44-TQFP, 36 GPIO, 12-BIT SAR ADC 1Msps, CAPSENSE, LCD
 K CYPRESS PSOC4 PSOC ARM CORTEX M0 QFN
 F http://www.cypress.com/products/psoc-4
-#
 $ENDCMP
 #
 $CMP CY8C4xx7LQI-4xx
