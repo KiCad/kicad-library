@@ -3,7 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP Battery
 D Battery
 K batt voltage-source cell
-F ~
+F
 $ENDCMP
 #
 $CMP C
@@ -193,12 +193,12 @@ $ENDCMP
 $CMP HEATSINK
 D Heatsink
 K thermal heat temperature
-F ~
+F
 $ENDCMP
 #
 $CMP INDUCTOR
 D Inductor
-K inductor
+K inductor choke coil reactor magnetic
 $ENDCMP
 #
 $CMP INDUCTOR_Small
@@ -208,23 +208,23 @@ F
 $ENDCMP
 #
 $CMP JUMPER
-D Jumper generic NC
-K jumper bridge
+D Jumper, generic, normally closed
+K jumper bridge link nc
 $ENDCMP
 #
 $CMP JUMPER3
-D Dual Jumper, NC
-K jumper bridge
+D Dual Jumper, normally closed
+K jumper bridge link nc
 $ENDCMP
 #
 $CMP Jumper_NC_Small
-D Jumper normally close
-K Jumper, Link
+D Jumper, normally closed
+K jumper link bridge
 $ENDCMP
 #
 $CMP Jumper_NO_Small
-D Jumper normally open
-K Jumper, Link
+D Jumper, normally open
+K jumper link bridge
 $ENDCMP
 #
 $CMP LED
@@ -552,7 +552,7 @@ $ENDCMP
 $CMP R
 D Resistor
 K r res resistor
-F ~
+F
 $ENDCMP
 #
 $CMP RF_SHIELD_ONE_PIECE
@@ -588,7 +588,7 @@ $ENDCMP
 $CMP R_Small
 D Resistor, small symbol
 K r resistor 
-F ~
+F
 $ENDCMP
 #
 $CMP SCHDPAK
@@ -603,73 +603,73 @@ $ENDCMP
 $CMP SPEAKER
 D Speaker, generic, 2-pin
 K speaker audio
-F ~
+F
 $ENDCMP
 #
 $CMP SW_DPST
 D Double Pole Single Throw (DPST) Switch
 K switch dual double-pole single-throw OFF-ON
-F ~
+F
 $ENDCMP
 #
 $CMP SW_DPST_Small
 D Double Pole Single Throw (DPST) Switch, small symbol
 K switch dual double-pole single-throw OFF-ON
-F ~
+F
 $ENDCMP
 #
 $CMP SW_PUSH
 D Push button switch, normally open, two pins
 K switch normally-open pushbutton push-button
-F ~
+F
 $ENDCMP
 #
 $CMP SW_PUSH_SMALL
 D Push button switch, normally open, two pins, small symbol
 K switch normally-open pushbutton push-button
-F ~
+F
 $ENDCMP
 #
 $CMP SW_PUSH_SMALL_H
 D Push button switch, generic, small symbol, two pins
 K switch normally-open pushbutton push-button
-F ~
+F
 $ENDCMP
 #
 $CMP SW_SP3T
 D Switch, three position, single pole triple throw, 3 position switch, SP3T
 K switch sp3t ON-ON-ON
-F ~
+F
 $ENDCMP
 #
 $CMP SW_SP3T_Small
 D Switch, three position, single pole triple throw, 3 position switch, SP3T, small symbol
 K switch sp3t ON-ON-ON
-F ~
+F
 $ENDCMP
 #
 $CMP SW_SPDT
 D Switch, single pole double throw
 K switch single-pole double-throw spdt ON-ON
-F ~
+F
 $ENDCMP
 #
 $CMP SW_SPDT_MSM
 D Switch, single pole double throw, center OFF position
 K switch spdt single-pole double-throw ON-OFF-ON
-F ~
+F
 $ENDCMP
 #
 $CMP SW_SPDT_Small
 D Switch, single pole double throw, small symbol
 K switch single-pole double-throw spdt ON-ON
-F ~
+F
 $ENDCMP
 #
 $CMP SW_SPDT_x2
 D Dual Single Pole Double Throw switch
 K switch single-pole double-throw spdt ON-ON
-F ~
+F
 $ENDCMP
 #
 $CMP THERMISTOR
@@ -690,7 +690,7 @@ $ENDCMP
 $CMP VARICAP
 D Variable capacitor
 K capacitor
-F ~
+F
 $ENDCMP
 #
 $CMP VR
@@ -701,13 +701,13 @@ $ENDCMP
 $CMP ZENER
 D Diode zener
 K diode
-F ~
+F 
 $ENDCMP
 #
 $CMP ZENERsmall
 D Zener diode, small symbol
 K diode zener
-F ~
+F 
 $ENDCMP
 #
 #End Doc Library
