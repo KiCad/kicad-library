@@ -31,8 +31,8 @@ K cap capacitor
 $ENDCMP
 #
 $CMP CRYSTAL_SMD
-D SMD crystal, with GND pin
-K oscillator quartz resonator
+D Crystal with ground connection
+K oscillator quartz resonator gnd
 $ENDCMP
 #
 $CMP CTRIM
@@ -56,13 +56,18 @@ K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP Crystal_Small
-D Two pin crystal
+D Two pin crystal, small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP D
 D Diode
 K diode
+$ENDCMP
+#
+$CMP DELAY_LINE
+D Delay line
+K delay propogation retard impedance
 $ENDCMP
 #
 $CMP DIODE
@@ -161,13 +166,13 @@ K Graetz
 $ENDCMP
 #
 $CMP EMI_FILTER
-D EMI Filter
-K emi
+D EMI Filter, three pins
+K electromagnetic interference noise
 $ENDCMP
 #
 $CMP FILTER
-D EMI Filter
-K emi
+D EMI Filter, two pins
+K emi electromagnetic interference noise
 $ENDCMP
 #
 $CMP FP_Small
@@ -596,13 +601,14 @@ D Diode schottky - cms
 K diode SCHOTTKY CMS
 $ENDCMP
 #
-$CMP SCR
-D Thyristor
-$ENDCMP
-#
 $CMP SPEAKER
 D Audio speaker, 2 pins, generic symbol
 K buzzer beeper sound
+$ENDCMP
+#
+$CMP SW_DPST
+D Double Pole Single Throw (DPST) Switch
+K switch dual double-pole single-throw OFF-ON
 $ENDCMP
 #
 $CMP SW_DPST_Small
@@ -667,12 +673,12 @@ $ENDCMP
 #
 $CMP THERMISTOR
 D Thermistor, temperature-dependent resistor
-K R thermistor
+K r res thermistor
 $ENDCMP
 #
 $CMP THYRISTOR
-D Diode simple
-K diode
+D Solid-state thyristor, silicon-controlled rectifier, with gate pin
+K scr diode switch
 $ENDCMP
 #
 $CMP TVS
@@ -695,7 +701,7 @@ D Diode zener
 K diode
 $ENDCMP
 #
-$CMP ZENERsmall
+$CMP ZENER_Small
 D Zener diode, small symbol
 K diode zener
 $ENDCMP
