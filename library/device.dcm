@@ -589,10 +589,6 @@ D Diode schottky - cms
 K diode SCHOTTKY CMS
 $ENDCMP
 #
-$CMP SCR
-D Thyristor
-$ENDCMP
-#
 $CMP SPEAKER
 D Audio speaker, 2 pins, generic symbol
 K buzzer beeper sound
@@ -669,8 +665,8 @@ K r res thermistor
 $ENDCMP
 #
 $CMP THYRISTOR
-D Diode simple
-K diode
+D Solid-state thyristor, silicon-controlled rectifier, with gate pin
+K scr diode switch
 $ENDCMP
 #
 $CMP TVS
