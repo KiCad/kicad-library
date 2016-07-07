@@ -30,12 +30,6 @@ K POWER REGUL
 F regulator\lm79lxx.pdf
 $ENDCMP
 #
-$CMP ADP1108
-D Switching Regulator
-K POWER
-F linear-tec/lt1108.pdf
-$ENDCMP
-#
 $CMP AP1117
 D 1A Low Dropout regulator, positive, adjustable output, NRND
 K linear regulator ldo adjustable positive obsolete
@@ -846,12 +840,6 @@ K 300mA LDO Regulator Fixed Positive
 F http://www.a-powerusa.com/docs/APE8865-3.pdf
 $ENDCMP
 #
-$CMP IS31LT3360
-D Constant current  LED driver, internal switch, up to 40V/1.2A, SOT-89-5
-K Switching LED driver
-F www.issi.com/WW/pdf/31LT3360.pdf
-$ENDCMP
-#
 $CMP KA378R05
 D Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 5V, TO-220F-4L
 K Voltage Regulator 3A Positive LDO Disable Pin
@@ -1290,12 +1278,6 @@ K Adjustable Voltage Regulator 3A Positive
 F http://www.fairchildsemi.com/ds/LM/LM350.pdf
 $ENDCMP
 #
-$CMP LM3578
-D Switching Regulator (adjustable)
-K POWER REGUL
-F regulator\lm1578a.pdf
-$ENDCMP
-#
 $CMP LM723
 D Linear Regulator (adjustable)
 K POWER REGUL
@@ -1673,10 +1655,6 @@ K REGUL POWER
 F regulator/lp3963.pdf
 $ENDCMP
 #
-$CMP LT1108
-D Switching Regulator
-$ENDCMP
-#
 $CMP LT1129CQ
 D 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, TO263
 K 700mA LDO Regulator Adjustable Positive
@@ -1837,16 +1815,6 @@ D REGULATOR (Negative voltage)
 F linear-tec/lt1175.pdf
 $ENDCMP
 #
-$CMP LT1372
-D Set up/step down switching regulator
-F regulator/lt1372-1377.pdf
-$ENDCMP
-#
-$CMP LT1373
-D Set up/step down switching regulator
-F regulator/lt1373.pdf
-$ENDCMP
-#
 $CMP LT1585CM
 D Linear Regulator (adjustable)
 K POWER REGUL
@@ -1930,83 +1898,9 @@ K REGUL POWER
 F linear-tec/lt3010.pdf
 $ENDCMP
 #
-$CMP LT3430
-D Hight Voltage Step-down switching regulator (synchronous)  3 A
-K REGUL POWER
-F linear-tec/lt3430f.pdf
-$ENDCMP
-#
 $CMP LT3472
 D DC/DC converter for CCD bias
 F regulator/lt3472.pdf
-$ENDCMP
-#
-$CMP LT3757EMSE
-D Boost, flyback, SEPIC and inverting regulator (MSOP package)
-$ENDCMP
-#
-$CMP LTC1307
-D Switching Regulator (Single cell micropower)
-K POWER
-$ENDCMP
-#
-$CMP LTC1624
-D Switching Regulator Controller
-K POWER
-F linear-tec\ltc1624.pdf
-$ENDCMP
-#
-$CMP LTC1878
-D Synchronous Step-Down Regulator
-K REGUL POWER
-F linear-tec/ltc1878.pdf
-$ENDCMP
-#
-$CMP LTC1878EMS8
-D Synchronous Step-Down Regulator
-K REGUL POWER
-F linear-tec/ltc1878.pdf
-$ENDCMP
-#
-$CMP LTC3442
-D Micropower Synchronous Buck-Boost DC/DC Converter with Automatic Burst Mode Operation
-F linear-tec\ltc3442.pdf
-$ENDCMP
-#
-$CMP LTC3525
-D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
-K boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
-$ENDCMP
-#
-$CMP LTC3525-3
-D Fixed 3V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
-K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
-$ENDCMP
-#
-$CMP LTC3525-3.3
-D Fixed 3V3, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
-K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
-$ENDCMP
-#
-$CMP LTC3525-5
-D Fixed 5V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
-K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
-$ENDCMP
-#
-$CMP LTC3525D-3.3
-D Fixed 3V3, 400mA Micropower Synchronous Step-Up DC/DC Converter with Pass Through Mode
-K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525d33fb.pdf
-$ENDCMP
-#
-$CMP LTC3525L-3
-D Fixed 3V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
-K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525laf.pdf
 $ENDCMP
 #
 $CMP LT_1129_QP
@@ -2078,12 +1972,6 @@ $ENDCMP
 $CMP MAX874
 D Voltage reference
 F maxim\MAX872-MAX874.pdf
-$ENDCMP
-#
-$CMP MC34063
-D 1.5A step up/down/inverting switching regulator
-K smps buck boost inverting 
-F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
 $CMP MC78L05AACP
@@ -2192,18 +2080,6 @@ $CMP MCP1754ST-5002E/MB
 D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
-$ENDCMP
-#
-$CMP MIC2026
-D Dual-Channel Power Distribution Switch
-K PWR SWITCH
-F micrel\mic2026.pdf
-$ENDCMP
-#
-$CMP MIC2177
-D Step-down switching regulator (synchronous)  2.5 A
-K REGUL POWER
-F micrel/mic2177.pdf
 $ENDCMP
 #
 $CMP NCP1117DT12G
@@ -2524,16 +2400,6 @@ $CMP TC1262-50VDB
 D 500mA Low Dropout CMOS Voltage Regulator, Fixed Output 5.0V, SOT-223
 K Voltage Regulator 5.0V 500mA Positive CMOS LDO Microchip
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf
-$ENDCMP
-#
-$CMP TL497
-D 500 mA step up/step down switching regulator
-F texas/tl497a.pdf
-$ENDCMP
-#
-$CMP TL497A
-D 500 mA step up/step down switching regulator
-F texas/tl497a.pdf
 $ENDCMP
 #
 $CMP TLV70012DCK
