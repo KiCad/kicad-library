@@ -36,8 +36,14 @@ K ideal-diode or-ing
 F http://cds.linear.com/docs/en/datasheet/4357fd.pdf
 $ENDCMP
 #
+$CMP LTC4359-DCB
+D Ideal diode controller with reverse input protection, DFN-6 package
+K ideal-diode or-ing reverse-protection
+F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
+$ENDCMP
+#
 $CMP LTC4359-MS8
-D Ideal diode controller with reverse input protection
+D Ideal diode controller with reverse input protection, MSOP-8 package
 K ideal-diode or-ing reverse-protection
 F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
 $ENDCMP
@@ -273,7 +279,7 @@ $ENDCMP
 $CMP MIC2026-1BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
 K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-1BN
