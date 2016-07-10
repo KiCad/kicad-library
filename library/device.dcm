@@ -70,6 +70,11 @@ D Delay line
 K delay propogation retard impedance
 $ENDCMP
 #
+$CMP D_BRIDGE
+D Diode bridge
+K rectifier acdc
+$ENDCMP
+#
 $CMP D_Schottky
 D Schottky diode
 K diode schotty
@@ -143,11 +148,6 @@ $ENDCMP
 $CMP D_Small
 D Diode
 K diode
-$ENDCMP
-#
-$CMP Diode_Bridge
-D Diode bridge
-K Graetz
 $ENDCMP
 #
 $CMP EMI_FILTER
