@@ -170,17 +170,17 @@ D EMI Filter, two pins
 K emi electromagnetic interference noise
 $ENDCMP
 #
-$CMP FP_Small
-D Fuse, polarised
-K fuse
-$ENDCMP
-#
 $CMP FUSE
 D Fuse, generic
 K fuse
 $ENDCMP
 #
-$CMP F_Small
+$CMP FUSE_POLARISED_Small
+D Fuse, polarised
+K fuse
+$ENDCMP
+#
+$CMP FUSE_Small
 D Fuse, small symbol
 K fuse
 $ENDCMP
