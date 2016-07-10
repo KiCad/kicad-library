@@ -55,11 +55,6 @@ D Unpolarized capacitor
 K capacitor cap
 $ENDCMP
 #
-$CMP Coded_Switch
-D 4 bits rotary switch
-K Rotary, Hex
-$ENDCMP
-#
 $CMP D
 D Diode
 K diode
@@ -590,6 +585,11 @@ $ENDCMP
 $CMP SPEAKER
 D Audio speaker, 2 pins, generic symbol
 K buzzer beeper sound
+$ENDCMP
+#
+$CMP SW_CODED
+D Rotary switch, 4-bit encoding
+K rotary hex
 $ENDCMP
 #
 $CMP SW_DPST
