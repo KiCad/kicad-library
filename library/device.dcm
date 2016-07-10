@@ -55,11 +55,6 @@ D Unpolarized capacitor
 K capacitor cap
 $ENDCMP
 #
-$CMP Coded_Switch
-D 4 bits rotary switch
-K Rotary, Hex
-$ENDCMP
-#
 $CMP D
 D Diode
 K diode
@@ -68,6 +63,11 @@ $ENDCMP
 $CMP DELAY_LINE
 D Delay line
 K delay propogation retard impedance
+$ENDCMP
+#
+$CMP D_BRIDGE
+D Diode bridge
+K rectifier acdc
 $ENDCMP
 #
 $CMP D_Schottky
@@ -145,24 +145,14 @@ D Diode
 K diode
 $ENDCMP
 #
-$CMP Darl_NPN
-D Darlington NPN transistor
-K Q
-$ENDCMP
-#
-$CMP Diode_Bridge
-D Diode bridge
-K Graetz
-$ENDCMP
-#
-$CMP EMI_FILTER
-D EMI Filter, three pins
-K electromagnetic interference noise
-$ENDCMP
-#
-$CMP FILTER
+$CMP EMI_FILTER_2pin
 D EMI Filter, two pins
 K emi electromagnetic interference noise
+$ENDCMP
+#
+$CMP EMI_FILTER_3pin
+D EMI Filter, three pins
+K electromagnetic interference noise
 $ENDCMP
 #
 $CMP FUSE
@@ -255,10 +245,6 @@ D LED, small symbol
 K led diode light-emitting-diode
 $ENDCMP
 #
-$CMP PHOTORESISTOR
-D Photo resistor
-$ENDCMP
-#
 $CMP POT
 D Potentionmeter
 K resistor variable
@@ -266,11 +252,6 @@ $ENDCMP
 #
 $CMP POT_Dual
 D Potentiometer, dual
-K resistor variable
-$ENDCMP
-#
-$CMP Photores
-D Photoresistor
 K resistor variable
 $ENDCMP
 #
@@ -422,6 +403,11 @@ $ENDCMP
 $CMP Q_NPN_ECBC
 D Transistor NPN, collector connected to mounting plane (general)
 K npn transistor
+$ENDCMP
+#
+$CMP Q_PHOTO_NPN
+D Phototransistor, ligh sensistive transistor
+K light photo opto transistor
 $ENDCMP
 #
 $CMP Q_PJFET_DGS
@@ -581,6 +567,11 @@ D 8 resistors Pack
 K r
 $ENDCMP
 #
+$CMP R_PHOTO
+D Photoresistor, light sensitive resistor
+K resistor variable light opto
+$ENDCMP
+#
 $CMP R_Small
 D Resistor, small symbol
 K r resistor 
@@ -594,6 +585,11 @@ $ENDCMP
 $CMP SPEAKER
 D Audio speaker, 2 pins, generic symbol
 K buzzer beeper sound
+$ENDCMP
+#
+$CMP SW_CODED
+D Rotary switch, 4-bit encoding
+K rotary hex
 $ENDCMP
 #
 $CMP SW_DPST
@@ -659,6 +655,11 @@ $ENDCMP
 $CMP SW_SPST_Small
 D Single Pole Single Throw (SPST) switch, small symbol
 K switch lever
+$ENDCMP
+#
+$CMP TEST
+D Testpoint, connection for test equipment
+K tp testpoint
 $ENDCMP
 #
 $CMP THERMISTOR
