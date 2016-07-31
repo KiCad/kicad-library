@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP DRV8711
-D Stepper motor controller that uses external N-channel MOSFETs to drive a bipolar stepper motor or two brushed DC motors
-K Stepper driver
-F http://www.ti.com/lit/ds/slvsc40f/slvsc40f.pdf
-$ENDCMP
-#
 $CMP A4950E
 D Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +85C
 K full-bridge h-bridge
@@ -22,6 +16,12 @@ $CMP DRV8308
 D Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface
 K bldc mosfet-driver hall-sensor
 F http://www.ti.com/lit/ds/symlink/drv8308.pdf
+$ENDCMP
+#
+$CMP DRV8711
+D Stepper motor controller that uses external N-channel MOSFETs to drive a bipolar stepper motor or two brushed DC motors
+K Stepper driver
+F http://www.ti.com/lit/ds/slvsc40f/slvsc40f.pdf
 $ENDCMP
 #
 $CMP L298(H)N
