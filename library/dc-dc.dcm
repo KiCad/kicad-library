@@ -818,7 +818,12 @@ D Set up/step down switching regulator
 F regulator/lt1373.pdf
 $ENDCMP
 #
-$CMP LT3430
+$CMP LT1945
+D Dual Micropower DC/DC Converter with Positive and Negative Outputs
+K switched voltage converter regulator inverter double shutdown  positive negative
+F https://cds.linear.com/docs/en/datasheet/1945fa.pdf
+$ENDCMP
+#$CMP LT3430
 D Hight Voltage Step-down switching regulator (synchronous)  3 A
 K REGUL POWER
 F linear-tec/lt3430f.pdf
