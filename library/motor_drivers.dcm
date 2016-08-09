@@ -2,20 +2,26 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP A4950E
 D Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +85C
-K full-bridge h-bridge 
+K full-bridge h-bridge
 F http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
 $ENDCMP
 #
 $CMP A4950K
 D Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +125C
-K full-bridge h-bridge 
+K full-bridge h-bridge
 F http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
 $ENDCMP
 #
 $CMP DRV8308
 D Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface
-K bldc mosfet-driver hall-sensor 
+K bldc mosfet-driver hall-sensor
 F http://www.ti.com/lit/ds/symlink/drv8308.pdf
+$ENDCMP
+#
+$CMP DRV8711
+D Stepper motor controller, external N-channel MOSFET, single bipolar stepper motor, dual brushed DC motors
+K Stepper driver
+F http://www.ti.com/lit/ds/slvsc40f/slvsc40f.pdf
 $ENDCMP
 #
 $CMP L298(H)N
