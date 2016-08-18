@@ -426,7 +426,13 @@ F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
 $ENDCMP
 #
 $CMP MAX1274
-D 1.8Msps, Single-Supply, Low-Power, True-Differential, 12-Bit ADCs
+D 1.8Msps, Single-Supply, Low-Power, True-Differential, 12-Bit ADCs, bipolar input
+K 12bit ADC 1CH diff differential
+F https://datasheets.maximintegrated.com/en/ds/MAX1274-MAX1275.pdf
+$ENDCMP
+#
+$CMP MAX1275
+D 1.8Msps, Single-Supply, Low-Power, True-Differential, 12-Bit ADCs, unipolar input
 K 12bit ADC 1CH diff differential
 F https://datasheets.maximintegrated.com/en/ds/MAX1274-MAX1275.pdf
 $ENDCMP
