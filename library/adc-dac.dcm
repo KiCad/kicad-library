@@ -431,9 +431,27 @@ K sigma-delta adc
 F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
 $ENDCMP
 #
+$CMP MAX1274
+D 1.8Msps, Single-Supply, Low-Power, True-Differential, 12-Bit ADCs, bipolar input
+K 12bit ADC 1CH diff differential
+F https://datasheets.maximintegrated.com/en/ds/MAX1274-MAX1275.pdf
+$ENDCMP
+#
+$CMP MAX1275
+D 1.8Msps, Single-Supply, Low-Power, True-Differential, 12-Bit ADCs, unipolar input
+K 12bit ADC 1CH diff differential
+F https://datasheets.maximintegrated.com/en/ds/MAX1274-MAX1275.pdf
+$ENDCMP
+#
+$CMP MAX5138
+D Low-Power, Single, 16-Bit, Buffered Voltage-Output DAC
+K 16-bit DAC 1CH
+F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
+$ENDCMP
+#
 $CMP MAX5139
-D Low-Power, Single, 12-Bit, Buffered Voltage-Output DACs
-K 12bit DAC 1CH
+D Low-Power, Single, 12-Bit, Buffered Voltage-Output DAC
+K 12-bit DAC 1CH
 F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
 $ENDCMP
 #
