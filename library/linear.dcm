@@ -335,6 +335,12 @@ K current sense highside HS shunt monitor amplifier linear
 F http://cds.linear.com/docs/en/datasheet/6106fb.pdf
 $ENDCMP
 #
+$CMP LTC4414
+D Controller for Large PFETs
+K switch power FET 
+F http://cds.linear.com/docs/en/datasheet/4414fc.pdf
+$ENDCMP
+#
 $CMP LTC6082
 D Precision Quad Op amp.
 K LTC6082 opamp ltc
@@ -395,20 +401,38 @@ K linear ltc diff amp
 F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
 $ENDCMP
 #
+$CMP MAX4080F
+D 76V current sense amplifier, high side, unidirectional, 5V/V gain
+K telecom automotive backplane external reference
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4080S
+D 76V current sense amplifier, high side, unidirectional, 60V/V gain
+K telecom automotive backplane external reference
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4080T
+D 76V current sense amplifier, high side, unidirectional, 20V/V gain
+K telecom automotive backplane external reference
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
 $CMP MAX4081F
-D 76V High-side differntial current sense amplifier 5V/V gain
+D 76V current sense amplifier, high side, bidirectional, 5V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4081S
-D 76V High-side differntial current sense amplifier 60V/V gain
+D 76V current sense amplifier, high side, bidirectional, 60V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4081T
-D 76V High-side differntial current sense amplifier 20V/V gain
+D 76V current sense amplifier, high side, bidirectional, 20V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP

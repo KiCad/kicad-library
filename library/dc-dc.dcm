@@ -777,6 +777,18 @@ K monolithic CMOS switched capacitor voltage converter invert double divide mult
 F http://cds.linear.com/docs/en/datasheet/lt1044.pdf
 $ENDCMP
 #
+$CMP LTC3429
+D 600mA, 500kHz Micropower Synchronous Boost Converter with Output Disconnect, TSOT-23 6-Lead Package
+K boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3429fa.pdf
+$ENDCMP
+#
+$CMP LTC3429B
+D 600mA, 500kHz Micropower Synchronous Boost Converter with Output Disconnect, Continuous Switching at Light Loads, TSOT-23 6-Lead Package
+K boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3429fa.pdf
+$ENDCMP
+#
 $CMP LTC3630
 D High efficiency 65V 500mA synchronous step-down converter
 K buck dc-dc switcher switching
@@ -797,13 +809,13 @@ $ENDCMP
 #
 $CMP LTC3890
 D 60V dual 2-phase synchronous step-down DC/DC controller in QFN-32 package
-K buck regulator power two outputs 
+K switching buck converter regulator dual-output 
 F http://cds.linear.com/docs/en/datasheet/3890fc.pdf
 $ENDCMP
 #
 $CMP LTC3890-1
 D 60V dual 2-phase synchronous step-down DC/DC controller in SSOP-28 package
-K buck regulator power two outputs 
+K switching buck converter regulator dual-output
 F http://cds.linear.com/docs/en/datasheet/38901fb.pdf
 $ENDCMP
 #
@@ -903,27 +915,39 @@ K switching regulator boost step-up dc-dc
 F http://www.ret.hu/DataSheets/38_ANALOG_IC/MAX_062/MAX777L_778L_779L.pdf
 $ENDCMP
 #
+$CMP MCP16301
+D 4.0 to 30V Input, 1A output, integrated switch step-down regulator, SOT-23-6 package
+K switching buck converter power-supply voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
+$ENDCMP
+#
+$CMP MCP16301H
+D 4.7 to 36V Input, 1A output, integrated switch step-down regulator, SOT-23-6 package
+K switching buck converter power-supply voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
+$ENDCMP
+#
 $CMP MCP16311-MNY
-D 30V Input 1A output integrated synchronous switch step-down regulator with PFM/PWM modulation
-K buck regulator power supply voltage regulator
+D 30V Input, 1A output, integrated switch step-down regulator, PFM/PWM modulation, DFN-8 package
+K switching buck converter power-supply voltage regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005255B.pdf
 $ENDCMP
 #
 $CMP MCP16311-MS
-D 30V Input 1A output integrated synchronous switch step-down regulator with PFM/PWM modulation
-K buck regulator power supply voltage regulator
+D 30V Input, 1A output, integrated switch step-down regulator, PFM/PWM modulation, MSOP-8 package
+K switching buck converter power-supply voltage regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005255B.pdf
 $ENDCMP
 #
 $CMP MCP16312-MNY
-D 30V Input 1A output integrated synchronous switch step-down regulator with PWM modulation
-K buck regulator power supply voltage regulator
+D 30V Input, 1A output, integrated switch step-down regulator, PWM modulation, DFN-8 package
+K switching buck converter power-supply voltage regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005255B.pdf
 $ENDCMP
 #
 $CMP MCP16312-MS
-D 30V Input 1A output integrated synchronous switch step-down regulator with PWM modulation
-K buck regulator power supply voltage regulator
+D 30V Input, 1A output, integrated switch step-down regulator with, modulation, MSOP-8 package
+K switching buck converter power-supply voltage regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005255B.pdf
 $ENDCMP
 #
@@ -1152,6 +1176,134 @@ $CMP TSR_1-2490
 D 9V 1A, step-down regulator, input range 12 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
 K 9V 1A DC/DC TRACO TSR-1
 F http://www.tracopower.com/products/tsr1.pdf
+$ENDCMP
+#
+$CMP IS31LT3360
+D Constant current  LED driver, internal switch, up to 40V/1.2A, SOT-89-5
+K Switching LED driver
+F www.issi.com/WW/pdf/31LT3360.pdf
+$ENDCMP
+#
+$CMP ADP1108
+D Switching Regulator
+K POWER
+F linear-tec/lt1108.pdf
+$ENDCMP
+#
+$CMP LT1108
+D Switching Regulator
+$ENDCMP
+#
+$CMP LTC1307
+D Switching Regulator (Single cell micropower)
+K POWER
+$ENDCMP
+#
+$CMP LTC1624
+D Switching Regulator Controller
+K POWER
+F linear-tec\ltc1624.pdf
+$ENDCMP
+#
+$CMP LM3578
+D Switching Regulator (adjustable)
+K POWER REGUL
+F regulator\lm1578a.pdf
+$ENDCMP
+#
+$CMP LT1372
+D Set up/step down switching regulator
+F regulator/lt1372-1377.pdf
+$ENDCMP
+#
+$CMP LT1373
+D Set up/step down switching regulator
+F regulator/lt1373.pdf
+$ENDCMP
+#
+$CMP LT3430
+D Hight Voltage Step-down switching regulator (synchronous)  3 A
+K REGUL POWER
+F linear-tec/lt3430f.pdf
+$ENDCMP
+#
+$CMP MC34063
+D 1.5A step up/down/inverting switching regulator
+K smps buck boost inverting 
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MIC2177
+D Step-down switching regulator (synchronous)  2.5 A
+K REGUL POWER
+F micrel/mic2177.pdf
+$ENDCMP
+#
+$CMP TL497
+D 500 mA step up/step down switching regulator
+F texas/tl497a.pdf
+$ENDCMP
+#
+$CMP TL497A
+D 500 mA step up/step down switching regulator
+F texas/tl497a.pdf
+$ENDCMP
+#
+$CMP LTC3442
+D Micropower Synchronous Buck-Boost DC/DC Converter with Automatic Burst Mode Operation
+F linear-tec\ltc3442.pdf
+$ENDCMP
+#
+$CMP LTC3525
+D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+$ENDCMP
+#
+$CMP LTC3525-3
+D Fixed 3V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+$ENDCMP
+#
+$CMP LTC3525-3.3
+D Fixed 3V3, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+$ENDCMP
+#
+$CMP LTC3525-5
+D Fixed 5V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+$ENDCMP
+#
+$CMP LTC3525D-3.3
+D Fixed 3V3, 400mA Micropower Synchronous Step-Up DC/DC Converter with Pass Through Mode
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525d33fb.pdf
+$ENDCMP
+#
+$CMP LTC3525L-3
+D Fixed 3V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
+K fixed boost step-up DC/DC synchronous
+F http://cds.linear.com/docs/en/datasheet/3525laf.pdf
+$ENDCMP
+#
+$CMP LT3757EMSE
+D Boost, flyback, SEPIC and inverting regulator (MSOP package)
+$ENDCMP
+#
+$CMP LTC1878
+D Synchronous Step-Down Regulator
+K REGUL POWER
+F linear-tec/ltc1878.pdf
+$ENDCMP
+#
+$CMP LTC1878EMS8
+D Synchronous Step-Down Regulator
+K REGUL POWER
+F linear-tec/ltc1878.pdf
 $ENDCMP
 #
 #End Doc Library
