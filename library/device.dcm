@@ -482,6 +482,28 @@ D Resistor
 K R DEV
 $ENDCMP
 #
+$CMP RF_SHIELD_ONE_PIECE
+D One-Piece EMI RF Shielding Cabinet
+K RF EMI Shielding Cabinet
+$ENDCMP
+#
+$CMP RF_SHIELD_TWO_PIECES
+D Two-Piece EMI RF Shielding Cabinet
+K RF EMI Shielding Cabinet
+$ENDCMP
+#
+$CMP ROTARY_ENCODER
+D Rotary encoder, dual channel, incremental quadrate outputs
+K rotary switch encoder
+F ~
+$ENDCMP
+#
+$CMP ROTARY_ENCODER_SWITCH
+D Rotary encoder, dual channel, incremental quadrate outputs, integrated pushbutton switch
+K rotary switch encoder pushbutton
+F ~
+$ENDCMP
+#
 $CMP RR8
 D 8 resistors
 K R DEV
@@ -515,6 +537,11 @@ D 3 position switch, SP3T
 K switch SP3T
 $ENDCMP
 #
+$CMP SPEAKER
+D Audio speaker, 2 pins, generic symbol
+K buzzer beeper sound
+$ENDCMP
+#
 $CMP SPST
 D Interrupteur simple
 K switch
@@ -533,6 +560,16 @@ $ENDCMP
 $CMP SW_PUSH
 D Button
 K Switch
+$ENDCMP
+#
+$CMP SW_PUSH_SMALL
+D Button
+K switch
+$ENDCMP
+#
+$CMP SW_PUSH_SMALL_H
+D Button
+K switch
 $ENDCMP
 #
 $CMP Switch_DPST
