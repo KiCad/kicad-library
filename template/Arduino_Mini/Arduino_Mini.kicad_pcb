@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu14.04.1-stable)
 
   (general
     (links 9)
@@ -118,9 +118,9 @@
   (net 21 /A1)
   (net 22 /A0)
   (net 23 "/13(SCK)")
-  (net 24 "/12(**/MOSI)")
-  (net 25 "/11(MISO)")
-  (net 26 "/10(**/SS)")
+  (net 24 "/10(**/SS)")
+  (net 25 "/12(**/MISO)")
+  (net 26 "/11(MOSI)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -134,8 +134,8 @@
     (add_net "/0(Rx)")
     (add_net "/1(Tx)")
     (add_net "/10(**/SS)")
-    (add_net "/11(MISO)")
-    (add_net "/12(**/MOSI)")
+    (add_net "/11(MOSI)")
+    (add_net "/12(**/MISO)")
     (add_net "/13(SCK)")
     (add_net /2)
     (add_net "/3(**)")
@@ -285,11 +285,11 @@
     (pad 9 thru_hole oval (at 20.32 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 23 "/13(SCK)"))
     (pad 10 thru_hole oval (at 22.86 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 24 "/12(**/MOSI)"))
+      (net 25 "/12(**/MISO)"))
     (pad 11 thru_hole oval (at 25.4 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 25 "/11(MISO)"))
+      (net 26 "/11(MOSI)"))
     (pad 12 thru_hole oval (at 27.94 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 26 "/10(**/SS)"))
+      (net 24 "/10(**/SS)"))
     (model ${KIPRJMOD}/Socket_Arduino_Mini.3dshapes/Socket_header_Arduino_1x12.wrl
       (at (xyz 0.55 0 0))
       (scale (xyz 1 1 1))

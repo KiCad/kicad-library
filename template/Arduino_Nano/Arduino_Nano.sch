@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Arduino_Nano-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -69,9 +68,9 @@ Text Label 8700 2200 0    60   ~ 0
 Text Label 8700 2300 0    60   ~ 0
 10(**/SS)
 Text Label 8700 2400 0    60   ~ 0
-11(**/MISO)
+11(**/MOSI)
 Text Label 8700 2500 0    60   ~ 0
-12(MOSI)
+12(MISO)
 Text Label 10550 2500 0    60   ~ 0
 13(SCK)
 Text Label 10550 2200 0    60   ~ 0

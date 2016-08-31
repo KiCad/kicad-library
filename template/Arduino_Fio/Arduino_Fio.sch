@@ -60,13 +60,13 @@ Text Label 8850 1850 0    60   ~ 0
 Text Label 8850 1950 0    60   ~ 0
 9(**)
 Text Label 8850 2050 0    60   ~ 0
-10(**/SCK)
+10(**/SS)
 Text Label 8850 2150 0    60   ~ 0
 11(**/MOSI)
 Text Label 8850 2250 0    60   ~ 0
 12(MISO)
 Text Label 8850 2350 0    60   ~ 0
-13(SS)
+13(SCK)
 Text Label 10700 2350 0    60   ~ 0
 A7
 Text Label 10700 2250 0    60   ~ 0
