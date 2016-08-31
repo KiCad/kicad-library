@@ -183,8 +183,8 @@ K TTL Nand2
 $ENDCMP
 #
 $CMP 74LS133
-D Nand 8 inputs
-K TTL Nand8
+D Nand 13 inputs
+K TTL Nand13
 $ENDCMP
 #
 $CMP 74LS136
@@ -806,6 +806,11 @@ $ENDCMP
 $CMP 74LV14
 D Hex Inverseur
 K TTL not inv
+$ENDCMP
+#
+$CMP 74LVC125
+D Quad buffer 3 State out
+K TTL buffer 3State
 $ENDCMP
 #
 $CMP 74ls670
