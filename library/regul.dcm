@@ -1146,6 +1146,18 @@ K Adjustable Voltage Regulator 1.5A Negative
 F http://www.ti.com/lit/ds/symlink/lm337-n.pdf
 $ENDCMP
 #
+$CMP LM285Z
+D Programmable precision reference
+K REF
+F http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF
+$ENDCMP
+#
+$CMP LM285Z-ADJ
+D Programmable precision reference
+K REF
+F http://www.ti.com/lit/ds/symlink/lm285-adj.pdf
+$ENDCMP
+#
 $CMP LM2931AZ-3.3/5.0
 D LM2931, 100mA Low drop-out regulator, Fixed Output 3.3V, 5V
 K REGULATOR LDO 3.3V 5V
@@ -2064,6 +2076,12 @@ K Voltage Regulator 0.5A Positive
 F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
 $ENDCMP
 #
+$CMP MCP1703AT-3302/MB
+D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive
+K REGULATOR LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
 $CMP MCP1754ST-1802E/MB
 D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive
 K REGULATOR LDO
@@ -2367,8 +2385,8 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
 $ENDCMP
 #
 $CMP TC1186
-D 150mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
-K LDO regulator voltage 
+D Programmable precision reference
+K REF
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
 $ENDCMP
 #
@@ -2400,6 +2418,12 @@ $CMP TC1262-50VDB
 D 500mA Low Dropout CMOS Voltage Regulator, Fixed Output 5.0V, SOT-223
 K Voltage Regulator 5.0V 500mA Positive CMOS LDO Microchip
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf
+$ENDCMP
+#
+$CMP TL431
+D Precision Programmable Reference
+K regulator
+F http://www.ti.com/lit/ds/symlink/tl431.pdf
 $ENDCMP
 #
 $CMP TLV70012DCK
