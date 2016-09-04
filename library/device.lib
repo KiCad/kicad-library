@@ -264,6 +264,25 @@ X 2 2 100 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Crystal_Small_4pin
+#
+DEF Crystal_Small_4pin Y 0 40 N N 1 F N
+F0 "Y" 0 100 50 H V C CNN
+F1 "Crystal_Small_4pin" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Crystal_
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 0  -50 -30  -50 30 N
+P 2 0 1 0  50 -30  50 30 N
+X 1 1 -100 0 50 R 40 40 1 1 P
+X 4 4 100 0 50 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D
 #
 DEF D D 0 40 N N 1 F N
