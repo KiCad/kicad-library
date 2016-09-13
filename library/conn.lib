@@ -9641,28 +9641,17 @@ X P5 5 350 100 210 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# screw_terminal_1x01
-#
-DEF ~screw_terminal_1x01 H 0 40 Y Y 1 F P
-F0 "H" -175 125 60 H V C CNN
-F1 "screw_terminal_1x01" 225 200 60 H I C CNN
-F2 "" -200 -100 60 H I C CNN
-F3 "" -200 -100 60 H I C CNN
-DRAW
-C -150 0 50 0 1 0 N
-S -225 75 -75 -75 0 1 0 N
-P 2 0 1 20 -175 25 -125 -25 N
-X ~ 1 0 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
 # screw_terminal_2x01
 #
-DEF ~screw_terminal_2x01 H 0 40 Y Y 1 F P
-F0 "H" -175 125 60 H V C CNN
-F1 "screw_terminal_2x01" 225 200 60 H I C CNN
+DEF ~screw_terminal_2x01 H 0 40 Y Y 1 F N
+F0 "H" -250 150 50 H V L TNN
+F1 "screw_terminal_2x01" -250 250 50 H I L TNN
 F2 "" -200 -100 60 H I C CNN
 F3 "" -200 -100 60 H I C CNN
+ALIAS MKDS-02
+$FPLIST
+ bornier2
+$ENDFPLIST
 DRAW
 C -150 -200 50 0 1 0 N
 C -150 0 50 0 1 0 N
@@ -9677,10 +9666,14 @@ ENDDEF
 # screw_terminal_3x01
 #
 DEF ~screw_terminal_3x01 H 0 40 Y Y 1 F P
-F0 "H" -175 125 60 H V C CNN
-F1 "screw_terminal_3x01" 225 200 60 H I C CNN
+F0 "H" -250 150 50 H V L TNN
+F1 "screw_terminal_3x01" -250 250 50 H I L TNN
 F2 "" -200 -100 60 H I C CNN
 F3 "" -200 -100 60 H I C CNN
+ALIAS MKDS-03
+$FPLIST
+ bornier3
+$ENDFPLIST
 DRAW
 C -150 -400 50 0 1 0 N
 C -150 -200 50 0 1 0 N
@@ -9698,10 +9691,14 @@ ENDDEF
 # screw_terminal_4x01
 #
 DEF ~screw_terminal_4x01 H 0 40 Y Y 1 F P
-F0 "H" -175 125 60 H V C CNN
-F1 "screw_terminal_4x01" 225 200 60 H I C CNN
+F0 "H" -250 150 50 H V L TNN
+F1 "screw_terminal_4x01" -250 250 50 H I L TNN
 F2 "" -200 -100 60 H I C CNN
 F3 "" -200 -100 60 H I C CNN
+ALIAS MKDS-04
+$FPLIST
+ bornier4
+$ENDFPLIST
 DRAW
 C -150 -600 50 0 1 0 N
 C -150 -400 50 0 1 0 N
@@ -9722,10 +9719,14 @@ ENDDEF
 # screw_terminal_5x01
 #
 DEF ~screw_terminal_5x01 H 0 40 Y Y 1 F P
-F0 "H" -175 125 60 H V C CNN
-F1 "screw_terminal_5x01" 225 200 60 H I C CNN
+F0 "H" -250 150 50 H V L TNN
+F1 "screw_terminal_5x01" -250 250 50 H I L TNN
 F2 "" -200 -100 60 H I C CNN
 F3 "" -200 -100 60 H I C CNN
+ALIAS MKDS-05
+$FPLIST
+ bornier5
+$ENDFPLIST
 DRAW
 C -150 -800 50 0 1 0 N
 C -150 -600 50 0 1 0 N
@@ -9749,10 +9750,14 @@ ENDDEF
 # screw_terminal_6x01
 #
 DEF ~screw_terminal_6x01 H 0 40 Y Y 1 F P
-F0 "H" -175 125 60 H V C CNN
-F1 "screw_terminal_6x01" 225 200 60 H I C CNN
+F0 "H" -250 150 50 H V L TNN
+F1 "screw_terminal_6x01" -250 250 50 H I L TNN
 F2 "" -200 -100 60 H I C CNN
 F3 "" -200 -100 60 H I C CNN
+ALIAS MKDS-06
+$FPLIST
+ bornier6
+$ENDFPLIST
 DRAW
 C -150 -1000 50 0 1 0 N
 C -150 -800 50 0 1 0 N
@@ -9773,75 +9778,6 @@ X ~ 3 0 -400 100 L 50 50 1 1 P
 X ~ 4 0 -600 100 L 50 50 1 1 I
 X ~ 5 0 -800 100 L 50 50 1 1 I
 X ~ 6 0 -1000 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# screw_terminal_7x01
-#
-DEF ~screw_terminal_7x01 H 0 40 Y Y 1 F P
-F0 "H" -175 125 60 H V C CNN
-F1 "screw_terminal_7x01" 225 200 60 H I C CNN
-F2 "" -200 -100 60 H I C CNN
-F3 "" -200 -100 60 H I C CNN
-DRAW
-C -150 -1200 50 0 1 0 N
-C -150 -1000 50 0 1 0 N
-C -150 -800 50 0 1 0 N
-C -150 -600 50 0 1 0 N
-C -150 -400 50 0 1 0 N
-C -150 -200 50 0 1 0 N
-C -150 0 50 0 1 0 N
-S -225 -1275 -75 75 0 1 0 N
-P 2 0 1 20 -175 -1175 -125 -1225 N
-P 2 0 1 20 -175 -975 -125 -1025 N
-P 2 0 1 20 -175 -775 -125 -825 N
-P 2 0 1 20 -175 -575 -125 -625 N
-P 2 0 1 20 -175 -375 -125 -425 N
-P 2 0 1 20 -175 -175 -125 -225 N
-P 2 0 1 20 -175 25 -125 -25 N
-X ~ 1 0 0 100 L 50 50 1 1 w
-X ~ 2 0 -200 100 L 50 50 1 1 w
-X ~ 3 0 -400 100 L 50 50 1 1 P
-X ~ 4 0 -600 100 L 50 50 1 1 I
-X ~ 5 0 -800 100 L 50 50 1 1 I
-X ~ 6 0 -1000 100 L 50 50 1 1 I
-X ~ 7 0 -1200 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# screw_terminal_8x01
-#
-DEF ~screw_terminal_8x01 H 0 40 Y Y 1 F P
-F0 "H" -175 125 60 H V C CNN
-F1 "screw_terminal_8x01" 225 200 60 H I C CNN
-F2 "" -200 -100 60 H I C CNN
-F3 "" -200 -100 60 H I C CNN
-DRAW
-C -150 -1400 50 0 1 0 N
-C -150 -1200 50 0 1 0 N
-C -150 -1000 50 0 1 0 N
-C -150 -800 50 0 1 0 N
-C -150 -600 50 0 1 0 N
-C -150 -400 50 0 1 0 N
-C -150 -200 50 0 1 0 N
-C -150 0 50 0 1 0 N
-S -225 -1475 -75 75 0 1 0 N
-P 2 0 1 20 -175 -1375 -125 -1425 N
-P 2 0 1 20 -175 -1175 -125 -1225 N
-P 2 0 1 20 -175 -975 -125 -1025 N
-P 2 0 1 20 -175 -775 -125 -825 N
-P 2 0 1 20 -175 -575 -125 -625 N
-P 2 0 1 20 -175 -375 -125 -425 N
-P 2 0 1 20 -175 -175 -125 -225 N
-P 2 0 1 20 -175 25 -125 -25 N
-X ~ 1 0 0 100 L 50 50 1 1 w
-X ~ 2 0 -200 100 L 50 50 1 1 w
-X ~ 3 0 -400 100 L 50 50 1 1 P
-X ~ 4 0 -600 100 L 50 50 1 1 I
-X ~ 5 0 -800 100 L 50 50 1 1 I
-X ~ 6 0 -1000 100 L 50 50 1 1 I
-X ~ 7 0 -1200 100 L 50 50 1 1 I
-X ~ 8 0 -1400 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
