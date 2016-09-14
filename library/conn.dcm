@@ -511,6 +511,12 @@ D Connector BUS PCI
 K PCI
 $ENDCMP
 #
+$CMP RJ12_UNSHIELD
+D Modular Jack, 6P6C, Unshielded
+K RJ11 RJ12 Telephone POTS
+F https://en.wikipedia.org/wiki/Modular_connector#6P6C
+$ENDCMP
+#
 $CMP RJ45-TRANSFO
 D RJ45 with transformer + leds WURTH
 K RJ45
@@ -519,6 +525,12 @@ $ENDCMP
 $CMP RJ45_LEDS
 D RJ45, status leds
 K RJ45 RJ45_LEDS
+$ENDCMP
+#
+$CMP RJ45_UNSHIELD
+D Modular Jack, 8P8C, Unshielded
+K RJ45 RJ48 Ethernet
+F https://en.wikipedia.org/wiki/Modular_connector#8P8C
 $ENDCMP
 #
 $CMP SCART-F
