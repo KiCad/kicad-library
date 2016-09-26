@@ -6,11 +6,12 @@ EESchema-LIBRARY Version 2.3
 DEF ~FAN M 0 0 N Y 1 F N
 F0 "M" 100 -100 50 H V L CNN
 F1 "FAN" 100 -400 50 H I L TNN
-F2 "" 0 -290 60 H I C CNN
-F3 "" 0 -290 60 H I C CNN
+F2 "" 0 -290 50 H I C CNN
+F3 "" 0 -290 50 H I C CNN
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x02
  Connect:bornier2
+ TerminalBlock*2pol
 $ENDFPLIST
 DRAW
 A -98 -206 113 297 -910 0 1 0 N 0 -150 -100 -320
@@ -31,11 +32,12 @@ ENDDEF
 DEF ~FAN_ALT M 0 0 N Y 1 F N
 F0 "M" 150 -100 50 H V L BNN
 F1 "FAN_ALT" 150 -200 50 H I L BNN
-F2 "" 0 -350 60 H I C CNN
-F3 "" 0 -350 60 H I C CNN
+F2 "" 0 -350 50 H I C CNN
+F3 "" 0 -350 50 H I C CNN
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x02
  Connect:bornier2
+ TerminalBlock*2pol
 $ENDFPLIST
 DRAW
 A -160 -390 184 -1506 1506 0 1 0 N 0 -300 0 -480
@@ -59,12 +61,14 @@ ENDDEF
 DEF ~FAN_TACHO M 0 0 N Y 1 F N
 F0 "M" 100 -100 50 H V L CNN
 F1 "FAN_TACHO" 100 -400 50 H I L TNN
-F2 "" 0 -290 60 H I C CNN
-F3 "" 0 -290 60 H I C CNN
+F2 "" 0 -290 50 H I C CNN
+F3 "" 0 -290 50 H I C CNN
 ALIAS FAN_3pin FAN_PC_CHASSIS
 $FPLIST
  Pin_Headers:Fan_Pin_Header_Straight_1x03
  Pin_Headers:Pin_Header_Straight_1x03
+ TerminalBlock*3pol
+ bornier3
 $ENDFPLIST
 DRAW
 A -260 -240 20 1800 900 0 0 0 N -280 -240 -260 -220
@@ -91,12 +95,14 @@ ENDDEF
 DEF ~FAN_TACHO_PWM M 0 0 N Y 1 F N
 F0 "M" 100 -100 50 H V L CNN
 F1 "FAN_TACHO_PWM" 100 -400 50 H I L TNN
-F2 "" 0 -290 60 H I C CNN
-F3 "" 0 -290 60 H I C CNN
+F2 "" 0 -290 50 H I C CNN
+F3 "" 0 -290 50 H I C CNN
 ALIAS FAN_CPU_4pin FAN_4pin
 $FPLIST
  Pin_Headers:Fan_Pin_Header_Straight_1x04
  Pin_Headers:Pin_Header_Straight_1x04
+ TerminalBlock*4pol
+ bornier4
 $ENDFPLIST
 DRAW
 A -260 -240 20 1800 900 0 0 0 N -280 -240 -260 -220
@@ -126,11 +132,12 @@ ENDDEF
 DEF ~Motor_AC M 0 0 N Y 1 F N
 F0 "M" 100 -100 50 H V L CNN
 F1 "Motor_AC" 100 -400 50 H I L TNN
-F2 "" 0 -290 60 H I C CNN
-F3 "" 0 -290 60 H I C CNN
+F2 "" 0 -290 50 H I C CNN
+F3 "" 0 -290 50 H I C CNN
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x02
  Connect:bornier2
+ TerminalBlock*2pol
 $ENDFPLIST
 DRAW
 A -29 -308 31 -1763 -225 0 0 0 N -60 -310 0 -320
@@ -141,7 +148,7 @@ P 2 0 1 0 0 -500 0 -480 N
 P 2 0 1 0 0 -388 0 -404 N
 P 2 0 1 0 0 -132 0 -118 N
 P 2 0 1 0 0 -120 0 -100 N
-X ~ 1 0 0 100 D 60 60 1 1 P
+X ~ 1 0 0 100 D 50 50 1 1 P
 X ~ 2 0 -500 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
@@ -151,12 +158,13 @@ ENDDEF
 DEF ~Motor_DC M 0 0 N Y 1 F N
 F0 "M" 100 -100 50 H V L CNN
 F1 "Motor_DC" 100 -400 50 H I L TNN
-F2 "" 0 -290 60 H I C CNN
-F3 "" 0 -290 60 H I C CNN
+F2 "" 0 -290 50 H I C CNN
+F3 "" 0 -290 50 H I C CNN
 ALIAS Motor
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x02
  Connect:bornier2
+ TerminalBlock*2pol
 $ENDFPLIST
 DRAW
 P 5 0 0 0 -50 -330 -50 -180 0 -280 50 -180 50 -330 N
@@ -175,12 +183,13 @@ ENDDEF
 DEF ~Motor_DC_ALT M 0 0 N Y 1 F N
 F0 "M" 100 -100 50 H V L CNN
 F1 "Motor_DC_ALT" 100 -400 50 H I L TNN
-F2 "" 0 -290 60 H I C CNN
-F3 "" 0 -290 60 H I C CNN
+F2 "" 0 -290 50 H I C CNN
+F3 "" 0 -290 50 H I C CNN
 ALIAS Motor_ALT
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x02
  Connect:bornier2
+ TerminalBlock*2pol
 $ENDFPLIST
 DRAW
 C 0 -260 117 0 0 0 N
@@ -198,8 +207,8 @@ ENDDEF
 DEF ~Motor_Servo M 0 1 Y Y 1 F N
 F0 "M" -200 75 50 H V L CNN
 F1 "Motor_Servo" -200 -250 50 H I L TNN
-F2 "" 0 -290 60 H I C CNN
-F3 "" 0 -290 60 H I C CNN
+F2 "" 0 -290 50 H I C CNN
+F3 "" 0 -290 50 H I C CNN
 ALIAS Motor_Servo_JR Motor_Servo_Hitec Motor_Servo_Futaba_J Motor_Servo_Robbe Motor_Servo_Grapner_JR
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x03
@@ -233,8 +242,8 @@ ENDDEF
 DEF ~Motor_Servo_AirTronics M 0 1 Y Y 1 F N
 F0 "M" -200 75 50 H V L CNN
 F1 "Motor_Servo_AirTronics" -200 -250 50 H I L TNN
-F2 "" 0 -290 60 H I C CNN
-F3 "" 0 -290 60 H I C CNN
+F2 "" 0 -290 50 H I C CNN
+F3 "" 0 -290 50 H I C CNN
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x03
 $ENDFPLIST
@@ -267,11 +276,12 @@ ENDDEF
 DEF ~Stepper_Motor_bipolar M 0 0 Y N 1 F N
 F0 "M" 250 -200 50 H V L CNN
 F1 "Stepper_Motor_bipolar" 250 -250 50 H I L TNN
-F2 "" 110 -310 60 H I C CNN
-F3 "" 110 -310 60 H I C CNN
+F2 "" 110 -310 50 H I C CNN
+F3 "" 110 -310 50 H I C CNN
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x04
  Connect:bornier4
+ TerminalBlock*4pol
 $ENDFPLIST
 DRAW
 P 5 0 0 0 50 -370 50 -220 100 -320 150 -220 150 -370 N
@@ -300,11 +310,12 @@ ENDDEF
 DEF ~Stepper_Motor_unipolar_5pin M 0 0 Y N 1 F N
 F0 "M" 250 -200 50 H V L CNN
 F1 "Stepper_Motor_unipolar_5pin" 250 -250 50 H I L TNN
-F2 "" 110 -310 60 H I C CNN
-F3 "" 110 -310 60 H I C CNN
+F2 "" 110 -310 50 H I C CNN
+F3 "" 110 -310 50 H I C CNN
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x05
  Connect:bornier5
+ TerminalBlock*5pol
 $ENDFPLIST
 DRAW
 P 5 0 0 0 50 -370 50 -220 100 -320 150 -220 150 -370 N
@@ -338,11 +349,12 @@ ENDDEF
 DEF ~Stepper_Motor_unipolar_6pin M 0 0 Y N 1 F N
 F0 "M" 250 -200 50 H V L CNN
 F1 "Stepper_Motor_unipolar_6pin" 250 -250 50 H I L TNN
-F2 "" 110 -310 60 H I C CNN
-F3 "" 110 -310 60 H I C CNN
+F2 "" 110 -310 50 H I C CNN
+F3 "" 110 -310 50 H I C CNN
 $FPLIST
  Pin_Headers:Pin_Header_Straight_1x06
  Connect:bornier6
+ TerminalBlock*6pol
 $ENDFPLIST
 DRAW
 P 5 0 0 0 50 -370 50 -220 100 -320 150 -220 150 -370 N
