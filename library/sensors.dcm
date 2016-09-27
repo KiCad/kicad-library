@@ -312,6 +312,42 @@ K current monitor shunt sensor bidirectional high low side common mode
 F http://www.ti.com/lit/ds/symlink/ina283.pdf
 $ENDCMP
 #
+$CMP KTY10
+D KTY10 series silicon temperature sensors
+K silicon temperature sensors
+F http://www.nxp.com/documents/data_sheet/KTY81_SER.pdf
+$ENDCMP
+#
+$CMP KTY81
+D KTY81 series silicon temperature sensors
+K silicon temperature sensors
+F http://www.nxp.com/documents/data_sheet/KTY81_SER.pdf
+$ENDCMP
+#
+$CMP KTY82
+D KTY82 series silicon temperature sensors, SOT-23
+K silicon temperature sensors
+F http://www.nxp.com/documents/data_sheet/KTY82_SER.pdf
+$ENDCMP
+#
+$CMP KTY83
+D KTY83 series silicon temperature sensors, SOD68
+K silicon temperature sensors
+F http://www.nxp.com/documents/data_sheet/KTY83_SER.pdf
+$ENDCMP
+#
+$CMP KTY84
+D KTY84 series silicon temperature sensors, SOD68
+K silicon temperature sensor
+F http://www.nxp.com/documents/data_sheet/KTY84_SER.pdf
+$ENDCMP
+#
+$CMP KTYxx
+D KTYxx series silicon temperature sensors
+K silicon temperature sensors
+F http://www.nxp.com/documents/data_sheet/KTY81_SER.pdf
+$ENDCMP
+#
 $CMP L3G4200D
 D 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
 K 3-Axis MEMS Gyroscope
@@ -396,30 +432,6 @@ K Thermocouple Converter
 F http://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/MAX31855.html#popuppdf
 $ENDCMP
 #
-$CMP MCP9700T-E/LT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SC-70-5 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-E/TT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SOT-23-3 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-H/LT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SC-70-5 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-H/TT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SOT-23-3 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
 $CMP MCP9700AT-E/LT
 D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +125C, in SC-70-5 package
 K temperature sensor thermistor
@@ -440,6 +452,30 @@ $ENDCMP
 #
 $CMP MCP9700AT-H/TT
 D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +150C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-E/LT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-E/TT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-H/LT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-H/TT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SOT-23-3 package
 K temperature sensor thermistor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
@@ -504,6 +540,75 @@ K absolute pressure sensor
 F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
 $ENDCMP
 #
+$CMP PT100
+D PT100 platinum temperature sensor (RTD)
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
+$CMP PT1000
+D PT1000 platinum temperature sensor (RTD)
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
+$CMP PT1000_3wire
+D PT1000 platinum temperature sensor (RTD), 3-wire interface
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
+$CMP PT1000_4wire
+D PT1000 platinum temperature sensor (RTD), 4-wire interface
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
+$CMP PT100_3wire
+D PT100 platinum temperature sensor (RTD), 3-wire interface
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
+$CMP PT100_4wire
+D PT100 platinum temperature sensor (RTD), 4-wire interface
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
+$CMP PT500
+D PT500 platinum temperature sensor (RTD)
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
+$CMP PT500_3wire
+D PT500 platinum temperature sensor (RTD), 3-wire interface
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
+$CMP PT500_4wire
+D PT500 platinum temperature sensor (RTD), 4-wire interface
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
+$CMP RTD
+D platinum temperature sensor (RTD)
+K platinum temperature sensor RTD
+$ENDCMP
+#
+$CMP RTD_3wire
+D platinum temperature sensor (RTD), 3-wire interface
+K platinum temperature sensor RTD
+$ENDCMP
+#
+$CMP RTD_4wire
+D platinum temperature sensor (RTD), 4-wire interface
+K platinum temperature sensor RTD
+$ENDCMP
+#
 $CMP TLV493D
 D Low power 3D magnetic sensor, I2C interface, SOT23-6 package
 K magnetic field i2c
@@ -520,24 +625,6 @@ $CMP ZXCT1009
 D High side current sensor, SOT-23
 K High side current sensor monitor shunt
 F www.diodes.com/datasheets/ZXCT1009.pdf
-$ENDCMP
-#
-$CMP KTY10
-D KTYxx series silicon temperature sensors
-K KTYxx series silicon temperature sensors
-F http://www.nxp.com/documents/data_sheet/KTY81_SER.pdf
-$ENDCMP
-#
-$CMP PT100
-D PT100 platinum temperature sensor
-K PT100 platinum temperature sensor
-F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
-$ENDCMP
-#
-$CMP PT1000
-D PT1000 platinum temperature sensor
-K PT1000 platinum temperature sensor
-F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
 $ENDCMP
 #
 #End Doc Library
