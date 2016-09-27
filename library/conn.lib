@@ -9650,7 +9650,7 @@ F2 "" 0 -100 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 ALIAS MKDS-01
 $FPLIST
- 
+ TerminalBlock*1pol
 $ENDFPLIST
 DRAW
 C 50 0 50 0 1 0 N
@@ -9671,6 +9671,7 @@ F3 "" 0 0 50 H I C CNN
 ALIAS MKDS-02
 $FPLIST
  bornier2
+ TerminalBlock*2pol
 $ENDFPLIST
 DRAW
 C 50 -100 50 0 1 0 N
@@ -9687,7 +9688,7 @@ ENDDEF
 #
 # screw_terminal_3x01
 #
-DEF ~screw_terminal_3x01 H 0 40 Y Y 1 F P
+DEF ~screw_terminal_3x01 H 0 40 Y Y 1 F N
 F0 "H" -50 350 50 H V L TNN
 F1 "screw_terminal_3x01" -50 450 50 H I L TNN
 F2 "" 0 100 50 H I C CNN
@@ -9695,6 +9696,7 @@ F3 "" 0 100 50 H I C CNN
 ALIAS MKDS-03
 $FPLIST
  bornier3
+ TerminalBlock*3pol
 $ENDFPLIST
 DRAW
 C 50 -200 50 0 1 0 N
@@ -9715,7 +9717,7 @@ ENDDEF
 #
 # screw_terminal_4x01
 #
-DEF ~screw_terminal_4x01 H 0 40 Y Y 1 F P
+DEF ~screw_terminal_4x01 H 0 40 Y Y 1 F N
 F0 "H" -50 450 50 H V L TNN
 F1 "screw_terminal_4x01" -50 550 50 H I L TNN
 F2 "" 0 200 50 H I C CNN
@@ -9723,6 +9725,7 @@ F3 "" 0 200 50 H I C CNN
 ALIAS MKDS-04
 $FPLIST
  bornier4
+ TerminalBlock*4pol
 $ENDFPLIST
 DRAW
 C 50 -300 50 0 1 0 N
@@ -9747,7 +9750,7 @@ ENDDEF
 #
 # screw_terminal_5x01
 #
-DEF ~screw_terminal_5x01 H 0 40 Y Y 1 F P
+DEF ~screw_terminal_5x01 H 0 40 Y Y 1 F N
 F0 "H" -50 550 50 H V L TNN
 F1 "screw_terminal_5x01" -50 650 50 H I L TNN
 F2 "" 0 300 50 H I C CNN
@@ -9755,6 +9758,7 @@ F3 "" 0 300 50 H I C CNN
 ALIAS MKDS-05
 $FPLIST
  bornier5
+ TerminalBlock*5pol
 $ENDFPLIST
 DRAW
 C 50 -400 50 0 1 0 N
@@ -9783,7 +9787,7 @@ ENDDEF
 #
 # screw_terminal_6x01
 #
-DEF ~screw_terminal_6x01 H 0 40 Y Y 1 F P
+DEF ~screw_terminal_6x01 H 0 40 Y Y 1 F N
 F0 "H" -50 650 50 H V L TNN
 F1 "screw_terminal_6x01" -50 750 50 H I L TNN
 F2 "" 0 400 50 H I C CNN
@@ -9791,6 +9795,7 @@ F3 "" 0 400 50 H I C CNN
 ALIAS MKDS-06
 $FPLIST
  bornier6
+ TerminalBlock*6pol
 $ENDFPLIST
 DRAW
 C 50 -500 50 0 1 0 N
