@@ -5,33 +5,21 @@ D Fan
 K Fan Motor
 $ENDCMP
 #
-$CMP FAN_ALT
-D Fan without PWM or tach, alternative symbol
-K Fan Motor
-$ENDCMP
-#
-$CMP FAN_TACHO
-D Fan, tacho output, 3-pin connector
-K Fan Motor tacho 
-F http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg
-$ENDCMP
-#
 $CMP FAN_3pin
 D Fan, tacho output, 3-pin connector
 K Fan Motor tacho 
 F http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg
 $ENDCMP
 #
-$CMP FAN_PC_CHASSIS
-D PC chassis fan, tacho output, 3-pin connector
-K Fan Motor tacho 
-F http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg
-$ENDCMP
-#
-$CMP FAN_TACHO_PWM
+$CMP FAN_4pin
 D Fan, tacho output, PWM input, 4-pin connector
 K Fan Motor tacho PWM
 F http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+$ENDCMP
+#
+$CMP FAN_ALT
+D Fan without PWM or tach, alternative symbol
+K Fan Motor
 $ENDCMP
 #
 $CMP FAN_CPU_4pin
@@ -40,7 +28,19 @@ K Fan Motor tacho PWM
 F http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
 $ENDCMP
 #
-$CMP FAN_4pin
+$CMP FAN_PC_CHASSIS
+D PC chassis fan, tacho output, 3-pin connector
+K Fan Motor tacho 
+F http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg
+$ENDCMP
+#
+$CMP FAN_TACHO
+D Fan, tacho output, 3-pin connector
+K Fan Motor tacho 
+F http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg
+$ENDCMP
+#
+$CMP FAN_TACHO_PWM
 D Fan, tacho output, PWM input, 4-pin connector
 K Fan Motor tacho PWM
 F http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
@@ -67,14 +67,8 @@ K Servo Motor
 F http://forums.parallax.com/uploads/attachments/46831/74481.png
 $ENDCMP
 #
-$CMP Motor_Servo_JR
-D Servo Motor (JR connector)
-K Servo Motor
-F http://forums.parallax.com/uploads/attachments/46831/74481.png
-$ENDCMP
-#
-$CMP Motor_Servo_Hitec
-D Servo Motor (HiTec connector)
+$CMP Motor_Servo_AirTronics
+D Servo Motor (AirTronics connector)
 K Servo Motor
 F http://forums.parallax.com/uploads/attachments/46831/74481.png
 $ENDCMP
@@ -85,20 +79,26 @@ K Servo Motor
 F http://forums.parallax.com/uploads/attachments/46831/74481.png
 $ENDCMP
 #
-$CMP Motor_Servo_Robbe
-D Servo Motor (Robbe connector)
-K Servo Motor
-F http://forums.parallax.com/uploads/attachments/46831/74481.png
-$ENDCMP
-#
 $CMP Motor_Servo_Grapner_JR
 D Servo Motor (Graupner JR connector)
 K Servo Motor
 F http://forums.parallax.com/uploads/attachments/46831/74481.png
 $ENDCMP
 #
-$CMP Motor_Servo_AirTronics
-D Servo Motor (AirTronics connector)
+$CMP Motor_Servo_Hitec
+D Servo Motor (HiTec connector)
+K Servo Motor
+F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
+$CMP Motor_Servo_JR
+D Servo Motor (JR connector)
+K Servo Motor
+F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
+$CMP Motor_Servo_Robbe
+D Servo Motor (Robbe connector)
 K Servo Motor
 F http://forums.parallax.com/uploads/attachments/46831/74481.png
 $ENDCMP
