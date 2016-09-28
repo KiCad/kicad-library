@@ -540,12 +540,6 @@ K absolute pressure sensor
 F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
 $ENDCMP
 #
-$CMP SHT1x
-D Temperature and humidity module
-K digital temperature humidity sensor
-F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity_Sensors/Sensirion_Humidity_Sensors_SHT1x_Datasheet_V5.pdf
-$ENDCMP
-#
 $CMP PT100
 D PT100 platinum temperature sensor (RTD)
 K platinum temperature sensor RTD
@@ -603,16 +597,49 @@ $ENDCMP
 $CMP RTD
 D platinum temperature sensor (RTD)
 K platinum temperature sensor RTD
+F https://en.wikipedia.org/wiki/Resistance_thermometer
 $ENDCMP
 #
 $CMP RTD_3wire
 D platinum temperature sensor (RTD), 3-wire interface
 K platinum temperature sensor RTD
+F https://en.wikipedia.org/wiki/Resistance_thermometer
 $ENDCMP
 #
 $CMP RTD_4wire
 D platinum temperature sensor (RTD), 4-wire interface
 K platinum temperature sensor RTD
+F https://en.wikipedia.org/wiki/Resistance_thermometer
+$ENDCMP
+#
+$CMP SHT1x
+D Temperature and humidity module
+K digital temperature humidity sensor
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity_Sensors/Sensirion_Humidity_Sensors_SHT1x_Datasheet_V5.pdf
+$ENDCMP
+#
+$CMP THERMOCOUPLE
+D thermocouple
+K thermocouple temperature sensor cold junction
+F https://en.wikipedia.org/wiki/Thermocouple
+$ENDCMP
+#
+$CMP THERMOCOUPLE_ALT
+D thermocouple with connector block
+K thermocouple temperature sensor cold junction
+F https://en.wikipedia.org/wiki/Thermocouple
+$ENDCMP
+#
+$CMP THERMOCOUPLE_ALT_BLOCK
+D thermocouple with connector block, alternative symbol
+K thermocouple temperature sensor cold junction
+F https://en.wikipedia.org/wiki/Thermocouple
+$ENDCMP
+#
+$CMP THERMOCOUPLE_BLOCK
+D thermocouple with connector block
+K thermocouple temperature sensor cold junction
+F https://en.wikipedia.org/wiki/Thermocouple
 $ENDCMP
 #
 $CMP TLV493D
