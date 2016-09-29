@@ -66,6 +66,12 @@ K linear regulator ldo fixed positive obsolete
 F http://www.diodes.com/datasheets/AP1117.pdf
 $ENDCMP
 #
+$CMP AP130
+D 300mA low dropout linear regulator, shutdown pin, 3.3V fixed positive output, SOT-89R-3l package
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP130.pdf
+$ENDCMP
+#
 $CMP AP131-15
 D 300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package
 K linear regulator ldo fixed positive
@@ -1276,6 +1282,12 @@ $CMP LM350T
 D 3A 33V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 3A Positive
 F http://www.fairchildsemi.com/ds/LM/LM350.pdf
+$ENDCMP
+#
+$CMP LM4030
+D Vref 2.5V, 0.05-0.15%, 10-30ppm/C, SOT-23
+K vref 2.5v
+F http://www.ti.com/lit/ds/symlink/lm4030.pdf
 $ENDCMP
 #
 $CMP LM723
