@@ -22,6 +22,36 @@ K High Speed Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf
 $ENDCMP
 #
+$CMP A1050
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/A106012.pdf
+$ENDCMP
+#
+$CMP A1060
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/A106012.pdf
+$ENDCMP
+#
+$CMP A9013
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.produktinfo.conrad.com/datenblaetter/125000-149999/145475-da-01-en-FOTOWIDERSTAND_A_9060_A_9013.pdf
+$ENDCMP
+#
+$CMP A9050
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/A90xxxx%23PE.pdf
+$ENDCMP
+#
+$CMP A9060
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/A90xxxx%23PE.pdf
+$ENDCMP
+#
 $CMP ACPL-P343
 D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, Stretched SO-6
 K MOSFET Driver IGBT Driver Optocoupler
@@ -201,46 +231,46 @@ K Isolated Linear Photocoupler
 F http://www.vishay.com/docs/83622/il300.pdf
 $ENDCMP
 #
-$CMP IRL81A, side-emitter package
-D High Power Infrared LED (850 nm)
+$CMP IR204A
+D Infrared LED , 3mm LED package
 K opto IR LED
-F http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf
+F ~
 $ENDCMP
 #
-$CMP LD271, 5mm LED package
-D Infrared LED 950nm
-K opto IR LED
-F http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf
+$CMP LASERDIODE_M_TYPE
+D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-C, 3=PD-A)
+K opto laserdiode photodiode
+F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP SFH4546, 5mm LED package
-D Infrared LED 950nm
-K opto IR LED
-F http://www.osram-os.com/Graphics/XPic1/00101982_0.pdf
+$CMP LASERDIODE_N_TYPE
+D Laser Diode in a 3-pin package with photodiode (1=LD-C, 2=LD-A/PD-C, 3=PD-A)
+K opto laserdiode photodiode
+F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP  CQY99, 5mm LED package
-D Infrared LED 
-K opto IR LED
-F http://www.prtice.info/IMG/pdf/CQY99.pdf
+$CMP LASERDIODE_P_TYPE
+D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-A, 3=PD-C)
+K opto laserdiode photodiode
+F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP LD274 
-D Infrared LED, 5mm LED package
-K opto IR LED
-F http://www.osram-os.com/Graphics/XPic8/00082756_0.pdf
+$CMP LDR03
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf
 $ENDCMP
 #
-$CMP SFH4550, 5mm LED package
-D Infrared LED 950nm
-K opto IR LED
-F http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf
+$CMP LDR05
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/LDR05%23IMP.pdf
 $ENDCMP
 #
-$CMP LPT80A, side-receiver package
-D Phototransistor NPN
-K npn phototransistor
-F http://www.osram-os.com/Graphics/XPic4/00209607_0.pdf/LPT%2080A.pdf
+$CMP LDR07
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf
 $ENDCMP
 #
 $CMP LTV-352T
@@ -304,6 +334,12 @@ $CMP LTV-847
 D DIP-16, Quad DC Optocoupler, Vce 35V, CTR 50%
 K NPN DC Quad Optocoupler
 F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP M9960
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/M996011a_b.pdf
 $ENDCMP
 #
 $CMP MOC3010M
@@ -619,25 +655,13 @@ K npn phototransistor
 F http://www.osram-os.com/Graphics/XPic2/00101811_0.pdf/SFH%20309,%20SFH%20309%20FA,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
 $ENDCMP
 #
-$CMP IR204A
-D Infrared LED , 3mm LED package
-K opto IR LED
-F ~
-$ENDCMP
-#
-$CMP TSAL4400
+$CMP SFH4346
 D Infrared LED , 3mm LED package
 K opto IR LED
 F ~
 $ENDCMP
 #
 $CMP SFH4356P
-D Infrared LED , 3mm LED package
-K opto IR LED
-F ~
-$ENDCMP
-#
-$CMP SFH4346
 D Infrared LED , 3mm LED package
 K opto IR LED
 F ~
@@ -822,6 +846,18 @@ $CMP TLP785F
 D DIP4F (Wide), DC Optocoupler, Vce 80V, CTR 50-200%
 K NPN DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP785_TLP785F_en_datasheet_120220.pdf
+$ENDCMP
+#
+$CMP TSAL4400
+D Infrared LED , 3mm LED package
+K opto IR LED
+F ~
+$ENDCMP
+#
+$CMP VT93xx
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.produktinfo.conrad.com/datenblaetter/125000-149999/140375-da-01-en-FOTOWIDERSTAND__VT_93_N2__THT_.pdf
 $ENDCMP
 #
 #End Doc Library
