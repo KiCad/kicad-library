@@ -263,13 +263,24 @@ D ultrasonic receiver
 K microphone ultrasonic crystal
 $ENDCMP
 #
-$CMP PHOTORESISTOR
-D Photo resistor
+$CMP PHOTORESISTOR_COUPLER
+D Photo resistor opto-coupler
+K photo resistor opto-coupler
+$ENDCMP
+#
+$CMP PHOTORES_ALT
+D light dependent resistor, alternative symbol
+K light dependent photo resistor LDR
 $ENDCMP
 #
 $CMP POT
 D Potentionmetre
 K R
+$ENDCMP
+#
+$CMP Photores
+D light dependent resistor
+K light dependent photo resistor LDR
 $ENDCMP
 #
 $CMP Q_NIGBT_CEG
