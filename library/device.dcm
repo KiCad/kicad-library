@@ -230,12 +230,22 @@ $ENDCMP
 #
 $CMP MICROPHONE_ALT
 D microphone, alternative symbol
-K microphone
+K microphone sound
 $ENDCMP
 #
 $CMP MICROPHONE_CAPACITANCE
-D microphone, capacitative
-K microphone
+D capacitative microphone
+K capacitative microphone sound
+$ENDCMP
+#
+$CMP MICROPHONE_CRYTSAL
+D crystal microphone
+K microphone crystal 
+$ENDCMP
+#
+$CMP MICROPHONE_ULTRASONIC
+D ultrasonic receiver
+K microphone ultrasonic crystal
 $ENDCMP
 #
 $CMP PHOTORESISTOR
@@ -570,6 +580,16 @@ $ENDCMP
 $CMP SPEAKER
 D Audio speaker, 2 pins, generic symbol
 K buzzer beeper sound
+$ENDCMP
+#
+$CMP SPEAKER_CRYSTAL
+D crystal transducer
+K crystal speaker ultrasonic transducer
+$ENDCMP
+#
+$CMP SPEAKER_SMALL
+D small speaker symbol
+K speaker sound
 $ENDCMP
 #
 $CMP SPST
