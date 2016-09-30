@@ -1,8 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AMPEREMETER
-D galvanometer
-K galvanometer
+D amperemeter
+K amperemeter DC
+$ENDCMP
+#
+$CMP AMPEREMETER_AC
+D AC amperemeter
+K amperemeter AC
 $ENDCMP
 #
 $CMP BEEPER
@@ -695,6 +700,11 @@ $ENDCMP
 $CMP VOLTMETER
 D galvanometer
 K galvanometer
+$ENDCMP
+#
+$CMP VOLTMETER_AC
+D AC voltmeter
+K voltmeter AC
 $ENDCMP
 #
 $CMP VR
