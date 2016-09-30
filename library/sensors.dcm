@@ -540,6 +540,21 @@ K absolute pressure sensor
 F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
 $ENDCMP
 #
+$CMP NTC
+D temperature dependent resistor, negative temperature coefficient (NTC)
+K thermistor NTC resistor sensor RTD
+$ENDCMP
+#
+$CMP NTC_3wire
+D temperature dependent resistor, negative temperature coefficient (NTC), 3-wire interface
+K thermistor NTC resistor sensor RTD
+$ENDCMP
+#
+$CMP NTC_4wire
+D temperature dependent resistor, negative temperature coefficient (NTC), 4-wire interface
+K thermistor NTC resistor sensor RTD
+$ENDCMP
+#
 $CMP PT100
 D PT100 platinum temperature sensor (RTD)
 K platinum temperature sensor RTD
@@ -594,21 +609,36 @@ K platinum temperature sensor RTD
 F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
 $ENDCMP
 #
+$CMP PTC
+D temperature dependent resistor, positive temperature coefficient (PTC)
+K thermistor PTC resistor sensor RTD
+$ENDCMP
+#
+$CMP PTC_3wire
+D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
+K thermistor PTC resistor sensor RTD
+$ENDCMP
+#
+$CMP PTC_4wire
+D temperature dependent resistor, positive temperature coefficient (PTC), 4-wire interface
+K thermistor PTC resistor sensor RTD
+$ENDCMP
+#
 $CMP RTD
 D platinum temperature sensor (RTD)
-K platinum temperature sensor RTD
+K platinum temperature sensor RTD PTC
 F https://en.wikipedia.org/wiki/Resistance_thermometer
 $ENDCMP
 #
 $CMP RTD_3wire
 D platinum temperature sensor (RTD), 3-wire interface
-K platinum temperature sensor RTD
+K platinum temperature sensor RTD PTC
 F https://en.wikipedia.org/wiki/Resistance_thermometer
 $ENDCMP
 #
 $CMP RTD_4wire
 D platinum temperature sensor (RTD), 4-wire interface
-K platinum temperature sensor RTD
+K platinum temperature sensor RTD PTC
 F https://en.wikipedia.org/wiki/Resistance_thermometer
 $ENDCMP
 #
