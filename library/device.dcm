@@ -73,6 +73,16 @@ $CMP D
 D Diode
 $ENDCMP
 #
+$CMP DPDT_SMALL
+D double 2-way switch
+K switch DPDT
+$ENDCMP
+#
+$CMP DPST_SMALL
+D double on-off switch
+K switch DPST
+$ENDCMP
+#
 $CMP DUAL_POT
 D Potentionmetre
 K R
@@ -687,6 +697,11 @@ D 3 position switch, SP3T
 K switch SP3T
 $ENDCMP
 #
+$CMP SPDT_SMALL
+D 2-way switch
+K switch SPDT
+$ENDCMP
+#
 $CMP SPEAKER
 D Audio speaker, 2 pins, generic symbol
 K buzzer beeper sound
@@ -712,6 +727,11 @@ D Interrupteur simple
 K switch
 $ENDCMP
 #
+$CMP SPST_SMALL
+D on-off switch
+K switch SPST
+$ENDCMP
+#
 $CMP SWITCH_INV
 D inverseur
 K switch
@@ -723,8 +743,13 @@ K switch
 $ENDCMP
 #
 $CMP SW_PUSH
-D Button
-K Switch
+D Button, Push-To-Close
+K Switch Push Button
+$ENDCMP
+#
+$CMP SW_PUSH_OPEN
+D Button, Push-To-Open
+K Switch Push Button
 $ENDCMP
 #
 $CMP SW_PUSH_SMALL
