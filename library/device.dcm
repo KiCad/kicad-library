@@ -1,5 +1,30 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AMPEREMETER
+D amperemeter
+K amperemeter DC
+$ENDCMP
+#
+$CMP AMPEREMETER_AC
+D AC amperemeter
+K amperemeter AC
+$ENDCMP
+#
+$CMP BATTERY_CELL
+D single battery cell
+K battery cell
+$ENDCMP
+#
+$CMP BEEPER
+D Beeper
+K Quartz Resonator Ceramic Filter
+$ENDCMP
+#
+$CMP BUZZER
+D buzzer, polar
+K Quartz Resonator Ceramic Filter
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 $ENDCMP
@@ -46,6 +71,16 @@ $ENDCMP
 #
 $CMP D
 D Diode
+$ENDCMP
+#
+$CMP DPDT_SMALL
+D double 2-way switch
+K switch DPDT
+$ENDCMP
+#
+$CMP DPST_SMALL
+D double on-off switch
+K switch DPST
 $ENDCMP
 #
 $CMP DUAL_POT
@@ -135,6 +170,11 @@ D Diode bridge
 K Graetz
 $ENDCMP
 #
+$CMP EARPHONE
+D earphone, polar
+K earphone speaker headphone
+$ENDCMP
+#
 $CMP EMI_FILTER
 D Filtre EMI
 K EMI
@@ -143,6 +183,24 @@ $ENDCMP
 $CMP EMI_FILTER2
 D Filtre EMI
 K EMI
+$ENDCMP
+#
+$CMP EMI_FILTER_C
+D EMI filter, single capacitor
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP EMI_FILTER_CLC
+D EMI T-filter (CLC)
+K EMI T-filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP EMI_FILTER_LL
+D EMI 2-inductor-filter
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
 $ENDCMP
 #
 $CMP FILTER
@@ -158,6 +216,11 @@ $CMP F_Small
 D Fuse
 $ENDCMP
 #
+$CMP GALVANOMETER
+D galvanometer
+K galvanometer
+$ENDCMP
+#
 $CMP Jumper_NC_Small
 D Jumper normally close
 K Jumper, Link
@@ -166,6 +229,21 @@ $ENDCMP
 $CMP Jumper_NO_Small
 D Jumper normally open
 K Jumper, Link
+$ENDCMP
+#
+$CMP LAMP
+D lamp
+K lamp
+$ENDCMP
+#
+$CMP LAMP_ALT
+D lamp, alternative symbol
+K lamp
+$ENDCMP
+#
+$CMP LAMP_NEON
+D neon lamp
+K neon lamp
 $ENDCMP
 #
 $CMP LED
@@ -208,13 +286,64 @@ D DOUBLE type Bicolore
 K LED
 $ENDCMP
 #
-$CMP PHOTORESISTOR
-D Photo resistor
+$CMP MICROPHONE
+D microphone
+K microphone
+$ENDCMP
+#
+$CMP MICROPHONE_ALT
+D microphone, alternative symbol
+K microphone sound
+$ENDCMP
+#
+$CMP MICROPHONE_CAPACITANCE
+D capacitative microphone
+K capacitative microphone sound
+$ENDCMP
+#
+$CMP MICROPHONE_CRYTSAL
+D crystal microphone
+K microphone crystal 
+$ENDCMP
+#
+$CMP MICROPHONE_ULTRASONIC
+D ultrasonic receiver
+K microphone ultrasonic crystal
+$ENDCMP
+#
+$CMP PHOTODIODE
+D photo diode
+K opto photo diode
+$ENDCMP
+#
+$CMP PHOTORESISTOR_COUPLER
+D Photo resistor opto-coupler
+K photo resistor opto-coupler
+$ENDCMP
+#
+$CMP PHOTORES_ALT
+D light dependent resistor, alternative symbol
+K light dependent photo resistor LDR
+$ENDCMP
+#
+$CMP PHOTOTRANSISTOR_NPN_2Pin_EC
+D Phototransistor NPN
+K npn phototransistor
+$ENDCMP
+#
+$CMP PHOTOTRANSISTOR_NPN_3Pin_EBC
+D Phototransistor NPN, base pin
+K npn phototransistor
 $ENDCMP
 #
 $CMP POT
 D Potentionmetre
 K R
+$ENDCMP
+#
+$CMP Photores
+D light dependent resistor
+K light dependent photo resistor LDR
 $ENDCMP
 #
 $CMP Q_NIGBT_CEG
@@ -482,6 +611,16 @@ D Resistor
 K R DEV
 $ENDCMP
 #
+$CMP REED_SWITCH
+D reed switch
+K reed magnetic switch
+$ENDCMP
+#
+$CMP RESONATOR
+D Three pin ceramic resonator
+K Ceramic Resonator
+$ENDCMP
+#
 $CMP RF_SHIELD_ONE_PIECE
 D One-Piece EMI RF Shielding Cabinet
 K RF EMI Shielding Cabinet
@@ -509,14 +648,94 @@ D 8 resistors
 K R DEV
 $ENDCMP
 #
+$CMP R_NET1_DIV
+D Voltage Divider in a single package (e.g. SOT-23)
+K R Network voltage divider
+F http://www.ttelectronicsresistors.com/datasheets/DIV23.pdf
+$ENDCMP
+#
+$CMP R_NET3_DIV_SIP
+D 3 Voltage Dividers network, SIP package
+K R Network divider topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET3_PAR_SIP
+D 3 Resistor network, parallel topology, SIP package
+K R Network parallel topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET4
+D 4 Resistor network, star topology
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET4_DIV_SIP
+D 4 Voltage Dividers network, SIP package
+K R Network divider topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET4_PAR_SIP
+D 4 Resistor network, parallel topology, SIP package
+K R Network parallel topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET5
+D 5 Resistor network, star topology
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET5_DIV_SIP
+D 5 Voltage Dividers network, SIP package
+K R Network divider topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET5_PAR_SIP
+D 5 Resistor network, parallel topology, SIP package
+K R Network parallel topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET6
+D 6 Resistor network, star topology
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET7
+D 7 Resistor network, star topology
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET8
+D 8 Resistor network, star topology
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET9
+D 9 Resistor network, star topology
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_PACK4
 D 4 resistors Pack
 K R DEV
+F http://www.esr.info/pdf/products/SMRA.pdf
 $ENDCMP
 #
 $CMP R_PACK8
 D 8 resistors Pack
 K R DEV
+F http://www.esr.info/pdf/products/SMRA.pdf
 $ENDCMP
 #
 $CMP R_Small
@@ -532,9 +751,20 @@ $CMP SCR
 D Thyristor
 $ENDCMP
 #
+$CMP SOLAR_CELL
+D single solar cell
+K solar cell
+F ~
+$ENDCMP
+#
 $CMP SP3T
 D 3 position switch, SP3T
 K switch SP3T
+$ENDCMP
+#
+$CMP SPDT_SMALL
+D 2-way switch
+K switch SPDT
 $ENDCMP
 #
 $CMP SPEAKER
@@ -542,9 +772,29 @@ D Audio speaker, 2 pins, generic symbol
 K buzzer beeper sound
 $ENDCMP
 #
+$CMP SPEAKER_CRYSTAL
+D crystal speaker/transducer
+K crystal speaker ultrasonic transducer
+$ENDCMP
+#
+$CMP SPEAKER_SMALL
+D small speaker symbol
+K speaker sound
+$ENDCMP
+#
+$CMP SPEAKER_ULTRASONIC
+D ultrasonic transducer
+K crystal speaker ultrasonic transducer
+$ENDCMP
+#
 $CMP SPST
 D Interrupteur simple
 K switch
+$ENDCMP
+#
+$CMP SPST_SMALL
+D on-off switch
+K switch SPST
 $ENDCMP
 #
 $CMP SWITCH_INV
@@ -558,8 +808,13 @@ K switch
 $ENDCMP
 #
 $CMP SW_PUSH
-D Button
-K Switch
+D Button, Push-To-Close
+K Switch Push Button
+$ENDCMP
+#
+$CMP SW_PUSH_OPEN
+D Button, Push-To-Open
+K Switch Push Button
 $ENDCMP
 #
 $CMP SW_PUSH_SMALL
@@ -594,6 +849,16 @@ $ENDCMP
 $CMP TVS
 D Transient voltage suppressor diode (bi-directional)
 K DEV TVS TRANSIENT SUPPROESSOR ESD
+$ENDCMP
+#
+$CMP VOLTMETER
+D galvanometer
+K galvanometer
+$ENDCMP
+#
+$CMP VOLTMETER_AC
+D AC voltmeter
+K voltmeter AC
 $ENDCMP
 #
 $CMP VR
