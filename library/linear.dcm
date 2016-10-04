@@ -161,6 +161,12 @@ K AmpliOp Mos
 F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3140-a.pdf
 $ENDCMP
 #
+$CMP ICM7555
+D 555-series CMOS timer IC
+K timer
+F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
+$ENDCMP
+#
 $CMP LF398
 D Sample & hold
 F ns/lf398.pdf
@@ -317,6 +323,12 @@ K Ampliop
 F AmpliOp.sch
 $ENDCMP
 #
+$CMP LMC555
+D 555-series CMOS timer IC
+K timer 555
+F http://www.ti.com/lit/ds/snas558m/snas558m.pdf
+$ENDCMP
+#
 $CMP LMC6062
 D Dual Op amp (low power)
 K ampliop
@@ -333,6 +345,18 @@ $CMP LMV601
 D Low Power, general purpose Op Amp, SC-70-6 package
 K op amp amplifier operational 
 F http://www.ti.com/lit/ds/symlink/lmv601.pdf
+$ENDCMP
+#
+$CMP LT1492
+D Dual Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR
+K operational amplifier opamp Precision
+F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+$ENDCMP
+#
+$CMP LT1493
+D Quad Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR, SSOP package
+K operational amplifier opamp Precision 
+F http://cds.linear.com/docs/en/datasheet/14923f.pdf
 $ENDCMP
 #
 $CMP LT6106
@@ -555,16 +579,10 @@ K AmpliOp Mos
 F http://www.ti.com.cn/cn/lit/ds/symlink/tlc274.pdf
 $ENDCMP
 #
-$CMP LT1492
-D Dual Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR
-K operational amplifier opamp Precision
-F http://cds.linear.com/docs/en/datasheet/14923f.pdf
-$ENDCMP
-#
-$CMP LT1493
-D Quad Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR, SSOP package
-K operational amplifier opamp Precision 
-F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+$CMP TLC555
+D 555-series LinCMOS timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
 #End Doc Library
