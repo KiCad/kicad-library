@@ -456,6 +456,30 @@ K MEMS Microphone
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00025467.pdf
 $ENDCMP
 #
+$CMP MPU-6000
+D InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C/SPI
+K mems
+F https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+$ENDCMP
+#
+$CMP MPU-6050
+D InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C
+K mems
+F https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+$ENDCMP
+#
+$CMP MPU-9150
+D InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C
+K mems magnetometer
+F https://www.invensense.com/wp-content/uploads/2015/02/MPU-9150-Datasheet.pdf
+$ENDCMP
+#
+$CMP MPU-9250
+D InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI
+K mems magnetometer
+F https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf
+$ENDCMP
+#
 $CMP MPXA6115A
 D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, SO package
 K absolute pressure sensor
@@ -478,6 +502,18 @@ $CMP MPXHZ6115A
 D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, media resistant gel, SSO package
 K absolute pressure sensor
 F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+$ENDCMP
+#
+$CMP SHT1x
+D Temperature and humidity module
+K digital temperature humidity sensor
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity_Sensors/Sensirion_Humidity_Sensors_SHT1x_Datasheet_V5.pdf
+$ENDCMP
+#
+$CMP TLV493D
+D Low power 3D magnetic sensor, I2C interface, SOT23-6 package
+K magnetic field i2c
+F http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80
 $ENDCMP
 #
 $CMP TMP411

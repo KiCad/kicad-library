@@ -323,6 +323,12 @@ K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/DAC08.pdf
 $ENDCMP
 #
+$CMP DAC7513_DCN
+D Low-Power, Rail-to-Rail Output, 12-Bit Serial Input DAC
+K TI DAC 12 bit
+F http://www.ti.com.cn/cn/lit/ds/symlink/dac7513.pdf
+$ENDCMP
+#
 $CMP LTC1257
 D Single Supply 12-bit DAC with Internal Reference Voltage, SOIC-8
 K DAC 12-bit
@@ -423,6 +429,30 @@ $CMP LTC1865L-S8
 D Dual channel 16-bit Analog to Digital Converter, 3V supply, 150ksps, SPI interface
 K sigma-delta adc
 F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
+$ENDCMP
+#
+$CMP MAX1274
+D 1.8Msps, Single-Supply, Low-Power, True-Differential, 12-Bit ADCs, bipolar input
+K 12bit ADC 1CH diff differential
+F https://datasheets.maximintegrated.com/en/ds/MAX1274-MAX1275.pdf
+$ENDCMP
+#
+$CMP MAX1275
+D 1.8Msps, Single-Supply, Low-Power, True-Differential, 12-Bit ADCs, unipolar input
+K 12bit ADC 1CH diff differential
+F https://datasheets.maximintegrated.com/en/ds/MAX1274-MAX1275.pdf
+$ENDCMP
+#
+$CMP MAX5138
+D Low-Power, Single, 16-Bit, Buffered Voltage-Output DAC
+K 16-bit DAC 1CH
+F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
+$ENDCMP
+#
+$CMP MAX5139
+D Low-Power, Single, 12-Bit, Buffered Voltage-Output DAC
+K 12-bit DAC 1CH
+F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
 $ENDCMP
 #
 $CMP MCP3002
