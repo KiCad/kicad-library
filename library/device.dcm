@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AMPEREMETER
+D amperemeter
+K amperemeter DC
+$ENDCMP
+#
+$CMP AMPEREMETER_AC
+D AC amperemeter
+K amperemeter AC
+$ENDCMP
+#
 $CMP Battery
 D Battery
 K batt voltage-source cell
@@ -170,6 +180,11 @@ D Fuse, small symbol
 K fuse
 $ENDCMP
 #
+$CMP GALVANOMETER
+D galvanometer
+K galvanometer
+$ENDCMP
+#
 $CMP HEATSINK
 D Heatsink
 K thermal heat temperature
@@ -243,6 +258,11 @@ $ENDCMP
 $CMP LED_Small
 D LED, small symbol
 K led diode light-emitting-diode
+$ENDCMP
+#
+$CMP OHMMETER
+D ohmmeter, measures resistance
+K ohmmeter
 $ENDCMP
 #
 $CMP POT
@@ -715,6 +735,16 @@ $ENDCMP
 $CMP VARISTOR
 D Voltage dependent resistor
 K vdr resistance
+$ENDCMP
+#
+$CMP VOLTMETER
+D galvanometer
+K galvanometer
+$ENDCMP
+#
+$CMP VOLTMETER_AC
+D AC voltmeter
+K voltmeter AC
 $ENDCMP
 #
 $CMP ZENER
