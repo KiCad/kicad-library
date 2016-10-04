@@ -15,6 +15,16 @@ D Battery
 K batt voltage-source cell
 $ENDCMP
 #
+$CMP Beeper
+D Beeper
+K Quartz Resonator Ceramic 
+$ENDCMP
+#
+$CMP Buzzer
+D Buzzer, polar
+K Quartz Resonator Ceramic 
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K cap capacitor
@@ -165,6 +175,11 @@ D EMI Filter, three pins
 K electromagnetic interference noise
 $ENDCMP
 #
+$CMP Earphone
+D earphone, polar
+K earphone speaker headphone
+$ENDCMP
+#
 $CMP FUSE
 D Fuse, generic
 K fuse
@@ -258,6 +273,31 @@ $ENDCMP
 $CMP LED_Small
 D LED, small symbol
 K led diode light-emitting-diode
+$ENDCMP
+#
+$CMP Microphone
+D Microphone
+K Microphone
+$ENDCMP
+#
+$CMP Microphone_ALT
+D Microphone, alternative symbol
+K Microphone sound
+$ENDCMP
+#
+$CMP Microphone_Condenser
+D Condenser Microspcope
+K Capacitance condenser Microphone 
+$ENDCMP
+#
+$CMP Microphone_Crystal
+D crystal microphone
+K microphone crystal 
+$ENDCMP
+#
+$CMP Microphone_Ultrasound
+D Ultrasound receiver
+K Microphone Ultrasound crystal
 $ENDCMP
 #
 $CMP OHMMETER
@@ -602,11 +642,6 @@ D Diode schottky - cms
 K diode SCHOTTKY CMS
 $ENDCMP
 #
-$CMP SPEAKER
-D Audio speaker, 2 pins, generic symbol
-K buzzer beeper sound
-$ENDCMP
-#
 $CMP SW_CODED
 D Rotary switch, 4-bit encoding
 K rotary hex
@@ -677,6 +712,21 @@ D Single Pole Single Throw (SPST) switch, small symbol
 K switch lever
 $ENDCMP
 #
+$CMP Speaker_Crystal
+D crystal speaker/transducer
+K crystal speaker ultrasonic transducer
+$ENDCMP
+#
+$CMP Speaker_Small
+D small speaker symbol
+K speaker sound
+$ENDCMP
+#
+$CMP Speaker_Ultrasound
+D ultrasonic transducer
+K crystal speaker ultrasonic transducer
+$ENDCMP
+#
 $CMP TEST
 D Testpoint, connection for test equipment
 K tp testpoint
@@ -735,16 +785,6 @@ $ENDCMP
 $CMP VARISTOR
 D Voltage dependent resistor
 K vdr resistance
-$ENDCMP
-#
-$CMP VOLTMETER_AC
-D AC voltmeter
-K voltmeter AC
-$ENDCMP
-#
-$CMP VOLTMETER_DC
-D DV voltmeter
-K voltmeter
 $ENDCMP
 #
 $CMP ZENER
