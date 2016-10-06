@@ -41,6 +41,38 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Antenna
+#
+DEF Antenna A 0 40 N N 1 F N
+F0 "A" -75 75 50 H V R CNN
+F1 "Antenna" -75 0 50 H V R CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 100 0 -100 N
+P 3 0 1 0 50 100 0 0 -50 100 N
+X A 1 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Antenna_With_Shield
+#
+DEF Antenna_With_Shield A 0 40 N N 1 F N
+F0 "A" -75 75 50 H V R CNN
+F1 "Antenna_With_Shield" -75 0 50 H V R CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -1 -88 32 -882 1242 0 1 0 N 0 -120 -20 -60
+A 1 -88 32 -918 558 0 1 0 N 0 -120 20 -60
+P 2 0 1 0 0 100 0 -100 N
+P 2 0 1 0 30 -100 100 -100 N
+P 3 0 1 0 50 100 0 0 -50 100 N
+X A 1 0 -200 100 U 50 50 1 1 I
+X SHIELD 2 100 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Battery
 #
 DEF Battery BT 0 0 N Y 1 F N
