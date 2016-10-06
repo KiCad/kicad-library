@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.3
 #
 # FAN
 #
-DEF FAN M 0 0 Y Y 1 F N
+DEF ~FAN M 0 0 Y Y 1 F N
 F0 "M" 100 200 50 H V L CNN
 F1 "FAN" 100 -100 50 H I L TNN
 F2 "" 0 10 50 H I C CNN
@@ -29,7 +29,7 @@ ENDDEF
 #
 # FAN_ALT
 #
-DEF FAN_ALT M 0 0 N Y 1 F N
+DEF ~FAN_ALT M 0 0 N Y 1 F N
 F0 "M" 150 200 50 H V L BNN
 F1 "FAN_ALT" 150 100 50 H I L BNN
 F2 "" 0 -50 50 H I C CNN
@@ -56,9 +56,35 @@ X - 2 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# FAN_IEC60617
+#
+DEF ~FAN_IEC60617 M 0 0 Y Y 1 F N
+F0 "M" 150 150 50 H V L CNN
+F1 "FAN_IEC60617" 150 100 50 H I L TNN
+F2 "" 0 10 50 H I C CNN
+F3 "" 0 10 50 H I C CNN
+$FPLIST
+ Pin_Headers:Pin_Header_Straight_1x02
+ Connect:bornier2
+ TerminalBlock*2pol
+$ENDFPLIST
+DRAW
+C 0 40 100 0 1 0 N
+S -130 170 130 -90 0 1 10 f
+P 2 0 1 0 -60 -40 90 0 N
+P 2 0 1 0 -60 120 90 80 N
+P 2 0 1 0 0 -200 0 -180 N
+P 2 0 1 0 0 -88 0 -104 N
+P 2 0 1 0 0 168 0 182 N
+P 2 0 1 0 0 180 0 200 N
+X + 1 0 300 100 D 50 50 1 1 P
+X - 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FAN_TACHO
 #
-DEF FAN_TACHO M 0 0 Y Y 1 F N
+DEF ~FAN_TACHO M 0 0 Y Y 1 F N
 F0 "M" 100 100 50 H V L CNN
 F1 "FAN_TACHO" 100 -200 50 H I L TNN
 F2 "" 0 -90 50 H I C CNN
@@ -93,7 +119,7 @@ ENDDEF
 #
 # FAN_TACHO_PWM
 #
-DEF FAN_TACHO_PWM M 0 0 Y Y 1 F N
+DEF ~FAN_TACHO_PWM M 0 0 Y Y 1 F N
 F0 "M" 100 200 50 H V L CNN
 F1 "FAN_TACHO_PWM" 100 -100 50 H I L TNN
 F2 "" 0 10 50 H I C CNN
@@ -131,7 +157,7 @@ ENDDEF
 #
 # Motor_AC
 #
-DEF Motor_AC M 0 0 Y Y 1 F N
+DEF ~Motor_AC M 0 0 Y Y 1 F N
 F0 "M" 100 100 50 H V L CNN
 F1 "Motor_AC" 100 -200 50 H I L TNN
 F2 "" 0 -90 50 H I C CNN
@@ -157,7 +183,7 @@ ENDDEF
 #
 # Motor_DC
 #
-DEF Motor_DC M 0 0 Y Y 1 F N
+DEF ~Motor_DC M 0 0 Y Y 1 F N
 F0 "M" 100 100 50 H V L CNN
 F1 "Motor_DC" 100 -200 50 H I L TNN
 F2 "" 0 -90 50 H I C CNN
@@ -181,7 +207,7 @@ ENDDEF
 #
 # Motor_DC_ALT
 #
-DEF Motor_DC_ALT M 0 0 Y Y 1 F N
+DEF ~Motor_DC_ALT M 0 0 Y Y 1 F N
 F0 "M" 100 100 50 H V L CNN
 F1 "Motor_DC_ALT" 100 -200 50 H I L TNN
 F2 "" 0 -90 50 H I C CNN
@@ -204,7 +230,7 @@ ENDDEF
 #
 # Motor_Servo
 #
-DEF Motor_Servo M 0 1 Y Y 1 F N
+DEF ~Motor_Servo M 0 1 Y Y 1 F N
 F0 "M" -200 175 50 H V L CNN
 F1 "Motor_Servo" -200 -150 50 H I L TNN
 F2 "" 0 -190 50 H I C CNN
@@ -239,7 +265,7 @@ ENDDEF
 #
 # Motor_Servo_AirTronics
 #
-DEF Motor_Servo_AirTronics M 0 1 Y Y 1 F N
+DEF ~Motor_Servo_AirTronics M 0 1 Y Y 1 F N
 F0 "M" -200 175 50 H V L CNN
 F1 "Motor_Servo_AirTronics" -200 -150 50 H I L TNN
 F2 "" 0 -190 50 H I C CNN
@@ -273,7 +299,7 @@ ENDDEF
 #
 # Stepper_Motor_bipolar
 #
-DEF Stepper_Motor_bipolar M 0 0 Y N 1 F N
+DEF ~Stepper_Motor_bipolar M 0 0 Y N 1 F N
 F0 "M" 150 100 50 H V L CNN
 F1 "Stepper_Motor_bipolar" 150 50 50 H I L TNN
 F2 "" 10 -10 50 H I C CNN
@@ -307,7 +333,7 @@ ENDDEF
 #
 # Stepper_Motor_unipolar_5pin
 #
-DEF Stepper_Motor_unipolar_5pin M 0 0 Y N 1 F N
+DEF ~Stepper_Motor_unipolar_5pin M 0 0 Y N 1 F N
 F0 "M" 150 100 50 H V L CNN
 F1 "Stepper_Motor_unipolar_5pin" 150 50 50 H I L TNN
 F2 "" 10 -10 50 H I C CNN
@@ -346,7 +372,7 @@ ENDDEF
 #
 # Stepper_Motor_unipolar_6pin
 #
-DEF Stepper_Motor_unipolar_6pin M 0 0 Y N 1 F N
+DEF ~Stepper_Motor_unipolar_6pin M 0 0 Y N 1 F N
 F0 "M" 150 100 50 H V L CNN
 F1 "Stepper_Motor_unipolar_6pin" 150 50 50 H I L TNN
 F2 "" 10 -10 50 H I C CNN
