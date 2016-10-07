@@ -616,12 +616,6 @@ K rotary switch encoder
 F ~
 $ENDCMP
 #
-$CMP ROTARY_ENCODER_SWITCH
-D Rotary encoder, dual channel, incremental quadrate outputs, integrated pushbutton switch
-K rotary switch encoder pushbutton
-F ~
-$ENDCMP
-#
 $CMP RR8
 D 8 resistors
 K r
@@ -662,9 +656,129 @@ D Diode schottky - cms
 K diode SCHOTTKY CMS
 $ENDCMP
 #
-$CMP SW_CODED
+$CMP SW_Coded
 D Rotary switch, 4-bit encoding
 K rotary hex
+$ENDCMP
+#
+$CMP SW_DIP1
+D 1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP10
+D 10x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP10_ALT
+D 10x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP11
+D 11x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP11_ALT
+D 11x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP12
+D 12x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP12_ALT
+D 12x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP1_ALT
+D 1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP2
+D 2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP2_ALT
+D 2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP3
+D 3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP3_ALT
+D 3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP4
+D 4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP4_ALT
+D 4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP5
+D 5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP5_ALT
+D 5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP6
+D 6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP6_ALT
+D 6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP7
+D 7x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP7_ALT
+D 7x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP8
+D 8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP8_ALT
+D 8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP9
+D 9x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP9_ALT
+D 9x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
+K dip switch
 $ENDCMP
 #
 $CMP SW_DPST
@@ -677,19 +791,34 @@ D Double Pole Single Throw (DPST) Switch, small symbol
 K switch dual double-pole single-throw OFF-ON
 $ENDCMP
 #
-$CMP SW_PUSH
+$CMP SW_Push
 D Push button switch, normally open, two pins
 K switch normally-open pushbutton push-button
 $ENDCMP
 #
-$CMP SW_PUSH_Small
-D Push button switch, normally open, two pins, small symbol
+$CMP SW_Push_Open
+D Button, Push-To-Open
+K Switch Push Button
+$ENDCMP
+#
+$CMP SW_Push_Open_Small
+D Push button switch, push-to-open, generic, small symbol, two pins
+K switch normally-closed pushbutton push-button
+$ENDCMP
+#
+$CMP SW_Push_Small
+D Push button switch, generic, small symbol, two pins
 K switch normally-open pushbutton push-button
 $ENDCMP
 #
-$CMP SW_PUSH_Small_Horizontal
-D Push button switch, generic, small symbol, two pins
+$CMP SW_Push_Small_45deg
+D Push button switch, normally open, two pins, small symbol, 45° tilted
 K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP SW_Reed
+D reed switch
+K reed magnetic switch
 $ENDCMP
 #
 $CMP SW_SP3T
