@@ -240,21 +240,6 @@ D Jumper, normally open
 K jumper link bridge
 $ENDCMP
 #
-$CMP Lamp
-D lamp
-K lamp
-$ENDCMP
-#
-$CMP Lamp_ALT
-D lamp, alternative symbol
-K lamp
-$ENDCMP
-#
-$CMP Lamp_Neon
-D neon lamp
-K neon lamp
-$ENDCMP
-#
 $CMP LED
 D LED generic
 K led diode
@@ -293,6 +278,21 @@ $ENDCMP
 $CMP LED_Small
 D LED, small symbol
 K led diode light-emitting-diode
+$ENDCMP
+#
+$CMP Lamp
+D lamp
+K lamp
+$ENDCMP
+#
+$CMP Lamp_ALT
+D lamp, alternative symbol
+K lamp
+$ENDCMP
+#
+$CMP Lamp_Neon
+D neon lamp
+K neon lamp
 $ENDCMP
 #
 $CMP Microphone
@@ -643,8 +643,13 @@ K r
 $ENDCMP
 #
 $CMP R_PHOTO
-D Photoresistor, light sensitive resistor
-K resistor variable light opto
+D Photoresistor, light sensitive resistor, LDR
+K resistor variable light opto LDR
+$ENDCMP
+#
+$CMP R_PHOTO_ALT
+D Photoresistor, light sensitive resistor, LDR, alternative symbol
+K resistor variable light opto LDR
 $ENDCMP
 #
 $CMP R_Small
