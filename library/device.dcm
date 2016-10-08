@@ -600,18 +600,13 @@ D Phototransistor NPN, 2-pin (C=1, E=2)
 K npn phototransistor
 $ENDCMP
 #
-$CMP Q_Photo_NPN_2Pin_EC
-D Phototransistor NPN, 2-pin (E=1, C=2)
+$CMP Q_Photo_NPN_CBE
+D Phototransistor NPN, 3-pin with base pin (C=1, B=2, E=3)
 K npn phototransistor
 $ENDCMP
 #
 $CMP Q_Photo_NPN_CE
 D Phototransistor NPN, 2-pin (C=1, E=2)
-K npn phototransistor
-$ENDCMP
-#
-$CMP Q_Photo_NPN_CBE
-D Phototransistor NPN, 3-pin with base pin (C=1, B=2, E=3)
 K npn phototransistor
 $ENDCMP
 #
@@ -953,6 +948,18 @@ $ENDCMP
 $CMP SW_SPST_Small
 D Single Pole Single Throw (SPST) switch, small symbol
 K switch lever
+$ENDCMP
+#
+$CMP Solar_Cell
+D single solar cell
+K solar cell
+F ~
+$ENDCMP
+#
+$CMP Solar_Cells
+D multiple solar cells
+K solar cell
+F ~
 $ENDCMP
 #
 $CMP Speaker_Crystal
