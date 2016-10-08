@@ -801,6 +801,29 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Tunnel
+#
+DEF D_Tunnel D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Tunnel" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 3 0 1 0 50 50 -50 0 50 -50 F
+P 4 0 1 0 -30 50 -50 50 -50 -50 -30 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # EMI_FILTER_2pin
 #
 DEF EMI_FILTER_2pin FL 0 40 Y N 1 F N
