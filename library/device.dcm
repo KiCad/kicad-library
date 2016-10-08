@@ -330,6 +330,11 @@ D Potentiometer, dual
 K resistor variable
 $ENDCMP
 #
+$CMP Photodiode
+D photodiode
+K opto photodiode
+$ENDCMP
+#
 $CMP Q_NIGBT_CEG
 D Transistor N-IGBT (general)
 K igbt n-igbt transistor
@@ -480,11 +485,6 @@ D Transistor NPN, collector connected to mounting plane (general)
 K npn transistor
 $ENDCMP
 #
-$CMP Q_PHOTO_NPN
-D Phototransistor, ligh sensistive transistor
-K light photo opto transistor
-$ENDCMP
-#
 $CMP Q_PJFET_DGS
 D Transistor P-JFET (general)
 K pjfet p-jfet transistor
@@ -593,6 +593,31 @@ $ENDCMP
 $CMP Q_PNP_ECBC
 D Transistor PNP, collector connected to mounting plane (general)
 K pnp transistor
+$ENDCMP
+#
+$CMP Q_Photo_NPN
+D Phototransistor NPN, 2-pin (C=1, E=2)
+K npn phototransistor
+$ENDCMP
+#
+$CMP Q_Photo_NPN_2Pin_EC
+D Phototransistor NPN, 2-pin (E=1, C=2)
+K npn phototransistor
+$ENDCMP
+#
+$CMP Q_Photo_NPN_CE
+D Phototransistor NPN, 2-pin (C=1, E=2)
+K npn phototransistor
+$ENDCMP
+#
+$CMP Q_Photo_NPN_CBE
+D Phototransistor NPN, 3-pin with base pin (C=1, B=2, E=3)
+K npn phototransistor
+$ENDCMP
+#
+$CMP Q_Photo_NPN_EBC
+D Phototransistor NPN, 3-pin with base pin (E=1, B=2, C=3)
+K npn phototransistor
 $ENDCMP
 #
 $CMP R
