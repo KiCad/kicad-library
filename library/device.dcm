@@ -797,13 +797,23 @@ K switch normally-open pushbutton push-button
 $ENDCMP
 #
 $CMP SW_Push_LED
-D Push button switch, normally open, two pins
-K switch normally-open pushbutton push-button
+D Push button switch with LED, normally open
+K switch normally-open pushbutton push-button LED
 $ENDCMP
 #
 $CMP SW_Push_LED_Small
-D Push button switch with LED, generic, small symbol, two pins
+D Push button switch with LED, generic, small symbol
 K switch normally-open pushbutton push-button LED
+$ENDCMP
+#
+$CMP SW_Push_Lamp
+D Push button switch with signal lamp, normally open
+K switch normally-open pushbutton push-button lamp
+$ENDCMP
+#
+$CMP SW_Push_Lamp_Small
+D Push button switch with Signal Lamp, generic, small symbol
+K switch normally-open pushbutton push-button Lamp
 $ENDCMP
 #
 $CMP SW_Push_Open
@@ -888,6 +898,21 @@ $ENDCMP
 $CMP SW_SPST
 D Single Pole Single Throw (SPST) switch
 K switch OFF-ON
+$ENDCMP
+#
+$CMP SW_SPST_LED_Small
+D Single Pole Single Throw (SPST) switch with LED, generic, small symbol
+K switch SPST LED OFF-ON
+$ENDCMP
+#
+$CMP SW_SPST_Lamp
+D Single Pole Single Throw (SPST) switch with signal lamp
+K switch SPST LED OFF-ON lamp
+$ENDCMP
+#
+$CMP SW_SPST_Lamp_Small
+D Single Pole Single Throw (SPST) switch with signal lamp, generic, small symbol
+K switch SPST LED OFF-ON lamp
 $ENDCMP
 #
 $CMP SW_SPST_Small
