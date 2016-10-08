@@ -21,8 +21,14 @@ K antenna
 $ENDCMP
 #
 $CMP Battery
-D Battery
+D Battery (multiple cells)
 K batt voltage-source cell
+F ~
+$ENDCMP
+#
+$CMP Battery_Cell
+D single battery cell
+K battery cell
 $ENDCMP
 #
 $CMP Buzzer
