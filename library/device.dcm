@@ -276,6 +276,11 @@ D Jumper, normally open
 K jumper link bridge
 $ENDCMP
 #
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
 $CMP LED
 D LED generic
 K led diode
@@ -319,6 +324,31 @@ $ENDCMP
 $CMP LED_Small
 D LED, small symbol
 K led diode light-emitting-diode
+$ENDCMP
+#
+$CMP L_Core_Ferrite
+D Inductor with Ferrite Core
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Small
+D Inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP L_Core_Iron
+D Inductor with Iron Core
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP L_Core_Iron_Small
+D Inductor with iron core, small symbol
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP L_Small
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
 $ENDCMP
 #
 $CMP Lamp
