@@ -81,6 +81,12 @@ D Variable capacitor
 K trimmer
 $ENDCMP
 #
+$CMP C_Feedthrough
+D feedthrough capacitor
+K C feedthrough capacitor filter EMI
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
 $CMP C_Small
 D Unpolarized capacitor
 K capacitor cap
@@ -184,6 +190,30 @@ $ENDCMP
 $CMP EMI_FILTER_3pin
 D EMI Filter, three pins
 K electromagnetic interference noise
+$ENDCMP
+#
+$CMP EMI_Filter_C
+D EMI filter, single capacitor
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP EMI_Filter_CLC
+D EMI T-filter (CLC)
+K EMI T-filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP EMI_Filter_LCL
+D EMI T-filter (LCL)
+K EMI T-filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP EMI_Filter_LL
+D EMI 2-inductor-filter
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
 $ENDCMP
 #
 $CMP Earphone
