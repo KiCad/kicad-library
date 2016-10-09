@@ -117,6 +117,11 @@ D Diode bridge
 K rectifier acdc
 $ENDCMP
 #
+$CMP D_Photo
+D photodiode
+K opto photodiode
+$ENDCMP
+#
 $CMP D_Radiation
 D semiconductor radiation detector
 K radiation detector diode
@@ -809,6 +814,11 @@ $ENDCMP
 $CMP Q_Photo_NPN_EBC
 D Phototransistor NPN, 3-pin with base pin (E=1, B=2, C=3)
 K npn phototransistor
+$ENDCMP
+#
+$CMP Q_Photo_NPN_EC
+D Phototransistor NPN, 2-pin (C=1, E=2)
+K NPN phototransistor
 $ENDCMP
 #
 $CMP R
