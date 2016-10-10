@@ -938,7 +938,7 @@ ENDDEF
 #
 # EMI_Filter_C
 #
-DEF EMI_Filter_C F 0 10 Y N 1 F N
+DEF EMI_Filter_C FL 0 10 Y N 1 F N
 F0 "FL" 75 25 50 H V L CNN
 F1 "EMI_Filter_C" 75 -50 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
@@ -957,7 +957,7 @@ ENDDEF
 #
 # EMI_Filter_CLC
 #
-DEF EMI_Filter_CLC F 0 10 Y N 1 F N
+DEF EMI_Filter_CLC FL 0 10 Y N 1 F N
 F0 "FL" -225 275 50 H V L CNN
 F1 "EMI_Filter_CLC" -225 200 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
@@ -989,7 +989,7 @@ ENDDEF
 #
 # EMI_Filter_LCL
 #
-DEF EMI_Filter_LCL F 0 10 Y N 1 F N
+DEF EMI_Filter_LCL FL 0 10 Y N 1 F N
 F0 "FL" -225 275 50 H V L CNN
 F1 "EMI_Filter_LCL" -225 200 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
@@ -1018,7 +1018,7 @@ ENDDEF
 #
 # EMI_Filter_LL
 #
-DEF EMI_Filter_LL F 0 10 Y N 1 F N
+DEF EMI_Filter_LL FL 0 10 Y N 1 F N
 F0 "FL" -100 160 50 H V L CNN
 F1 "EMI_Filter_LL" -170 -170 50 H V L CNN
 F2 "" 0 40 50 V V C CNN
@@ -1051,7 +1051,7 @@ ENDDEF
 #
 # Earphone
 #
-DEF Earphone SP 0 1 Y N 1 F N
+DEF Earphone LS 0 1 Y N 1 F N
 F0 "LS" 100 150 50 H V L CNN
 F1 "Earphone" 100 75 50 H V L CNN
 F2 "" 0 100 50 V V C CNN
@@ -1120,7 +1120,7 @@ ENDDEF
 #
 # Ferrite_Bead
 #
-DEF Ferrite_Bead R 0 0 N Y 1 F N
+DEF Ferrite_Bead L 0 0 N Y 1 F N
 F0 "L" 80 0 50 V V C CNN
 F1 "Ferrite_Bead" -100 0 50 V V C CNN
 F2 "" -70 0 50 V V C CNN
@@ -1785,7 +1785,7 @@ ENDDEF
 #
 # Microphone
 #
-DEF Microphone MIC 0 1 Y N 1 F N
+DEF Microphone MK 0 1 Y N 1 F N
 F0 "MK" -150 50 50 H V R CNN
 F1 "Microphone" -150 -25 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
@@ -1802,7 +1802,7 @@ ENDDEF
 #
 # Microphone_Condenser
 #
-DEF Microphone_Condenser MIC 0 1 Y N 1 F N
+DEF Microphone_Condenser MK 0 1 Y N 1 F N
 F0 "MK" -130 50 50 H V R CNN
 F1 "Microphone_Condenser" -130 -25 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
@@ -1823,7 +1823,7 @@ ENDDEF
 #
 # Microphone_Crystal
 #
-DEF Microphone_Crystal MIC 0 1 Y N 1 F N
+DEF Microphone_Crystal MK 0 1 Y N 1 F N
 F0 "MK" -150 45 50 H V R CNN
 F1 "Microphone_Crystal" -150 -30 50 H V R CNN
 F2 "" 50 -70 50 V V L CNN
@@ -3718,7 +3718,7 @@ ENDDEF
 #
 # R_NET10
 #
-DEF R_NET10 R 0 0 N N 1 F N
+DEF R_NET10 RN 0 0 N N 1 F N
 F0 "RN" -1000 225 50 H V L CNN
 F1 "R_NET10" -625 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP11" 400 225 50 H I C CNN
@@ -3773,7 +3773,7 @@ ENDDEF
 #
 # R_NET10_Small
 #
-DEF R_NET10_Small R 0 0 N N 1 F N
+DEF R_NET10_Small RN 0 0 N N 1 F N
 F0 "RN" -625 250 50 H V L CNN
 F1 "R_NET10_Small" -625 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP11" -150 325 50 H I C CNN
@@ -3830,7 +3830,7 @@ ENDDEF
 #
 # R_NET11
 #
-DEF R_NET11 R 0 0 N N 1 F N
+DEF R_NET11 RN 0 0 N N 1 F N
 F0 "RN" -1100 125 50 H V L CNN
 F1 "R_NET11" -725 125 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP12" 300 125 50 H I C CNN
@@ -3889,7 +3889,7 @@ ENDDEF
 #
 # R_NET11_Small
 #
-DEF R_NET11_Small R 0 0 N N 1 F N
+DEF R_NET11_Small RN 0 0 N N 1 F N
 F0 "RN" -625 250 50 H V L CNN
 F1 "R_NET11_Small" -625 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP12" -150 325 50 H I C CNN
@@ -3950,7 +3950,7 @@ ENDDEF
 #
 # R_NET12
 #
-DEF R_NET12 R 0 0 N N 1 F N
+DEF R_NET12 RN 0 0 N N 1 F N
 F0 "RN" -1200 225 50 H V L CNN
 F1 "R_NET12" -825 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP13" 200 225 50 H I C CNN
@@ -4013,7 +4013,7 @@ ENDDEF
 #
 # R_NET12_Small
 #
-DEF R_NET12_Small R 0 0 N N 1 F N
+DEF R_NET12_Small RN 0 0 N N 1 F N
 F0 "RN" -625 250 50 H V L CNN
 F1 "R_NET12_Small" -625 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP13" -150 325 50 H I C CNN
@@ -4078,7 +4078,7 @@ ENDDEF
 #
 # R_NET13
 #
-DEF R_NET13 R 0 0 N N 1 F N
+DEF R_NET13 RN 0 0 N N 1 F N
 F0 "RN" -1400 225 50 H V L CNN
 F1 "R_NET13" -1025 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP13" 0 225 50 H I C CNN
@@ -4145,7 +4145,7 @@ ENDDEF
 #
 # R_NET13_Small
 #
-DEF R_NET13_Small R 0 0 N N 1 F N
+DEF R_NET13_Small RN 0 0 N N 1 F N
 F0 "RN" -725 250 50 H V L CNN
 F1 "R_NET13_Small" -725 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP14" -250 325 50 H I C CNN
@@ -4214,7 +4214,7 @@ ENDDEF
 #
 # R_NET1_DIV
 #
-DEF R_NET1_DIV R 0 0 Y N 1 F N
+DEF R_NET1_DIV RN 0 0 Y N 1 F N
 F0 "RN" 125 275 50 H V L CNN
 F1 "R_NET1_DIV" 125 200 50 H V L CNN
 F2 "" 200 325 50 V I C CNN
@@ -4237,7 +4237,7 @@ ENDDEF
 #
 # R_NET2_DIV_SIP
 #
-DEF R_NET2_DIV_SIP R 0 0 Y N 1 F N
+DEF R_NET2_DIV_SIP RN 0 0 Y N 1 F N
 F0 "RN" -425 350 50 H V L CNN
 F1 "R_NET2_DIV_SIP" -25 350 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP4" 0 425 50 H I C CNN
@@ -4274,7 +4274,7 @@ ENDDEF
 #
 # R_NET2_PAR_SIP
 #
-DEF R_NET2_PAR_SIP R 0 0 Y N 1 F N
+DEF R_NET2_PAR_SIP RN 0 0 Y N 1 F N
 F0 "RN" -425 225 50 H V L CNN
 F1 "R_NET2_PAR_SIP" -225 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP4" 0 300 50 H I C CNN
@@ -4299,7 +4299,7 @@ ENDDEF
 #
 # R_NET3_DIV_SIP
 #
-DEF R_NET3_DIV_SIP R 0 0 Y N 1 F N
+DEF R_NET3_DIV_SIP RN 0 0 Y N 1 F N
 F0 "RN" -425 350 50 H V L CNN
 F1 "R_NET3_DIV_SIP" 425 350 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP5" 0 425 50 H I C CNN
@@ -4347,7 +4347,7 @@ ENDDEF
 #
 # R_NET3_PAR_SIP
 #
-DEF R_NET3_PAR_SIP R 0 0 Y N 1 F N
+DEF R_NET3_PAR_SIP RN 0 0 Y N 1 F N
 F0 "RN" -425 225 50 H V L CNN
 F1 "R_NET3_PAR_SIP" 375 225 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 0 300 50 H I C CNN
@@ -4377,7 +4377,7 @@ ENDDEF
 #
 # R_NET4
 #
-DEF R_NET4 R 0 0 Y N 1 F N
+DEF R_NET4 RN 0 0 Y N 1 F N
 F0 "RN" -400 225 50 H V L CNN
 F1 "R_NET4" -25 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP5" 400 225 50 H I L CNN
@@ -4408,7 +4408,7 @@ ENDDEF
 #
 # R_NET4_DIV_SIP
 #
-DEF R_NET4_DIV_SIP R 0 0 Y N 1 F N
+DEF R_NET4_DIV_SIP RN 0 0 Y N 1 F N
 F0 "RN" -525 350 50 H V L CNN
 F1 "R_NET4_DIV_SIP" 525 350 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 0 425 50 H I C CNN
@@ -4465,7 +4465,7 @@ ENDDEF
 #
 # R_NET4_PAR_SIP
 #
-DEF R_NET4_PAR_SIP R 0 0 Y N 1 F N
+DEF R_NET4_PAR_SIP RN 0 0 Y N 1 F N
 F0 "RN" -525 225 50 H V L CNN
 F1 "R_NET4_PAR_SIP" 575 225 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 0 300 50 H I C CNN
@@ -4500,7 +4500,7 @@ ENDDEF
 #
 # R_NET4_Small
 #
-DEF R_NET4_Small R 0 0 Y N 1 F N
+DEF R_NET4_Small RN 0 0 Y N 1 F N
 F0 "RN" -225 250 50 H V L CNN
 F1 "R_NET4_Small" -225 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP5" 250 325 50 H I C CNN
@@ -4532,7 +4532,7 @@ ENDDEF
 #
 # R_NET5
 #
-DEF R_NET5 R 0 0 Y N 1 F N
+DEF R_NET5 RN 0 0 Y N 1 F N
 F0 "RN" -500 225 50 H V L CNN
 F1 "R_NET5" -125 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 275 225 50 H I L CNN
@@ -4567,7 +4567,7 @@ ENDDEF
 #
 # R_NET5_DIV_SIP
 #
-DEF R_NET5_DIV_SIP R 0 0 Y N 1 F N
+DEF R_NET5_DIV_SIP RN 0 0 Y N 1 F N
 F0 "RN" -625 350 50 H V L CNN
 F1 "R_NET5_DIV_SIP" 625 350 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP7" 0 425 50 H I C CNN
@@ -4634,7 +4634,7 @@ ENDDEF
 #
 # R_NET5_PAR_SIP
 #
-DEF R_NET5_PAR_SIP R 0 0 Y N 1 F N
+DEF R_NET5_PAR_SIP RN 0 0 Y N 1 F N
 F0 "RN" -625 225 50 H V L CNN
 F1 "R_NET5_PAR_SIP" 775 225 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP10" 0 300 50 H I C CNN
@@ -4674,7 +4674,7 @@ ENDDEF
 #
 # R_NET5_Small
 #
-DEF R_NET5_Small R 0 0 Y N 1 F N
+DEF R_NET5_Small RN 0 0 Y N 1 F N
 F0 "RN" -225 250 50 H V L CNN
 F1 "R_NET5_Small" -225 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 250 325 50 H I C CNN
@@ -4710,7 +4710,7 @@ ENDDEF
 #
 # R_NET6
 #
-DEF R_NET6 R 0 0 Y N 1 F N
+DEF R_NET6 RN 0 0 Y N 1 F N
 F0 "RN" -600 225 50 H V L CNN
 F1 "R_NET6" -225 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP7" 550 225 50 H I C CNN
@@ -4750,7 +4750,7 @@ ENDDEF
 #
 # R_NET6_DIV_SIP
 #
-DEF R_NET6_DIV_SIP R 0 0 Y N 1 F N
+DEF R_NET6_DIV_SIP RN 0 0 Y N 1 F N
 F0 "RN" -625 350 50 H V L CNN
 F1 "R_NET6_DIV_SIP" 825 350 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 0 425 50 H I C CNN
@@ -4828,7 +4828,7 @@ ENDDEF
 #
 # R_NET6_PAR_SIP
 #
-DEF R_NET6_PAR_SIP R 0 0 Y N 1 F N
+DEF R_NET6_PAR_SIP RN 0 0 Y N 1 F N
 F0 "RN" -925 225 50 H V L CNN
 F1 "R_NET6_PAR_SIP" 775 225 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP12" -25 300 50 H I C CNN
@@ -4873,7 +4873,7 @@ ENDDEF
 #
 # R_NET6_Small
 #
-DEF R_NET6_Small R 0 0 Y N 1 F N
+DEF R_NET6_Small RN 0 0 Y N 1 F N
 F0 "RN" -325 250 50 H V L CNN
 F1 "R_NET6_Small" -325 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP7" 150 325 50 H I C CNN
@@ -4913,7 +4913,7 @@ ENDDEF
 #
 # R_NET7
 #
-DEF R_NET7 R 0 0 Y N 1 F N
+DEF R_NET7 RN 0 0 Y N 1 F N
 F0 "RN" -700 225 50 H V L CNN
 F1 "R_NET7" -325 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 575 225 50 H I C CNN
@@ -4956,7 +4956,7 @@ ENDDEF
 #
 # R_NET7_DIV_SIP
 #
-DEF R_NET7_DIV_SIP R 0 0 Y N 1 F N
+DEF R_NET7_DIV_SIP RN 0 0 Y N 1 F N
 F0 "RN" -825 350 50 H V L CNN
 F1 "R_NET7_DIV_SIP" 850 350 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP9" 0 425 50 H I C CNN
@@ -5045,7 +5045,7 @@ ENDDEF
 #
 # R_NET7_PAR_SIP
 #
-DEF R_NET7_PAR_SIP R 0 0 Y N 1 F N
+DEF R_NET7_PAR_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1125 225 50 H V L CNN
 F1 "R_NET7_PAR_SIP" 875 225 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP14" 0 300 50 H I C CNN
@@ -5095,7 +5095,7 @@ ENDDEF
 #
 # R_NET7_Small
 #
-DEF R_NET7_Small R 0 0 Y N 1 F N
+DEF R_NET7_Small RN 0 0 Y N 1 F N
 F0 "RN" -425 250 50 H V L CNN
 F1 "R_NET7_Small" -425 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 50 325 50 H I C CNN
@@ -5139,7 +5139,7 @@ ENDDEF
 #
 # R_NET8
 #
-DEF R_NET8 R 0 0 Y N 1 F N
+DEF R_NET8 RN 0 0 Y N 1 F N
 F0 "RN" -800 225 50 H V L CNN
 F1 "R_NET8" -425 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP9" 500 225 50 H I C CNN
@@ -5186,7 +5186,7 @@ ENDDEF
 #
 # R_NET8_DIV_SIP
 #
-DEF R_NET8_DIV_SIP R 0 0 Y N 1 F N
+DEF R_NET8_DIV_SIP RN 0 0 Y N 1 F N
 F0 "RN" -925 350 50 H V L CNN
 F1 "R_NET8_DIV_SIP" 950 350 50 H V R CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP10" 0 425 50 H I C CNN
@@ -5287,7 +5287,7 @@ ENDDEF
 #
 # R_NET8_Small
 #
-DEF R_NET8_Small R 0 0 Y N 1 F N
+DEF R_NET8_Small RN 0 0 Y N 1 F N
 F0 "RN" -425 250 50 H V L CNN
 F1 "R_NET8_Small" -425 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP9" 50 325 50 H I C CNN
@@ -5337,7 +5337,7 @@ ENDDEF
 #
 # R_NET9
 #
-DEF R_NET9 R 0 0 N N 1 F N
+DEF R_NET9 RN 0 0 N N 1 F N
 F0 "RN" -900 225 50 H V L CNN
 F1 "R_NET9" -525 225 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP10" 500 225 50 H I C CNN
@@ -5388,7 +5388,7 @@ ENDDEF
 #
 # R_NET9_Small
 #
-DEF R_NET9_Small R 0 0 N N 1 F N
+DEF R_NET9_Small RN 0 0 N N 1 F N
 F0 "RN" -525 250 50 H V L CNN
 F1 "R_NET9_Small" -525 175 50 H V L CNN
 F2 "Resistors_ThroughHole:Resistor_Array_SIP10" -50 325 50 H I C CNN
@@ -7639,7 +7639,7 @@ ENDDEF
 #
 # Speaker
 #
-DEF Speaker SP 0 0 N Y 1 F N
+DEF Speaker LS 0 0 N Y 1 F N
 F0 "LS" -100 250 50 H V C CNN
 F1 "Speaker" -100 -250 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
@@ -7654,7 +7654,7 @@ ENDDEF
 #
 # Speaker_Crystal
 #
-DEF Speaker_Crystal SP 0 0 N Y 1 F N
+DEF Speaker_Crystal LS 0 0 N Y 1 F N
 F0 "LS" 25 225 50 H V R CNN
 F1 "Speaker_Crystal" 25 150 50 H V R CNN
 F2 "" -35 -50 50 H V C CNN
@@ -7675,7 +7675,7 @@ ENDDEF
 #
 # Speaker_Small
 #
-DEF Speaker_Small SP 0 0 N Y 1 F N
+DEF Speaker_Small LS 0 0 N Y 1 F N
 F0 "LS" 50 225 50 H V R CNN
 F1 "Speaker_Small" 50 150 50 H V R CNN
 F2 "" 0 -200 50 H V C CNN
@@ -7690,7 +7690,7 @@ ENDDEF
 #
 # TEST
 #
-DEF TEST P 0 40 N N 1 F N
+DEF TEST TP 0 40 N N 1 F N
 F0 "TP" 0 300 50 H V C BNN
 F1 "TEST" 0 250 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
@@ -8195,7 +8195,7 @@ ENDDEF
 #
 # Thermocouple
 #
-DEF Thermocouple TH 0 0 N Y 1 F N
+DEF Thermocouple TC 0 0 N Y 1 F N
 F0 "TC" -120 150 50 H V C CNN
 F1 "Thermocouple" -200 -160 50 H V L CNN
 F2 "" -575 50 50 H I C CNN
@@ -8225,7 +8225,7 @@ ENDDEF
 #
 # Thermocouple_ALT
 #
-DEF Thermocouple_ALT TH 0 0 N Y 1 F N
+DEF Thermocouple_ALT TC 0 0 N Y 1 F N
 F0 "TC" -120 150 50 H V C CNN
 F1 "Thermocouple_ALT" -180 -200 50 H V L CNN
 F2 "" -575 50 50 H I C CNN
@@ -8250,7 +8250,7 @@ ENDDEF
 #
 # Thermocouple_ALT_BLOCK
 #
-DEF Thermocouple_ALT_BLOCK TH 0 0 N Y 1 F N
+DEF Thermocouple_ALT_BLOCK TC 0 0 N Y 1 F N
 F0 "TC" -220 150 50 H V C CNN
 F1 "Thermocouple_ALT_BLOCK" -280 -200 50 H V L CNN
 F2 "" -675 50 50 H I C CNN
@@ -8278,7 +8278,7 @@ ENDDEF
 #
 # Thermocouple_BLOCK
 #
-DEF Thermocouple_BLOCK TH 0 0 N Y 1 F N
+DEF Thermocouple_BLOCK TC 0 0 N Y 1 F N
 F0 "TC" -220 150 50 H V C CNN
 F1 "Thermocouple_BLOCK" -280 -200 50 H V L CNN
 F2 "" -675 50 50 H I C CNN
