@@ -87,8 +87,8 @@ K trimmer capacitor
 $ENDCMP
 #
 $CMP C_Feedthrough
-D feedthrough capacitor
-K C feedthrough capacitor filter EMI
+D EMI filter, single capacitor
+K EMI filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
@@ -262,7 +262,17 @@ K fuse
 $ENDCMP
 #
 $CMP Ferrite_Bead
-D Ferrite bead
+D Ferrite bead, alternative symbol
+K L ferite bead inductor filter
+$ENDCMP
+#
+$CMP Ferrite_Bead_ALT
+D Ferrite bead, alternative symbol
+K L ferite bead inductor filter
+$ENDCMP
+#
+$CMP Ferrite_Bead_Small
+D Ferrite Bead, small symbol
 K L ferite bead inductor filter
 $ENDCMP
 #
