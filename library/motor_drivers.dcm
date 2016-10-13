@@ -2,14 +2,26 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP A4950E
 D Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +85C
-K full-bridge h-bridge 
+K full-bridge h-bridge
 F http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
 $ENDCMP
 #
 $CMP A4950K
 D Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +125C
-K full-bridge h-bridge 
+K full-bridge h-bridge
 F http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
+$ENDCMP
+#
+$CMP DRV8308
+D Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface
+K bldc mosfet-driver hall-sensor
+F http://www.ti.com/lit/ds/symlink/drv8308.pdf
+$ENDCMP
+#
+$CMP DRV8711
+D Stepper motor controller, external N-channel MOSFET, single bipolar stepper motor, dual brushed DC motors
+K Stepper driver
+F http://www.ti.com/lit/ds/slvsc40f/slvsc40f.pdf
 $ENDCMP
 #
 $CMP L298(H)N
@@ -52,6 +64,54 @@ $CMP STK672-080-E
 D Stepper motor driver with microstepping controller, 2.8A
 K Stepper driver
 F http://www.onsemi.com/pub_link/Collateral/EN6507-D.PDF
+$ENDCMP
+#
+$CMP SLA7070MPRT
+D Unipolar 2-phase stepper motor driver, Full and Half step, 1A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7070mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7071MPRT
+D Unipolar 2-phase stepper motor driver, Full and Half step, 1.5A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7071mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7072MPRT
+D Unipolar 2-phase stepper motor driver, Full and Half step, 2A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7072mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7073MPRT
+D Unipolar 2-phase stepper motor driver, Full and Half step, 3A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7073mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7075MPRT
+D Unipolar 2-phase stepper motor driver, Microstep, 1A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7075mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7076MPRT
+D Unipolar 2-phase stepper motor driver, Microstep, 1.5A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7076mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7077MPRT
+D Unipolar 2-phase stepper motor driver, Microstep, 2A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7077mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7078MPRT
+D Unipolar 2-phase stepper motor driver, Microstep, 3A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7078mprt_ds_en.pdf
 $ENDCMP
 #
 #End Doc Library
