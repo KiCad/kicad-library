@@ -862,75 +862,70 @@ K rotary switch encoder
 F ~
 $ENDCMP
 #
-$CMP RR8
-D 8 Resistor network, star topology, bussed resistors, small symbol
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
-$ENDCMP
-#
-$CMP RR9
-D 9 Resistor network, star topology, bussed resistors, small symbol
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
-$ENDCMP
-#
 $CMP RVAR
 D Variable resistor
 K resistor var potentiometer
 $ENDCMP
 #
 $CMP R_NET10
-D 10 Resistor network, star topology, bussed resistors
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
-$ENDCMP
-#
-$CMP R_NET10_Small
 D 10 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_NET11
-D 11 Resistor network, star topology, bussed resistors
-K R Network star-topology
+$CMP R_NET10_DIV_SIP
+D 10 Voltage Dividers network, Dual Terminator, SIP package
+K R Network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_NET11_Small
+$CMP R_NET10_PAR_DIP
+D 10 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
+$CMP R_NET11
 D 11 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_NET12
-D 12 Resistor network, star topology, bussed resistors
-K R Network star-topology
+$CMP R_NET11_DIV_SIP
+D 11 Voltage Dividers network, Dual Terminator, SIP package
+K R Network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_NET12_Small
+$CMP R_NET11_PAR_DIP
+D 11 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
+$CMP R_NET12
 D 12 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_NET13
-D 13 Resistor network, star topology, bussed resistors
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
-$ENDCMP
-#
-$CMP R_NET13_Small
 D 13 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_NET1_DIV
-D Voltage Divider in a single package (e.g. SOT-23)
+$CMP R_NET1_DIV_CenterPin1
+D Voltage Divider (center=pin1)
 K R Network voltage divider
-F http://www.ttelectronicsresistors.com/datasheets/DIV23.pdf
+$ENDCMP
+#
+$CMP R_NET1_DIV_CenterPin2
+D Voltage Divider (center=pin2)
+K R Network voltage divider
+$ENDCMP
+#
+$CMP R_NET1_DIV_CenterPin3
+D Voltage Divider (center=pin3)
+K R Network voltage divider
 $ENDCMP
 #
 $CMP R_NET2_DIV_SIP
@@ -940,13 +935,19 @@ F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_NET2_PAR_DIP
-D 2 resistors Pack
-K r
+D 2 Resistor network, parallel topology, DIP package
+K R Network parallel topology
 $ENDCMP
 #
 $CMP R_NET2_PAR_SIP
 D 2 Resistor network, parallel topology, SIP package
 K R Network parallel topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET3
+D 3 Resistor network, star topology, bussed resistors, small symbol
+K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
@@ -956,6 +957,11 @@ K R Network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_NET3_PAR_DIP
+D 3 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
 $CMP R_NET3_PAR_SIP
 D 3 Resistor network, parallel topology, SIP package
 K R Network parallel topology
@@ -963,7 +969,7 @@ F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_NET4
-D 4 Resistor network, star topology, bussed resistors
+D 4 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -975,8 +981,8 @@ F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_NET4_PAR_DIP
-D 4 resistors Pack
-K r
+D 4 Resistor network, parallel topology, DIP package
+K R Network parallel topology
 $ENDCMP
 #
 $CMP R_NET4_PAR_SIP
@@ -985,14 +991,8 @@ K R Network parallel topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_NET4_Small
-D 4 Resistor network, star topology, bussed resistors, small symbol
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
-$ENDCMP
-#
 $CMP R_NET5
-D 5 Resistor network, star topology, bussed resistors
+D 5 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1003,20 +1003,19 @@ K R Network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_NET5_PAR_DIP
+D 5 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
 $CMP R_NET5_PAR_SIP
 D 5 Resistor network, parallel topology, SIP package
 K R Network parallel topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_NET5_Small
-D 5 Resistor network, star topology, bussed resistors, small symbol
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
-$ENDCMP
-#
 $CMP R_NET6
-D 6 Resistor network, star topology, bussed resistors
+D 6 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1027,20 +1026,19 @@ K R Network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_NET6_PAR_DIP
+D 6 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
 $CMP R_NET6_PAR_SIP
 D 6 Resistor network, parallel topology, SIP package
 K R Network parallel topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_NET6_Small
-D 6 Resistor network, star topology, bussed resistors, small symbol
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
-$ENDCMP
-#
 $CMP R_NET7
-D 7 Resistor network, star topology, bussed resistors
+D 7 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1051,20 +1049,19 @@ K R Network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_NET7_PAR_DIP
+D 7 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
 $CMP R_NET7_PAR_SIP
 D 7 Resistor network, parallel topology, SIP package
 K R Network parallel topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_NET7_Small
-D 7 Resistor network, star topology, bussed resistors, small symbol
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
-$ENDCMP
-#
 $CMP R_NET8
-D 8 Resistor network, star topology, bussed resistors
+D 8 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1076,41 +1073,75 @@ F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_NET8_PAR_DIP
-D 8 resistors Pack
-K r
-$ENDCMP
-#
-$CMP R_NET8_Small
-D 8 Resistor network, star topology, bussed resistors, small symbol
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
+D 8 Resistor network, parallel topology, DIP package
+K R Network parallel topology
 $ENDCMP
 #
 $CMP R_NET9
-D 9 Resistor network, star topology, bussed resistors
-K R Network star-topology
-F http://www.vishay.com/docs/31509/csc.pdf
-$ENDCMP
-#
-$CMP R_NET9_Small
 D 9 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_NET9_DIV_SIP
+D 9 Voltage Dividers network, Dual Terminator, SIP package
+K R Network divider topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_NET9_PAR_DIP
+D 9 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
+$CMP R_PACK10
+D 10 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
+$CMP R_PACK11
+D 11 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
 $CMP R_PACK2
-D 2 resistors Pack
-K r
+D 2 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
+$CMP R_PACK3
+D 3 Resistor network, parallel topology, DIP package
+K R Network parallel topology
 $ENDCMP
 #
 $CMP R_PACK4
-D 4 resistors Pack
-K r
+D 4 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
+$CMP R_PACK5
+D 5 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
+$CMP R_PACK6
+D 6 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
+$CMP R_PACK7
+D 7 Resistor network, parallel topology, DIP package
+K R Network parallel topology
 $ENDCMP
 #
 $CMP R_PACK8
-D 8 resistors Pack
-K r
+D 8 Resistor network, parallel topology, DIP package
+K R Network parallel topology
+$ENDCMP
+#
+$CMP R_PACK9
+D 9 Resistor network, parallel topology, DIP package
+K R Network parallel topology
 $ENDCMP
 #
 $CMP R_PHOTO
@@ -1546,12 +1577,6 @@ $ENDCMP
 $CMP VARISTOR
 D Voltage dependent resistor
 K vdr resistance
-$ENDCMP
-#
-$CMP Voltage_Divider
-D Voltage Divider in a single package (e.g. SOT-23)
-K R Network voltage divider
-F http://www.ttelectronicsresistors.com/datasheets/DIV23.pdf
 $ENDCMP
 #
 $CMP Voltmeter_AC
