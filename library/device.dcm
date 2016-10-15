@@ -452,7 +452,12 @@ K resistor variable
 $ENDCMP
 #
 $CMP POT_Dual
-D Potentiometer, dual
+D Dual Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP POT_Dual_Separate
+D Dual Potentionmeter, separate units
 K resistor variable
 $ENDCMP
 #
@@ -865,6 +870,11 @@ $CMP ROTARY_ENCODER
 D Rotary encoder, dual channel, incremental quadrate outputs
 K rotary switch encoder
 F ~
+$ENDCMP
+#
+$CMP RTRIM
+D variable Resistor
+K r res resistor variable potentiometer
 $ENDCMP
 #
 $CMP RVAR
