@@ -1718,6 +1718,21 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Electromagnetic_Actor
+#
+DEF Electromagnetic_Actor M 0 1 N N 1 F N
+F0 "M" 50 150 50 H V L CNN
+F1 "Electromagnetic_Actor" 50 -50 50 H V L CNN
+F2 "" -25 100 50 V V C CNN
+F3 "" -25 100 50 V V C CNN
+DRAW
+S -100 100 100 0 0 1 10 N
+P 2 0 1 10 -50 100 50 0 N
+X - 1 0 200 100 D 50 50 1 1 P
+X + 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Ferrite_Bead
 #
 DEF Ferrite_Bead L 0 0 N Y 1 F N
