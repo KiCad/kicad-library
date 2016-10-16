@@ -249,10 +249,38 @@ K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
+$CMP D_Suppressor_x2_AAC
+D dual transient-voltage-suppression (TVS) diode (center=pin3)
+K diode TVS thyrector
+F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+$ENDCMP
+#
+$CMP D_Suppressor_x2_ACA
+D dual transient-voltage-suppression (TVS) diode (center=pin2)
+K diode TVS thyrector
+F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+$ENDCMP
+#
+$CMP D_Suppressor_x2_CAA
+D dual transient-voltage-suppression (TVS) diode (center=pin1)
+K diode TVS thyrector
+F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+$ENDCMP
+#
 $CMP D_TVS
 D transient-voltage-suppression (TVS) diode
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+$ENDCMP
+#
+$CMP D_Temperatur_Dependent
+D temperature dependent diode
+K temperature sensor diode
+$ENDCMP
+#
+$CMP D_Temperatur_Dependent_90deg
+D temperature dependent diode, symbol rotated by 90°
+K temperature sensor diode
 $ENDCMP
 #
 $CMP D_Tunnel

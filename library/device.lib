@@ -1103,6 +1103,158 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Suppressor_x2_AAC
+#
+DEF D_Suppressor_x2_AAC D 0 40 Y N 1 F N
+F0 "D" 0 175 50 H V C CNN
+F1 "D_Suppressor_x2_AAC" 0 100 50 H V C CNN
+F2 "" -150 0 50 H V C CNN
+F3 "" -150 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 0 10 -50 0 50 0 N
+P 2 0 0 10 0 -50 0 0 N
+P 3 0 1 0 -250 50 -150 0 -250 -50 F
+P 3 0 1 0 -50 50 -150 0 -50 -50 F
+P 3 0 1 0 50 50 150 0 50 -50 F
+P 3 0 1 0 250 50 150 0 250 -50 F
+P 4 0 1 0 -130 50 -150 50 -150 -50 -170 -50 N
+P 4 0 1 0 170 50 150 50 150 -50 130 -50 N
+X A1 1 -350 0 100 R 50 50 1 1 P
+X A2 2 350 0 100 L 50 50 1 1 P
+X COM 3 0 -150 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# D_Suppressor_x2_ACA
+#
+DEF D_Suppressor_x2_ACA D 0 40 Y N 1 F N
+F0 "D" 0 175 50 H V C CNN
+F1 "D_Suppressor_x2_ACA" 0 100 50 H V C CNN
+F2 "" -150 0 50 H V C CNN
+F3 "" -150 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 0 10 -50 0 50 0 N
+P 2 0 0 10 0 -50 0 0 N
+P 3 0 1 0 -250 50 -150 0 -250 -50 F
+P 3 0 1 0 -50 50 -150 0 -50 -50 F
+P 3 0 1 0 50 50 150 0 50 -50 F
+P 3 0 1 0 250 50 150 0 250 -50 F
+P 4 0 1 0 -130 50 -150 50 -150 -50 -170 -50 N
+P 4 0 1 0 170 50 150 50 150 -50 130 -50 N
+X A1 1 -350 0 100 R 50 50 1 1 P
+X COM 2 0 -150 100 U 50 50 1 1 I
+X A2 3 350 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Suppressor_x2_CAA
+#
+DEF D_Suppressor_x2_CAA D 0 40 Y N 1 F N
+F0 "D" 0 175 50 H V C CNN
+F1 "D_Suppressor_x2_CAA" 0 100 50 H V C CNN
+F2 "" -150 0 50 H V C CNN
+F3 "" -150 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 0 10 -50 0 50 0 N
+P 2 0 0 10 0 -50 0 0 N
+P 3 0 1 0 -250 50 -150 0 -250 -50 F
+P 3 0 1 0 -50 50 -150 0 -50 -50 F
+P 3 0 1 0 50 50 150 0 50 -50 F
+P 3 0 1 0 250 50 150 0 250 -50 F
+P 4 0 1 0 -130 50 -150 50 -150 -50 -170 -50 N
+P 4 0 1 0 170 50 150 50 150 -50 130 -50 N
+X COM 1 0 -150 100 U 50 50 1 1 I
+X A1 2 -350 0 100 R 50 50 1 1 P
+X A2 3 350 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Temperatur_Dependent
+#
+DEF D_Temperatur_Dependent D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Temperatur_Dependent" 0 -125 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+A -104 -54 7 -265 818 0 1 0 N -98 -57 -103 -47
+A -88 -57 10 1800 -900 0 1 0 N -98 -57 -88 -67
+A -88 -57 10 -900 0 0 1 0 N -88 -67 -78 -57
+A -88 -32 10 0 900 0 1 0 N -78 -32 -88 -22
+A -88 -32 10 900 1800 0 1 0 N -88 -22 -98 -32
+A -88 -32 10 1800 -900 0 1 0 N -98 -32 -88 -42
+A -82 -23 20 -1075 -253 0 1 0 N -88 -42 -63 -32
+P 2 0 1 0 -78 -56 -78 -32 N
+P 2 0 1 0 -50 50 -50 -50 N
+P 3 0 1 0 50 50 -50 0 50 -50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Temperatur_Dependent_90deg
+#
+DEF D_Temperatur_Dependent_90deg D 0 40 N N 1 F N
+F0 "D" -125 25 50 V V C CNN
+F1 "D_Temperatur_Dependent_90deg" 100 0 50 V V C CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+A -79 96 7 -265 818 0 1 0 N -73 93 -78 103
+A -63 93 10 1800 -900 0 1 0 N -73 93 -63 83
+A -63 93 10 -900 0 0 1 0 N -63 83 -53 93
+A -63 118 10 0 900 0 1 0 N -53 118 -63 128
+A -63 118 10 900 1800 0 1 0 N -63 128 -73 118
+A -63 118 10 1800 -900 0 1 0 N -73 118 -63 108
+A -57 127 20 -1075 -253 0 1 0 N -63 108 -38 118
+P 2 0 1 0 -53 94 -53 118 N
+P 2 0 1 0 50 50 -50 50 N
+P 3 0 1 0 50 -50 0 50 -50 -50 F
+X K 1 0 150 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_Tunnel
 #
 DEF D_Tunnel D 0 40 N N 1 F N
