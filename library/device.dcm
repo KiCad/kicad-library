@@ -122,9 +122,34 @@ D diode for alternating current
 K AC diode DIAC
 $ENDCMP
 #
-$CMP D_BRIDGE
-D Diode bridge
+$CMP D_Bridge_+-AA
+D Diode bridge (pins: 1=+, 2=-, 3=AC, 4=AC)
 K rectifier acdc
+$ENDCMP
+#
+$CMP D_Bridge_+A-A
+D Diode bridge (pins: 1=+, 2=AC, 3=-, 4=AC)
+K rectifier acdc
+$ENDCMP
+#
+$CMP D_Bridge_+AA-
+D Diode bridge (pins: 1=+, 2=AC, 3=AC, 4=-)
+K rectifier acdc
+$ENDCMP
+#
+$CMP D_Bridge_-A+A
+D Diode bridge (pins: 1=-, 2=AC, 3=+, 4=AC)
+K rectifier acdc
+$ENDCMP
+#
+$CMP D_Bridge_-AA+
+D Diode bridge (pins: 1=-, 2=AC, 3=AC, 4=+)
+K rectifier acdc
+$ENDCMP
+#
+$CMP D_Capacitance
+D variable capacitance diode (varicap, varactor)
+K capacitance diode varicap varactor
 $ENDCMP
 #
 $CMP D_Photo
@@ -207,14 +232,109 @@ D Dual schottky diode
 K diode
 $ENDCMP
 #
+$CMP D_Shockley
+D Shockley Diode (PNPN Diode)
+K Shockley diode
+F https://en.wikipedia.org/wiki/Shockley_diode
+$ENDCMP
+#
 $CMP D_Small
 D Diode
 K diode
 $ENDCMP
 #
+$CMP D_Suppressor
+D transient-voltage-suppression (TVS) diode
+K diode TVS thyrector
+F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+$ENDCMP
+#
+$CMP D_TVS
+D transient-voltage-suppression (TVS) diode
+K diode TVS thyrector
+F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+$ENDCMP
+#
 $CMP D_Tunnel
 D Tunnel Diode (Esaki Diode)
 K tunnel diode
+$ENDCMP
+#
+$CMP D_Unitunnel
+D Unitunnel Diode
+K unitunnel diode
+$ENDCMP
+#
+$CMP D_Zener
+D Zener Diode
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP D_Zener_Small
+D Zener Diode, small symbol
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP D_x2_ACom_AKK
+D Dual diode, common anode
+K diode
+$ENDCMP
+#
+$CMP D_x2_ACom_KAK
+D Dual diode, common anode 
+K diode
+$ENDCMP
+#
+$CMP D_x2_ACom_KKA
+D Dual diode, common anode
+K diode
+$ENDCMP
+#
+$CMP D_x2_KCom_AAK
+D Dual diode, common cathode
+K diode
+$ENDCMP
+#
+$CMP D_x2_KCom_AKA
+D Dual diode, common cathode
+K diode
+$ENDCMP
+#
+$CMP D_x2_KCom_KAA
+D Dual diode, common cathode
+K diode
+$ENDCMP
+#
+$CMP D_x2_Serial_ACK
+D Dual diode
+K diode
+$ENDCMP
+#
+$CMP D_x2_Serial_AKC
+D Dual diode
+K diode
+$ENDCMP
+#
+$CMP D_x2_Serial_CAK
+D Dual diode
+K diode
+$ENDCMP
+#
+$CMP D_x2_Serial_CKA
+D Dual diode
+K diode
+$ENDCMP
+#
+$CMP D_x2_Serial_KAC
+D Dual diode
+K diode
+$ENDCMP
+#
+$CMP D_x2_Serial_KCA
+D Dual diode
+K diode
 $ENDCMP
 #
 $CMP EMI_Filter_C
@@ -1540,11 +1660,6 @@ D Transformer, split primary, dual secondary
 K transformer coil magnet
 $ENDCMP
 #
-$CMP TVS
-D Transient voltage suppressor diode (bi-directional)
-K tvs esd
-$ENDCMP
-#
 $CMP Thermistor_NTC
 D temperature dependent resistor, positive temperature coefficient (PTC)
 K thermistor PTC resistor sensor RTD
@@ -1585,8 +1700,8 @@ F https://en.wikipedia.org/wiki/Thermocouple
 $ENDCMP
 #
 $CMP VARICAP
-D Variable capacitor
-K capacitor diode
+D variable capacitance diode (varicap, varactor)
+K capacitance diode varicap varactor
 $ENDCMP
 #
 $CMP VARISTOR
