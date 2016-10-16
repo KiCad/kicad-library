@@ -1750,6 +1750,24 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Frequency_Counter
+#
+DEF Frequency_Counter M 0 1 N N 1 F N
+F0 "M" -130 40 50 H V R CNN
+F1 "Frequency_Counter" -130 -30 50 H V R CNN
+F2 "" 0 100 50 V V C CNN
+F3 "" 0 100 50 V V C CNN
+DRAW
+T 0 0 0 100 0 0 0 Hz Normal 0 C C
+P 2 0 0 0 -125 -125 -75 -75 N
+P 2 0 0 0 75 75 125 125 N
+P 3 0 0 0 75 125 125 125 125 75 N
+C 0 0 100 0 1 0 N
+X - 1 0 -200 100 U 50 50 1 1 P
+X + 2 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Fuse
 #
 DEF Fuse F 0 0 N Y 1 F N
