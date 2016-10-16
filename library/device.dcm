@@ -1453,6 +1453,16 @@ D Single Pole Single Throw (SPST) switch, separate small symbol
 K switch lever
 $ENDCMP
 #
+$CMP SW_DPST_Temperature
+D Dual Pole Dingle Throw (DPST) switch, temperature dependent
+K temperature switch DPST OFF-ON
+$ENDCMP
+#
+$CMP SW_DPST_Temperature_Small
+D Double Pole Single Throw (DPST) Switch, temperature dependent, small symbol
+K temerature switch dual double-pole single-throw OFF-ON
+$ENDCMP
+#
 $CMP SW_DPST_x2
 D Dual Pole Single Throw (DPST) switch, separate units
 K switch DPST OFF-ON
@@ -1640,6 +1650,16 @@ $ENDCMP
 $CMP SW_SPST_Small
 D Single Pole Single Throw (SPST) switch, small symbol
 K switch lever
+$ENDCMP
+#
+$CMP SW_SPST_Temperature
+D Single Pole Single Throw (SPST) switch, Temperature-dependent
+K temperature switch SPST OFF-ON
+$ENDCMP
+#
+$CMP SW_SPST_Temperature_Small
+D Single Pole Single Throw (SPST) switch, temperature dependent, small symbol
+K temperature switch
 $ENDCMP
 #
 $CMP Solar_Cell
