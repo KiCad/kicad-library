@@ -1329,18 +1329,8 @@ D 10x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
 $ENDCMP
 #
-$CMP SW_DIP10_ALT
-D 10x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
-K dip switch
-$ENDCMP
-#
 $CMP SW_DIP11
 D 11x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
-K dip switch
-$ENDCMP
-#
-$CMP SW_DIP11_ALT
-D 11x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
 K dip switch
 $ENDCMP
 #
@@ -1349,23 +1339,8 @@ D 12x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
 $ENDCMP
 #
-$CMP SW_DIP12_ALT
-D 12x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
-K dip switch
-$ENDCMP
-#
-$CMP SW_DIP1_ALT
-D 1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
-K dip switch
-$ENDCMP
-#
 $CMP SW_DIP2
 D 2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
-K dip switch
-$ENDCMP
-#
-$CMP SW_DIP2_ALT
-D 2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
 K dip switch
 $ENDCMP
 #
@@ -1374,18 +1349,8 @@ D 3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
 $ENDCMP
 #
-$CMP SW_DIP3_ALT
-D 3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
-K dip switch
-$ENDCMP
-#
 $CMP SW_DIP4
 D 4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
-K dip switch
-$ENDCMP
-#
-$CMP SW_DIP4_ALT
-D 4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
 K dip switch
 $ENDCMP
 #
@@ -1394,18 +1359,8 @@ D 5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
 $ENDCMP
 #
-$CMP SW_DIP5_ALT
-D 5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
-K dip switch
-$ENDCMP
-#
 $CMP SW_DIP6
 D 6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
-K dip switch
-$ENDCMP
-#
-$CMP SW_DIP6_ALT
-D 6x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
 K dip switch
 $ENDCMP
 #
@@ -1414,18 +1369,8 @@ D 7x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
 $ENDCMP
 #
-$CMP SW_DIP7_ALT
-D 7x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
-K dip switch
-$ENDCMP
-#
 $CMP SW_DIP8
 D 8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
-K dip switch
-$ENDCMP
-#
-$CMP SW_DIP8_ALT
-D 8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
 K dip switch
 $ENDCMP
 #
@@ -1434,14 +1379,19 @@ D 9x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
 $ENDCMP
 #
-$CMP SW_DIP9_ALT
-D 9x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, alternative symbol
-K dip switch
+$CMP SW_DPDT_Small_x2
+D Switch, dual pole double throw, small separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
+$CMP SW_DPDT_x2
+D Switch, two position, dual pole dual throw, 2 position switch, DPDT, separate units
+K switch spdt ON-ON
 $ENDCMP
 #
 $CMP SW_DPST
-D Double Pole Single Throw (DPST) Switch
-K switch dual double-pole single-throw OFF-ON
+D Dual Pole Dingle Throw (DPST) switch
+K switch DPST OFF-ON
 $ENDCMP
 #
 $CMP SW_DPST_Small
@@ -1449,7 +1399,37 @@ D Double Pole Single Throw (DPST) Switch, small symbol
 K switch dual double-pole single-throw OFF-ON
 $ENDCMP
 #
+$CMP SW_DPST_Small_x2
+D Single Pole Single Throw (SPST) switch, separate small symbol
+K switch lever
+$ENDCMP
+#
+$CMP SW_DPST_x2
+D Dual Pole Single Throw (DPST) switch, separate units
+K switch DPST OFF-ON
+$ENDCMP
+#
 $CMP SW_Push
+D Push button switch, normally open, two pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP SW_Push_Dual
+D Push button switch, normally open, four pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP SW_Push_Dual_Small
+D Push button switch, generic, small symbol, two pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP SW_Push_Dual_Small_x2
+D Push button switch, generic, small separate symbols, four pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP SW_Push_Dual_x2
 D Push button switch, normally open, two pins
 K switch normally-open pushbutton push-button
 $ENDCMP
@@ -1475,6 +1455,26 @@ K switch normally-open pushbutton push-button Lamp
 $ENDCMP
 #
 $CMP SW_Push_Open
+D Button, Push-To-Open
+K Switch Push Button
+$ENDCMP
+#
+$CMP SW_Push_Open_Dual
+D Push button switch, normally closed, four pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP SW_Push_Open_Dual_Small
+D Push button switch, normally closed, generic, small symbol, four pins
+K switch normally-closed pushbutton push-button
+$ENDCMP
+#
+$CMP SW_Push_Open_Dual_Small_x2
+D Push button switch, push-to-open, generic, small symbol, two pins
+K switch normally-closed pushbutton push-button
+$ENDCMP
+#
+$CMP SW_Push_Open_Dual_x2
 D Button, Push-To-Open
 K Switch Push Button
 $ENDCMP
@@ -1544,8 +1544,8 @@ K switch sp3t ON-ON-ON
 $ENDCMP
 #
 $CMP SW_SPDT
-D Switch, single pole double throw
-K switch single-pole double-throw spdt ON-ON
+D Switch, two position, single pole dual throw, 2 position switch, SPDT
+K switch spdt ON-ON
 $ENDCMP
 #
 $CMP SW_SPDT_MSM
@@ -1558,14 +1558,9 @@ D Switch, single pole double throw, small symbol
 K switch single-pole double-throw spdt ON-ON
 $ENDCMP
 #
-$CMP SW_SPDT_x2
-D Dual Single Pole Double Throw switch
-K switch single-pole double-throw spdt ON-ON
-$ENDCMP
-#
 $CMP SW_SPST
 D Single Pole Single Throw (SPST) switch
-K switch OFF-ON
+K switch SPST OFF-ON
 $ENDCMP
 #
 $CMP SW_SPST_LED_Small
