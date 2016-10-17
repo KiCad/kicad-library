@@ -71,21 +71,6 @@ D Polarised capacitor
 K cap capacitor
 $ENDCMP
 #
-$CMP CRYSTAL
-D Two pin crystal
-K quartz ceramic resonator oscillator
-$ENDCMP
-#
-$CMP CRYSTAL_SMD
-D Crystal with ground connection
-K oscillator quartz resonator gnd
-$ENDCMP
-#
-$CMP CRYSTAL_Small
-D Two pin crystal, small symbol
-K quartz ceramic resonator oscillator
-$ENDCMP
-#
 $CMP CTRIM
 D Variable capacitor
 K trimmer
@@ -105,6 +90,31 @@ $ENDCMP
 $CMP C_Small
 D Unpolarized capacitor
 K capacitor cap
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP Crystal_GND2
+D Three pin crystal (GND on pin 2), e.g. in SMD package
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP Crystal_GND24
+D Four pin crystal (GND on pins 2 and 4), e.g. in SMD package
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP Crystal_GND3
+D Three pin crystal (GND on pin 3), e.g. in SMD package
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP D
