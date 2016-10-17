@@ -534,9 +534,14 @@ D LED generic
 K led diode
 $ENDCMP
 #
-$CMP LED_Dual
-D LED dual, common cathode
-K led diode bicolor dual
+$CMP LED_ARGB
+D LED RGB, common anode (pin 1)
+K led rgb diode
+$ENDCMP
+#
+$CMP LED_CRGB
+D LED RGB, Common Cathode
+K led rgb diode
 $ENDCMP
 #
 $CMP LED_Dual_2pin
@@ -544,23 +549,58 @@ D LED dual, 2pin version
 K led diode bicolor dual
 $ENDCMP
 #
+$CMP LED_Dual_AAC
+D LED dual, common cathode
+K led diode bicolor dual
+$ENDCMP
+#
+$CMP LED_Dual_AACC
+D LED dual, 4-pin
+K led diode bicolor dual
+$ENDCMP
+#
+$CMP LED_Dual_ACA
+D LED dual, common cathode
+K led diode bicolor dual
+$ENDCMP
+#
+$CMP LED_Dual_ACAC
+D LED dual, 4-pin
+K led diode bicolor dual
+$ENDCMP
+#
+$CMP LED_Dual_CAC
+D LED dual, common anode
+K led diode bicolor dual
+$ENDCMP
+#
+$CMP LED_Dual_CCA
+D LED dual, common anode
+K led diode bicolor dual
+$ENDCMP
+#
 $CMP LED_RABG
-D LED, RGB, common anode
-K RGB LED diode
+D LED RGB, common anode
+K led rgb diode
+$ENDCMP
+#
+$CMP LED_RAGB
+D LED RGB, common anode
+K led rgb diode
 $ENDCMP
 #
 $CMP LED_RCBG
-D LED, RGB, common cathode
-K RGB LED diode
+D LED RGB, Common Cathode
+K led rgb diode
+$ENDCMP
+#
+$CMP LED_RCGB
+D LED RGB, Common Cathode
+K led rgb diode
 $ENDCMP
 #
 $CMP LED_RGB
 D LED RGB 6 pins
-K led rgb diode
-$ENDCMP
-#
-$CMP LED_RGB_CA
-D Common Anode RGB LED
 K led rgb diode
 $ENDCMP
 #
@@ -1375,11 +1415,6 @@ $ENDCMP
 #
 $CMP R_PHOTO
 D Photoresistor, light sensitive resistor, LDR
-K resistor variable light opto LDR
-$ENDCMP
-#
-$CMP R_PHOTO_ALT
-D Photoresistor, light sensitive resistor, LDR, alternative symbol
 K resistor variable light opto LDR
 $ENDCMP
 #
