@@ -278,32 +278,26 @@ D Diode
 K diode
 $ENDCMP
 #
-$CMP D_Suppressor
+$CMP D_TVS
 D transient-voltage-suppression (TVS) diode
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
-$CMP D_Suppressor_x2_AAC
+$CMP D_TVS_x2_AAC
 D dual transient-voltage-suppression (TVS) diode (center=pin3)
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
-$CMP D_Suppressor_x2_ACA
+$CMP D_TVS_x2_ACA
 D dual transient-voltage-suppression (TVS) diode (center=pin2)
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
-$CMP D_Suppressor_x2_CAA
+$CMP D_TVS_x2_CAA
 D dual transient-voltage-suppression (TVS) diode (center=pin1)
-K diode TVS thyrector
-F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
-$ENDCMP
-#
-$CMP D_TVS
-D transient-voltage-suppression (TVS) diode
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
@@ -474,11 +468,6 @@ D Galvanometer
 K Galvanometer
 $ENDCMP
 #
-$CMP HEATSINK
-D Heatsink
-K thermal heat temperature
-$ENDCMP
-#
 $CMP Hall_Generator
 D Hall generator
 K Hall generator magnet 
@@ -487,6 +476,16 @@ $ENDCMP
 $CMP Heater
 D Resistive Heater
 K heater R resistor
+$ENDCMP
+#
+$CMP Heatsink
+D Heatsink
+K thermal heat temperature
+$ENDCMP
+#
+$CMP Heatsink_PAD
+D Heatsink with electrical connection
+K thermal heat temperature
 $ENDCMP
 #
 $CMP INDUCTOR
@@ -738,6 +737,11 @@ $ENDCMP
 $CMP POT_Dual_Separate
 D Dual Potentionmeter, separate units
 K resistor variable
+$ENDCMP
+#
+$CMP Peltier_Element
+D Peltier Element, Thermoelectric Cooler (TEC)
+K Peltier TEC
 $ENDCMP
 #
 $CMP Photodiode
