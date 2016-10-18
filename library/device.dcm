@@ -147,7 +147,7 @@ D Diode
 K diode
 $ENDCMP
 #
-$CMP DELAY_LINE
+$CMP Delay_Line
 D Delay line
 K delay propogation retard impedance
 $ENDCMP
@@ -425,7 +425,7 @@ $ENDCMP
 #
 $CMP Electromagnetic_Actor
 D electro-magnetic actor
-K electromagnet coil
+K electromagnet coil inductor
 $ENDCMP
 #
 $CMP Ferrite_Bead
@@ -488,32 +488,22 @@ D Heatsink with electrical connection
 K thermal heat temperature
 $ENDCMP
 #
-$CMP INDUCTOR
-D Inductor
-K inductor choke coil reactor magnetic
-$ENDCMP
-#
-$CMP INDUCTOR_Small
-D Inductor, small symbol
-K inductor choke coil reactor magnetic
-$ENDCMP
-#
-$CMP JUMPER
+$CMP Jumper
 D Jumper, generic, normally closed
 K jumper bridge link nc
 $ENDCMP
 #
-$CMP JUMPER_NC_Dual
+$CMP Jumper_NC_Dual
 D Dual Jumper, normally closed
 K jumper bridge link nc
 $ENDCMP
 #
-$CMP JUMPER_NC_Small
+$CMP Jumper_NC_Small
 D Jumper, normally closed
 K jumper link bridge
 $ENDCMP
 #
-$CMP JUMPER_NO_Small
+$CMP Jumper_NO_Small
 D Jumper, normally open
 K jumper link bridge
 $ENDCMP
@@ -523,31 +513,31 @@ D Inductor
 K inductor choke coil reactor magnetic
 $ENDCMP
 #
-$CMP LASERDIODE_1A3C
+$CMP Laserdiode_1A3C
 D Laser Diode in a 2-pin package
 K opto laserdiode
 F ~
 $ENDCMP
 #
-$CMP LASERDIODE_1C2A
+$CMP Laserdiode_1C2A
 D Laser Diode in a 2-pin package
 K opto laserdiode
 F ~
 $ENDCMP
 #
-$CMP LASERDIODE_M_TYPE
+$CMP Laserdiode_M_TYPE
 D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-C, 3=PD-A)
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP LASERDIODE_N_TYPE
+$CMP Laserdiode_N_TYPE
 D Laser Diode in a 3-pin package with photodiode (1=LD-C, 2=LD-A/PD-C, 3=PD-A)
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP LASERDIODE_P_TYPE
+$CMP Laserdiode_P_TYPE
 D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-A, 3=PD-C)
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
@@ -1158,11 +1148,6 @@ $ENDCMP
 $CMP RTRIM
 D variable Resistor
 K r res resistor variable potentiometer
-$ENDCMP
-#
-$CMP RVAR
-D Variable resistor
-K resistor var potentiometer
 $ENDCMP
 #
 $CMP R_NET10
@@ -1803,49 +1788,49 @@ D Testpoint, connection for test equipment
 K tp testpoint
 $ENDCMP
 #
-$CMP THERMISTOR
-D Thermistor, temperature-dependent resistor
-K r res thermistor
-$ENDCMP
-#
 $CMP THYRISTOR
 D Solid-state thyristor, silicon-controlled rectifier, with gate pin
 K scr diode switch
 $ENDCMP
 #
-$CMP TRANSFORMER_1P_1S
+$CMP Transformer_1P_1S
 D Transformer, single primary, single secondary
 K transformer coil magnet
 $ENDCMP
 #
-$CMP TRANSFORMER_1P_1S_SO8
+$CMP Transformer_1P_1S_SO8
 D Transformer, single primary, single secondary, SO-8 package
 K transformer coil magnet
 $ENDCMP
 #
-$CMP TRANSFORMER_1P_2S
+$CMP Transformer_1P_2S
 D Transformer, single primary, dual secondary
 K transformer coil magnet
 $ENDCMP
 #
-$CMP TRANSFORMER_1P_SS
+$CMP Transformer_1P_SS
 D Transformer, single primary, split secondary
 K transformer coil magnet
 $ENDCMP
 #
-$CMP TRANSFORMER_AUDIO
+$CMP Transformer_AUDIO
 D Audio transformer
 K transformer coil magnet sound
 $ENDCMP
 #
-$CMP TRANSFORMER_SP_1S
+$CMP Transformer_SP_1S
 D Transformer, split primary, single secondary
 K transformer coil magnet
 $ENDCMP
 #
-$CMP TRANSFORMER_SP_2S
+$CMP Transformer_SP_2S
 D Transformer, split primary, dual secondary
 K transformer coil magnet
+$ENDCMP
+#
+$CMP Thermistor
+D Thermistor, temperature-dependent resistor
+K r res thermistor
 $ENDCMP
 #
 $CMP Thermistor_NTC
@@ -1887,12 +1872,7 @@ K thermocouple temperature sensor cold junction
 F https://en.wikipedia.org/wiki/Thermocouple
 $ENDCMP
 #
-$CMP VARICAP
-D variable capacitance diode (varicap, varactor)
-K capacitance diode varicap varactor
-$ENDCMP
-#
-$CMP VARISTOR
+$CMP Varistor
 D Voltage dependent resistor
 K vdr resistance
 $ENDCMP
@@ -1905,16 +1885,6 @@ $ENDCMP
 $CMP Voltmeter_DC
 D DC Voltmeter
 K Voltmeter DC
-$ENDCMP
-#
-$CMP ZENER
-D Diode zener
-K diode
-$ENDCMP
-#
-$CMP ZENER_Small
-D Zener diode, small symbol
-K diode zener
 $ENDCMP
 #
 #End Doc Library
