@@ -97,16 +97,6 @@ D Two pin crystal
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
-$CMP Crystal_13
-D Two pin crystal
-K quartz ceramic resonator oscillator
-$ENDCMP
-#
-$CMP Crystal_14
-D Two pin crystal
-K quartz ceramic resonator oscillator
-$ENDCMP
-#
 $CMP Crystal_GND2
 D Three pin crystal (GND on pin 2), e.g. in SMD package
 K quartz ceramic resonator oscillator
@@ -117,13 +107,33 @@ D Four pin crystal (GND on pins 2 and 3), e.g. in SMD package
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP Crystal_GND23_Small
+D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
 $CMP Crystal_GND24
 D Four pin crystal (GND on pins 2 and 4), e.g. in SMD package
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP Crystal_GND24_Small
+D Two pin crystal, two ground/package pins (pin2 and 4) small symbol
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP Crystal_GND2_Small
+D Two pin crystal, one ground/package pins (pin2) small symbol
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
 $CMP Crystal_GND3
 D Three pin crystal (GND on pin 3), e.g. in SMD package
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP Crystal_GND3_Small
+D Two pin crystal, one ground/package pins (pin3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
