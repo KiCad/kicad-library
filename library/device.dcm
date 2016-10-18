@@ -1129,19 +1129,25 @@ D Resistor
 K r res resistor
 $ENDCMP
 #
-$CMP RF_SHIELD_ONE_PIECE
+$CMP RF_Shield_One_Piece
 D One-Piece EMI RF Shielding Cabinet
 K RF EMI Shielding Cabinet
 $ENDCMP
 #
-$CMP RF_SHIELD_TWO_PIECES
+$CMP RF_Shield_Two_Pieces
 D Two-Piece EMI RF Shielding Cabinet
 K RF EMI Shielding Cabinet
 $ENDCMP
 #
-$CMP ROTARY_ENCODER
+$CMP Rotary_Encoder
 D Rotary encoder, dual channel, incremental quadrate outputs
 K rotary switch encoder
+F ~
+$ENDCMP
+#
+$CMP Rotary_Encoder_Switch
+D Rotary encoder, dual channel, incremental quadrate outputs, with switch
+K rotary switch encoder switch push button
 F ~
 $ENDCMP
 #
@@ -1453,7 +1459,7 @@ K Ceramic Resonator
 $ENDCMP
 #
 $CMP SCHDPAK
-D Diode schottky - cms
+D Scottky Diode 
 K diode SCHOTTKY CMS
 $ENDCMP
 #
