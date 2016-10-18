@@ -147,11 +147,6 @@ D Diode
 K diode
 $ENDCMP
 #
-$CMP Delay_Line
-D Delay line
-K delay propogation retard impedance
-$ENDCMP
-#
 $CMP DIAC
 D diode for alternating current
 K AC diode DIAC
@@ -394,6 +389,11 @@ D Dual diode
 K diode
 $ENDCMP
 #
+$CMP Delay_Line
+D Delay line
+K delay propogation retard impedance
+$ENDCMP
+#
 $CMP EMI_Filter_C
 D EMI filter, single capacitor
 K EMI filter
@@ -511,36 +511,6 @@ $ENDCMP
 $CMP L
 D Inductor
 K inductor choke coil reactor magnetic
-$ENDCMP
-#
-$CMP Laserdiode_1A3C
-D Laser Diode in a 2-pin package
-K opto laserdiode
-F ~
-$ENDCMP
-#
-$CMP Laserdiode_1C2A
-D Laser Diode in a 2-pin package
-K opto laserdiode
-F ~
-$ENDCMP
-#
-$CMP Laserdiode_M_TYPE
-D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-C, 3=PD-A)
-K opto laserdiode photodiode
-F http://www.egismos.disonhu.com/laser/diode-package.htm
-$ENDCMP
-#
-$CMP Laserdiode_N_TYPE
-D Laser Diode in a 3-pin package with photodiode (1=LD-C, 2=LD-A/PD-C, 3=PD-A)
-K opto laserdiode photodiode
-F http://www.egismos.disonhu.com/laser/diode-package.htm
-$ENDCMP
-#
-$CMP Laserdiode_P_TYPE
-D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-A, 3=PD-C)
-K opto laserdiode photodiode
-F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
 $CMP LED
@@ -676,6 +646,36 @@ $ENDCMP
 $CMP Lamp_Neon
 D neon lamp
 K neon lamp
+$ENDCMP
+#
+$CMP Laserdiode_1A3C
+D Laser Diode in a 2-pin package
+K opto laserdiode
+F ~
+$ENDCMP
+#
+$CMP Laserdiode_1C2A
+D Laser Diode in a 2-pin package
+K opto laserdiode
+F ~
+$ENDCMP
+#
+$CMP Laserdiode_M_TYPE
+D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-C, 3=PD-A)
+K opto laserdiode photodiode
+F http://www.egismos.disonhu.com/laser/diode-package.htm
+$ENDCMP
+#
+$CMP Laserdiode_N_TYPE
+D Laser Diode in a 3-pin package with photodiode (1=LD-C, 2=LD-A/PD-C, 3=PD-A)
+K opto laserdiode photodiode
+F http://www.egismos.disonhu.com/laser/diode-package.htm
+$ENDCMP
+#
+$CMP Laserdiode_P_TYPE
+D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-A, 3=PD-C)
+K opto laserdiode photodiode
+F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
 $CMP MEMRISTOR
@@ -1793,41 +1793,6 @@ D Solid-state thyristor, silicon-controlled rectifier, with gate pin
 K scr diode switch
 $ENDCMP
 #
-$CMP Transformer_1P_1S
-D Transformer, single primary, single secondary
-K transformer coil magnet
-$ENDCMP
-#
-$CMP Transformer_1P_1S_SO8
-D Transformer, single primary, single secondary, SO-8 package
-K transformer coil magnet
-$ENDCMP
-#
-$CMP Transformer_1P_2S
-D Transformer, single primary, dual secondary
-K transformer coil magnet
-$ENDCMP
-#
-$CMP Transformer_1P_SS
-D Transformer, single primary, split secondary
-K transformer coil magnet
-$ENDCMP
-#
-$CMP Transformer_AUDIO
-D Audio transformer
-K transformer coil magnet sound
-$ENDCMP
-#
-$CMP Transformer_SP_1S
-D Transformer, split primary, single secondary
-K transformer coil magnet
-$ENDCMP
-#
-$CMP Transformer_SP_2S
-D Transformer, split primary, dual secondary
-K transformer coil magnet
-$ENDCMP
-#
 $CMP Thermistor
 D Thermistor, temperature-dependent resistor
 K r res thermistor
@@ -1870,6 +1835,41 @@ $CMP Thermocouple_BLOCK
 D thermocouple with connector block
 K thermocouple temperature sensor cold junction
 F https://en.wikipedia.org/wiki/Thermocouple
+$ENDCMP
+#
+$CMP Transformer_1P_1S
+D Transformer, single primary, single secondary
+K transformer coil magnet
+$ENDCMP
+#
+$CMP Transformer_1P_1S_SO8
+D Transformer, single primary, single secondary, SO-8 package
+K transformer coil magnet
+$ENDCMP
+#
+$CMP Transformer_1P_2S
+D Transformer, single primary, dual secondary
+K transformer coil magnet
+$ENDCMP
+#
+$CMP Transformer_1P_SS
+D Transformer, single primary, split secondary
+K transformer coil magnet
+$ENDCMP
+#
+$CMP Transformer_AUDIO
+D Audio transformer
+K transformer coil magnet sound
+$ENDCMP
+#
+$CMP Transformer_SP_1S
+D Transformer, split primary, single secondary
+K transformer coil magnet
+$ENDCMP
+#
+$CMP Transformer_SP_2S
+D Transformer, split primary, dual secondary
+K transformer coil magnet
 $ENDCMP
 #
 $CMP Varistor
