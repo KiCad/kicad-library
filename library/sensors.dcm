@@ -210,6 +210,12 @@ K current sense amplifier shunt high side bidirectional
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
 $ENDCMP
 #
+$CMP AS5045B
+D Magnetic Position Sensor, 12-bit, PWM Output, ABI Output, SPI Interface
+K Magnetic Hall Encoder
+F http://ams.com/eng/content/download/438063/1340357/246195
+$ENDCMP
+#
 $CMP AS5048A
 D Magnetic position sensor, 14-bit, PWM output, SPI Interface
 K sensor magnetic hall position rotation spi
@@ -396,30 +402,6 @@ K Thermocouple Converter
 F http://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/MAX31855.html#popuppdf
 $ENDCMP
 #
-$CMP MCP9700T-E/LT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SC-70-5 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-E/TT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SOT-23-3 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-H/LT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SC-70-5 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-H/TT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SOT-23-3 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
 $CMP MCP9700AT-E/LT
 D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +125C, in SC-70-5 package
 K temperature sensor thermistor
@@ -440,6 +422,30 @@ $ENDCMP
 #
 $CMP MCP9700AT-H/TT
 D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +150C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-E/LT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-E/TT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-H/LT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-H/TT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SOT-23-3 package
 K temperature sensor thermistor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
