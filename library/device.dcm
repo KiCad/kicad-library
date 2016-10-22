@@ -1798,24 +1798,44 @@ D Solid-state thyristor, silicon-controlled rectifier, with gate pin
 K scr diode switch
 $ENDCMP
 #
+$CMP TRIAC
+D triode for alternating current (TRIAC) / bidirectional triode thyristor / bilateral triode thyristor
+K triode thyristor TRIAC
+$ENDCMP
+#
 $CMP Thermistor
 D Thermistor, temperature-dependent resistor
 K r res thermistor
 $ENDCMP
 #
 $CMP Thermistor_NTC
-D temperature dependent resistor, positive temperature coefficient (PTC)
-K thermistor PTC resistor sensor RTD
+D temperature dependent resistor, negative temperature coefficient (NTC)
+K thermistor NTC resistor sensor 
 $ENDCMP
 #
 $CMP Thermistor_NTC_3wire
-D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
-K thermistor PTC resistor sensor RTD
+D temperature dependent resistor, negative temperature coefficient (NTC), 3-wire interface
+K thermistor NTC resistor sensor 
 $ENDCMP
 #
 $CMP Thermistor_NTC_4wire
-D temperature dependent resistor, positive temperature coefficient (PTC), 4-wire interface
-K thermistor PTC resistor sensor RTD
+D temperature dependent resistor, negative temperature coefficient (NTC), 4-wire interface
+K thermistor NTC resistor sensor 
+$ENDCMP
+#
+$CMP Thermistor_PTC
+D temperature dependent resistor, positive temperature coefficient (PTC)
+K resistor PTC thermistor sensor 
+$ENDCMP
+#
+$CMP Thermistor_PTC_3wire
+D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
+K resistor PTC thermistor sensor 
+$ENDCMP
+#
+$CMP Thermistor_PTC_4wire
+D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
+K resistor PTC thermistor sensor 
 $ENDCMP
 #
 $CMP Thermocouple
