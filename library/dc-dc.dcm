@@ -1,15 +1,39 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP ADP1108
-D Switching Regulator
-K POWER
-F linear-tec/lt1108.pdf
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, adjustable output voltage
+K switching buck boost converter step-down step-up
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108-12
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 12V fixed output voltage
+K switching buck boost converter step-down step-up
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108-3.3
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 3.3V fixed output voltage
+K switching buck boost converter step-down step-up
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108-5
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 5V fixed output voltage
+K switching buck boost converter step-down step-up
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
 $ENDCMP
 #
 $CMP ADP2108
 D 3MHz switching buck regulator, 600mA fixed output voltage in SOT23-5 package
-K Voltage regulator switching buck fixed output analog 
+K Voltage regulator switching buck fixed output analog
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP5054
+D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C 
+K quad regulator dcdc buck synchronizable parallel 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
 $ENDCMP
 #
 $CMP APE1707H-12-HF
@@ -218,6 +242,12 @@ $CMP ISL8117
 D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v output
 K PWM step down buck converter controller synchronous POL
 F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
+$ENDCMP
+#
+$CMP L5973D
+D 2.5A step down switching regulator
+K step down buck regulator
+F http://www.st.com/resource/en/datasheet/l5973d.pdf
 $ENDCMP
 #
 $CMP LM2574HVH-12
@@ -736,6 +766,24 @@ K Step-Down Switching Regulator High Voltage High Frequency
 F http://www.national.com/ds/LM/LM5017.pdf
 $ENDCMP
 #
+$CMP LM5165
+D 150mA Step-Down Conveter, 3V-65V input, adjustable output voltage, DFN10 package
+K step-down dc-dc buck regulator adjustable
+F http://www.ti.com/lit/ds/symlink/lm5165.pdf
+$ENDCMP
+#
+$CMP LM5165X
+D 150mA Step-Down Conveter, 3V-65V input, 5.0V fixed output voltage, DFN10 package
+K step-down dc-dc buck regulator fixed 5V
+F http://www.ti.com/lit/ds/symlink/lm5165.pdf
+$ENDCMP
+#
+$CMP LM5165Y
+D 150mA Step-Down Conveter, 3V-65V input, 3.3V fixed output voltage, DFN10 package
+K step-down dc-dc buck regulator fixed 3V3
+F http://www.ti.com/lit/ds/symlink/lm5165.pdf
+$ENDCMP
+#
 $CMP LMR10510XMF
 D 1A, 5.5V Step-Down Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Down Buck Voltage Regulator
@@ -798,12 +846,14 @@ $ENDCMP
 #
 $CMP LT1054
 D Switched-Capacitor Voltage Converter with Regulator, output current 100mA, operating range 3.5V to 15V, low loss 1.1V at 100mA
-K monolithic bipolar switched capacitor voltage converter regulator inverter doubler shutdown 
+K monolithic bipolar switched capacitor voltage converter regulator inverter doubler shutdown
 F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
 $ENDCMP
 #
 $CMP LT1108
-D Switching Regulator
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, adjustable output voltage
+K switching buck boost converter step-down step-up
+F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
 $ENDCMP
 #
 $CMP LT1372
@@ -939,7 +989,7 @@ $ENDCMP
 #
 $CMP LTC3890
 D 60V dual 2-phase synchronous step-down DC/DC controller in QFN-32 package
-K switching buck converter regulator dual-output 
+K switching buck converter regulator dual-output
 F http://cds.linear.com/docs/en/datasheet/3890fc.pdf
 $ENDCMP
 #
@@ -953,6 +1003,24 @@ $CMP MAX1044
 D Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop
 K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
 F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
+$ENDCMP
+#
+$CMP MAX15062A
+D 60V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage
+K step-down dc-dc switching regulator
+F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
+$ENDCMP
+#
+$CMP MAX15062B
+D 60V, 300mA, synchronous step-down dc-dc converter, 5.0V fixed output voltage
+K step-down dc-dc switching regulator
+F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
+$ENDCMP
+#
+$CMP MAX15062C
+D 60V, 300mA, synchronous step-down dc-dc converter, adjustable output voltage
+K step-down dc-dc switching regulator
+F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
 $ENDCMP
 #
 $CMP MAX5035AASA
@@ -1047,7 +1115,7 @@ $ENDCMP
 #
 $CMP MC34063
 D 1.5A step up/down/inverting switching regulator
-K smps buck boost inverting 
+K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
@@ -1206,7 +1274,7 @@ $ENDCMP
 #
 $CMP TPS560200
 D 17V step-down regulator, 500mA output in SOT23-5 package
-K Voltage regulator switching buck fixed output analog 
+K Voltage regulator switching buck fixed output analog
 F http://www.ti.com/lit/ds/symlink/tps560200.pdf
 $ENDCMP
 #
@@ -1337,62 +1405,62 @@ F http://www.ti.com/lit/ds/symlink/tps62201.pdf
 $ENDCMP
 #
 $CMP TSR_1-2412
-D 1.2V 1A, step-down regulator, input range 4.6 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 1.2V 1A DC/DC TRACO TSR-1
+D 1.2V 1A, step-down regulator, 4.6-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°Car regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
 $CMP TSR_1-24120
-D 12V 1A, step-down regulator, input range 15 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 12V 1A DC/DC TRACO TSR-1
+D 12V 1A, step-down regulator, 15-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
 $CMP TSR_1-2415
-D 1.5V 1A, step-down regulator, input range 4.6 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 1.5V 1A DC/DC TRACO TSR-1
+D 1.5V 1A, step-down regulator, 4.6-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
 $CMP TSR_1-24150
-D 15V 1A, step-down regulator, input range 18 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 15V 1A DC/DC TRACO TSR-1
+D 15V 1A, step-down regulator, 18-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
 $CMP TSR_1-2418
-D 1.8V 1A, step-down regulator, input range 4.6 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 1.8V 1A DC/DC TRACO TSR-1
+D 1.8V 1A, step-down regulator, 4.6-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
 $CMP TSR_1-2425
-D 2.5V 1A, step-down regulator, input range 6.5 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 2.5V 1A DC/DC TRACO TSR-1
+D 2.5V 1A, step-down regulator, 4.6-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
 $CMP TSR_1-2433
-D 3.3V 1A, step-down regulator, input range 4.75 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 3.3V 1A DC/DC TRACO TSR-1
+D 3.3V 1A, step-down regulator, 4.75-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
 $CMP TSR_1-2450
-D 5V 1A, step-down regulator, input range 6.5 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 5V 1A DC/DC TRACO TSR-1
+D 5V 1A, step-down regulator, 6.5-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
 $CMP TSR_1-2465
-D 6.5V 1A, step-down regulator, input range 9 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 6.5V 1A DC/DC TRACO TSR-1
+D 6.5V 1A, step-down regulator, 9-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
 $CMP TSR_1-2490
-D 9V 1A, step-down regulator, input range 12 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
-K 9V 1A DC/DC TRACO TSR-1
+D 9V 1A, step-down regulator, 12-36Vin, TO-220 compatible, replacement for LMxx linear regulators, -40°C to +85°C
+K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
