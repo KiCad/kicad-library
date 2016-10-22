@@ -72,8 +72,8 @@ K cap capacitor
 $ENDCMP
 #
 $CMP CTRIM
-D Variable capacitor
-K trimmer
+D Trimmable capacitor
+K trimmer variable capacitor
 $ENDCMP
 #
 $CMP CTRIM_DIF
@@ -89,6 +89,11 @@ $ENDCMP
 $CMP C_Small
 D Unpolarized capacitor
 K capacitor cap
+$ENDCMP
+#
+$CMP C_Variable
+D Variable capacitor
+K trimmer capacitor
 $ENDCMP
 #
 $CMP Crystal
@@ -723,6 +728,11 @@ D Dual Potentionmeter, separate units
 K resistor variable
 $ENDCMP
 #
+$CMP POT_TRIM
+D Trim-Potentionmeter
+K resistor variable trimpot trimmer
+$ENDCMP
+#
 $CMP Peltier_Element
 D Peltier Element, Thermoelectric Cooler (TEC)
 K Peltier TEC
@@ -1134,8 +1144,8 @@ K RF EMI Shielding Cabinet
 $ENDCMP
 #
 $CMP RTRIM
-D variable Resistor
-K r res resistor variable potentiometer
+D trimmable Resistor (Preset resistor)
+K r res resistor variable potentiometer trimmer
 $ENDCMP
 #
 $CMP R_NET01_DIV_CenterPin1
@@ -1428,6 +1438,11 @@ $ENDCMP
 $CMP R_Small
 D Resistor, small symbol
 K r resistor 
+$ENDCMP
+#
+$CMP R_Variable
+D variable Resistor (Rheostat)
+K r res resistor variable potentiometer
 $ENDCMP
 #
 $CMP Resonator
