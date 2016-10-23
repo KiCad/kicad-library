@@ -3,19 +3,19 @@ EESchema-LIBRARY Version 2.3
 #
 # Amperemeter_AC
 #
-DEF Amperemeter_AC M 0 1 N N 1 F N
-F0 "M" -130 40 50 H V R CNN
+DEF Amperemeter_AC MES 0 1 N N 1 F N
+F0 "MES" -130 40 50 H V R CNN
 F1 "Amperemeter_AC" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
 F3 "" 0 100 50 V V C CNN
 DRAW
-T 0 0 25 100 0 0 0 A Normal 1 C C
+T 0 0 25 100 0 0 0 A Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
 P 2 0 0 0 75 75 125 125 N
 P 3 0 0 0 75 125 125 125 125 75 N
 A -20 -54 21 -1633 -167 0 1 0 N -40 -60 0 -60
 A 20 -65 21 140 1660 0 1 0 N 40 -60 0 -60
-C 0 0 100 0 1 0 N
+C 0 0 100 0 1 10 N
 X ~ 1 0 -200 100 U 50 50 1 1 P
 X ~ 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
@@ -23,17 +23,17 @@ ENDDEF
 #
 # Amperemeter_DC
 #
-DEF Amperemeter_DC M 0 1 N N 1 F N
-F0 "M" -130 40 50 H V R CNN
+DEF Amperemeter_DC MES 0 1 N N 1 F N
+F0 "MES" -130 40 50 H V R CNN
 F1 "Amperemeter_DC" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
 F3 "" 0 100 50 V V C CNN
 DRAW
-T 0 0 0 100 0 0 0 A Normal 1 C C
+T 0 0 0 100 0 0 0 A Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
 P 2 0 0 0 75 75 125 125 N
 P 3 0 0 0 75 125 125 125 125 75 N
-C 0 0 100 0 1 0 N
+C 0 0 100 0 1 10 N
 P 2 0 1 0 10 150 30 150 N
 P 2 0 1 0 20 160 20 140 N
 X - 1 0 -200 100 U 50 50 1 1 P
@@ -1940,17 +1940,17 @@ ENDDEF
 #
 # Frequency_Counter
 #
-DEF Frequency_Counter M 0 1 N N 1 F N
-F0 "M" -130 40 50 H V R CNN
+DEF Frequency_Counter MES 0 1 N N 1 F N
+F0 "MES" -130 40 50 H V R CNN
 F1 "Frequency_Counter" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
 F3 "" 0 100 50 V V C CNN
 DRAW
-T 0 0 0 100 0 0 0 Hz Normal 0 C C
+T 0 0 0 80 0 0 0 Hz Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
 P 2 0 0 0 75 75 125 125 N
 P 3 0 0 0 75 125 125 125 125 75 N
-C 0 0 100 0 1 0 N
+C 0 0 100 0 1 10 N
 X - 1 0 -200 100 U 50 50 1 1 P
 X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
@@ -2034,15 +2034,15 @@ ENDDEF
 #
 # Galvanometer
 #
-DEF Galvanometer M 0 1 N N 1 F N
-F0 "M" -130 40 50 H V R CNN
+DEF Galvanometer MES 0 1 N N 1 F N
+F0 "MES" -130 40 50 H V R CNN
 F1 "Galvanometer" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
 F3 "" 0 100 50 V V C CNN
 DRAW
 P 2 0 0 0 -125 -125 125 125 N
 P 3 0 0 0 75 125 125 125 125 75 N
-C 0 0 100 0 1 0 N
+C 0 0 100 0 1 10 N
 P 2 0 1 0 10 150 30 150 N
 P 2 0 1 0 20 160 20 140 N
 X - 1 0 -200 100 U 50 50 1 1 P
@@ -3253,17 +3253,17 @@ ENDDEF
 #
 # Ohmmeter
 #
-DEF Ohmmeter M 0 1 N N 1 F N
-F0 "M" -130 40 50 H V R CNN
+DEF Ohmmeter MES 0 1 N N 1 F N
+F0 "MES" -130 40 50 H V R CNN
 F1 "Ohmmeter" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
 F3 "" 0 100 50 V V C CNN
 DRAW
-T 0 0 0 100 0 0 0 Ω Normal 1 C C
+T 0 0 0 100 0 0 0 Ω Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
 P 2 0 0 0 75 75 125 125 N
 P 3 0 0 0 75 125 125 125 125 75 N
-C 0 0 100 0 1 0 N
+C 0 0 100 0 1 10 N
 X - 1 0 -200 100 U 50 50 1 1 P
 X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
@@ -3271,8 +3271,8 @@ ENDDEF
 #
 # Oscilloscope
 #
-DEF Oscilloscope M 0 1 N N 1 F N
-F0 "M" -130 40 50 H V R CNN
+DEF Oscilloscope MES 0 1 N N 1 F N
+F0 "MES" -130 40 50 H V R CNN
 F1 "Oscilloscope" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
 F3 "" 0 100 50 V V C CNN
@@ -3286,7 +3286,7 @@ P 2 0 0 10 -40 20 -30 -20 N
 P 2 0 0 10 0 -20 10 20 N
 P 2 0 0 10 40 20 50 -20 N
 P 2 0 0 10 80 -20 85 0 N
-C 0 0 100 0 1 0 N
+C 0 0 100 0 1 10 N
 P 2 0 1 0 10 150 30 150 N
 P 2 0 1 0 20 160 20 140 N
 X - 1 0 -200 100 U 50 50 1 1 P
@@ -9997,19 +9997,19 @@ ENDDEF
 #
 # Voltmeter_AC
 #
-DEF Voltmeter_AC M 0 1 N N 1 F N
-F0 "M" -130 40 50 H V R CNN
+DEF Voltmeter_AC MES 0 1 N N 1 F N
+F0 "MES" -130 40 50 H V R CNN
 F1 "Voltmeter_AC" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
 F3 "" 0 100 50 V V C CNN
 DRAW
-T 0 0 20 100 0 0 0 V Normal 1 C C
+T 0 0 20 100 0 0 0 V Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
 P 2 0 0 0 75 75 125 125 N
 P 3 0 0 0 75 125 125 125 125 75 N
 A -20 -54 21 -1633 -167 0 1 0 N -40 -60 0 -60
 A 20 -65 21 140 1660 0 1 0 N 40 -60 0 -60
-C 0 0 100 0 1 0 N
+C 0 0 100 0 1 10 N
 X ~ 1 0 -200 100 U 50 50 1 1 P
 X ~ 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
@@ -10017,17 +10017,17 @@ ENDDEF
 #
 # Voltmeter_DC
 #
-DEF Voltmeter_DC M 0 1 N N 1 F N
-F0 "M" -130 40 50 H V R CNN
+DEF Voltmeter_DC MES 0 1 N N 1 F N
+F0 "MES" -130 40 50 H V R CNN
 F1 "Voltmeter_DC" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V V C CNN
 F3 "" 0 100 50 V V C CNN
 DRAW
-T 0 0 0 100 0 0 0 V Normal 1 C C
+T 0 0 0 100 0 0 0 V Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
 P 2 0 0 0 75 75 125 125 N
 P 3 0 0 0 75 125 125 125 125 75 N
-C 0 0 100 0 1 0 N
+C 0 0 100 0 1 10 N
 P 2 0 1 0 10 150 30 150 N
 P 2 0 1 0 20 160 20 140 N
 X - 1 0 -200 100 U 50 50 1 1 P
