@@ -824,8 +824,48 @@ K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
 $CMP Q_NMOS_DSG
+D Transistor N-MOSFET with substrate diode (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_D_DGS
 D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_D_DSG
+D Transistor N-MOSFET with substrate diode (general)
+K NMOS_D_ n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_D_GDS
+D Transistor N-MOSFET with substrate diode (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_D_GDSD
+D Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)
+K NMOS_D_ n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_D_GSD
+D Transistor N-MOSFETwith substrate diode (general)
+K NMOS_D_ n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_D_SDG
+D Transistor N-MOSFETwith substrate diode (general)
+K NMOS_D_ n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_D_SDGD
+D Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)
+K NMOS_D_ n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_D_SGD
+D Transistor N-MOSFETwith substrate diode (general)
+K NMOS_D_ n-mos n-mosfet transistor
 $ENDCMP
 #
 $CMP Q_NMOS_GDS
@@ -834,7 +874,7 @@ K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
 $CMP Q_NMOS_GDSD
-D Transistor N-MOSFET, collector connected to mounting plane (general)
+D Transistor N-MOSFET, drain connected to mounting plane (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
@@ -849,7 +889,7 @@ K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
 $CMP Q_NMOS_SDGD
-D Transistor N-MOSFET, collector connected to mounting plane (general)
+D Transistor N-MOSFET, drain connected to mounting plane (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
@@ -983,13 +1023,53 @@ D Transistor P-MOSFET (general)
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
+$CMP Q_PMOS_D_DGS
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_D_DSG
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_D_GDS
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_D_GDSD
+D Transistor P-MOSFET with substrate diode, drain connected to mounting plane (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_D_GSD
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_D_SDG
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_D_SDGD
+D Transistor P-MOSFET with substrate diode, drain connected to mounting plane (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_D_SGD
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP Q_PMOS_GDS
 D Transistor P-MOSFET (general)
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
 $CMP Q_PMOS_GDSD
-D Transistor P-MOSFET, collector connected to mounting plane (general)
+D Transistor P-MOSFET, drain connected to mounting plane (general)
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
@@ -1004,7 +1084,7 @@ K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
 $CMP Q_PMOS_SDGD
-D Transistor P-MOSFET, collector connected to mounting plane (general)
+D Transistor P-MOSFET, drain connected to mounting plane (general)
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
