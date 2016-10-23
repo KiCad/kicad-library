@@ -1361,11 +1361,11 @@ X A2 3 350 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Temperatur_Dependent
+# D_Temperature_Dependent
 #
-DEF D_Temperatur_Dependent D 0 40 N N 1 F N
+DEF D_Temperature_Dependent D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Temperatur_Dependent" 0 -125 50 H V C CNN
+F1 "D_Temperature_Dependent" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -1389,37 +1389,6 @@ P 2 0 1 0 -50 50 -50 -50 N
 P 3 0 1 0 50 50 -50 0 50 -50 F
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# D_Temperatur_Dependent_90deg
-#
-DEF D_Temperatur_Dependent_90deg D 0 40 N N 1 F N
-F0 "D" -125 25 50 V V C CNN
-F1 "D_Temperatur_Dependent_90deg" 100 0 50 V V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-A -79 96 7 -265 818 0 1 0 N -73 93 -78 103
-A -63 93 10 1800 -900 0 1 0 N -73 93 -63 83
-A -63 93 10 -900 0 0 1 0 N -63 83 -53 93
-A -63 118 10 0 900 0 1 0 N -53 118 -63 128
-A -63 118 10 900 1800 0 1 0 N -63 128 -73 118
-A -63 118 10 1800 -900 0 1 0 N -73 118 -63 108
-A -57 127 20 -1075 -253 0 1 0 N -63 108 -38 118
-P 2 0 1 0 -53 94 -53 118 N
-P 2 0 1 0 50 50 -50 50 N
-P 3 0 1 0 50 -50 0 50 -50 -50 F
-X K 1 0 150 100 D 50 50 1 1 P
-X A 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
