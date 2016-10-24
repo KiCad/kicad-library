@@ -30,6 +30,12 @@ K Voltage regulator switching buck fixed output analog
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
+$CMP ADP5054
+D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C 
+K quad regulator dcdc buck synchronizable parallel 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
+$ENDCMP
+#
 $CMP APE1707H-12-HF
 D 12V 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
 K 12V 2A 150KHz PWM Buck DC/DC
@@ -236,6 +242,12 @@ $CMP ISL8117
 D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v output
 K PWM step down buck converter controller synchronous POL
 F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
+$ENDCMP
+#
+$CMP L5973D
+D 2.5A step down switching regulator
+K step down buck regulator
+F http://www.st.com/resource/en/datasheet/l5973d.pdf
 $ENDCMP
 #
 $CMP LM2574HVH-12
@@ -788,6 +800,24 @@ $CMP LMR10510YSD
 D LM10510, 1A, 5.5V Step-Down Voltage Regulator, 3MHz Frequency
 K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr10510.pdf
+$ENDCMP
+#
+$CMP LMR16006YQ
+D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Adjustable output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR16006YQ3
+D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 3.3V output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR16006YQ5
+D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 5.0V output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
 $ENDCMP
 #
 $CMP LMR62014XMF
