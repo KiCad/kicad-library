@@ -1193,7 +1193,51 @@ D Phototransistor NPN, 2-pin (C=1, E=2)
 K NPN phototransistor
 $ENDCMP
 #
-
+$CMP Q_TRIAC_AAG
+D triode for alternating current (TRIAC)
+K triode for alternating current TRIAC
+$ENDCMP
+#
+$CMP Q_TRIAC_AGA
+D triode for alternating current (TRIAC)
+K triode for alternating current TRIAC
+$ENDCMP
+#
+$CMP Q_TRIAC_GAA
+D triode for alternating current (TRIAC)
+K triode for alternating current TRIAC
+$ENDCMP
+#
+$CMP Q_Thyristor_AGK
+D silicon controlled rectifier (Thyristor)
+K Thyristor silicon controlled rectifier
+$ENDCMP
+#
+$CMP Q_Thyristor_AKG
+D silicon controlled rectifier (Thyristor)
+K Thyristor silicon controlled rectifier
+$ENDCMP
+#
+$CMP Q_Thyristor_GAK
+D silicon controlled rectifier (Thyristor)
+K Thyristor silicon controlled rectifier
+$ENDCMP
+#
+$CMP Q_Thyristor_GKA
+D silicon controlled rectifier (Thyristor)
+K Thyristor silicon controlled rectifier
+$ENDCMP
+#
+$CMP Q_Thyristor_KAG
+D silicon controlled rectifier (Thyristor)
+K Thyristor silicon controlled rectifier
+$ENDCMP
+#
+$CMP Q_Thyristor_KGA
+D silicon controlled rectifier (Thyristor)
+K Thyristor silicon controlled rectifier
+$ENDCMP
+#
 $CMP R
 D Resistor
 K r res resistor
@@ -1777,16 +1821,6 @@ $ENDCMP
 $CMP TEST
 D Testpoint, connection for test equipment
 K tp testpoint
-$ENDCMP
-#
-$CMP THYRISTOR
-D Solid-state thyristor, silicon-controlled rectifier, with gate pin
-K scr diode switch
-$ENDCMP
-#
-$CMP TRIAC
-D triode for alternating current (TRIAC) / bidirectional triode thyristor / bilateral triode thyristor
-K triode thyristor TRIAC
 $ENDCMP
 #
 $CMP Thermistor
