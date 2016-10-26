@@ -137,6 +137,24 @@ K ampliop low-power
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
+$CMP ADCMP350
+D Single-input comparator, internal 0.6V reference, Active-Low Open-Drain output, SC-70-4 package
+K comparator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
+$CMP ADCMP354
+D Single-input comparator, internal 0.6V reference, Active-High Open-Drain output, SC-70-4 package
+K comparator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
+$CMP ADCMP356
+D Single-input comparator, internal 0.6V reference, Active-High Push-Pull output, SC-70-4 package
+K comparator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
 $CMP CA3080
 D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1
 K intersil
@@ -335,6 +353,18 @@ K op amp amplifier operational
 F http://www.ti.com/lit/ds/symlink/lmv601.pdf
 $ENDCMP
 #
+$CMP LT1492
+D Dual Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR
+K operational amplifier opamp Precision
+F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+$ENDCMP
+#
+$CMP LT1493
+D Quad Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR, SSOP package
+K operational amplifier opamp Precision 
+F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+$ENDCMP
+#
 $CMP LT6106
 D 36V high side current sense amplifier, adjustable gain, bandwidth 200kHz, Vcc=2.7V~36V, current output, unidirectional
 K current sense highside HS shunt monitor amplifier linear
@@ -513,7 +543,6 @@ K comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
 #
-
 $CMP NCS210
 D Bidirectional zero-drift current shunt, 200V/V gain, -0.3V to +26V common mode range
 K Current sensor shunt monitor
@@ -610,16 +639,10 @@ K AmpliOp Mos
 F http://www.ti.com.cn/cn/lit/ds/symlink/tlc274.pdf
 $ENDCMP
 #
-$CMP LT1492
-D Dual Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR
-K operational amplifier opamp Precision
-F http://cds.linear.com/docs/en/datasheet/14923f.pdf
-$ENDCMP
-#
-$CMP LT1493
-D Quad Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR, SSOP package
-K operational amplifier opamp Precision 
-F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+$CMP TS881
+D Rail to rail nanopower comparator
+K comparator
+F www.st.com/resource/en/datasheet/ts881.pdf
 $ENDCMP
 #
 #End Doc Library
