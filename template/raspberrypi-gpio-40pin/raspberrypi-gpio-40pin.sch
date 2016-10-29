@@ -9,8 +9,6 @@ LIBS:analog_devices
 LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
-LIBS:battery_management
-LIBS:bbd
 LIBS:brooktre
 LIBS:cmos4000
 LIBS:cmos_ieee
@@ -47,7 +45,6 @@ LIBS:microchip_pic32mcu
 LIBS:microcontrollers
 LIBS:motor_drivers
 LIBS:motorola
-LIBS:motors
 LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp_armmcu
@@ -80,7 +77,6 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
-LIBS:rasberrypi3-gpio-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -245,23 +241,23 @@ Wire Wire Line
 Wire Wire Line
 	2850 2600 3950 2600
 Text Label 1250 1200 0    50   ~ 0
-GPIO2
+GPIO2(SDA1)
 Text Label 1250 1300 0    50   ~ 0
-GPIO3
+GPIO3(SCL1)
 Text Label 1250 1400 0    50   ~ 0
-GPIO4
+GPIO4(GCLK)
 Text Label 1250 1600 0    50   ~ 0
-GPIO17
+GPIO17(GEN0)
 Text Label 1250 1700 0    50   ~ 0
-GPIO27
+GPIO27(GEN2)
 Text Label 1250 1800 0    50   ~ 0
-GPIO22
+GPIO22(GEN3)
 Text Label 1250 2000 0    50   ~ 0
-GPIO10
+GPIO10(SPI_MOSI)
 Text Label 1250 2100 0    50   ~ 0
-GPIO9
+GPIO9(SPI_MISO)
 Text Label 1250 2200 0    50   ~ 0
-GPIO11
+GPIO11(SPI_CLK)
 Text Label 1250 2400 0    50   ~ 0
 ID_SD
 Text Label 1250 2500 0    50   ~ 0
@@ -283,21 +279,21 @@ GPIO12
 Text Label 3950 2400 2    50   ~ 0
 ID_SC
 Text Label 3950 2300 2    50   ~ 0
-GPIO7
+GPIO7(SPI_CE1_N)
 Text Label 3950 2200 2    50   ~ 0
-GPIO8
+GPIO8(SPI_CE0_N)
 Text Label 3950 2100 2    50   ~ 0
-GPIO25
+GPIO25(GEN6)
 Text Label 3950 1900 2    50   ~ 0
-GPIO24
+GPIO24(GEN5)
 Text Label 3950 1800 2    50   ~ 0
-GPIO23
+GPIO23(GEN4)
 Text Label 3950 1600 2    50   ~ 0
-GPIO18
+GPIO18(GEN1)
 Text Label 3950 1500 2    50   ~ 0
-GPIO15
+GPIO15(RXD0)
 Text Label 3950 1400 2    50   ~ 0
-GPIO14
+GPIO14(TXD0)
 Wire Wire Line
 	3000 1300 2850 1300
 Connection ~ 3000 1700

@@ -1,4 +1,4 @@
-update=Sun 23 Oct 2016 08:04:49 PM CDT
+update=Fri 28 Oct 2016 09:48:42 PM CDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -89,7 +89,7 @@ SpiceUseNetNumbers=0
 LabSize=50
 [eeschema]
 version=1
-LibDir=
+LibDir=../../library
 [eeschema/libraries]
 LibName1=74xgxx
 LibName2=74xx
