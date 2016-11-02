@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N2219
+D Vce 50V, Ic 800mA, NPN Transistor, TO-39
+K NPN transistor
+F http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF
+$ENDCMP
+#
+$CMP 2N2646
+D Unijunction transistor
+K UJT
+F http://www.bucek.name/pdf/2n2646,2647.pdf
+$ENDCMP
+#
+$CMP 2N2647
+D Unijunction transistor
+K UJT
+F http://www.bucek.name/pdf/2n2646,2647.pdf
+$ENDCMP
+#
+$CMP 2N3055
+D 60V Vce, 15A Ic, NPN, Power Transistor, TO-3
+K NPN power transistor
+F http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF
+$ENDCMP
+#
 $CMP 2N3904
 D 40V Vce, 0.2A Ic, NPN, Small Signal Transistor, TO-92
 K NPN Transistor
@@ -81,6 +105,36 @@ $CMP AUIR3315S
 D Automotive Q101 Programmable Current Sense High Side Switch in a 5-Lead (TO-263-5) Package
 K Hiside power switch 
 F http://www.irf.com/product-info/datasheets/data/auir3315.pdf
+$ENDCMP
+#
+$CMP BC107
+D 50V Vce, 0.1A Ic, NPN, Low Noise General Purpose Transistor, TO-18
+K NPN low noise transistor
+F http://www.b-kainka.de/Daten/Transistor/BC108.pdf
+$ENDCMP
+#
+$CMP BC108
+D 30V Vce, 0.1A Ic, NPN, Low Noise General Purpose Transistor, TO-18
+K NPN low noise transistor
+F http://www.b-kainka.de/Daten/Transistor/BC108.pdf
+$ENDCMP
+#
+$CMP BC109
+D 25V Vce, 0.2A Ic, NPN, Low Noise General Purpose Transistor, TO-18
+K NPN low noise transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC140
+D Vce 40V, Ic 1000mA, NPN Transistor, TO-39
+K NPN transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC141
+D Vce 60V, Ic 1000mA, NPN Transistor, TO-39
+K NPN transistor
+F http://www.farnell.com/datasheets/296634.pdf
 $ENDCMP
 #
 $CMP BC237
@@ -395,6 +449,18 @@ K PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BCP51.pdf
 $ENDCMP
 #
+$CMP BCP53
+D 80V Vce, 1A Ic, PNP Medium Power Transistor, SOT-223
+K PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF
+$ENDCMP
+#
+$CMP BCP56
+D 80V Vce, 1A Ic, NPN Medium Power Transistor, SOT-223
+K NPN Transistor
+F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
+$ENDCMP
+#
 $CMP BCX51
 D 45V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89
 K PNP Transistor
@@ -411,6 +477,12 @@ $CMP BCX53
 D 80V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89
 K PNP Transistor
 F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
+$ENDCMP
+#
+$CMP BCX56
+D 80V Vce, 1A Ic, NPN Medium Power Transistor, SOT-89
+K NPN Transistor
+F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
 $ENDCMP
 #
 $CMP BD135
@@ -615,6 +687,60 @@ $CMP BD912
 D BD910, 15A, Silicon Power Transistors PNP, TO-220
 K Power Transistor PNP
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf
+$ENDCMP
+#
+$CMP BDW93
+D 45V Vce, 12A Ic, NPN Power Darlington Transistor, TO-220
+K NPN Darlington Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW93A
+D 60V Vce, 12A Ic, NPN Power Darlington Transistor, TO-220
+K NPN Darlington Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW93B
+D 80V Vce, 12A Ic, NPN Power Darlington Transistor, TO-220
+K NPN Darlington Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW93C
+D 100V Vce, 12A Ic, NPN Power Darlington Transistor, TO-220
+K NPN Darlington Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW94
+D 45V Vce, 12A Ic, PNP Power Darlington Transistor, TO-220
+K PNP Darlington Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BDW94A
+D 60V Vce, 12A Ic, PNP Power Darlington Transistor, TO-220
+K PNP Darlington Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BDW94B
+D 80V Vce, 12A Ic, PNP Power Darlington Transistor, TO-220
+K PNP Darlington Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BDW94C
+D 100V Vce, 12A Ic, PNP Power Darlington Transistor, TO-220
+K PNP Darlington Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BF199
+D 25V Vce, 0.05A Ic, NPN Radio Frequency Transistor, TO-220
+K NPN RF Transistor
+F http://www.micropik.com/PDF/BF199.pdf
 $ENDCMP
 #
 $CMP BF240
@@ -2046,6 +2172,12 @@ K Dual HEXFET N-Channel P-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
 $ENDCMP
 #
+$CMP IRF7404
+D -20V Vds, -6.7A Id, P-Channel HEXFET Power MOSFET, SO-8
+K P-Channel MOSFET
+F http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e
+$ENDCMP
+#
 $CMP IRF7606PBF
 D HexFET P-MOS Power Mosfet, Vds -30V, Rdson 0.09R, Id -3.6A, Micro8
 K HexFET Power Mosfet P-MOS
@@ -2104,6 +2236,12 @@ $CMP MAT02
 D Precision Dual Monolithic Transistor, Low Noise, Low Offset, Vce 40V, Ic 20mA, TO-78
 K Precision Dual Monolithic Transistor Low Noise EOL
 F http://www.elenota.pl/datasheet_download/93431/MAT02
+$ENDCMP
+#
+$CMP MJ2955
+D -60V Vce, -15A Ic, PNP, Power Transistor, TO-3
+K PNP power transistor
+F http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF
 $ENDCMP
 #
 $CMP MJE13003
@@ -2238,6 +2376,66 @@ K Darlington Power Transistor PNP
 F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
 $ENDCMP
 #
+$CMP TIP2955
+D -60V Vce, -15A Ic, PNP, Power Transistor, TO-218/TO-247
+K PNP power transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP3055
+D 60V Vce, 15A Ic, NPN, Power Transistor, TO-218/TO-247
+K NPN power transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP41
+D 40V Vce, 6A Ic, NPN, Power Transistor, TO-220
+K NPN power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP41A
+D 60V Vce, 6A Ic, NPN, Power Transistor, TO-220
+K NPN power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP41B
+D 80V Vce, 6A Ic, NPN, Power Transistor, TO-220
+K NPN power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP41C
+D 100V Vce, 6A Ic, NPN, Power Transistor, TO-220
+K NPN power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP42
+D -40V Vce, -6A Ic, PNP, Power Transistor, TO-220
+K PNP power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TIP42A
+D -60V Vce, -6A Ic, PNP, Power Transistor, TO-220
+K PNP power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TIP42B
+D -80V Vce, -6A Ic, PNP, Power Transistor, TO-220
+K PNP power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TIP42C
+D -100V Vce, -6A Ic, PNP, Power Transistor, TO-220
+K PNP power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
 $CMP TP0610L
 D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
@@ -2246,6 +2444,12 @@ $ENDCMP
 #
 $CMP TP0610T
 D -60V Vds, -0.18A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP VP0610L
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
