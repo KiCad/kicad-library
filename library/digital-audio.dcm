@@ -6,74 +6,90 @@ K 24bit Sigma Delta Audio ADC 2ch
 $ENDCMP
 #
 $CMP AK5393VS
-D AK5393VS, Enhanced Audio ADC, 2 channels Sigma Delta, 24bit 96kHz, SO28
+D Enhanced Audio ADC, 2 channels Sigma Delta, 24bit 96kHz, SO28
 K 96kHz 24bit Sigma Delta Audio ADC 2ch
 F http://www.akm.com/akm/en/file/datasheet/AK5393VS.pdf
 $ENDCMP
 #
 $CMP AK5394AVS
-D AK5394AVS, Super High Performance Audio ADC, 2 channels Sigma Delta, 24bit 192kHz, SO28
+D Super High Performance Audio ADC, 2 channels Sigma Delta, 24bit 192kHz, SO28
 K 192kHz 24bit Sigma Delta Audio ADC 2ch
 F http://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf
 $ENDCMP
 #
+$CMP CS4245
+D Stereo Audio CODEC, 104 dB, 24-Bit, 192 kHz 
+K CS4245 stereo audio codec
+F http://www.cirrus.com/en/pubs/proDatasheet/CS4245_F3.pdf
+$ENDCMP
+#
 $CMP CS43L21
-D Stereo digital to analog outputs 
-K AUDIO
-F digital-audio/CS43L21.pdf
+D Stereo Audio DAC, 24-bit, 96 kHz, 98 dB
+K stereo audio dac 
+F http://cirrus.com/en/pubs/proDatasheet/CS43L21_F1.pdf
 $ENDCMP
 #
 $CMP CS5361
-D 2 channels Audio DAC 24 bits 114 dB
-K AUDIO ADC
-F digital-audio/cs5361.pdf
+D Stereo Audio ADC, 24 bits, 192 kHz, 114 dB
+K stereo audio adc
+F http://www.cirrus.com/en/pubs/proDatasheet/CS5361_F2.pdf
 $ENDCMP
 #
 $CMP CS8406
-D 192 KHz Digital audio interface transmitter (SOIC-28)
-K AUDIO
-F digital-audio/cs8406.pdf
+D 192 kHz Digital Audio Interface Transmitter (SOIC-28)
+K digital audio interface transmitter spdif
+F http://cirrus.com/en/pubs/proDatasheet/CS8406_F6.pdf
 $ENDCMP
 #
 $CMP CS8414
 D 96KHz Digital Audio Receiver
-K AUDIO
-F digital-audio/cs8413-4.pdf
+K digital audio interface receiver spdif
 $ENDCMP
 #
 $CMP CS8416
 D 192 kHz Digital Audio Interface Receiver
+K digital audio interface receiver spdif
 F http://www.cirrus.com/en/pubs/proDatasheet/CS8416_F3.pdf
 $ENDCMP
 #
 $CMP CS8416-N
 D 192 kHz Digital Audio Interface Receiver (QFN-28)
+K digital audio interface receiver spdif
 F http://www.cirrus.com/en/pubs/proDatasheet/CS8416_F3.pdf
 $ENDCMP
 #
 $CMP CS8416-S
 D 192 kHz Digital Audio Interface Receiver (SOIC-28)
+K digital audio interface receiver spdif
 F http://www.cirrus.com/en/pubs/proDatasheet/CS8416_F3.pdf
 $ENDCMP
 #
 $CMP CS8416-Z
 D 192 kHz Digital Audio Interface Receiver (TSSOP-28)
+K digital audio interface receiver spdif
 F http://www.cirrus.com/en/pubs/proDatasheet/CS8416_F3.pdf
 $ENDCMP
 #
 $CMP CS8420_SOFT
-D Digital Audio Sample Rate Converter ( EAS in-out )
-F digital-audio/cs8420.pdf
+D Digital Audio Sample Rate Converter and Transceiver
+K digital audio sample rate converter transceiver
+F http://cirrus.com/en/pubs/proDatasheet/CS8420_F4.pdf
+$ENDCMP
+#
+$CMP LM4811
+D Dual105mW Headphone Amplifier, Digital Volume Control, Shutdown Mode
+K headphone amplifier digital volume
+F http://www.ti.com/lit/ds/symlink/lm4811.pdf
 $ENDCMP
 #
 $CMP TLV320AIC23BPW
-D TLV320AIC23BPW, 8-96kHz Stero Audio CODEC w/ Headphone Amp, TSSOP28
+D 8-96kHz Stero Audio CODEC w/ Headphone Amp, TSSOP28
 K Stero Audio CODEC 96kHz Headphone
 F www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
 $ENDCMP
 #
 $CMP TLV320AIC23BRHD
-D TLV320AIC23BRHD, 8-96kHz Stero Audio CODEC w/ Headphone Amp, QFN28
+D 8-96kHz Stero Audio CODEC w/ Headphone Amp, QFN28
 K Stero Audio CODEC 96kHz Headphone
 F www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
 $ENDCMP

@@ -1,8 +1,25 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 7SEGM
+D Afficheur Leds 7 segments
+K DEV
+$ENDCMP
+#
 $CMP AG12864E
-D AG12864E, Graphics Display 128x64px,  1/64 Duty, KS108B Controller, AMPIRE
+D Graphics Display 128x64px,  1/64 Duty, KS108B Controller, AMPIRE
 K LCD Graphics 128x64 KS108 Ampire
+$ENDCMP
+#
+$CMP CA56-12
+D Kingbright 4 x 7-segment common anode display
+K 7 SEGMENTS 4 display
+F http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf
+$ENDCMP
+#
+$CMP CC56-12
+D Kingbright 4 x 7-segment common cathode display
+K 7 SEGMENTS 4 display
+F http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12EWA.pdf
 $ENDCMP
 #
 $CMP DA04-11
@@ -17,8 +34,17 @@ K 7 SEGMENTS
 F Display/display-DC04-11GWA.pdf
 $ENDCMP
 #
+$CMP DISPLAY
+D Afficheur LCD nLignes
+K DEV
+$ENDCMP
+#
+$CMP DISPLAY_3_LIGNE
+D DISPLAY EA7123-12C
+$ENDCMP
+#
 $CMP DOT-BAR
-D BAR GRAPH unit
+D GRAPH unit
 K BAR DOT
 F Display/HDSP-48xx.pdf
 $ENDCMP
@@ -29,39 +55,16 @@ K BAR DOT
 F Display/HDSP-48xx.pdf
 $ENDCMP
 #
-$CMP ELD-426X
-D DUAL 7 Segments ELD-426 series.
-K 7 SEGMENTS
-$ENDCMP
-#
-$CMP HDSP-7XXX-A
-D Afficheur 7 seg. HDSP-7xxx type A
-K 7 Segments
-F Display/HDSP-7xxx.pdf
-$ENDCMP
-#
-$CMP HDSP-7XXX-B
-D Afficheur 7 seg. HDSP-7xxx type B
-K 7 Segments
-F Display/HDSP-7xxx.pdf
-$ENDCMP
-#
-$CMP HDSP-7XXX-C
-D Afficheur 7 seg. HDSP-7xxx type C
-K 7 Segments
-F Display/HDSP-7xxx.pdf
-$ENDCMP
-#
-$CMP HDSP-7XXX-D
-D Afficheur 7 seg. HDSP-7xxx type D
-K 7 Segments
-F Display/HDSP-7xxx.pdf
-$ENDCMP
-#
 $CMP HY1602E
 D HY1602E
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
 F http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
+$ENDCMP
+#
+$CMP ILI9341_LCD_Breakout
+D ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V
+K GLCD TFT ILI9341 320x240
+F www.newhavendisplay.com/app_notes/ILI9341.pdf
 $ENDCMP
 #
 $CMP LCD-016N002L

@@ -5,15 +5,82 @@ D biPort RAM (1Ko)
 K RAM BiPort 1KO
 $ENDCMP
 #
-$CMP 24C16
-D I2C Serial EEPROM
-K EEPROM Serial
+$CMP 24LC00
+D I2C Serial EEPROM, 128 bits
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21178G.pdf
 $ENDCMP
 #
-$CMP 24C512
-D I2C Serial eprom
-K I2C MEMORY
-F memory/24xx512.pdf
+$CMP 24LC01
+D I2C Serial EEPROM, 1kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf
+$ENDCMP
+#
+$CMP 24LC02
+D I2C Serial EEPROM, 2kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21709c.pdf
+$ENDCMP
+#
+$CMP 24LC04
+D I2C Serial EEPROM, 4kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21708K.pdf
+$ENDCMP
+#
+$CMP 24LC08
+D I2C Serial EEPROM, 8kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21710J.pdf
+$ENDCMP
+#
+$CMP 24LC1025
+D I2C Serial EEPROM, 1024kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf
+$ENDCMP
+#
+$CMP 24LC128
+D I2C Serial EEPROM, 128kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21191s.pdf
+$ENDCMP
+#
+$CMP 24LC16
+D I2C Serial EEPROM, 16kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf
+$ENDCMP
+#
+$CMP 24LC256
+D I2C Serial EEPROM, 256kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf
+$ENDCMP
+#
+$CMP 24LC32
+D I2C Serial EEPROM, 32kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf
+$ENDCMP
+#
+$CMP 24LC512
+D I2C Serial EEPROM, 512kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf
+$ENDCMP
+#
+$CMP 24LC64
+D I2C Serial EEPROM, 64kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf
+$ENDCMP
+#
+$CMP 25LC_EEPROM
+D External EEPROM with SPI interface in 8-pin package
+K EEPROM memory SPI serial
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf
 $ENDCMP
 #
 $CMP 27128
@@ -101,6 +168,12 @@ K EEROM ROM
 F memory/28c256.pdf
 $ENDCMP
 #
+$CMP 28F400
+D PA28F400BX-T/B Flash EEProm 4-MBIT (256Kx16bits, 512Kx8bits) 5V, 12V Prog
+K EEPROM FLASH 4MO
+F http://download.intel.com/design/archives/flash/docs/29045101.pdf
+$ENDCMP
+#
 $CMP 29F010-TSOP-SP
 D Flash EEProm 128Ko (TSOP 32 pack.) 5V prog
 K EEPROM FLASH 128KO
@@ -122,212 +195,266 @@ D RAM 128 Ko
 K RAM 128KO
 $ENDCMP
 #
+$CMP 93AAxxA
+D Serial EEPROM, 93 series in 8-pin package, 1.8V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93AAxxC
+D Serial EEPROM, 93 series in 8-pin package with ORG pin, 1.8V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93CxxA
+D Serial EEPROM, 93 series in 8-pin package, 5.0V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93CxxC
+D Serial EEPROM, 93 series in 8-pin package with ORG pin, 5.0V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93LCxxA
+D Serial EEPROM, 93 series in 8-pin package, 2.5V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93LCxxC
+D Serial EEPROM, 93 series in 8-pin package with ORG pin, 2.5V
+K EEPROM memory SPI microwire 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
 $CMP AM29PDL128G
 D 128 Megabit (8 M x 16-Bit/4 M x 32-Bit), Simultaneous Operation Flash Memory with VersatileIO™ Control
 $ENDCMP
 #
 $CMP AT24CS01-MAHM
-D AT24CS01-MAHM, 1Kb (128x8) Serial EEPROM with Unique Serial Number, UDFN8
+D 1Kb (128x8) Serial EEPROM with Unique Serial Number, UDFN8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS01-SSHM
-D AT24CS01-SSHM, 1Kb (128x8) Serial EEPROM with Unique Serial Number, SO8
+D 1Kb (128x8) Serial EEPROM with Unique Serial Number, SO8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS01-STUM
-D AT24CS01-STUM, 1Kb (128x8) Serial EEPROM with Unique Serial Number, SOT23-5
+D 1Kb (128x8) Serial EEPROM with Unique Serial Number, SOT-23-5
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS01-XHM
-D AT24CS01-XHM, 1Kb (128x8) Serial EEPROM with Unique Serial Number, TSSOP8
+D 1Kb (128x8) Serial EEPROM with Unique Serial Number, TSSOP8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS02-MAHM
-D AT24CS02-MAHM, 2Kb (256x8) Serial EEPROM with Unique Serial Number, UDFN8
+D 2Kb (256x8) Serial EEPROM with Unique Serial Number, UDFN8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS02-SSHM
-D AT24CS02-SSHM, 2Kb (256x8) Serial EEPROM with Unique Serial Number, SO8
+D 2Kb (256x8) Serial EEPROM with Unique Serial Number, SO8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS02-STUM
-D AT24CS02-STUM, 2Kb (256x8) Serial EEPROM with Unique Serial Number, SOT23-5
+D 2Kb (256x8) Serial EEPROM with Unique Serial Number, SOT-23-5
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS02-XHM
-D AT24CS02-XHM, 2Kb (256x8) Serial EEPROM with Unique Serial Number, TSSOP8
+D 2Kb (256x8) Serial EEPROM with Unique Serial Number, TSSOP8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS04-MAHM
-D AT24CS04-MAHM, 4Kb (512x8) Serial EEPROM with Unique Serial Number, UDFN8
+D 4Kb (512x8) Serial EEPROM with Unique Serial Number, UDFN8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS04-SSHM
-D AT24CS04-SSHM, 4Kb (512x8) Serial EEPROM with Unique Serial Number, SO8
+D 4Kb (512x8) Serial EEPROM with Unique Serial Number, SO8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS04-STUM
-D AT24CS04-STUM, 4Kb (512x8) Serial EEPROM with Unique Serial Number, SOT23-5
+D 4Kb (512x8) Serial EEPROM with Unique Serial Number, SOT-23-5
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS04-XHM
-D AT24CS04-XHM, 4Kb (512x8) Serial EEPROM with Unique Serial Number, TSSOP8
+D 4Kb (512x8) Serial EEPROM with Unique Serial Number, TSSOP8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS08-MAHM
-D AT24CS08-MAHM, 8Kb (1024x8) Serial EEPROM with Unique Serial Number, UDFN8
+D 8Kb (1024x8) Serial EEPROM with Unique Serial Number, UDFN8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS08-SSHM
-D AT24CS08-SSHM, 8Kb (1024x8) Serial EEPROM with Unique Serial Number, SO8
+D 8Kb (1024x8) Serial EEPROM with Unique Serial Number, SO8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS08-STUM
-D AT24CS08-STUM, 8Kb (1024x8) Serial EEPROM with Unique Serial Number, SOT23-5
+D 8Kb (1024x8) Serial EEPROM with Unique Serial Number, SOT-23-5
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS08-XHM
-D AT24CS08-XHM, 8Kb (1024x8) Serial EEPROM with Unique Serial Number, TSSOP8
+D 8Kb (1024x8) Serial EEPROM with Unique Serial Number, TSSOP8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS16-MAHM
-D AT24CS16-MAHM, 16Kb (2048x8) Serial EEPROM with Unique Serial Number, UDFN8
+D 16Kb (2048x8) Serial EEPROM with Unique Serial Number, UDFN8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8859-SEEPROM-AT24CS16-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS16-SSHM
-D AT24CS16-SSHM, 16Kb (2048x8) Serial EEPROM with Unique Serial Number, SO8
+D 16Kb (2048x8) Serial EEPROM with Unique Serial Number, SO8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8859-SEEPROM-AT24CS16-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS16-STUM
-D AT24CS16-STUM, 16Kb (2048x8) Serial EEPROM with Unique Serial Number, SOT23-5
+D 16Kb (2048x8) Serial EEPROM with Unique Serial Number, SOT-23-5
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8859-SEEPROM-AT24CS16-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS16-XHM
-D AT24CS16-XHM, 16Kb (2048x8) Serial EEPROM with Unique Serial Number, TSSOP8
+D 16Kb (2048x8) Serial EEPROM with Unique Serial Number, TSSOP8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8859-SEEPROM-AT24CS16-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS32-MAHM
-D AT24CS32-MAHM, 32Kb (4096x8) Serial EEPROM with Unique Serial Number, UDFN8
+D 32Kb (4096x8) Serial EEPROM with Unique Serial Number, UDFN8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS32-SSHM
-D AT24CS32-SSHM, 32Kb (4096x8) Serial EEPROM with Unique Serial Number, SO8
+D 32Kb (4096x8) Serial EEPROM with Unique Serial Number, SO8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS32-STUM
-D AT24CS32-STUM, 32Kb (4096x8) Serial EEPROM with Unique Serial Number, SOT23-5
+D 32Kb (4096x8) Serial EEPROM with Unique Serial Number, SOT-23-5
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS32-XHM
-D AT24CS32-XHM, 32Kb (4096x8) Serial EEPROM with Unique Serial Number, TSSOP8
+D 32Kb (4096x8) Serial EEPROM with Unique Serial Number, TSSOP8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS64-MAHM
-D AT24CS64-MAHM, 64Kb (8192x8) Serial EEPROM with Unique Serial Number, UDFN8
+D 64Kb (8192x8) Serial EEPROM with Unique Serial Number, UDFN8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS64-SSHM
-D AT24CS64-SSHM, 64Kb (8192x8) Serial EEPROM with Unique Serial Number, SO8
+D 64Kb (8192x8) Serial EEPROM with Unique Serial Number, SO8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf
 $ENDCMP
 #
 $CMP AT24CS64-XHM
-D AT24CS64-XHM, 64Kb (8192x8) Serial EEPROM with Unique Serial Number, TSSOP8
+D 64Kb (8192x8) Serial EEPROM with Unique Serial Number, TSSOP8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf
 $ENDCMP
 #
+$CMP AT25_EEPROM
+D Atmel serial EEPROM with SPI interface
+K serial EEPROM memory Atmel 
+F http://www.atmel.com/products/Memories/serial/spi.aspx
+$ENDCMP
+#
 $CMP AT45DB161-JC
-D AT45DB161-JC, 16Mb Serial DataFlash, PLCC32, Vcc=2.7V
+D 16Mb Serial DataFlash, PLCC32, Vcc=2.7V
 K Atmel DataFlash
 F http://www.atmel.com/Images/doc0807.pdf
 $ENDCMP
 #
 $CMP AT45DB161-RC
-D AT45DB161-RC, 16Mb Serial DataFlash, SOIC28, Vcc=2.7V
+D 16Mb Serial DataFlash, SOIC28, Vcc=2.7V
 K Atmel DataFlash
 F http://www.atmel.com/Images/doc0807.pdf
 $ENDCMP
 #
 $CMP AT45DB161-TC
-D AT45DB161-TC, 16Mb Serial DataFlash, TSSOP28, Vcc=2.7V
+D 16Mb Serial DataFlash, TSSOP28, Vcc=2.7V
 K Atmel DataFlash
 F http://www.atmel.com/Images/doc0807.pdf
 $ENDCMP
 #
 $CMP AT45DB161B-RC
-D AT45DB161B-RC, 16Mb Serial DataFlash, SOIC28, Vcc=2.7V
+D 16Mb Serial DataFlash, SOIC28, Vcc=2.7V
 K Atmel DataFlash
 F http://www.atmel.com/Images/doc2224.pdf
 $ENDCMP
 #
 $CMP AT45DB161B-RC-2.5
-D AT45DB161B-RC-2.5, 16Mb Serial DataFlash, SOIC28, Vcc=2.5V
+D 16Mb Serial DataFlash, SOIC28, Vcc=2.5V
 K Atmel DataFlash
 F http://www.atmel.com/Images/doc2224.pdf
 $ENDCMP
 #
 $CMP AT45DB161B-TC
-D AT45DB161B-TC, 16Mb Serial DataFlash, TSSOP28, Vcc=2.7V
+D 16Mb Serial DataFlash, TSSOP28, Vcc=2.7V
 K Atmel DataFlash
 F http://www.atmel.com/Images/doc2224.pdf
 $ENDCMP
 #
 $CMP AT45DB161B-TC-2.5
-D AT45DB161B-TC-2.5, 16Mb Serial DataFlash, TSSOP28, Vcc=2.5V
+D 16Mb Serial DataFlash, TSSOP28, Vcc=2.5V
 K Atmel DataFlash
 F http://www.atmel.com/Images/doc2224.pdf
+$ENDCMP
+#
+$CMP BR25S_EEPROM
+D ROHM Semiconductor serial EEPROM with SPI interface in 8-pin package
+K serial SPI EEPROM memory external
+F http://www.rohm.com/web/global/products/-/product/BR25G128F-3
+$ENDCMP
+#
+$CMP CAT250_EEPROM
+D ON Semiconductor serial EEPROM with SPI interface in 8-pin package
+K serial EEPROM SPI interface memory external 
+F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
 $ENDCMP
 #
 $CMP DRAM_1MX16_SOJ
@@ -336,25 +463,25 @@ K DRAM 2MO
 $ENDCMP
 #
 $CMP FM1608B-SG
-D FM1608B-SG, FRAM Nonvolatile Memory 8Kx8 (64Kb), 5V only, SOIC28
+D FRAM Nonvolatile Memory 8Kx8 (64Kb), 5V only, SOIC28
 K FRAM  Nonvolatile Memory 8K 8bit
 F http://www.cypress.com/?mpn=FM1608B-SG
 $ENDCMP
 #
 $CMP FM16W08-SG
-D FM16W08-SG, FRAM Nonvolatile Memory 8Kx8 (64Kb), SOIC28
+D FRAM Nonvolatile Memory 8Kx8 (64Kb), SOIC28
 K FRAM  Nonvolatile Memory 8K 8bit
 F http://www.cypress.com/?mpn=FM16W08-SG
 $ENDCMP
 #
 $CMP FM1808B-SG
-D FM1808B-SG, FRAM Nonvolatile Memory 32Kx8 (256Kb), 5V only, SOIC28
+D FRAM Nonvolatile Memory 32Kx8 (256Kb), 5V only, SOIC28
 K FRAM  Nonvolatile Memory 32K 8bit
 F http://www.cypress.com/?mpn=FM1808B-SG
 $ENDCMP
 #
 $CMP FM18W08-SG
-D FM18W08-SG, FRAM Nonvolatile Memory 32Kx8 (256Kb), SOIC28
+D FRAM Nonvolatile Memory 32Kx8 (256Kb), SOIC28
 K FRAM  Nonvolatile Memory 32K 8bit
 F http://www.cypress.com/?mpn=FM18W08-SG
 $ENDCMP
@@ -449,6 +576,18 @@ $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
 #
+$CMP M25PX32-VMP
+D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, QFN package
+K NOR Serial Flash Embedded Memory
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
+$ENDCMP
+#
+$CMP M25PX32-VMW
+D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, SOIJ package
+K NOR Serial Flash Embedded Memory
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
+$ENDCMP
+#
 $CMP M29W004
 D Flash EEProm 512Ko (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 512KO
@@ -459,43 +598,61 @@ D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
 $ENDCMP
 #
+$CMP MB85RS16
+D FRAM memory (EEPROM compatible) with SPI interface in 8-pin package
+K FRAM, SPI
+F http://edevice.fujitsu.com/fj/DATASHEET/e-ds/MB85RS16-DS501-00014-7v0-E.pdf
+$ENDCMP
+#
+$CMP MR20H40
+D 4Mb serial SPI MRAM in DFN-8 package
+K MRAM memory EEPROM non-volatile
+F https://www.everspin.com/file/217/download
+$ENDCMP
+#
+$CMP MR25H40
+D 4KBit MRAM with SPI interface in DFN-8 package
+K memory MRAM external SPI 
+F https://www.everspin.com/file/217/download
+$ENDCMP
+#
 $CMP MS628128
 D SRAM 128K x 8 bits
 K RAM SRAM
 $ENDCMP
 #
 $CMP MT48LC16M4A2P
-D MT48LC16M4A2P, PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
+D PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
 K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC16M4A2TG
-D MT48LC16M4A2TG, PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
+D PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
 K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC4M16A2P
-D MT48LC4M16A2P, PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
+D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
 K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC4M16A2TG
-D MT48LC4M16A2TG, PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
+D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
 K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC8M8A2P
-D MT48LC8M8A2P, PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
+D PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
 K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP MT48LC8M8A2TG
-D MT48LC8M8A2TG, PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
+D PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
 K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
@@ -515,9 +672,22 @@ D Barrette SIMM 1 Mo ( 1M x 9 bits)
 K DRAM 1MO
 $ENDCMP
 #
-$CMP SRAM_512KO
-D SRAM 512Kbytes 32 pins
-K RAM
+$CMP SST39SF010
+D Silicon Storage Technology (SSF) 128k x 8 Flash ROM
+K 128k flash rom
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF020
+D Silicon Storage Technology (SSF) 256k x 8 Flash ROM
+K 256k flash rom
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF040
+D Silicon Storage Technology (SSF) 512k x 8 Flash ROM
+K 512k flash rom
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
 $ENDCMP
 #
 #End Doc Library
