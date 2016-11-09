@@ -404,7 +404,7 @@ F1 "Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_*
+ Crystal*
 $ENDFPLIST
 DRAW
 S -45 100 45 -100 0 1 12 N
@@ -425,7 +425,7 @@ F1 "Crystal_GND2" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_*
+ Crystal*
 $ENDFPLIST
 DRAW
 S -45 100 45 -100 0 1 12 N
@@ -449,7 +449,7 @@ F1 "Crystal_GND23" 125 125 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_*
+ Crystal*
 $ENDFPLIST
 DRAW
 S -45 100 45 -100 0 1 12 N
@@ -476,7 +476,7 @@ F1 "Crystal_GND23_Small" 50 100 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_
+ Crystal*
 $ENDFPLIST
 DRAW
 S -30 -60 30 60 0 1 0 N
@@ -499,7 +499,7 @@ F1 "Crystal_GND24" 125 125 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_*
+ Crystal*
 $ENDFPLIST
 DRAW
 S -45 100 45 -100 0 1 12 N
@@ -526,7 +526,7 @@ F1 "Crystal_GND24_Small" 50 100 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_
+ Crystal*
 $ENDFPLIST
 DRAW
 S -30 -60 30 60 0 1 0 N
@@ -549,7 +549,7 @@ F1 "Crystal_GND2_Small" 0 125 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_
+ Crystal*
 $ENDFPLIST
 DRAW
 S -30 -60 30 60 0 1 0 N
@@ -570,7 +570,7 @@ F1 "Crystal_GND3" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_*
+ Crystal*
 $ENDFPLIST
 DRAW
 S -45 100 45 -100 0 1 12 N
@@ -594,7 +594,7 @@ F1 "Crystal_GND3_Small" 0 125 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_
+ Crystal*
 $ENDFPLIST
 DRAW
 S -30 -60 30 60 0 1 0 N
@@ -615,7 +615,7 @@ F1 "Crystal_Small" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_
+ Crystal*
 $ENDFPLIST
 DRAW
 S -30 -60 30 60 0 1 0 N
@@ -670,6 +670,55 @@ P 2 0 1 8 -50 0 -50 -100 N
 P 2 0 1 8 50 100 50 0 N
 P 4 0 1 8 -50 100 -50 0 50 50 -50 100 N
 P 4 0 1 8 50 0 50 -100 -50 -50 50 0 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DIAC_ALT
+#
+DEF DIAC_ALT D 0 40 N N 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "DIAC_ALT" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 0 -50 -100 N
+P 2 0 1 8 50 100 50 0 N
+P 4 0 1 8 -50 100 -50 0 50 50 -50 100 F
+P 4 0 1 8 50 0 50 -100 -50 -50 50 0 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_ALT
+#
+DEF D_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 F
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -843,6 +892,78 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Capacitance_ALT
+#
+DEF D_Capacitance_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Capacitance_ALT" 0 -130 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 -70 -6 -70 N
+P 2 0 1 0 -50 0 50 0 N
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 -6 -50 -6 -90 N
+P 2 0 1 0 6 -70 50 -70 N
+P 2 0 1 0 6 -50 6 -90 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Photo
+#
+DEF D_Photo D 0 40 N N 1 F N
+F0 "D" 20 70 50 H V L CNN
+F1 "D_Photo" -40 -110 50 H V C CNN
+F2 "" -50 0 50 H V C CNN
+F3 "" -50 0 50 H V C CNN
+$FPLIST
+ *photodiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -100 50 -100 -50 N
+P 2 0 1 0 -80 70 -60 70 N
+P 2 0 1 0 0 0 -100 0 N
+P 3 0 1 0 -20 130 -80 70 -80 90 N
+P 4 0 1 8 0 -50 0 50 -100 0 0 -50 N
+P 5 0 1 0 30 130 -30 70 -30 90 -30 70 -10 70 N
+X K 1 -200 0 100 R 50 50 1 1 P
+X A 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Photo_ALT
+#
+DEF D_Photo_ALT D 0 40 N N 1 F N
+F0 "D" 20 70 50 H V L CNN
+F1 "D_Photo_ALT" -40 -110 50 H V C CNN
+F2 "" -50 0 50 H V C CNN
+F3 "" -50 0 50 H V C CNN
+$FPLIST
+ *photodiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -100 50 -100 -50 N
+P 2 0 1 0 -80 70 -60 70 N
+P 2 0 1 0 0 0 -100 0 N
+P 3 0 1 0 -20 130 -80 70 -80 90 N
+P 4 0 1 8 0 -50 0 50 -100 0 0 -50 F
+P 5 0 1 0 30 130 -30 70 -30 90 -30 70 -10 70 N
+X K 1 -200 0 100 R 50 50 1 1 P
+X A 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_Radiation
 #
 DEF D_Radiation D 0 40 N N 1 F N
@@ -866,6 +987,34 @@ P 2 0 1 0 -40 70 -10 100 N
 P 2 0 1 0 -40 100 -40 70 N
 P 2 0 1 0 0 0 -100 0 N
 P 4 0 1 8 0 50 0 -50 -100 0 0 50 N
+X K 1 -200 0 100 R 50 50 1 1 P
+X A 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Radiation_ALT
+#
+DEF D_Radiation_ALT D 0 40 N N 1 F N
+F0 "D" -50 -90 50 H V C CNN
+F1 "D_Radiation_ALT" -50 -160 50 H V C CNN
+F2 "" -50 0 50 H V C CNN
+F3 "" -50 0 50 H V C CNN
+DRAW
+A -30 130 22 634 -1534 0 1 0 N -20 150 -50 120
+A -10 170 22 -1166 266 0 1 0 N -20 150 10 180
+A 10 110 22 634 -1534 0 1 0 N 20 130 -10 100
+A 30 150 22 -1166 266 0 1 0 N 20 130 50 160
+A 30 190 22 -1534 634 0 1 0 N 10 180 40 210
+A 70 170 22 -1534 634 0 1 0 N 50 160 80 190
+P 2 0 1 8 -100 50 -100 -50 N
+P 2 0 1 0 -80 90 -50 90 N
+P 2 0 1 0 -80 90 -50 120 N
+P 2 0 1 0 -80 120 -80 90 N
+P 2 0 1 0 -40 70 -10 70 N
+P 2 0 1 0 -40 70 -10 100 N
+P 2 0 1 0 -40 100 -40 70 N
+P 2 0 1 0 0 0 -100 0 N
+P 4 0 1 8 0 50 0 -50 -100 0 0 50 F
 X K 1 -200 0 100 R 50 50 1 1 P
 X A 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -970,6 +1119,30 @@ X K 3 -250 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Schottky_ALT
+#
+DEF D_Schottky_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 F
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_Schottky_KAA
 #
 DEF D_Schottky_KAA D 0 0 Y N 1 F N
@@ -1066,6 +1239,32 @@ P 2 0 1 0 -30 0 30 0 N
 P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
 P 3 0 1 0 -30 40 -40 40 -40 30 N
 P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Schottky_Small_ALT
+#
+DEF D_Schottky_Small_ALT D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_Schottky_Small_ALT" -280 -80 50 H V L CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ Diode_*
+ D-*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
 X K 1 -100 0 70 R 50 50 1 1 P
 X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
@@ -1409,6 +1608,29 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Small_ALT
+#
+DEF D_Small_ALT D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_Small_ALT" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_TVS
 #
 DEF D_TVS D 0 40 N N 1 F N
@@ -1429,6 +1651,31 @@ P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 8 -100 -50 0 0 -100 50 -100 -50 N
 P 4 0 1 8 20 50 0 50 0 -50 -20 -50 N
 P 4 0 1 8 100 50 100 -50 0 0 100 50 N
+X A1 1 -150 0 100 R 50 50 1 1 P
+X A2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_TVS_ALT
+#
+DEF D_TVS_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_TVS_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 -100 -50 0 0 -100 50 -100 -50 F
+P 4 0 1 8 20 50 0 50 0 -50 -20 -50 N
+P 4 0 1 8 100 50 100 -50 0 0 100 50 F
 X A1 1 -150 0 100 R 50 50 1 1 P
 X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -1550,6 +1797,38 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Temperature_Dependent_ALT
+#
+DEF D_Temperature_Dependent_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Temperature_Dependent_ALT" 0 -125 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+A -104 -54 7 -265 818 0 1 0 N -98 -57 -103 -47
+A -88 -57 10 1800 -900 0 1 0 N -98 -57 -88 -67
+A -88 -57 10 -900 0 0 1 0 N -88 -67 -78 -57
+A -88 -32 10 0 900 0 1 0 N -78 -32 -88 -22
+A -88 -32 10 900 1800 0 1 0 N -88 -22 -98 -32
+A -88 -32 10 1800 -900 0 1 0 N -98 -32 -88 -42
+A -82 -23 20 -1075 -253 0 1 0 N -88 -42 -63 -32
+P 2 0 1 0 -78 -56 -78 -32 N
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_Tunnel
 #
 DEF D_Tunnel D 0 40 N N 1 F N
@@ -1574,6 +1853,30 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Tunnel_ALT
+#
+DEF D_Tunnel_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Tunnel_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 -30 50 -50 50 -50 -50 -30 -50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_Unitunnel
 #
 DEF D_Unitunnel D 0 40 N N 1 F N
@@ -1592,6 +1895,30 @@ $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 6 0 1 8 -70 -50 -30 -50 -50 -50 -50 50 -30 50 -70 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Unitunnel_ALT
+#
+DEF D_Unitunnel_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Unitunnel_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
 P 6 0 1 8 -70 -50 -30 -50 -50 -50 -50 50 -30 50 -70 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
@@ -1622,6 +1949,30 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Zener_ALT
+#
+DEF D_Zener_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_Zener_Small
 #
 DEF D_Zener_Small D 0 10 N N 1 F N
@@ -1640,6 +1991,29 @@ DRAW
 P 2 0 1 0 30 0 -30 0 N
 P 3 0 1 0 -10 40 -30 40 -30 -40 N
 P 4 0 1 0 30 40 -30 0 30 -40 30 40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Zener_Small_ALT
+#
+DEF D_Zener_Small_ALT D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "D_Zener_Small_ALT" 0 -90 50 H V C CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 0 -10 40 -30 40 -30 -40 N
+P 4 0 1 0 30 40 -30 0 30 -40 30 40 F
 X K 1 -100 0 70 R 50 50 1 1 P
 X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
@@ -2325,6 +2699,27 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# LED_ALT
+#
+DEF LED_ALT D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # LED_ARGB
 #
 DEF LED_ARGB D 0 0 Y N 1 F N
@@ -2886,6 +3281,28 @@ DRAW
 P 2 0 1 0 -30 -40 -30 40 N
 P 2 0 1 0 40 0 -30 0 N
 P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_Small_ALT
+#
+DEF LED_Small_ALT D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "LED_Small_ALT" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ LED-*
+ LED_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
 P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
 P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
 X K 1 -100 0 70 R 50 50 1 1 P
@@ -3541,29 +3958,6 @@ P 2 0 1 10 -150 0 150 0 F
 P 2 0 1 10 -150 75 150 75 N
 X ~ 1 -200 0 50 R 50 50 1 1 P
 X ~ 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Photodiode
-#
-DEF Photodiode D 0 40 N N 1 F N
-F0 "D" 20 70 50 H V L CNN
-F1 "Photodiode" -40 -110 50 H V C CNN
-F2 "" -50 0 50 H V C CNN
-F3 "" -50 0 50 H V C CNN
-ALIAS D_Photo
-$FPLIST
- *photodiode*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -100 50 -100 -50 N
-P 2 0 1 0 -80 70 -60 70 N
-P 2 0 1 0 0 0 -100 0 N
-P 3 0 1 0 -20 130 -80 70 -80 90 N
-P 4 0 1 8 0 -50 0 50 -100 0 0 -50 N
-P 5 0 1 0 30 130 -30 70 -30 90 -30 70 -10 70 N
-X K 1 -200 0 100 R 50 50 1 1 P
-X A 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

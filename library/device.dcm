@@ -156,6 +156,16 @@ D diode for alternating current
 K AC diode DIAC
 $ENDCMP
 #
+$CMP DIAC_ALT
+D diode for alternating current, alternativ symbol
+K AC diode DIAC
+$ENDCMP
+#
+$CMP D_ALT
+D Diode, alternativ symbol
+K diode
+$ENDCMP
+#
 $CMP D_Bridge_+-AA
 D Diode bridge (pins: 1=+, 2=-, 3=AC, 4=AC)
 K rectifier acdc
@@ -186,9 +196,19 @@ D variable capacitance diode (varicap, varactor)
 K capacitance diode varicap varactor
 $ENDCMP
 #
+$CMP D_Capacitance_ALT
+D variable capacitance diode (varicap, varactor), alternativ symbol
+K capacitance diode varicap varactor
+$ENDCMP
+#
 $CMP D_Photo
-D photodiode
-K opto photodiode
+D Photodiode
+K photodiode diode opto
+$ENDCMP
+#
+$CMP D_Photo_ALT
+D Photodiode, alternative symbol
+K photodiode diode opto
 $ENDCMP
 #
 $CMP D_Radiation
@@ -196,9 +216,14 @@ D semiconductor radiation detector
 K radiation detector diode
 $ENDCMP
 #
+$CMP D_Radiation_ALT
+D semiconductor radiation detector, alternativ symbol
+K radiation detector diode
+$ENDCMP
+#
 $CMP D_Schottky
 D Schottky diode
-K diode schotty
+K diode Schottky
 $ENDCMP
 #
 $CMP D_Schottky_AAK
@@ -214,6 +239,11 @@ $ENDCMP
 $CMP D_Schottky_AKK
 D Schottky diode, two cathode pins
 K diode schotty SCHDPAK
+$ENDCMP
+#
+$CMP D_Schottky_ALT
+D Schottky diode, alternativ symbol
+K diode schotty
 $ENDCMP
 #
 $CMP D_Schottky_KAA
@@ -233,6 +263,11 @@ $ENDCMP
 #
 $CMP D_Schottky_Small
 D Schottky diode, small symbol
+K diode schottky
+$ENDCMP
+#
+$CMP D_Schottky_Small_ALT
+D Schottky diode, small symbol, alternativ symbol
 K diode schottky
 $ENDCMP
 #
@@ -303,12 +338,23 @@ F https://en.wikipedia.org/wiki/Shockley_diode
 $ENDCMP
 #
 $CMP D_Small
-D Diode
+D Diode, small symbol
+K diode
+$ENDCMP
+#
+$CMP D_Small_ALT
+D Diode, small symbol, alternativ symbol
 K diode
 $ENDCMP
 #
 $CMP D_TVS
 D transient-voltage-suppression (TVS) diode
+K diode TVS thyrector
+F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+$ENDCMP
+#
+$CMP D_TVS_ALT
+D transient-voltage-suppression (TVS) diode, alternativ symbol
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
@@ -336,13 +382,28 @@ D temperature dependent diode
 K temperature sensor diode
 $ENDCMP
 #
+$CMP D_Temperature_Dependent_ALT
+D temperature dependent diode, alternativ symbol
+K temperature sensor diode
+$ENDCMP
+#
 $CMP D_Tunnel
 D Tunnel Diode (Esaki Diode)
 K tunnel diode
 $ENDCMP
 #
+$CMP D_Tunnel_ALT
+D Tunnel Diode (Esaki Diode), alternativ symbol
+K tunnel diode
+$ENDCMP
+#
 $CMP D_Unitunnel
 D Unitunnel Diode
+K unitunnel diode
+$ENDCMP
+#
+$CMP D_Unitunnel_ALT
+D Unitunnel Diode, alternativ symbol
 K unitunnel diode
 $ENDCMP
 #
@@ -352,8 +413,20 @@ K diode
 F https://en.wikipedia.org/wiki/Zener_diode
 $ENDCMP
 #
+$CMP D_Zener_ALT
+D Zener Diode, alternativ symbol
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
 $CMP D_Zener_Small
 D Zener Diode, small symbol
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP D_Zener_Small_ALT
+D Zener Diode, small symbol, alternativ symbol
 K diode
 F https://en.wikipedia.org/wiki/Zener_diode
 $ENDCMP
@@ -537,6 +610,11 @@ D LED generic
 K led diode
 $ENDCMP
 #
+$CMP LED_ALT
+D LED generic, alternativ symbol
+K led diode
+$ENDCMP
+#
 $CMP LED_ARGB
 D LED RGB, common anode (pin 1)
 K led rgb diode
@@ -614,6 +692,11 @@ $ENDCMP
 #
 $CMP LED_Small
 D LED, small symbol
+K led diode light-emitting-diode
+$ENDCMP
+#
+$CMP LED_Small_ALT
+D LED, small symbol, alternativ symbol
 K led diode light-emitting-diode
 $ENDCMP
 #
@@ -751,11 +834,6 @@ $ENDCMP
 $CMP Peltier_Element
 D Peltier Element, Thermoelectric Cooler (TEC)
 K Peltier TEC
-$ENDCMP
-#
-$CMP Photodiode
-D photodiode
-K opto photodiode
 $ENDCMP
 #
 $CMP Polyfuse
