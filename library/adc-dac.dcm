@@ -260,7 +260,7 @@ $ENDCMP
 #
 $CMP AD9283
 D ADC 50MHz 8 bits, SSOP-20
-K ADC 
+K ADC
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9283.pdf
 $ENDCMP
 #
@@ -283,7 +283,7 @@ F http://www.ti.com/lit/ds/symlink/adc08060.pdf
 $ENDCMP
 #
 $CMP ADC0832
-D 2 inputs AD Converter (serial output), 
+D 2 inputs AD Converter (serial output),
 K ADC CAN
 F http://www.ti.com/lit/ds/symlink/adc0831-n.pdf
 $ENDCMP
@@ -292,6 +292,24 @@ $CMP ADC1173
 D Fast ADC  (15 Mhz), TSSOP-24
 K ADC CAN VIDEO
 F http://www.ti.com/lit/ds/symlink/adc1173.pdf
+$ENDCMP
+#
+$CMP ADS1118I
+D 16-bit analog to digital converter, 2 or 4 inputs, integrated temperature sensor, SPI interface
+K adc spi quad double
+F http://www.ti.com/lit/ds/sbas457e/sbas457e.pdf
+$ENDCMP
+#
+$CMP ADS1120-PW
+D Low-power, quad-input, 16-bit analog to digital converter, integrated temperature sensor, SPI interface, TSSOP-16 package
+K adc spi
+F http://www.ti.com/lit/ds/symlink/ads1120.pdf
+$ENDCMP
+#
+$CMP ADS1120-RVA
+D Low-power, quad-input, 16-bit analog to digital converter, integrated temperature sensor, SPI interface, QFN-16 package
+K adc spi
+F http://www.ti.com/lit/ds/symlink/ads1120.pdf
 $ENDCMP
 #
 $CMP ADS1232IPW
@@ -321,6 +339,12 @@ $CMP DAC08
 D DA Converter 8 bits
 K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/DAC08.pdf
+$ENDCMP
+#
+$CMP DAC7513_DCN
+D Low-Power, Rail-to-Rail Output, 12-Bit Serial Input DAC
+K TI DAC 12 bit
+F http://www.ti.com.cn/cn/lit/ds/symlink/dac7513.pdf
 $ENDCMP
 #
 $CMP LTC1257
@@ -425,6 +449,54 @@ K sigma-delta adc
 F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
 $ENDCMP
 #
+$CMP MAX11614
+D 8-channel single-ended or 4-channel, differential, 12-bit ADC, I2C, 4.096V internal reference, 16-QSOP package
+K adc i2c
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX11615
+D 8-channel single-ended or 4-channel, differential, 12-bit ADC, I2C, 2.048V internal reference, 16-QSOP package
+K adc i2c
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX11616
+D 12-channel single-ended or 6-channel, differential, 12-bit ADC, I2C, 4.096V internal reference, 16-QSOP package
+K adc i2c
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX11617
+D 12-channel single-ended or 6-channel, differential, 12-bit ADC, I2C, 2.048V internal reference, 16-QSOP package
+K adc i2c
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX1274
+D 1.8Msps, Single-Supply, Low-Power, True-Differential, 12-Bit ADCs, bipolar input
+K 12bit ADC 1CH diff differential
+F https://datasheets.maximintegrated.com/en/ds/MAX1274-MAX1275.pdf
+$ENDCMP
+#
+$CMP MAX1275
+D 1.8Msps, Single-Supply, Low-Power, True-Differential, 12-Bit ADCs, unipolar input
+K 12bit ADC 1CH diff differential
+F https://datasheets.maximintegrated.com/en/ds/MAX1274-MAX1275.pdf
+$ENDCMP
+#
+$CMP MAX5138
+D Low-Power, Single, 16-Bit, Buffered Voltage-Output DAC
+K 16-bit DAC 1CH
+F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
+$ENDCMP
+#
+$CMP MAX5139
+D Low-Power, Single, 12-Bit, Buffered Voltage-Output DAC
+K 12-bit DAC 1CH
+F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
+$ENDCMP
+#
 $CMP MCP3002
 D MCP3008, Dual Channel 10-Bit A/D Converter with SPI Serial Interface
 K Dual Channel 10-Bit ADC SPI
@@ -435,6 +507,18 @@ $CMP MCP3008
 D MCP3008, 8-Channel 10-Bit A/D Converters with SPI Serial Interface
 K 8-Channel 10-Bit ADC SPI
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf
+$ENDCMP
+#
+$CMP MCP3204
+D A/D Converter, 12-Bit, 4-Channel, SPI Interface, 2.7V-5.5V
+K 12bit ADC Reference Single Supply SPI 4-Channel
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf
+$ENDCMP
+#
+$CMP MCP3208
+D A/D Converter, 12-Bit, 8-Channel, SPI Interface , 2.7V-5.5V
+K 12bit ADC Reference Single Supply SPI 8-Channel
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf
 $ENDCMP
 #
 $CMP MCP3421A0T-E/CH
@@ -489,6 +573,12 @@ $CMP MCP3553-E/SN
 D MCP3553, Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
+$ENDCMP
+#
+$CMP MCP4728
+D 12-bit digital to analog converter, quad output, 2.048V internal reference, integrated EEPROM, I2C interface
+K dac i2c
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf
 $ENDCMP
 #
 $CMP MCP4921-E/MS

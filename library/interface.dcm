@@ -48,7 +48,7 @@ $ENDCMP
 #
 $CMP ADM222
 D Dual RS232 driver/receiver, 5V supply, 200kb/s
-K rs232 uart transceiver 
+K rs232 uart transceiver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
@@ -60,7 +60,7 @@ $ENDCMP
 #
 $CMP ADM242
 D Dual RS232 driver/receiver, 5V supply, 200kb/s, separate shutdown/enable pins
-K rs232 uart transceiver 
+K rs232 uart transceiver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
@@ -78,7 +78,7 @@ $ENDCMP
 #
 $CMP ADUM4160
 D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection
-K usb isolation 
+K usb isolation
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
@@ -208,7 +208,7 @@ $ENDCMP
 #
 $CMP LT1080
 D Dual RS232 driver/receiver, 5V supply, 120kb/s
-K rs232 uart transceiver 
+K rs232 uart transceiver
 F http://cds.linear.com/docs/en/datasheet/10801fe.pdf
 $ENDCMP
 #
@@ -296,6 +296,24 @@ K High-Speed CAN Transceiver
 F http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf
 $ENDCMP
 #
+$CMP MAX3072E
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+K Low Power Half-Duplex RS-485 RS-422 Transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP MAX3075E
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+K Low Power Half-Duplex RS-485 RS-422 Transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP MAX3078E
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+K Low Power Half-Duplex RS-485 RS-422 Transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
 $CMP MAX31855EASA
 D Cold Junction E-type Termocouple Interface, SPI, SO8
 K Cold Junction Termocouple Interface SPI
@@ -338,15 +356,21 @@ K Cold Junction Termocouple Interface SPI
 F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
 $ENDCMP
 #
+$CMP MAX3221
+D RS232 transceiver with 15kV ESD protection
+K serial UART RS232
+F http://www.ti.com/lit/ds/symlink/max3221.pdf
+$ENDCMP
+#
 $CMP MAX3226
 D Single RS232 driver/receiver, 3.0V to 5V supply, 250kb/s, AutoShutdown Plus, SSOP-16 package
-K rs232 uart transceiver 
+K rs232 uart transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf
 $ENDCMP
 #
 $CMP MAX3227
 D Single RS232 driver/receiver, 3.0V to 5V supply, 1Mb/s, AutoShutdown Plus, SSOP-16 package
-K rs232 uart transceiver 
+K rs232 uart transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf
 $ENDCMP
 #
@@ -542,28 +566,34 @@ K LIN 2.2A/SAE J2602 Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1029.pdf
 $ENDCMP
 #
-$CMP TJA1049T
-D TJA1049T, High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
-K High-Speed CAN Transceiver
-F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
-$ENDCMP
-#
 $CMP TJA1042T
 D TJA1042T, High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
-$CMP TJA1049T/3
-D TJA1049T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
-K High-Speed CAN Transceiver
-F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
-$ENDCMP
-#
 $CMP TJA1042T/3
 D TJA1042T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
+$ENDCMP
+#
+$CMP TJA1042TK/3
+D TJA1042TK/3, High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
+K High-Speed CAN Transceiver HVSON-8
+F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
+$ENDCMP
+#
+$CMP TJA1049T
+D TJA1049T, High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
+K High-Speed CAN Transceiver
+F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
+$ENDCMP
+#
+$CMP TJA1049T/3
+D TJA1049T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
+K High-Speed CAN Transceiver
+F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
 $CMP TJA1049TK
@@ -576,12 +606,6 @@ $CMP TJA1049TK/3
 D TJA1049TK/3, High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
-$ENDCMP
-#
-$CMP TJA1042TK/3
-D TJA1042TK/3, High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
-K High-Speed CAN Transceiver HVSON-8
-F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
 $CMP TJA1051T
