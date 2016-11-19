@@ -42,7 +42,19 @@ K MCS-48 uC Microcontroller
 $ENDCMP
 #
 $CMP 8088
-D 8088, 8-Bit HMOS Microprocessor, PDIP-40
+D 8088 (minimum mode), 8-Bit HMOS Microprocessor, PDIP-40
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf
+$ENDCMP
+#
+$CMP 8088_Max_Mode
+D 8088 (maximum mode), 8-Bit HMOS Microprocessor, PDIP-40
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf
+$ENDCMP
+#
+$CMP 8088_Min_Mode
+D 8088 (minimum mode), 8-Bit HMOS Microprocessor, PDIP-40
 K MPRO
 F http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf
 $ENDCMP
@@ -55,6 +67,18 @@ $ENDCMP
 $CMP 8252
 D Universal Asynchronous Receiver/Transmitter, PDIP-28
 K UART Serial Interface
+$ENDCMP
+#
+$CMP 8255
+D Programmable Peripheral Interface, PDIP-40
+K 8255 PPI
+F http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf
+$ENDCMP
+#
+$CMP 8255A
+D Programmable Peripheral Interface, PDIP-40
+K 8255 PPI
+F http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf
 $ENDCMP
 #
 $CMP 8259
@@ -71,11 +95,30 @@ $ENDCMP
 $CMP 8284
 D Clock Generator and Driver for i8086/88 Microcontrollers, PDIP-18
 K Clock Generator
+F http://www.cpu-galaxy.at/cpu/ram%20rom%20eprom/other_intel_chips/other_intel-Dateien/D8284A_Datasheet.pdf
+$ENDCMP
+#
+$CMP 8288
+D Bus Controller for Intel 8086/8088/80186/80188 microprocessors, DIP-20
+K Bus Controller
+F http://www.datasheets360.com/pdf/7208679415653955300
 $ENDCMP
 #
 $CMP 82C54_PLCC
 D 82C54, Triple Channel Timer/Counter, PLCC-28
 K Timer Counter
+$ENDCMP
+#
+$CMP 82C55A
+D CHMOS Programmable Peripheral Interface, PDIP-40
+K 8255 PPI
+F http://jap.hu/electronic/8255.pdf
+$ENDCMP
+#
+$CMP 82C55A_PLCC
+D CHMOS Programmable Peripheral Interface, PLCC-44
+K 8255 PPI
+F http://jap.hu/electronic/8255.pdf
 $ENDCMP
 #
 $CMP 8748
