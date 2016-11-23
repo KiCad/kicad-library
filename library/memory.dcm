@@ -5,15 +5,76 @@ D biPort RAM (1Ko)
 K RAM BiPort 1KO
 $ENDCMP
 #
-$CMP 24C16
-D I2C Serial EEPROM
-K EEPROM Serial
+$CMP 24LC00
+D I2C Serial EEPROM, 128 bits
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21178G.pdf
 $ENDCMP
 #
-$CMP 24C512
-D I2C Serial eprom
-K I2C MEMORY
-F memory/24xx512.pdf
+$CMP 24LC01
+D I2C Serial EEPROM, 1kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf
+$ENDCMP
+#
+$CMP 24LC02
+D I2C Serial EEPROM, 2kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21709c.pdf
+$ENDCMP
+#
+$CMP 24LC04
+D I2C Serial EEPROM, 4kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21708K.pdf
+$ENDCMP
+#
+$CMP 24LC08
+D I2C Serial EEPROM, 8kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21710J.pdf
+$ENDCMP
+#
+$CMP 24LC1025
+D I2C Serial EEPROM, 1024kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf
+$ENDCMP
+#
+$CMP 24LC128
+D I2C Serial EEPROM, 128kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21191s.pdf
+$ENDCMP
+#
+$CMP 24LC16
+D I2C Serial EEPROM, 16kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf
+$ENDCMP
+#
+$CMP 24LC256
+D I2C Serial EEPROM, 256kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf
+$ENDCMP
+#
+$CMP 24LC32
+D I2C Serial EEPROM, 32kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf
+$ENDCMP
+#
+$CMP 24LC512
+D I2C Serial EEPROM, 512kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf
+$ENDCMP
+#
+$CMP 24LC64
+D I2C Serial EEPROM, 64kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf
 $ENDCMP
 #
 $CMP 25LC_EEPROM
@@ -513,6 +574,18 @@ $ENDCMP
 #
 $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
+$ENDCMP
+#
+$CMP M25PX32-VMP
+D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, QFN package
+K NOR Serial Flash Embedded Memory
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
+$ENDCMP
+#
+$CMP M25PX32-VMW
+D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, SOIJ package
+K NOR Serial Flash Embedded Memory
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
 $ENDCMP
 #
 $CMP M29W004
