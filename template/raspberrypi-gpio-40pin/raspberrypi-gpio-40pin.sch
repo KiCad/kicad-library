@@ -9,6 +9,8 @@ LIBS:analog_devices
 LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
+LIBS:battery_management
+LIBS:bbd
 LIBS:brooktre
 LIBS:cmos4000
 LIBS:cmos_ieee
@@ -17,6 +19,12 @@ LIBS:contrib
 LIBS:cypress
 LIBS:dc-dc
 LIBS:device
+LIBS:device_BASE_1978
+LIBS:device_BASE_2034
+LIBS:device_LOCAL_1978
+LIBS:device_LOCAL_2034
+LIBS:device_REMOTE_1978
+LIBS:device_REMOTE_2034
 LIBS:digital-audio
 LIBS:diode
 LIBS:display
@@ -34,6 +42,7 @@ LIBS:Lattice
 LIBS:linear
 LIBS:logo
 LIBS:maxim
+LIBS:mechanical
 LIBS:memory
 LIBS:microchip
 LIBS:microchip_dspic33dsc
@@ -45,6 +54,7 @@ LIBS:microchip_pic32mcu
 LIBS:microcontrollers
 LIBS:motor_drivers
 LIBS:motorola
+LIBS:motors
 LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp_armmcu
@@ -73,11 +83,13 @@ LIBS:transistors
 LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
+LIBS:wiznet
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
-EELAYER 25 0
+LIBS:raspberrypi-gpio-40pin-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -300,51 +312,49 @@ Connection ~ 3000 1700
 Text Notes 650  7600 0    50   ~ 0
 ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required.
 $Comp
-L MOUNTING_HOLE MH1
-U 1 1 580C2C2C
-P 2950 6900
-F 0 "MH1" H 2950 7050 50  0000 C CNN
-F 1 "M2.5" H 3100 6850 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2-5mm" H 2950 6900 50  0001 C CNN
-F 3 "" H 2950 6900 50  0000 C CNN
-	1    2950 6900
+L Mounting_Hole MK1
+U 1 1 5834FB2E
+P 3000 7200
+F 0 "MK1" H 3100 7246 50  0000 L CNN
+F 1 "M2.5" H 3100 7155 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 3000 7200 60  0001 C CNN
+F 3 "" H 3000 7200 60  0001 C CNN
+	1    3000 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE MH3
-U 1 1 580C2C45
-P 3650 6900
-F 0 "MH3" H 3650 7050 50  0000 C CNN
-F 1 "M2.5" H 3800 6850 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2-5mm" H 3650 6900 50  0001 C CNN
-F 3 "" H 3650 6900 50  0000 C CNN
-	1    3650 6900
+L Mounting_Hole MK3
+U 1 1 5834FBEF
+P 3450 7200
+F 0 "MK3" H 3550 7246 50  0000 L CNN
+F 1 "M2.5" H 3550 7155 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 3450 7200 60  0001 C CNN
+F 3 "" H 3450 7200 60  0001 C CNN
+	1    3450 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE MH2
-U 1 1 580C2C7C
-P 2950 7400
-F 0 "MH2" H 2950 7550 50  0000 C CNN
-F 1 "M2.5" H 3100 7350 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2-5mm" H 2950 7400 50  0001 C CNN
-F 3 "" H 2950 7400 50  0000 C CNN
-	1    2950 7400
+L Mounting_Hole MK2
+U 1 1 5834FC19
+P 3000 7400
+F 0 "MK2" H 3100 7446 50  0000 L CNN
+F 1 "M2.5" H 3100 7355 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 3000 7400 60  0001 C CNN
+F 3 "" H 3000 7400 60  0001 C CNN
+	1    3000 7400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE MH4
-U 1 1 580C2CAA
-P 3650 7400
-F 0 "MH4" H 3650 7550 50  0000 C CNN
-F 1 "M2.5" H 3800 7350 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2-5mm" H 3650 7400 50  0001 C CNN
-F 3 "" H 3650 7400 50  0000 C CNN
-	1    3650 7400
+L Mounting_Hole MK4
+U 1 1 5834FC4F
+P 3450 7400
+F 0 "MK4" H 3550 7446 50  0000 L CNN
+F 1 "M2.5" H 3550 7355 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 3450 7400 60  0001 C CNN
+F 3 "" H 3450 7400 60  0001 C CNN
+	1    3450 7400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2850 7050
-NoConn ~ 3550 7050
-NoConn ~ 3550 7550
-NoConn ~ 2850 7550
+Text Notes 3000 7050 0    50   ~ 0
+Mounting Holes
 $EndSCHEMATC
