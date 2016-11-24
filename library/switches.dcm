@@ -85,6 +85,12 @@ D Single Pole Single Throw (SPST) switch, separate symbol
 K switch lever
 $ENDCMP
 #
+$CMP SW_E3_SA3216
+D Push button switch with LCD screen
+K switch normally-open pushbutton push-button LCD
+F http://www.e3-keys.com/files/SA%20Technical%20Datasheet%20v2.0.pdf
+$ENDCMP
+#
 $CMP SW_Push
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button
@@ -103,12 +109,6 @@ $ENDCMP
 $CMP SW_Push_Dual_x2
 D Push button switch, generic, separate symbols, four pins
 K switch normally-open pushbutton push-button
-$ENDCMP
-#
-$CMP SW_Push_LCD
-D Push button switch with LCD screen
-K switch normally-open pushbutton push-button LCD
-F http://www.e3-keys.com/files/SA%20Technical%20Datasheet%20v2.0.pdf
 $ENDCMP
 #
 $CMP SW_Push_LED
