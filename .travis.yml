@@ -1,6 +1,6 @@
 before_install:
--git clone https://github.com/KiCad/kicad-library-utils
--mv kicad-library-utils /usr/local/share/kicad-library-utils
+- git clone https://github.com/KiCad/kicad-library-utils
+- mv kicad-library-utils /usr/local/share/kicad-library-utils
 
 script:
-python /usr/local/share/kicad-library-utils/schlib/checklib.py ./library
+- python /usr/local/share/kicad-library-utils/schlib/checklib.py ./library
