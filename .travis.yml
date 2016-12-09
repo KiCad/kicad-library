@@ -6,6 +6,5 @@ before_install:
 - sudo mv kicad-library-utils /usr/local/share/kicad-library-utils
 
 script:
-- ls .
 - sudo bash ./library-check.sh
 - python /usr/local/share/kicad-library-utils/schlib/checklib.py -v ./library/*
