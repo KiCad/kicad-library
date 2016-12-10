@@ -234,12 +234,6 @@ K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD775.pdf
 $ENDCMP
 #
-$CMP AD7819
-D Analog to Digital 8 bits converter, PDIP/SOIC/TSSOP-16
-K CAD
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7819.pdf
-$ENDCMP
-#
 $CMP AD9280ARS
 D Video ADC (32 Mhz), SSOP-28
 K ADC CAN VIDEO
@@ -298,6 +292,12 @@ $CMP ADS1243
 D LTC1598CS, Micropower 12-bit 8 Channel ADC, Serial IO, SSOP-24
 K 12bit ADC 4 Channel
 F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+$ENDCMP
+#
+$CMP ADS7828
+D 12-Bits, 8-Channels, ADC, I2C
+K I2C ADC 12Bits 
+F http://www.ti.com/lit/ds/symlink/ads7828.pdf
 $ENDCMP
 #
 $CMP CA3300
