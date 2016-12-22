@@ -22,10 +22,22 @@ K RF Tx Rx
 F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
 #
+$CMP CC2520
+D 2.4 GHz ZigBee/IEEE 802.15.4 RF transceiver 
+K 2.4GHz rf transceiver ZigBee 802.15.4
+F http://www.ti.com/lit/gpn/cc2520
+$ENDCMP
+#
 $CMP HF-A11-SMT
 D WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO
 K WiFi IEEE802.11 b/g/n
 F http://www.hi-flying.com/products_detail/&productId=60326fef-3398-422b-9350-62f5f99a8dbc&comp_stats=comp-FrontProducts_list01-111.html
+$ENDCMP
+#
+$CMP MM002
+D NEMEUS Modem dual-mode LoRa/SIGFOX
+K IOT LoRa SIGFOX
+F http://www.nemeus.fr/resources/uploads/2015/04/MM002-xx-EU_datasheet_v0.11.pdf
 $ENDCMP
 #
 $CMP NRF24L01
@@ -50,6 +62,30 @@ $CMP SIM900
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
 K GSM GPRS Quad-Band SMS FAX
 F http://www.simcom.us/act_admin/supportfile/SIM900_HD_V1.01(091226).pdf
+$ENDCMP
+#
+$CMP TD1205
+D High-Performance, Low-Current SIGFOX™ Gateway And GPS Receiver With Integrated Antennas
+K IOT SIGFOX GPS
+F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1205%20Datasheet.pdf
+$ENDCMP
+#
+$CMP TD1208
+D High-Performance, Low-Current SIGFOX™ Gateway
+K IOT SIGFOX
+F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
+$ENDCMP
+#
+$CMP iM880A
+D IMST Long Range Radio Module
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880A/General_Information/iM880A_Datasheet_V1_1.pdf
+$ENDCMP
+#
+$CMP iM880B
+D IMST Long Range Radio Module - LoRa Alliance Certified
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
 $ENDCMP
 #
 $CMP nRF24L01P
