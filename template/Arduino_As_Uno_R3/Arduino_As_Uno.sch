@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -44,284 +43,286 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_8 P1
-U 1 1 5517C2C1
-P 9725 1875
-F 0 "P1" V 9675 1875 60  0000 C CNN
-F 1 "Power" V 9775 1875 60  0000 C CNN
-F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" H 9725 1875 60  0001 C CNN
-F 3 "" H 9725 1875 60  0000 C CNN
-	1    9725 1875
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_6 P2
-U 1 1 5517C323
-P 9725 2675
-F 0 "P2" V 9675 2675 60  0000 C CNN
-F 1 "Analog" V 9775 2675 60  0000 C CNN
-F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x06" H 9725 2675 60  0001 C CNN
-F 3 "" H 9725 2675 60  0000 C CNN
-	1    9725 2675
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8 P4
-U 1 1 5517C366
-P 10050 2575
-F 0 "P4" V 10000 2575 60  0000 C CNN
-F 1 "Digital" V 10100 2575 60  0000 C CNN
-F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" H 10050 2575 60  0001 C CNN
-F 3 "" H 10050 2575 60  0000 C CNN
-	1    10050 2575
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_10 P3
-U 1 1 5517C46C
-P 10050 1575
-F 0 "P3" V 10000 1575 60  0000 C CNN
-F 1 "Digital" V 10100 1575 60  0000 C CNN
-F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x10" H 10050 1575 60  0001 C CNN
-F 3 "" H 10050 1575 60  0000 C CNN
-	1    10050 1575
-	-1   0    0    -1  
-$EndComp
-Text Label 8625 1725 0    60   ~ 0
-Reset
-Text Label 8925 1350 1    60   ~ 0
+Text Label 8950 1450 1    60   ~ 0
 Vin
-Text Label 9300 1350 1    60   ~ 0
+Text Label 9300 1450 1    60   ~ 0
 IOREF
-Text Label 8625 2425 0    60   ~ 0
+Text Label 8900 2500 0    60   ~ 0
 A0
-Text Label 8625 2525 0    60   ~ 0
+Text Label 8900 2600 0    60   ~ 0
 A1
-Text Label 8625 2625 0    60   ~ 0
+Text Label 8900 2700 0    60   ~ 0
 A2
-Text Label 8625 2725 0    60   ~ 0
+Text Label 8900 2800 0    60   ~ 0
 A3
-Text Label 8625 2825 0    60   ~ 0
+Text Label 8900 2900 0    60   ~ 0
 A4(SDA)
-Text Label 8625 2925 0    60   ~ 0
+Text Label 8900 3000 0    60   ~ 0
 A5(SCL)
-Text Label 10550 2925 0    60   ~ 0
+Text Label 10550 3000 0    60   ~ 0
 0(Rx)
-Text Label 10550 2725 0    60   ~ 0
+Text Label 10550 2800 0    60   ~ 0
 2
-Text Label 10550 2825 0    60   ~ 0
+Text Label 10550 2900 0    60   ~ 0
 1(Tx)
-Text Label 10550 2625 0    60   ~ 0
+Text Label 10550 2700 0    60   ~ 0
 3(**)
-Text Label 10550 2525 0    60   ~ 0
+Text Label 10550 2600 0    60   ~ 0
 4
-Text Label 10550 2425 0    60   ~ 0
+Text Label 10550 2500 0    60   ~ 0
 5(**)
-Text Label 10550 2325 0    60   ~ 0
+Text Label 10550 2400 0    60   ~ 0
 6(**)
-Text Label 10550 2225 0    60   ~ 0
+Text Label 10550 2300 0    60   ~ 0
 7
-Text Label 10550 2025 0    60   ~ 0
+Text Label 10550 2100 0    60   ~ 0
 8
-Text Label 10550 1925 0    60   ~ 0
+Text Label 10550 2000 0    60   ~ 0
 9(**)
-Text Label 10550 1825 0    60   ~ 0
+Text Label 10550 1900 0    60   ~ 0
 10(**/SS)
-Text Label 10550 1725 0    60   ~ 0
+Text Label 10550 1800 0    60   ~ 0
 11(**/MOSI)
-Text Label 10550 1625 0    60   ~ 0
+Text Label 10550 1700 0    60   ~ 0
 12(MISO)
-Text Label 10550 1525 0    60   ~ 0
+Text Label 10550 1600 0    60   ~ 0
 13(SCK)
-Text Label 10625 1325 0    60   ~ 0
+Text Label 10550 1400 0    60   ~ 0
 AREF
-$Comp
-L GND #PWR01
-U 1 1 5517CC27
-P 10475 3100
-F 0 "#PWR01" H 10475 3100 30  0001 C CNN
-F 1 "GND" H 10475 3030 30  0001 C CNN
-F 2 "" H 10475 3100 60  0000 C CNN
-F 3 "" H 10475 3100 60  0000 C CNN
-	1    10475 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 5517CC7B
-P 9300 3100
-F 0 "#PWR02" H 9300 3100 30  0001 C CNN
-F 1 "GND" H 9300 3030 30  0001 C CNN
-F 2 "" H 9300 3100 60  0000 C CNN
-F 3 "" H 9300 3100 60  0000 C CNN
-	1    9300 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR03
-U 1 1 5517CCC2
-P 9050 1350
-F 0 "#PWR03" H 9050 1440 20  0001 C CNN
-F 1 "+5V" H 9050 1440 30  0000 C CNN
-F 2 "" H 9050 1350 60  0000 C CNN
-F 3 "" H 9050 1350 60  0000 C CNN
-	1    9050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR04
-U 1 1 5517CCDA
-P 9175 1350
-F 0 "#PWR04" H 9175 1310 30  0001 C CNN
-F 1 "+3.3V" H 9175 1460 30  0000 C CNN
-F 2 "" H 9175 1350 60  0000 C CNN
-F 3 "" H 9175 1350 60  0000 C CNN
-	1    9175 1350
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9375 1525
-Text Label 10550 1225 0    60   ~ 0
+NoConn ~ 9400 1600
+Text Label 10550 1300 0    60   ~ 0
 A4(SDA)
-Text Label 10550 1125 0    60   ~ 0
+Text Label 10550 1200 0    60   ~ 0
 A5(SCL)
+Text Notes 10850 1000 0    60   ~ 0
+Holes
+Text Notes 8550 750  0    60   ~ 0
+Shield for Arduino that uses\nthe same pin disposition\nlike "Uno" board Rev 3.
 $Comp
-L CONN_1 P5
-U 1 1 551BBC06
-P 10875 650
-F 0 "P5" H 10955 650 40  0000 L CNN
-F 1 "CONN_1" H 10875 705 30  0001 C CNN
-F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10875 650 60  0001 C CNN
-F 3 "" H 10875 650 60  0000 C CNN
-	1    10875 650 
+L CONN_01X08 P1
+U 1 1 56D70129
+P 9600 1950
+F 0 "P1" H 9600 2400 50  0000 C CNN
+F 1 "Power" V 9700 1950 50  0000 C CNN
+F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" H 9600 1950 50  0001 C CNN
+F 3 "" H 9600 1950 50  0000 C CNN
+	1    9600 1950
+	1    0    0    -1  
+$EndComp
+Text Label 8650 1800 0    60   ~ 0
+Reset
+$Comp
+L +3.3V #PWR01
+U 1 1 56D70538
+P 9150 1450
+F 0 "#PWR01" H 9150 1300 50  0001 C CNN
+F 1 "+3.3V" H 9150 1590 30  0000 C CNN
+F 2 "" H 9150 1450 50  0000 C CNN
+F 3 "" H 9150 1450 50  0000 C CNN
+	1    9150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 56D707BB
+P 9050 1450
+F 0 "#PWR02" H 9050 1300 50  0001 C CNN
+F 1 "+5V" H 9050 1590 30  0000 C CNN
+F 2 "" H 9050 1450 50  0000 C CNN
+F 3 "" H 9050 1450 50  0000 C CNN
+	1    9050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 56D70CC2
+P 9300 3150
+F 0 "#PWR03" H 9300 2900 50  0001 C CNN
+F 1 "GND" H 9300 3000 50  0000 C CNN
+F 2 "" H 9300 3150 50  0000 C CNN
+F 3 "" H 9300 3150 50  0000 C CNN
+	1    9300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 56D70CFF
+P 10300 3150
+F 0 "#PWR04" H 10300 2900 50  0001 C CNN
+F 1 "GND" H 10300 3000 50  0000 C CNN
+F 2 "" H 10300 3150 50  0000 C CNN
+F 3 "" H 10300 3150 50  0000 C CNN
+	1    10300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P2
+U 1 1 56D70DD8
+P 9600 2750
+F 0 "P2" H 9600 3100 50  0000 C CNN
+F 1 "Analog" V 9700 2750 50  0000 C CNN
+F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x06" H 9600 2750 50  0001 C CNN
+F 3 "" H 9600 2750 50  0000 C CNN
+	1    9600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P5
+U 1 1 56D71177
+P 10800 650
+F 0 "P5" V 10900 650 50  0000 C CNN
+F 1 "CONN_01X01" V 10900 650 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10800 650 50  0001 C CNN
+F 3 "" H 10800 650 50  0000 C CNN
+	1    10800 650 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 P6
-U 1 1 551BBD10
-P 10950 650
-F 0 "P6" H 11030 650 40  0000 L CNN
-F 1 "CONN_1" H 10950 705 30  0001 C CNN
-F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10950 650 60  0001 C CNN
-F 3 "" H 10950 650 60  0000 C CNN
-	1    10950 650 
+L CONN_01X01 P6
+U 1 1 56D71274
+P 10900 650
+F 0 "P6" V 11000 650 50  0000 C CNN
+F 1 "CONN_01X01" V 11000 650 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10900 650 50  0001 C CNN
+F 3 "" H 10900 650 50  0000 C CNN
+	1    10900 650 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 P7
-U 1 1 551BBD30
-P 11025 650
-F 0 "P7" H 11105 650 40  0000 L CNN
-F 1 "CONN_1" H 11025 705 30  0001 C CNN
-F 2 "Socket_Arduino_Uno:Arduino_1pin" H 11025 650 60  0001 C CNN
-F 3 "" H 11025 650 60  0000 C CNN
-	1    11025 650 
+L CONN_01X01 P7
+U 1 1 56D712A8
+P 11000 650
+F 0 "P7" V 11100 650 50  0000 C CNN
+F 1 "CONN_01X01" V 11100 650 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 11000 650 50  0001 C CNN
+F 3 "" H 11000 650 50  0000 C CNN
+	1    11000 650 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 P8
-U 1 1 551BBD52
+L CONN_01X01 P8
+U 1 1 56D712DB
 P 11100 650
-F 0 "P8" H 11180 650 40  0000 L CNN
-F 1 "CONN_1" H 11100 705 30  0001 C CNN
-F 2 "Socket_Arduino_Uno:Arduino_1pin" H 11100 650 60  0001 C CNN
-F 3 "" H 11100 650 60  0000 C CNN
+F 0 "P8" V 11200 650 50  0000 C CNN
+F 1 "CONN_01X01" V 11200 650 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 11100 650 50  0001 C CNN
+F 3 "" H 11100 650 50  0000 C CNN
 	1    11100 650 
 	0    -1   -1   0   
 $EndComp
-Text Notes 10875 925  0    60   ~ 0
-Holes
-NoConn ~ 10875 800 
-NoConn ~ 10950 800 
-NoConn ~ 11025 800 
-NoConn ~ 11100 800 
-Wire Wire Line
-	8600 2425 9375 2425
-Wire Wire Line
-	8600 2525 9375 2525
-Wire Wire Line
-	8600 2625 9375 2625
-Wire Wire Line
-	8600 2725 9375 2725
-Wire Wire Line
-	8600 2825 9375 2825
-Wire Wire Line
-	8600 2925 9375 2925
-Wire Wire Line
-	10400 2025 11125 2025
-Wire Wire Line
-	10400 1925 11125 1925
-Wire Wire Line
-	10400 1825 11125 1825
-Wire Wire Line
-	10400 1725 11125 1725
-Wire Wire Line
-	10400 1625 11125 1625
-Wire Wire Line
-	10400 1525 11125 1525
-Wire Wire Line
-	10400 1325 11125 1325
-Wire Wire Line
-	10400 1225 11125 1225
-Wire Wire Line
-	10400 1125 11125 1125
-Wire Wire Line
-	9175 1825 9375 1825
-Wire Wire Line
-	9050 1925 9375 1925
-Wire Wire Line
-	9300 2025 9300 3100
-Wire Wire Line
-	8600 1725 9375 1725
-Wire Wire Line
-	10475 1425 10475 3100
-Wire Wire Line
-	10475 1425 10400 1425
-Wire Wire Line
-	10400 2425 11125 2425
-Wire Wire Line
-	10400 2325 11125 2325
-Wire Wire Line
-	10400 2225 11125 2225
-Wire Wire Line
-	10400 2725 11125 2725
-Wire Wire Line
-	10400 2625 11125 2625
-Wire Wire Line
-	10400 2525 11125 2525
-Wire Wire Line
-	10400 2925 11125 2925
-Wire Wire Line
-	10400 2825 11125 2825
-Wire Wire Line
-	9175 1825 9175 1350
-Wire Wire Line
-	9300 1350 9300 1625
-Wire Wire Line
-	9300 1625 9375 1625
-Wire Wire Line
-	9050 1350 9050 1925
-Wire Wire Line
-	8925 1350 8925 2225
-Wire Wire Line
-	8925 2225 9375 2225
-Wire Wire Line
-	9300 2025 9375 2025
-Wire Wire Line
-	9375 2125 9300 2125
-Connection ~ 9300 2125
-Wire Notes Line
-	11225 975  10775 975 
-Wire Notes Line
-	10775 975  10775 475 
-Wire Notes Line
-	11225 3225 8525 3225
-Wire Notes Line
-	8525 3225 8525 475 
+NoConn ~ 10800 850 
+NoConn ~ 10900 850 
+NoConn ~ 11000 850 
+NoConn ~ 11100 850 
+$Comp
+L CONN_01X08 P4
+U 1 1 56D7164F
+P 10000 2650
+F 0 "P4" H 10000 3100 50  0000 C CNN
+F 1 "Digital" V 10100 2650 50  0000 C CNN
+F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" H 10000 2650 50  0001 C CNN
+F 3 "" H 10000 2650 50  0000 C CNN
+	1    10000 2650
+	-1   0    0    -1  
+$EndComp
 Wire Notes Line
 	8525 825  9925 825 
-Text Notes 8550 750  0    60   ~ 0
-Shield for Arduino that uses\nthe same pin disposition\nlike "Uno" board Rev 3.
 Wire Notes Line
 	9925 825  9925 475 
+Wire Wire Line
+	9300 1450 9300 1700
+Wire Wire Line
+	9300 1700 9400 1700
+Wire Wire Line
+	9400 1900 9150 1900
+Wire Wire Line
+	9400 2000 9050 2000
+Wire Wire Line
+	9400 2300 8950 2300
+Wire Wire Line
+	9400 2100 9300 2100
+Wire Wire Line
+	9400 2200 9300 2200
+Connection ~ 9300 2200
+Wire Wire Line
+	8950 2300 8950 1450
+Wire Wire Line
+	9050 2000 9050 1450
+Wire Wire Line
+	9150 1900 9150 1450
+Wire Wire Line
+	9400 2500 8900 2500
+Wire Wire Line
+	9400 2600 8900 2600
+Wire Wire Line
+	9400 2700 8900 2700
+Wire Wire Line
+	9400 2800 8900 2800
+Wire Wire Line
+	9400 2900 8900 2900
+Wire Wire Line
+	9400 3000 8900 3000
+$Comp
+L CONN_01X10 P3
+U 1 1 56D721E0
+P 10000 1650
+F 0 "P3" H 10000 2200 50  0000 C CNN
+F 1 "Digital" V 10100 1650 50  0000 C CNN
+F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x10" H 10000 1650 50  0001 C CNN
+F 3 "" H 10000 1650 50  0000 C CNN
+	1    10000 1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2100 10550 2100
+Wire Wire Line
+	10200 2000 10550 2000
+Wire Wire Line
+	10200 1900 10550 1900
+Wire Wire Line
+	10200 1800 10550 1800
+Wire Wire Line
+	10200 1700 10550 1700
+Wire Wire Line
+	10200 1600 10550 1600
+Wire Wire Line
+	10200 1400 10550 1400
+Wire Wire Line
+	10200 1300 10550 1300
+Wire Wire Line
+	10200 1200 10550 1200
+Wire Wire Line
+	10200 3000 10550 3000
+Wire Wire Line
+	10200 2900 10550 2900
+Wire Wire Line
+	10200 2800 10550 2800
+Wire Wire Line
+	10200 2700 10550 2700
+Wire Wire Line
+	10200 2600 10550 2600
+Wire Wire Line
+	10200 2500 10550 2500
+Wire Wire Line
+	10200 2400 10550 2400
+Wire Wire Line
+	10200 2300 10550 2300
+Wire Wire Line
+	10200 1500 10300 1500
+Wire Wire Line
+	10300 1500 10300 3150
+Wire Wire Line
+	9300 2100 9300 3150
+Wire Notes Line
+	8500 500  8500 3450
+Wire Notes Line
+	8500 3450 11200 3450
+Wire Wire Line
+	9400 1800 8650 1800
+Text Notes 9700 1600 0    60   ~ 0
+1
+Wire Notes Line
+	11200 1000 10700 1000
+Wire Notes Line
+	10700 1000 10700 500 
 $EndSCHEMATC

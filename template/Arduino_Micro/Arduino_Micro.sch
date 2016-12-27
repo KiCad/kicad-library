@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -44,266 +43,268 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_1 P3
-U 1 1 551FB455
-P 10875 650
-F 0 "P3" H 10955 650 40  0000 L CNN
-F 1 "CONN_1" H 10875 705 30  0001 C CNN
-F 2 "Socket_Arduino_Micro:1pin_Micro" H 10875 650 60  0001 C CNN
-F 3 "" H 10875 650 60  0000 C CNN
-	1    10875 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P4
-U 1 1 551FB4B0
-P 10950 650
-F 0 "P4" H 11030 650 40  0000 L CNN
-F 1 "CONN_1" H 10950 705 30  0001 C CNN
-F 2 "Socket_Arduino_Micro:1pin_Micro" H 10950 650 60  0001 C CNN
-F 3 "" H 10950 650 60  0000 C CNN
-	1    10950 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P5
-U 1 1 551FB4D4
-P 11025 650
-F 0 "P5" H 11105 650 40  0000 L CNN
-F 1 "CONN_1" H 11025 705 30  0001 C CNN
-F 2 "Socket_Arduino_Micro:1pin_Micro" H 11025 650 60  0001 C CNN
-F 3 "" H 11025 650 60  0000 C CNN
-	1    11025 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P6
-U 1 1 551FB516
-P 11100 650
-F 0 "P6" H 11180 650 40  0000 L CNN
-F 1 "CONN_1" H 11100 705 30  0001 C CNN
-F 2 "Socket_Arduino_Micro:1pin_Micro" H 11100 650 60  0001 C CNN
-F 3 "" H 11100 650 60  0000 C CNN
-	1    11100 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_17 P1
-U 1 1 551FB57F
-P 9575 1950
-F 0 "P1" V 9535 1950 60  0000 C CNN
-F 1 "Digital" V 9655 1950 60  0000 C CNN
-F 2 "Socket_Arduino_Micro:Socket_Strip_Arduino_1x17" H 9575 1950 60  0001 C CNN
-F 3 "" H 9575 1950 60  0000 C CNN
-	1    9575 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_17 P2
-U 1 1 551FB60C
-P 9975 1950
-F 0 "P2" V 9935 1950 60  0000 C CNN
-F 1 "Analog" V 10055 1950 60  0000 C CNN
-F 2 "Socket_Arduino_Micro:Socket_Strip_Arduino_1x17" H 9975 1950 60  0001 C CNN
-F 3 "" H 9975 1950 60  0000 C CNN
-	1    9975 1950
-	-1   0    0    -1  
-$EndComp
-Text Label 8625 1150 0    60   ~ 0
+Text Label 8750 1250 0    60   ~ 0
 MOSI
-Text Label 8625 1250 0    60   ~ 0
+Text Label 8750 1350 0    60   ~ 0
 SS
-Text Label 8625 1350 0    60   ~ 0
+Text Label 8750 1450 0    60   ~ 0
 1(Tx1)
-Text Label 8625 1450 0    60   ~ 0
+Text Label 8750 1550 0    60   ~ 0
 0(Rx1)
-Text Label 8625 1550 0    60   ~ 0
+Text Label 8750 1650 0    60   ~ 0
 Reset
-Text Label 8625 1750 0    60   ~ 0
+Text Label 8750 1850 0    60   ~ 0
 2(SDA)
-Text Label 8625 1850 0    60   ~ 0
+Text Label 8750 1950 0    60   ~ 0
 3(**/SCL)
-Text Label 8625 1950 0    60   ~ 0
+Text Label 8750 2050 0    60   ~ 0
 4(A6)
-Text Label 8625 2050 0    60   ~ 0
+Text Label 8750 2150 0    60   ~ 0
 5(**)
-Text Label 8625 2150 0    60   ~ 0
+Text Label 8750 2250 0    60   ~ 0
 6(**/A7)
-Text Label 8625 2250 0    60   ~ 0
+Text Label 8750 2350 0    60   ~ 0
 7
-Text Label 8625 2350 0    60   ~ 0
+Text Label 8750 2450 0    60   ~ 0
 8(A8)
-Text Label 8625 2450 0    60   ~ 0
+Text Label 8750 2550 0    60   ~ 0
 9(**/A9)
-Text Label 8625 2550 0    60   ~ 0
+Text Label 8750 2650 0    60   ~ 0
 10(A10)
-Text Label 8625 2650 0    60   ~ 0
+Text Label 8750 2750 0    60   ~ 0
 11(**)
-Text Label 8625 2750 0    60   ~ 0
+Text Label 8750 2850 0    60   ~ 0
 12(A11)
-Text Label 10725 1150 0    60   ~ 0
+Text Label 10650 1250 0    60   ~ 0
 SCK
-Text Label 10725 1250 0    60   ~ 0
+Text Label 10650 1350 0    60   ~ 0
 MISO
-Text Label 10400 975  1    60   ~ 0
+Text Label 10250 1100 1    60   ~ 0
 Vin
-Text Label 10725 1550 0    60   ~ 0
+Text Label 10650 1650 0    60   ~ 0
 Reset
-Text Label 10725 2750 0    60   ~ 0
+Text Label 10650 2850 0    60   ~ 0
 13(**)
-Text Label 10725 2550 0    60   ~ 0
+Text Label 10650 2650 0    60   ~ 0
 AREF
-Text Label 10725 2450 0    60   ~ 0
+Text Label 10650 2550 0    60   ~ 0
 A0
-Text Label 10725 2350 0    60   ~ 0
+Text Label 10650 2450 0    60   ~ 0
 A1
-Text Label 10725 2250 0    60   ~ 0
+Text Label 10650 2350 0    60   ~ 0
 A2
-Text Label 10725 2150 0    60   ~ 0
+Text Label 10650 2250 0    60   ~ 0
 A3
-Text Label 10725 2050 0    60   ~ 0
+Text Label 10650 2150 0    60   ~ 0
 A4
-Text Label 10725 1950 0    60   ~ 0
+Text Label 10650 2050 0    60   ~ 0
 A5
-NoConn ~ 10325 1850
-NoConn ~ 10325 1750
-$Comp
-L GND #PWR01
-U 1 1 551FBEC7
-P 9150 2925
-F 0 "#PWR01" H 9150 2925 30  0001 C CNN
-F 1 "GND" H 9150 2855 30  0001 C CNN
-F 2 "" H 9150 2925 60  0000 C CNN
-F 3 "" H 9150 2925 60  0000 C CNN
-	1    9150 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 551FBF21
-P 10400 2925
-F 0 "#PWR02" H 10400 2925 30  0001 C CNN
-F 1 "GND" H 10400 2855 30  0001 C CNN
-F 2 "" H 10400 2925 60  0000 C CNN
-F 3 "" H 10400 2925 60  0000 C CNN
-	1    10400 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR03
-U 1 1 551FBF89
-P 10525 975
-F 0 "#PWR03" H 10525 1065 20  0001 C CNN
-F 1 "+5V" H 10525 1065 30  0000 C CNN
-F 2 "" H 10525 975 60  0000 C CNN
-F 3 "" H 10525 975 60  0000 C CNN
-	1    10525 975 
-	1    0    0    -1  
-$EndComp
+NoConn ~ 10150 1950
+NoConn ~ 10150 1850
 Text Notes 8550 575  0    60   ~ 0
 Shield Arduino Micro Rev 3
-Text Notes 10875 925  0    60   ~ 0
+Text Notes 10850 1000 0    60   ~ 0
 Holes
-NoConn ~ 10875 800 
-NoConn ~ 10950 800 
-NoConn ~ 11025 800 
-NoConn ~ 11100 800 
-Wire Wire Line
-	8600 1150 9225 1150
-Wire Wire Line
-	8600 1250 9225 1250
-Wire Wire Line
-	8600 1350 9225 1350
-Wire Wire Line
-	8600 1450 9225 1450
-Wire Wire Line
-	8600 1550 9225 1550
-Wire Wire Line
-	8600 1750 9225 1750
-Wire Wire Line
-	8600 1850 9225 1850
-Wire Wire Line
-	8600 1950 9225 1950
-Wire Wire Line
-	8600 2050 9225 2050
-Wire Wire Line
-	8600 2150 9225 2150
-Wire Wire Line
-	8600 2250 9225 2250
-Wire Wire Line
-	8600 2350 9225 2350
-Wire Wire Line
-	8600 2450 9225 2450
-Wire Wire Line
-	8600 2550 9225 2550
-Wire Wire Line
-	8600 2650 9225 2650
-Wire Wire Line
-	8600 2750 9225 2750
-Wire Wire Line
-	10325 1150 11100 1150
-Wire Wire Line
-	10325 1250 11100 1250
-Wire Wire Line
-	10325 1550 11100 1550
-Wire Wire Line
-	10325 1950 11100 1950
-Wire Wire Line
-	10325 2050 11100 2050
-Wire Wire Line
-	10325 2150 11100 2150
-Wire Wire Line
-	10325 2250 11100 2250
-Wire Wire Line
-	10325 2350 11100 2350
-Wire Wire Line
-	10325 2450 11100 2450
-Wire Wire Line
-	10325 2550 11100 2550
-Wire Wire Line
-	10325 2750 11100 2750
-Wire Notes Line
-	10775 475  10775 950 
-Wire Notes Line
-	10775 950  11225 950 
-Wire Wire Line
-	9150 1650 9150 2925
-Wire Wire Line
-	9150 1650 9225 1650
-Wire Wire Line
-	10400 1350 10325 1350
-Wire Wire Line
-	10400 975  10400 1350
-Wire Wire Line
-	10525 1650 10325 1650
-Wire Wire Line
-	10525 975  10525 1650
-$Comp
-L +3.3V #PWR04
-U 1 1 551FBFFD
-P 10650 975
-F 0 "#PWR04" H 10650 935 30  0001 C CNN
-F 1 "+3.3V" H 10650 1085 30  0000 C CNN
-F 2 "" H 10650 975 60  0000 C CNN
-F 3 "" H 10650 975 60  0000 C CNN
-	1    10650 975 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 975  10650 2650
-Wire Wire Line
-	10650 2650 10325 2650
+NoConn ~ 10800 850 
 Wire Notes Line
 	8525 650  9875 650 
 Wire Notes Line
 	9875 650  9875 475 
+$Comp
+L CONN_01X17 P1
+U 1 1 56D719DF
+P 9550 2050
+F 0 "P1" H 9550 2950 50  0000 C CNN
+F 1 "Digital" V 9650 2050 50  0000 C CNN
+F 2 "Socket_Arduino_Micro:Socket_Strip_Arduino_1x17" H 9550 2050 50  0001 C CNN
+F 3 "" H 9550 2050 50  0000 C CNN
+	1    9550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X17 P2
+U 1 1 56D71A21
+P 9950 2050
+F 0 "P2" H 9950 2950 50  0000 C CNN
+F 1 "Analog" V 10050 2050 50  0000 C CNN
+F 2 "Socket_Arduino_Micro:Socket_Strip_Arduino_1x17" H 9950 2050 50  0001 C CNN
+F 3 "" H 9950 2050 50  0000 C CNN
+	1    9950 2050
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	10325 1450 10400 1450
+	8750 1250 9350 1250
 Wire Wire Line
-	10400 1450 10400 2925
+	8750 1350 9350 1350
+Wire Wire Line
+	8750 1450 9350 1450
+Wire Wire Line
+	8750 1550 9350 1550
+Wire Wire Line
+	8750 1650 9350 1650
+Wire Wire Line
+	8750 1850 9350 1850
+Wire Wire Line
+	8750 1950 9350 1950
+Wire Wire Line
+	8750 2050 9350 2050
+Wire Wire Line
+	8750 2150 9350 2150
+Wire Wire Line
+	8750 2250 9350 2250
+Wire Wire Line
+	8750 2350 9350 2350
+Wire Wire Line
+	8750 2450 9350 2450
+Wire Wire Line
+	8750 2550 9350 2550
+Wire Wire Line
+	8750 2650 9350 2650
+Wire Wire Line
+	8750 2750 9350 2750
+Wire Wire Line
+	8750 2850 9350 2850
+$Comp
+L GND #PWR01
+U 1 1 56D71E99
+P 9250 3000
+F 0 "#PWR01" H 9250 2750 50  0001 C CNN
+F 1 "GND" H 9250 2850 50  0000 C CNN
+F 2 "" H 9250 3000 50  0000 C CNN
+F 3 "" H 9250 3000 50  0000 C CNN
+	1    9250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1750 9250 1750
+Wire Wire Line
+	9250 1750 9250 3000
+Text Notes 9650 1250 0    60   ~ 0
+1
+Wire Wire Line
+	10150 1450 10250 1450
+Wire Wire Line
+	10250 1450 10250 1100
+Wire Wire Line
+	10150 1750 10350 1750
+Wire Wire Line
+	10350 1750 10350 1100
+$Comp
+L +5V #PWR02
+U 1 1 56D725B4
+P 10350 1100
+F 0 "#PWR02" H 10350 950 50  0001 C CNN
+F 1 "+5V" H 10350 1240 28  0000 C CNN
+F 2 "" H 10350 1100 50  0000 C CNN
+F 3 "" H 10350 1100 50  0000 C CNN
+	1    10350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 56D727D3
+P 10250 3000
+F 0 "#PWR03" H 10250 2750 50  0001 C CNN
+F 1 "GND" H 10250 2850 50  0000 C CNN
+F 2 "" H 10250 3000 50  0000 C CNN
+F 3 "" H 10250 3000 50  0000 C CNN
+	1    10250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR04
+U 1 1 56D72867
+P 10450 1100
+F 0 "#PWR04" H 10450 950 50  0001 C CNN
+F 1 "+3.3V" H 10450 1240 28  0000 C CNN
+F 2 "" H 10450 1100 50  0000 C CNN
+F 3 "" H 10450 1100 50  0000 C CNN
+	1    10450 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 1250 10150 1250
+Wire Wire Line
+	10150 1350 10650 1350
+Wire Wire Line
+	10650 1650 10150 1650
+Wire Wire Line
+	10650 2050 10150 2050
+Wire Wire Line
+	10150 2150 10650 2150
+Wire Wire Line
+	10650 2250 10150 2250
+Wire Wire Line
+	10650 2350 10150 2350
+Wire Wire Line
+	10150 2450 10650 2450
+Wire Wire Line
+	10650 2550 10150 2550
+Wire Wire Line
+	10150 2650 10650 2650
+Wire Wire Line
+	10650 2850 10150 2850
+Wire Wire Line
+	10150 1550 10250 1550
+Wire Wire Line
+	10250 1550 10250 3000
+Wire Wire Line
+	10450 1100 10450 2750
+Wire Wire Line
+	10450 2750 10150 2750
 Wire Notes Line
-	11225 3050 8525 3050
+	8500 500  8500 3250
+$Comp
+L CONN_01X01 P3
+U 1 1 56D72ED3
+P 10800 650
+F 0 "P3" V 10900 650 50  0000 C CNN
+F 1 "CONN_01X01" H 10900 650 50  0001 C CNN
+F 2 "Socket_Arduino_Micro:1pin_Micro" H 10800 650 50  0001 C CNN
+F 3 "" H 10800 650 50  0000 C CNN
+	1    10800 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 56D72FBF
+P 10900 650
+F 0 "P4" V 11000 650 50  0000 C CNN
+F 1 "CONN_01X01" H 11000 650 50  0001 C CNN
+F 2 "Socket_Arduino_Micro:1pin_Micro" H 10900 650 50  0001 C CNN
+F 3 "" H 10900 650 50  0000 C CNN
+	1    10900 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P5
+U 1 1 56D72FE7
+P 11000 650
+F 0 "P5" V 11100 650 50  0000 C CNN
+F 1 "CONN_01X01" H 11100 650 50  0001 C CNN
+F 2 "Socket_Arduino_Micro:1pin_Micro" H 11000 650 50  0001 C CNN
+F 3 "" H 11000 650 50  0000 C CNN
+	1    11000 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P6
+U 1 1 56D73012
+P 11100 650
+F 0 "P6" V 11200 650 50  0000 C CNN
+F 1 "CONN_01X01" H 11200 650 50  0001 C CNN
+F 2 "Socket_Arduino_Micro:1pin_Micro" H 11100 650 50  0001 C CNN
+F 3 "" H 11100 650 50  0000 C CNN
+	1    11100 650 
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 11100 850 
+NoConn ~ 11000 850 
+NoConn ~ 10900 850 
 Wire Notes Line
-	8525 3050 8525 475 
+	11200 1000 10650 1000
+Wire Notes Line
+	10650 1000 10650 500 
+Wire Notes Line
+	8500 3250 11200 3250
 $EndSCHEMATC
