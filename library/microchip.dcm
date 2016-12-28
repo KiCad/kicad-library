@@ -36,6 +36,11 @@ K ETH PHY RMII
 F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
 $ENDCMP
 #
+$CMP MCP2050
+D LIN Transceiver with Voltage Regulator
+K LIN transceiver regulator
+$ENDCMP
+#
 $CMP MCP23008
 D 8-Bit I/O Expander with I²C Interface (PDIP/SOIC)
 K IO Expander I²C IIC I2C
@@ -94,6 +99,11 @@ $CMP MCP7940N
 D Real-Time Clock, I2C, Battery Backup
 K realtime clock RTC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP PIC16F1829LIN
+D 20-Pin, 8-bit Flash LIN/J2602 Microcontroller
+K microcontroller lin
 $ENDCMP
 #
 $CMP USB3300
