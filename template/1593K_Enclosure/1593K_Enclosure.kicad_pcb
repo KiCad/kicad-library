@@ -1,14 +1,14 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-undefined)
+(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7409~56~ubuntu16.10.1)
 
   (general
     (links 0)
     (no_connects 0)
     (area 69.845 81.766999 134.395 145.67)
     (thickness 1.6)
-    (drawings 19)
+    (drawings 15)
     (tracks 0)
     (zones 0)
-    (modules 1)
+    (modules 5)
     (nets 1)
   )
 
@@ -68,8 +68,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 3.2 3.2)
+    (pad_drill 3.2)
     (pad_to_mask_clearance 0.0762)
     (aux_axis_origin 130 100)
     (grid_origin 130 100)
@@ -114,15 +114,75 @@
     (diff_pair_width 0.2)
   )
 
+  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580 locked (layer F.Cu) (tedit 586721DC) (tstamp 58672070)
+    (at 115.695 124.647)
+    (descr "Mounting Hole 3.2mm, no annular, M3, ISO14580")
+    (tags "mounting hole 3.2mm no annular m3 iso14580")
+    (fp_text reference MK4 (at 0 -3.75) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3_ISO14580 (at 0 3.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 2.75 0) (layer Cmts.User) (width 0.15))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580 locked (layer F.Cu) (tedit 586721DF) (tstamp 5867206A)
+    (at 87.695 124.647)
+    (descr "Mounting Hole 3.2mm, no annular, M3, ISO14580")
+    (tags "mounting hole 3.2mm no annular m3 iso14580")
+    (fp_text reference MK3 (at 0 -3.75) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3_ISO14580 (at 0 3.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 2.75 0) (layer Cmts.User) (width 0.15))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580 locked (layer F.Cu) (tedit 586721D5) (tstamp 58672064)
+    (at 115.695 96.647)
+    (descr "Mounting Hole 3.2mm, no annular, M3, ISO14580")
+    (tags "mounting hole 3.2mm no annular m3 iso14580")
+    (fp_text reference MK2 (at 0 -3.75) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3_ISO14580 (at 0 3.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 2.75 0) (layer Cmts.User) (width 0.15))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580 locked (layer F.Cu) (tedit 586721D8) (tstamp 58671FE4)
+    (at 87.695 96.647)
+    (descr "Mounting Hole 3.2mm, no annular, M3, ISO14580")
+    (tags "mounting hole 3.2mm no annular m3 iso14580")
+    (fp_text reference MK1 (at 0 -3.75) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3_ISO14580 (at 0 3.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.75 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 3 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
   (module Symbols:KiCad-Logo2_6mm_SilkScreen (layer F.Cu) (tedit 581164A0) (tstamp 581165B4)
     (at 80 136)
     (descr "KiCad Logo")
     (tags "Logo KiCad")
     (attr virtual)
-    (fp_text reference REF*** (at 0 -4) (layer F.SilkS) hide
+    (fp_text reference REF*** (at -3.95 -3.37) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value KiCad-Logo2_6mm_SilkScreen (at 5 -4) (layer F.Fab) hide
+    (fp_text value KiCad-Logo2_6mm_SilkScreen (at -7.34 4.17) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_poly (pts (xy -6.121371 2.269066) (xy -6.081889 2.269467) (xy -5.9662 2.272259) (xy -5.869311 2.28055)
@@ -609,9 +669,6 @@
   )
   (gr_arc (start 126.695 103.315) (end 126.695 106.63) (angle 180) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 76.695 103.315) (end 76.695 100) (angle 180) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 87.695 96.647) (end 89.295 96.647) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 115.695 124.647) (end 117.295 124.647) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 115.695 96.647) (end 117.295 96.647) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 73.39 81.817) (end 73.39 100) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 130 81.817) (end 73.39 81.817) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 73.39 139.477) (end 130 139.477) (layer Edge.Cuts) (width 0.1))
@@ -620,7 +677,6 @@
   (gr_line (start 130 139.477) (end 130 106.63) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 76.695 106.63) (end 73.39 106.63) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 130 106.63) (end 126.695 106.63) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 87.695 124.647) (end 89.295 124.647) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 73.39 100) (end 76.695 100) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 130 100) (end 130 81.817) (layer Edge.Cuts) (width 0.1))
 
