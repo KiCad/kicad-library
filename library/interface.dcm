@@ -278,6 +278,12 @@ K RS485
 F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
 $ENDCMP
 #
+$CMP MAX1487
+D RS485 Transciever, 2.5 Mbps, Half Duplex, Receiver-Driver Enable
+K RS485, Transciever
+F https://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
 $CMP MAX202
 D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
 K rs232 uart transceiver line-driver
@@ -384,6 +390,30 @@ $CMP MAX3232
 D 3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors
 K rs232 uart transceiver line-driver
 F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
+$ENDCMP
+#
+$CMP MAX481
+D RS485 Transciever, 2.5 Mbps, Half Duplex, Low-Power Shutdown, Receiver-Driver Enable
+K RS485, Transciever
+F https://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX483
+D RS485 Transciever, 0.25 Mbps, Half Duplex, Slew-Rate Limited, Low-Power Shutdown, Receiver-Driver Enable
+K RS485, Transciever
+F https://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX485
+D RS485 Transciever, 2.5 Mbps, Half Duplex, Receiver-Driver Enable
+K RS485, Transciever
+F https://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX487
+D RS485 Transciever, 0.25 Mbps, Half Duplex, Slew-Rate Limited, Low-Power Shutdown, Receiver-Driver Enable
+K RS485, Transciever
+F https://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
 $ENDCMP
 #
 $CMP MC1413
