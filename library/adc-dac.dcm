@@ -449,8 +449,14 @@ K sigma-delta adc
 F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
 $ENDCMP
 #
-$CMP LTC2508-32
-D 32-Bit Oversampling ADC with Configurable Digital Filter
+$CMP LTC2508CDKD-32
+D 32-Bit Oversampling ADC with Configurable Digital Filter (Temperature range 0degC to 70degC)
+K LT ADC 32bit
+F http://cds.linear.com/docs/en/datasheet/250832fa.pdf
+$ENDCMP
+#
+$CMP LTC2508IDKD-32
+D 32-Bit Oversampling ADC with Configurable Digital Filter (Temperature range -40degC to 85degC)
 K LT ADC 32bit
 F http://cds.linear.com/docs/en/datasheet/250832fa.pdf
 $ENDCMP
