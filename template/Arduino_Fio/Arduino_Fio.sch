@@ -106,8 +106,8 @@ L CONN_01X14 P1
 U 1 1 56D705A1
 P 9750 1700
 F 0 "P1" H 9750 2450 50  0000 C CNN
-F 1 "Digital" V 9850 1700 50  0000 C CNN
-F 2 "Socket_Arduino_Fio:Socket_Strip_Straight_1x14" H 9750 1700 50  0001 C CNN
+F 1 "Digital" H 9750 950 50  0000 C CNN
+F 2 "Socket_Arduino_Fio:Socket_Strip_Straight_1x14" V 9850 1700 30  0000 C CNN
 F 3 "" H 9750 1700 50  0000 C CNN
 	1    9750 1700
 	1    0    0    -1  
@@ -117,8 +117,8 @@ L CONN_01X14 P2
 U 1 1 56D706EC
 P 10100 1700
 F 0 "P2" H 10100 2450 50  0000 C CNN
-F 1 "Analog" V 10200 1700 50  0000 C CNN
-F 2 "Socket_Arduino_Fio:Socket_Strip_Straight_1x14" H 10100 1700 50  0001 C CNN
+F 1 "Analog" H 10100 950 50  0000 C CNN
+F 2 "Socket_Arduino_Fio:Socket_Strip_Straight_1x14" V 10200 1700 30  0000 C CNN
 F 3 "" H 10100 1700 50  0000 C CNN
 	1    10100 1700
 	-1   0    0    -1  
@@ -231,6 +231,4 @@ Wire Wire Line
 	10700 2250 10300 2250
 Wire Wire Line
 	10700 2350 10300 2350
-Text Notes 9850 1050 0    60   ~ 0
-1
 $EndSCHEMATC
