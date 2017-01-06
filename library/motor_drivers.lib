@@ -561,10 +561,11 @@ ENDDEF
 DEF TMC262 U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
 F1 "TMC262" 0 100 60 H V C CNN
-F2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" 0 -200 60 H I C CNN
-F3 "http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_datasheet.pdf" 0 -100 60 H I C CNN
+F2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" 50 -1450 60 H I C CNN
+F3 "http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_datasheet.pdf" 50 -1350 60 H I C CNN
+ALIAS TLC-262
 DRAW
-S -600 1100 600 -1100 0 1 0 N
+S -600 1100 600 -1100 0 1 10 f
 X GND 1 -700 -1000 100 R 50 50 1 1 W
 X HA1 2 700 1000 100 L 50 50 1 1 O X
 X HA2 3 700 900 100 L 50 50 1 1 O X
