@@ -120,6 +120,12 @@ K ambient light sensor i2c
 F https://docs.broadcom.com/docs/AV02-2315EN
 $ENDCMP
 #
+$CMP APDS-9960
+D Digital Proximity, Ambient Light, RGB and Gesture Sensor
+K proximity ambient light rgb color gesture
+F https://docs.broadcom.com/docs/AV02-4191EN
+$ENDCMP
+#
 $CMP ASMT-YTC2-0AA02
 D Triple LED RVB (Avago Technology)
 K LED RGB
@@ -1092,6 +1098,12 @@ K opto laserdiode
 F http://www.osram-os.com/Graphics/XPic0/00194565_0.pdf/SPL%20PL90.pdf
 $ENDCMP
 #
+$CMP Si1145
+D PROXIMITY/UV/AMBIENT LIGHT SENSOR IC WITH I2C INTERFACE
+K proximity uv ambient light sensor
+F https://www.silabs.com/documents/public/data-sheets/Si1145-46-47.pdf
+$ENDCMP
+#
 $CMP TCMT1600
 D AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP4
 K NPN AC DC Phototransistor Optocoupler
@@ -1108,6 +1120,12 @@ $CMP TCMT4606
 D Quad AC/DC Phototransistor Optocoupler, Vce 70V, CTR 100-300%, SOP16
 K NPN AC DC Quad Phototransistor Optocoupler
 F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TCS34725
+D Color light-to-digital converter with IR filter, I2C interface
+K color rgb light i2c
+F http://ams.com/eng/content/download/319364/1117183/287875
 $ENDCMP
 #
 $CMP TIL111
@@ -1582,6 +1600,12 @@ $CMP TSSP58P38
 D IR Detector for Mid Range Proximity Sensor
 K opto IR receiver proximity sensor
 F http://www.vishay.com/docs/82476/tssp58p38.pdf
+$ENDCMP
+#
+$CMP VL53L0X
+D World smallest Time-of-Flight ranging and gesture detection sensor
+K proximity sensor
+F http://www.st.com/resource/en/datasheet/vl53l0x.pdf
 $ENDCMP
 #
 $CMP VO615A

@@ -168,6 +168,12 @@ K Digital Barometer
 F www.bosch-sensortec.com/content/language1/downloads/BST-BMP085-DS000-06.pdf
 $ENDCMP
 #
+$CMP BMP280
+D Digital Pressure Sensor
+K pressure temperature sensor
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-18.pdf
+$ENDCMP
+#
 $CMP C12880MA
 D Micro spectrometer 340 to 850nm resolution 15nm
 K spectrometer
@@ -348,6 +354,12 @@ K 3-Axis MEMS Gyroscope
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00036465.pdf
 $ENDCMP
 #
+$CMP L3GD20H
+D 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
+K 3-Axis MEMS Gyroscope
+F http://www.st.com/resource/en/datasheet/l3gd20h.pdf
+$ENDCMP
+#
 $CMP LA100-P
 D LA 100-P Current transducer
 K LEM current transducer
@@ -364,6 +376,12 @@ $CMP LA55-P
 D LA 55-P Current transducer
 K LEM current transducer
 F http://www.lem.com/docs/products/la_55-p_e.pdf
+$ENDCMP
+#
+$CMP LIS2DE12
+D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface
+K 3-axis accelerometer spi mems
+F http://www.st.com/resource/en/datasheet/lis2de12.pdf
 $ENDCMP
 #
 $CMP LIS2DH
@@ -696,10 +714,28 @@ K I2C Humidity Temperature Sensor
 F https://www.silabs.com/documents/public/data-sheets/Si7020-A20.pdf
 $ENDCMP
 #
+$CMP Si7021
+D I2C Relative Humidity and Temperature Sensors
+K humidity temperature sensor
+F http://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf
+$ENDCMP
+#
+$CMP TCS40DPR
+D Digital Output Magnetic Sensor
+K magnetic hall effect
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=30107&prodName=TCS40DPR
+$ENDCMP
+#
 $CMP TLV493D
 D Low power 3D magnetic sensor, I2C interface, SOT23-6 package
 K magnetic field i2c
 F http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80
+$ENDCMP
+#
+$CMP TMP102
+D Low-Power Digital Temperature Sensor, SOT563
+K temp sensor
+F http://www.ti.com/lit/ds/symlink/tmp102.pdf
 $ENDCMP
 #
 $CMP TMP20AIDCK
@@ -742,6 +778,12 @@ $CMP TSIC306-TO92
 D Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, TO-92
 K temperature digital
 F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
+$ENDCMP
+#
+$CMP TSL2561
+D Light-to-Digital Converters
+K light sensor
+F http://ams.com/eng/content/download/250094/975485/142937
 $ENDCMP
 #
 #End Doc Library
