@@ -45,9 +45,29 @@ D Connector, single row, 01x01
 K connector
 $ENDCMP
 #
+$CMP CONN_01X01_FEMALE
+D Generic Female Connector, Single Row, 01x01
+K Connector, Female, Generic
+$ENDCMP
+#
+$CMP CONN_01X01_MALE
+D Generic Male Connector, single row,  01x01
+K Connector, Male, Generic
+$ENDCMP
+#
 $CMP CONN_01X02
 D Connector, single row, 01x02
 K connector
+$ENDCMP
+#
+$CMP CONN_01X02_FEMALE
+D Generic Female Connector, Single Row,  01x02
+K Connector, Female, Generic
+$ENDCMP
+#
+$CMP CONN_01X02_MALE
+D Generic Male Connector, single row,  01x02
+K Connector, Male, Generic
 $ENDCMP
 #
 $CMP CONN_01X03
@@ -55,9 +75,29 @@ D Connector, single row, 01x03
 K connector
 $ENDCMP
 #
+$CMP CONN_01X03_FEMALE
+D Generic Female Connector, Single Row,  01x03
+K Connector, Female, Generic
+$ENDCMP
+#
+$CMP CONN_01X03_MALE
+D Generic Male Connector, single row,  01x03
+K Connector, Male, Generic
+$ENDCMP
+#
 $CMP CONN_01X04
 D Connector, single row, 01x04
 K connector
+$ENDCMP
+#
+$CMP CONN_01X04_FEMALE
+D Generic Female Connector, Single Row,  01x04
+K Connector, Female, Generic
+$ENDCMP
+#
+$CMP CONN_01X04_MALE
+D Generic Male Connector, single row,  01x04
+K Connector, Male, Generic
 $ENDCMP
 #
 $CMP CONN_01X05
@@ -449,6 +489,16 @@ $CMP DB15
 K connector
 $ENDCMP
 #
+$CMP DB15_HighDensity
+D High density DB15, Triple Row, Generic
+K connector db15
+$ENDCMP
+#
+$CMP DB15_HighDensity_MountingHoles
+D High density DB15, Triple Row, Mounting Hole, Generic
+K connector db15
+$ENDCMP
+#
 $CMP DB25
 K connector
 $ENDCMP
@@ -598,12 +648,12 @@ D 12-pin screw terminal connector
 K screw terminal block
 $ENDCMP
 #
-$CMP TEST_2P
+$CMP TEST_1P
 D point
 K point tp
 $ENDCMP
 #
-$CMP TEST_1P
+$CMP TEST_2P
 D point
 K point tp
 $ENDCMP
