@@ -209,6 +209,12 @@ K BC818 BC337 Equivalent
 F http://www.fairchildsemi.com/ds/BC/BC817.pdf
 $ENDCMP
 #
+$CMP BC846BDW1
+D 65V Vce, 100mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF
+$ENDCMP
+#
 $CMP BC846BPDW1
 D 65V Vce, 100mA IC, Dual NPN/PNP Transistors, SOT-363
 K Transistor NPN/PNP
@@ -221,24 +227,6 @@ K Transistor NPN/PNP
 F http://www.nxp.com/documents/data_sheet/BC846BPN.pdf
 $ENDCMP
 #
-$CMP BC847BPDW1
-D 45V Vce, 100mA IC, Dual NPN/PNP Transistors, SOT-363
-K Transistor NPN/PNP
-F http://www.onsemi.com/pub_link/Collateral/BC846BPDW1T1-D.PDF
-$ENDCMP
-#
-$CMP BC847BPN
-D 45V Vce, 100mA IC, Dual NPN/PNP Transistors, SOT-363
-K Transistor NPN/PNP
-F http://www.nxp.com/documents/data_sheet/BC847BPN.pdf
-$ENDCMP
-#
-$CMP BC846BDW1
-D 65V Vce, 100mA IC, Dual NPN/NPN Transistors, SOT-363
-K Transistor NPN/NPN
-F http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF
-$ENDCMP
-#
 $CMP BC846BS
 D 65V Vce, 100mA IC, Dual NPN/NPN Transistors, SOT-363
 K Transistor NPN/NPN
@@ -249,6 +237,18 @@ $CMP BC847BDW1
 D 45V Vce, 100mA IC, Dual NPN/NPN Transistors, SOT-363
 K Transistor NPN/NPN
 F http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC847BPDW1
+D 45V Vce, 100mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F http://www.onsemi.com/pub_link/Collateral/BC846BPDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC847BPN
+D 45V Vce, 100mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F http://www.nxp.com/documents/data_sheet/BC847BPN.pdf
 $ENDCMP
 #
 $CMP BC847BS
@@ -1782,6 +1782,24 @@ K dual-cool-powertrench mosfet fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
 $ENDCMP
 #
+$CMP FDS4559
+D Dual N and P Channel MOSFET, 60V Vds, 4.5A Id, 55mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS4559.pdf
+$ENDCMP
+#
+$CMP FDS4897AC
+D Dual N and P Channel MOSFET, 40V Vds, 6.1A Id, 26mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS4897AC.pdf
+$ENDCMP
+#
+$CMP FDS4897C
+D Dual N and P Channel MOSFET, 40V Vds, 6.2A Id, 29mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS4897C.pdf
+$ENDCMP
+#
 $CMP FDS6890A
 D 20V Vds, 7.5A Id, 18mOhm Rds, Dual N-Channel MOSFET, SO-8
 K Dual N-Channel MOSFET
@@ -1800,10 +1818,22 @@ K Dual N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/FD/FDS6898A.pdf
 $ENDCMP
 #
+$CMP FDS8960C
+D Dual N and P Channel MOSFET, 35V Vds, 7A Id, 24mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS8960C.pdf
+$ENDCMP
+#
 $CMP FDS9926A
 D 20V Vds, 6.5A Id, 30mOhm Rds, Dual N-Channel MOSFET, SO-8
 K Dual N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf
+$ENDCMP
+#
+$CMP FDS9934C
+D Dual N and P Channel MOSFET, 20V Vds, 6.5A Id, 30mΩ Rds @ 4.5V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
 $ENDCMP
 #
 $CMP FFB2222A
@@ -1984,36 +2014,6 @@ $CMP IRF7607PBF
 D HexFET N-MOS Power Mosfet, Vds 20V, Rdson 0.03R, Id 5.2A, Micro8
 K HexFET Power Mosfet N-MOS
 F http://www.irf.com/product-info/datasheets/data/irf7607pbf.pdf
-$ENDCMP
-#
-$CMP IRF7739
-D Vds=40V, Id=270A Id, 0.7m‎Ω Rdson,  N-Channel MOSFET, DirectFET package
-K N-Channel mosfet
-F http://www.irf.com/product-info/datasheets/data/irf7739l2pbf.pdf
-$ENDCMP
-#
-$CMP IRF7749
-D Vds=60V, Id=200A Id, 1.1m‎Ω Rdson,  N-Channel MOSFET, DirectFET package
-K N-Channel mosfet
-F http://www.irf.com/product-info/datasheets/data/irf7749l1pbf.pdf
-$ENDCMP
-#
-$CMP IRF7759
-D Vds=75V, Id=160A Id, 1.8m‎Ω Rdson,  N-Channel MOSFET, DirectFET package
-K N-Channel mosfet
-F http://www.irf.com/product-info/datasheets/data/irf7759l2pbf.pdf
-$ENDCMP
-#
-$CMP IRF7769
-D Vds=100V, Id=124A Id, 2.8m‎Ω Rdson,  N-Channel MOSFET, DirectFET package
-K N-Channel mosfet
-F http://www.irf.com/product-info/datasheets/data/irf7769l2pbf.pdf
-$ENDCMP
-#
-$CMP IRF7779
-D Vds=150V, Id=67A Id, 9.0m‎Ω Rdson,  N-Channel MOSFET, DirectFET package
-K N-Channel mosfet
-F http://www.irf.com/product-info/datasheets/data/irf7779l2pbf.pdf
 $ENDCMP
 #
 $CMP IRF8721PBF-1
@@ -2218,6 +2218,18 @@ $CMP S8550
 D 20V Vce, 0.7A Ic, PNP Low Voltage High Current Transistor, TO-92
 K S8550 PNP Low Voltage High Current Transistor
 F http://www.unisonic.com.tw/datasheet/S8550.pdf
+$ENDCMP
+#
+$CMP Si4532DY
+D Dual N and P Channel MOSFET, 30V Vds, 3.9A Id, 65mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/SI/SI4532DY.pdf
+$ENDCMP
+#
+$CMP Si4542DY
+D Dual N and P Channel MOSFET, 30V Vds, 6A Id, 28mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
 $ENDCMP
 #
 $CMP TIP120
