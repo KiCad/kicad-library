@@ -96,6 +96,16 @@ D Programmable Timer Module 1.0MHz
 K PTM
 $ENDCMP
 #
+$CMP MC6843
+D Floppy Disc Controller
+K FDC 6843
+$ENDCMP
+#
+$CMP MC6844
+D Direct Memory Access Controller 1.0MHz
+K DMAC 6844
+$ENDCMP
+#
 $CMP MC6845
 D CRT Controller 1.0MHz
 K CRTC
@@ -131,6 +141,11 @@ D Programmable Timer Module 1.5MHz
 K PTM 6840
 $ENDCMP
 #
+$CMP MC68A44
+D Direct Memory Access Controller 1.5MHz
+K DMAC 6844
+$ENDCMP
+#
 $CMP MC68A45
 D CRT Controller 1.5MHz
 K CRTC 6845
@@ -164,6 +179,11 @@ $ENDCMP
 $CMP MC68B40
 D Programmable Timer Module 2.0MHz
 K PTM 6840
+$ENDCMP
+#
+$CMP MC68B44
+D Direct Memory Access Controller 2.0MHz
+K DMAC 6844
 $ENDCMP
 #
 $CMP MC68B45
