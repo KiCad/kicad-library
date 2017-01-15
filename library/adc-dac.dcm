@@ -36,18 +36,6 @@ K 8bit DAC Reference Single Supply
 F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
 $ENDCMP
 #
-$CMP AD5593R
-D AD5593R 8-channel 12bits configurable ADC/DAC/GPIO Internal Reference, I2C interface Integrated temperature sensor,Single Supply, TSSOP-16
-K 8channel 12bit ADC DAC GPIO I2C Temperature
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
-$ENDCMP
-#
-$CMP AD7171
-D Single channel Analog to Digial Converter, 16-bit, differential input, 125Hz, SPI interface
-K sigma delta adc spi
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7171.pdf
-$ENDCMP
-#
 $CMP AD7224KN
 D 8bit DAC, Dual or Single Supply, DIP-18
 K 8bit DAC Dual Single Supply
@@ -246,12 +234,6 @@ K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD775.pdf
 $ENDCMP
 #
-$CMP AD7819
-D Analog to Digital 8 bits converter, PDIP/SOIC/TSSOP-16
-K CAD
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7819.pdf
-$ENDCMP
-#
 $CMP AD9280ARS
 D Video ADC (32 Mhz), SSOP-28
 K ADC CAN VIDEO
@@ -322,6 +304,18 @@ $CMP ADS1234IPW
 D Dual Bridge 24bit ADC for Sensors, TSSOP-28
 K ADC 24bit Sensors Quad Channel
 F http://www.ti.com/lit/ds/symlink/ads1232.pdf
+$ENDCMP
+#
+$CMP ADS1243
+D LTC1598CS, Micropower 12-bit ADC, 8 Channels, Serial IO, SSOP-24
+K 12bit ADC 8 Channel
+F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+$ENDCMP
+#
+$CMP ADS7828
+D 12-Bits, 8-Channels, ADC, I2C, TSSOP-16
+K I2C ADC 12Bits 
+F http://www.ti.com/lit/ds/symlink/ads7828.pdf
 $ENDCMP
 #
 $CMP ADS1251
@@ -627,12 +621,6 @@ $CMP MCP4922-E/ST
 D MCP4922, Dual 12-bit Digital to Analog Converter, SPI Interface, TSSOP-14
 K Dual DAC 1ch 12bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
-$ENDCMP
-#
-$CMP PT2399
-D Echo Processor IC
-K CMOS ADC DAC 44K Digital processing VCO
-F http://sound.westhost.com/pt2399.pdf
 $ENDCMP
 #
 $CMP TDA8702
