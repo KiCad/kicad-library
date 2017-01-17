@@ -1555,6 +1555,11 @@ K rotary switch encoder switch push button
 F ~
 $ENDCMP
 #
+$CMP SPARK_GAP
+D Spark Gap
+K spark gap esd electrostatic suppression
+$ENDCMP
+#
 $CMP Solar_Cell
 D single solar cell
 K solar cell
@@ -1565,11 +1570,6 @@ $CMP Solar_Cells
 D multiple solar cells
 K solar cell
 F ~
-$ENDCMP
-#
-$CMP SPARK_GAP
-D Spark Gap
-K spark gap esd electrostatic suppression
 $ENDCMP
 #
 $CMP Speaker
