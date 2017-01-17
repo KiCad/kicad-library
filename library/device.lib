@@ -176,11 +176,7 @@ F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
+ C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
@@ -198,13 +194,7 @@ F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- CP*
- C_Axial*
- C_Radial*
- TantalC*
- C*elec
- c_elec*
- SMD*_Pol
+ CP_*
 $ENDFPLIST
 DRAW
 S -90 20 -90 40 0 1 0 N
@@ -227,13 +217,7 @@ F1 "CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- SMD*_Pol
- C_Axial*
- C_Radial*
- c_elec*
- C*elec
- TantalC*
- CP*
+ CP_*
 $ENDFPLIST
 DRAW
 A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
@@ -253,13 +237,7 @@ F1 "CP1_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- CP*
- C_Axial*
- C_Radial*
- TantalC*
- C*elec
- c_elec*
- SMD*_Pol
+ CP_*
 $ENDFPLIST
 DRAW
 A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
@@ -279,13 +257,7 @@ F1 "CP_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- CP*
- C_Axial*
- C_Radial*
- TantalC*
- C*elec
- c_elec*
- SMD*_Pol
+ CP_*
 $ENDFPLIST
 DRAW
 S -60 -12 60 -27 0 1 0 F
@@ -364,11 +336,7 @@ F1 "C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
+ C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
@@ -634,8 +602,7 @@ F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -658,8 +625,7 @@ F1 "DIAC" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -683,8 +649,7 @@ F1 "DIAC_ALT" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -708,8 +673,7 @@ F1 "D_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -732,8 +696,8 @@ F1 "D_Bridge_+-AA" 50 200 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -760,8 +724,8 @@ F1 "D_Bridge_+A-A" 50 200 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -788,8 +752,8 @@ F1 "D_Bridge_+AA-" 50 200 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -816,8 +780,8 @@ F1 "D_Bridge_-A+A" 50 200 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -844,8 +808,8 @@ F1 "D_Bridge_-AA+" 50 200 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -872,8 +836,7 @@ F1 "D_Capacitance" 0 -130 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -900,8 +863,7 @@ F1 "D_Capacitance_ALT" 0 -130 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1028,8 +990,7 @@ F1 "D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1052,8 +1013,7 @@ F1 "D_Schottky_AAK" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1077,8 +1037,7 @@ F1 "D_Schottky_AKA" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1102,8 +1061,7 @@ F1 "D_Schottky_AKK" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1127,8 +1085,7 @@ F1 "D_Schottky_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1150,14 +1107,6 @@ F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_KAA" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
 DRAW
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 P 4 0 1 0 150 100 100 100 100 0 -50 0 N
@@ -1175,14 +1124,6 @@ F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_KAK" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
 DRAW
 P 4 0 1 0 -200 100 -150 100 -150 0 100 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
@@ -1200,14 +1141,6 @@ F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_KKA" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
 DRAW
 P 4 0 1 0 -200 100 -150 100 -150 0 100 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
@@ -1226,8 +1159,7 @@ F1 "D_Schottky_Small" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1252,8 +1184,7 @@ F1 "D_Schottky_Small_ALT" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1569,8 +1500,7 @@ F1 "D_Shockley" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1593,11 +1523,11 @@ F1 "D_Small" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
- *SingleDiode*
  *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -30 -40 -30 40 N
@@ -1616,11 +1546,11 @@ F1 "D_Small_ALT" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
- *SingleDiode*
  *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -30 -40 -30 40 N
@@ -1639,8 +1569,7 @@ F1 "D_TVS" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1664,8 +1593,7 @@ F1 "D_TVS_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1688,14 +1616,6 @@ F0 "D" 0 175 50 H V C CNN
 F1 "D_TVS_x2_AAC" 0 100 50 H V C CNN
 F2 "" -150 0 50 H V C CNN
 F3 "" -150 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
 DRAW
 P 2 0 0 0 0 -50 0 0 N
 P 2 0 1 0 -250 0 250 0 N
@@ -1716,14 +1636,6 @@ F0 "D" 0 175 50 H V C CNN
 F1 "D_TVS_x2_ACA" 0 100 50 H V C CNN
 F2 "" -150 0 50 H V C CNN
 F3 "" -150 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
 DRAW
 P 5 0 0 8 -250 -50 -50 50 -50 -50 -250 50 -250 -50 N
 P 5 0 0 8 50 50 50 -50 250 50 250 -50 50 50 N
@@ -1744,14 +1656,6 @@ F0 "D" 0 175 50 H V C CNN
 F1 "D_TVS_x2_CAA" 0 100 50 H V C CNN
 F2 "" -150 0 50 H V C CNN
 F3 "" -150 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
 DRAW
 P 2 0 1 0 -250 0 250 0 N
 P 2 0 1 0 0 0 0 -50 N
@@ -1773,8 +1677,7 @@ F1 "D_Temperature_Dependent" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1805,8 +1708,7 @@ F1 "D_Temperature_Dependent_ALT" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1837,8 +1739,7 @@ F1 "D_Tunnel" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1861,8 +1762,7 @@ F1 "D_Tunnel_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1885,8 +1785,7 @@ F1 "D_Unitunnel" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1909,8 +1808,7 @@ F1 "D_Unitunnel_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1933,8 +1831,7 @@ F1 "D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1957,8 +1854,7 @@ F1 "D_Zener_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1981,11 +1877,11 @@ F1 "D_Zener_Small" 0 -90 50 H V C CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
- *SingleDiode*
  *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 30 0 -30 0 N
@@ -2004,11 +1900,11 @@ F1 "D_Zener_Small_ALT" 0 -90 50 H V C CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
- *SingleDiode*
  *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 30 0 -30 0 N
@@ -2292,6 +2188,10 @@ F0 "FL" 0 275 50 H V C CNN
 F1 "EMI_Filter_CLC" 0 200 50 H V C CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
 DRAW
 A -80 100 20 1 1799 0 1 0 N -60 100 -100 100
 A -40 100 20 1 1799 0 1 0 N -20 100 -60 100
@@ -2324,6 +2224,10 @@ F0 "FL" 0 275 50 H V C CNN
 F1 "EMI_Filter_LCL" 0 200 50 H V C CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
 DRAW
 A -180 100 20 1 1799 0 1 0 N -160 100 -200 100
 A -140 100 20 1 1799 0 1 0 N -120 100 -160 100
@@ -2504,7 +2408,6 @@ F1 "Fuse_Polarized_Small" 0 60 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- CP*
  SM*
 $ENDFPLIST
 DRAW
@@ -2524,7 +2427,6 @@ F1 "Fuse_Small" 0 60 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- CP*
  SM*
 $ENDFPLIST
 DRAW
@@ -3998,6 +3900,95 @@ P 2 0 1 0 0 100 0 -100 N
 P 4 0 1 0 -40 50 -40 30 40 -30 40 -50 N
 X ~ 1 0 100 25 D 50 50 1 1 P
 X ~ 2 0 -100 25 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_DUAL_NPN_NPN_E1B1C2E2B2C1
+#
+DEF Q_DUAL_NPN_NPN_E1B1C2E2B2C1 Q 0 0 Y N 2 L N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_DUAL_NPN_NPN_E1B1C2E2B2C1" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ SC?70*
+ SC?88*
+ SOT?363*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 0 -100 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X E1 1 100 -200 100 U 50 50 1 1 P
+X B1 2 -200 0 100 R 50 50 1 1 I
+X C1 6 100 200 100 D 50 50 1 1 P
+X C2 3 100 200 100 D 50 50 2 1 P
+X E2 4 100 -200 100 U 50 50 2 1 P
+X B2 5 -200 0 100 R 50 50 2 1 I
+ENDDRAW
+ENDDEF
+#
+# Q_DUAL_NPN_PNP_E1B1C2E2B2C1
+#
+DEF Q_DUAL_NPN_PNP_E1B1C2E2B2C1 Q 0 0 Y N 2 L N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_DUAL_NPN_PNP_E1B1C2E2B2C1" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ SC?70*
+ SC?88*
+ SOT?363*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 0 -100 0 N
+P 2 1 1 0 25 25 100 100 N
+P 3 1 1 0 25 -25 100 -100 100 -100 N
+P 3 1 1 20 25 75 25 -75 25 -75 N
+P 5 1 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X E1 1 100 -200 100 U 50 50 1 1 P
+X B1 2 -200 0 100 R 50 50 1 1 I
+X C1 6 100 200 100 D 50 50 1 1 P
+P 2 2 1 0 25 25 100 100 N
+P 3 2 1 0 25 -25 100 -100 100 -100 N
+P 3 2 1 20 25 75 25 -75 25 -75 N
+P 5 2 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X C2 3 100 200 100 D 50 50 2 1 P
+X E2 4 100 -200 100 U 50 50 2 1 P
+X B2 5 -200 0 100 R 50 50 2 1 I
+ENDDRAW
+ENDDEF
+#
+# Q_DUAL_PNP_PNP_E1B1C2E2B2C1
+#
+DEF Q_DUAL_PNP_PNP_E1B1C2E2B2C1 Q 0 0 Y N 2 L N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_DUAL_PNP_PNP_E1B1C2E2B2C1" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ SC?70*
+ SC?88*
+ SOT?363*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 0 -100 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X E1 1 100 -200 100 U 50 50 1 1 P
+X B1 2 -200 0 100 R 50 50 1 1 I
+X C1 6 100 200 100 D 50 50 1 1 P
+X C2 3 100 200 100 D 50 50 2 1 P
+X E2 4 100 -200 100 U 50 50 2 1 P
+X B2 5 -200 0 100 R 50 50 2 1 I
 ENDDRAW
 ENDDEF
 #
@@ -5876,7 +5867,7 @@ F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -5967,7 +5958,7 @@ F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -5982,10 +5973,10 @@ ENDDEF
 DEF R_Network03 RN 0 0 N N 1 F N
 F0 "RN" -200 0 50 V V C CNN
 F1 "R_Network03" 200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP4" 275 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP4" 275 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -100 90 10 0 1 0 F
@@ -6009,10 +6000,10 @@ ENDDEF
 DEF R_Network04 RN 0 0 N N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network04" 200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP5" 275 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP5" 275 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -200 90 10 0 1 0 F
@@ -6040,10 +6031,10 @@ ENDDEF
 DEF R_Network05 RN 0 0 N N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network05" 300 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 375 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP6" 375 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -200 90 10 0 1 0 F
@@ -6075,10 +6066,10 @@ ENDDEF
 DEF R_Network06 RN 0 0 N N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network06" 300 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP7" 375 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP7" 375 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -300 90 10 0 1 0 F
@@ -6114,10 +6105,10 @@ ENDDEF
 DEF R_Network07 RN 0 0 N N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network07" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 475 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP8" 475 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -300 90 10 0 1 0 F
@@ -6157,10 +6148,10 @@ ENDDEF
 DEF R_Network08 RN 0 0 N N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network08" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP9" 475 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP9" 475 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -400 90 10 0 1 0 F
@@ -6204,10 +6195,10 @@ ENDDEF
 DEF R_Network09 RN 0 0 N N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network09" 500 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP10" 575 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP10" 575 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -400 90 10 0 1 0 F
@@ -6255,10 +6246,10 @@ ENDDEF
 DEF R_Network10 RN 0 0 N N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network10" 500 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP11" 575 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP11" 575 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -500 90 10 0 1 0 F
@@ -6310,10 +6301,10 @@ ENDDEF
 DEF R_Network11 RN 0 0 N N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network11" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP12" 675 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP12" 675 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -500 90 10 0 1 0 F
@@ -6369,10 +6360,10 @@ ENDDEF
 DEF R_Network12 RN 0 0 N N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network12" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP13" 675 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP13" 675 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -600 90 10 0 1 0 F
@@ -6432,10 +6423,10 @@ ENDDEF
 DEF R_Network13 RN 0 0 N N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network13" 700 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP14" 775 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP14" 775 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -600 90 10 0 1 0 F
@@ -6499,10 +6490,10 @@ ENDDEF
 DEF R_Network_Dividers_x02_SIP RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network_Dividers_x02_SIP" 200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP4" 275 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP4" 275 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -200 0 10 0 1 0 F
@@ -6535,10 +6526,10 @@ ENDDEF
 DEF R_Network_Dividers_x03_SIP RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network_Dividers_x03_SIP" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP5" 475 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP5" 475 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -200 0 10 0 1 0 F
@@ -6581,10 +6572,10 @@ ENDDEF
 DEF R_Network_Dividers_x04_SIP RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network_Dividers_x04_SIP" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 475 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP6" 475 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -400 0 10 0 1 0 F
@@ -6637,10 +6628,10 @@ ENDDEF
 DEF R_Network_Dividers_x05_SIP RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network_Dividers_x05_SIP" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP7" 675 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP7" 675 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -400 0 10 0 1 0 F
@@ -6703,10 +6694,10 @@ ENDDEF
 DEF R_Network_Dividers_x06_SIP RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network_Dividers_x06_SIP" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 675 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP8" 675 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -600 0 10 0 1 0 F
@@ -6779,10 +6770,10 @@ ENDDEF
 DEF R_Network_Dividers_x07_SIP RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network_Dividers_x07_SIP" 800 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP9" 875 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP9" 875 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -600 0 10 0 1 0 F
@@ -6865,10 +6856,10 @@ ENDDEF
 DEF R_Network_Dividers_x08_SIP RN 0 0 Y N 1 F N
 F0 "RN" -900 0 50 V V C CNN
 F1 "R_Network_Dividers_x08_SIP" 800 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP10" 875 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP10" 875 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -800 0 10 0 1 0 F
@@ -6961,10 +6952,10 @@ ENDDEF
 DEF R_Network_Dividers_x09_SIP RN 0 0 Y N 1 F N
 F0 "RN" -900 0 50 V V C CNN
 F1 "R_Network_Dividers_x09_SIP" 1000 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP11" 1075 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP11" 1075 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -800 0 10 0 1 0 F
@@ -7067,10 +7058,10 @@ ENDDEF
 DEF R_Network_Dividers_x10_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1100 0 50 V V C CNN
 F1 "R_Network_Dividers_x10_SIP" 1000 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP12" 1075 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP12" 1075 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -1000 0 10 0 1 0 F
@@ -7183,10 +7174,10 @@ ENDDEF
 DEF R_Network_Dividers_x11_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1100 0 50 V V C CNN
 F1 "R_Network_Dividers_x11_SIP" 1200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP13" 1275 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP13" 1275 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -1000 0 10 0 1 0 F
@@ -7360,10 +7351,10 @@ ENDDEF
 DEF R_Pack02_SIP RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Pack02_SIP" 300 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP4" 375 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP4" 375 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -250 -75 250 175 0 1 10 f
@@ -7414,10 +7405,10 @@ ENDDEF
 DEF R_Pack03_SIP RN 0 0 Y N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Pack03_SIP" 500 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 575 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP6" 575 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -350 -75 450 175 0 1 10 f
@@ -7477,10 +7468,10 @@ ENDDEF
 DEF R_Pack04_SIP RN 0 0 Y N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Pack04_SIP" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 675 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP8" 675 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -550 -75 550 175 0 1 10 f
@@ -7549,10 +7540,10 @@ ENDDEF
 DEF R_Pack05_SIP RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Pack05_SIP" 800 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP10" 875 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP10" 875 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -650 -75 750 175 0 1 10 f
@@ -7630,10 +7621,10 @@ ENDDEF
 DEF R_Pack06_SIP RN 0 0 Y N 1 F N
 F0 "RN" -900 0 50 V V C CNN
 F1 "R_Pack06_SIP" 900 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP12" 975 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP12" 975 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -850 -75 850 175 0 1 10 f
@@ -7720,10 +7711,10 @@ ENDDEF
 DEF R_Pack07_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1000 0 50 V V C CNN
 F1 "R_Pack07_SIP" 1100 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP14" 1175 0 50 V I C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP14" 1175 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -950 -75 1050 175 0 1 10 f
@@ -8019,6 +8010,9 @@ F0 "R" -175 0 50 V V C CNN
 F1 "R_Shunt" -100 0 50 V V C CNN
 F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
+$FPLIST
+ R_*Shunt*
+$ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
 P 2 0 1 0 0 -100 50 -100 N
@@ -8038,7 +8032,6 @@ F1 "R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Resistor_*
  R_*
 $ENDFPLIST
 DRAW
@@ -8057,7 +8050,6 @@ F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  R_*
- Resistor_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -8074,6 +8066,10 @@ F0 "Y" 0 225 50 H V C CNN
 F1 "Resonator" 0 150 50 H V C CNN
 F2 "" -25 0 50 H V C CNN
 F3 "" -25 0 50 H V C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
 DRAW
 C -95 0 10 0 1 0 F
 C 0 -150 10 0 1 0 F
@@ -8103,6 +8099,10 @@ F0 "Y" 125 75 50 H V L CNN
 F1 "Resonator_Small" 125 0 50 H V L CNN
 F2 "" -25 0 50 H V C CNN
 F3 "" -25 0 50 H V C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
 DRAW
 C -100 0 10 0 1 0 F
 C 0 -150 10 0 1 0 F
@@ -8308,7 +8308,7 @@ F1 "Thermistor" -100 0 50 V V C BNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- R?
+ R_*
  SM0603
  SM0805
 $ENDFPLIST
@@ -8903,7 +8903,7 @@ F1 "Voltage_Divider" -100 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
 F3 "" 200 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
  SOT?23
 $ENDFPLIST
 DRAW
@@ -8929,7 +8929,7 @@ F1 "Voltage_Divider_CenterPin1" -100 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
 F3 "" 200 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
  SOT?23
 $ENDFPLIST
 DRAW
@@ -8955,7 +8955,7 @@ F1 "Voltage_Divider_CenterPin3" -100 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
 F3 "" 200 0 50 H V C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
  SOT?23
 $ENDFPLIST
 DRAW
