@@ -70,7 +70,7 @@ Text Label 9750 1000 1    60   ~ 0
 Text Label 9850 1000 1    60   ~ 0
 0(Rx)
 Text Label 9650 1000 1    60   ~ 0
-Reset
+7
 Text Label 9400 3400 3    60   ~ 0
 A6
 Text Label 9500 3400 3    60   ~ 0
