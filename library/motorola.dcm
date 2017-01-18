@@ -16,13 +16,13 @@ K MPRO
 $ENDCMP
 #
 $CMP 6821
-D Interface parallele 2 x 8 bits
-K MPRO
+D Peripheral Interface Adapter 1MHz
+K PIA
 $ENDCMP
 #
 $CMP 6822
-D Interface parallele 2 x 8 bits
-K MPRO
+D Industrial Interface Adapter
+K IIA
 $ENDCMP
 #
 $CMP 68230
@@ -70,10 +70,130 @@ D Zigbee controller
 K ZIGBEE
 $ENDCMP
 #
+$CMP MC6800
+D 8-Bit Microprocessing unit 1.0MHz
+K MCU 6800
+$ENDCMP
+#
 $CMP MC68000FN
 D Microprocessor, 16-bit bus
 K MPRO
 F http://www.nxp.com/files/32bit/doc/ref_manual/MC68000UM.pdf
+$ENDCMP
+#
+$CMP MC6809
+D 8-Bit Microprocessing unit 1.0MHz
+K MCU 6809
+$ENDCMP
+#
+$CMP MC6809E
+D 8-Bit Microprocessing unit 1.0MHz
+K MCU 6809E
+$ENDCMP
+#
+$CMP MC6840
+D Programmable Timer Module 1.0MHz
+K PTM
+$ENDCMP
+#
+$CMP MC6843
+D Floppy Disc Controller
+K FDC 6843
+$ENDCMP
+#
+$CMP MC6844
+D Direct Memory Access Controller 1.0MHz
+K DMAC 6844
+$ENDCMP
+#
+$CMP MC6845
+D CRT Controller 1.0MHz
+K CRTC
+$ENDCMP
+#
+$CMP MC6850
+D Asynchronous Communications Interface Adapter 1.0MHz
+K ACIA
+$ENDCMP
+#
+$CMP MC68A00
+D 8-Bit Microprocessing unit 1.5MHz
+K MCU 6800
+$ENDCMP
+#
+$CMP MC68A09
+D 8-Bit Microprocessing unit 1.5MHz
+K MCU 6809
+$ENDCMP
+#
+$CMP MC68A09E
+D 8-Bit Microprocessing unit 1.5MHz
+K MCU 6809E
+$ENDCMP
+#
+$CMP MC68A21
+D Peripheral Interface Adapter 1.5MHz
+K PIA 6821
+$ENDCMP
+#
+$CMP MC68A40
+D Programmable Timer Module 1.5MHz
+K PTM 6840
+$ENDCMP
+#
+$CMP MC68A44
+D Direct Memory Access Controller 1.5MHz
+K DMAC 6844
+$ENDCMP
+#
+$CMP MC68A45
+D CRT Controller 1.5MHz
+K CRTC 6845
+$ENDCMP
+#
+$CMP MC68A50
+D Asynchronous Communications Interface Adapter 1.5MHz
+K ACIA 6850
+$ENDCMP
+#
+$CMP MC68B00
+D 8-Bit Microprocessing unit 2.0MHz
+K MCU 6800
+$ENDCMP
+#
+$CMP MC68B09
+D 8-Bit Microprocessing unit 2.0MHz
+K MCU 6809
+$ENDCMP
+#
+$CMP MC68B09E
+D 8-Bit Microprocessing unit 2.0MHz
+K MCU 6809E
+$ENDCMP
+#
+$CMP MC68B21
+D Peripheral Interface Adapter 2MHz
+K PIA 6821
+$ENDCMP
+#
+$CMP MC68B40
+D Programmable Timer Module 2.0MHz
+K PTM 6840
+$ENDCMP
+#
+$CMP MC68B44
+D Direct Memory Access Controller 2.0MHz
+K DMAC 6844
+$ENDCMP
+#
+$CMP MC68B45
+D CRT Controller 2.0MHz
+K CRTC 6845
+$ENDCMP
+#
+$CMP MC68B50
+D Asynchronous Communications Interface Adapter 2.0MHz
+K ACIA 6850
 $ENDCMP
 #
 $CMP MC68HC812A4
