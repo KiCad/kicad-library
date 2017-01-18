@@ -846,6 +846,21 @@ D resettable fuse, polymeric positive temperature coefficient (PPTC), small symb
 K resettable fuse PTC PPTC polyfuse polyswitch
 $ENDCMP
 #
+$CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
+D Dual NPN/NPN Transistor, 6-pin package
+K NPN/NPN Transistor
+$ENDCMP
+#
+$CMP Q_DUAL_NPN_PNP_E1B1C2E2B2C1
+D Dual NPN/PNP Transistor, 6-pin package
+K NPN/PNP Transistor
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
+D Dual PNP/PNP Transistor, 6-pin package
+K PNP/PNP Transistor
+$ENDCMP
+#
 $CMP Q_NIGBT_CEG
 D Transistor N-IGBT (general)
 K igbt n-igbt transistor
@@ -1538,6 +1553,11 @@ $CMP Rotary_Encoder_Switch
 D Rotary encoder, dual channel, incremental quadrate outputs, with switch
 K rotary switch encoder switch push button
 F ~
+$ENDCMP
+#
+$CMP SPARK_GAP
+D Spark Gap
+K spark gap esd electrostatic suppression
 $ENDCMP
 #
 $CMP Solar_Cell

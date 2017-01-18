@@ -6,8 +6,8 @@ EESchema-LIBRARY Version 2.3
 DEF Amperemeter_AC MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
 F1 "Amperemeter_AC" -130 -30 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 T 0 0 25 100 0 0 0 A Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
@@ -26,8 +26,8 @@ ENDDEF
 DEF Amperemeter_DC MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
 F1 "Amperemeter_DC" -130 -30 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 T 0 0 0 100 0 0 0 A Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
@@ -109,8 +109,8 @@ ENDDEF
 DEF Battery BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
 F1 "Battery" 100 0 50 H V L CNN
-F2 "" 0 60 50 V V C CNN
-F3 "" 0 60 50 V V C CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
 DRAW
 S -80 -55 80 -65 0 1 0 F
 S -80 70 80 60 0 1 0 F
@@ -134,8 +134,8 @@ ENDDEF
 DEF Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
 F1 "Battery_Cell" 100 0 50 H V L CNN
-F2 "" 0 60 50 V V C CNN
-F3 "" 0 60 50 V V C CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
 DRAW
 S -90 70 90 60 0 1 0 F
 S -62 47 58 27 0 1 0 F
@@ -153,8 +153,8 @@ ENDDEF
 DEF Buzzer BZ 0 1 Y N 1 F N
 F0 "BZ" 150 50 50 H V L CNN
 F1 "Buzzer" 150 -50 50 H V L CNN
-F2 "" -25 100 50 V V C CNN
-F3 "" -25 100 50 V V C CNN
+F2 "" -25 100 50 V I C CNN
+F3 "" -25 100 50 V I C CNN
 $FPLIST
  *Buzzer*
 $ENDFPLIST
@@ -173,14 +173,10 @@ ENDDEF
 DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
+ C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
@@ -195,16 +191,10 @@ ENDDEF
 DEF CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "CP" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP*
- C_Axial*
- C_Radial*
- TantalC*
- C*elec
- c_elec*
- SMD*_Pol
+ CP_*
 $ENDFPLIST
 DRAW
 S -90 20 -90 40 0 1 0 N
@@ -224,16 +214,10 @@ ENDDEF
 DEF CP1 C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "CP1" 25 -100 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- SMD*_Pol
- C_Axial*
- C_Radial*
- c_elec*
- C*elec
- TantalC*
- CP*
+ CP_*
 $ENDFPLIST
 DRAW
 A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
@@ -250,16 +234,10 @@ ENDDEF
 DEF CP1_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "CP1_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP*
- C_Axial*
- C_Radial*
- TantalC*
- C*elec
- c_elec*
- SMD*_Pol
+ CP_*
 $ENDFPLIST
 DRAW
 A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
@@ -276,16 +254,10 @@ ENDDEF
 DEF CP_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "CP_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP*
- C_Axial*
- C_Radial*
- TantalC*
- C*elec
- c_elec*
- SMD*_Pol
+ CP_*
 $ENDFPLIST
 DRAW
 S -60 -12 60 -27 0 1 0 F
@@ -302,8 +274,8 @@ ENDDEF
 DEF CTRIM C 0 10 N N 1 F N
 F0 "C" 60 -80 50 H V C CNN
 F1 "CTRIM" 120 -140 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
@@ -320,8 +292,8 @@ ENDDEF
 DEF CTRIM_DIF C 0 10 Y N 1 F N
 F0 "C" 200 50 50 H V L CNN
 F1 "CTRIM_DIF" 200 -25 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 20 -160 -30 160 -30 N
 P 2 0 1 20 -160 30 -40 30 N
@@ -342,8 +314,8 @@ ENDDEF
 DEF C_Feedthrough C 0 10 Y N 1 F N
 F0 "C" 0 300 50 H V C CNN
 F1 "C_Feedthrough" 0 225 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 ALIAS EMI_Filter_C
 DRAW
 S -65 60 60 80 0 1 0 F
@@ -361,14 +333,10 @@ ENDDEF
 DEF C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
+ C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
@@ -383,8 +351,8 @@ ENDDEF
 DEF C_Variable C 0 10 N N 1 F N
 F0 "C" 25 -75 50 H V L CNN
 F1 "C_Variable" 25 -150 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
@@ -401,8 +369,8 @@ ENDDEF
 DEF Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
 F1 "Crystal" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -422,8 +390,8 @@ ENDDEF
 DEF Crystal_GND2 Y 0 40 Y N 1 F N
 F0 "Y" 0 225 50 H V C CNN
 F1 "Crystal_GND2" 0 150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -446,8 +414,8 @@ ENDDEF
 DEF Crystal_GND23 Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
 F1 "Crystal_GND23" 125 125 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -473,8 +441,8 @@ ENDDEF
 DEF Crystal_GND23_Small Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
 F1 "Crystal_GND23_Small" 50 100 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -496,8 +464,8 @@ ENDDEF
 DEF Crystal_GND24 Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
 F1 "Crystal_GND24" 125 125 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -523,8 +491,8 @@ ENDDEF
 DEF Crystal_GND24_Small Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
 F1 "Crystal_GND24_Small" 50 100 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -546,8 +514,8 @@ ENDDEF
 DEF Crystal_GND2_Small Y 0 40 Y N 1 F N
 F0 "Y" 0 200 50 H V C CNN
 F1 "Crystal_GND2_Small" 0 125 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -567,8 +535,8 @@ ENDDEF
 DEF Crystal_GND3 Y 0 40 Y N 1 F N
 F0 "Y" 0 225 50 H V C CNN
 F1 "Crystal_GND3" 0 150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -591,8 +559,8 @@ ENDDEF
 DEF Crystal_GND3_Small Y 0 40 Y N 1 F N
 F0 "Y" 0 200 50 H V C CNN
 F1 "Crystal_GND3_Small" 0 125 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -612,8 +580,8 @@ ENDDEF
 DEF Crystal_Small Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
 F1 "Crystal_Small" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -631,11 +599,10 @@ ENDDEF
 DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -655,11 +622,10 @@ ENDDEF
 DEF DIAC D 0 40 N N 1 F N
 F0 "D" 0 150 50 H V C CNN
 F1 "DIAC" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -680,11 +646,10 @@ ENDDEF
 DEF DIAC_ALT D 0 40 N N 1 F N
 F0 "D" 0 150 50 H V C CNN
 F1 "DIAC_ALT" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -705,11 +670,10 @@ ENDDEF
 DEF D_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -729,11 +693,11 @@ ENDDEF
 DEF D_Bridge_+-AA D 0 50 Y Y 1 F N
 F0 "D" 50 275 50 H V L CNN
 F1 "D_Bridge_+-AA" 50 200 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -757,11 +721,11 @@ ENDDEF
 DEF D_Bridge_+A-A D 0 50 Y Y 1 F N
 F0 "D" 50 275 50 H V L CNN
 F1 "D_Bridge_+A-A" 50 200 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -785,11 +749,11 @@ ENDDEF
 DEF D_Bridge_+AA- D 0 50 Y Y 1 F N
 F0 "D" 50 275 50 H V L CNN
 F1 "D_Bridge_+AA-" 50 200 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -813,11 +777,11 @@ ENDDEF
 DEF D_Bridge_-A+A D 0 50 Y Y 1 F N
 F0 "D" 50 275 50 H V L CNN
 F1 "D_Bridge_-A+A" 50 200 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -841,11 +805,11 @@ ENDDEF
 DEF D_Bridge_-AA+ D 0 50 Y Y 1 F N
 F0 "D" 50 275 50 H V L CNN
 F1 "D_Bridge_-AA+" 50 200 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode?Bridge*
- Diode?Rectifier*
+ D?Bridge*
+ D?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -869,11 +833,10 @@ ENDDEF
 DEF D_Capacitance D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Capacitance" 0 -130 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -897,11 +860,10 @@ ENDDEF
 DEF D_Capacitance_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Capacitance_ALT" 0 -130 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -925,8 +887,8 @@ ENDDEF
 DEF D_Photo D 0 40 N N 1 F N
 F0 "D" 20 70 50 H V L CNN
 F1 "D_Photo" -40 -110 50 H V C CNN
-F2 "" -50 0 50 H V C CNN
-F3 "" -50 0 50 H V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
 $FPLIST
  *photodiode*
 $ENDFPLIST
@@ -947,8 +909,8 @@ ENDDEF
 DEF D_Photo_ALT D 0 40 N N 1 F N
 F0 "D" 20 70 50 H V L CNN
 F1 "D_Photo_ALT" -40 -110 50 H V C CNN
-F2 "" -50 0 50 H V C CNN
-F3 "" -50 0 50 H V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
 $FPLIST
  *photodiode*
 $ENDFPLIST
@@ -969,8 +931,8 @@ ENDDEF
 DEF D_Radiation D 0 40 N N 1 F N
 F0 "D" -50 -90 50 H V C CNN
 F1 "D_Radiation" -50 -160 50 H V C CNN
-F2 "" -50 0 50 H V C CNN
-F3 "" -50 0 50 H V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
 DRAW
 A -30 130 22 634 -1534 0 1 0 N -20 150 -50 120
 A -10 170 22 -1166 266 0 1 0 N -20 150 10 180
@@ -997,8 +959,8 @@ ENDDEF
 DEF D_Radiation_ALT D 0 40 N N 1 F N
 F0 "D" -50 -90 50 H V C CNN
 F1 "D_Radiation_ALT" -50 -160 50 H V C CNN
-F2 "" -50 0 50 H V C CNN
-F3 "" -50 0 50 H V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
 DRAW
 A -30 130 22 634 -1534 0 1 0 N -20 150 -50 120
 A -10 170 22 -1166 266 0 1 0 N -20 150 10 180
@@ -1025,11 +987,10 @@ ENDDEF
 DEF D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1049,11 +1010,10 @@ ENDDEF
 DEF D_Schottky_AAK D 0 0 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_AAK" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1074,11 +1034,10 @@ ENDDEF
 DEF D_Schottky_AKA D 0 0 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_AKA" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1099,11 +1058,10 @@ ENDDEF
 DEF D_Schottky_AKK D 0 0 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_AKK" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1124,11 +1082,10 @@ ENDDEF
 DEF D_Schottky_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1148,16 +1105,8 @@ ENDDEF
 DEF D_Schottky_KAA D 0 0 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_KAA" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 P 4 0 1 0 150 100 100 100 100 0 -50 0 N
@@ -1173,16 +1122,8 @@ ENDDEF
 DEF D_Schottky_KAK D 0 0 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_KAK" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 4 0 1 0 -200 100 -150 100 -150 0 100 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
@@ -1198,16 +1139,8 @@ ENDDEF
 DEF D_Schottky_KKA D 0 0 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_KKA" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 4 0 1 0 -200 100 -150 100 -150 0 100 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
@@ -1223,11 +1156,10 @@ ENDDEF
 DEF D_Schottky_Small D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "D_Schottky_Small" -280 -80 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1249,11 +1181,10 @@ ENDDEF
 DEF D_Schottky_Small_ALT D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "D_Schottky_Small_ALT" -280 -80 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1275,8 +1206,8 @@ ENDDEF
 DEF D_Schottky_x2_ACom_AKK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_ACom_AKK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -140 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1299,8 +1230,8 @@ ENDDEF
 DEF D_Schottky_x2_ACom_KAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_ACom_KAK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -140 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1323,8 +1254,8 @@ ENDDEF
 DEF D_Schottky_x2_ACom_KKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_ACom_KKA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -140 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1347,8 +1278,8 @@ ENDDEF
 DEF D_Schottky_x2_KCom_AAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_KCom_AAK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1371,8 +1302,8 @@ ENDDEF
 DEF D_Schottky_x2_KCom_AKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_KCom_AKA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 0 0 0 -100 N
 P 2 0 1 0 150 0 -150 0 N
@@ -1395,8 +1326,8 @@ ENDDEF
 DEF D_Schottky_x2_KCom_KAA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_KCom_KAA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1419,8 +1350,8 @@ ENDDEF
 DEF D_Schottky_x2_Serial_ACK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_Serial_ACK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 0 0 0 -100 N
 P 2 0 1 0 150 0 -150 0 N
@@ -1444,8 +1375,8 @@ ENDDEF
 DEF D_Schottky_x2_Serial_AKC D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_Serial_AKC" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1469,8 +1400,8 @@ ENDDEF
 DEF D_Schottky_x2_Serial_CAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_Serial_CAK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1493,8 +1424,8 @@ ENDDEF
 DEF D_Schottky_x2_Serial_CKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_Serial_CKA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1517,8 +1448,8 @@ ENDDEF
 DEF D_Schottky_x2_Serial_KAC D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_Serial_KAC" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1541,8 +1472,8 @@ ENDDEF
 DEF D_Schottky_x2_Serial_KCA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_Schottky_x2_Serial_KCA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -1566,11 +1497,10 @@ ENDDEF
 DEF D_Shockley D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Shockley" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1590,14 +1520,14 @@ ENDDEF
 DEF D_Small D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "D_Small" -150 -80 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
- *SingleDiode*
  *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -30 -40 -30 40 N
@@ -1613,14 +1543,14 @@ ENDDEF
 DEF D_Small_ALT D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "D_Small_ALT" -150 -80 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
- *SingleDiode*
  *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -30 -40 -30 40 N
@@ -1636,11 +1566,10 @@ ENDDEF
 DEF D_TVS D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_TVS" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1661,11 +1590,10 @@ ENDDEF
 DEF D_TVS_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_TVS_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1686,16 +1614,8 @@ ENDDEF
 DEF D_TVS_x2_AAC D 0 40 Y N 1 F N
 F0 "D" 0 175 50 H V C CNN
 F1 "D_TVS_x2_AAC" 0 100 50 H V C CNN
-F2 "" -150 0 50 H V C CNN
-F3 "" -150 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
+F2 "" -150 0 50 H I C CNN
+F3 "" -150 0 50 H I C CNN
 DRAW
 P 2 0 0 0 0 -50 0 0 N
 P 2 0 1 0 -250 0 250 0 N
@@ -1714,16 +1634,8 @@ ENDDEF
 DEF D_TVS_x2_ACA D 0 40 Y N 1 F N
 F0 "D" 0 175 50 H V C CNN
 F1 "D_TVS_x2_ACA" 0 100 50 H V C CNN
-F2 "" -150 0 50 H V C CNN
-F3 "" -150 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
+F2 "" -150 0 50 H I C CNN
+F3 "" -150 0 50 H I C CNN
 DRAW
 P 5 0 0 8 -250 -50 -50 50 -50 -50 -250 50 -250 -50 N
 P 5 0 0 8 50 50 50 -50 250 50 250 -50 50 50 N
@@ -1742,16 +1654,8 @@ ENDDEF
 DEF D_TVS_x2_CAA D 0 40 Y N 1 F N
 F0 "D" 0 175 50 H V C CNN
 F1 "D_TVS_x2_CAA" 0 100 50 H V C CNN
-F2 "" -150 0 50 H V C CNN
-F3 "" -150 0 50 H V C CNN
-$FPLIST
- Diode_*
- D-Pak_TO252AA
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
+F2 "" -150 0 50 H I C CNN
+F3 "" -150 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -250 0 250 0 N
 P 2 0 1 0 0 0 0 -50 N
@@ -1770,11 +1674,10 @@ ENDDEF
 DEF D_Temperature_Dependent D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Temperature_Dependent" 0 -125 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1802,11 +1705,10 @@ ENDDEF
 DEF D_Temperature_Dependent_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Temperature_Dependent_ALT" 0 -125 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1834,11 +1736,10 @@ ENDDEF
 DEF D_Tunnel D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Tunnel" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1858,11 +1759,10 @@ ENDDEF
 DEF D_Tunnel_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Tunnel_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1882,11 +1782,10 @@ ENDDEF
 DEF D_Unitunnel D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Unitunnel" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1906,11 +1805,10 @@ ENDDEF
 DEF D_Unitunnel_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Unitunnel_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1930,11 +1828,10 @@ ENDDEF
 DEF D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Zener" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1954,11 +1851,10 @@ ENDDEF
 DEF D_Zener_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Zener_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -1978,14 +1874,14 @@ ENDDEF
 DEF D_Zener_Small D 0 10 N N 1 F N
 F0 "D" 0 90 50 H V C CNN
 F1 "D_Zener_Small" 0 -90 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
- *SingleDiode*
  *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 30 0 -30 0 N
@@ -2001,14 +1897,14 @@ ENDDEF
 DEF D_Zener_Small_ALT D 0 10 N N 1 F N
 F0 "D" 0 90 50 H V C CNN
 F1 "D_Zener_Small_ALT" 0 -90 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 $FPLIST
- Diode_*
- D-Pak_TO252AA
+ TO-???*
  *SingleDiode
- *SingleDiode*
  *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 30 0 -30 0 N
@@ -2024,8 +1920,8 @@ ENDDEF
 DEF D_x2_ACom_AKK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_ACom_AKK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -140 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -2044,8 +1940,8 @@ ENDDEF
 DEF D_x2_ACom_KAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_ACom_KAK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 0 0 0 -100 N
 P 2 0 1 0 150 0 -150 0 N
@@ -2064,8 +1960,8 @@ ENDDEF
 DEF D_x2_ACom_KKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_ACom_KKA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -2084,8 +1980,8 @@ ENDDEF
 DEF D_x2_KCom_AAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_KCom_AAK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -2104,8 +2000,8 @@ ENDDEF
 DEF D_x2_KCom_AKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_KCom_AKA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 0 0 0 -100 N
 P 2 0 1 0 150 0 -150 0 N
@@ -2124,8 +2020,8 @@ ENDDEF
 DEF D_x2_KCom_KAA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_KCom_KAA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -2144,8 +2040,8 @@ ENDDEF
 DEF D_x2_Serial_ACK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_Serial_ACK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 0 0 0 -100 N
 P 2 0 1 0 150 0 -150 0 N
@@ -2165,8 +2061,8 @@ ENDDEF
 DEF D_x2_Serial_AKC D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_Serial_AKC" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -2186,8 +2082,8 @@ ENDDEF
 DEF D_x2_Serial_CAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_Serial_CAK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 0 0 0 -100 N
 P 2 0 1 0 150 0 -150 0 N
@@ -2206,8 +2102,8 @@ ENDDEF
 DEF D_x2_Serial_CKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_Serial_CKA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -150 0 150 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -2226,8 +2122,8 @@ ENDDEF
 DEF D_x2_Serial_KAC D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_Serial_KAC" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 0 0 0 -100 N
 P 2 0 1 0 150 0 -150 0 N
@@ -2246,8 +2142,8 @@ ENDDEF
 DEF D_x2_Serial_KCA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
 F1 "D_x2_Serial_KCA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 0 0 0 -100 N
 P 2 0 1 0 150 0 -150 0 N
@@ -2267,8 +2163,8 @@ ENDDEF
 DEF Delay_Line L 0 40 Y N 1 F N
 F0 "L" 100 50 50 H V L CNN
 F1 "Delay_Line" 100 -50 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A 0 -150 50 899 1 0 1 0 N 0 -100 50 -150
 A 0 -150 50 -1 -899 0 1 0 N 50 -150 0 -199
@@ -2290,8 +2186,12 @@ ENDDEF
 DEF EMI_Filter_CLC FL 0 10 Y N 1 F N
 F0 "FL" 0 275 50 H V C CNN
 F1 "EMI_Filter_CLC" 0 200 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
 DRAW
 A -80 100 20 1 1799 0 1 0 N -60 100 -100 100
 A -40 100 20 1 1799 0 1 0 N -20 100 -60 100
@@ -2322,8 +2222,12 @@ ENDDEF
 DEF EMI_Filter_LCL FL 0 10 Y N 1 F N
 F0 "FL" 0 275 50 H V C CNN
 F1 "EMI_Filter_LCL" 0 200 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
 DRAW
 A -180 100 20 1 1799 0 1 0 N -160 100 -200 100
 A -140 100 20 1 1799 0 1 0 N -120 100 -160 100
@@ -2384,8 +2288,8 @@ ENDDEF
 DEF Earphone LS 0 1 Y N 1 F N
 F0 "LS" 100 150 50 H V L CNN
 F1 "Earphone" 100 75 50 H V L CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 S 50 -25 75 125 0 1 0 F
 S 50 0 -50 100 0 1 0 N
@@ -2399,8 +2303,12 @@ ENDDEF
 DEF Electromagnetic_Actor L 0 1 N N 1 F N
 F0 "L" 50 150 50 H V L CNN
 F1 "Electromagnetic_Actor" 50 -50 50 H V L CNN
-F2 "" -25 100 50 V V C CNN
-F3 "" -25 100 50 V V C CNN
+F2 "" -25 100 50 V I C CNN
+F3 "" -25 100 50 V I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+$ENDFPLIST
 DRAW
 S -100 100 100 0 0 1 10 N
 P 2 0 1 10 -50 100 50 0 N
@@ -2414,8 +2322,13 @@ ENDDEF
 DEF Ferrite_Bead L 0 0 N Y 1 F N
 F0 "L" -150 25 50 V V C CNN
 F1 "Ferrite_Bead" 150 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
 DRAW
 P 2 0 1 0 0 -50 0 -48 N
 P 2 0 1 0 0 50 0 51 N
@@ -2430,8 +2343,13 @@ ENDDEF
 DEF Ferrite_Bead_Small L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
 F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
 DRAW
 P 2 0 1 0 0 -50 0 -31 N
 P 2 0 1 0 0 35 0 51 N
@@ -2446,8 +2364,8 @@ ENDDEF
 DEF Frequency_Counter MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
 F1 "Frequency_Counter" -130 -30 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 T 0 0 0 80 0 0 0 Hz Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
@@ -2464,8 +2382,8 @@ ENDDEF
 DEF Fuse F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
 F1 "Fuse" -75 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  *Fuse*
 $ENDFPLIST
@@ -2482,8 +2400,8 @@ ENDDEF
 DEF Fuse_Polarized F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
 F1 "Fuse_Polarized" -75 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  *Fuse*
 $ENDFPLIST
@@ -2501,10 +2419,9 @@ ENDDEF
 DEF Fuse_Polarized_Small F 0 10 N N 1 F N
 F0 "F" 10 -60 50 H V C CNN
 F1 "Fuse_Polarized_Small" 0 60 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP*
  SM*
 $ENDFPLIST
 DRAW
@@ -2521,10 +2438,9 @@ ENDDEF
 DEF Fuse_Small F 0 10 N N 1 F N
 F0 "F" 0 -60 50 H V C CNN
 F1 "Fuse_Small" 0 60 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP*
  SM*
 $ENDFPLIST
 DRAW
@@ -2540,8 +2456,8 @@ ENDDEF
 DEF Galvanometer MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
 F1 "Galvanometer" -130 -30 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 P 2 0 0 0 -125 -125 125 125 N
 P 3 0 0 0 75 125 125 125 125 75 N
@@ -2578,8 +2494,8 @@ ENDDEF
 DEF Heater R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "Heater" -80 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 S -40 -100 40 100 0 1 10 N
 P 2 0 1 0 -40 60 40 60 N
@@ -2596,8 +2512,8 @@ ENDDEF
 DEF Jumper JP 0 30 Y N 1 F N
 F0 "JP" 0 150 50 H V C CNN
 F1 "Jumper" 0 -80 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
 C -100 0 35 0 1 0 N
@@ -2612,8 +2528,8 @@ ENDDEF
 DEF Jumper_NC_Dual JP 0 30 Y N 1 F N
 F0 "JP" 50 -100 50 H V L CNN
 F1 "Jumper_NC_Dual" 0 100 50 H V C BNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A -60 10 64 386 1413 0 1 0 N -10 50 -110 50
 A 60 10 64 386 1413 0 1 0 N 110 50 10 50
@@ -2631,8 +2547,8 @@ ENDDEF
 DEF Jumper_NC_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
 F1 "Jumper_NC_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A 0 -10 57 450 1350 0 1 0 N 40 30 -40 30
 C -40 0 20 0 1 0 N
@@ -2647,8 +2563,8 @@ ENDDEF
 DEF Jumper_NO_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
 F1 "Jumper_NO_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C -40 0 20 0 1 0 N
 C 40 0 20 0 1 0 N
@@ -2662,11 +2578,13 @@ ENDDEF
 DEF L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "L" 75 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
+ Inductor_*
+ L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -2683,8 +2601,8 @@ ENDDEF
 DEF LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  LED*
 $ENDFPLIST
@@ -2704,8 +2622,8 @@ ENDDEF
 DEF LED_ALT D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "LED_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  LED*
 $ENDFPLIST
@@ -2725,8 +2643,8 @@ ENDDEF
 DEF LED_ARGB D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
 F1 "LED_ARGB" 0 -350 50 H V C CNN
-F2 "" 0 -50 50 H V C CNN
-F3 "" 0 -50 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
 DRAW
 T 0 -75 -250 50 0 0 0 B Normal 0 C C
 T 0 -75 -50 50 0 0 0 G Normal 0 C C
@@ -2762,8 +2680,8 @@ ENDDEF
 DEF LED_CRGB D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
 F1 "LED_CRGB" 0 -350 50 H V C CNN
-F2 "" 0 -50 50 H V C CNN
-F3 "" 0 -50 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
 DRAW
 T 0 75 -250 50 0 0 0 B Normal 0 C C
 T 0 75 -50 50 0 0 0 G Normal 0 C C
@@ -2799,8 +2717,8 @@ ENDDEF
 DEF LED_Dual_2pin D 0 0 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
 F1 "LED_Dual_2pin" 0 -250 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C -80 0 10 0 1 0 F
 C 0 0 180 0 1 10 f
@@ -2827,8 +2745,8 @@ ENDDEF
 DEF LED_Dual_AAC D 0 0 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
 F1 "LED_Dual_AAC" 0 -250 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C -100 0 11 0 1 0 F
 C 0 0 180 0 1 10 f
@@ -2853,8 +2771,8 @@ ENDDEF
 DEF LED_Dual_AACC D 0 0 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
 F1 "LED_Dual_AACC" 0 -250 50 H V C CNN
-F2 "" 30 0 50 H V C CNN
-F3 "" 30 0 50 H V C CNN
+F2 "" 30 0 50 H I C CNN
+F3 "" 30 0 50 H I C CNN
 DRAW
 C 0 0 180 0 1 10 f
 P 2 0 1 0 -200 -100 80 -100 N
@@ -2879,8 +2797,8 @@ ENDDEF
 DEF LED_Dual_ACA D 0 0 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
 F1 "LED_Dual_ACA" 0 -250 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C -100 0 11 0 1 0 F
 C 0 0 180 0 1 10 f
@@ -2905,8 +2823,8 @@ ENDDEF
 DEF LED_Dual_ACAC D 0 0 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
 F1 "LED_Dual_ACAC" 0 -250 50 H V C CNN
-F2 "" 30 0 50 H V C CNN
-F3 "" 30 0 50 H V C CNN
+F2 "" 30 0 50 H I C CNN
+F3 "" 30 0 50 H I C CNN
 DRAW
 C 0 0 180 0 1 10 f
 P 2 0 1 0 -200 -100 80 -100 N
@@ -2931,8 +2849,8 @@ ENDDEF
 DEF LED_Dual_CAC D 0 0 Y Y 1 F N
 F0 "D" 0 225 50 H V C CNN
 F1 "LED_Dual_CAC" 0 -250 50 H V C CNN
-F2 "" 50 0 50 H V C CNN
-F3 "" 50 0 50 H V C CNN
+F2 "" 50 0 50 H I C CNN
+F3 "" 50 0 50 H I C CNN
 DRAW
 C -100 0 11 0 1 0 F
 C 0 0 180 0 1 10 f
@@ -2957,8 +2875,8 @@ ENDDEF
 DEF LED_Dual_CCA D 0 0 Y Y 1 F N
 F0 "D" 0 225 50 H V C CNN
 F1 "LED_Dual_CCA" 0 -250 50 H V C CNN
-F2 "" 50 0 50 H V C CNN
-F3 "" 50 0 50 H V C CNN
+F2 "" 50 0 50 H I C CNN
+F3 "" 50 0 50 H I C CNN
 DRAW
 C -100 0 11 0 1 0 F
 C 0 0 180 0 1 10 f
@@ -2983,8 +2901,8 @@ ENDDEF
 DEF LED_RABG D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
 F1 "LED_RABG" 0 -350 50 H V C CNN
-F2 "" 0 -50 50 H V C CNN
-F3 "" 0 -50 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
 DRAW
 T 0 -75 -250 50 0 0 0 B Normal 0 C C
 T 0 -75 -50 50 0 0 0 G Normal 0 C C
@@ -3030,8 +2948,8 @@ ENDDEF
 DEF LED_RAGB D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
 F1 "LED_RAGB" 0 -350 50 H V C CNN
-F2 "" 0 -50 50 H V C CNN
-F3 "" 0 -50 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
 DRAW
 T 0 -75 -250 50 0 0 0 B Normal 0 C C
 T 0 -75 -50 50 0 0 0 G Normal 0 C C
@@ -3077,8 +2995,8 @@ ENDDEF
 DEF LED_RCBG D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
 F1 "LED_RCBG" 0 -350 50 H V C CNN
-F2 "" 0 -50 50 H V C CNN
-F3 "" 0 -50 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
 DRAW
 T 0 75 -250 50 0 0 0 B Normal 0 C C
 T 0 75 -50 50 0 0 0 G Normal 0 C C
@@ -3124,8 +3042,8 @@ ENDDEF
 DEF LED_RCGB D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
 F1 "LED_RCGB" 0 -350 50 H V C CNN
-F2 "" 0 -50 50 H V C CNN
-F3 "" 0 -50 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
 DRAW
 T 0 75 -250 50 0 0 0 B Normal 0 C C
 T 0 75 -50 50 0 0 0 G Normal 0 C C
@@ -3171,8 +3089,8 @@ ENDDEF
 DEF LED_RGB D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
 F1 "LED_RGB" 0 -350 50 H V C CNN
-F2 "" 0 -50 50 H V C CNN
-F3 "" 0 -50 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
 DRAW
 T 0 -75 -250 50 0 0 0 B Normal 0 C C
 T 0 -75 -50 50 0 0 0 G Normal 0 C C
@@ -3220,8 +3138,8 @@ ENDDEF
 DEF LED_RGB_EP D 0 0 Y N 1 F N
 F0 "D" 0 450 50 H V C CNN
 F1 "LED_RGB_EP" 0 370 50 H V C CNN
-F2 "" 0 -50 50 H V C CNN
-F3 "" 0 -50 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
 DRAW
 T 0 -75 -250 50 0 0 0 B Normal 0 C C
 T 0 -75 -50 50 0 0 0 G Normal 0 C C
@@ -3271,8 +3189,8 @@ ENDDEF
 DEF LED_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
 F1 "LED_Small" -175 -100 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 $FPLIST
  LED-*
  LED_*
@@ -3293,8 +3211,8 @@ ENDDEF
 DEF LED_Small_ALT D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
 F1 "LED_Small_ALT" -175 -100 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 $FPLIST
  LED-*
  LED_*
@@ -3315,8 +3233,12 @@ ENDDEF
 DEF LTRIM L 0 40 N N 1 F N
 F0 "L" -75 0 50 V V C CNN
 F1 "LTRIM" 125 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+$ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
 A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
@@ -3335,11 +3257,13 @@ ENDDEF
 DEF L_Core_Ferrite L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "L_Core_Ferrite" 110 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
+ Inductor_*
+ L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -3368,11 +3292,13 @@ ENDDEF
 DEF L_Core_Ferrite_Small L 0 10 N N 1 F N
 F0 "L" 50 40 50 H V L CNN
 F1 "L_Core_Ferrite_Small" 50 -50 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
+ Inductor_*
+ L_*
 $ENDFPLIST
 DRAW
 A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
@@ -3405,11 +3331,13 @@ ENDDEF
 DEF L_Core_Iron L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "L_Core_Iron" 110 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
+ Inductor_*
+ L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -3428,11 +3356,13 @@ ENDDEF
 DEF L_Core_Iron_Small L 0 10 N N 1 F N
 F0 "L" 50 40 50 H V L CNN
 F1 "L_Core_Iron_Small" 50 -50 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
+ Inductor_*
+ L_*
 $ENDFPLIST
 DRAW
 A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
@@ -3451,11 +3381,13 @@ ENDDEF
 DEF L_Small L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
 F1 "L_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
+ Inductor_*
+ L_*
 $ENDFPLIST
 DRAW
 A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
@@ -3472,8 +3404,8 @@ ENDDEF
 DEF Lamp LA 0 1 N N 1 F N
 F0 "LA" 25 150 50 H V L CNN
 F1 "Lamp" 25 -150 50 H V L CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 C 0 0 100 0 1 0 N
 P 2 0 1 0 -70 70 70 -70 N
@@ -3488,8 +3420,8 @@ ENDDEF
 DEF Lamp_Flash LA 0 1 Y N 1 F N
 F0 "LA" 25 150 50 H V L CNN
 F1 "Lamp_Flash" 25 -150 50 H V L CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 A 0 0 117 310 -310 0 0 10 N 100 60 100 -60
 S -30 -70 30 -80 0 0 10 F
@@ -3510,8 +3442,8 @@ ENDDEF
 DEF Lamp_Neon NE 0 1 Y N 1 F N
 F0 "NE" 25 150 50 H V L CNN
 F1 "Lamp_Neon" 25 -150 50 H V L CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 C 0 0 100 0 1 0 N
 C 40 -50 10 0 1 0 F
@@ -3530,7 +3462,7 @@ DEF Laserdiode_1A3C LD 0 40 Y N 1 F N
 F0 "LD" -50 175 50 H V C CNN
 F1 "Laserdiode_1A3C" -50 -100 50 H V C CNN
 F2 "" -100 -25 50 H I C CNN
-F3 "" 30 -200 50 H V C CNN
+F3 "" 30 -200 50 H I C CNN
 $FPLIST
  *LaserDiode*
 $ENDFPLIST
@@ -3561,7 +3493,7 @@ DEF Laserdiode_1C2A LD 0 40 Y N 1 F N
 F0 "LD" -50 175 50 H V C CNN
 F1 "Laserdiode_1C2A" -50 -100 50 H V C CNN
 F2 "" -100 -25 50 H I C CNN
-F3 "" 30 -200 50 H V C CNN
+F3 "" 30 -200 50 H I C CNN
 $FPLIST
  *LaserDiode*
 $ENDFPLIST
@@ -3592,7 +3524,7 @@ DEF Laserdiode_M_TYPE LD 0 40 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
 F1 "Laserdiode_M_TYPE" 40 -220 50 H V C CNN
 F2 "" 40 75 50 H I C CNN
-F3 "" 90 -100 50 H V C CNN
+F3 "" 90 -100 50 H I C CNN
 $FPLIST
  *LaserDiode*
 $ENDFPLIST
@@ -3639,7 +3571,7 @@ DEF Laserdiode_N_TYPE LD 0 40 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
 F1 "Laserdiode_N_TYPE" 40 -220 50 H V C CNN
 F2 "" 0 75 50 H I C CNN
-F3 "" 50 -100 50 H V C CNN
+F3 "" 50 -100 50 H I C CNN
 $FPLIST
  *LaserDiode*
 $ENDFPLIST
@@ -3686,7 +3618,7 @@ DEF Laserdiode_P_TYPE LD 0 40 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
 F1 "Laserdiode_P_TYPE" 40 -220 50 H V C CNN
 F2 "" 0 75 50 H I C CNN
-F3 "" 130 -100 50 H V C CNN
+F3 "" 130 -100 50 H I C CNN
 $FPLIST
  *LaserDiode*
 $ENDFPLIST
@@ -3732,8 +3664,8 @@ ENDDEF
 DEF MEMRISTOR MR 0 0 N Y 1 F N
 F0 "MR" 100 0 50 V V C CNN
 F1 "MEMRISTOR" -100 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 10 0 0 10 0 100 50 100 50 50 -50 50 -50 0 50 0 50 -50 -50 -50 -50 -100 0 -100 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -3746,8 +3678,8 @@ ENDDEF
 DEF Microphone MK 0 1 Y N 1 F N
 F0 "MK" -150 50 50 H V R CNN
 F1 "Microphone" -150 -25 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 C 0 0 100 0 1 10 N
 P 2 0 1 10 -100 100 -100 -100 N
@@ -3763,8 +3695,8 @@ ENDDEF
 DEF Microphone_Condenser MK 0 1 Y N 1 F N
 F0 "MK" -130 50 50 H V R CNN
 F1 "Microphone_Condenser" -130 -25 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 C 0 0 100 0 1 10 N
 S 40 -10 -40 -30 0 1 0 F
@@ -3784,8 +3716,8 @@ ENDDEF
 DEF Microphone_Crystal MK 0 1 Y N 1 F N
 F0 "MK" -150 45 50 H V R CNN
 F1 "Microphone_Crystal" -150 -30 50 H V R CNN
-F2 "" 50 -70 50 V V L CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 50 -70 50 V I L CNN
+F3 "" 0 100 50 V I C CNN
 ALIAS Microphone_Ultrasound
 DRAW
 C 0 0 100 0 1 10 N
@@ -3807,8 +3739,8 @@ ENDDEF
 DEF Ohmmeter MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
 F1 "Ohmmeter" -130 -30 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 T 0 0 0 100 0 0 0 Ω Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
@@ -3825,8 +3757,8 @@ ENDDEF
 DEF Oscilloscope MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
 F1 "Oscilloscope" -130 -30 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 A -55 20 15 1 1799 0 0 10 N -40 20 -70 20
 A -15 -20 15 -1799 -1 0 0 10 N -30 -20 0 -20
@@ -3850,8 +3782,8 @@ ENDDEF
 DEF POT RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
 F1 "POT" -100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 S 40 100 -40 -100 0 1 10 N
 P 2 0 1 0 100 0 60 0 N
@@ -3867,8 +3799,8 @@ ENDDEF
 DEF POT_Dual RV 0 40 Y N 1 F N
 F0 "RV" 0 150 50 H V C CNN
 F1 "POT_Dual" 0 75 50 H V C CNN
-F2 "" 250 -75 50 H V C CNN
-F3 "" 250 -75 50 H V C CNN
+F2 "" 250 -75 50 H I C CNN
+F3 "" 250 -75 50 H I C CNN
 DRAW
 S -350 -60 -150 -140 0 1 10 N
 S 150 -60 350 -140 0 1 10 N
@@ -3908,8 +3840,8 @@ ENDDEF
 DEF POT_Dual_Separate RV 0 40 Y N 2 F N
 F0 "RV" -175 0 50 V V C CNN
 F1 "POT_Dual_Separate" -100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 S 40 100 -40 -100 0 1 10 N
 P 2 0 1 0 100 0 60 0 N
@@ -3928,8 +3860,8 @@ ENDDEF
 DEF POT_TRIM RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
 F1 "POT_TRIM" -100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 S 40 100 -40 -100 0 1 10 N
 P 2 0 1 0 60 30 60 -30 N
@@ -3945,8 +3877,8 @@ ENDDEF
 DEF Peltier_Element PE 0 0 N Y 1 F N
 F0 "PE" 0 125 50 H V C CNN
 F1 "Peltier_Element" 0 -50 50 H V C CNN
-F2 "" 0 -70 50 H V C CNN
-F3 "" 0 25 50 V V C CNN
+F2 "" 0 -70 50 H I C CNN
+F3 "" 0 25 50 V I C CNN
 DRAW
 S -140 75 -115 0 0 1 0 F
 S -90 75 -65 0 0 1 0 F
@@ -4001,13 +3933,102 @@ X ~ 2 0 -100 25 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Q_DUAL_NPN_NPN_E1B1C2E2B2C1
+#
+DEF Q_DUAL_NPN_NPN_E1B1C2E2B2C1 Q 0 0 Y N 2 L N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_DUAL_NPN_NPN_E1B1C2E2B2C1" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SC?70*
+ SC?88*
+ SOT?363*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 0 -100 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X E1 1 100 -200 100 U 50 50 1 1 P
+X B1 2 -200 0 100 R 50 50 1 1 I
+X C1 6 100 200 100 D 50 50 1 1 P
+X C2 3 100 200 100 D 50 50 2 1 P
+X E2 4 100 -200 100 U 50 50 2 1 P
+X B2 5 -200 0 100 R 50 50 2 1 I
+ENDDRAW
+ENDDEF
+#
+# Q_DUAL_NPN_PNP_E1B1C2E2B2C1
+#
+DEF Q_DUAL_NPN_PNP_E1B1C2E2B2C1 Q 0 0 Y N 2 L N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_DUAL_NPN_PNP_E1B1C2E2B2C1" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SC?70*
+ SC?88*
+ SOT?363*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 0 -100 0 N
+P 2 1 1 0 25 25 100 100 N
+P 3 1 1 0 25 -25 100 -100 100 -100 N
+P 3 1 1 20 25 75 25 -75 25 -75 N
+P 5 1 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X E1 1 100 -200 100 U 50 50 1 1 P
+X B1 2 -200 0 100 R 50 50 1 1 I
+X C1 6 100 200 100 D 50 50 1 1 P
+P 2 2 1 0 25 25 100 100 N
+P 3 2 1 0 25 -25 100 -100 100 -100 N
+P 3 2 1 20 25 75 25 -75 25 -75 N
+P 5 2 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X C2 3 100 200 100 D 50 50 2 1 P
+X E2 4 100 -200 100 U 50 50 2 1 P
+X B2 5 -200 0 100 R 50 50 2 1 I
+ENDDRAW
+ENDDEF
+#
+# Q_DUAL_PNP_PNP_E1B1C2E2B2C1
+#
+DEF Q_DUAL_PNP_PNP_E1B1C2E2B2C1 Q 0 0 Y N 2 L N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_DUAL_PNP_PNP_E1B1C2E2B2C1" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SC?70*
+ SC?88*
+ SOT?363*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 0 -100 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X E1 1 100 -200 100 U 50 50 1 1 P
+X B1 2 -200 0 100 R 50 50 1 1 I
+X C1 6 100 200 100 D 50 50 1 1 P
+X C2 3 100 200 100 D 50 50 2 1 P
+X E2 4 100 -200 100 U 50 50 2 1 P
+X B2 5 -200 0 100 R 50 50 2 1 I
+ENDDRAW
+ENDDEF
+#
 # Q_NIGBT_CEG
 #
 DEF Q_NIGBT_CEG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NIGBT_CEG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 10 30 -40 30 -80 N
@@ -4030,8 +4051,8 @@ ENDDEF
 DEF Q_NIGBT_CGE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NIGBT_CGE" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 10 30 -40 30 -80 N
@@ -4054,8 +4075,8 @@ ENDDEF
 DEF Q_NIGBT_ECG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NIGBT_ECG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 10 30 -40 30 -80 N
@@ -4078,8 +4099,8 @@ ENDDEF
 DEF Q_NIGBT_ECGC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NIGBT_ECGC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 10 30 -40 30 -80 N
@@ -4104,8 +4125,8 @@ ENDDEF
 DEF Q_NIGBT_EGC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NIGBT_EGC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 10 30 -40 30 -80 N
@@ -4128,8 +4149,8 @@ ENDDEF
 DEF Q_NIGBT_GCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NIGBT_GCE" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 10 30 -40 30 -80 N
@@ -4152,8 +4173,8 @@ ENDDEF
 DEF Q_NIGBT_GCEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NIGBT_GCEC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 10 30 -40 30 -80 N
@@ -4178,8 +4199,8 @@ ENDDEF
 DEF Q_NIGBT_GEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NIGBT_GEC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 10 30 -40 30 -80 N
@@ -4202,8 +4223,8 @@ ENDDEF
 DEF Q_NJFET_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NJFET_DGS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4221,8 +4242,8 @@ ENDDEF
 DEF Q_NJFET_DSG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NJFET_DSG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4240,8 +4261,8 @@ ENDDEF
 DEF Q_NJFET_GDS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NJFET_GDS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4259,8 +4280,8 @@ ENDDEF
 DEF Q_NJFET_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NJFET_GSD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4278,8 +4299,8 @@ ENDDEF
 DEF Q_NJFET_SDG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NJFET_SDG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4297,8 +4318,8 @@ ENDDEF
 DEF Q_NJFET_SGD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NJFET_SGD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4316,8 +4337,8 @@ ENDDEF
 DEF Q_NMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NMOS_DGS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -4347,8 +4368,8 @@ ENDDEF
 DEF Q_NMOS_DSG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NMOS_DSG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -4378,8 +4399,8 @@ ENDDEF
 DEF Q_NMOS_GDS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NMOS_GDS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -4409,8 +4430,8 @@ ENDDEF
 DEF Q_NMOS_GDSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NMOS_GDSD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -4442,8 +4463,8 @@ ENDDEF
 DEF Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NMOS_GSD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -4473,8 +4494,8 @@ ENDDEF
 DEF Q_NMOS_SDG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NMOS_SDG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -4504,8 +4525,8 @@ ENDDEF
 DEF Q_NMOS_SDGD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NMOS_SDGD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -4537,8 +4558,8 @@ ENDDEF
 DEF Q_NMOS_SGD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NMOS_SGD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -4568,8 +4589,8 @@ ENDDEF
 DEF Q_NPN_BCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_BCE" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4587,8 +4608,8 @@ ENDDEF
 DEF Q_NPN_BCEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_BCEC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4608,8 +4629,8 @@ ENDDEF
 DEF Q_NPN_BEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_BEC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4627,8 +4648,8 @@ ENDDEF
 DEF Q_NPN_CBE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_CBE" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4646,8 +4667,8 @@ ENDDEF
 DEF Q_NPN_CEB Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_CEB" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4665,8 +4686,8 @@ ENDDEF
 DEF Q_NPN_Darlington_BCE Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_NPN_Darlington_BCE" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4685,8 +4706,8 @@ ENDDEF
 DEF Q_NPN_Darlington_BCEC Q 0 0 Y N 1 F N
 F0 "Q" 220 50 50 H V L CNN
 F1 "Q_NPN_Darlington_BCEC" 220 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4707,8 +4728,8 @@ ENDDEF
 DEF Q_NPN_Darlington_BEC Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_NPN_Darlington_BEC" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4727,8 +4748,8 @@ ENDDEF
 DEF Q_NPN_Darlington_CBE Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_NPN_Darlington_CBE" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4747,8 +4768,8 @@ ENDDEF
 DEF Q_NPN_Darlington_CEB Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_NPN_Darlington_CEB" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4767,8 +4788,8 @@ ENDDEF
 DEF Q_NPN_Darlington_EBC Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_NPN_Darlington_EBC" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4787,8 +4808,8 @@ ENDDEF
 DEF Q_NPN_Darlington_ECB Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_NPN_Darlington_ECB" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4807,8 +4828,8 @@ ENDDEF
 DEF Q_NPN_Darlington_ECBC Q 0 0 Y N 1 F N
 F0 "Q" 220 50 50 H V L CNN
 F1 "Q_NPN_Darlington_ECBC" 220 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4829,8 +4850,8 @@ ENDDEF
 DEF Q_NPN_EBC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_EBC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4848,8 +4869,8 @@ ENDDEF
 DEF Q_NPN_ECB Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_ECB" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4867,8 +4888,8 @@ ENDDEF
 DEF Q_NPN_ECBC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_ECBC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4888,8 +4909,8 @@ ENDDEF
 DEF Q_NUJT_BEB Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NUJT_BEB" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 -40 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 -40 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 0 -100 0 -40 0 20 60 N
@@ -4908,8 +4929,8 @@ ENDDEF
 DEF Q_PJFET_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PJFET_DGS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4927,8 +4948,8 @@ ENDDEF
 DEF Q_PJFET_DSG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PJFET_DSG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4946,8 +4967,8 @@ ENDDEF
 DEF Q_PJFET_GDS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PJFET_GDS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4965,8 +4986,8 @@ ENDDEF
 DEF Q_PJFET_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PJFET_GSD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -4984,8 +5005,8 @@ ENDDEF
 DEF Q_PJFET_SDG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PJFET_SDG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -5003,8 +5024,8 @@ ENDDEF
 DEF Q_PJFET_SGD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PJFET_SGD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -5022,8 +5043,8 @@ ENDDEF
 DEF Q_PMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PMOS_DGS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -5053,8 +5074,8 @@ ENDDEF
 DEF Q_PMOS_DSG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PMOS_DSG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -5084,8 +5105,8 @@ ENDDEF
 DEF Q_PMOS_GDS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PMOS_GDS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -5115,8 +5136,8 @@ ENDDEF
 DEF Q_PMOS_GDSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PMOS_GDSD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -5148,8 +5169,8 @@ ENDDEF
 DEF Q_PMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PMOS_GSD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -5179,8 +5200,8 @@ ENDDEF
 DEF Q_PMOS_SDG Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PMOS_SDG" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -5210,8 +5231,8 @@ ENDDEF
 DEF Q_PMOS_SDGD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PMOS_SDGD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -5243,8 +5264,8 @@ ENDDEF
 DEF Q_PMOS_SGD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PMOS_SGD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -5274,8 +5295,8 @@ ENDDEF
 DEF Q_PNP_BCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PNP_BCE" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5293,8 +5314,8 @@ ENDDEF
 DEF Q_PNP_BCEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PNP_BCEC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5314,8 +5335,8 @@ ENDDEF
 DEF Q_PNP_BEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PNP_BEC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5333,8 +5354,8 @@ ENDDEF
 DEF Q_PNP_CBE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PNP_CBE" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5352,8 +5373,8 @@ ENDDEF
 DEF Q_PNP_CEB Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PNP_CEB" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5371,8 +5392,8 @@ ENDDEF
 DEF Q_PNP_Darlington_BCE Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_PNP_Darlington_BCE" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5391,8 +5412,8 @@ ENDDEF
 DEF Q_PNP_Darlington_BCEC Q 0 0 Y N 1 F N
 F0 "Q" 220 50 50 H V L CNN
 F1 "Q_PNP_Darlington_BCEC" 220 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5413,8 +5434,8 @@ ENDDEF
 DEF Q_PNP_Darlington_BEC Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_PNP_Darlington_BEC" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5433,8 +5454,8 @@ ENDDEF
 DEF Q_PNP_Darlington_CBE Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_PNP_Darlington_CBE" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5453,8 +5474,8 @@ ENDDEF
 DEF Q_PNP_Darlington_CEB Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_PNP_Darlington_CEB" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5473,8 +5494,8 @@ ENDDEF
 DEF Q_PNP_Darlington_EBC Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_PNP_Darlington_EBC" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5493,8 +5514,8 @@ ENDDEF
 DEF Q_PNP_Darlington_ECB Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
 F1 "Q_PNP_Darlington_ECB" 180 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5513,8 +5534,8 @@ ENDDEF
 DEF Q_PNP_Darlington_ECBC Q 0 0 Y N 1 F N
 F0 "Q" 220 50 50 H V L CNN
 F1 "Q_PNP_Darlington_ECBC" 220 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5535,8 +5556,8 @@ ENDDEF
 DEF Q_PNP_EBC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PNP_EBC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5554,8 +5575,8 @@ ENDDEF
 DEF Q_PNP_ECB Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PNP_ECB" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5573,8 +5594,8 @@ ENDDEF
 DEF Q_PNP_ECBC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PNP_ECBC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -5594,8 +5615,8 @@ ENDDEF
 DEF Q_PUJT_BEB Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_PUJT_BEB" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 0 -100 0 -40 0 20 -60 N
@@ -5614,8 +5635,8 @@ ENDDEF
 DEF Q_Photo_NPN Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_Photo_NPN" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 ALIAS Q_Photo_NPN_CE
 DRAW
 C 50 0 111 0 1 10 N
@@ -5637,8 +5658,8 @@ ENDDEF
 DEF Q_Photo_NPN_CBE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_Photo_NPN_CBE" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 -75 50 -100 50 N
@@ -5661,8 +5682,8 @@ ENDDEF
 DEF Q_Photo_NPN_EBC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_Photo_NPN_EBC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 -75 50 -100 50 N
@@ -5685,8 +5706,8 @@ ENDDEF
 DEF Q_Photo_NPN_EC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_Photo_NPN_EC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 -75 50 -100 50 N
@@ -5707,8 +5728,8 @@ ENDDEF
 DEF Q_TRIAC_AAG D 0 0 Y N 1 F N
 F0 "D" 125 25 50 H V L CNN
 F1 "Q_TRIAC_AAG" 125 -50 50 H V L CNN
-F2 "" 75 25 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 75 25 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 DRAW
 P 2 0 1 8 -100 -50 100 -50 N
 P 2 0 1 8 -100 50 100 50 N
@@ -5726,8 +5747,8 @@ ENDDEF
 DEF Q_TRIAC_AGA D 0 0 Y N 1 F N
 F0 "D" 125 25 50 H V L CNN
 F1 "Q_TRIAC_AGA" 125 -50 50 H V L CNN
-F2 "" 75 25 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 75 25 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 DRAW
 P 2 0 1 8 -100 -50 100 -50 N
 P 2 0 1 8 -100 50 100 50 N
@@ -5745,8 +5766,8 @@ ENDDEF
 DEF Q_TRIAC_GAA D 0 0 Y N 1 F N
 F0 "D" 125 25 50 H V L CNN
 F1 "Q_TRIAC_GAA" 125 -50 50 H V L CNN
-F2 "" 75 25 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 75 25 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 DRAW
 P 2 0 1 8 -100 -50 100 -50 N
 P 2 0 1 8 -100 50 100 50 N
@@ -5764,8 +5785,8 @@ ENDDEF
 DEF Q_Thyristor_AGK D 0 0 Y N 1 F N
 F0 "D" 75 25 50 H V L CNN
 F1 "Q_Thyristor_AGK" 75 -50 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 DRAW
 P 2 0 1 0 -50 -100 -25 -50 N
 P 2 0 1 8 -50 -50 50 -50 N
@@ -5782,8 +5803,8 @@ ENDDEF
 DEF Q_Thyristor_AKG D 0 0 Y N 1 F N
 F0 "D" 75 25 50 H V L CNN
 F1 "Q_Thyristor_AKG" 75 -50 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 DRAW
 P 2 0 1 0 -50 -100 -25 -50 N
 P 2 0 1 8 -50 -50 50 -50 N
@@ -5800,8 +5821,8 @@ ENDDEF
 DEF Q_Thyristor_GAK D 0 0 Y N 1 F N
 F0 "D" 75 25 50 H V L CNN
 F1 "Q_Thyristor_GAK" 75 -50 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 DRAW
 P 2 0 1 0 -50 -100 -25 -50 N
 P 2 0 1 8 -50 -50 50 -50 N
@@ -5818,8 +5839,8 @@ ENDDEF
 DEF Q_Thyristor_GKA D 0 0 Y N 1 F N
 F0 "D" 75 25 50 H V L CNN
 F1 "Q_Thyristor_GKA" 75 -50 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 DRAW
 P 2 0 1 0 -50 -100 -25 -50 N
 P 2 0 1 8 -50 -50 50 -50 N
@@ -5836,8 +5857,8 @@ ENDDEF
 DEF Q_Thyristor_KAG D 0 0 Y N 1 F N
 F0 "D" 75 25 50 H V L CNN
 F1 "Q_Thyristor_KAG" 75 -50 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 DRAW
 P 2 0 1 0 -50 -100 -25 -50 N
 P 2 0 1 8 -50 -50 50 -50 N
@@ -5854,8 +5875,8 @@ ENDDEF
 DEF Q_Thyristor_KGA D 0 0 Y N 1 F N
 F0 "D" 75 25 50 H V L CNN
 F1 "Q_Thyristor_KGA" 75 -50 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
 DRAW
 P 2 0 1 0 -50 -100 -25 -50 N
 P 2 0 1 8 -50 -50 50 -50 N
@@ -5872,11 +5893,11 @@ ENDDEF
 DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -5890,8 +5911,8 @@ ENDDEF
 DEF RF_Shield_One_Piece J 0 40 Y Y 1 F N
 F0 "J" 0 200 50 H V C CNN
 F1 "RF_Shield_One_Piece" 0 100 50 H V C CNN
-F2 "" 0 -100 50 H V C CNN
-F3 "" 0 -100 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
 DRAW
 P 2 0 1 10 -600 -200 -600 -100 N
 P 2 0 1 10 -600 -50 -600 50 N
@@ -5926,8 +5947,8 @@ ENDDEF
 DEF RF_Shield_Two_Pieces J 0 40 Y Y 1 F N
 F0 "J" 0 200 50 H V C CNN
 F1 "RF_Shield_Two_Pieces" 0 100 50 H V C CNN
-F2 "" 0 -100 50 H V C CNN
-F3 "" 0 -100 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
 DRAW
 P 2 0 1 10 -600 -200 -600 -100 N
 P 2 0 1 10 -600 -50 -600 50 N
@@ -5963,11 +5984,11 @@ ENDDEF
 DEF RTRIM R 0 0 N Y 1 F N
 F0 "R" 100 -100 50 V V L CNN
 F1 "RTRIM" -100 -25 50 V V L CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -5982,10 +6003,10 @@ ENDDEF
 DEF R_Network03 RN 0 0 N N 1 F N
 F0 "RN" -200 0 50 V V C CNN
 F1 "R_Network03" 200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP4" 275 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP4" 275 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -100 90 10 0 1 0 F
@@ -6009,10 +6030,10 @@ ENDDEF
 DEF R_Network04 RN 0 0 N N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network04" 200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP5" 275 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP5" 275 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -200 90 10 0 1 0 F
@@ -6040,10 +6061,10 @@ ENDDEF
 DEF R_Network05 RN 0 0 N N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network05" 300 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 375 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP6" 375 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -200 90 10 0 1 0 F
@@ -6075,10 +6096,10 @@ ENDDEF
 DEF R_Network06 RN 0 0 N N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network06" 300 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP7" 375 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP7" 375 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -300 90 10 0 1 0 F
@@ -6114,10 +6135,10 @@ ENDDEF
 DEF R_Network07 RN 0 0 N N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network07" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 475 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP8" 475 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -300 90 10 0 1 0 F
@@ -6157,10 +6178,10 @@ ENDDEF
 DEF R_Network08 RN 0 0 N N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network08" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP9" 475 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP9" 475 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -400 90 10 0 1 0 F
@@ -6204,10 +6225,10 @@ ENDDEF
 DEF R_Network09 RN 0 0 N N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network09" 500 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP10" 575 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP10" 575 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -400 90 10 0 1 0 F
@@ -6255,10 +6276,10 @@ ENDDEF
 DEF R_Network10 RN 0 0 N N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network10" 500 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP11" 575 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP11" 575 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -500 90 10 0 1 0 F
@@ -6310,10 +6331,10 @@ ENDDEF
 DEF R_Network11 RN 0 0 N N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network11" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP12" 675 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP12" 675 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -500 90 10 0 1 0 F
@@ -6369,10 +6390,10 @@ ENDDEF
 DEF R_Network12 RN 0 0 N N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network12" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP13" 675 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP13" 675 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -600 90 10 0 1 0 F
@@ -6432,10 +6453,10 @@ ENDDEF
 DEF R_Network13 RN 0 0 N N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network13" 700 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP14" 775 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP14" 775 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -600 90 10 0 1 0 F
@@ -6499,10 +6520,10 @@ ENDDEF
 DEF R_Network_Dividers_x02_SIP RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network_Dividers_x02_SIP" 200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP4" 275 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP4" 275 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -200 0 10 0 1 0 F
@@ -6535,10 +6556,10 @@ ENDDEF
 DEF R_Network_Dividers_x03_SIP RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network_Dividers_x03_SIP" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP5" 475 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP5" 475 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -200 0 10 0 1 0 F
@@ -6581,10 +6602,10 @@ ENDDEF
 DEF R_Network_Dividers_x04_SIP RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network_Dividers_x04_SIP" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 475 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP6" 475 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -400 0 10 0 1 0 F
@@ -6637,10 +6658,10 @@ ENDDEF
 DEF R_Network_Dividers_x05_SIP RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network_Dividers_x05_SIP" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP7" 675 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP7" 675 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -400 0 10 0 1 0 F
@@ -6703,10 +6724,10 @@ ENDDEF
 DEF R_Network_Dividers_x06_SIP RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network_Dividers_x06_SIP" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 675 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP8" 675 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -600 0 10 0 1 0 F
@@ -6779,10 +6800,10 @@ ENDDEF
 DEF R_Network_Dividers_x07_SIP RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network_Dividers_x07_SIP" 800 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP9" 875 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP9" 875 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -600 0 10 0 1 0 F
@@ -6865,10 +6886,10 @@ ENDDEF
 DEF R_Network_Dividers_x08_SIP RN 0 0 Y N 1 F N
 F0 "RN" -900 0 50 V V C CNN
 F1 "R_Network_Dividers_x08_SIP" 800 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP10" 875 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP10" 875 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -800 0 10 0 1 0 F
@@ -6961,10 +6982,10 @@ ENDDEF
 DEF R_Network_Dividers_x09_SIP RN 0 0 Y N 1 F N
 F0 "RN" -900 0 50 V V C CNN
 F1 "R_Network_Dividers_x09_SIP" 1000 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP11" 1075 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP11" 1075 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -800 0 10 0 1 0 F
@@ -7067,10 +7088,10 @@ ENDDEF
 DEF R_Network_Dividers_x10_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1100 0 50 V V C CNN
 F1 "R_Network_Dividers_x10_SIP" 1000 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP12" 1075 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP12" 1075 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -1000 0 10 0 1 0 F
@@ -7183,10 +7204,10 @@ ENDDEF
 DEF R_Network_Dividers_x11_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1100 0 50 V V C CNN
 F1 "R_Network_Dividers_x11_SIP" 1200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP13" 1275 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP13" 1275 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 C -1000 0 10 0 1 0 F
@@ -7309,8 +7330,8 @@ ENDDEF
 DEF R_PHOTO R 0 0 N Y 1 F N
 F0 "R" 50 50 50 H V L CNN
 F1 "R_PHOTO" 50 0 50 H V L TNN
-F2 "" 50 -250 50 V V L CNN
-F3 "" 0 -50 50 H V C CNN
+F2 "" 50 -250 50 V I L CNN
+F3 "" 0 -50 50 H I C CNN
 $FPLIST
  R?
  R?-*
@@ -7335,7 +7356,7 @@ DEF R_Pack02 RN 0 0 Y N 1 F N
 F0 "RN" -200 0 50 V V C CNN
 F1 "R_Pack02" 100 0 50 V V C CNN
 F2 "" 175 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -7360,10 +7381,10 @@ ENDDEF
 DEF R_Pack02_SIP RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Pack02_SIP" 300 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP4" 375 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP4" 375 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -250 -75 250 175 0 1 10 f
@@ -7384,7 +7405,7 @@ DEF R_Pack03 RN 0 0 Y N 1 F N
 F0 "RN" -200 0 50 V V C CNN
 F1 "R_Pack03" 200 0 50 V V C CNN
 F2 "" 275 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -7414,10 +7435,10 @@ ENDDEF
 DEF R_Pack03_SIP RN 0 0 Y N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Pack03_SIP" 500 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP6" 575 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP6" 575 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -350 -75 450 175 0 1 10 f
@@ -7442,7 +7463,7 @@ DEF R_Pack04 RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Pack04" 200 0 50 V V C CNN
 F2 "" 275 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -7477,10 +7498,10 @@ ENDDEF
 DEF R_Pack04_SIP RN 0 0 Y N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Pack04_SIP" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP8" 675 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP8" 675 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -550 -75 550 175 0 1 10 f
@@ -7509,7 +7530,7 @@ DEF R_Pack05 RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Pack05" 300 0 50 V V C CNN
 F2 "" 375 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -7549,10 +7570,10 @@ ENDDEF
 DEF R_Pack05_SIP RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Pack05_SIP" 800 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP10" 875 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP10" 875 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -650 -75 750 175 0 1 10 f
@@ -7585,7 +7606,7 @@ DEF R_Pack06 RN 0 0 Y N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Pack06" 300 0 50 V V C CNN
 F2 "" 375 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -7630,10 +7651,10 @@ ENDDEF
 DEF R_Pack06_SIP RN 0 0 Y N 1 F N
 F0 "RN" -900 0 50 V V C CNN
 F1 "R_Pack06_SIP" 900 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP12" 975 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP12" 975 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -850 -75 850 175 0 1 10 f
@@ -7670,7 +7691,7 @@ DEF R_Pack07 RN 0 0 Y N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Pack07" 400 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -7720,10 +7741,10 @@ ENDDEF
 DEF R_Pack07_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1000 0 50 V V C CNN
 F1 "R_Pack07_SIP" 1100 0 50 V V C CNN
-F2 "Resistors_ThroughHole:Resistor_Array_SIP14" 1175 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "Resistors_ThroughHole:R_Array_SIP14" 1175 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
 $ENDFPLIST
 DRAW
 S -950 -75 1050 175 0 1 10 f
@@ -7764,7 +7785,7 @@ DEF R_Pack08 RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Pack08" 400 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -7820,7 +7841,7 @@ DEF R_Pack09 RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Pack09" 500 0 50 V V C CNN
 F2 "" 575 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -7881,7 +7902,7 @@ DEF R_Pack10 RN 0 0 Y N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Pack10" 500 0 50 V V C CNN
 F2 "" 575 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -7947,7 +7968,7 @@ DEF R_Pack11 RN 0 0 Y N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Pack11" 600 0 50 V V C CNN
 F2 "" 675 0 50 V I C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*
  SOIC*
@@ -8017,8 +8038,11 @@ ENDDEF
 DEF R_Shunt R 0 0 N Y 1 F N
 F0 "R" -175 0 50 V V C CNN
 F1 "R_Shunt" -100 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*Shunt*
+$ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
 P 2 0 1 0 0 -100 50 -100 N
@@ -8035,10 +8059,9 @@ ENDDEF
 DEF R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Resistor_*
  R_*
 $ENDFPLIST
 DRAW
@@ -8053,11 +8076,10 @@ ENDDEF
 DEF R_Variable R 0 0 N Y 1 F N
 F0 "R" 100 -100 50 V V L CNN
 F1 "R_Variable" -100 -50 50 V V L CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  R_*
- Resistor_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -8072,8 +8094,12 @@ ENDDEF
 DEF Resonator Y 0 40 Y N 1 F N
 F0 "Y" 0 225 50 H V C CNN
 F1 "Resonator" 0 150 50 H V C CNN
-F2 "" -25 0 50 H V C CNN
-F3 "" -25 0 50 H V C CNN
+F2 "" -25 0 50 H I C CNN
+F3 "" -25 0 50 H I C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
 DRAW
 C -95 0 10 0 1 0 F
 C 0 -150 10 0 1 0 F
@@ -8101,8 +8127,12 @@ ENDDEF
 DEF Resonator_Small Y 0 40 Y N 1 F N
 F0 "Y" 125 75 50 H V L CNN
 F1 "Resonator_Small" 125 0 50 H V L CNN
-F2 "" -25 0 50 H V C CNN
-F3 "" -25 0 50 H V C CNN
+F2 "" -25 0 50 H I C CNN
+F3 "" -25 0 50 H I C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
 DRAW
 C -100 0 10 0 1 0 F
 C 0 -150 10 0 1 0 F
@@ -8186,8 +8216,8 @@ ENDDEF
 DEF Solar_Cell SC 0 0 N N 1 F N
 F0 "SC" 100 100 50 H V L CNN
 F1 "Solar_Cell" 100 0 50 H V L CNN
-F2 "" 0 60 50 V V C CNN
-F3 "" 0 60 50 V V C CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
 DRAW
 S -80 70 80 60 0 1 0 F
 S -52 47 50 27 0 1 0 F
@@ -8209,8 +8239,8 @@ ENDDEF
 DEF Solar_Cells SC 0 0 N N 1 F N
 F0 "SC" 100 100 50 H V L CNN
 F1 "Solar_Cells" 100 0 50 H V L CNN
-F2 "" 0 60 50 V V C CNN
-F3 "" 0 60 50 V V C CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
 DRAW
 S -80 -55 80 -65 0 1 0 F
 S -80 70 80 60 0 1 0 F
@@ -8233,13 +8263,31 @@ X - 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SPARK_GAP
+#
+DEF SPARK_GAP E 0 0 N Y 1 F N
+F0 "E" 0 80 50 H V C CNN
+F1 "SPARK_GAP" 0 -75 50 H V C CNN
+F2 "" 0 -70 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ SG*
+$ENDFPLIST
+DRAW
+P 4 0 1 0 -100 25 -100 -25 -25 0 -100 25 N
+P 4 0 1 0 100 25 100 -25 25 0 100 25 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Speaker
 #
 DEF Speaker LS 0 0 Y N 1 F N
 F0 "LS" 50 225 50 H V R CNN
 F1 "Speaker" 50 150 50 H V R CNN
-F2 "" 0 -200 50 H V C CNN
-F3 "" -10 -50 50 H V C CNN
+F2 "" 0 -200 50 H I C CNN
+F3 "" -10 -50 50 H I C CNN
 DRAW
 S -100 50 40 -150 0 0 10 N
 P 4 0 0 10 40 50 140 150 140 -250 40 -150 N
@@ -8253,8 +8301,8 @@ ENDDEF
 DEF Speaker_Crystal LS 0 0 Y N 1 F N
 F0 "LS" 25 225 50 H V R CNN
 F1 "Speaker_Crystal" 25 150 50 H V R CNN
-F2 "" -35 -50 50 H V C CNN
-F3 "" -35 -50 50 H V C CNN
+F2 "" -35 -50 50 H I C CNN
+F3 "" -35 -50 50 H I C CNN
 ALIAS Speaker_Ultrasound
 DRAW
 S -100 50 45 -150 0 0 10 N
@@ -8274,8 +8322,8 @@ ENDDEF
 DEF TEST TP 0 40 N N 1 F N
 F0 "TP" 0 300 50 H V C BNN
 F1 "TEST" 0 250 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 200 -50 150 0 100 50 150 0 200 0 200 N
 X ~ 1 0 0 100 U 50 50 1 1 P
@@ -8287,10 +8335,10 @@ ENDDEF
 DEF Thermistor TH 0 0 N Y 1 F N
 F0 "TH" 100 50 50 V V C CNN
 F1 "Thermistor" -100 0 50 V V C BNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- R?
+ R_*
  SM0603
  SM0805
 $ENDFPLIST
@@ -8614,8 +8662,8 @@ ENDDEF
 DEF Transformer_1P_1S T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
 F1 "Transformer_1P_1S" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
 A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
@@ -8647,8 +8695,8 @@ ENDDEF
 DEF Transformer_1P_1S_SO8 T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
 F1 "Transformer_1P_1S_SO8" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
 A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
@@ -8680,8 +8728,8 @@ ENDDEF
 DEF Transformer_1P_2S T 0 40 Y N 1 F N
 F0 "T" 0 500 50 H V C CNN
 F1 "Transformer_1P_2S" 0 -500 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
 A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
@@ -8719,8 +8767,8 @@ ENDDEF
 DEF Transformer_1P_SS T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
 F1 "Transformer_1P_SS" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
 A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
@@ -8753,8 +8801,8 @@ ENDDEF
 DEF Transformer_AUDIO T 0 40 Y N 1 F N
 F0 "T" 0 460 50 H V C CNN
 F1 "Transformer_AUDIO" 10 370 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
 A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
@@ -8788,8 +8836,8 @@ ENDDEF
 DEF Transformer_SP_1S T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
 F1 "Transformer_SP_1S" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
 A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
@@ -8822,8 +8870,8 @@ ENDDEF
 DEF Transformer_SP_2S T 0 40 Y N 1 F N
 F0 "T" 0 500 50 H V C CNN
 F1 "Transformer_SP_2S" 0 -500 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
 A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
@@ -8862,8 +8910,8 @@ ENDDEF
 DEF Varistor RV 0 0 N Y 1 F N
 F0 "RV" 125 0 50 V V C CNN
 F1 "Varistor" -125 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  RV_*
  Varistor*
@@ -8883,9 +8931,9 @@ DEF Voltage_Divider RN 0 0 Y N 1 F N
 F0 "RN" -175 0 50 V V C CNN
 F1 "Voltage_Divider" -100 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
-F3 "" 200 0 50 H V C CNN
+F3 "" 200 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
  SOT?23
 $ENDFPLIST
 DRAW
@@ -8909,9 +8957,9 @@ DEF Voltage_Divider_CenterPin1 RN 0 0 Y N 1 F N
 F0 "RN" -175 0 50 V V C CNN
 F1 "Voltage_Divider_CenterPin1" -100 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
-F3 "" 200 0 50 H V C CNN
+F3 "" 200 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
  SOT?23
 $ENDFPLIST
 DRAW
@@ -8935,9 +8983,9 @@ DEF Voltage_Divider_CenterPin3 RN 0 0 Y N 1 F N
 F0 "RN" -175 0 50 V V C CNN
 F1 "Voltage_Divider_CenterPin3" -100 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
-F3 "" 200 0 50 H V C CNN
+F3 "" 200 0 50 H I C CNN
 $FPLIST
- Resistor?Array?SIP*
+ R?Array?SIP*
  SOT?23
 $ENDFPLIST
 DRAW
@@ -8960,8 +9008,8 @@ ENDDEF
 DEF Voltmeter_AC MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
 F1 "Voltmeter_AC" -130 -30 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 T 0 0 20 100 0 0 0 V Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N
@@ -8980,8 +9028,8 @@ ENDDEF
 DEF Voltmeter_DC MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
 F1 "Voltmeter_DC" -130 -30 50 H V R CNN
-F2 "" 0 100 50 V V C CNN
-F3 "" 0 100 50 V V C CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
 DRAW
 T 0 0 0 100 0 0 0 V Normal 0 C C
 P 2 0 0 0 -125 -125 -75 -75 N

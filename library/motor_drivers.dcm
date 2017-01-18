@@ -24,8 +24,20 @@ K Stepper driver
 F http://www.ti.com/lit/ds/slvsc40f/slvsc40f.pdf
 $ENDCMP
 #
+$CMP L293
+D Quadruple Half-H Drivers
+K Half-H Driver Motor 
+F http://www.ti.com/lit/ds/symlink/l293.pdf
+$ENDCMP
+#
+$CMP L293D
+D Quadruple Half-H Drivers
+K Half-H Driver Motor 
+F http://www.ti.com/lit/ds/symlink/l293.pdf
+$ENDCMP
+#
 $CMP L298(H)N
-D Dual full bridge motor driver, up to 46V, 4A
+D Dual full bridge motor driver, up to 46V, 4A, Multiwatt-15
 K H-bridge motor driver
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
 $ENDCMP
@@ -52,18 +64,6 @@ $CMP SLA7044M
 D Unipolar PWM high-current motor driver
 K Stepper driver
 F http://www.sumzi.com/upload/files/2007/07/2007073114282034189.PDF
-$ENDCMP
-#
-$CMP STK672-040-E
-D Stepper motor driver with microstepping controller, 1.5A
-K Stepper driver
-F http://www.onsemi.com/pub_link/Collateral/EN5227-D.PDF
-$ENDCMP
-#
-$CMP STK672-080-E
-D Stepper motor driver with microstepping controller, 2.8A
-K Stepper driver
-F http://www.onsemi.com/pub_link/Collateral/EN6507-D.PDF
 $ENDCMP
 #
 $CMP SLA7070MPRT
@@ -112,6 +112,18 @@ $CMP SLA7078MPRT
 D Unipolar 2-phase stepper motor driver, Microstep, 3A
 K Stepper driver
 F http://www.semicon.sanken-ele.co.jp/sk_content/sla7078mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP STK672-040-E
+D Stepper motor driver with microstepping controller, 1.5A
+K Stepper driver
+F http://www.onsemi.com/pub_link/Collateral/EN5227-D.PDF
+$ENDCMP
+#
+$CMP STK672-080-E
+D Stepper motor driver with microstepping controller, 2.8A
+K Stepper driver
+F http://www.onsemi.com/pub_link/Collateral/EN6507-D.PDF
 $ENDCMP
 #
 $CMP STSPIN220
