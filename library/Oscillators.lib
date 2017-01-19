@@ -7,7 +7,7 @@ DEF ACO-xxxMHz-A X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "ACO-xxxMHz-A" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_DIP-14" 450 -350 50 H I C CNN
-F3 "" -275 125 50 H I C CNN
+F3 "" -275 125 50 H V C CNN
 $FPLIST
  Oscillator*DIP*14*
 $ENDFPLIST
@@ -27,7 +27,7 @@ DEF ASE-xxxMHz X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "ASE-xxxMHz" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_Abracon_ASE-4pin_3.2x2.5mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*Abracon*ASE*3.2x2.5mm*
 $ENDFPLIST
@@ -47,7 +47,7 @@ DEF ASV-xxxMHz X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "ASV-xxxMHz" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*Abracon*ASV*7.0x5.1mm*
 $ENDFPLIST
@@ -67,7 +67,7 @@ DEF CXO_DIP14 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "CXO_DIP14" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_DIP-14" 450 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 ALIAS TFT680 GTXO-14T
 $FPLIST
  Oscillator*DIP*14*
@@ -88,7 +88,7 @@ DEF CXO_DIP8 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "CXO_DIP8" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_DIP-8" 450 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 ALIAS TFT660
 $FPLIST
  Oscillator*DIP*8*
@@ -109,7 +109,7 @@ DEF DFA-S11 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "DFA-S11" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_Fordahl_DFAS11-4pin_7.0x5.0mm" 1100 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*Fordahl*DFAS11*7.0x5.0mm*
 $ENDFPLIST
@@ -129,7 +129,7 @@ DEF DFA-S15 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "DFA-S15" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_Fordahl_DFAS15-4pin_5.0x3.2mm" 1100 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*Fordahl*DFAS15*5.0x3.2mm*
 $ENDFPLIST
@@ -149,7 +149,7 @@ DEF DFA-S2 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "DFA-S2" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_Fordahl_DFAS2-4pin_7.3x5.1mm" 1100 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*Fordahl*DFAS2*7.3x5.1mm*
 $ENDFPLIST
@@ -169,7 +169,7 @@ DEF DFA-S3 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "DFA-S3" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_Fordahl_DFAS3-4pin_9.1x7.2mm" 1100 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*Fordahl*DFAS3*9.1x7.2mm*
 $ENDFPLIST
@@ -189,7 +189,7 @@ DEF DGOF5S3 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "DGOF5S3" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_DIP-14" 450 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 ALIAS ACO-xxxMHz GTXO-S14T TCXO-14
 $FPLIST
  Oscillator*DIP*14*
@@ -210,7 +210,7 @@ DEF IQXO-70 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "IQXO-70" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_IQD_IQXO70-4pin_7.5x5.0mm" 675 -325 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*IQD*IQXO70*7.5x5.0mm*
 $ENDFPLIST
@@ -230,7 +230,7 @@ DEF OCXO-14 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "OCXO-14" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_DIP-14" 450 -350 50 H I C CNN
-F3 "" -300 100 50 H I C CNN
+F3 "" -300 100 50 H V C CNN
 ALIAS GTXO-14V GTXO-S14V VTCXO-14
 $FPLIST
  Oscillator*DIP*14*
@@ -251,7 +251,7 @@ DEF SG-210SED X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "SG-210SED" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm" 450 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 ALIAS SG-210SDD SG-210SCD
 $FPLIST
  Oscillator*SMD*SeikoEpson*SG210*2.5x2.0mm*
@@ -272,7 +272,7 @@ DEF SG-210STF X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "SG-210STF" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm" 450 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 ALIAS SG-211
 $FPLIST
  Oscillator*SMD*SeikoEpson*SG210*2.5x2.0mm*
@@ -293,7 +293,7 @@ DEF SG-8002CA X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "SG-8002CA" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_SeikoEpson_SG8002CA-4pin_7.0x5.0mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*SeikoEpson*SG8002CA*7.0x5.0mm*
 $ENDFPLIST
@@ -313,7 +313,7 @@ DEF SG-8002CE X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "SG-8002CE" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_SeikoEpson_SG8002CE-4pin_3.2x2.5mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*SeikoEpson*SG8002CE*3.2x2.5mm*
 $ENDFPLIST
@@ -333,7 +333,7 @@ DEF SG-8002DB X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "SG-8002DB" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SeikoEpson_SG-8002DB" 450 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 ALIAS SG-51
 $FPLIST
  Oscillator*SeikoEpson*SG?8002DB*
@@ -354,7 +354,7 @@ DEF SG-8002DC X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "SG-8002DC" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SeikoEpson_SG-8002DC" 450 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 ALIAS SG-531
 $FPLIST
  Oscillator*SeikoEpson*SG?8002DC*
@@ -375,7 +375,7 @@ DEF SG-8002JA X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "SG-8002JA" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_SeikoEpson_SG8002JA-4pin_14.0x8.7mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 ALIAS SG-615
 $FPLIST
  Oscillator*SMD*SeikoEpson*SG8002JA*14.0x8.7mm*
@@ -396,7 +396,7 @@ DEF SG-8002JC X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "SG-8002JC" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_SeikoEpson_SG8002JC-4pin_10.5x5.0mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*SeikoEpson*SG8002JC*10.5x5.0mm*
 $ENDFPLIST
@@ -416,7 +416,7 @@ DEF SG-8002LB X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "SG-8002LB" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_SeikoEpson_SG8002LB-4pin_5.0x3.2mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*SeikoEpson*SG8002LB*5.0x3.2mm*
 $ENDFPLIST
@@ -433,7 +433,7 @@ ENDDEF
 # Si570
 #
 DEF Si570 IC 0 40 Y Y 1 F N
-F0 "U" -400 400 50 H V C CNN
+F0 "IC" -400 400 50 H V C CNN
 F1 "Si570" 350 -400 50 H V C CNN
 F2 "Oscillators:Oscillator_SI570_SI571_Standard" -550 600 50 H I C CNN
 F3 "" -400 700 50 H I C CNN
@@ -457,7 +457,7 @@ ENDDEF
 # Si571
 #
 DEF Si571 IC 0 40 Y Y 1 F N
-F0 "U" -400 400 50 H V C CNN
+F0 "IC" -400 400 50 H V C CNN
 F1 "Si571" 350 -400 50 H V C CNN
 F2 "Oscillators:Oscillator_SI570_SI571_Standard" -550 600 50 H I C CNN
 F3 "" -400 700 50 H I C CNN
@@ -483,8 +483,8 @@ ENDDEF
 DEF TCXO3 X 0 20 Y Y 1 F N
 F0 "X" 325 450 50 H V L CNN
 F1 "TCXO3" 325 350 50 H V L CNN
-F2 "" -550 250 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" -550 250 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 DRAW
 S -500 -200 400 300 0 1 10 f
 P 10 0 1 0 -100 0 -75 0 -75 100 -25 100 -25 0 25 0 25 100 75 100 75 0 100 0 N
@@ -520,7 +520,7 @@ DEF TXC-7C X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "TXC-7C" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_TXC_7C-4pin_5.0x3.2mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*TXC*7C*5.0x3.2mm*
 $ENDFPLIST
@@ -540,7 +540,7 @@ DEF VC-81 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "VC-81" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_DIP-8" 450 -350 50 H I C CNN
-F3 "" -300 100 50 H I C CNN
+F3 "" -300 100 50 H V C CNN
 ALIAS VC-83
 $FPLIST
  Oscillator*DIP*8*
@@ -561,7 +561,7 @@ DEF XO32 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "XO32" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_EuroQuartz_XO32-4pin_3.2x2.5mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*EuroQuartz*XO32*3.2x2.5mm*
 $ENDFPLIST
@@ -581,7 +581,7 @@ DEF XO53 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "XO53" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_EuroQuartz_XO53-4pin_5.0x3.2mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*EuroQuartz*XO53*5.0x3.2mm*
 $ENDFPLIST
@@ -601,7 +601,7 @@ DEF XO91 X 0 10 Y Y 1 F N
 F0 "X" -200 250 50 H V L CNN
 F1 "XO91" 50 -250 50 H V L CNN
 F2 "Oscillators:Oscillator_SMD_EuroQuartz_XO91-4pin_7.0x5.0mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H V C CNN
 $FPLIST
  Oscillator*SMD*EuroQuartz*XO91*7.0x5.0mm*
 $ENDFPLIST
