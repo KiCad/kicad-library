@@ -34,6 +34,18 @@ K 2.4GHz rf transceiver ZigBee 802.15.4
 F http://www.ti.com/lit/gpn/cc2520
 $ENDCMP
 #
+$CMP DCTR-52D
+D IQRF data controlled transceiver, FSK modulation
+K IQRF data controlled transceiver, FSK modulation
+F http://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP DCTR-72D
+D IQRF data controlled transceiver, GMSK modulation
+K IQRF data controlled transceiver, GMSK modulation
+F http://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
 $CMP HF-A11-SMT
 D WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO
 K WiFi IEEE802.11 b/g/n
@@ -49,6 +61,12 @@ $ENDCMP
 $CMP NRF24L01
 D Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP NRF24L01_Breakout
+D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
+K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
@@ -82,6 +100,18 @@ K IOT SIGFOX
 F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
 $ENDCMP
 #
+$CMP TR-52D
+D IQRF common transceiver, FSK modulation
+K IQRF common transceiver, FSK modulation
+F http://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP TR-72D
+D IQRF common transceiver, GMSK modulation
+K IQRF common transceiver, GMSK modulation
+F http://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
 $CMP iM880A
 D IMST Long Range Radio Module
 K IOT LoRa
@@ -98,30 +128,6 @@ $CMP nRF24L01P
 D nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
 F http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf
-$ENDCMP
-#
-$CMP TR-52D
-D IQRF common transceiver, FSK modulation
-K IQRF common transceiver, FSK modulation
-F http://iqrf.org/weben/downloads.php?id=213
-$ENDCMP
-#
-$CMP TR-72D
-D IQRF common transceiver, GMSK modulation
-K IQRF common transceiver, GMSK modulation
-F http://iqrf.org/weben/downloads.php?id=337
-$ENDCMP
-#
-$CMP DCTR-52D
-D IQRF data controlled transceiver, FSK modulation
-K IQRF data controlled transceiver, FSK modulation
-F http://iqrf.org/weben/downloads.php?id=213
-$ENDCMP
-#
-$CMP DCTR-72D
-D IQRF data controlled transceiver, GMSK modulation
-K IQRF data controlled transceiver, GMSK modulation
-F http://iqrf.org/weben/downloads.php?id=337
 $ENDCMP
 #
 #End Doc Library
