@@ -120,6 +120,18 @@ K ARM Stellaris Cortex M4 MCU NRND
 F http://www.ti.com/lit/ds/symlink/tm4c1230h6pm.pdf
 $ENDCMP
 #
+$CMP LM5175PWP
+D LM5175, 42-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
+K Buck, Boost, step-up, step-down
+F http://www.ti.com/lit/ds/symlink/lm5175.pdf
+$ENDCMP
+#
+$CMP LM5175RHF
+D LM5175, 42-V wide Vin synchronous 4-switch Buck-Boost controller, QFN-28 package
+K Buck, Boost, step-up, step-down
+F http://www.ti.com/lit/ds/symlink/lm5175.pdf
+$ENDCMP
+#
 $CMP TCA9555PWR
 D 16-bit I/O expander, I2C and SMBus interface, interrupts, TSSOP-24 package
 K ti parallel port
@@ -256,6 +268,18 @@ $CMP TPS2514A
 D USB Dedicated Charging Port Controller
 K USB Charge
 F http://www.ti.com/lit/ds/symlink/tps2513.pdf
+$ENDCMP
+#
+$CMP TPS2560
+D TPS2560, dual channel precision adjustable current-limited power switches
+K power switche, current limited, usb port
+F http://www.ti.com/lit/ds/symlink/tps2560.pdf
+$ENDCMP
+#
+$CMP TPS2561
+D TPS2561, dual channel precision adjustable current-limited power switches
+K power switche, current limited, usb port
+F http://www.ti.com/lit/ds/symlink/tps2561.pdf
 $ENDCMP
 #
 $CMP TS5A3159
