@@ -1,5 +1,5 @@
 EESchema-DOCLIB  Version 2.0
-# 
+#
 $CMP BARREL_JACK
 D DC Barrel Jack
 K DC power barrel jack connector
@@ -33,11 +33,6 @@ $ENDCMP
 $CMP C96ABC
 D Connector Europe, 96 contacts, ranges A,B,C
 K connector
-$ENDCMP
-#
-$CMP CNT-RJ45
-D  RJ-45 with LEDs and shield
-K connector rj45 ethernet network
 $ENDCMP
 #
 $CMP CONN_01X01
@@ -485,6 +480,11 @@ D Connector Europe, 60 contacts, ranges A,B,C,D
 K connector
 $ENDCMP
 #
+$CMP CONN_COAXIAL
+D coaxial connector
+K BNC SMA SMB SMC coaxial connector CINCH
+$ENDCMP
+#
 $CMP DB15
 K connector
 $ENDCMP
@@ -516,6 +516,16 @@ D 5 pins connector, 41524
 K connector DIN 5-pins 41524
 $ENDCMP
 #
+$CMP GS2
+D 2-pin jumper/solder bridge
+K jumper solder bridge
+$ENDCMP
+#
+$CMP GS3
+D 3-pin jumper/solder bridge
+K jumper solder bridge
+$ENDCMP
+#
 $CMP HE10-16
 K connector
 $ENDCMP
@@ -540,9 +550,34 @@ $CMP I3E1394
 D CONNECTOR 6BR
 $ENDCMP
 #
+$CMP JACK_2P
+D 2-pin Mono audio Jack, withc switch contact
+K mono audio jack
+$ENDCMP
+#
 $CMP JACK_TRS_6PINS
 D audio jack TRS 6 pins
 K audio jack connector TRS
+$ENDCMP
+#
+$CMP LEMO2
+D 2-pin LEMO connector
+K LEMO connector
+$ENDCMP
+#
+$CMP LEMO4
+D 4-pin LEMO connector
+K LEMO connector
+$ENDCMP
+#
+$CMP LEMO5
+D 5-pin LEMO connector
+K LEMO connector
+$ENDCMP
+#
+$CMP LEMO6
+D 6-pin LEMO connector
+K LEMO connector
 $ENDCMP
 #
 $CMP Micro_SD_Card
@@ -559,6 +594,16 @@ $ENDCMP
 $CMP PCI_CONUNIV
 D Connector BUS PCI
 K PCI
+$ENDCMP
+#
+$CMP RJ12
+D RJ12 connector with 2 shield pins
+K RJ12 connector
+$ENDCMP
+#
+$CMP RJ45
+D RJ45 connector with shield
+K RJ45
 $ENDCMP
 #
 $CMP RJ45-TRANSFO
