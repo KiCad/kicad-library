@@ -271,15 +271,27 @@ F http://www.ti.com/lit/ds/symlink/tps2513.pdf
 $ENDCMP
 #
 $CMP TPS2560
-D TPS2560, dual channel precision adjustable current-limited power switches
+D Dual channel precision adjustable current-limited power switches
 K power switche, current limited, usb port
 F http://www.ti.com/lit/ds/symlink/tps2560.pdf
 $ENDCMP
 #
 $CMP TPS2561
-D TPS2561, dual channel precision adjustable current-limited power switches
+D Dual channel precision adjustable current-limited power switches
 K power switche, current limited, usb port
 F http://www.ti.com/lit/ds/symlink/tps2561.pdf
+$ENDCMP
+#
+$CMP TPS563200
+D TPS56x200, 4.5 to 17V input, 2-3A synchronous step-down voltage regulator
+K step-down, dcdc, voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps563200.pdf
+$ENDCMP
+#
+$CMP TPS62130
+D TPS6213x, 3-17V 3A Step-down converter in 3x3 QFN package
+K step-down, dcdc converter
+F http://www.ti.com/lit/ds/symlink/tps62130.pdf
 $ENDCMP
 #
 $CMP TS5A3159
@@ -298,6 +310,12 @@ $CMP TUSB2036
 D 2- or 3-Port USB1.1 HUB with optional serial EEPROM
 K 2-Port, 3-Port, 3.3V, EEPROM, Full Speed, Hub, Texas Instruments, USB1.1
 F http://www.ti.com/lit/ds/symlink/tusb2036.pdf
+$ENDCMP
+#
+$CMP TUSB8041
+D four port USB 3.0 Hub
+K USB3.0, hub
+F http://www.ti.com/lit/ds/symlink/tusb8041.pdf
 $ENDCMP
 #
 $CMP UCC2891
