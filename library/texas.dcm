@@ -121,14 +121,14 @@ F http://www.ti.com/lit/ds/symlink/tm4c1230h6pm.pdf
 $ENDCMP
 #
 $CMP LM5175PWP
-D LM5175, 42-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
-K Buck, Boost, step-up, step-down
+D 42-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
+K Buck Boost step-up step-down
 F http://www.ti.com/lit/ds/symlink/lm5175.pdf
 $ENDCMP
 #
 $CMP LM5175RHF
-D LM5175, 42-V wide Vin synchronous 4-switch Buck-Boost controller, QFN-28 package
-K Buck, Boost, step-up, step-down
+D 42-V wide Vin synchronous 4-switch Buck-Boost controller, QFN-28 package
+K Buck Boost step-up step-down
 F http://www.ti.com/lit/ds/symlink/lm5175.pdf
 $ENDCMP
 #
@@ -291,6 +291,12 @@ $ENDCMP
 $CMP TPS62130
 D 3-17V 3A Step-down converter in 3x3 QFN package
 K step-down dcdc converter
+F http://www.ti.com/lit/ds/symlink/tps62130.pdf
+$ENDCMP
+#
+$CMP TPS62132
+D 3-17V, 3A step-down converter
+K step down dcdc converter
 F http://www.ti.com/lit/ds/symlink/tps62130.pdf
 $ENDCMP
 #
