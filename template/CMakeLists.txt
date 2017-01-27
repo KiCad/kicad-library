@@ -13,6 +13,7 @@ set( template_lst
     ti-stellaris-boosterpack40
     ti-stellaris-boosterpack40_min
     BeagleBone-Black-Cape
+    minnowboard-ls-lure
     )
 
 
