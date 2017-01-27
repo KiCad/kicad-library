@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BL652
+D Bluetooth module
+K Bluetooth Nordic nRF52
+F http://cdn.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL652.pdf
+$ENDCMP
+#
 $CMP BTM112
 D Bluetooth SPP Module, UART, Class 2
 K Bluetooth BT SPP Module
@@ -22,15 +28,45 @@ K RF Tx Rx
 F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
 #
+$CMP CC2520
+D 2.4 GHz ZigBee/IEEE 802.15.4 RF transceiver 
+K 2.4GHz rf transceiver ZigBee 802.15.4
+F http://www.ti.com/lit/gpn/cc2520
+$ENDCMP
+#
+$CMP DCTR-52D
+D IQRF data controlled transceiver, FSK modulation
+K IQRF data controlled transceiver, FSK modulation
+F http://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP DCTR-72D
+D IQRF data controlled transceiver, GMSK modulation
+K IQRF data controlled transceiver, GMSK modulation
+F http://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
 $CMP HF-A11-SMT
 D WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO
 K WiFi IEEE802.11 b/g/n
 F http://www.hi-flying.com/products_detail/&productId=60326fef-3398-422b-9350-62f5f99a8dbc&comp_stats=comp-FrontProducts_list01-111.html
 $ENDCMP
 #
+$CMP MM002
+D NEMEUS Modem dual-mode LoRa/SIGFOX
+K IOT LoRa SIGFOX
+F http://www.nemeus.fr/resources/uploads/2015/04/MM002-xx-EU_datasheet_v0.11.pdf
+$ENDCMP
+#
 $CMP NRF24L01
 D Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP NRF24L01_Breakout
+D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
+K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
@@ -50,6 +86,42 @@ $CMP SIM900
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
 K GSM GPRS Quad-Band SMS FAX
 F http://www.simcom.us/act_admin/supportfile/SIM900_HD_V1.01(091226).pdf
+$ENDCMP
+#
+$CMP TD1205
+D High-Performance, Low-Current SIGFOX™ Gateway And GPS Receiver With Integrated Antennas
+K IOT SIGFOX GPS
+F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1205%20Datasheet.pdf
+$ENDCMP
+#
+$CMP TD1208
+D High-Performance, Low-Current SIGFOX™ Gateway
+K IOT SIGFOX
+F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
+$ENDCMP
+#
+$CMP TR-52D
+D IQRF common transceiver, FSK modulation
+K IQRF common transceiver, FSK modulation
+F http://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP TR-72D
+D IQRF common transceiver, GMSK modulation
+K IQRF common transceiver, GMSK modulation
+F http://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
+$CMP iM880A
+D IMST Long Range Radio Module
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880A/General_Information/iM880A_Datasheet_V1_1.pdf
+$ENDCMP
+#
+$CMP iM880B
+D IMST Long Range Radio Module - LoRa Alliance Certified
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
 $ENDCMP
 #
 $CMP nRF24L01P

@@ -5,10 +5,16 @@ D CDA 8 bits
 K CDA
 $ENDCMP
 #
+$CMP 4558
+D Dual Op amp (general purpose)
+K ampliop
+F http://www.ti.com/lit/ds/symlink/rc4558.pdf
+$ENDCMP
+#
 $CMP AD620
 D Instrumentation amplifier
-K INSTRUMENTATION
-F analog-dev/AD620.pdf
+K Instrumentation OpAmp
+F http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pdf
 $ENDCMP
 #
 $CMP AD813
@@ -17,20 +23,250 @@ K AmpliOp
 F AmpliOp.sch
 $ENDCMP
 #
+$CMP AD8202
+D 28V High Common-Mode Voltage, Single-Supply Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 50kHz, Vcc=3.5V~12V, unidirectional
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8202.pdf
+$ENDCMP
+#
+$CMP AD8203
+D 30V High Common-Mode Voltage, Single-Supply Difference Amplifier, 7V/V x 2V/V adjustable gain, bandwidth 60kHz, Vcc=3.5V~12V, unidirectional
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8203.pdf
+$ENDCMP
+#
+$CMP AD8205
+D 65V Single-Supply, System Difference Amplifier, 50V/V gain, bandwidth 50kHz, Vcc=5V
+K highside HS difference amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8205.pdf
+$ENDCMP
+#
+$CMP AD8206
+D 65V High Common-Mode Voltage, Bidirectional, Current Shunt Amplifier, 20V/V gain, bandwidth 100kHz, Vcc=5V
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8206.pdf
+$ENDCMP
+#
+$CMP AD8207
+D 65V (35V) Zero-Drift, High Voltage, Bidirectional, Difference Amplifier, 20V/V gain, bandwidth 150kHz, Vcc=5V (3.3V), 
+K highside HS current sense difference amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8207.pdf
+$ENDCMP
+#
+$CMP AD8208
+D 45V High Voltage, Precision Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 70kHz, Vcc=5V, unidirectional
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8208.pdf
+$ENDCMP
+#
+$CMP AD8209
+D 45V High Voltage, Precision Difference Amplifier, 7V/V x 2V/V adjustable gain, bandwidth 80kHz, Vcc=5V, unidirectional
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8209.pdf
+$ENDCMP
+#
+$CMP AD8210
+D 65V High Voltage, Bidirectional Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8210.pdf
+$ENDCMP
+#
+$CMP AD8211
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
+$ENDCMP
+#
+$CMP AD8212
+D 65V High Voltage Current, Shunt Monitor, adjustable gain, bandwidth 1000kHz, Vcc=7V~65V, current output, unidirectional
+K highside HS current sense shunt monitor amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8212.pdf
+$ENDCMP
+#
+$CMP AD8213
+D 65V Dual, High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V
+K highside HS current sense amplifier linear buffered dual monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8213.pdf
+$ENDCMP
+#
+$CMP AD8215
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V, unidirectional
+K highside HS current sense amplifier linear buffered monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8215.pdf
+$ENDCMP
+#
+$CMP AD8216
+D 65V High Bandwidth, Bidirectional Difference Amplifier, 3V/V gain, bandwidth 3MHz, Vcc=5V
+K HS difference amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8216.pdf
+$ENDCMP
+#
+$CMP AD8217
+D 80V High Resolution, Zero-Drift, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, internal LDO, unidirectional
+K highside HS current sense amplifier linear buffered monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8217.pdf
+$ENDCMP
+#
+$CMP AD8218
+D 80V Zero Drift, Bidirectional, Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V (optional)
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8218.pdf
+$ENDCMP
+#
+$CMP AD8219
+D 80V Zero Drift, Unidirectional, Current Shunt Monitor, 60V/V gain, bandwidth 500kHz, Vcc=4V~80V
+K highside HS current sense amplifier linear buffered monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8219.pdf
+$ENDCMP
+#
+$CMP AD8417
+D 70V Bidirectional, Zero Drift, Current Sense Amplifier, 60V/V gain, bandwidth 250kHz, VS=2.7V~5.5V
+K highside HS current sense amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8417.pdf
+$ENDCMP
+#
+$CMP AD8418
+D 70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V
+K highside HS current sense amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
+$ENDCMP
+#
 $CMP ADA4075
 D Very low noise audio op amp
+K ampliop low-power
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
+$CMP ADCMP350
+D Single-input comparator, internal 0.6V reference, Active-Low Open-Drain output, SC-70-4 package
+K comparator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
+$CMP ADCMP354
+D Single-input comparator, internal 0.6V reference, Active-High Open-Drain output, SC-70-4 package
+K comparator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
+$CMP ADCMP356
+D Single-input comparator, internal 0.6V reference, Active-High Push-Pull output, SC-70-4 package
+K comparator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
+$CMP CA3080
+D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1
+K intersil
+F http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf
+$ENDCMP
+#
+$CMP CA3080A
+D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 1.6:1
+K intersil
+F http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf
+$ENDCMP
+#
 $CMP CA3130
-D Ampli Op Mos
+D 15MHz, BiMOS Operational Amplifier with MOSFET Input/CMOS Output
 K AmpliOp Mos
-F AmpliOp.sch
+F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3130-a.pdf
 $ENDCMP
 #
 $CMP CA3140
-D Ampli Op Mos
+D 4.5MHz, BiMOS Operational Amplifier with MOSFET Input/Bipolar Output
 K AmpliOp Mos
+F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3140-a.pdf
+$ENDCMP
+#
+$CMP ICM7555
+D 555-series CMOS timer IC
+K timer
+F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
+$ENDCMP
+#
+$CMP ICM7556
+D double 555-series CMOS timer IC
+K timer
+F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
+$ENDCMP
+#
+$CMP INA128
+D Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg
+K Instrumentation OpAmp
+F http://www.ti.com/lit/ds/symlink/ina128.pdf
+$ENDCMP
+#
+$CMP INA129
+D Precision, Low Power Instrumentation Amplifier G = 1 + 49.4kOhm/Rg
+K Instrumentation OpAmp
+F http://www.ti.com/lit/ds/symlink/ina128.pdf
+$ENDCMP
+#
+$CMP INA326
+D Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-8 package
+K Instrumentation OpAmp
+F http://www.ti.com/lit/ds/symlink/ina326.pdf
+$ENDCMP
+#
+$CMP INA327
+D Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-10 package
+K Instrumentation OpAmp
+F http://www.ti.com/lit/ds/symlink/ina326.pdf
+$ENDCMP
+#
+$CMP L272D
+D Dual Power Op amp, SO-16
+K ampliop Power OpAMP
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/02/9c/bc/75/59/9c/47/bd/CD00000054.pdf/files/CD00000054.pdf/jcr:content/translations/en.CD00000054.pdf
+$ENDCMP
+#
+$CMP L272M
+D Dual Power Op amp
+K ampliop Power OpAMP
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/02/9c/bc/75/59/9c/47/bd/CD00000054.pdf/files/CD00000054.pdf/jcr:content/translations/en.CD00000054.pdf
+$ENDCMP
+#
+$CMP LF155
+D JFET Input Operational Amplifiers
+K Ampliop JFET OpAMP
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF156
+D JFET Input Operational Amplifiers
+K Ampliop JFET OpAMP
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF256
+D JFET Input Operational Amplifiers
+K Ampliop JFET OpAMP
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF257
+D JFET Input Operational Amplifiers
+K Ampliop JFET OpAMP
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF355
+D JFET Input Operational Amplifiers
+K Ampliop JFET OpAMP
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF356
+D JFET Input Operational Amplifiers
+K Ampliop JFET OpAMP
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF357
+D JFET Input Operational Amplifiers
+K Ampliop JFET OpAMP
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
 $ENDCMP
 #
 $CMP LF398
@@ -43,15 +279,28 @@ D High speed analog Buffer
 K Buffer
 $ENDCMP
 #
-$CMP LM101H
-D Ampli Op
-K AmpliOp
+$CMP LM101
+D Operational Amplifier
+K OPAMP
+F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
+$ENDCMP
+#
+$CMP LM13700
+D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers
+K National OTA
+F http://www.ti.com/lit/ds/symlink/lm13700.pdf
 $ENDCMP
 #
 $CMP LM193
 D Dual Voltage Comparator
 K Comp
 F ns/lm193.pdf
+$ENDCMP
+#
+$CMP LM201
+D Operational Amplifier
+K OPAMP
+F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
 $ENDCMP
 #
 $CMP LM2902N
@@ -70,6 +319,12 @@ $CMP LM293
 D Dual Voltage Comparator
 K Comp
 F ns/lm193.pdf
+$ENDCMP
+#
+$CMP LM301
+D Operational Amplifier
+K OPAMP
+F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
 $ENDCMP
 #
 $CMP LM311N
@@ -98,6 +353,12 @@ D Dual voltage comparator (high speed)
 K comp
 $ENDCMP
 #
+$CMP LM321
+D Low Power Single Operational Amplifier
+K opamp
+F http://www.ti.com/lit/ds/symlink/lm321.pdf
+$ENDCMP
+#
 $CMP LM324
 D Quad Op amp.
 K AmpliOp
@@ -118,7 +379,7 @@ $ENDCMP
 #
 $CMP LM339
 D Quad comparator.
-K Comp
+K Comp diff
 F op_amps/lm139.pdf
 $ENDCMP
 #
@@ -135,8 +396,9 @@ F ns/lm158.pdf
 $ENDCMP
 #
 $CMP LM386
-D Audio Power Amp.
-K Audio Power
+D Low Voltage Audio Power Amp.
+K Audio Power OpAmp
+F http://www.ti.com/lit/ds/symlink/lm386.pdf
 $ENDCMP
 #
 $CMP LM393
@@ -145,26 +407,34 @@ K Comp
 F ns/lm193.pdf
 $ENDCMP
 #
+$CMP LM4250
+D Programmable Operational Amplifier
+K Programmable OPAMP
+F http://www.ti.com/lit/ds/symlink/lm4250.pdf
+$ENDCMP
+#
 $CMP LM555N
-F ns/lm555.pdf
+D 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
 $CMP LM6161
 D Op Amp.
 K AmpliOp
-F AmpliOp.sch
+F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
 $CMP LM6261
 D Op Amp.
 K AmpliOp
-F AmpliOp.sch
+F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
 $CMP LM6361
 D Op Amp.
 K AmpliOp
-F AmpliOp.sch
+F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
 $CMP LM7332
@@ -176,12 +446,19 @@ $ENDCMP
 $CMP LM733CH
 D Differential Video amp
 K Video Diff
+F http://www.soemtron.org/downloads/disposals/lm733cn.pdf
 $ENDCMP
 #
 $CMP LM741
 D Op amp
 K Ampliop
-F AmpliOp.sch
+F http://www.ti.com/lit/ds/symlink/lm741.pdf
+$ENDCMP
+#
+$CMP LMC555
+D 555-series CMOS timer IC
+K timer 555
+F http://www.ti.com/lit/ds/snas558m/snas558m.pdf
 $ENDCMP
 #
 $CMP LMC6062
@@ -196,22 +473,190 @@ K ampliop
 F op_amps/lmc6082.pdf
 $ENDCMP
 #
+$CMP LMC6484
+D Quad CMOS Rail-to-Rail Input and Output Operational Amplifier
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/lmc6484.pdf
+$ENDCMP
+#
+$CMP LMV321
+D Low-Voltage Rail-to-Rail Output Operational Amplifiers
+K ampliop
+F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+$CMP LMV324
+D Quad Low-Voltage Rail-to-Rail Output Operational Amplifier
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+$CMP LMV358
+D Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers
+K ampliop
+F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+$CMP LMV601
+D Low Power, general purpose Op Amp, SC-70-6 package
+K op amp amplifier operational 
+F http://www.ti.com/lit/ds/symlink/lmv601.pdf
+$ENDCMP
+#
+$CMP LT1363
+D 70MHz, 1000V/µs Operational Amplifier
+K High-Speed High-Slew-rate OPAMP
+F http://cds.linear.com/docs/en/datasheet/1363fa.pdf
+$ENDCMP
+#
+$CMP LT1492
+D Dual Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR
+K operational amplifier opamp Precision
+F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+$ENDCMP
+#
+$CMP LT1493
+D Quad Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR, SSOP package
+K operational amplifier opamp Precision 
+F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+$ENDCMP
+#
+$CMP LT5560
+D 0.01MHz to 4GHz Low Power Active Mixer
+K Mixer, RF
+F http://cds.linear.com/docs/en/datasheet/5560f.pdf
+$ENDCMP
+#
+$CMP LT6106
+D 36V high side current sense amplifier, adjustable gain, bandwidth 200kHz, Vcc=2.7V~36V, current output, unidirectional
+K current sense highside HS shunt monitor amplifier linear
+F http://cds.linear.com/docs/en/datasheet/6106fb.pdf
+$ENDCMP
+#
+$CMP LTC4414
+D Controller for Large PFETs
+K switch power FET 
+F http://cds.linear.com/docs/en/datasheet/4414fc.pdf
+$ENDCMP
+#
+$CMP LTC6082
+D Precision Quad Op amp.
+K LTC6082 opamp ltc
+F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxDD
+D Precision zero drift current sense amplifier, 100V supply, DFN-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxDD-1
+D Precision zero drift current sense amplifier, 100V supply, disable mode, DFN-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxMS8
+D Precision zero drift current sense amplifier, 100V supply, MSOP-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxMS8-1
+D Precision zero drift current sense amplifier, 100V supply, disable mode, MSOP-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xDD
+D Precision zero drift current sense amplifier, 60V supply, DFN-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xDD-1
+D Precision zero drift current sense amplifier, 60V supply, disable mode, DFN-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xMS8
+D Precision zero drift current sense amplifier, 60V supply, MSOP-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xMS8-1
+D Precision zero drift current sense amplifier, 60V supply, disable mode, MSOP-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6362
+D Precision differential amplifier for dirving high resolution SAR ADCs
+K linear ltc diff amp
+F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
+$ENDCMP
+#
+$CMP MAX4080F
+D 76V current sense amplifier, high side, unidirectional, 5V/V gain
+K telecom automotive backplane external reference
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4080S
+D 76V current sense amplifier, high side, unidirectional, 60V/V gain
+K telecom automotive backplane external reference
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4080T
+D 76V current sense amplifier, high side, unidirectional, 20V/V gain
+K telecom automotive backplane external reference
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
 $CMP MAX4081F
-D 76V High-side differntial current sense amplifier 5V/V gain
+D 76V current sense amplifier, high side, bidirectional, 5V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4081S
-D 76V High-side differntial current sense amplifier 60V/V gain
+D 76V current sense amplifier, high side, bidirectional, 60V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4081T
-D 76V High-side differntial current sense amplifier 20V/V gain
+D 76V current sense amplifier, high side, bidirectional, 20V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4238ASA
+D Ultra-Low Offset/Drift, Low-Noise, Precision Amplifier, GBP=1MHz, SO-8
+K Ampliop
+F http://datasheets.maximintegrated.com/en/ds/MAX4238-MAX4239.pdf
+$ENDCMP
+#
+$CMP MAX4238AUT
+D Ultra-Low Offset/Drift, Low-Noise, Precision Amplifier, GBP=1MHz, SOT23 
+K Ampliop
+F http://datasheets.maximintegrated.com/en/ds/MAX4238-MAX4239.pdf
+$ENDCMP
+#
+$CMP MAX4239ASA
+D Ultra-Low Offset/Drift, Low-Noise, Precision Amplifier, GBP=6.5MHz, SO-8
+K Ampliop
+F http://datasheets.maximintegrated.com/en/ds/MAX4238-MAX4239.pdf
+$ENDCMP
+#
+$CMP MAX4239AUT
+D Ultra-Low Offset/Drift, Low-Noise, Precision Amplifier, GBP=6.5MHz, SOT23 
+K Ampliop
+F http://datasheets.maximintegrated.com/en/ds/MAX4238-MAX4239.pdf
 $ENDCMP
 #
 $CMP MAX471
@@ -254,10 +699,274 @@ K quad op amp operational amplifier
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
+$CMP MCP601OT
+D 2.7V to 6.0V Single Supply CMOS Operational Amplifier, SOT-23-5
+K op amp amplifier operational 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP601P
+D 2.7V to 6.0V Single Supply CMOS Operational Amplifier, DIP-8
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP601R
+D 2.7V to 6.0V Single Supply CMOS Operational Amplifier, SOT-23-5
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP601SN
+D 2.7V to 6.0V Single Supply CMOS Operational Amplifier, SO-8
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP601ST
+D 2.7V to 6.0V Single Supply CMOS Operational Amplifier, TSSOP-8
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP602
+D Dual 2.7V to 6.0V Single Supply CMOS Operational Amplifier
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP603
+D Dual 2.7V to 6.0V Single Supply CMOS Operational Amplifier, SOT-23-6
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP603P
+D 2.7V to 6.0V Single Supply CMOS Operational Amplifier, with Chip Select, DIP-8
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP603SN
+D 2.7V to 6.0V Single Supply CMOS Operational Amplifier, with Chip Select, SO-8
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP603ST
+D 2.7V to 6.0V Single Supply CMOS Operational Amplifier, with Chip Select, TSSOP-8
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP604
+D Quad 2.7V to 6.0V Single Supply CMOS Operational Amplifier
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP6562
+D Dual low power push-pull output comparator
+K comparator, low power, push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf
+$ENDCMP
+#
+$CMP MCP6566
+D Low power open drain output comparator
+K comparator low power open drain
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf
+$ENDCMP
+#
+$CMP MCP6566R
+D Low power open drain output comparator
+K comparator low power open drain
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf
+$ENDCMP
+#
+$CMP MCP6566U
+D Low power open drain output comparator
+K comparator low power open drain
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf
+$ENDCMP
+#
+$CMP MCP6567
+D Dual low power open drain output comparator
+K comparator, low power, open drain
+F http://www.farnell.com/datasheets/2133492.pdf
+$ENDCMP
+#
+$CMP MCP6L91
+D Rail-to-rail Op Amp, 10MHz, SOT-23-5
+K opamp rail-to-rail
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP MCP6L91R
+D Rail-to-rail Op Amp, 10MHz, SOT-23-5
+K opamp rail-to-rail
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP MIC845H
+D Precision single-input comparator, internal 2.55V reference, Active-High Push-Pull output, SC-70-5 package
+K comparator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
+$ENDCMP
+#
+$CMP MIC845L
+D Precision single-input comparator, internal 2.55V reference, Active-Low Push-Pull output, SC-70-5 package
+K comparator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
+$ENDCMP
+#
+$CMP MIC845N
+D Precision single-input comparator, internal 2.55V reference, Open Drain Output, SC-70-5 package
+K comparator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
+$ENDCMP
+#
+$CMP NA555
+D 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NA556
+D double 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/se556.pdf
+$ENDCMP
+#
+$CMP NCS210
+D Bidirectional zero-drift current shunt, 200V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS211
+D Bidirectional zero-drift current shunt, 500V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS212
+D Bidirectional zero-drift current shunt, 1000V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS213
+D Bidirectional zero-drift current shunt, 50V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS214
+D Bidirectional zero-drift current shunt, 100V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS215
+D Bidirectional zero-drift current shunt, 75V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NE5532
+D Dual Op amp (low noice)
+K ampliop
+F http://www.ti.com/lit/ds/symlink/ne5532.pdf
+$ENDCMP
+#
+$CMP NE5534
+D Low-Noise High-Speed Audio Operational Amplifier
+K Low-Noise OPAMP
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+$CMP NE555
+D 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NE556
+D double 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/se556.pdf
+$ENDCMP
+#
+$CMP NE567
+D Tone decoder/phase-locked loop
+K tone decoder PLL
+F https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2006/cc425/Paul_Jimmy/tonedecoderapp.pdf
+$ENDCMP
+#
+$CMP OP07
+D Ultra-Low Offset Voltage Operational Amplifier
+K Low-Offset OPAMP
+F http://cdn-reichelt.de/documents/datenblatt/A200/OP07%23AD.pdf
+$ENDCMP
+#
+$CMP OP077
+D Ultra-Low Offset Voltage Operational Amplifier
+K Low-Offset OPAMP
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP77.pdf
+$ENDCMP
+#
 $CMP OP275
 D Dual Op amp (low power)
 K ampliop
 F analog-dev/op275.pdf
+$ENDCMP
+#
+$CMP OPA2333D
+D Dual CMOS Operational Amplifiers, Zero-Drift Series, 1.8-V, microPower
+K ampliop
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA2340
+D Dual Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier™ Series
+K ampliop
+F http://www.ti.com/lit/ds/symlink/opa4340.pdf
+$ENDCMP
+#
+$CMP OPA333D
+D CMOS Operational Amplifier, Zero-Drift Series, 1.8-V, microPower, SO-8
+K CMOS Ampliop
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA333DBV
+D CMOS Operational Amplifier, Zero-Drift Series, 1.8-V, microPower, SOT23-5
+K CMOS Ampliop
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA333DCK
+D CMOS Operational Amplifier, Zero-Drift Series, 1.8-V, microPower, SC70-5
+K CMOS Ampliop
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA340D
+D Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier™ Series
+K Ampliop
+F http://www.ti.com/lit/ds/symlink/opa4340.pdf
+$ENDCMP
+#
+$CMP OPA340DBV
+D Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier™ Series
+K Ampliop
+F http://www.ti.com/lit/ds/symlink/opa4340.pdf
+$ENDCMP
+#
+$CMP OPA340P
+D CMOS Operational Amplifiers, Zero-Drift Series, 1.8-V, microPower, DIP8 package
+K Ampliop
+F http://www.ti.com/lit/ds/symlink/opa4340.pdf
 $ENDCMP
 #
 $CMP OPA376AIDCK
@@ -266,36 +975,136 @@ K op amp amplifier operational
 F http://www.ti.com/lit/gpn/opa376
 $ENDCMP
 #
-$CMP TL071
-D Op amp.
+$CMP OPA4340D
+D Quad Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier™ Series
 K AmpliOp
-F op_amps/tl071.pdf
+F http://www.ti.com/lit/ds/symlink/opa4340.pdf
+$ENDCMP
+#
+$CMP OPA4340DBQ
+D Quad Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier™ Series
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/opa4340.pdf
+$ENDCMP
+#
+$CMP SA5534
+D Low-Noise High-Speed Audio Operational Amplifier
+K Low-Noise OPAMP
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+$CMP SA555
+D 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SA556
+D double 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/se556.pdf
+$ENDCMP
+#
+$CMP SE555
+D 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SE556
+D double 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/se556.pdf
+$ENDCMP
+#
+$CMP SE567
+D Tone decoder/phase-locked loop
+K tone decoder PLL
+F https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2006/cc425/Paul_Jimmy/tonedecoderapp.pdf
+$ENDCMP
+#
+$CMP TL061
+D Low-Power JFET-Input Operational Amplifier, Very Low Power
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/tl064.pdf
+$ENDCMP
+#
+$CMP TL064
+D Quad Low-Power JFET-Input Operational Amplifiers, Very Low Power
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/tl064.pdf
+$ENDCMP
+#
+$CMP TL071
+D Low-Noise JFET-Input Operational Amplifiers, Low Power
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/tl072a.pdf
 $ENDCMP
 #
 $CMP TL072
-D Dual Op amp (low power)
+D Dual Low-Noise JFET-Input Operational Amplifiers, Low Power
 K ampliop
+F http://www.ti.com/lit/ds/symlink/tl074.pdf
 $ENDCMP
 #
 $CMP TL074
-D Quad Op amp. Mos
+D Quad Low-Noise JFET-Input Operational Amplifiers, Low Power
 K AmpliOp Mos
+F http://www.ti.com/lit/ds/symlink/tlc074.pdf
 $ENDCMP
 #
 $CMP TL081
-D Op amp.
+D JFET-Input Operational Amplifiers
 K AmpliOp
-F op_amps/tl081.pdf
+F http://www.ti.com/lit/ds/symlink/tl082.pdf
 $ENDCMP
 #
 $CMP TL082
-D Dual Op amp (Cmos)
+D JFET-Input Operational Amplifiers
 K ampliop
+F http://www.ti.com/lit/ds/symlink/tl082.pdf
+$ENDCMP
+#
+$CMP TL084
+D JFET-Input Operational Amplifiers
+K ampliop
+F http://www.ti.com/lit/ds/symlink/tl082.pdf
+$ENDCMP
+#
+$CMP TLC272
+D Dual LinCMOS Precision Operational Amplifiers
+K Precision OPAMP ampliop
+F http://www.ti.com/lit/ds/symlink/tlc272.pdf
 $ENDCMP
 #
 $CMP TLC274
-D Quad Op amp. Mos
+D Precision Quad Op amp. Mos
 K AmpliOp Mos
+F http://www.ti.com.cn/cn/lit/ds/symlink/tlc274.pdf
+$ENDCMP
+#
+$CMP TLC555
+D Dual Op amp, rail-to-rail, 8MHz, MSOP8, SOIC8
+K opamp, rail-to-rail
+F http://www.st.com/resource/en/datasheet/tsv914a.pdf
+$ENDCMP
+#
+$CMP TS881
+D Rail to rail nanopower comparator
+K comparator
+F www.st.com/resource/en/datasheet/ts881.pdf
+$ENDCMP
+#
+$CMP TS912
+D Dual Rail-to-rail CMOS Operational Amplifier
+K ampliop
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/3b/16/fd/19/b8/21/40/7f/CD00000501.pdf/files/CD00000501.pdf/jcr:content/translations/en.CD00000501.pdf
+$ENDCMP
+#
+$CMP TSV912
+D Dual Op amp, rail-to-rail, 8MHz, MSOP8, SOIC8
+K opamp, rail-to-rail
+F http://www.st.com/resource/en/datasheet/tsv914a.pdf
 $ENDCMP
 #
 #End Doc Library
