@@ -481,8 +481,13 @@ K connector
 $ENDCMP
 #
 $CMP CONN_COAXIAL
-D coaxial connector
-K BNC SMA SMB SMC coaxial connector CINCH
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+$ENDCMP
+#
+$CMP CONN_COAXIAL_x2
+D double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
 $ENDCMP
 #
 $CMP DB15
