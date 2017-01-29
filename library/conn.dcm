@@ -490,30 +490,104 @@ D double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
 $ENDCMP
 #
-$CMP DB15
-K connector
+$CMP DB15_FEMALE
+D 15-pin female D-SUB connector (low-density/2 columns)
+K female D-SUB connector
 $ENDCMP
 #
-$CMP DB15_HighDensity
-D High density DB15, Triple Row, Generic
-K connector db15
+$CMP DB15_FEMALE_HighDensity
+D 15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector
+K connector db15 VGA female D-SUB
 $ENDCMP
 #
-$CMP DB15_HighDensity_MountingHoles
-D High density DB15, Triple Row, Mounting Hole, Generic
-K connector db15
+$CMP DB15_FEMALE_HighDensity_MountingHoles
+D 15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole
+K connector db15 female D-SUB VGA
 $ENDCMP
 #
-$CMP DB25
-K connector
+$CMP DB15_FEMALE_MountingHoles
+D 15-pin female D-SUB connector (low-density/2 columns), Mounting Hole
+K female D-SUB connector
 $ENDCMP
 #
-$CMP DB37
-K connector
+$CMP DB15_MALE
+D 15-pin male D-SUB connector (low-density/2 columns)
+K male D-SUB connector
 $ENDCMP
 #
-$CMP DB9
-K connector
+$CMP DB15_MALE_HighDensity
+D 15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector
+K connector male VGA D-SUB
+$ENDCMP
+#
+$CMP DB15_MALE_HighDensity_MountingHoles
+D 15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole
+K connector male D-SUB VGA
+$ENDCMP
+#
+$CMP DB15_MALE_MountingHoles
+D 15-pin male D-SUB connector (low-density/2 columns), Mounting Hole
+K male D-SUB connector
+$ENDCMP
+#
+$CMP DB25_FEMALE
+D 25-pin female D-SUB connector
+K female D-SUB connector
+$ENDCMP
+#
+$CMP DB25_FEMALE_MountingHoles
+D 25-pin female D-SUB connector, Mounting Hole
+K female D-SUB connector
+$ENDCMP
+#
+$CMP DB25_MALE
+D 25-pin male D-SUB connector
+K male D-SUB connector
+$ENDCMP
+#
+$CMP DB25_MALE_MountingHoles
+D 25-pin male D-SUB connector, Mounting Hole
+K male D-SUB connector
+$ENDCMP
+#
+$CMP DB37_FEMALE
+D 37-pin female D-SUB connector
+K female D-SUB connector
+$ENDCMP
+#
+$CMP DB37_FEMALE_MountingHoles
+D 37-pin female D-SUB connector, Mounting Hole
+K female D-SUB connector
+$ENDCMP
+#
+$CMP DB37_MALE
+D 37-pin male D-SUB connector
+K male D-SUB connector
+$ENDCMP
+#
+$CMP DB37_MALE_MountingHoles
+D 37-pin male D-SUB connector, Mounting Hole
+K male D-SUB connector
+$ENDCMP
+#
+$CMP DB9_FEMALE
+D 9-pin female D-SUB connector
+K connector female D-SUB
+$ENDCMP
+#
+$CMP DB9_FEMALE_MountingHoles
+D 9-pin female D-SUB connector, Mounting Hole
+K connector female D-SUB
+$ENDCMP
+#
+$CMP DB9_MALE
+D 9-pin male D-SUB connector
+K connector male D-SUB
+$ENDCMP
+#
+$CMP DB9_MALE_MountingHoles
+D 9-pin male D-SUB connector, Mounting Hole
+K connector male D-SUB
 $ENDCMP
 #
 $CMP DIN_5
