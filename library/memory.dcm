@@ -5,6 +5,12 @@ D biPort RAM (1Ko)
 K RAM BiPort 1KO
 $ENDCMP
 #
+$CMP 24AA02
+D I2C Serial EEPROM, 2kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22124D.pdf
+$ENDCMP
+#
 $CMP 24LC00
 D I2C Serial EEPROM, 128 bits
 K I2C Serial EEPROM
