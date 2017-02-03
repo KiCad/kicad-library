@@ -9566,14 +9566,14 @@ ENDDEF
 #
 # Micro_SD_Card_Det
 #
-DEF Micro_SD_Card_Det CON 0 40 Y Y 1 F N
-F0 "CON" -650 700 50 H V C CNN
+DEF Micro_SD_Card_Det J 0 40 Y Y 1 F N
+F0 "J" -650 700 50 H V C CNN
 F1 "Micro_SD_Card_Det" 650 700 50 H V R CNN
-F2 "Connectors_Hirose:microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5" 2050 700 50 H I C CNN
+F2 "" 2050 700 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 ALIAS DM3AT
 $FPLIST
- DM3AT*
+ microSD?Card?Receptable*
 $ENDFPLIST
 DRAW
 S -300 -275 -200 -325 0 1 0 F
