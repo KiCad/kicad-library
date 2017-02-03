@@ -2065,6 +2065,18 @@ K Linear LDO Regulator 350mA 5V
 F http://datasheets.maximintegrated.com/en/ds/MAX1658-MAX1659.pdf
 $ENDCMP
 #
+$CMP MAX16910CASA
+D 200mA Automotive Linear LDO Regulator, Fixed Output 5V/3.3V or Adjustable, SOIC8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX16910.pdf
+$ENDCMP
+#
+$CMP MAX16910CATA
+D 200mA Automotive Linear LDO Regulator, Fixed Output 5V/3.3V or Adjustable, TDFN8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX16910.pdf
+$ENDCMP
+#
 $CMP MAX5092AATE
 D 4V to 72V Input LDOs with Boost Preregulator, 250mA Output, 3.3V Preset Vout, TQFN-16
 K High Voltage 72V Input LDO Boost Preregulator 250mA 3.3V
@@ -2116,6 +2128,78 @@ $ENDCMP
 $CMP MAX874
 D Voltage reference
 F maxim\MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MAX882CPA
+D 200mA Linear LDO Regulator, Fixed Output 3.3V or Adjustable with Standby Mode, 0C to +70C, DIP8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX882CSA
+D 200mA Linear LDO Regulator, Fixed Output 3.3V or Adjustable with Standby Mode, 0C to +70C, SOIC8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX882EPA
+D 200mA Linear LDO Regulator, Fixed Output 3.3V or Adjustable with Standby Mode, -40C to +85C, DIP8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX882ESA
+D 200mA Linear LDO Regulator, Fixed Output 3.3V or Adjustable with Standby Mode, -40C to +85C, SOIC8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX883CPA
+D 200mA Linear LDO Regulator, Fixed Output 5V or Adjustable with Shutdown Mode, 0C to +70C, DIP8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX883CSA
+D 200mA Linear LDO Regulator, Fixed Output 5V or Adjustable with Shutdown Mode, 0C to +70C, SOIC8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX883EPA
+D 200mA Linear LDO Regulator, Fixed Output 5V or Adjustable with Shutdown Mode, -40C to +85C, DIP8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX883ESA
+D 200mA Linear LDO Regulator, Fixed Output 5V or Adjustable with Shutdown Mode, -40C to +85C, SOIC8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX884CPA
+D 200mA Linear LDO Regulator, Fixed Output 3.3V or Adjustable with Shutdown Mode, 0C to +70C, DIP8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX884CSA
+D 200mA Linear LDO Regulator, Fixed Output 3.3V or Adjustable with Shutdown Mode, 0C to +70C, SOIC8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX884EPA
+D 200mA Linear LDO Regulator, Fixed Output 3.3V or Adjustable with Shutdown Mode, -40C to +85C, DIP8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
+$ENDCMP
+#
+$CMP MAX884ESA
+D 200mA Linear LDO Regulator, Fixed Output 3.3V or Adjustable with Shutdown Mode, -40C to +85C, SOIC8
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX882-MAX884.pdf
 $ENDCMP
 #
 $CMP MC78L05AACP
@@ -2206,6 +2290,24 @@ $CMP MC78M05CDT
 D Positive 0.5A 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
 K Voltage Regulator 0.5A Positive
 F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
+$CMP MC79L05ACD
+D Negative 100mA -30V Linear Regulator, Fixed Output -5V, SO-8
+K Voltage Regulator 100mA Negative
+F http://www.ti.com/lit/ds/symlink/mc79l05a.pdf
+$ENDCMP
+#
+$CMP MC79L12ACD
+D Negative 100mA -35V Linear Regulator, Fixed Output -12V, SO-8
+K Voltage Regulator 100mA Negative
+F http://www.ti.com/lit/ds/symlink/mc79l12a.pdf
+$ENDCMP
+#
+$CMP MC79L15CD
+D Negative 100mA -35V Linear Regulator, Fixed Output -15V, SO-8
+K Voltage Regulator 100mA Negative
+F http://www.ti.com/lit/ds/symlink/mc79l15.pdf
 $ENDCMP
 #
 $CMP MCP1700T-3002E/TT
@@ -2338,6 +2440,72 @@ $CMP MCP1754ST-5002E/MB
 D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1826S
+D 1000 mA, Low-Voltage, Low Quiescent Current LDO Regulator
+K regulator linear ldo
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf
+$ENDCMP
+#
+$CMP MIC5219-2.5BM5
+D 500mA LDO fixed output voltage 2.5V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5219-2.6BM5
+D 500mA LDO fixed output voltage 2.6V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5219-2.7BM5
+D 500mA LDO fixed output voltage 2.7V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5219-2.8BM5
+D 500mA LDO fixed output voltage 2.8V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5219-2.9BM5
+D 500mA LDO fixed output voltage 2.9V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.0BM5
+D 500mA LDO fixed output voltage 3.0V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.1BM5
+D 500mA LDO fixed output voltage 3.1V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.3BM5
+D 500mA LDO fixed output voltage 3.3V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.6BM5
+D 500mA LDO fixed output voltage 3.6V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5219-5.0BM5
+D 500mA LDO fixed output voltage 5.0V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
 $ENDCMP
 #
 $CMP NCP1117DT12G
