@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 15/11/2012 21:22:43
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -20,17 +19,9 @@ LIBS:texas
 LIBS:intel
 LIBS:audio
 LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
 LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:rpi-cache
-EELAYER 27 0
+LIBS:raspberrypi-gpio-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -50,6 +41,8 @@ U 1 1 50A55ABA
 P 2400 1800
 F 0 "P1" H 2400 2500 60  0000 C CNN
 F 1 "CONN_13X2" V 2400 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x13" H 2400 1100 30  0000 C CNN
+F 3 "" H 2400 1800 60  0001 C CNN
 	1    2400 1800
 	1    0    0    -1  
 $EndComp
@@ -57,8 +50,10 @@ $Comp
 L +3.3V #PWR01
 U 1 1 50A55B18
 P 1900 1050
-F 0 "#PWR01" H 1900 1010 30  0001 C CNN
-F 1 "+3.3V" H 1900 1160 30  0000 C CNN
+F 0 "#PWR01" H 1900 900 50  0001 C CNN
+F 1 "+3.3V" H 1900 1190 50  0000 C CNN
+F 2 "" H 1900 1050 50  0000 C CNN
+F 3 "" H 1900 1050 50  0000 C CNN
 	1    1900 1050
 	1    0    0    -1  
 $EndComp
@@ -70,8 +65,10 @@ $Comp
 L +5V #PWR02
 U 1 1 50A55B2E
 P 2900 1050
-F 0 "#PWR02" H 2900 1140 20  0001 C CNN
-F 1 "+5V" H 2900 1140 30  0000 C CNN
+F 0 "#PWR02" H 2900 900 50  0001 C CNN
+F 1 "+5V" H 2900 1190 50  0000 C CNN
+F 2 "" H 2900 1050 50  0000 C CNN
+F 3 "" H 2900 1050 50  0000 C CNN
 	1    2900 1050
 	1    0    0    -1  
 $EndComp
@@ -123,8 +120,10 @@ $Comp
 L GND #PWR03
 U 1 1 50A55C3F
 P 2900 2500
-F 0 "#PWR03" H 2900 2500 30  0001 C CNN
-F 1 "GND" H 2900 2430 30  0001 C CNN
+F 0 "#PWR03" H 2900 2250 50  0001 C CNN
+F 1 "GND" H 2900 2350 50  0000 C CNN
+F 2 "" H 2900 2500 50  0000 C CNN
+F 3 "" H 2900 2500 50  0000 C CNN
 	1    2900 2500
 	1    0    0    -1  
 $EndComp
