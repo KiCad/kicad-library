@@ -787,19 +787,31 @@ D point
 K point tp
 $ENDCMP
 #
+$CMP USB3_A
+D USB 3.0 A connector
+K usb universal serial bus
+F ~
+$ENDCMP
+#
+$CMP USB3_B
+D USB 3.0 B connector
+K usb universal serial bus
+F ~
+$ENDCMP
+#
 $CMP USB_A
 D USB Type A connector
-K connector USB USB_A
+K connector USB
 $ENDCMP
 #
 $CMP USB_B
 D USB Type B connector
-K connector USB USB_B
+K connector USB
 $ENDCMP
 #
 $CMP USB_OTG
-D USB micro/mini connector
-K connector USB USB_OTG USB_mini USB_micro
+D USB mini/micro connector
+K connector USB
 $ENDCMP
 #
 $CMP XLR3
