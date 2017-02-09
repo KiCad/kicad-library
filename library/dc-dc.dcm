@@ -820,6 +820,24 @@ K Step-Down Switching Regulator High Voltage High Frequency
 F http://www.national.com/ds/LM/LM5017.pdf
 $ENDCMP
 #
+$CMP LM5165
+D 150mA Step-Down Conveter, 3V-65V input, adjustable output voltage, DFN10 package
+K step-down dc-dc buck regulator adjustable
+F http://www.ti.com/lit/ds/symlink/lm5165.pdf
+$ENDCMP
+#
+$CMP LM5165X
+D 150mA Step-Down Conveter, 3V-65V input, 5.0V fixed output voltage, DFN10 package
+K step-down dc-dc buck regulator fixed 5V
+F http://www.ti.com/lit/ds/symlink/lm5165.pdf
+$ENDCMP
+#
+$CMP LM5165Y
+D 150mA Step-Down Conveter, 3V-65V input, 3.3V fixed output voltage, DFN10 package
+K step-down dc-dc buck regulator fixed 3V3
+F http://www.ti.com/lit/ds/symlink/lm5165.pdf
+$ENDCMP
+#
 $CMP LMR10510XMF
 D 1A, 5.5V Step-Down Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Down Buck Voltage Regulator
@@ -836,6 +854,24 @@ $CMP LMR10510YSD
 D LM10510, 1A, 5.5V Step-Down Voltage Regulator, 3MHz Frequency
 K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr10510.pdf
+$ENDCMP
+#
+$CMP LMR16006YQ
+D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Adjustable output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR16006YQ3
+D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 3.3V output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR16006YQ5
+D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 5.0V output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
 $ENDCMP
 #
 $CMP LMR62014XMF
@@ -1027,6 +1063,24 @@ $CMP MAX1044
 D Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop
 K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
 F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
+$ENDCMP
+#
+$CMP MAX15062A
+D 60V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage
+K step-down dc-dc switching regulator
+F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
+$ENDCMP
+#
+$CMP MAX15062B
+D 60V, 300mA, synchronous step-down dc-dc converter, 5.0V fixed output voltage
+K step-down dc-dc switching regulator
+F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
+$ENDCMP
+#
+$CMP MAX15062C
+D 60V, 300mA, synchronous step-down dc-dc converter, adjustable output voltage
+K step-down dc-dc switching regulator
+F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
 $ENDCMP
 #
 $CMP MAX5035AASA
