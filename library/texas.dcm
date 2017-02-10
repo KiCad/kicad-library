@@ -120,6 +120,18 @@ K ARM Stellaris Cortex M4 MCU NRND
 F http://www.ti.com/lit/ds/symlink/tm4c1230h6pm.pdf
 $ENDCMP
 #
+$CMP LM5175PWP
+D 42-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5175.pdf
+$ENDCMP
+#
+$CMP LM5175RHF
+D 42-V wide Vin synchronous 4-switch Buck-Boost controller, QFN-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5175.pdf
+$ENDCMP
+#
 $CMP TCA9555PWR
 D 16-bit I/O expander, I2C and SMBus interface, interrupts, TSSOP-24 package
 K ti parallel port
@@ -154,6 +166,12 @@ $CMP TLC5940PWP
 D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, TSSOP package with thermal pad
 K PWM LED driver
 F http://www.ti.com/lit/ds/symlink/tlc5940.pdf
+$ENDCMP
+#
+$CMP TLC5973
+D 3 Channel 12bit PWM constant currend LED Driver with single wire interface
+K LED current driver 12bit PWM
+F http://www.ti.com/lit/ds/symlink/tlc5973.pdf
 $ENDCMP
 #
 $CMP TM4C1230C3PM
@@ -210,6 +228,18 @@ K ARM 7TDM uC TMS470
 F http://www.ti.com/lit/ds/symlink/tms470r1b768.pdf
 $ENDCMP
 #
+$CMP TPS2041B
+D Single power-distribution switcher
+K 1-chanel power-distribution USB
+F http://www.ti.com/lit/ds/symlink/tps2041.pdf
+$ENDCMP
+#
+$CMP TPS2042D
+D Dual power-distribution switcher
+K 2-chanel power-distribution USB
+F http://www.ti.com/lit/ds/symlink/tps2042.pdf
+$ENDCMP
+#
 $CMP TPS2044D
 D Quad power-distribution switcher
 K 4-chanel power-distribution USB
@@ -246,6 +276,42 @@ K USB Charge
 F http://www.ti.com/lit/ds/symlink/tps2513.pdf
 $ENDCMP
 #
+$CMP TPS2560
+D Dual channel precision adjustable current-limited power switches
+K power switche current limited usb port
+F http://www.ti.com/lit/ds/symlink/tps2560.pdf
+$ENDCMP
+#
+$CMP TPS2561
+D Dual channel precision adjustable current-limited power switches
+K power switche current limited usb port
+F http://www.ti.com/lit/ds/symlink/tps2561.pdf
+$ENDCMP
+#
+$CMP TPS562200
+D 4.5 to 17V input, 2A synchronous step-down voltage regulator
+K step-down dcdc voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps563200.pdf
+$ENDCMP
+#
+$CMP TPS563200
+D 4.5 to 17V input, 3A synchronous step-down voltage regulator
+K step-down dcdc voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps563200.pdf
+$ENDCMP
+#
+$CMP TPS62130
+D 3-17V 3A Step-down converter in 3x3 QFN package
+K step-down dcdc converter
+F http://www.ti.com/lit/ds/symlink/tps62130.pdf
+$ENDCMP
+#
+$CMP TPS62132
+D 3-17V, 3A step-down converter
+K step down dcdc converter
+F http://www.ti.com/lit/ds/symlink/tps62130.pdf
+$ENDCMP
+#
 $CMP TS5A3159
 D 1-Ohm SPDT Analog Switch, Break-Before-Make
 K SDPT Switch
@@ -262,6 +328,48 @@ $CMP TUSB2036
 D 2- or 3-Port USB1.1 HUB with optional serial EEPROM
 K 2-Port, 3-Port, 3.3V, EEPROM, Full Speed, Hub, Texas Instruments, USB1.1
 F http://www.ti.com/lit/ds/symlink/tusb2036.pdf
+$ENDCMP
+#
+$CMP TUSB4041I
+D four port USB 2.0 Hub
+K USB2.0 hub
+F http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
+$ENDCMP
+#
+$CMP TUSB8041
+D four port USB 3.0 Hub
+K USB3.0 hub
+F http://www.ti.com/lit/ds/symlink/tusb8041.pdf
+$ENDCMP
+#
+$CMP UCC2891
+D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2891.pdf
+$ENDCMP
+#
+$CMP UCC2892
+D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2892.pdf
+$ENDCMP
+#
+$CMP UCC2893
+D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2893.pdf
+$ENDCMP
+#
+$CMP UCC2894
+D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2894.pdf
+$ENDCMP
+#
+$CMP UCC2897
+D SMPS Advanced Current-Mode Active Clamp PWM Controller, TSSOP-20/QFN-20
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2897.pdf
 $ENDCMP
 #
 #End Doc Library
