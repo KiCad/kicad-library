@@ -30,6 +30,18 @@ D Hex Inverseur
 K HCMOS not inv
 $ENDCMP
 #
+$CMP 74HC240
+D 8bits Buffer/Line Driver 3 state Inverting
+K TTL BUFFER 3State inv
+F http://www.nxp.com/documents/data_sheet/74HC_HCT240.pdf
+$ENDCMP
+#
+$CMP 74HC244
+D 8bits Buffer/Line Driver 3 state
+K TTL BUFFER 3State 
+F http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf
+$ENDCMP
+#
 $CMP 74HC245
 D Octal BUS Transceivers, 3 State out
 K HCMOS BUS 3State
@@ -60,6 +72,18 @@ $ENDCMP
 $CMP 74HCT04
 D Hex Inverseur
 K HCTMOS not inv
+$ENDCMP
+#
+$CMP 74HCT240
+D 8 bit buffer; 3-state; inverting
+K octal buffer line driver inverting
+F http://www.nxp.com/documents/data_sheet/74HC_HCT240.pdf
+$ENDCMP
+#
+$CMP 74HCT244
+D 8bits Buffer/Line Driver 3 state
+K TTL BUFFER 3State 
+F http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf
 $ENDCMP
 #
 $CMP 74HCT541_PWR
