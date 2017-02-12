@@ -1,15 +1,9 @@
-*.lib   text eol=lf
-*.dcm   text eol=lf
-*.bak   text eol=lf
-*.bck   text eol=lf
-*.md    text eol=lf
-*.kicad_mod text eol=lf
-*.txt   text eol=lf
-*.for-* text eol=lf
-*.py    text eol=lf
-*.wrl   text eol=lf
-*.step  text eol=lf
+*   text=auto
+*.wrl   -diff
+*.pack  binary
+*.png   binary
+*.step  binary
 *.wings binary
 *.svg   binary
 *.pdf   binary
-    
+*.pyc   binary
