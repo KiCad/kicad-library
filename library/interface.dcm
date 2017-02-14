@@ -200,6 +200,12 @@ K RS232 UART Driver Receiver Interface
 F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
 #
+$CMP ICL3232
+D 3.0V to 5.5V, Low-Power, up to 250kbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors
+K rs232 uart transceiver line-driver
+F http://www.intersil.com/content/dam/Intersil/documents/icl3/icl3221-22-23-32-41-43.pdf
+$ENDCMP
+#
 $CMP ICL7667
 D Dual Power MOSFET Driver
 K MOSFET driver array
@@ -588,6 +594,18 @@ $CMP TCA9544A
 D I2C Hub, 4 Channels, Interrupts, TSSOP-20
 K I2C Hub
 F http://www.ti.com/lit/ds/symlink/tca9544a.pdf
+$ENDCMP
+#
+$CMP TCA9548A_QFN
+D I2C Hub, 8 Channels, QFN-24
+K I2C Hub
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TCA9548A_TSSOP
+D I2C Hub, 8 Channels, TSSOP-24
+K I2C Hub
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 $ENDCMP
 #
 $CMP TJA1021T
