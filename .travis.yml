@@ -1,0 +1,9 @@
+sudo: required
+before_install:
+- git clone https://github.com/KiCad/kicad-library-utils
+- git clone https://github.com/KiCad/kicad-library
+- sudo mv kicad-library /usr/local/share/kicad-library
+- sudo mv kicad-library-utils /usr/local/share/kicad-library-utils
+
+script:
+- sudo bash ./library-check.sh

@@ -1374,4 +1374,23 @@ X B 2 200 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# testingapart
+#
+DEF testingapart U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "testingapart" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 400 250 112 0 1 0 N
+C 400 250 200 0 1 0 N
+S 200 150 600 350 0 1 0 N
+S 550 50 300 450 0 1 0 N
+X ~ ~ 0 200 200 R 50 50 1 1 I
+X ~ ~ 0 300 200 R 50 50 1 1 I
+X ~ ~ 800 200 200 L 50 50 1 1 I
+X ~ ~ 800 300 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
