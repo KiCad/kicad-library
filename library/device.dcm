@@ -348,31 +348,31 @@ K diode
 $ENDCMP
 #
 $CMP D_TVS
-D transient-voltage-suppression (TVS) diode
+D Bidirectional transient-voltage-suppression (TVS) diode
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
 $CMP D_TVS_ALT
-D transient-voltage-suppression (TVS) diode, alternativ symbol
+D Bidirectional transient-voltage-suppression (TVS) diode, alternative symbol
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
 $CMP D_TVS_x2_AAC
-D dual transient-voltage-suppression (TVS) diode (center=pin3)
+D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin3)
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
 $CMP D_TVS_x2_ACA
-D dual transient-voltage-suppression (TVS) diode (center=pin2)
+D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin2)
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
 $CMP D_TVS_x2_CAA
-D dual transient-voltage-suppression (TVS) diode (center=pin1)
+D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin1)
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
@@ -506,6 +506,12 @@ $CMP EMI_Filter_CLC
 D EMI T-filter (CLC)
 K EMI T-filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP EMI_Filter_CommonMode
+D EMI 2-inductor common-mode-filter
+K EMI common mode filter
+F ~
 $ENDCMP
 #
 $CMP EMI_Filter_LCL
@@ -660,6 +666,11 @@ D LED dual, common anode
 K led diode bicolor dual
 $ENDCMP
 #
+$CMP LED_PAD
+D LED with pad
+K led diode pad
+$ENDCMP
+#
 $CMP LED_RABG
 D LED RGB, common anode
 K led rgb diode
@@ -688,6 +699,16 @@ $ENDCMP
 $CMP LED_RGB_EP
 D LED RGB 6 pins, exposed pad
 K led rgb diode
+$ENDCMP
+#
+$CMP LED_Series
+D several LEDs in series
+K led diode 
+$ENDCMP
+#
+$CMP LED_Series_PAD
+D LED with pad
+K led diode pad
 $ENDCMP
 #
 $CMP LED_Small
@@ -844,6 +865,21 @@ $ENDCMP
 $CMP Polyfuse_Small
 D resettable fuse, polymeric positive temperature coefficient (PPTC), small symbol
 K resettable fuse PTC PPTC polyfuse polyswitch
+$ENDCMP
+#
+$CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
+D Dual NPN/NPN Transistor, 6-pin package
+K NPN/NPN Transistor
+$ENDCMP
+#
+$CMP Q_DUAL_NPN_PNP_E1B1C2E2B2C1
+D Dual NPN/PNP Transistor, 6-pin package
+K NPN/PNP Transistor
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
+D Dual PNP/PNP Transistor, 6-pin package
+K PNP/PNP Transistor
 $ENDCMP
 #
 $CMP Q_NIGBT_CEG
@@ -1538,6 +1574,11 @@ $CMP Rotary_Encoder_Switch
 D Rotary encoder, dual channel, incremental quadrate outputs, with switch
 K rotary switch encoder switch push button
 F ~
+$ENDCMP
+#
+$CMP SPARK_GAP
+D Spark Gap
+K spark gap esd electrostatic suppression
 $ENDCMP
 #
 $CMP Solar_Cell

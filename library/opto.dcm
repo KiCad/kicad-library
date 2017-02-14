@@ -1,25 +1,55 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 4N25
-D DIP6, DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V
+D DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6
 K NPN DC Optocoupler Base Connected
 $ENDCMP
 #
 $CMP 4N26
-D DIP6, DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 1500V
+D DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 1500V, DIP6
 K NPN DC Optocoupler Base Connected
 $ENDCMP
 #
 $CMP 6N135
-D DIP8, High Speed Optocoupler, TTL Compatible, CTR 18%
+D High Speed Optocoupler, TTL Compatible, CTR 18%, DIP8
 K High Speed Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf
 $ENDCMP
 #
 $CMP 6N136
-D DIP8, High Speed Optocoupler, TTL Compatible, CTR 24%
+D High Speed Optocoupler, TTL Compatible, CTR 24%, DIP8
 K High Speed Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf
+$ENDCMP
+#
+$CMP A1050
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/A106012.pdf
+$ENDCMP
+#
+$CMP A1060
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/A106012.pdf
+$ENDCMP
+#
+$CMP A9013
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.produktinfo.conrad.com/datenblaetter/125000-149999/145475-da-01-en-FOTOWIDERSTAND_A_9060_A_9013.pdf
+$ENDCMP
+#
+$CMP A9050
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/A90xxxx%23PE.pdf
+$ENDCMP
+#
+$CMP A9060
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/A90xxxx%23PE.pdf
 $ENDCMP
 #
 $CMP ACPL-C790
@@ -69,86 +99,176 @@ D Triple LED RVB (Avago Technology)
 F http://www.avagotech.com/docs/AV02-2589EN
 $ENDCMP
 #
+$CMP BP103
+D NPN Phototransistor
+K npn phototransistor
+F http://www.osram-os.com/Graphics/XPic3/00101777_0.pdf/BP
+$ENDCMP
+#
+$CMP BP103B
+D NPN phototransistor
+K NPN phototransistor
+F http://www.b-kainka.de/Daten/Sensor/bp103bf.pdf
+$ENDCMP
+#
+$CMP BP103BF
+D NPN phototransistor with daylight filter
+K IR NPN phototransistor
+F http://www.b-kainka.de/Daten/Sensor/bp103bf.pdf
+$ENDCMP
+#
+$CMP BP104
+D Silicon PIN Photodiode
+K opto PIN photodiode
+F http://www.vishay.com/docs/81500/81500.pdf
+$ENDCMP
+#
+$CMP BP104-SMD
+D Silicon PIN Photodiode, SMD package
+K opto photodiode
+F http://www.osram-os.com/Graphics/XPic5/00215016_0.pdf/BP%20104%20FS.pdf
+$ENDCMP
+#
+$CMP BPW21
+D Silicon Photodiode for the visible spectral range, TO-5 package
+K opto photodiode
+F http://techwww.in.tu-clausthal.de/site/Dokumentation/Dioden/Fotodioden/BPW21-Fotodiode.pdf
+$ENDCMP
+#
+$CMP BPW34
+D Silicon PIN Photodiode
+K opto PIN photodiode
+F http://www.vishay.com/docs/81521/bpw34.pdf
+$ENDCMP
+#
+$CMP BPW34-SMD
+D Silicon PIN Photodiode, SMD package
+K opto photodiode
+F http://www.osram-os.com/Graphics/XPic5/00215430_0.pdf/BPW%2034%20S.pdf
+$ENDCMP
+#
+$CMP BPW40
+D Phototransistor NPN
+K npn phototransistor
+F https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf
+$ENDCMP
+#
+$CMP BPW42
+D NPN phototransistor
+K NPN phototransistor opto
+F http://www.ges.cz/sheets/b/bpw42.pdf
+$ENDCMP
+#
+$CMP BPW82
+D Silicon PIN Photodiode with Daylight Blocking Filter
+K opto photo diode
+F http://www.vishay.com/docs/81529/bpw82.pdf
+$ENDCMP
+#
+$CMP BPX61
+D Silicon Photodiode for the visible spectral range
+K photodiode opto
+F http://www.osram-os.com/Graphics/XPic3/00101650_0.pdf
+$ENDCMP
+#
+$CMP BPX65
+D Silicon PIN Photodiode, TO-18 package
+K opto PIN photo diode
+F http://www.osram-os.com/Graphics/XPic1/00181579_0.pdf/BPX%2065,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
+$ENDCMP
+#
+$CMP BPY62
+D NPN Phototransistor
+K NPN Phototransistor opto
+F http://www.osram-os.com/Graphics/XPic9/00208595_0.pdf
+$ENDCMP
+#
 $CMP CNY17-1
-D DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 40-80%, Viso 5000V (RMS)
+D DC Optocoupler Base Connected, Vce 70V, CTR 40-80%, Viso 5000V (RMS), DIP6
 K NPN DC Optocoupler Base Connected
 F http://www.vishay.com/docs/83606/cny17.pdf
 $ENDCMP
 #
 $CMP CNY17-2
-D DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 63-125%, Viso 5000V (RMS)
+D DC Optocoupler Base Connected, Vce 70V, CTR 63-125%, Viso 5000V (RMS), DIP6
 K NPN DC Optocoupler Base Connected
 F http://www.vishay.com/docs/83606/cny17.pdf
 $ENDCMP
 #
 $CMP CNY17-3
-D DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS)
+D DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6
 K NPN DC Optocoupler Base Connected
 F http://www.vishay.com/docs/83606/cny17.pdf
 $ENDCMP
 #
 $CMP CNY17-4
-D DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS)
+D DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6
 K NPN DC Optocoupler Base Connected
 F http://www.vishay.com/docs/83606/cny17.pdf
 $ENDCMP
 #
+$CMP CQY99
+D 950nm IR-LED, 5mm
+K IR LED
+F https://www.prtice.info/IMG/pdf/CQY99.pdf
+$ENDCMP
+#
 $CMP FOD420
-D DIP6, Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA
+D Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/FO/FOD4218.pdf
 $ENDCMP
 #
 $CMP FOD4208
-D DIP6, Random Phase Opto-Triac, Vdrm 800V, Ift 0.75mA, Itm 300mA
+D Random Phase Opto-Triac, Vdrm 800V, Ift 0.75mA, Itm 300mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/FO/FOD4218.pdf
 $ENDCMP
 #
 $CMP FOD4216
-D DIP6, Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA
+D Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/FO/FOD4218.pdf
 $ENDCMP
 #
 $CMP FOD4218
-D DIP6, Random Phase Opto-Triac, Vdrm 800V, Ift 0.75mA, Itm 300mA
+D Random Phase Opto-Triac, Vdrm 800V, Ift 0.75mA, Itm 300mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/FO/FOD4218.pdf
 $ENDCMP
 #
 $CMP FODM3011
-D MFP 4L, Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 250V, Ift 10mA
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 250V, Ift 10mA, MFP 4L
 K Opto-Triac Opto Triac Random Phase Mini-Flat
 F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
 $ENDCMP
 #
 $CMP FODM3012
-D MFP 4L, Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 250V, Ift 5mA
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 250V, Ift 5mA, MFP 4L
 K Opto-Triac Opto Triac Random Phase Mini-Flat
 F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
 $ENDCMP
 #
 $CMP FODM3022
-D MFP 4L, Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 400V, Ift 10mA
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 400V, Ift 10mA, MFP 4L
 K Opto-Triac Opto Triac Random Phase Mini-Flat
 F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
 $ENDCMP
 #
 $CMP FODM3023
-D MFP 4L, Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 400V, Ift 5mA
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, MFP 4L
 K Opto-Triac Opto Triac Random Phase Mini-Flat
 F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
 $ENDCMP
 #
 $CMP FODM3052
-D MFP 4L, Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 600V, Ift 10mA
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, MFP 4L
 K Opto-Triac Opto Triac Random Phase Mini-Flat
 F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
 $ENDCMP
 #
 $CMP FODM3053
-D MFP 4L, Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 600V, Ift 5mA
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 600V, Ift 5mA, MFP 4L
 K Opto-Triac Opto Triac Random Phase Mini-Flat
 F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
 $ENDCMP
@@ -157,6 +277,18 @@ $CMP HCPL063
 D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, DIP-8, SOIC-8
 K High Speed Optocoupler
 F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL2730
+D Low Input Current high Gain Split Darlington Optocouplers
+K darlington optocoupler
+F http://www.mouser.com/ds/2/149/HCPL2731-188691.pdf
+$ENDCMP
+#
+$CMP HCPL2731
+D Low Input Current high Gain Split Darlington Optocouplers
+K darlington optocoupler
+F http://www.mouser.com/ds/2/149/HCPL2731-188691.pdf
 $ENDCMP
 #
 $CMP HCPL3120
@@ -171,203 +303,275 @@ K Isolated Linear Photocoupler
 F http://www.vishay.com/docs/83622/il300.pdf
 $ENDCMP
 #
+$CMP IR204A
+D Infrared LED , 3mm LED package
+K opto IR LED
+F http://www.everlight.com/file/ProductFile/IR204-A.pdf
+$ENDCMP
+#
+$CMP IRL81A
+D 850nm High Power Infrared Emitter, Side-Emitter package
+K IR LED
+F http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf
+$ENDCMP
+#
+$CMP IS471F
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.micropik.com/PDF/tsop17xx.pdf
+$ENDCMP
+#
+$CMP IS485
+D Bult-in Amplifier Type OPIC Light Detector
+K opto receiver amplifier light detector OPIC
+F https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/is485,486_e.pdf
+$ENDCMP
+#
+$CMP IS486
+D Bult-in Amplifier Type OPIC Light Detector
+K opto receiver amplifier light detector OPIC
+F https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/is485,486_e.pdf
+$ENDCMP
+#
+$CMP KPS-5130
+D RGB Color Sensor
+K opto photodiode RGB color sensor
+F http://www.farnell.com/datasheets/2013780.pdf
+$ENDCMP
+#
+$CMP LD271
+D 940nm IR-LED, 5mm
+K IR LED
+F http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf
+$ENDCMP
+#
+$CMP LD274
+D 950nm IR-LED, 5mm
+K IR LED
+F http://pdf.datasheetcatalog.com/datasheet/siemens/LD274.pdf
+$ENDCMP
+#
+$CMP LDR03
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf
+$ENDCMP
+#
+$CMP LDR07
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf
+$ENDCMP
+#
+$CMP LPT80A
+D NPN phototransistor, sielooker package
+K NPN phototransistor
+F http://www.zdspb.com/media/manuals/LPT80A_sidelooker.pdf
+$ENDCMP
+#
 $CMP LTV-352T
-D MFSOP6, DC Darlington Optocoupler, Vce 300V, CTR 1000%
+D DC Darlington Optocoupler, Vce 300V, CTR 1000%, MFSOP6
 K NPN Darlington DC Optocoupler
 $ENDCMP
 #
 $CMP LTV-354T
-D MFSOP6, AC/DC Optocoupler, Vce 35V, CTR 20%
+D AC/DC Optocoupler, Vce 35V, CTR 20%, MFSOP6
 K NPN AC DC Optocoupler
 $ENDCMP
 #
 $CMP LTV-355T
-D MFSOP6, DC Darlington Optocoupler, Vce 35V, CTR 600%
+D DC Darlington Optocoupler, Vce 35V, CTR 600%, MFSOP6
 K NPN Darlington DC Optocoupler
 $ENDCMP
 #
 $CMP LTV-356T
-D MFSOP6, DC Optocoupler, Vce 80V, CTR 50%
+D DC Optocoupler, Vce 80V, CTR 50%, MFSOP6
 K NPN DC Optocoupler
 $ENDCMP
 #
 $CMP LTV-357T
-D MFSOP6, DC Optocoupler, Vce 35V, CTR 50%
+D DC Optocoupler, Vce 35V, CTR 50%, MFSOP6
 K NPN DC Optocoupler
 $ENDCMP
 #
 $CMP LTV-358T
-D MFSOP6, DC Optocoupler, Vce 120V, CTR 50%
+D DC Optocoupler, Vce 120V, CTR 50%, MFSOP6
 K NPN DC Optocoupler
 $ENDCMP
 #
 $CMP LTV-814
-D DIP4, AC/DC Optocoupler, Vce 35V, CTR 20%
+D AC/DC Optocoupler, Vce 35V, CTR 20%, DIP4
 K NPN AC DC Optocoupler
 $ENDCMP
 #
 $CMP LTV-817
-D DIP-4, DC Optocoupler, Vce 35V, CTR 50%
+D DC Optocoupler, Vce 35V, CTR 50%, DIP-4
 K NPN DC Optocoupler
 F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
 $CMP LTV-824
-D DIP8, Dual AC/DC Optocoupler, Vce 35V, CTR 20%
+D Dual AC/DC Optocoupler, Vce 35V, CTR 20%, DIP8
 K Dual NPN AC DC Optocoupler
 $ENDCMP
 #
 $CMP LTV-827
-D DIP-8, Dual DC Optocoupler, Vce 35V, CTR 50%
+D Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8
 K NPN DC Dual Optocoupler
 F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
 $CMP LTV-844
-D LTV-824, DIP16, Quad AC/DC Optocoupler, Vce 35V, CTR 20%
+D Quad AC/DC Optocoupler, Vce 35V, CTR 20%, DIP16
 K Quad NPN AC DC Optocoupler
 $ENDCMP
 #
 $CMP LTV-847
-D DIP-16, Quad DC Optocoupler, Vce 35V, CTR 50%
+D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
 K NPN DC Quad Optocoupler
 F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
+$CMP M9960
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://cdn-reichelt.de/documents/datenblatt/A500/M996011a_b.pdf
+$ENDCMP
+#
 $CMP MOC3010M
-D DIP6, Random Phase Opto-Triac, Vdrm 250V, Ift 15mA
+D Random Phase Opto-Triac, Vdrm 250V, Ift 15mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
 $ENDCMP
 #
 $CMP MOC3011M
-D DIP6, Random Phase Opto-Triac, Vdrm 250V, Ift 10mA
+D Random Phase Opto-Triac, Vdrm 250V, Ift 10mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
 $ENDCMP
 #
 $CMP MOC3012M
-D DIP6, Random Phase Opto-Triac, Vdrm 250V, Ift 5mA
+D Random Phase Opto-Triac, Vdrm 250V, Ift 5mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
 $ENDCMP
 #
 $CMP MOC3020M
-D DIP6, Random Phase Opto-Triac, Vdrm 400V, Ift 30mA
+D Random Phase Opto-Triac, Vdrm 400V, Ift 30mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
 $ENDCMP
 #
 $CMP MOC3021M
-D DIP6, Random Phase Opto-Triac, Vdrm 400V, Ift 15mA
+D Random Phase Opto-Triac, Vdrm 400V, Ift 15mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
 $ENDCMP
 #
 $CMP MOC3022M
-D DIP6, Random Phase Opto-Triac, Vdrm 400V, Ift 10mA
+D Random Phase Opto-Triac, Vdrm 400V, Ift 10mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
 $ENDCMP
 #
 $CMP MOC3023M
-D DIP6, Random Phase Opto-Triac, Vdrm 400V, Ift 5mA
+D Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
 $ENDCMP
 #
 $CMP MOC3031M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 250V, Ift 15mA
+D Zero Cross Opto-Triac, Vdrm 250V, Ift 15mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
 $ENDCMP
 #
 $CMP MOC3032M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 250V, Ift 10mA
+D Zero Cross Opto-Triac, Vdrm 250V, Ift 10mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
 $ENDCMP
 #
 $CMP MOC3033M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 250V, Ift 5mA
+D Zero Cross Opto-Triac, Vdrm 250V, Ift 5mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
 $ENDCMP
 #
 $CMP MOC3041M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 400V, Ift 15mA
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 15mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
 $ENDCMP
 #
 $CMP MOC3042M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 400V, Ift 10mA
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 10mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
 $ENDCMP
 #
 $CMP MOC3043M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 400V, Ift 5mA
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 5mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
 $ENDCMP
 #
 $CMP MOC3051M
-D DIP6, Random Phase Opto-Triac, Vdrm 600V, Ift 15mA
+D Random Phase Opto-Triac, Vdrm 600V, Ift 15mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/MO/MOC3052M.pdf
 $ENDCMP
 #
 $CMP MOC3052M
-D DIP6, Random Phase Opto-Triac, Vdrm 600V, Ift 10mA
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, DIP6
 K Opto-Triac Opto Triac Random Phase
 F http://www.fairchildsemi.com/ds/MO/MOC3052M.pdf
 $ENDCMP
 #
 $CMP MOC3061M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 600V, Ift 15mA
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 15mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
 $ENDCMP
 #
 $CMP MOC3062M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
 $ENDCMP
 #
 $CMP MOC3063M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
 $ENDCMP
 #
 $CMP MOC3081M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 800V, Ift 15mA
+D Zero Cross Opto-Triac, Vdrm 800V, Ift 15mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3081M.pdf
 $ENDCMP
 #
 $CMP MOC3082M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 800V, Ift 10mA
+D Zero Cross Opto-Triac, Vdrm 800V, Ift 10mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3081M.pdf
 $ENDCMP
 #
 $CMP MOC3083M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 800V, Ift 5mA
+D Zero Cross Opto-Triac, Vdrm 800V, Ift 5mA, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3081M.pdf
 $ENDCMP
 #
 $CMP MOC3162M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, dv/dt 1000
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, dv/dt 1000, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
 $ENDCMP
 #
 $CMP MOC3163M
-D DIP6,  Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, dv/dt 1000
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, dv/dt 1000, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
 $ENDCMP
@@ -398,39 +602,63 @@ K Opto-Triac Opto Triac Random Phase
 $ENDCMP
 #
 $CMP PC3H4
-D SOP4, AC/DC Optocoupler, Vce 70V, CTR 100-250%
+D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
 K NPN AC DC Optocoupler
 F http://www.sharpsme.com/download/pc3h4-epdf
 $ENDCMP
 #
 $CMP PC3H4A
-D SOP4, AC/DC Optocoupler, Vce 70V, CTR 100-250%
+D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
 K NPN AC DC Optocoupler
 F http://www.sharpsma.com/webfm_send/395
 $ENDCMP
 #
 $CMP PC817
-D DIP4, DC Optocoupler, Vce 35V, CTR 50-300%
+D DC Optocoupler, Vce 35V, CTR 50-300%, DIP4
 K NPN DC Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
 $CMP PC827
-D DIP8, DC Dual Optocoupler, Vce 35V, CTR 50-300%
+D DC Dual Optocoupler, Vce 35V, CTR 50-300%, DIP8
 K NPN DC Dual Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
 $CMP PC837
-D DIP12, DC Triple Optocoupler, Vce 35V, CTR 50-300%
+D DC Triple Optocoupler, Vce 35V, CTR 50-300%, DIP12
 K NPN DC Triple Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
 $CMP PC847
-D DIP16, DC Quad Optocoupler, Vce 35V, CTR 50-300%
+D DC Quad Optocoupler, Vce 35V, CTR 50-300%, DIP16
 K NPN DC Quad Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP PL450B
+D Blue Laser Diode
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic5/00193831_0.pdf/PL%20450B.pdf
+$ENDCMP
+#
+$CMP PL520
+D Green Laser Diode
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic7/00234693_0.pdf/PL%20520.pdf
+$ENDCMP
+#
+$CMP PLT5_488
+D Cyan Laser Diode
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic6/00206440_0.pdf/PLT5%20488.pdf
+$ENDCMP
+#
+$CMP PLT5_510
+D Green Laser Diode
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic2/00227065_0.pdf/PLT5%20510.pdf
 $ENDCMP
 #
 $CMP S102S01
@@ -493,81 +721,237 @@ K Opto-Triac Opto Triac Zero Cross Solid State Relays
 F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s116s02_e.pdf
 $ENDCMP
 #
+$CMP SFH203
+D Silicon PIN Photodiode
+K opto PIN photodiode
+F http://www.osram-os.com/Graphics/XPic9/00101656_0.pdf/SFH%20203,%20SFH%20203%20FA,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
+$ENDCMP
+#
+$CMP SFH203FA
+D Silicon PIN Photodiode with Daylight Blocking Filter
+K PIN photodiode IR
+F http://www.osram-os.com/Graphics/XPic9/00101656_0.pdf/SFH%20203,%20SFH%20203%20FA,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
+$ENDCMP
+#
+$CMP SFH205F
+D Silicon PIN Photodiode with Daylight Blocking Filter
+K opto photo diode
+F http://www.osram-os.com/Graphics/XPic2/00101668_0.pdf
+$ENDCMP
+#
+$CMP SFH205FA
+D Silicon PIN Photodiode with Daylight Blocking Filter
+K PIN Photodiode
+F http://www.osram-os.com/Graphics/XPic9/00101665_0.pdf
+$ENDCMP
+#
+$CMP SFH206K
+D Silicon PIN Photodiode
+K opto PIN photodiode
+F http://www.osram-os.com/Graphics/XPic0/00211439_0.pdf/SFH%20206%20K.pdf
+$ENDCMP
+#
+$CMP SFH216
+D Silicon PIN Photodiode With Very Short Switching Time, TO-18 package
+K opto PIN photo diode
+F http://www.osram-os.com/Graphics/XPic1/00029253_0.pdf/SFH
+$ENDCMP
+#
+$CMP SFH225FA
+D Silicon PIN Photodiode with Daylight Blocking Filter
+K opto PIN photodiode IR
+F http://www.osram-os.com/Graphics/XPic0/00209685_0.pdf/SFH%20225%20FA.pdf
+$ENDCMP
+#
+$CMP SFH235FA
+D Silicon PIN Photodiode with Daylight Blocking Filter
+K opto PIN photodiode IR
+F http://www.osram-os.com/Graphics/XPic3/00211469_0.pdf/SFH%20235%20FA.pdf
+$ENDCMP
+#
+$CMP SFH2400
+D Silicon PIN Photodiode, SMD package
+K opto photodiode
+F http://www.osram-os.com/Graphics/XPic5/00215665_0.pdf/SFH%202400.pdf
+$ENDCMP
+#
+$CMP SFH2430
+D Silicon Photodiode with V? Characteristic, SMD package
+K opto photodiode
+F http://www.osram-os.com/Graphics/XPic5/00215692_0.pdf/SFH%202430.pdf
+$ENDCMP
+#
+$CMP SFH2440
+D Silicon Photodiode with V? Characteristic, SMD package
+K opto photodiode
+F http://www.osram-os.com/Graphics/XPic2/00231367_0.pdf/SFH%202440.pdf
+$ENDCMP
+#
+$CMP SFH2701
+D High Speed PIN Photodiode, SMD package
+K opto photodiode
+F http://www.osram-os.com/Graphics/XPic6/00201111_0.pdf/SFH%202701.pdf
+$ENDCMP
+#
+$CMP SFH300
+D silicon NPN phototransistor
+K NPN phototransistor
+F http://www.osram-os.com/Graphics/XPic2/00101785_0.pdf
+$ENDCMP
+#
+$CMP SFH309
+D Phototransistor NPN
+K npn phototransistor
+F http://www.osram-os.com/Graphics/XPic2/00101811_0.pdf/SFH%20309,%20SFH%20309%20FA,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
+$ENDCMP
+#
+$CMP SFH4346
+D Infrared LED , 3mm LED package
+K opto IR LED
+F http://cdn-reichelt.de/documents/datenblatt/A500/SFH4346.pdf
+$ENDCMP
+#
+$CMP SFH4356P
+D Infrared LED , 3mm LED package
+K opto IR LED
+F http://www.osram-os.com/Graphics/XPic5/00181708_0.pdf
+$ENDCMP
+#
+$CMP SFH4546
+D High-Power IR LED 940nm
+K IR LED
+F http://www.osram-os.com/Graphics/XPic1/00101982_0.pdf
+$ENDCMP
+#
+$CMP SFH4550
+D 950nm High-Power IR-LED, 5mm
+K IR LED
+F http://www.osram-os.com/Graphics/XPic3/00116140_0.pdf
+$ENDCMP
+#
+$CMP SFH460
+D GaAlAs Infrared LED, TO-18 package
+K opto IR LED
+F http://www.osram-os.com/Graphics/XPic6/00029609_0.pdf/SFh%20460.pdf
+$ENDCMP
+#
+$CMP SFH480
+D GaAlAs Infrared LED (880 nm), TO-18 package
+K IR LED Opto
+F http://www.osram-os.com/Graphics/XPic1/00083613_0.pdf
+$ENDCMP
+#
+$CMP SFH482
+D GaAlAs Infrared LED (880 nm), TO-18 package
+K opto IR LED
+F http://www.osram-os.com/Graphics/XPic2/00182155_0.pdf/SFH%20482%20E7800,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
+$ENDCMP
+#
+$CMP SPL_PL90
+D Pulsed Laser Diode in Plastic Package 25 W Peak Power
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic0/00194565_0.pdf/SPL%20PL90.pdf
+$ENDCMP
+#
+$CMP TCMT1600
+D AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP4
+K NPN AC DC Phototransistor Optocoupler
+F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TCMT4600
+D Quad AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP16
+K NPN AC DC Quad Phototransistor Optocoupler 
+F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TCMT4606
+D Quad AC/DC Phototransistor Optocoupler, Vce 70V, CTR 100-300%, SOP16
+K NPN AC DC Quad Phototransistor Optocoupler
+F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TIL111
+D DC Optocoupler, Phototransistor NPN, DIP6
+K NPN DC Optocoupler Base Connected
+F https://www.egr.msu.edu/eceshop/Parts_Inventory/datasheets/til111.pdf
+$ENDCMP
+#
 $CMP TLP127
-D MFSOP6, DC Darlington Optocoupler, Vce 300V, CTR 1000%
+D DC Darlington Optocoupler, Vce 300V, CTR 1000%, MFSOP6
 K NPN Darlington DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP127_en_datasheet_071001.pdf
 $ENDCMP
 #
 $CMP TLP130
-D MFSOP6, AC DC Optocoupler Base Connected, Vce 80V, CTR 50-100%
+D AC DC Optocoupler Base Connected, Vce 80V, CTR 50-100%, MFSOP6
 K NPN AC DC Optocoupler Base Connected
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP130_en_datasheet_071001.pdf
 $ENDCMP
 #
 $CMP TLP131
-D MFSOP6, DC Optocoupler Base Connected, Vce 80V, CTR 50-200%
+D DC Optocoupler Base Connected, Vce 80V, CTR 50-200%, MFSOP6
 K NPN DC Optocoupler Base Connected
 F http://www.toshiba-components.com/docs/opto/TLP131_en_datasheet.pdf
 $ENDCMP
 #
 $CMP TLP137
-D MFSOP6, DC Optocoupler Base Connected, Vce 80V, CTR 100-200%
+D DC Optocoupler Base Connected, Vce 80V, CTR 100-200%, MFSOP6
 K NPN DC Optocoupler Base Connected
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP137_en_datasheet_071001.pdf
 $ENDCMP
 #
 $CMP TLP141G
-D MFSOP6, DC Optocoupler Thyristor Based, Vdrm 400V, It 150mA, Viso 2500V
+D DC Optocoupler Thyristor Based, Vdrm 400V, It 150mA, Viso 2500V, MFSOP6
 K OptoThyristor DC Optocoupler
 F http://www.toshiba.com/taec/components2/Datasheet_Sync/209/4314.pdf
 $ENDCMP
 #
 $CMP TLP160G
-D MSOP6,  Random Phase Opto-Triac, Vdrm 400V, Ift 5mA
+D Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, SOP6
 K Opto-Triac Opto Triac Random
 $ENDCMP
 #
 $CMP TLP160J
-D MSOP6,  Random Phase Opto-Triac, Vdrm 600V, Ift 7mA
+D Random Phase Opto-Triac, Vdrm 600V, Ift 7mA, SOP6
 K Opto-Triac Opto Triac Random
 $ENDCMP
 #
 $CMP TLP161G
-D MSOP6,  Zero Cross Opto-Triac, Vdrm 400V, Ift 5mA
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 5mA, SOP6
 K Opto-Triac Opto Triac Zero Cross
 $ENDCMP
 #
 $CMP TLP161J
-D MSOP6,  Zero Cross Opto-Triac, Vdrm 600V, Ift 7mA
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 7mA, SOP6
 K Opto-Triac Opto Triac Zero Cross
 $ENDCMP
 #
 $CMP TLP175A
-D SO6, MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA
+D MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA, SOP6
 K MOSFET Output Photorelay 1-Form-A
 $ENDCMP
 #
 $CMP TLP184
-D MFSOP6, AC/DC Optocoupler, Vce 80V, CTR 50-100%
+D AC/DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
 K NPN AC DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP184_en_datasheet_120214.pdf
 $ENDCMP
 #
 $CMP TLP185
-D MFSOP6, DC Optocoupler, Vce 80V, CTR 50-100%
+D DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
 K NPN DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP185_en_datasheet_120214.pdf
 $ENDCMP
 #
 $CMP TLP222A
-D DIP4, MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A
+D MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, DIP4
 K MOSFET Output Photorelay 1-Form-A
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP222A_TLP222A-2_en_datasheet_071001.pdf
 $ENDCMP
 #
 $CMP TLP222A-2
-D DIP8, Dual MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A
+D Dual MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, DIP8
 K Dual MOSFET Output Photorelay 1-Form-A
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP222A_TLP222A-2_en_datasheet_071001.pdf
 $ENDCMP
@@ -579,75 +963,387 @@ F http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
 $ENDCMP
 #
 $CMP TLP290
-D SOP4, AC/DC Optocoupler, Vce 80V, CTR 50-100%
-K NPN AC DC Optocoupler
+D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4
+K NPN AC DC Phototransistor Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP290_en_datasheet_120426.pdf
 $ENDCMP
 #
 $CMP TLP290-4
-D SOP16, Quad AC/DC Optocoupler, Vce 80V, CTR 50-100%
-K NPN AC DC Quad Optocoupler
+D Quad AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP16
+K NPN AC DC Quad Phototransistor Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP290-4_en_datasheet_120322.pdf
 $ENDCMP
 #
 $CMP TLP291
-D SOP4, DC Optocoupler, Vce 80V, CTR 50-100%
+D DC Optocoupler, Vce 80V, CTR 50-100%, SOP4
 K NPN DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291_en_datasheet_120426.pdf
 $ENDCMP
 #
 $CMP TLP291-4
-D SOP16, Quad DC Optocoupler, Vce 80V, CTR 50-100%
+D Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16
 K NPN DC Quad Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291-4_en_datasheet_120322.pdf
 $ENDCMP
 #
 $CMP TLP3021
-D DIP6, Photo-Triac, Vdrm 400V, Ift 15mA
+D Photo-Triac, Vdrm 400V, Ift 15mA, DIP6
 K Photo-Triac Opto Triac
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP3021(S)_TLP3023(S)_en_datasheet_101001.pdf
 $ENDCMP
 #
 $CMP TLP3022
-D TLP3021, DIP6, Photo-Triac, Vdrm 400V, Ift 10mA
+D Photo-Triac, Vdrm 400V, Ift 10mA, DIP6
 K Photo-Triac Opto Triac
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP3021(S)_TLP3023(S)_en_datasheet_101001.pdf
 $ENDCMP
 #
 $CMP TLP3023
-D TLP3021, DIP6, Photo-Triac, Vdrm 400V, Ift 5mA
+D Photo-Triac, Vdrm 400V, Ift 5mA, DIP6
 K Photo-Triac Opto Triac
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP3021(S)_TLP3023(S)_en_datasheet_101001.pdf
 $ENDCMP
 #
 $CMP TLP627
-D DIP4, DC Darlington Optocoupler, Vce 300V, CTR 1000%
+D DC Darlington Optocoupler, Vce 300V, CTR 1000%, DIP4
 K NPN Darlington DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP627_TLP627-4_en_datasheet_071001.pdf
 $ENDCMP
 #
 $CMP TLP627-2
-D DIP8, DC Dual Darlington Optocoupler, Vce 300V, CTR 1000%
+D DC Dual Darlington Optocoupler, Vce 300V, CTR 1000%, DIP8
 K NPN Dual Darlington DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP627_TLP627-4_en_datasheet_071001.pdf
 $ENDCMP
 #
 $CMP TLP627-4
-D DIP16, DC Quad Darlington Optocoupler, Vce 300V, CTR 1000%
+D DC Quad Darlington Optocoupler, Vce 300V, CTR 1000%, DIP16
 K NPN Quad Darlington DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP627_TLP627-4_en_datasheet_071001.pdf
 $ENDCMP
 #
 $CMP TLP785
-D DIP4, DC Optocoupler, Vce 80V, CTR 50-200%
+D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4
 K NPN DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP785_TLP785F_en_datasheet_120220.pdf
 $ENDCMP
 #
 $CMP TLP785F
-D DIP4F (Wide), DC Optocoupler, Vce 80V, CTR 50-200%
+D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4F
 K NPN DC Optocoupler
 F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP785_TLP785F_en_datasheet_120220.pdf
+$ENDCMP
+#
+$CMP TSAL4400
+D Infrared LED , 3mm LED package
+K opto IR LED
+F http://www.vishay.com/docs/81006/tsal4400.pdf
+$ENDCMP
+#
+$CMP TSDP341xx
+D IR Receiver Modules for Data Transmission
+K opto IR receiver
+F http://www.vishay.com/docs/82667/tsdp341.pdf
+$ENDCMP
+#
+$CMP TSDP343xx
+D IR Receiver Modules for Data Transmission
+K opto IR receiver
+F http://www.vishay.com/docs/82667/tsdp341.pdf
+$ENDCMP
+#
+$CMP TSL2550-SO8
+D Ambient Light Sensor with SMbus Interface, SO-8 interface
+K opto ambient light sensor
+F http://www.farnell.com/datasheets/48715.pdf
+$ENDCMP
+#
+$CMP TSL2550-T4
+D Ambient Light Sensor with SMbus Interface, T-4 interface
+K opto ambient light sensor
+F http://www.farnell.com/datasheets/48715.pdf
+$ENDCMP
+#
+$CMP TSMP58000
+D Photo Module (Amplify&Condition) for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82485/tsmp58000.pdf
+$ENDCMP
+#
+$CMP TSMP58138
+D Photo Module (Repeater) for PCM Remote Control Systems
+K opto IR repeater receiver
+F http://www.vishay.com/docs/82486/tsmp58138.pdf
+$ENDCMP
+#
+$CMP TSOP17xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.micropik.com/PDF/tsop17xx.pdf
+$ENDCMP
+#
+$CMP TSOP21xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82460/tsop45.pdf
+$ENDCMP
+#
+$CMP TSOP23xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82460/tsop45.pdf
+$ENDCMP
+#
+$CMP TSOP25xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82460/tsop45.pdf
+$ENDCMP
+#
+$CMP TSOP312xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82492/tsop312.pdf
+$ENDCMP
+#
+$CMP TSOP314xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82492/tsop312.pdf
+$ENDCMP
+#
+$CMP TSOP321xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP323xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP325xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP32S40F
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82669/tsop32s40f.pdf
+$ENDCMP
+#
+$CMP TSOP331xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82742/tsop331.pdf
+$ENDCMP
+#
+$CMP TSOP333xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82742/tsop331.pdf
+$ENDCMP
+#
+$CMP TSOP335xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82742/tsop331.pdf
+$ENDCMP
+#
+$CMP TSOP341xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP343xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP345xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP34S40F
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82669/tsop32s40f.pdf
+$ENDCMP
+#
+$CMP TSOP382xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82491/tsop382.pdf
+$ENDCMP
+#
+$CMP TSOP384xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82491/tsop382.pdf
+$ENDCMP
+#
+$CMP TSOP38G36
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82731/tsop38g36.pdf
+$ENDCMP
+#
+$CMP TSOP41xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82460/tsop45.pdf
+$ENDCMP
+#
+$CMP TSOP43xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82460/tsop45.pdf
+$ENDCMP
+#
+$CMP TSOP45xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82460/tsop45.pdf
+$ENDCMP
+#
+$CMP TSOP531xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82745/tsop531.pdf
+$ENDCMP
+#
+$CMP TSOP533xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82745/tsop531.pdf
+$ENDCMP
+#
+$CMP TSOP535xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82745/tsop531.pdf
+$ENDCMP
+#
+$CMP TSOP581xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82462/tsop581.pdf
+$ENDCMP
+#
+$CMP TSOP582xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82461/tsop582.pdf
+$ENDCMP
+#
+$CMP TSOP583xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82462/tsop581.pdf
+$ENDCMP
+#
+$CMP TSOP584xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82461/tsop582.pdf
+$ENDCMP
+#
+$CMP TSOP585xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82462/tsop581.pdf
+$ENDCMP
+#
+$CMP TSSP58038
+D IR Receiver Module for Light Barrier Systems
+K opto IR receiver light barrier
+F http://www.vishay.com/docs/82479/tssp58038.pdf
+$ENDCMP
+#
+$CMP TSSP58038SS1XB
+D IR Receiver Module for Light Barrier Systems
+K opto IR receiver light barrier
+F http://www.vishay.com/docs/82740/tssp58038ss1xb.pdf
+$ENDCMP
+#
+$CMP TSSP58P38
+D IR Detector for Mid Range Proximity Sensor
+K opto IR receiver proximity sensor
+F http://www.vishay.com/docs/82476/tssp58p38.pdf
+$ENDCMP
+#
+$CMP VO615A
+D DC Optocoupler, Vce 70V, CTR 50-600% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-1
+D DC Optocoupler, Vce 70V, CTR 40-80% @ 10mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-2
+D DC Optocoupler, Vce 70V, CTR 63-125% @ 10mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-3
+D DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-4
+D DC Optocoupler, Vce 70V, CTR 160-320% @ 10mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-5
+D DC Optocoupler, Vce 70V, CTR 50-150% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-6
+D DC Optocoupler, Vce 70V, CTR 100-300% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-7
+D DC Optocoupler, Vce 70V, CTR 80-160% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-8
+D DC Optocoupler, Vce 70V, CTR 130-260% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-9
+D DC Optocoupler, Vce 70V, CTR 200-400% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VT93xx
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.produktinfo.conrad.com/datenblaetter/125000-149999/140375-da-01-en-FOTOWIDERSTAND__VT_93_N2__THT_.pdf
 $ENDCMP
 #
 #End Doc Library
