@@ -1,0 +1,353 @@
+diff --git a/library/analog_devices.dcm b/library/analog_devices.dcm
+index 631d431..1fb5a70 100644
+--- a/library/analog_devices.dcm
++++ b/library/analog_devices.dcm
+@@ -66,18 +66,36 @@ K logarithmic amplifier DC coupled analog devices DIP-20
+ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD640.pdf
+ $ENDCMP
+ #
++$CMP AD640BPZ
++D DC-Coupled Demodulating 120 MHz Logarithmic Amplifier, DIP-20
++K logarithmic amplifier DC coupled analog devices DIP-20
++F http://www.analog.com/media/en/technical-documentation/data-sheets/AD640.pdf
++$ENDCMP
++#
+ $CMP AD640JNZ
+ D DC-Coupled Demodulating 120 MHz Logarithmic Amplifier, DIP-20
+ K logarithmic amplifier DC coupled analog devices DIP-20
+ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD640.pdf
+ $ENDCMP
+ #
++$CMP AD640JPZ
++D DC-Coupled Demodulating 120 MHz Logarithmic Amplifier, QFN-20, LCC-20, PLCC-20
++K logarithmic amplifier DC coupled analog devices DIP-20
++F http://www.analog.com/media/en/technical-documentation/data-sheets/AD640.pdf
++$ENDCMP
++#
+ $CMP AD640TD/883B
+ D DC-Coupled Demodulating 120 MHz Logarithmic Amplifier, SBDIP-20
+ K logarithmic amplifier DC coupled analog devices DIP-20
+ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD640.pdf
+ $ENDCMP
+ #
++$CMP AD640TE/883B
++D DC-Coupled Demodulating 120 MHz Logarithmic Amplifier, QFN-20, LCC-20, PLCC-20
++K logarithmic amplifier DC coupled analog devices
++F http://www.analog.com/media/en/technical-documentation/data-sheets/AD640.pdf
++$ENDCMP
++#
+ $CMP AD641ANZ
+ D 250 MHz Demodulating Logarithmic Amplifier, DIP-20
+ K logarithmic amplifier DC coupled analog devices LCC-20 DIP-20 QFN-20
+@@ -114,12 +132,24 @@ K logarithmic amplifier, power measurement
+ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8307.pdf
+ $ENDCMP
+ #
++$CMP AD8307ANZ
++D Complete multistage logarithmic amplifier 92 dB dynamic range, DIP-8
++K logarithmic amplifier, power measurement
++F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8307.pdf
++$ENDCMP
++#
+ $CMP AD8307AR
+ D Complete multistage logarithmic amplifier 92 dB dynamic range, SOIC-8
+ K logarithmic amplifier, power measurement
+ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8307.pdf
+ $ENDCMP
+ #
++$CMP AD8307ARZ
++D Complete multistage logarithmic amplifier 92 dB dynamic range, SOIC-8 
++K logarithmic amplifier, power measurement
++F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8307.pdf
++$ENDCMP
++#
+ $CMP AD8309ARU
+ D 5 MHz–500 MHz 100 dB Demodulating Logarithmic Amplifier with Limiter Output, TSSOP-16
+ K logarithmic amplifier
+diff --git a/library/analog_devices.lib b/library/analog_devices.lib
+index 40b4408..0d4f9eb 100644
+--- a/library/analog_devices.lib
++++ b/library/analog_devices.lib
+@@ -80,8 +80,42 @@ F0 "U" -500 700 50 H V R CNN
+ F1 "AD640BE" -500 600 50 H V R CNN
+ F2 "" -400 0 60 H I C CNN
+ F3 "" -400 0 60 H I C CNN
+-F4 "No footprint in library; to be created" -1100 800 60 H V C CNN "Comment"
+-ALIAS AD640BPZ AD640JPZ AD640TE/883B
++$FPLIST
++ *QFN*Pitch1.27mm*
++ *DFN*Pitch1.27mm*
++$ENDFPLIST
++DRAW
++S -800 500 800 -500 0 1 10 f
++X SIG-IN 1 -900 200 100 R 50 50 1 1 I
++X ATN_LO 2 -600 -600 100 U 50 50 1 1 I
++X ATN_COM 3 -400 -600 100 U 50 50 1 1 I
++X ATN_COM 4 -300 -600 100 U 50 50 1 1 I
++X ATN_IN 5 -100 -600 100 U 50 50 1 1 I
++X BL1 6 100 -600 100 U 50 50 1 1 I
++X -VS 7 300 -600 100 U 50 50 1 1 W
++X ITC 8 500 -600 100 U 50 50 1 1 I
++X BL2 9 600 -600 100 U 50 50 1 1 I
++X SIG-OUT 10 900 -100 100 L 50 50 1 1 O
++X SIG+IN 20 -900 400 100 R 50 50 1 1 I
++X SIG+OUT 11 900 100 100 L 50 50 1 1 O
++X +VS 12 300 600 100 D 50 50 1 1 I
++X LOG_COM 13 100 600 100 D 50 50 1 1 I
++X LOG_OUT 14 0 600 100 D 50 50 1 1 I
++X RG2 15 -100 600 100 D 50 50 1 1 I
++X RG0 16 -200 600 100 D 50 50 1 1 I
++X RG1 17 -300 600 100 D 50 50 1 1 I
++X CKT_COM 18 900 300 100 L 50 50 1 1 I
++X ATN_OUT 19 900 400 100 L 50 50 1 1 I
++ENDDRAW
++ENDDEF
++#
++# AD640BPZ
++#
++DEF AD640BPZ U 0 40 Y Y 1 F N
++F0 "U" -500 700 50 H V R CNN
++F1 "AD640BPZ" -500 600 50 H V R CNN
++F2 "" -400 0 60 H I C CNN
++F3 "" -400 0 60 H I C CNN
+ $FPLIST
+  *QFN*Pitch1.27mm*
+  *DFN*Pitch1.27mm*
+@@ -116,10 +150,46 @@ ENDDEF
+ DEF AD640JNZ U 0 40 Y Y 1 F N
+ F0 "U" -500 700 50 H V R CNN
+ F1 "AD640JNZ" -500 600 50 H V R CNN
+-F2 "Housings_DIP:DIP-20_W7.62mm" 200 -800 60 H I C CNN
++F2 "" -400 0 60 H I C CNN
+ F3 "" -400 0 60 H I C CNN
+ $FPLIST
+- *DIP-20*W7.62mm*
++ *DIP-20*
++$ENDFPLIST
++DRAW
++S -800 500 800 -500 0 1 10 f
++X SIG-IN 1 -900 200 100 R 50 50 1 1 I
++X ATN_LO 2 -600 -600 100 U 50 50 1 1 I
++X ATN_COM 3 -400 -600 100 U 50 50 1 1 I
++X ATN_COM 4 -300 -600 100 U 50 50 1 1 I
++X ATN_IN 5 -100 -600 100 U 50 50 1 1 I
++X BL1 6 100 -600 100 U 50 50 1 1 I
++X -VS 7 300 -600 100 U 50 50 1 1 W
++X ITC 8 500 -600 100 U 50 50 1 1 I
++X BL2 9 600 -600 100 U 50 50 1 1 I
++X SIG-OUT 10 900 -100 100 L 50 50 1 1 O
++X SIG+IN 20 -900 400 100 R 50 50 1 1 I
++X SIG+OUT 11 900 100 100 L 50 50 1 1 O
++X +VS 12 300 600 100 D 50 50 1 1 I
++X LOG_COM 13 100 600 100 D 50 50 1 1 I
++X LOG_OUT 14 0 600 100 D 50 50 1 1 I
++X RG2 15 -100 600 100 D 50 50 1 1 I
++X RG0 16 -200 600 100 D 50 50 1 1 I
++X RG1 17 -300 600 100 D 50 50 1 1 I
++X CKT_COM 18 900 300 100 L 50 50 1 1 I
++X ATN_OUT 19 900 400 100 L 50 50 1 1 I
++ENDDRAW
++ENDDEF
++#
++# AD640JPZ
++#
++DEF AD640JPZ U 0 40 Y Y 1 F N
++F0 "U" -500 700 50 H V R CNN
++F1 "AD640JPZ" -500 600 50 H V R CNN
++F2 "" -400 0 60 H I C CNN
++F3 "" -400 0 60 H I C CNN
++$FPLIST
++ *QFN*Pitch1.27mm*
++ *DFN*Pitch1.27mm*
+ $ENDFPLIST
+ DRAW
+ S -800 500 800 -500 0 1 10 f
+@@ -153,7 +223,6 @@ F0 "U" -500 700 50 H V R CNN
+ F1 "AD640TD/883B" -500 600 50 H V R CNN
+ F2 "" -400 0 60 H I C CNN
+ F3 "" -400 0 60 H I C CNN
+-F4 "No footprint in library; to be created" -400 800 60 H V C CNN "Comment"
+ $FPLIST
+  *SBDIP-20*
+ $ENDFPLIST
+@@ -182,6 +251,42 @@ X ATN_OUT 19 900 400 100 L 50 50 1 1 I
+ ENDDRAW
+ ENDDEF
+ #
++# AD640TE/883B
++#
++DEF AD640TE/883B U 0 40 Y Y 1 F N
++F0 "U" -500 700 50 H V R CNN
++F1 "AD640TE/883B" -500 600 50 H V R CNN
++F2 "" -400 0 60 H I C CNN
++F3 "" -400 0 60 H I C CNN
++$FPLIST
++ *QFN*Pitch1.27mm*
++ *DFN*Pitch1.27mm*
++$ENDFPLIST
++DRAW
++S -800 500 800 -500 0 1 10 f
++X SIG-IN 1 -900 200 100 R 50 50 1 1 I
++X ATN_LO 2 -600 -600 100 U 50 50 1 1 I
++X ATN_COM 3 -400 -600 100 U 50 50 1 1 I
++X ATN_COM 4 -300 -600 100 U 50 50 1 1 I
++X ATN_IN 5 -100 -600 100 U 50 50 1 1 I
++X BL1 6 100 -600 100 U 50 50 1 1 I
++X -VS 7 300 -600 100 U 50 50 1 1 W
++X ITC 8 500 -600 100 U 50 50 1 1 I
++X BL2 9 600 -600 100 U 50 50 1 1 I
++X SIG-OUT 10 900 -100 100 L 50 50 1 1 O
++X SIG+IN 20 -900 400 100 R 50 50 1 1 I
++X SIG+OUT 11 900 100 100 L 50 50 1 1 O
++X +VS 12 300 600 100 D 50 50 1 1 I
++X LOG_COM 13 100 600 100 D 50 50 1 1 I
++X LOG_OUT 14 0 600 100 D 50 50 1 1 I
++X RG2 15 -100 600 100 D 50 50 1 1 I
++X RG0 16 -200 600 100 D 50 50 1 1 I
++X RG1 17 -300 600 100 D 50 50 1 1 I
++X CKT_COM 18 900 300 100 L 50 50 1 1 I
++X ATN_OUT 19 900 400 100 L 50 50 1 1 I
++ENDDRAW
++ENDDEF
++#
+ # AD641ANZ
+ #
+ DEF AD641ANZ U 0 40 Y Y 1 F N
+@@ -258,10 +363,10 @@ ENDDEF
+ DEF AD8302ARU U 0 40 Y Y 1 F N
+ F0 "U" -200 500 50 H V R CNN
+ F1 "AD8302ARU" -200 400 50 H V R CNN
+-F2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" 500 -700 60 H I C CNN
++F2 "" -600 -200 60 H I C CNN
+ F3 "" -600 -200 60 H I C CNN
+ $FPLIST
+- *TSSOP-14*4.4x5mm_Pitch0.65mm*
++ *TSSOP-14*
+ $ENDFPLIST
+ DRAW
+ S -500 -300 500 300 0 1 10 f
+@@ -287,10 +392,10 @@ ENDDEF
+ DEF AD8306AR U 0 40 Y Y 1 F N
+ F0 "U" -200 600 50 H V R CNN
+ F1 "AD8306AR" -200 500 50 H V R CNN
+-F2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" 700 -600 60 H I C CNN
++F2 "" 700 100 60 H I C CNN
+ F3 "" 700 100 60 H I C CNN
+ $FPLIST
+- *SOIC-16*3.9x9.9mm_Pitch1.27mm*
++ *SOIC*3.9x9.9*Pitch1.27mm*
+ $ENDFPLIST
+ DRAW
+ S -500 400 500 -400 0 1 10 f
+@@ -318,20 +423,43 @@ ENDDEF
+ DEF AD8307AN U 0 40 Y Y 1 F N
+ F0 "U" -100 500 50 H V R CNN
+ F1 "AD8307AN" -100 400 50 H V R CNN
+-F2 "Housings_DIP:DIP-8_W7.62mm" 200 -500 60 H I C CNN
++F2 "" 0 50 60 H I C CNN
++F3 "" 0 50 60 H I C CNN
++$FPLIST
++ *DIP-8*
++$ENDFPLIST
++DRAW
++S -300 300 300 -300 0 1 10 f
++S 300 100 300 100 0 1 0 N
++X INM 1 -400 100 100 R 50 50 1 1 W
++X COM 2 0 -400 100 U 50 50 1 1 W
++X OFS 3 -400 -200 100 R 50 50 1 1 N
++X OUT 4 400 0 100 L 50 50 1 1 O
++X INT 5 400 -100 100 L 50 50 1 1 N
++X ENB 6 200 400 100 D 50 50 1 1 W
++X VPS 7 0 400 100 D 50 50 1 1 W
++X INP 8 -400 200 100 R 50 50 1 1 I
++ENDDRAW
++ENDDEF
++#
++# AD8307ANZ
++#
++DEF AD8307ANZ U 0 40 Y Y 1 F N
++F0 "U" -100 500 50 H V R CNN
++F1 "AD8307ANZ" -100 400 50 H V R CNN
++F2 "" 0 50 60 H I C CNN
+ F3 "" 0 50 60 H I C CNN
+-ALIAS AD8307ANZ
+ $FPLIST
+- *DIP-8*W7.62mm*
++ *DIP-8*
+ $ENDFPLIST
+ DRAW
+ S -300 300 300 -300 0 1 10 f
+ S 300 100 300 100 0 1 0 N
+ X INM 1 -400 100 100 R 50 50 1 1 W
+ X COM 2 0 -400 100 U 50 50 1 1 W
+-X OFS 3 -200 -400 100 U 50 50 1 1 N
++X OFS 3 -400 -200 100 R 50 50 1 1 N
+ X OUT 4 400 0 100 L 50 50 1 1 O
+-X INT 5 200 -400 100 U 50 50 1 1 N
++X INT 5 400 -100 100 L 50 50 1 1 N
+ X ENB 6 200 400 100 D 50 50 1 1 W
+ X VPS 7 0 400 100 D 50 50 1 1 W
+ X INP 8 -400 200 100 R 50 50 1 1 I
+@@ -343,20 +471,43 @@ ENDDEF
+ DEF AD8307AR U 0 40 Y Y 1 F N
+ F0 "U" -100 500 50 H V R CNN
+ F1 "AD8307AR" -100 400 50 H V R CNN
+-F2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" 200 -500 60 H I C CNN
++F2 "" 0 50 60 H I C CNN
++F3 "" 0 50 60 H I C CNN
++$FPLIST
++ *SOIC-8*Pitch1.27mm*
++$ENDFPLIST
++DRAW
++S -300 300 300 -300 0 1 10 f
++S 300 100 300 100 0 1 0 N
++X INM 1 -400 100 100 R 50 50 1 1 W
++X COM 2 0 -400 100 U 50 50 1 1 W
++X OFS 3 -400 -200 100 R 50 50 1 1 N
++X OUT 4 400 0 100 L 50 50 1 1 O
++X INT 5 400 -100 100 L 50 50 1 1 N
++X ENB 6 200 400 100 D 50 50 1 1 W
++X VPS 7 0 400 100 D 50 50 1 1 W
++X INP 8 -400 200 100 R 50 50 1 1 I
++ENDDRAW
++ENDDEF
++#
++# AD8307ARZ
++#
++DEF AD8307ARZ U 0 40 Y Y 1 F N
++F0 "U" -100 500 50 H V R CNN
++F1 "AD8307ARZ" -100 400 50 H V R CNN
++F2 "" 0 50 60 H I C CNN
+ F3 "" 0 50 60 H I C CNN
+-ALIAS AD8307ARZ
+ $FPLIST
+- *SOIC-8*3.9x4.9mm_Pitch1.27mm*
++ *SOIC-8*Pitch1.27mm*
+ $ENDFPLIST
+ DRAW
+ S -300 300 300 -300 0 1 10 f
+ S 300 100 300 100 0 1 0 N
+-X INM 1 -400 0 100 R 50 50 1 1 W
++X INM 1 -400 100 100 R 50 50 1 1 W
+ X COM 2 0 -400 100 U 50 50 1 1 W
+-X OFS 3 -200 -400 100 U 50 50 1 1 N
++X OFS 3 -400 -200 100 R 50 50 1 1 N
+ X OUT 4 400 0 100 L 50 50 1 1 O
+-X INT 5 200 -400 100 U 50 50 1 1 N
++X INT 5 400 -100 100 L 50 50 1 1 N
+ X ENB 6 200 400 100 D 50 50 1 1 W
+ X VPS 7 0 400 100 D 50 50 1 1 W
+ X INP 8 -400 200 100 R 50 50 1 1 I
+@@ -368,10 +519,10 @@ ENDDEF
+ DEF AD8309ARU U 0 40 Y Y 1 F N
+ F0 "U" -200 600 50 H V R CNN
+ F1 "AD8309ARU" -200 500 50 H V R CNN
+-F2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" 600 -700 60 H I C CNN
++F2 "" 700 100 60 H I C CNN
+ F3 "" 700 100 60 H I C CNN
+ $FPLIST
+- *TSSOP-16*4.4x5mm_Pitch0.65mm*
++ *TSSOP-16*
+ $ENDFPLIST
+ DRAW
+ S -500 400 500 -400 0 1 10 f
