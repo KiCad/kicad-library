@@ -31,8 +31,8 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP5054
-D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C 
-K quad regulator dcdc buck synchronizable parallel 
+D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C
+K quad regulator dcdc buck synchronizable parallel
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
 $ENDCMP
 #
@@ -308,6 +308,54 @@ $CMP LM2574N-ADJ
 D Adjustable Output, 0.5A Step-Down VR
 K SIMPLE SWITCHER® Step-Down Voltage Regulator Adjustable 500mA
 F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2575-12BT
+D Fixed 12V 52kHz Simple 1A Buck Regulator, TO-220-5
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575-12BU
+D Fixed 12V 52kHz Simple 1A Buck Regulator, TO-263
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575-3.3BT
+D Fixed 3.3V 52kHz Simple 1A Buck Regulator, TO-220-5
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575-3.3BU
+D Fixed 3.3V 52kHz Simple 1A Buck Regulator, TO-263
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575-5.0BT
+D Fixed 5.0V 52kHz Simple 1A Buck Regulator, TO-220-5
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575-5.0BU
+D Fixed 5.0V 52kHz Simple 1A Buck Regulator, TO-263
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575BT-ADJ
+D Adjustable 52kHz Simple 1A Buck Regulator, TO-220-5
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575BU-ADJ
+D Adjustable 52kHz Simple 1A Buck Regulator, TO-263
+K Buck Regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
 $ENDCMP
 #
 $CMP LM2576HVS-12
@@ -688,6 +736,12 @@ K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2733.pdf
 $ENDCMP
 #
+$CMP LM2734
+D Thin SOT 1-A Load Step-Down DC-DC Regulator
+K Miniature Step-Down Buck Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2734.pdf
+$ENDCMP
+#
 $CMP LM2735XMF
 D LM27313, 2.1A, 24Vout Boost/Flyback/SEPIC Voltage Regulator, 520kHz/1.6MHz Frequency, SOT-23-5
 K Miniature Step-Up Boost Flyback SEPIC Voltage Regulator
@@ -848,6 +902,12 @@ $CMP LT1054
 D Switched-Capacitor Voltage Converter with Regulator, output current 100mA, operating range 3.5V to 15V, low loss 1.1V at 100mA
 K monolithic bipolar switched capacitor voltage converter regulator inverter doubler shutdown
 F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1073
+D Micropower DC/DC Converter Adjustable and Fixed 5V, 12V
+K Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
 $ENDCMP
 #
 $CMP LT1108
@@ -1203,6 +1263,30 @@ K Step-Up Boost DC-DC Regulator Adjustable
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002234D.pdf
 $ENDCMP
 #
+$CMP MCP1650
+D 750 kHz Boost Controller from 3.3V up to 100V, 5W.
+K boost controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21876B.pdf
+$ENDCMP
+#
+$CMP MCP1651
+D 750 kHz Boost Controller from 3.3V up to 100V, 5W.
+K boost controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21876B.pdf
+$ENDCMP
+#
+$CMP MCP1652
+D 750 kHz Boost Controller from 3.3V up to 100V, 5W.
+K boost controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21876B.pdf
+$ENDCMP
+#
+$CMP MCP1653
+D 750 kHz Boost Controller from 3.3V up to 100V, 5W.
+K boost controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21876B.pdf
+$ENDCMP
+#
 $CMP MIC2177
 D Step-down switching regulator (synchronous)  2.5 A
 K REGUL POWER
@@ -1236,6 +1320,90 @@ $CMP ST1S14PHR
 D DC/DC Buck Converter, Vin 48V, 3A, Power SO-8
 K DC/DC Buck Conwerter 3A
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
+$ENDCMP
+#
+$CMP TEN20-2410WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=3.3V@5.5A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2411WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=5V@4A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2412WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=12V@1.67A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2413WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=15V@1.33A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2421WIN
+D Isolated DC/DC Dual Supply Converter, Vin=9-36V, Vout=+-5V@2A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2422WIN
+D Isolated DC/DC Dual Supply Converter, Vin=9-36V, Vout=+-12V@835mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2423WIN
+D Isolated DC/DC Dual Supply Converter, Vin=9-36V, Vout=+-15V@665mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4810WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=3.3V@5.5A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4811WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=5V@4A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4812WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=12V@1.67A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4813WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=15V@1.33A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4821WIN
+D Isolated DC/DC Dual Supply Converter, Vin=18-75V, Vout=+-5V@2A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4822WIN
+D Isolated DC/DC Dual Supply Converter, Vin=18-75V, Vout=+-12V@835mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4823WIN
+D Isolated DC/DC Dual Supply Converter, Vin=18-75V, Vout=+-15V@665mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
 $ENDCMP
 #
 $CMP TL497

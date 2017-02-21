@@ -324,10 +324,28 @@ K ADC 24bit Sensors Quad Channel
 F http://www.ti.com/lit/ds/symlink/ads1232.pdf
 $ENDCMP
 #
+$CMP ADS1243
+D 24-bit ADC, 8 Channels, SPI compatible, PGA 1 to 128, TSSOP-20
+K 24bit ADC 8 Channels PGA SPI
+F http://www.ti.com/lit/ds/symlink/ads1243.pdf
+$ENDCMP
+#
 $CMP ADS1251
 D Single channel 24-bit Analog to Digital Converter, 5V supply, differential input, 20kHz, 2-wire serial interface, SOIC-8
 K delta-sigma adc low-power
 F http://www.ti.com/lit/ds/symlink/ads1251.pdf
+$ENDCMP
+#
+$CMP ADS128D818
+D 16-bit ADC, 8 Channels, I2C compatible, PGA 1 to 128, TSSOP-16
+K 16bit ADC 8 Channels TSSOP I2C
+F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
+$ENDCMP
+#
+$CMP ADS7828
+D 12-Bits, 8-Channels, ADC, I2C, TSSOP-16
+K I2C ADC 12Bits 
+F http://www.ti.com/lit/ds/symlink/ads7828.pdf
 $ENDCMP
 #
 $CMP CA3300
@@ -447,6 +465,18 @@ $CMP LTC1865L-S8
 D Dual channel 16-bit Analog to Digital Converter, 3V supply, 150ksps, SPI interface
 K sigma-delta adc
 F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
+$ENDCMP
+#
+$CMP LTC2508CDKD-32
+D 32-Bit Oversampling ADC with Configurable Digital Filter, 0°0C to 70°C, DFN-24 package
+K LT ADC 32bit
+F http://cds.linear.com/docs/en/datasheet/250832fa.pdf
+$ENDCMP
+#
+$CMP LTC2508IDKD-32
+D 32-Bit Oversampling ADC with Configurable Digital Filter, -40°C to 85°C, DFN-24 package
+K LT ADC 32bit
+F http://cds.linear.com/docs/en/datasheet/250832fa.pdf
 $ENDCMP
 #
 $CMP MAX11614
