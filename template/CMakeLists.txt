@@ -31,6 +31,7 @@ install( FILES
     fp-lib-table.for-pretty
     fp-lib-table.for-legacy
     fp-lib-table.for-eagle-6.4.0
+    sym-lib-table
     DESTINATION ${KICAD_TEMPLATE}
     COMPONENT resources
     )
