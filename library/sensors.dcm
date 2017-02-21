@@ -300,6 +300,12 @@ K 3-axis accelerometer spi mems
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf
 $ENDCMP
 #
+$CMP LIS2HH12
+D 3-Axis Accelerometer, 2/4/8g range, I2C/SPI interface
+K 3-axis accelerometer spi mems
+F www.st.com/resource/en/datasheet/lis2hh12.pdf
+$ENDCMP
+#
 $CMP LIS331HH
 D 3-Axis Accelerometer, 6/12/24g range, 1000Hz, I2C and SPI interface
 K 3-axis accelerometer spi i2c mems
@@ -322,6 +328,18 @@ $CMP LM35-NEB
 D Precision centigrade temperature sensor, TO-220 package
 K temperature sensor thermistor
 F http://www.ti.com/lit/ds/symlink/lm35.pdf
+$ENDCMP
+#
+$CMP LM73
+D 11 to 14 Bit digital temperature sensor with 2 wire interface, SOT23-6
+K digital temperature sensor
+F http://www.ti.com/lit/ds/symlink/lm73.pdf
+$ENDCMP
+#
+$CMP LM73-1
+D 11 to 14 Bit digital temperature sensor with 2 wire interface, SOT23-6
+K digital temperature sensor
+F http://www.ti.com/lit/ds/symlink/lm73.pdf
 $ENDCMP
 #
 $CMP LMT84DCK
@@ -358,6 +376,12 @@ $CMP LSM303DLHC
 D I2C, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00027543.pdf
+$ENDCMP
+#
+$CMP LSM9DS1
+D I2C SPI 9 axis IMU accelerometer gyroscope magnetometer
+K I2C SPI IMU accelerometer gyroscope magnetometer
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf
 $ENDCMP
 #
 $CMP MAX31855
@@ -526,6 +550,18 @@ $CMP TLV493D
 D Low power 3D magnetic sensor, I2C interface, SOT23-6 package
 K magnetic field i2c
 F http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80
+$ENDCMP
+#
+$CMP TMP20AIDCK
+D Analog thermistor temperature sensor, ±2.5C accuracy, -55C to +130C, SC-70-5 package
+K temperature sensor thermistor
+F http://www.ti.com/lit/ds/symlink/tmp20.pdf
+$ENDCMP
+#
+$CMP TMP20AIDRL
+D Analog thermistor temperature sensor, ±2.5C accuracy, -55C to +130C, SOT-563-6 package
+K temperature sensor thermistor
+F http://www.ti.com/lit/ds/symlink/tmp20.pdf
 $ENDCMP
 #
 $CMP TMP411
