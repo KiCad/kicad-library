@@ -1,5 +1,53 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N2219
+D Vce 50V, Ic 800mA, NPN Transistor, TO-39
+K NPN transistor
+F http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF
+$ENDCMP
+#
+$CMP 2N2646
+D Unijunction transistor
+K UJT
+F http://www.bucek.name/pdf/2n2646,2647.pdf
+$ENDCMP
+#
+$CMP 2N2647
+D Unijunction transistor
+K UJT
+F http://www.bucek.name/pdf/2n2646,2647.pdf
+$ENDCMP
+#
+$CMP 2N3055
+D 60V Vce, 15A Ic, NPN, Power Transistor, TO-3
+K NPN power transistor
+F http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF
+$ENDCMP
+#
+$CMP 2N3904
+D 40V Vce, 0.2A Ic, NPN, Small Signal Transistor, TO-92
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+$ENDCMP
+#
+$CMP 2N3905
+D -40V Vce, -0.2A Ic, PNP, Small Signal Transistor, TO-92
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf
+$ENDCMP
+#
+$CMP 2N3906
+D -40V Vce, -0.2A Ic, PNP, Small Signal Transistor, TO-92
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
+$ENDCMP
+#
+$CMP 2N7000
+D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+K N-Channel MOSFET Logic-Level
+F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
+$ENDCMP
+#
 $CMP 2N7002
 D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
 K N-Channel Switching MOSFET
@@ -34,7 +82,7 @@ $ENDCMP
 #
 $CMP 2SC1945
 D 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, TO-220
-K RF Power Transistor NPN 
+K RF Power Transistor NPN
 $ENDCMP
 #
 $CMP 2SD1047
@@ -55,8 +103,50 @@ $ENDCMP
 #
 $CMP AUIR3315S
 D Automotive Q101 Programmable Current Sense High Side Switch in a 5-Lead (TO-263-5) Package
-K Hiside power switch 
+K Hiside power switch
 F http://www.irf.com/product-info/datasheets/data/auir3315.pdf
+$ENDCMP
+#
+$CMP BC107
+D 50V Vce, 0.1A Ic, NPN, Low Noise General Purpose Transistor, TO-18
+K NPN low noise transistor
+F http://www.b-kainka.de/Daten/Transistor/BC108.pdf
+$ENDCMP
+#
+$CMP BC108
+D 30V Vce, 0.1A Ic, NPN, Low Noise General Purpose Transistor, TO-18
+K NPN low noise transistor
+F http://www.b-kainka.de/Daten/Transistor/BC108.pdf
+$ENDCMP
+#
+$CMP BC109
+D 25V Vce, 0.2A Ic, NPN, Low Noise General Purpose Transistor, TO-18
+K NPN low noise transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC140
+D Vce 40V, Ic 1000mA, NPN Transistor, TO-39
+K NPN transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC141
+D Vce 60V, Ic 1000mA, NPN Transistor, TO-39
+K NPN transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC160
+D 40V Vce, 1A Ic, PNP, Power Transistor, TO-39
+K PNP power transistor
+F http://www.farnell.com/datasheets/1697389.pdf
+$ENDCMP
+#
+$CMP BC161
+D 60V Vce, 1A Ic, PNP, Power Transistor, TO-39
+K PNP power transistor
+F http://www.farnell.com/datasheets/1697389.pdf
 $ENDCMP
 #
 $CMP BC237
@@ -71,196 +161,412 @@ K PNP Epitaxial Silicon Transistor
 F http://www.onsemi.com/pub_link/Collateral/BC307-D.PDF
 $ENDCMP
 #
+$CMP BC327
+D 45V Vce, 0.8A Ic, PNP, TO-92
+K  PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF
+$ENDCMP
+#
+$CMP BC328
+D 25V Vce, 0.8A Ic, PNP, TO-92
+K PNP Transistor
+F http://www.redrok.com/PNP_BC327_-45V_-800mA_0.625W_Hfe100_TO-92.pdf
+$ENDCMP
+#
+$CMP BC337
+D 45V Vce, 0.8A Ic, NPN, TO-92
+K  NPN Transistor
+F http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf
+$ENDCMP
+#
+$CMP BC338
+D 25V Vce, 0.8A Ic, NPN, TO-92
+K NPN Transistor
+F http://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337
+$ENDCMP
+#
 $CMP BC413
 D 30V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC413 NPN Transistor
+K NPN Transistor
 F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
 $ENDCMP
 #
 $CMP BC413B
 D 30V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC413 NPN Transistor
+K NPN Transistor
 F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
 $ENDCMP
 #
 $CMP BC413C
 D 30V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC413 NPN Transistor
+K NPN Transistor
 F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
 $ENDCMP
 #
 $CMP BC414
 D 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC414 NPN Transistor
+K NPN Transistor
 F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
 $ENDCMP
 #
 $CMP BC414B
 D 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC414 NPN Transistor
+K NPN Transistor
 F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
 $ENDCMP
 #
 $CMP BC414C
 D 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC413 NPN Transistor
+K NPN Transistor
 F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
 $ENDCMP
 #
 $CMP BC516
 D 30V Vce, 1A Ic, PNP Darlington Transistor, TO-92
-K BC516 PNP Darlington Darl Transistor
+K PNP Darlington Darl Transistor
 F http://www.fairchildsemi.com/ds/BC/BC516.pdf
 $ENDCMP
 #
 $CMP BC517
 D 30V Vce, 1A Ic, NPN Darlington Transistor, TO-92
-K BC517 NPN Darlington Darl Transistor
+K NPN Darlington Darl Transistor
 F http://www.fairchildsemi.com/ds/BC/BC517.pdf
 $ENDCMP
 #
 $CMP BC546
 D 65V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC546 NPN Transistor
+K NPN Transistor
 F http://www.fairchildsemi.com/ds/BC/BC547.pdf
 $ENDCMP
 #
 $CMP BC547
 D 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC547 NPN Transistor
+K NPN Transistor
 F http://www.fairchildsemi.com/ds/BC/BC547.pdf
 $ENDCMP
 #
 $CMP BC548
 D 30V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC548 NPN Transistor
+K NPN Transistor
 F http://www.fairchildsemi.com/ds/BC/BC547.pdf
 $ENDCMP
 #
 $CMP BC549
 D 30V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC549 NPN Transistor
+K NPN Transistor
 F http://www.fairchildsemi.com/ds/BC/BC547.pdf
 $ENDCMP
 #
 $CMP BC550
 D 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
-K BC550 NPN Transistor
+K NPN Transistor
 F http://www.fairchildsemi.com/ds/BC/BC547.pdf
 $ENDCMP
 #
 $CMP BC556
 D 65V Vce, 0.1A Ic, PNP Small Signal Transistor, TO-92
-K BC556 PNP Transistor
+K PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BC557.pdf
 $ENDCMP
 #
 $CMP BC557
 D 45V Vce, 0.1A Ic, PNP Small Signal Transistor, TO-92
-K BC557 PNP Transistor
+K PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BC557.pdf
 $ENDCMP
 #
 $CMP BC558
 D 30V Vce, 0.1A Ic, PNP Small Signal Transistor, TO-92
-K BC558 PNP Transistor
+K PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BC557.pdf
 $ENDCMP
 #
 $CMP BC559
 D 30V Vce, 0.1A Ic, PNP Small Signal Transistor, TO-92
-K BC559 PNP Transistor
+K PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BC557.pdf
 $ENDCMP
 #
 $CMP BC560
 D 45V Vce, 0.1A Ic, PNP Small Signal Transistor, TO-92
-K BC560 PNP Transistor
+K PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BC557.pdf
 $ENDCMP
 #
 $CMP BC636
 D 45V Vce, 1A Ic, PNP Medium Power Transistor, TO-92
-K BC636 PNP Transistor
+K PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BC636.pdf
 $ENDCMP
 #
-$CMP BC807-40
+$CMP BC807
 D 45V Vce, 0.8A Ic, PNP, SOT-23
-K BC807 BC327 Equivalent
+K  PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BC807.pdf
 $ENDCMP
 #
-$CMP BC808-40
+$CMP BC807W
+D 45V Vce, 0.8A Ic, PNP, SOT-323
+K PNP transistor
+F http://www.fairchildsemi.com/ds/BC/BC807.pdf
+$ENDCMP
+#
+$CMP BC808
 D 25V Vce, 0.8A Ic, PNP, SOT-23
-K BC808 BC328 Equivalent
+K  PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BC807.pdf
 $ENDCMP
 #
-$CMP BC817-40
+$CMP BC808W
+D 25V Vce, 0.8A Ic, PNP, SOT-323
+K PNP transistor
+F http://www.fairchildsemi.com/ds/BC/BC807.pdf
+$ENDCMP
+#
+$CMP BC817
 D 45V Vce, 0.8A Ic, NPN, SOT-23
-K BC817 BC337 Equivalent
+K NPN transistor
 F http://www.fairchildsemi.com/ds/BC/BC817.pdf
 $ENDCMP
 #
-$CMP BC818-40
-D 25V Vce, 0.8A Ic, NPN, SOT-23
-K BC818 BC337 Equivalent
+$CMP BC817W
+D 45V Vce, 0.8A Ic, NPN, SOT-23
+K NPN transistor
 F http://www.fairchildsemi.com/ds/BC/BC817.pdf
+$ENDCMP
+#
+$CMP BC818
+D 25V Vce, 0.8A Ic, NPN, SOT-23
+K NPN transistor
+F https://www.fairchildsemi.com/datasheets/BC/BC818.pdf
+$ENDCMP
+#
+$CMP BC818W
+D 25V Vce, 0.8A Ic, NPN, SOT-323
+K NPN transistor
+F https://www.fairchildsemi.com/datasheets/BC/BC818.pdf
+$ENDCMP
+#
+$CMP BC846BDW1
+D 65V Vce, 100mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC846BPDW1
+D 65V Vce, 100mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F http://www.onsemi.com/pub_link/Collateral/BC846BPDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC846BPN
+D 65V Vce, 100mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F http://www.nxp.com/documents/data_sheet/BC846BPN.pdf
+$ENDCMP
+#
+$CMP BC846BS
+D 65V Vce, 100mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.nxp.com/documents/data_sheet/BC846BS.pdf
+$ENDCMP
+#
+$CMP BC847
+D 45V Vce, 0.1A Ic, NPN, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC847BDW1
+D 45V Vce, 100mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC847BPDW1
+D 45V Vce, 100mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F http://www.onsemi.com/pub_link/Collateral/BC846BPDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC847BPN
+D 45V Vce, 100mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F http://www.nxp.com/documents/data_sheet/BC847BPN.pdf
+$ENDCMP
+#
+$CMP BC847BS
+D 45V Vce, 100mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.nxp.com/documents/data_sheet/BC847BS.pdf
+$ENDCMP
+#
+$CMP BC847W
+D 45V Vce, 0.1A Ic, NPN, SOT-323
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC848
+D 30V Vce, 0.1A Ic, NPN, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC848W
+D 30V Vce, 0.1A Ic, NPN, SOT-323
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
 $ENDCMP
 #
 $CMP BC849
-D 30V Vce, 0.1A Ic, Low noise, NPN, SOT-23
-K NPN Low Noise Small Signal Transistor
-F http://www.fairchildsemi.com/ds/BC/BC850.pdf
+D 30V Vce, 0.1A Ic, NPN, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC849W
+D 30V Vce, 0.1A Ic, NPN, SOT-323
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
 $ENDCMP
 #
 $CMP BC850
-D 45V Vce, 0.1A Ic, Low noise, NPN, SOT-23
-K NPN Low Noise Small Signal Transistor
-F http://www.fairchildsemi.com/ds/BC/BC850.pdf
+D 45V Vce, 0.1A Ic, NPN, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC850W
+D 45V Vce, 0.1A Ic, NPN, SOT-323
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
 $ENDCMP
 #
 $CMP BC856
 D 65V Vce, 0.1A Ic, PNP, SOT-23
-K BC856 BC556 Equivalent
+K PNP transistor
+F http://www.fairchildsemi.com/ds/BC/BC856.pdf
+$ENDCMP
+#
+$CMP BC856BDW1
+D 65V Vce, 100mA IC, Dual PNP/PNP Transistors, SOT-363
+K Transistor PNP/PNP
+F http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC856BS
+D 65V Vce, 100mA IC, Dual PNP/PNP Transistors, SOT-363
+K Transistor PNP/PNP
+F http://www.nxp.com/documents/data_sheet/BC856BS.pdf
+$ENDCMP
+#
+$CMP BC856W
+D 65V Vce, 0.1A Ic, PNP, SOT-323
+K PNP transistor
 F http://www.fairchildsemi.com/ds/BC/BC856.pdf
 $ENDCMP
 #
 $CMP BC857
 D 45V Vce, 0.1A Ic, PNP, SOT-23
-K BC857 BC557 Equivalent
+K PNP transistor
 F http://www.fairchildsemi.com/ds/BC/BC856.pdf
+$ENDCMP
+#
+$CMP BC857BDW1
+D 45V Vce, 100mA IC, Dual PNP/PNP Transistors, SOT-363
+K Transistor PNP/PNP
+F http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC857BS
+D 45V Vce, 100mA IC, Dual PNP/PNP Transistors, SOT-363
+K Transistor PNP/PNP
+F http://www.nxp.com/documents/data_sheet/BC857BS.pdf
+$ENDCMP
+#
+$CMP BC857W
+D 45V Vce, 0.1A Ic, PNP Small Signal Transistor, SOT-323
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
 $ENDCMP
 #
 $CMP BC858
 D 30V Vce, 0.1A Ic, PNP, SOT-23
-K BC858 BC558 Equivalent
+K PNP transistor
 F http://www.fairchildsemi.com/ds/BC/BC856.pdf
+$ENDCMP
+#
+$CMP BC858W
+D 30V Vce, 0.1A Ic, PNP Small Signal Transistor, SOT-323
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BC859
+D 30V Vce, 0.1A Ic, PNP Small Signal Transistor, SOT-23
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BC859W
+D 30V Vce, 0.1A Ic, PNP Small Signal Transistor, SOT-323
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BC860
+D 45V Vce, 0.1A Ic, PNP Small Signal Transistor, SOT-23
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BC860W
+D 45V Vce, 0.1A Ic, PNP Small Signal Transistor, SOT-323
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
 $ENDCMP
 #
 $CMP BCP51
 D 45V Vce, 1A Ic, PNP Medium Power Transistor, SOT-223
-K BCP51 PNP Transistor
+K PNP Transistor
 F http://www.fairchildsemi.com/ds/BC/BCP51.pdf
+$ENDCMP
+#
+$CMP BCP53
+D 80V Vce, 1A Ic, PNP Medium Power Transistor, SOT-223
+K PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF
+$ENDCMP
+#
+$CMP BCP56
+D 80V Vce, 1A Ic, NPN Medium Power Transistor, SOT-223
+K NPN Transistor
+F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
 $ENDCMP
 #
 $CMP BCX51
 D 45V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89
-K BCX51 PNP Transistor
+K PNP Transistor
 F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
 $ENDCMP
 #
 $CMP BCX52
 D 60V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89
-K BCX52 PNP Transistor
+K PNP Transistor
 F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
 $ENDCMP
 #
 $CMP BCX53
 D 80V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89
-K BCX53 PNP Transistor
+K PNP Transistor
 F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
+$ENDCMP
+#
+$CMP BCX56
+D 80V Vce, 1A Ic, NPN Medium Power Transistor, SOT-89
+K NPN Transistor
+F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
 $ENDCMP
 #
 $CMP BD135
@@ -385,61 +691,61 @@ $ENDCMP
 #
 $CMP BD433
 D 22V Vce, 4A Ic, NPN Power Transistor, TO-126
-K BD433 NPN Power Transistor
+K NPN Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
 $CMP BD434
 D 22V Vce, 4A Ic, PNP Power Transistor, TO-126
-K BD434 PNP Power Transistor
+K PNP Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
 $CMP BD435
 D 32V Vce, 4A Ic, NPN Power Transistor, TO-126
-K BD435 NPN Power Transistor
+K NPN Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
 $CMP BD436
 D 32V Vce, 4A Ic, PNP Power Transistor, TO-126
-K BD436 PNP Power Transistor
+K PNP Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
 $CMP BD437
 D 45V Vce, 4A Ic, NPN Power Transistor, TO-126
-K BD437 NPN Power Transistor
+K NPN Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
 $CMP BD438
 D 45V Vce, 4A Ic, PNP Power Transistor, TO-126
-K BD438 PNP Power Transistor
+K PNP Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
 $CMP BD439
 D 60V Vce, 4A Ic, NPN Power Transistor, TO-126
-K BD439 NPN Power Transistor
+K NPN Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
 $CMP BD440
 D 60V Vce, 4A Ic, PNP Power Transistor, TO-126
-K BD440 PNP Power Transistor
+K PNP Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
 $CMP BD441
 D 80V Vce, 4A Ic, NPN Power Transistor, TO-126
-K BD441 NPN Power Transistor
+K NPN Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
 $CMP BD442
 D 80V Vce, 4A Ic, PNP Power Transistor, TO-126
-K BD442 PNP Power Transistor
+K PNP Power Transistor
 F http://www.cdil.com/datasheets/bd433_42.pdf
 $ENDCMP
 #
@@ -467,9 +773,63 @@ K Power Transistor PNP
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf
 $ENDCMP
 #
+$CMP BDW93
+D 45V Vce, 12A Ic, NPN Power Darlington Transistor, TO-220
+K NPN Darlington Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW93A
+D 60V Vce, 12A Ic, NPN Power Darlington Transistor, TO-220
+K NPN Darlington Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW93B
+D 80V Vce, 12A Ic, NPN Power Darlington Transistor, TO-220
+K NPN Darlington Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW93C
+D 100V Vce, 12A Ic, NPN Power Darlington Transistor, TO-220
+K NPN Darlington Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW94
+D 45V Vce, 12A Ic, PNP Power Darlington Transistor, TO-220
+K PNP Darlington Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BDW94A
+D 60V Vce, 12A Ic, PNP Power Darlington Transistor, TO-220
+K PNP Darlington Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BDW94B
+D 80V Vce, 12A Ic, PNP Power Darlington Transistor, TO-220
+K PNP Darlington Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BDW94C
+D 100V Vce, 12A Ic, PNP Power Darlington Transistor, TO-220
+K PNP Darlington Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BF199
+D 25V Vce, 0.05A Ic, NPN Radio Frequency Transistor, TO-220
+K NPN RF Transistor
+F http://www.micropik.com/PDF/BF199.pdf
+$ENDCMP
+#
 $CMP BF240
 D 40V Vce, 0.05A Ic, NPN, RF Signal Transistor, TO-92
-K BF240 NPN RF Transistor
+K NPN RF Transistor
 F http://www.fairchildsemi.com/ds/BF/BF240.pdf
 $ENDCMP
 #
@@ -511,17 +871,17 @@ $ENDCMP
 #
 $CMP BF457
 D 160V Vce, 0.1A Ic, NPN, High Voltage Transistor, TO-126
-K BF457 NPN HV High Voltage Transistor
+K NPN HV High Voltage Transistor
 $ENDCMP
 #
 $CMP BF458
 D 250V Vce, 0.1A Ic, NPN, High Voltage Transistor, TO-126
-K BF458 NPN HV High Voltage Transistor
+K NPN HV High Voltage Transistor
 $ENDCMP
 #
 $CMP BF459
 D 300V Vce, 0.1A Ic, NPN, High Voltage Transistor, TO-126
-K BF457 NPN HV High Voltage Transistor
+K NPN HV High Voltage Transistor
 $ENDCMP
 #
 $CMP BFR92
@@ -537,9 +897,15 @@ F http://www.nxp.com/documents/data_sheet/BFT92_CNV.pdf
 $ENDCMP
 #
 $CMP BS107
-D 200V Vds, N-Channel MOSFET, TO-92
+D 200V Vds 0.25A Id, N-Channel MOSFET, TO-92
 K N-Channel MOSFET
-F http://www.vishay.com/docs/70215/70215.pdf
+F http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF
+$ENDCMP
+#
+$CMP BS108
+D 200V Vds 0.25A Id, N-Channel MOSFET, TO-92
+K N-Channel MOSFET
+F http://www.redrok.com/MOSFET_BS108_200V_250mA_8O_Vth1.5_TO-92.PDF
 $ENDCMP
 #
 $CMP BS170
@@ -548,10 +914,22 @@ K N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/BS/BS170.pdf
 $ENDCMP
 #
+$CMP BS250
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
 $CMP BSC026N08NS5ATMA1
 D OptiMOS N-Channel Power MOSFET, Vds 80V, Rdson 2.6mOhm, Id 100A, Qg (typ) 74.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0
+$ENDCMP
+#
+$CMP BSC028N06LS3
+D OptiMOS N-Channel Power MOSFET, Vds 60V, Rdson 2.8mOhm, Id 100A, Qg (typ) 31.0nC, PG-TDSON-8
+K OptiMOS Power MOSFET N-MOS
+F http://www.infineon.com/dgdl/Infineon-BSC028N06LS3-DS-v02_02-en.pdf?fileId=db3a30431ddc9372011ebafa4c607f8c
 $ENDCMP
 #
 $CMP BSC030N08NS5ATMA1
@@ -1142,6 +1520,12 @@ K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/gpn/csd19534q5a
 $ENDCMP
 #
+$CMP CSD19537Q3
+D NexFET N-Channel Power MOSFET, Vds 100V, Rdson 13mOhm, Id 50A, Qg Typ 16.0nC, VSON8 3.3x3.3mm
+K NexFET Power MOSFET N-MOS
+F http://www.ti.com/lit/ds/symlink/csd19537q3.pdf
+$ENDCMP
+#
 $CMP DTA113T
 D Digital Transistor, 1k/NONE, SOT-23
 K ROHM Digital Transistor
@@ -1578,34 +1962,106 @@ K Dual N-Channel MOSFET Logic Level
 F http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf
 $ENDCMP
 #
+$CMP FDMS8050
+D N-Channel PowerTrench MOSFET, Vds=30V, Rds=0.65mΩ, Id(const)=55A, Qg(max)=285nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS8050.pdf
+$ENDCMP
+#
+$CMP FDMS8050ET30
+D N-Channel PowerTrench MOSFET, Vds=30V, Rds=0.65mΩ, Id(const)=55A, Qg(max)=285nC, Temp=-55 to 175 °C, SON8 5x6mm package
+K powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS8050ET30.pdf
+$ENDCMP
+#
+$CMP FDMS8350L
+D N-Channel PowerTrench MOSFET, Vds=40V, Rds=0.85mΩ, Id(const)=47A, Qg(max)=242nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS8350L.pdf
+$ENDCMP
+#
 $CMP FDMS8350LET40
 D N-Channel PowerTrench MOSFET, Vds=40V, Rds=0.85mΩ, Id(const)=49A, Qg(max)=242nC, Temp=-55 to 175 °C, SON8 5x6mm package
 K powertrench-mosfet mosfet fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMS8350LET40.pdf
 $ENDCMP
 #
-$CMP FDMT80060DC
-D N-Channel Dual Cool PowerTrench MOSFET, Vds=60V, Rds=1.1mΩ, Id(const)=43A, Qg(max)=238nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K dual-cool-powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT80060DC.pdf
+$CMP FDMS86150
+D N-Channel PowerTrench MOSFET, Vds=100V, Rds=4.85mΩ, Id(const)=16A, Qg(max)=62nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86150.pdf
 $ENDCMP
 #
-$CMP FDMT80080DC
-D N-Channel Dual Cool PowerTrench MOSFET, Vds=80V, Rds=1.35mΩ, Id(const)=36A, Qg(max)=273nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K dual-cool-powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
+$CMP FDMS86150ET100
+D N-Channel PowerTrench MOSFET, Vds=100V, Rds=4.85mΩ, Id(const)=16A, Qg(max)=62nC, Temp=-55 to 175 °C, SON8 5x6mm package
+K powertrench-mosfet mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86150ET100.pdf
 $ENDCMP
 #
-$CMP FDMT800120DC
-D N-Channel Dual cool  88 PowerTrench MOSFET, Vds=120V, Rds=4.2mΩ, Id(const)=20A, Qg(max)=107nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K dual-cool-powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT800120DC.pdf
+$CMP FDMS86152
+D N-Channel PowerTrench MOSFET, Vds=100V, Rds=6mΩ, Id(const)=14A, Qg(max)=50nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86152.pdf
+$ENDCMP
+#
+$CMP FDMS86202
+D N-Channel Shielded Gate PowerTrench MOSFET, Vds=120V, Rds=7.2mΩ, Id(const)=13.5A, Qg(max)=64nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K shielded-gate-powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86202.pdf
+$ENDCMP
+#
+$CMP FDMS86202ET120
+D N-Channel Shielded Gate PowerTrench MOSFET, Vds=120V, Rds=7.2mΩ, Id(const)=13.5A, Qg(max)=64nC, Temp=-55 to 175 °C, SON8 5x6mm package
+K shielded-gate-powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86202ET120.pdf
+$ENDCMP
+#
+$CMP FDMS86255
+D N-Channel Shielded Gate PowerTrench MOSFET, Vds=150V, Rds=12.4mΩ, Id(const)=10A, Qg(max)=63nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K shielded-gate-powertrench-mosfet mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86255.pdf
+$ENDCMP
+#
+$CMP FDMS86255ET150
+D N-Channel Shielded Gate PowerTrench MOSFET, Vds=150V, Rds=12.4mΩ, Id(const)=10A, Qg(max)=63nC, Temp=-55 to 175 °C, SON8 5x6mm package
+K shielded-gate-powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86255ET150.pdf
+$ENDCMP
+#
+$CMP FDMS86350
+D N-Channel PowerTrench MOSFET, Vds=80V, Rds=2.4mΩ, Id(const)=25A, Qg(max)=155nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86350.pdf
+$ENDCMP
+#
+$CMP FDMS86350ET80
+D N-Channel PowerTrench MOSFET, Vds=80V, Rds=2.4mΩ, Id(const)=25A, Qg(max)=155nC, Temp=-55 to 175 °C, SON8 5x6mm package
+K powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86350ET80.pdf
+$ENDCMP
+#
+$CMP FDMS86550
+D N-Channel PowerTrench MOSFET, Vds=60V, Rds=1.65mΩ, Id(const)=32A, Qg(max)=154nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86550.pdf
+$ENDCMP
+#
+$CMP FDMS86550ET60
+D N-Channel PowerTrench MOSFET, Vds=60V, Rds=1.65mΩ, Id(const)=32A, Qg(max)=154nC, Temp=-55 to 175 °C, SON8 5x6mm package
+K powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMS86550ET60.pdf
 $ENDCMP
 #
 $CMP FDMT800100DC
 D N-Channel Dual Cool PowerTrench MOSFET, Vds=100V, Rds=2.95mΩ, Id(const)=24A, Qg(max)=111nC, Temp=-55 to 150 °C, SON8 5x6mm package
 K dual-cool-powertrench mosfet fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT800100DC.pdf
+$ENDCMP
+#
+$CMP FDMT800120DC
+D N-Channel Dual cool  88 PowerTrench MOSFET, Vds=120V, Rds=4.2mΩ, Id(const)=20A, Qg(max)=107nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K dual-cool-powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMT800120DC.pdf
 $ENDCMP
 #
 $CMP FDMT800150DC
@@ -1620,88 +2076,34 @@ K dual-cool-powertrench mosfet fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT800152DC.pdf
 $ENDCMP
 #
-$CMP FDMS8050ET30
-D N-Channel PowerTrench MOSFET, Vds=30V, Rds=0.65mΩ, Id(const)=55A, Qg(max)=285nC, Temp=-55 to 175 °C, SON8 5x6mm package
-K powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS8050ET30.pdf
+$CMP FDMT80060DC
+D N-Channel Dual Cool PowerTrench MOSFET, Vds=60V, Rds=1.1mΩ, Id(const)=43A, Qg(max)=238nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K dual-cool-powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMT80060DC.pdf
 $ENDCMP
 #
-$CMP FDMS86202ET120
-D N-Channel Shielded Gate PowerTrench MOSFET, Vds=120V, Rds=7.2mΩ, Id(const)=13.5A, Qg(max)=64nC, Temp=-55 to 175 °C, SON8 5x6mm package
-K shielded-gate-powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86202ET120.pdf
+$CMP FDMT80080DC
+D N-Channel Dual Cool PowerTrench MOSFET, Vds=80V, Rds=1.35mΩ, Id(const)=36A, Qg(max)=273nC, Temp=-55 to 150 °C, SON8 5x6mm package
+K dual-cool-powertrench mosfet fairchild
+F https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
 $ENDCMP
 #
-$CMP FDMS86150ET100
-D N-Channel PowerTrench MOSFET, Vds=100V, Rds=4.85mΩ, Id(const)=16A, Qg(max)=62nC, Temp=-55 to 175 °C, SON8 5x6mm package
-K powertrench-mosfet mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86150ET100.pdf
+$CMP FDS4559
+D Dual N and P Channel MOSFET, 60V Vds, 4.5A Id, 55mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS4559.pdf
 $ENDCMP
 #
-$CMP FDMS86255ET150
-D N-Channel Shielded Gate PowerTrench MOSFET, Vds=150V, Rds=12.4mΩ, Id(const)=10A, Qg(max)=63nC, Temp=-55 to 175 °C, SON8 5x6mm package
-K shielded-gate-powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86255ET150.pdf
+$CMP FDS4897AC
+D Dual N and P Channel MOSFET, 40V Vds, 6.1A Id, 26mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS4897AC.pdf
 $ENDCMP
 #
-$CMP FDMS86350ET80
-D N-Channel PowerTrench MOSFET, Vds=80V, Rds=2.4mΩ, Id(const)=25A, Qg(max)=155nC, Temp=-55 to 175 °C, SON8 5x6mm package
-K powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86350ET80.pdf
-$ENDCMP
-#
-$CMP FDMS86550ET60
-D N-Channel PowerTrench MOSFET, Vds=60V, Rds=1.65mΩ, Id(const)=32A, Qg(max)=154nC, Temp=-55 to 175 °C, SON8 5x6mm package
-K powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86550ET60.pdf
-$ENDCMP
-#
-$CMP FDMS8050
-D N-Channel PowerTrench MOSFET, Vds=30V, Rds=0.65mΩ, Id(const)=55A, Qg(max)=285nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS8050.pdf
-$ENDCMP
-#
-$CMP FDMS8350L
-D N-Channel PowerTrench MOSFET, Vds=40V, Rds=0.85mΩ, Id(const)=47A, Qg(max)=242nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS8350L.pdf
-$ENDCMP
-#
-$CMP FDMS86255
-D N-Channel Shielded Gate PowerTrench MOSFET, Vds=150V, Rds=12.4mΩ, Id(const)=10A, Qg(max)=63nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K shielded-gate-powertrench-mosfet mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86255.pdf
-$ENDCMP
-#
-$CMP FDMS86550
-D N-Channel PowerTrench MOSFET, Vds=60V, Rds=1.65mΩ, Id(const)=32A, Qg(max)=154nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86550.pdf
-$ENDCMP
-#
-$CMP FDMS86202
-D N-Channel Shielded Gate PowerTrench MOSFET, Vds=120V, Rds=7.2mΩ, Id(const)=13.5A, Qg(max)=64nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K shielded-gate-powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86202.pdf
-$ENDCMP
-#
-$CMP FDMS86350
-D N-Channel PowerTrench MOSFET, Vds=80V, Rds=2.4mΩ, Id(const)=25A, Qg(max)=155nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86350.pdf
-$ENDCMP
-#
-$CMP FDMS86152
-D N-Channel PowerTrench MOSFET, Vds=100V, Rds=6mΩ, Id(const)=14A, Qg(max)=50nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86152.pdf
-$ENDCMP
-#
-$CMP FDMS86150
-D N-Channel PowerTrench MOSFET, Vds=100V, Rds=4.85mΩ, Id(const)=16A, Qg(max)=62nC, Temp=-55 to 150 °C, SON8 5x6mm package
-K powertrench mosfet fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86150.pdf
+$CMP FDS4897C
+D Dual N and P Channel MOSFET, 40V Vds, 6.2A Id, 29mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS4897C.pdf
 $ENDCMP
 #
 $CMP FDS6890A
@@ -1722,10 +2124,52 @@ K Dual N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/FD/FDS6898A.pdf
 $ENDCMP
 #
+$CMP FDS8960C
+D Dual N and P Channel MOSFET, 35V Vds, 7A Id, 24mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS8960C.pdf
+$ENDCMP
+#
 $CMP FDS9926A
 D 20V Vds, 6.5A Id, 30mOhm Rds, Dual N-Channel MOSFET, SO-8
 K Dual N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf
+$ENDCMP
+#
+$CMP FDS9934C
+D Dual N and P Channel MOSFET, 20V Vds, 6.5A Id, 30mΩ Rds @ 4.5V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
+$ENDCMP
+#
+$CMP FFB2222A
+D 40V Vce, 600mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F https://www.fairchildsemi.com/datasheets/FF/FFB2222A.pdf
+$ENDCMP
+#
+$CMP FFB3904
+D 40V Vce, 200mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F https://www.fairchildsemi.com/datasheets/FF/FFB3904.pdf
+$ENDCMP
+#
+$CMP FFB3906
+D 40V Vce, 200mA IC, Dual PNP/PNP Transistors, SOT-363
+K Transistor PNP/PNP
+F https://www.fairchildsemi.com/datasheets/FF/FFB3906.pdf
+$ENDCMP
+#
+$CMP FFB3946
+D 40V Vce, 200mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F https://www.fairchildsemi.com/datasheets/FF/FFB3946.pdf
+$ENDCMP
+#
+$CMP FFB5551
+D 160V Vce, 200mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F https://www.fairchildsemi.com/datasheets/FF/FFB5551.pdf
 $ENDCMP
 #
 $CMP IPS6011PBF
@@ -1842,6 +2286,18 @@ K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-IPT020N10N3-DS-v02_00-en.pdf?fileId=db3a30433e9d5d11013e9e58035b0158
 $ENDCMP
 #
+$CMP IRF3205
+D 110A Id, 55V Vds, 8mOhm Rds, Single N-Channel HEXFET Power MOSFET in a TO-220AB package
+K Single N-Channel HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf3205.pdf
+$ENDCMP
+#
+$CMP IRF4905
+D -74A Id, -55V Vds, 20mOhm Rds, Single P-Channel HEXFET Power MOSFET in a TO-220AB package
+K Single P-Channel HEXFET Power MOSFET
+F http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c
+$ENDCMP
+#
 $CMP IRF540N
 D 100V Vds, 33A Id, HEXFET N-Channel MOSFET, TO-220
 K HEXFET N-Channel MOSFET
@@ -1864,6 +2320,12 @@ $CMP IRF7343PBF
 D 55V Vds, 4A Id, Dual HEXFET MOSFET, SO-8
 K Dual HEXFET N-Channel P-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
+$ENDCMP
+#
+$CMP IRF7404
+D -20V Vds, -6.7A Id, P-Channel HEXFET Power MOSFET, SO-8
+K P-Channel MOSFET
+F http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e
 $ENDCMP
 #
 $CMP IRF7606PBF
@@ -1896,6 +2358,30 @@ K N-Channel IGBT Power Transistor
 F http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf
 $ENDCMP
 #
+$CMP IRLB8721PBF
+D 30V Vds, 62A Id, N-Channel MOSFET, TO-220
+K N-Channel HEXFET Power MOSFET
+F http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591
+$ENDCMP
+#
+$CMP IRLIZ44N
+D 30A Id, 55V Vds, 22mOhm Rds, Single N-Channel HEXFET Power MOSFET in a TO-220AB package
+K Single N-Channel HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
+$ENDCMP
+#
+$CMP IRLZ34N
+D 30A Id, 55V Vds, 35mOhm Rds, Single N-Channel HEXFET Power MOSFET in a TO-220AB package
+K Single N-Channel HEXFET Power MOSFET
+F http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720
+$ENDCMP
+#
+$CMP IRLZ44N
+D 47A Id, 55V Vds, 22mOhm Rds, Single N-Channel HEXFET Power MOSFET in a TO-220AB package
+K Single N-Channel HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
+$ENDCMP
+#
 $CMP KTD1624
 D EPITAXIAL PLANAR NPN TRANSISTOR, SOT-89
 K NPN Switching Transistor
@@ -1906,6 +2392,36 @@ $CMP MAT02
 D Precision Dual Monolithic Transistor, Low Noise, Low Offset, Vce 40V, Ic 20mA, TO-78
 K Precision Dual Monolithic Transistor Low Noise EOL
 F http://www.elenota.pl/datasheet_download/93431/MAT02
+$ENDCMP
+#
+$CMP MBT2222ADW1T1
+D 40V Vce, 600mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF
+$ENDCMP
+#
+$CMP MBT3904DW1
+D 40V Vce, 200mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF
+$ENDCMP
+#
+$CMP MBT3906DW1
+D 40V Vce, 200mA IC, Dual PNP/PNP Transistors, SOT-363
+K Transistor PNP/PNP
+F http://www.onsemi.com/pub_link/Collateral/MBT3906DW1T1-D.PDF
+$ENDCMP
+#
+$CMP MBT3946DW1T1
+D 40V Vce, 200mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F http://www.onsemi.com/pub_link/Collateral/MBT3946DW1T1-D.PDF
+$ENDCMP
+#
+$CMP MJ2955
+D -60V Vce, -15A Ic, PNP, Power Transistor, TO-3
+K PNP power transistor
+F http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF
 $ENDCMP
 #
 $CMP MJE13003
@@ -1940,14 +2456,50 @@ $ENDCMP
 #
 $CMP MMBT3904
 D 40V Vce, 0.2A Ic, NPN, Small Signal Transistor, SOT-23
-K MMBT3904 NPN Transistor
-F http://www.nxp.com/documents/data_sheet/MMBT3904.pdf
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
 $ENDCMP
 #
 $CMP MMBT3906
-D 40V Vce, 0.2A Ic, PNP, Small Signal Transistor, SOT-23
-K MMBT3904 PNP Transistor
-F http://www.nxp.com/documents/data_sheet/MMBT3906.pdf
+D -40V Vce, -0.2A Ic, PNP, Small Signal Transistor, SOT-23
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
+$ENDCMP
+#
+$CMP MMDT2222A
+D 40V Vce, 600mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.diodes.com/_files/datasheets/ds30125.pdf
+$ENDCMP
+#
+$CMP MMDT3904
+D 40V Vce, 200mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.diodes.com/_files/datasheets/ds30088.pdf
+$ENDCMP
+#
+$CMP MMDT3906
+D 40V Vce, 200mA IC, Dual PNP/PNP Transistors, SOT-363
+K Transistor PNP/PNP
+F http://www.diodes.com/_files/datasheets/ds30124.pdf
+$ENDCMP
+#
+$CMP MMDT3946
+D 40V Vce, 200mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F http://www.diodes.com/_files/datasheets/ds30123.pdf
+$ENDCMP
+#
+$CMP MMDT5401
+D 160V Vce, 200mA IC, Dual PNP/PNP Transistors, SOT-363
+K Transistor PNP/PNP
+F http://www.diodes.com/_files/datasheets/ds30169.pdf
+$ENDCMP
+#
+$CMP MMDT5551
+D 160V Vce, 200mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.diodes.com/_files/datasheets/ds30172.pdf
 $ENDCMP
 #
 $CMP MPSA42
@@ -1962,6 +2514,30 @@ K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
 $ENDCMP
 #
+$CMP PMBT2222AYS
+D 40V Vce, 600mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.nxp.com/documents/data_sheet/PMBT2222AYS.pdf
+$ENDCMP
+#
+$CMP PMBT3904YS
+D 40V Vce, 200mA IC, Dual NPN/NPN Transistors, SOT-363
+K Transistor NPN/NPN
+F http://www.nxp.com/documents/data_sheet/PMBT3904YS.pdf
+$ENDCMP
+#
+$CMP PMBT3906YS
+D 40V Vce, 200mA IC, Dual PNP/PNP Transistors, SOT-363
+K Transistor PNP/PNP
+F http://www.nxp.com/documents/data_sheet/PMBT3906YS.pdf
+$ENDCMP
+#
+$CMP PMBT3946YPN
+D 40V Vce, 200mA IC, Dual NPN/PNP Transistors, SOT-363
+K Transistor NPN/PNP
+F http://www.nxp.com/documents/data_sheet/PMBT3946YPN.pdf
+$ENDCMP
+#
 $CMP PN2222A
 D 40V Vce, 1A Ic, NPN, General Purpose Transistor, TO-92
 K NPN Transistor
@@ -1972,6 +2548,18 @@ $CMP PZT2222A
 D 40V Vce, 1A Ic, NPN, General Purpose Transistor, SOT-223
 K NPN General Puprose Transistor SMD
 F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
+$ENDCMP
+#
+$CMP PZT3904
+D 40V Vce, 0.2A Ic, NPN, Small Signal Transistor, SOT-223
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+$ENDCMP
+#
+$CMP PZT3906
+D -40V Vce, -0.2A Ic, PNP, Small Signal Transistor, SOT-223
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
 $ENDCMP
 #
 $CMP PZTA42
@@ -1990,6 +2578,18 @@ $CMP S8550
 D 20V Vce, 0.7A Ic, PNP Low Voltage High Current Transistor, TO-92
 K S8550 PNP Low Voltage High Current Transistor
 F http://www.unisonic.com.tw/datasheet/S8550.pdf
+$ENDCMP
+#
+$CMP Si4532DY
+D Dual N and P Channel MOSFET, 30V Vds, 3.9A Id, 65mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/SI/SI4532DY.pdf
+$ENDCMP
+#
+$CMP Si4542DY
+D Dual N and P Channel MOSFET, 30V Vds, 6A Id, 28mΩ Rds @ 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
 $ENDCMP
 #
 $CMP TIP120
@@ -2026,6 +2626,90 @@ $CMP TIP127
 D 5A Ic, 100V Vce, Silicon Darlington Power Transistor PNP, TO-220
 K Darlington Power Transistor PNP
 F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
+$ENDCMP
+#
+$CMP TIP2955
+D -60V Vce, -15A Ic, PNP, Power Transistor, TO-218/TO-247
+K PNP power transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP3055
+D 60V Vce, 15A Ic, NPN, Power Transistor, TO-218/TO-247
+K NPN power transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP41
+D 40V Vce, 6A Ic, NPN, Power Transistor, TO-220
+K NPN power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP41A
+D 60V Vce, 6A Ic, NPN, Power Transistor, TO-220
+K NPN power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP41B
+D 80V Vce, 6A Ic, NPN, Power Transistor, TO-220
+K NPN power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP41C
+D 100V Vce, 6A Ic, NPN, Power Transistor, TO-220
+K NPN power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP42
+D -40V Vce, -6A Ic, PNP, Power Transistor, TO-220
+K PNP power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TIP42A
+D -60V Vce, -6A Ic, PNP, Power Transistor, TO-220
+K PNP power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TIP42B
+D -80V Vce, -6A Ic, PNP, Power Transistor, TO-220
+K PNP power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TIP42C
+D -100V Vce, -6A Ic, PNP, Power Transistor, TO-220
+K PNP power transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TP0610L
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP TP0610T
+D -60V Vds, -0.18A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP VP0610L
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP VP0610T
+D -60V Vds, -0.18A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
 #End Doc Library
