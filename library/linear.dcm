@@ -6,21 +6,21 @@ K 8 bit multiplying DAC
 $ENDCMP
 #
 $CMP 4558
-D Dual Op amp (general purpose)
-K ampliop
+D Dual, General Purpose, Operational Amplifier
+K dual opamp
 F http://www.ti.com/lit/ds/symlink/rc4558.pdf
 $ENDCMP
 #
 $CMP AD620
-D Instrumentation amplifier
-K Instrumentation OpAmp
-F http://www.analog.com/UploadedFiles/Data_Sheets/37793330023930AD620_e.pdf
+D Low Cost, Low Power, Instrumentation Amplifier
+K Instrumentation opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf
 $ENDCMP
 #
 $CMP AD813
-D Ampli Op 3 state out
-K AmpliOp
-F AmpliOp.sch
+D Single Supply, Low Power, Triple Video Amplifier
+K triple op amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD813.pdf
 $ENDCMP
 #
 $CMP AD8202
@@ -48,7 +48,7 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8206.pdf
 $ENDCMP
 #
 $CMP AD8207
-D 65V (35V) Zero-Drift, High Voltage, Bidirectional, Difference Amplifier, 20V/V gain, bandwidth 150kHz, Vcc=5V (3.3V), 
+D 65V (35V) Zero-Drift, High Voltage, Bidirectional, Difference Amplifier, 20V/V gain, bandwidth 150kHz, Vcc=5V (3.3V)
 K highside HS current sense difference amplifier linear buffered
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8207.pdf
 $ENDCMP
@@ -132,62 +132,62 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
 $ENDCMP
 #
 $CMP ADA4075
-D Very low noise audio op amp
-K ampliop low-power
+D Ultralow Noise Amplifier at Lower Power
+K dual low-power opamp
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
 $CMP ADCMP350
 D Single-input comparator, internal 0.6V reference, Active-Low Open-Drain output, SC-70-4 package
-K comparator
+K single comparator with reference
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
 $CMP ADCMP354
 D Single-input comparator, internal 0.6V reference, Active-High Open-Drain output, SC-70-4 package
-K comparator
+K single comparator with reference
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
 $CMP ADCMP356
 D Single-input comparator, internal 0.6V reference, Active-High Push-Pull output, SC-70-4 package
-K comparator
+K single comparator with reference
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
 $CMP CA3080
 D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1
-K intersil
+K operational transconductance amplifier ota
 F http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf
 $ENDCMP
 #
 $CMP CA3080A
 D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 1.6:1
-K intersil
+K operational transconductance amplifier ota
 F http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf
 $ENDCMP
 #
 $CMP CA3130
 D 15MHz, BiMOS Operational Amplifier with MOSFET Input/CMOS Output
-K AmpliOp Mos
+K single opamp
 F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3130-a.pdf
 $ENDCMP
 #
 $CMP CA3140
 D 4.5MHz, BiMOS Operational Amplifier with MOSFET Input/Bipolar Output
-K AmpliOp Mos
+K single opamp
 F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3140-a.pdf
 $ENDCMP
 #
 $CMP ICM7555
-D 555-series CMOS timer IC
-K timer
+D CMOS General Purpose Timer
+K single timer 555
 F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
 $ENDCMP
 #
 $CMP ICM7556
-D double 555-series CMOS timer IC
-K timer
+D Dual CMOS General Purpose Timer
+K dual timer 556
 F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
 $ENDCMP
 #
@@ -216,14 +216,14 @@ F http://www.ti.com/lit/ds/symlink/ina326.pdf
 $ENDCMP
 #
 $CMP L272D
-D Dual Power Op amp, SO-16
-K ampliop Power OpAMP
+D Dual Power Operation Amplifier, SOIC-16
+K dual power opamp
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/02/9c/bc/75/59/9c/47/bd/CD00000054.pdf/files/CD00000054.pdf/jcr:content/translations/en.CD00000054.pdf
 $ENDCMP
 #
 $CMP L272M
-D Dual Power Op amp
-K ampliop Power OpAMP
+D Dual Power Operation Amplifier, SOIC-8
+K dual power opamp
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/02/9c/bc/75/59/9c/47/bd/CD00000054.pdf/files/CD00000054.pdf/jcr:content/translations/en.CD00000054.pdf
 $ENDCMP
 #
@@ -289,12 +289,12 @@ $ENDCMP
 #
 $CMP LM13600
 D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers
-K National OTA
+K operational transconductance amplifier OTA
 $ENDCMP
 #
 $CMP LM13700
 D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers
-K National OTA
+K operational transconductance amplifier OTA
 F http://www.ti.com/lit/ds/symlink/lm13700.pdf
 $ENDCMP
 #
