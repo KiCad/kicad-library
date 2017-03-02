@@ -182,17 +182,20 @@ $ENDCMP
 #
 $CMP Earth
 D Ground
-K POWER, PWR, GND, GROUND
+K power pwr gnd ground
+F ~
 $ENDCMP
 #
 $CMP Earth_Clean
 D Clean Earth
-K POWER, PWR, GND, GROUND, CLEAN, SIGNAL
+K power pwr gnd ground clean signal
+F ~
 $ENDCMP
 #
 $CMP Earth_Protective
 D Protective Earth
-K POWER, PWR, EARTH, PROTECTIVE, GND, GROUND, PE
+K power pwr earth protective gnd ground clean
+F ~
 $ENDCMP
 #
 $CMP GND
