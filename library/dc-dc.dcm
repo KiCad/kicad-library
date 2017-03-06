@@ -31,8 +31,8 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP5054
-D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C 
-K quad regulator dcdc buck synchronizable parallel 
+D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C
+K quad regulator dcdc buck synchronizable parallel
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
 $ENDCMP
 #
@@ -1263,6 +1263,30 @@ K Step-Up Boost DC-DC Regulator Adjustable
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002234D.pdf
 $ENDCMP
 #
+$CMP MCP1650
+D 750 kHz Boost Controller from 3.3V up to 100V, 5W.
+K boost controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21876B.pdf
+$ENDCMP
+#
+$CMP MCP1651
+D 750 kHz Boost Controller from 3.3V up to 100V, 5W.
+K boost controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21876B.pdf
+$ENDCMP
+#
+$CMP MCP1652
+D 750 kHz Boost Controller from 3.3V up to 100V, 5W.
+K boost controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21876B.pdf
+$ENDCMP
+#
+$CMP MCP1653
+D 750 kHz Boost Controller from 3.3V up to 100V, 5W.
+K boost controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21876B.pdf
+$ENDCMP
+#
 $CMP MIC2177
 D Step-down switching regulator (synchronous)  2.5 A
 K REGUL POWER
@@ -1298,14 +1322,100 @@ K DC/DC Buck Conwerter 3A
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
 $ENDCMP
 #
+$CMP TEN20-2410WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=3.3V@5.5A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2411WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=5V@4A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2412WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=12V@1.67A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2413WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=15V@1.33A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2421WIN
+D Isolated DC/DC Dual Supply Converter, Vin=9-36V, Vout=+-5V@2A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2422WIN
+D Isolated DC/DC Dual Supply Converter, Vin=9-36V, Vout=+-12V@835mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2423WIN
+D Isolated DC/DC Dual Supply Converter, Vin=9-36V, Vout=+-15V@665mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4810WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=3.3V@5.5A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4811WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=5V@4A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4812WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=12V@1.67A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4813WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=15V@1.33A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4821WIN
+D Isolated DC/DC Dual Supply Converter, Vin=18-75V, Vout=+-5V@2A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4822WIN
+D Isolated DC/DC Dual Supply Converter, Vin=18-75V, Vout=+-12V@835mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4823WIN
+D Isolated DC/DC Dual Supply Converter, Vin=18-75V, Vout=+-15V@665mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
 $CMP TL497
 D 500 mA step up/step down switching regulator
-F texas/tl497a.pdf
+K buck regulator
+F http://www.ti.com/lit/ds/symlink/tl497a.pdf
 $ENDCMP
 #
 $CMP TL497A
 D 500 mA step up/step down switching regulator
-F texas/tl497a.pdf
+K buck regulator
+F http://www.ti.com/lit/ds/symlink/tl497a.pdf
 $ENDCMP
 #
 $CMP TPS5430DDA
