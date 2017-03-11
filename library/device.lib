@@ -2901,6 +2901,30 @@ X A 3 -300 0 120 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# LED_PAD
+#
+DEF LED_PAD D 0 40 Y N 1 F N
+F0 "D" 0 225 50 H V C CNN
+F1 "LED_PAD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 2 0 1 0 0 -100 0 -80 N
+P 4 0 1 0 -80 -20 -80 -80 80 -80 80 -20 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -35 55 25 115 -5 115 25 115 25 85 N
+P 5 0 1 0 15 55 75 115 45 115 75 115 75 85 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+X PAD 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # LED_RABG
 #
 DEF LED_RABG D 0 0 Y N 1 F N
@@ -3186,6 +3210,67 @@ X BA 4 200 -200 100 L 50 50 1 1 P
 X GA 5 200 0 100 L 50 50 1 1 P
 X RA 6 200 200 100 L 50 50 1 1 P
 X PAD 7 0 -500 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_Series
+#
+DEF LED_Series D 0 40 Y N 1 F N
+F0 "D" 0 225 50 H V C CNN
+F1 "LED_Series" 0 150 50 H V C CNN
+F2 "" -100 0 50 H V C CNN
+F3 "" -100 0 50 H V C CNN
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -150 0 -40 0 N
+P 2 0 1 8 -145 -50 -145 50 N
+P 2 0 1 0 -20 0 -30 0 N
+P 2 0 1 0 5 0 -5 0 N
+P 2 0 1 0 20 0 30 0 N
+P 2 0 1 0 40 0 150 0 N
+P 2 0 1 8 45 -50 45 50 N
+P 4 0 1 8 -45 -50 -45 50 -145 0 -45 -50 N
+P 4 0 1 8 145 -50 145 50 45 0 145 -50 N
+P 5 0 1 0 -130 55 -70 115 -100 115 -70 115 -70 85 N
+P 5 0 1 0 -80 55 -20 115 -50 115 -20 115 -20 85 N
+P 5 0 1 0 60 55 120 115 90 115 120 115 120 85 N
+P 5 0 1 0 110 55 170 115 140 115 170 115 170 85 N
+X K 1 -250 0 100 R 50 50 1 1 P
+X A 2 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_Series_PAD
+#
+DEF LED_Series_PAD D 0 40 Y N 1 F N
+F0 "D" 0 225 50 H V C CNN
+F1 "LED_Series_PAD" 0 150 50 H V C CNN
+F2 "" -100 0 50 H V C CNN
+F3 "" -100 0 50 H V C CNN
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -150 0 -40 0 N
+P 2 0 1 8 -145 -50 -145 50 N
+P 2 0 1 0 -20 0 -30 0 N
+P 2 0 1 0 0 -100 0 -80 N
+P 2 0 1 0 5 0 -5 0 N
+P 2 0 1 0 20 0 30 0 N
+P 2 0 1 0 40 0 150 0 N
+P 2 0 1 8 45 -50 45 50 N
+P 4 0 1 0 -160 -20 -160 -80 160 -80 160 -20 N
+P 4 0 1 8 -45 -50 -45 50 -145 0 -45 -50 N
+P 4 0 1 8 145 -50 145 50 45 0 145 -50 N
+P 5 0 1 0 -130 55 -70 115 -100 115 -70 115 -70 85 N
+P 5 0 1 0 -80 55 -20 115 -50 115 -20 115 -20 85 N
+P 5 0 1 0 60 55 120 115 90 115 120 115 120 85 N
+P 5 0 1 0 110 55 170 115 140 115 170 115 170 85 N
+X K 1 -250 0 100 R 50 50 1 1 P
+X A 2 250 0 100 L 50 50 1 1 P
+X PAD 3 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -3789,6 +3874,9 @@ F0 "RV" -175 0 50 V V C CNN
 F1 "POT" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
 DRAW
 S 40 100 -40 -100 0 1 10 N
 P 2 0 1 0 100 0 60 0 N
@@ -3806,6 +3894,9 @@ F0 "RV" 0 150 50 H V C CNN
 F1 "POT_Dual" 0 75 50 H V C CNN
 F2 "" 250 -75 50 H I C CNN
 F3 "" 250 -75 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
 DRAW
 S -350 -60 -150 -140 0 1 10 N
 S 150 -60 350 -140 0 1 10 N
@@ -3847,6 +3938,9 @@ F0 "RV" -175 0 50 V V C CNN
 F1 "POT_Dual_Separate" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
 DRAW
 S 40 100 -40 -100 0 1 10 N
 P 2 0 1 0 100 0 60 0 N
@@ -3867,6 +3961,9 @@ F0 "RV" -175 0 50 V V C CNN
 F1 "POT_TRIM" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
 DRAW
 S 40 100 -40 -100 0 1 10 N
 P 2 0 1 0 60 30 60 -30 N
@@ -6008,7 +6105,7 @@ ENDDEF
 DEF R_Network03 RN 0 0 N N 1 F N
 F0 "RN" -200 0 50 V V C CNN
 F1 "R_Network03" 200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP4" 275 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP4" 275 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6035,7 +6132,7 @@ ENDDEF
 DEF R_Network04 RN 0 0 N N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network04" 200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP5" 275 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP5" 275 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6066,7 +6163,7 @@ ENDDEF
 DEF R_Network05 RN 0 0 N N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network05" 300 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP6" 375 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP6" 375 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6101,7 +6198,7 @@ ENDDEF
 DEF R_Network06 RN 0 0 N N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network06" 300 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP7" 375 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP7" 375 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6140,7 +6237,7 @@ ENDDEF
 DEF R_Network07 RN 0 0 N N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network07" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP8" 475 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP8" 475 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6183,7 +6280,7 @@ ENDDEF
 DEF R_Network08 RN 0 0 N N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network08" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP9" 475 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP9" 475 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6230,7 +6327,7 @@ ENDDEF
 DEF R_Network09 RN 0 0 N N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network09" 500 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP10" 575 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP10" 575 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6281,7 +6378,7 @@ ENDDEF
 DEF R_Network10 RN 0 0 N N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network10" 500 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP11" 575 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP11" 575 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6336,7 +6433,7 @@ ENDDEF
 DEF R_Network11 RN 0 0 N N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network11" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP12" 675 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP12" 675 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6395,7 +6492,7 @@ ENDDEF
 DEF R_Network12 RN 0 0 N N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network12" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP13" 675 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP13" 675 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6458,7 +6555,7 @@ ENDDEF
 DEF R_Network13 RN 0 0 N N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network13" 700 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP14" 775 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP14" 775 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6525,7 +6622,7 @@ ENDDEF
 DEF R_Network_Dividers_x02_SIP RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network_Dividers_x02_SIP" 200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP4" 275 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP4" 275 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6561,7 +6658,7 @@ ENDDEF
 DEF R_Network_Dividers_x03_SIP RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network_Dividers_x03_SIP" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP5" 475 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP5" 475 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6607,7 +6704,7 @@ ENDDEF
 DEF R_Network_Dividers_x04_SIP RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network_Dividers_x04_SIP" 400 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP6" 475 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP6" 475 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6663,7 +6760,7 @@ ENDDEF
 DEF R_Network_Dividers_x05_SIP RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network_Dividers_x05_SIP" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP7" 675 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP7" 675 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6729,7 +6826,7 @@ ENDDEF
 DEF R_Network_Dividers_x06_SIP RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network_Dividers_x06_SIP" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP8" 675 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP8" 675 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6805,7 +6902,7 @@ ENDDEF
 DEF R_Network_Dividers_x07_SIP RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network_Dividers_x07_SIP" 800 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP9" 875 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP9" 875 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6891,7 +6988,7 @@ ENDDEF
 DEF R_Network_Dividers_x08_SIP RN 0 0 Y N 1 F N
 F0 "RN" -900 0 50 V V C CNN
 F1 "R_Network_Dividers_x08_SIP" 800 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP10" 875 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP10" 875 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -6987,7 +7084,7 @@ ENDDEF
 DEF R_Network_Dividers_x09_SIP RN 0 0 Y N 1 F N
 F0 "RN" -900 0 50 V V C CNN
 F1 "R_Network_Dividers_x09_SIP" 1000 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP11" 1075 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP11" 1075 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -7093,7 +7190,7 @@ ENDDEF
 DEF R_Network_Dividers_x10_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1100 0 50 V V C CNN
 F1 "R_Network_Dividers_x10_SIP" 1000 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP12" 1075 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP12" 1075 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -7209,7 +7306,7 @@ ENDDEF
 DEF R_Network_Dividers_x11_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1100 0 50 V V C CNN
 F1 "R_Network_Dividers_x11_SIP" 1200 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP13" 1275 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP13" 1275 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -7386,7 +7483,7 @@ ENDDEF
 DEF R_Pack02_SIP RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Pack02_SIP" 300 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP4" 375 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP4" 375 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -7440,7 +7537,7 @@ ENDDEF
 DEF R_Pack03_SIP RN 0 0 Y N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Pack03_SIP" 500 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP6" 575 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP6" 575 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -7503,7 +7600,7 @@ ENDDEF
 DEF R_Pack04_SIP RN 0 0 Y N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Pack04_SIP" 600 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP8" 675 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP8" 675 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -7575,7 +7672,7 @@ ENDDEF
 DEF R_Pack05_SIP RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Pack05_SIP" 800 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP10" 875 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP10" 875 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -7656,7 +7753,7 @@ ENDDEF
 DEF R_Pack06_SIP RN 0 0 Y N 1 F N
 F0 "RN" -900 0 50 V V C CNN
 F1 "R_Pack06_SIP" 900 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP12" 975 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP12" 975 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
@@ -7746,7 +7843,7 @@ ENDDEF
 DEF R_Pack07_SIP RN 0 0 Y N 1 F N
 F0 "RN" -1000 0 50 V V C CNN
 F1 "R_Pack07_SIP" 1100 0 50 V V C CNN
-F2 "Resistors_ThroughHole:R_Array_SIP14" 1175 0 50 V I C CNN
+F2 "Resistors_THT:R_Array_SIP14" 1175 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R?Array?SIP*
