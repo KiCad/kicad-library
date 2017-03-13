@@ -2,9 +2,9 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'D:/KiCAD/kicad-library/modules/packages3d/Valves.3dshapes\\Fusion.step'
-  ,'2017-03-13T18:43:55',('kicad StepUp'),('ksu MCAD'),
-  'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
+'D:/KiCAD/kicad-library/modules/packages3d/Valves.3dshapes\\
+VALVE-MINI_PENTODE_LINEAR.step','2017-03-13T20:54:28',('kicad StepUp'),(
+    'ksu MCAD'),'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
 ENDSEC;
 DATA;
@@ -16,7 +16,8 @@ DATA;
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
-#7 = PRODUCT('Fusion','Fusion','',(#8));
+#7 = PRODUCT('VALVE-MINI_PENTODE_LINEAR','VALVE-MINI_PENTODE_LINEAR','',
+  (#8));
 #8 = MECHANICAL_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#2303);
