@@ -156,10 +156,22 @@ K Digital Barometer
 F www.bosch-sensortec.com/content/language1/downloads/BST-BMP085-DS000-06.pdf
 $ENDCMP
 #
+$CMP C12880MA
+D Micro spectrometer 340 to 850nm resolution 15nm
+K spectrometer
+F http://www.hamamatsu.com/resources/pdf/ssd/c12880ma_kacc1226e.pdf
+$ENDCMP
+#
 $CMP DHT11
 D - Temperature and humidity module
 K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
+$ENDCMP
+#
+$CMP Flir_LEPTON
+D LWIR camera 8 to 14um 80x60 pixel
+K LWIR camera
+F https://cdn.sparkfun.com/datasheets/Sensors/Infrared/FLIR_Lepton_Data_Brief.pdf
 $ENDCMP
 #
 $CMP INA138
@@ -294,10 +306,34 @@ K 3-Axis MEMS Gyroscope
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00036465.pdf
 $ENDCMP
 #
+$CMP LA100-P
+D LA 100-P Current transducer
+K LEM current transducer
+F http://www.lem.com/docs/products/la_100-p_e_.pdf
+$ENDCMP
+#
+$CMP LA25-P
+D LA 25-P Current transducer
+K LEM current transducers
+F http://www.lem.com/docs/products/la_25-p.pdf
+$ENDCMP
+#
+$CMP LA55-P
+D LA 55-P Current transducer
+K LEM current transducer
+F http://www.lem.com/docs/products/la_55-p_e.pdf
+$ENDCMP
+#
 $CMP LIS2DH
 D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface
 K 3-axis accelerometer spi mems
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf
+$ENDCMP
+#
+$CMP LIS2HH12
+D 3-Axis Accelerometer, 2/4/8g range, I2C/SPI interface
+K 3-axis accelerometer spi mems
+F www.st.com/resource/en/datasheet/lis2hh12.pdf
 $ENDCMP
 #
 $CMP LIS331HH
@@ -322,6 +358,18 @@ $CMP LM35-NEB
 D Precision centigrade temperature sensor, TO-220 package
 K temperature sensor thermistor
 F http://www.ti.com/lit/ds/symlink/lm35.pdf
+$ENDCMP
+#
+$CMP LM73
+D 11 to 14 Bit digital temperature sensor with 2 wire interface, SOT23-6
+K digital temperature sensor
+F http://www.ti.com/lit/ds/symlink/lm73.pdf
+$ENDCMP
+#
+$CMP LM73-1
+D 11 to 14 Bit digital temperature sensor with 2 wire interface, SOT23-6
+K digital temperature sensor
+F http://www.ti.com/lit/ds/symlink/lm73.pdf
 $ENDCMP
 #
 $CMP LMT84DCK
@@ -358,6 +406,18 @@ $CMP LSM303DLHC
 D I2C, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00027543.pdf
+$ENDCMP
+#
+$CMP LSM9DS1
+D I2C SPI 9 axis IMU accelerometer gyroscope magnetometer
+K I2C SPI IMU accelerometer gyroscope magnetometer
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf
+$ENDCMP
+#
+$CMP LV25-P
+D LEM Voltage transducer LV 25-P
+K Voltage transducer
+F http://www.lem.com/docs/products/lv_25-p.pdf
 $ENDCMP
 #
 $CMP MAX31855

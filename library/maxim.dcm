@@ -108,6 +108,12 @@ K OneWire 1-Wire 1Wire Maxim Dallas ID
 F http://pdfserv.maximintegrated.com/en/ds/DS2401.pdf
 $ENDCMP
 #
+$CMP DS2482-100
+D Single-Channel 1-Wire Master, SOIC-8
+K 1-Wire I2C
+F https://datasheets.maximintegrated.com/en/ds/DS2482-100.pdf
+$ENDCMP
+#
 $CMP DS28EA00
 D 1-Wire Digital Thermometer with Sequence Detect and PIO
 K 1Wire OneWire Maxim Dallas
@@ -118,6 +124,12 @@ $CMP DS3231
 D Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16
 K RTC TCXO Realtime Time Clock Crystal Oscillator I2C
 F http://datasheets.maximintegrated.com/en/ds/DS3231.pdf
+$ENDCMP
+#
+$CMP DS3231MZ
+D ±5ppm, I2C Real-Time Clock SOIC-8
+K RTC TCXO Realtime Time Clock MEMS I2C
+F http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf
 $ENDCMP
 #
 $CMP DS3232M
@@ -154,6 +166,12 @@ $CMP MAX31826
 D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM
 K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
+$ENDCMP
+#
+$CMP MAX7325AEG+
+D I2C Port Expander with 8 Push-Pull and 8 Open-Drain I/Os, QSOP-24 package
+K Expander I2C Parallel Port GPIO Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX7325.pdf
 $ENDCMP
 #
 #End Doc Library
