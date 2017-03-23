@@ -1,8 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 7SEGM
-D Afficheur Leds 7 segments
-K DEV
+$CMP 7SEGMENT_CA
+D Generic 7 segment display, common anode
+K LED
+$ENDCMP
+#
+$CMP 7SEGMENT_CC
+D Generic 7 segment display, common cathode
+K LED
 $ENDCMP
 #
 $CMP AG12864E
@@ -65,6 +70,66 @@ $CMP ILI9341_LCD_Breakout
 D ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V
 K GLCD TFT ILI9341 320x240
 F www.newhavendisplay.com/app_notes/ILI9341.pdf
+$ENDCMP
+#
+$CMP KCSA02-105
+D 7 segment display, common anode, red, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.9A).pdf
+$ENDCMP
+#
+$CMP KCSA02-106
+D 7 segment display, common anode, orange, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-106(Ver.10A).pdf
+$ENDCMP
+#
+$CMP KCSA02-107
+D 7 segment display, common anode, yellow, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-107(Ver.10A).pdf
+$ENDCMP
+#
+$CMP KCSA02-123
+D 7 segment display, common anode, green, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-123(Ver.9A).pdf
+$ENDCMP
+#
+$CMP KCSA02-136
+D 7 segment display, common anode, blue, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-136(Ver.7B).pdf
+$ENDCMP
+#
+$CMP KCSC02-105
+D 7 segment display, common cathode, red, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf
+$ENDCMP
+#
+$CMP KCSC02-106
+D 7 segment display, common cathode, orange, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-106(Ver.10A).pdf
+$ENDCMP
+#
+$CMP KCSC02-107
+D 7 segment display, common cathode, yellow, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-107(Ver.9A).pdf
+$ENDCMP
+#
+$CMP KCSC02-123
+D 7 segment display, common cathode, green, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-123(Ver.9A).pdf
+$ENDCMP
+#
+$CMP KCSC02-136
+D 7 segment display, common cathode, blue, 5.08mm (0.2")
+K LED Kingbright SMD
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-136(Ver.6B).pdf
 $ENDCMP
 #
 $CMP LCD-016N002L
