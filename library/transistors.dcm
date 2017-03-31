@@ -1131,9 +1131,15 @@ F http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3
 $ENDCMP
 #
 $CMP BSS138
-D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
-K N-Channel MOSFET Logic Level
-F http://www.fairchildsemi.com/ds/BS/BSS138.pdf
+D 50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP BSS84
+D -50V Vds, -0.13A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
 #
 $CMP BUT11
@@ -2461,9 +2467,9 @@ F http://www.onsemi.com/pub_link/Collateral/MJE13009-D.PDF
 $ENDCMP
 #
 $CMP MMBF170
-D 60V Vds 0.5A Id, N-Channel MOSFET, SOT-23
+D 60V Vds, 0.5 A Id, N-channel MOSFET, SOT-23
 K N-Channel MOSFET
-F http://www.fairchildsemi.com/ds/BS/BS170.pdf
+F https://www.diodes.com/assets/Datasheets/ds30104.pdf
 $ENDCMP
 #
 $CMP MMBT3904
@@ -2524,6 +2530,12 @@ $CMP MPSA92
 D Vce 300V, Ic 500mA, PNP High Voltage Transistor, TO-92
 K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
+$ENDCMP
+#
+$CMP NTR2101P
+D -8V Vds, -3.7A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 $ENDCMP
 #
 $CMP PMBT2222AYS
@@ -2704,18 +2716,6 @@ $CMP TP0610L
 D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
-$ENDCMP
-#
-$CMP BSS84
-D -50V Vds, -0.13A Id, P-Channel MOSFET, SOT-23-3
-K P-Channel MOSFET
-F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
-$ENDCMP
-#
-$CMP NTR2101P
-D -8V Vds, -3.7A Id, P-Channel MOSFET, SOT-23-3
-K P-Channel MOSFET
-F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 $ENDCMP
 #
 $CMP TP0610T
