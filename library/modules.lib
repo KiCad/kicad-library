@@ -87,7 +87,7 @@ X D13 16 -500 -700 100 R 50 50 1 1 B
 X A7 26 500 -700 100 L 50 50 1 1 B
 X 3V3 17 100 1000 100 D 50 50 1 1 w
 X +5V 27 200 1000 100 D 50 50 1 1 w
-X AREF 18 500 200 100 L 50 50 1 1 W
+X AREF 18 500 200 100 L 50 50 1 1 I
 X RESET 28 500 600 100 L 50 50 1 1 I
 X A0 19 500 0 100 L 50 50 1 1 B
 X GND 29 100 -1000 100 U 50 50 1 1 W
@@ -444,10 +444,10 @@ ENDDEF
 # Pololu_Breakout_A4988
 #
 DEF Pololu_Breakout_A4988 A 0 20 Y Y 1 F N
-F0 "A" -100 750 60 H V R CNN
-F1 "Pololu_Breakout_A4988" -100 650 60 H V R CNN
-F2 "Modules:Pololu_Breakout-16_15.2x20.3mm" 275 -750 60 H I L CNN
-F3 "" 100 -300 60 H I C CNN
+F0 "A" -100 750 50 H V R CNN
+F1 "Pololu_Breakout_A4988" -100 650 50 H V R CNN
+F2 "Modules:Pololu_Breakout-16_15.2x20.3mm" 275 -750 50 H I L CNN
+F3 "" 100 -300 50 H I C CNN
 $FPLIST
  Pololu*Breakout*15.2x20.3mm*
 $ENDFPLIST
@@ -475,10 +475,10 @@ ENDDEF
 # Pololu_Breakout_DRV8825
 #
 DEF Pololu_Breakout_DRV8825 A 0 20 Y Y 1 F N
-F0 "A" -100 650 60 H V R CNN
-F1 "Pololu_Breakout_DRV8825" -100 550 60 H V R CNN
-F2 "Modules:Pololu_Breakout-16_15.2x20.3mm" 200 -800 60 H I L CNN
-F3 "" 100 -300 60 H I C CNN
+F0 "A" -100 650 50 H V R CNN
+F1 "Pololu_Breakout_DRV8825" -100 550 50 H V R CNN
+F2 "Modules:Pololu_Breakout-16_15.2x20.3mm" 200 -800 50 H I L CNN
+F3 "" 100 -300 50 H I C CNN
 $FPLIST
  Pololu*Breakout*15.2x20.3mm*
 $ENDFPLIST
