@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP RC4558
-D Dual, General Purpose, Operational Amplifier
-K dual opamp
-F http://www.ti.com/lit/ds/symlink/rc4558.pdf
-$ENDCMP
-#
 $CMP AD620
 D Low Cost, Low Power, Instrumentation Amplifier
 K Instrumentation opamp
@@ -200,36 +194,42 @@ $ENDCMP
 #
 $CMP INA128
 D Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg
-K Instrumentation OpAmp
+K instrumentation opamp
 F http://www.ti.com/lit/ds/symlink/ina128.pdf
 $ENDCMP
 #
 $CMP INA129
 D Precision, Low Power Instrumentation Amplifier G = 1 + 49.4kOhm/Rg
-K Instrumentation OpAmp
+K instrumentation opamp
 F http://www.ti.com/lit/ds/symlink/ina128.pdf
 $ENDCMP
 #
 $CMP INA326
 D Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-8 package
-K Instrumentation OpAmp
+K instrumentation opamp
 F http://www.ti.com/lit/ds/symlink/ina326.pdf
 $ENDCMP
 #
 $CMP INA327
 D Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-10 package
-K Instrumentation OpAmp
+K instrumentation opamp
 F http://www.ti.com/lit/ds/symlink/ina326.pdf
 $ENDCMP
 #
-$CMP L272D
-D Dual Power Operation Amplifier, SOIC-16
+$CMP L272_DIP16
+D Dual Power Operation Amplifier, DIP-16
 K dual power opamp
 F www.st.com/resource/en/datasheet/l272.pdf
 $ENDCMP
 #
-$CMP L272M
-D Dual Power Operation Amplifier, SOIC-8
+$CMP L272_DIP8
+D Dual Power Operation Amplifier, DIP-8
+K dual power opamp
+F www.st.com/resource/en/datasheet/l272.pdf
+$ENDCMP
+#
+$CMP L272_SOIC
+D Dual Power Operation Amplifier, SOIC-16
 K dual power opamp
 F www.st.com/resource/en/datasheet/l272.pdf
 $ENDCMP
@@ -324,7 +324,7 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
 $ENDCMP
 #
-$CMP LM2902N
+$CMP LM2902
 D Low-Power, Quad-Operational Amplifiers
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
@@ -348,26 +348,26 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
 $ENDCMP
 #
-$CMP LM311N
+$CMP LM311
 D Voltage Comparator
 K comp
 F http://www.ti.com/lit/ds/symlink/lm311.pdf
 $ENDCMP
 #
-$CMP LM318N
+$CMP LM318
 D Operational Amplifier
 K single opamp
 F http://www.ti.com/lit/ds/symlink/lm318-n.pdf
 $ENDCMP
 #
 $CMP LM319_DIP_SOIC
-D High Speed Dual Comparator, DIP/SOIC
+D High Speed Dual Comparator
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
 #
 $CMP LM319_TO
-D High Speed Dual Comparator, TO-100
+D High Speed Dual Comparator
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
@@ -384,13 +384,7 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
 $ENDCMP
 #
-$CMP LM324AN
-D Low-Power, Quad-Operational Amplifiers
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
-$ENDCMP
-#
-$CMP LM324N
+$CMP LM324A
 D Low-Power, Quad-Operational Amplifiers
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
@@ -403,12 +397,6 @@ F http://www.ti.com/lit/ds/symlink/lm339.pdf
 $ENDCMP
 #
 $CMP LM358
-D Low-Power, Dual-Operational Amplifiers
-K dual opamp
-F http://www.ti.com/lit/ds/symlink/lm2904-n.pdf
-$ENDCMP
-#
-$CMP LM358N
 D Low-Power, Dual-Operational Amplifiers
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/lm2904-n.pdf
@@ -428,7 +416,7 @@ $ENDCMP
 #
 $CMP LM4250
 D Programmable Operational Amplifier
-K programmable opamp
+K Programmable opamp
 F http://www.ti.com/lit/ds/symlink/lm4250.pdf
 $ENDCMP
 #
@@ -438,22 +426,28 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/lm4562.pdf
 $ENDCMP
 #
-$CMP LM4250
-D Programmable Operational Amplifier
-K Programmable opamp
-F http://www.ti.com/lit/ds/symlink/lm4250.pdf
-$ENDCMP
-#
-$CMP LM555N
+$CMP LM555
 D Timer
 K single timer
 F http://www.ti.com/lit/ds/symlink/lm555.pdf
+$ENDCMP
+#
+$CMP LM556
+D Dual Timer
+K dual timer
+F http://www.ti.com/lit/ds/symlink/lm556.pdf
 $ENDCMP
 #
 $CMP LM6161
 D High Speed Operational Amplifier
 K single opamp
 F http://www.ti.com/lit/ds/symlink/lm6161.pdf
+$ENDCMP
+#
+$CMP LM6172
+D Dual High Speed, Low Power, Low Distortion, Voltage Feedback Amplifiers
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lm6172.pdf
 $ENDCMP
 #
 $CMP LM6261
@@ -502,6 +496,12 @@ $CMP LMC6082
 D Precision CMOS Dual Operational Amplifier
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/lmc6082.pdf
+$ENDCMP
+#
+$CMP LMC6482
+D Dual CMOS Rail-to-Rail Input and Output Operational Amplifier
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lmc6482.pdf
 $ENDCMP
 #
 $CMP LMC6484
@@ -972,16 +972,16 @@ K single opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
 $ENDCMP
 #
-$CMP OP77
-D Next Generation OP07 Ultralow Offset Voltage Operational Amplifier
-K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP77.pdf
-$ENDCMP
-#
 $CMP OP275
 D Dual Bipolar/JFET, Audio Operational Amplifier
 K dual opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/OP275.pdf
+$ENDCMP
+#
+$CMP OP77
+D Next Generation OP07 Ultralow Offset Voltage Operational Amplifier
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP77.pdf
 $ENDCMP
 #
 $CMP OPA134
@@ -996,7 +996,19 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
-$CMP OPA2333D
+$CMP OPA2333_SOIC
+D Dual 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA2333_SON
+D Dual 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA2333_SSOP
 D Dual 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa333.pdf
@@ -1008,43 +1020,43 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa4340.pdf
 $ENDCMP
 #
-$CMP OPA333D
-D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8
-K single opamp
-F http://www.ti.com/lit/ds/symlink/opa333.pdf
-$ENDCMP
-#
-$CMP OPA333DBV
-D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5
-K single opamp
-F http://www.ti.com/lit/ds/symlink/opa333.pdf
-$ENDCMP
-#
-$CMP OPA333DCK
+$CMP OPA333_SC70
 D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SC-70-5
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa333.pdf
 $ENDCMP
 #
-$CMP OPA340D
-D Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOIC-8
+$CMP OPA333_SOIC
+D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOIC-8
 K single opamp
-F http://www.ti.com/lit/ds/symlink/opa340.pdf
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
 $ENDCMP
 #
-$CMP OPA340DBV
-D Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOT-23-5
+$CMP OPA333_SOT
+D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5
 K single opamp
-F http://www.ti.com/lit/ds/symlink/opa340.pdf
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
 $ENDCMP
 #
-$CMP OPA340P
+$CMP OPA340_DIP
 D Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, DIP-8
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa340.pdf
 $ENDCMP
 #
-$CMP OPA376AIDCK
+$CMP OPA340_SOIC
+D Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa340.pdf
+$ENDCMP
+#
+$CMP OPA340_SOT
+D Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa340.pdf
+$ENDCMP
+#
+$CMP OPA376_SC70
 D Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
@@ -1056,16 +1068,22 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
-$CMP OPA4340D
+$CMP OPA4340_SOIC
 D Quad Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOIC-14
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa340.pdf
 $ENDCMP
 #
-$CMP OPA4340DBQ
+$CMP OPA4340_SSOP
 D Quad Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SSOP-16
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa340.pdf
+$ENDCMP
+#
+$CMP RC4558
+D Dual, General Purpose, Operational Amplifier
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/rc4558.pdf
 $ENDCMP
 #
 $CMP SA5534
@@ -1200,8 +1218,14 @@ K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
 #
-$CMP TSV912
-D Dual rail-to-rail input/output 8 MHz operational amplifiers
+$CMP TSV912_DFN
+D Dual rail-to-rail input/output 8 MHz operational amplifiers, DFN-8
+K dual opamp
+F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP TSV912_MSOP_SOIC
+D Dual rail-to-rail input/output 8 MHz operational amplifiers, MSOP-8/SOIC-8
 K dual opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
