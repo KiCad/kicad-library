@@ -337,6 +337,11 @@ K Shockley diode
 F https://en.wikipedia.org/wiki/Shockley_diode
 $ENDCMP
 #
+$CMP D_SiPM
+D Silicon photomultiplier for counting of individual photons
+K SiPM MPPC SPAD
+$ENDCMP
+#
 $CMP D_Small
 D Diode, small symbol
 K diode
@@ -666,6 +671,11 @@ D LED dual, common anode
 K led diode bicolor dual
 $ENDCMP
 #
+$CMP LED_PAD
+D LED with pad
+K led diode pad
+$ENDCMP
+#
 $CMP LED_RABG
 D LED RGB, common anode
 K led rgb diode
@@ -694,6 +704,16 @@ $ENDCMP
 $CMP LED_RGB_EP
 D LED RGB 6 pins, exposed pad
 K led rgb diode
+$ENDCMP
+#
+$CMP LED_Series
+D several LEDs in series
+K led diode 
+$ENDCMP
+#
+$CMP LED_Series_PAD
+D LED with pad
+K led diode pad
 $ENDCMP
 #
 $CMP LED_Small
@@ -852,6 +872,11 @@ D resettable fuse, polymeric positive temperature coefficient (PPTC), small symb
 K resettable fuse PTC PPTC polyfuse polyswitch
 $ENDCMP
 #
+$CMP Q_DUAL_NPN_C2C1E1E2
+D Double NPN Transistors, Current mirror configuration
+K Transistor Double NPN
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
 D Dual NPN/NPN Transistor, 6-pin package
 K NPN/NPN Transistor
@@ -860,6 +885,11 @@ $ENDCMP
 $CMP Q_DUAL_NPN_PNP_E1B1C2E2B2C1
 D Dual NPN/PNP Transistor, 6-pin package
 K NPN/PNP Transistor
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_C2C1E1E2
+D Double PNP Transistors, Current mirror configuration
+K Transistor Double PNP
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
