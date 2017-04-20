@@ -328,11 +328,13 @@ ENDDEF
 #
 # G5Q-1
 #
-DEF G5Q-1 RL 0 40 Y Y 1 F N
-F0 "RL" 650 350 50 H V L CNN
+DEF G5Q-1 K 0 40 Y Y 1 F N
+F0 "K" 650 350 50 H V L CNN
 F1 "G5Q-1" 650 250 50 H V L CNN
 F2 "Relays_THT:Relay_SPDT_OMRON-G5Q" 650 150 50 H I L CNN
-F3 "" 200 -200 50 H V C CNN
+F3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" 650 -150 50 H I L CNN
+F4 "OMRON G5Q-1 Miniature Single Pole Relay, SPDT, 10A" 650 -50 60 H I L CNN "Description"
+F5 "Miniature Single Pole Relay" 650 50 60 H I L CNN "Keywords"
 $FPLIST
  Relay?SPDT?OMRON?G5Q*
 $ENDFPLIST
@@ -364,11 +366,13 @@ ENDDEF
 #
 # G5Q-1A
 #
-DEF G5Q-1A RL 0 40 Y Y 1 F N
-F0 "RL" 550 350 50 H V L CNN
+DEF G5Q-1A K 0 40 Y Y 1 F N
+F0 "K" 550 350 50 H V L CNN
 F1 "G5Q-1A" 550 250 50 H V L CNN
 F2 "Relays_THT:Relay_SPST-NO_OMRON-G5Q" 550 150 50 H I L CNN
-F3 "" 200 600 50 H V C CNN
+F3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" 1100 -300 50 H I C CNN
+F4 "Miniature Single Pole Relay" 650 -400 60 H I C CNN "Keywords"
+F5 "G5G-1A, Miniature Single Pole Relay, SPST-NO, 10A" 1250 -200 60 H I C CNN "Description"
 $FPLIST
  Relay?SPST?NO?OMRON?G5Q*
 $ENDFPLIST
