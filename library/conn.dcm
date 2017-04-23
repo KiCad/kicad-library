@@ -491,6 +491,11 @@ D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
 $ENDCMP
 #
+$CMP CONN_COAXIAL_POWER
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+$ENDCMP
+#
 $CMP CONN_COAXIAL_x2
 D double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
@@ -635,9 +640,34 @@ $CMP I3E1394
 D CONNECTOR 6BR
 $ENDCMP
 #
-$CMP JACK_2P
-D 2-pin Mono audio Jack, withc switch contact
-K mono audio jack
+$CMP JACK-2
+D 2-pin audio jack receptable (mono)
+K audio jack receptable mono
+F ~
+$ENDCMP
+#
+$CMP JACK-2_SWITCH
+D 2-pin audio jack receptable (mono) with switching contact
+K audio jack receptable stereo headphones
+F ~
+$ENDCMP
+#
+$CMP JACK-3
+D 3-pin audio jack receptable (stereo)
+K audio jack receptable stereo headphones
+F ~
+$ENDCMP
+#
+$CMP JACK-3_SWITCHES
+D 3-pin audio jack receptable (stereo) with switching contacts
+K audio jack receptable stereo headphones
+F ~
+$ENDCMP
+#
+$CMP JACK-4
+D 4-pin (audio) jack receptable (stereo + 4th pin)
+K audio jack receptable stereo headphones
+F ~
 $ENDCMP
 #
 $CMP JACK_TRS_6PINS
