@@ -1,10 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Barrel_Jack
-D DC Barrel Jack
-K DC power barrel jack connector
-$ENDCMP
-#
 $CMP BUSAT
 D Connector BUS ISA 16 bits
 K ISA
@@ -18,6 +13,12 @@ $ENDCMP
 $CMP BUSPCI-5V
 D Connector BUS PCI
 K PCI
+$ENDCMP
+#
+$CMP Barrel_Jack
+D DC Barrel Jack
+K DC power barrel jack connector
+F ~
 $ENDCMP
 #
 $CMP C64AB
@@ -494,6 +495,7 @@ $ENDCMP
 $CMP CONN_COAXIAL_POWER
 D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
+F ~
 $ENDCMP
 #
 $CMP CONN_COAXIAL_x2
@@ -640,6 +642,11 @@ $CMP I3E1394
 D CONNECTOR 6BR
 $ENDCMP
 #
+$CMP JACK_TRS_6PINS
+D audio jack TRS 6 pins
+K audio jack connector TRS
+$ENDCMP
+#
 $CMP Jack-2
 D 2-pin audio jack receptable (mono)
 K audio jack receptable mono
@@ -670,14 +677,10 @@ K audio jack receptable stereo headphones
 F ~
 $ENDCMP
 #
-$CMP JACK_TRS_6PINS
-D audio jack TRS 6 pins
-K audio jack connector TRS
-$ENDCMP
-#
 $CMP Jack-DC
 D DC Barrel Jack
 K DC power barrel jack connector
+F ~
 $ENDCMP
 #
 $CMP LEMO2
