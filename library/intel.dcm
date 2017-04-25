@@ -77,6 +77,12 @@ K MPRO
 F http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf
 $ENDCMP
 #
+$CMP 8237
+D Programmable DMA Controller, PDIP-40
+K 8237 DMA
+F https://pdos.csail.mit.edu/6.828/2012/readings/hardware/8237A.pdf
+$ENDCMP
+#
 $CMP 8250
 D PC8250A, Universal Asynchronous Receiver/Transmitter, PDIP-40
 K 1ch UART
@@ -85,6 +91,18 @@ $ENDCMP
 $CMP 8252
 D Universal Asynchronous Receiver/Transmitter, PDIP-28
 K UART Serial Interface
+$ENDCMP
+#
+$CMP 8253
+D Programmable Interval Timer, PDIP-24
+K Timer Counter
+F http://www.cpcwiki.eu/imgs/e/e3/8253.pdf
+$ENDCMP
+#
+$CMP 8254
+D Programmable Interval Timer, PDIP-24
+K Timer Counter
+F http://www.scs.stanford.edu/10wi-cs140/pintos/specs/8254.pdf
 $ENDCMP
 #
 $CMP 8255
@@ -122,9 +140,16 @@ K Bus Controller
 F http://www.datasheets360.com/pdf/7208679415653955300
 $ENDCMP
 #
-$CMP 82C54_PLCC
-D 82C54, Triple Channel Timer/Counter, PLCC-28
+$CMP 82C54
+D CHMOS Programmable Interval Timer, PDIP-24
 K Timer Counter
+F http://download.intel.com/design/archives/periphrl/docs/23124406.pdf
+$ENDCMP
+#
+$CMP 82C54_PLCC
+D CHMOS Programmable Interval Timer, PLCC-28
+K Timer Counter
+F http://download.intel.com/design/archives/periphrl/docs/23124406.pdf
 $ENDCMP
 #
 $CMP 82C55A
