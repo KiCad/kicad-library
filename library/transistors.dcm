@@ -155,6 +155,12 @@ K NPN Epitaxial Silicon Transistor
 F http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF
 $ENDCMP
 #
+$CMP BC240
+D 40V Vce, 0.05A Ic, NPN, RF Signal Transistor, TO-92
+K NPN RF Transistor
+F http://www.fairchildsemi.com/ds/BF/BF240.pdf
+$ENDCMP
+#
 $CMP BC307
 D Vce 45V, Ic 100mA, PNP Epitaxial Silicon Transistor, TO-92
 K PNP Epitaxial Silicon Transistor
@@ -545,6 +551,18 @@ K NPN Transistor
 F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
 $ENDCMP
 #
+$CMP BCV61
+D 30V Vce, 100mA IC, Double NPN Transistors, Current mirror configuration, SOT-143
+K Transistor Double NPN
+F http://www.nxp.com/documents/data_sheet/BCV61.pdf
+$ENDCMP
+#
+$CMP BCV62
+D 30V Vce, 100mA IC, Double PNP Transistors, Current mirror configuration, SOT-143
+K Transistor Double PNP
+F http://www.nxp.com/documents/data_sheet/BCV62.pdf
+$ENDCMP
+#
 $CMP BCX51
 D 45V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89
 K PNP Transistor
@@ -825,12 +843,6 @@ $CMP BF199
 D 25V Vce, 0.05A Ic, NPN Radio Frequency Transistor, TO-220
 K NPN RF Transistor
 F http://www.micropik.com/PDF/BF199.pdf
-$ENDCMP
-#
-$CMP BF240
-D 40V Vce, 0.05A Ic, NPN, RF Signal Transistor, TO-92
-K NPN RF Transistor
-F http://www.fairchildsemi.com/ds/BF/BF240.pdf
 $ENDCMP
 #
 $CMP BF244A
@@ -1119,9 +1131,15 @@ F http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3
 $ENDCMP
 #
 $CMP BSS138
-D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
-K N-Channel MOSFET Logic Level
-F http://www.fairchildsemi.com/ds/BS/BSS138.pdf
+D 50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP BSS84
+D -50V Vds, -0.13A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
 #
 $CMP BUT11
@@ -2449,9 +2467,9 @@ F http://www.onsemi.com/pub_link/Collateral/MJE13009-D.PDF
 $ENDCMP
 #
 $CMP MMBF170
-D 60V Vds 0.5A Id, N-Channel MOSFET, SOT-23
+D 60V Vds, 0.5 A Id, N-channel MOSFET, SOT-23
 K N-Channel MOSFET
-F http://www.fairchildsemi.com/ds/BS/BS170.pdf
+F https://www.diodes.com/assets/Datasheets/ds30104.pdf
 $ENDCMP
 #
 $CMP MMBT3904
@@ -2512,6 +2530,12 @@ $CMP MPSA92
 D Vce 300V, Ic 500mA, PNP High Voltage Transistor, TO-92
 K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
+$ENDCMP
+#
+$CMP NTR2101P
+D -8V Vds, -3.7A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 $ENDCMP
 #
 $CMP PMBT2222AYS
