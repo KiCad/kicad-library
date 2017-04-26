@@ -2,37 +2,43 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP Audio-Jack-2
 D 2-pin audio jack receptable (mono/TS connector)
-K audio jack receptable mono phone headphone 
+K audio jack receptable mono phone headphone TS connector
 F ~
 $ENDCMP
 #
 $CMP Audio-Jack-2_Switch
 D 2-pin audio jack receptable (mono/TS connector) with switching contact
-K audio jack receptable mono headphones phone
+K audio jack receptable mono headphones phone TS connector
 F ~
 $ENDCMP
 #
 $CMP Audio-Jack-3
 D 3-pin audio jack receptable (stereo/TRS connector)
-K audio jack receptable stereo headphones phones
+K audio jack receptable stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
-$CMP Audio-Jack-3_Switches
-D 3-pin audio jack receptable (stereo/TRS connector) with switching contacts
-K audio jack receptable stereo headphones phones
+$CMP Audio-Jack-3_2Switches
+D 3-pin audio jack receptable (stereo/TRS connector) with 2 switching contacts
+K audio jack receptable stereo headphones phones TRS connector
+F ~
+$ENDCMP
+#
+$CMP Audio-Jack-3_3Switches
+D 3-pin (audio) jack receptable (stereo/TRS connector) with 3 switching contacts
+K audio jack receptable stereo headphones connector
 F ~
 $ENDCMP
 #
 $CMP Audio-Jack-4
 D 4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector)
-K audio jack receptable stereo headphones
+K audio jack receptable stereo headphones TRRS connector
 F ~
 $ENDCMP
 #
 $CMP Audio-Jack-5
 D 5-pin (audio) jack receptable (TRRRS connector)
-K audio jack receptable stereo headphones
+K audio jack receptable stereo headphones TRRRS connector
 F ~
 $ENDCMP
 #
@@ -676,11 +682,6 @@ $ENDCMP
 #
 $CMP I3E1394
 D CONNECTOR 6BR
-$ENDCMP
-#
-$CMP JACK_TRS_6PINS
-D audio jack TRS 6 pins
-K audio jack connector TRS
 $ENDCMP
 #
 $CMP Jack-DC
