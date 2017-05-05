@@ -1,8 +1,45 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP BARREL_JACK
-D DC Barrel Jack
-K DC power barrel jack connector
+$CMP Audio-Jack-2
+D 2-pin audio jack receptable (mono/TS connector)
+K audio jack receptable mono phone headphone TS connector
+F ~
+$ENDCMP
+#
+$CMP Audio-Jack-2_Switch
+D 2-pin audio jack receptable (mono/TS connector) with switching contact
+K audio jack receptable mono headphones phone TS connector
+F ~
+$ENDCMP
+#
+$CMP Audio-Jack-3
+D 3-pin audio jack receptable (stereo/TRS connector)
+K audio jack receptable stereo headphones phones TRS connector
+F ~
+$ENDCMP
+#
+$CMP Audio-Jack-3_2Switches
+D 3-pin audio jack receptable (stereo/TRS connector) with 2 switching contacts
+K audio jack receptable stereo headphones phones TRS connector
+F ~
+$ENDCMP
+#
+$CMP Audio-Jack-3_3Switches
+D 3-pin (audio) jack receptable (stereo/TRS connector) with 3 switching contacts
+K audio jack receptable stereo headphones connector
+F ~
+$ENDCMP
+#
+$CMP Audio-Jack-4
+D 4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector)
+K audio jack receptable stereo headphones TRRS connector
+F ~
+$ENDCMP
+#
+$CMP Audio-Jack-5
+D 5-pin (audio) jack receptable (TRRRS connector)
+K audio jack receptable stereo headphones TRRRS connector
+F ~
 $ENDCMP
 #
 $CMP BUSAT
@@ -18,6 +55,12 @@ $ENDCMP
 $CMP BUSPCI-5V
 D Connector BUS PCI
 K PCI
+$ENDCMP
+#
+$CMP Barrel_Jack
+D DC Barrel Jack
+K DC power barrel jack connector
+F ~
 $ENDCMP
 #
 $CMP C64AB
@@ -491,6 +534,12 @@ D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
 $ENDCMP
 #
+$CMP CONN_COAXIAL_POWER
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F ~
+$ENDCMP
+#
 $CMP CONN_COAXIAL_x2
 D double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
@@ -596,9 +645,52 @@ D 9-pin male D-SUB connector, Mounting Hole
 K connector male D-SUB
 $ENDCMP
 #
-$CMP DIN_5
-D 5 pins connector, 41524
-K connector DIN 5-pins 41524
+$CMP DIN-3
+D 3-pin DIN connector
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DIN-4
+D 4-pin DIN connector
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DIN-5
+D 5-pin DIN connector
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DIN-5_180degree
+D 5-pin DIN connector (5-pin DIN-5 stereo)
+K circular DIN connector stereo audio
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DIN-6
+D 6-pin DIN connector
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DIN-7
+D 7-pin DIN connector
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DIN-7_CenterPin7
+D 7-pin DIN connector with pin 7 in center
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DIN-8
+D 8-pin DIN connector
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
 $ENDCMP
 #
 $CMP GS2
@@ -635,14 +727,10 @@ $CMP I3E1394
 D CONNECTOR 6BR
 $ENDCMP
 #
-$CMP JACK_2P
-D 2-pin Mono audio Jack, withc switch contact
-K mono audio jack
-$ENDCMP
-#
-$CMP JACK_TRS_6PINS
-D audio jack TRS 6 pins
-K audio jack connector TRS
+$CMP Jack-DC
+D DC Barrel Jack
+K DC power barrel jack connector
+F ~
 $ENDCMP
 #
 $CMP LEMO2
@@ -663,6 +751,42 @@ $ENDCMP
 $CMP LEMO6
 D 6-pin LEMO connector
 K LEMO connector
+$ENDCMP
+#
+$CMP MINI-DIN-3
+D 3-pin MINI-DIN connector
+K MINI-DIN
+F http://www.assmann-wsw.com/fileadmin/catalogue/10_MiniDIN_rev4-0.pdf
+$ENDCMP
+#
+$CMP MINI-DIN-4
+D 4-pin MINI-DIN connector
+K MINI-DIN
+F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
+$CMP MINI-DIN-5
+D 5-pin MINI-DIN connector
+K MINI-DIN
+F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
+$CMP MINI-DIN-6
+D 6-pin MINI-DIN connector
+K MINI-DIN
+F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
+$CMP MINI-DIN-7
+D 7-pin MINI-DIN connector
+K MINI-DIN
+F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
+$CMP MINI-DIN-8
+D 8-pin MINI-DIN connector
+K MINI-DIN
+F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
 $ENDCMP
 #
 $CMP Micro_SD_Card
@@ -825,6 +949,18 @@ $ENDCMP
 $CMP USB_B
 D USB Type B connector
 K connector USB
+$ENDCMP
+#
+$CMP USB_C_Plug
+D USB Type-C Plug connector
+K usb universal serial bus
+F http://www.usb.org/developers/docs/usb_31_033017.zip
+$ENDCMP
+#
+$CMP USB_C_Receptacle
+D USB Type-C Receptacle connector
+K usb universal serial bus
+F http://www.usb.org/developers/docs/usb_31_033017.zip
 $ENDCMP
 #
 $CMP USB_OTG
