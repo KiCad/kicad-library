@@ -876,6 +876,12 @@ K Voltage Regulator 3A Positive LDO Disable Pin
 F https://www.fairchildsemi.com/datasheets/KA/KA378R33.pdf
 $ENDCMP
 #
+$CMP KA78M05_TO252
+D Positive 0.5A 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
+K Voltage Regulator 0.5A Positive
+F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
 $CMP L200
 D Adjustable voltage and current regulator, 2A, 36V
 K 2A Regulator Adjustable Positive
@@ -1147,9 +1153,33 @@ F http://www.ti.com/lit/ds/symlink/lm1084.pdf
 $ENDCMP
 #
 $CMP LM1084-ADJ
-D LM1084IT, 5A 29V Adjustable Linear Regulator, TO-220 / TO-263 (D2-PAK)
+D 5A 29V Adjustable Linear Regulator, TO-220 / TO-263 (D2-PAK)
 K Adjustable Voltage Regulator 5A Positive
 F http://www.ti.com/lit/ds/symlink/lm1084.pdf
+$ENDCMP
+#
+$CMP LM1085-12
+D 3A 18V Linear Regulator, Fixed Output 12.0V, TO-220/TO-263
+K Voltage Regulator 5A Positive
+F http://www.ti.com/lit/ds/symlink/lm1085.pdf
+$ENDCMP
+#
+$CMP LM1085-3.3
+D 3A 27V Linear Regulator, Fixed Output 3.3V, TO-220/TO-263
+K Voltage Regulator Adjustable 5A Positive
+F http://www.ti.com/lit/ds/symlink/lm1085.pdf
+$ENDCMP
+#
+$CMP LM1085-5.0
+D 3A 25V Linear Regulator, Fixed Output 5.0V, TO-220/TO-263
+K Voltage Regulator 5A Positive
+F http://www.ti.com/lit/ds/symlink/lm1085.pdf
+$ENDCMP
+#
+$CMP LM1085-ADJ
+D 3A 29V Adjustable Linear Regulator, TO-220 / TO-263 (D2-PAK)
+K Adjustable Voltage Regulator 5A Positive
+F http://www.ti.com/lit/ds/symlink/lm1085.pdf
 $ENDCMP
 #
 $CMP LM1117-1.8
@@ -1218,28 +1248,58 @@ K Adjustable Voltage Regulator 3A Positive
 F http://www.ti.com/lit/ds/symlink/lm350a.pdf
 $ENDCMP
 #
-$CMP LM2931AZ-3.3/5.0
-D 100mA Low drop-out regulator, Fixed Output 3.3V, 5V
-K REGULATOR LDO 3.3V 5V
+$CMP LM2931-5.0_SO8
+D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
+K Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
 $ENDCMP
 #
-$CMP LM2931AZ-5.0
-D 100mA Low drop-out regulator, Fixed Output 5V
+$CMP LM2931-ADJ_TO92
+D 100mA Low drop-out regulator, Adjustable Output, TO-92
+K REGULATOR LDO Adjustable
+F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
+$ENDCMP
+#
+$CMP LM2931AZ-5.0_TO92
+D 100mA Low drop-out regulator, Fixed Output 5V, TO-92
 K REGULATOR LDO 5V
 F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
 $ENDCMP
 #
-$CMP LM2931Z-3.3/5.0
-D 100mA Low drop-out regulator, Fixed Output 3.3V, 5V
-K REGULATOR LDO 3.3V 5V
-F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
+$CMP LM2936-3.0
+D 50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 3.0V fixed output, TO-252/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm2936.pdf
 $ENDCMP
 #
-$CMP LM2931Z-5.0
-D 100mA Low drop-out regulator, Fixed Output 5V
-K REGULATOR LDO 5V
-F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
+$CMP LM2936-3.0_TO92
+D 50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 3.0V fixed output, TO-92
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm2936.pdf
+$ENDCMP
+#
+$CMP LM2936-3.3
+D 50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 3.3V fixed output, TO-252/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm2936.pdf
+$ENDCMP
+#
+$CMP LM2936-3.3_TO92
+D 50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 3.3V fixed output, TO-92
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm2936.pdf
+$ENDCMP
+#
+$CMP LM2936-5.0
+D 50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 5.0V fixed output, TO-252/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm2936.pdf
+$ENDCMP
+#
+$CMP LM2936-5.0_TO92
+D 50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 5.0V fixed output, TO-92
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm2936.pdf
 $ENDCMP
 #
 $CMP LM317L_SO8
@@ -1274,7 +1334,7 @@ $ENDCMP
 #
 $CMP LM337L_SO8
 D 0.1A 35V Adjustable Negative Linear Regulator, SO-8
-K Adjustable Negative Voltage Regulator 0.1A 
+K Adjustable Negative Voltage Regulator 0.1A
 F http://www.ti.com/lit/ds/symlink/lm337l.pdf
 $ENDCMP
 #
@@ -1410,8 +1470,20 @@ K Voltage Regulator 1A Positive
 F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
 $ENDCMP
 #
+$CMP LM78L05_SO8
+D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
 $CMP LM78L05_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP LM78L12_SO8
+D Positive 100mA 30V Linear Regulator, Fixed Output 12V, SO-8
 K Voltage Regulator 100mA Positive
 F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
 $ENDCMP
@@ -1424,6 +1496,12 @@ $ENDCMP
 #
 $CMP LM78M05_TO220
 D Positive 0.5A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 0.5A Positive
+F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
+$CMP LM78M05_TO252
+D Positive 0.5A 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
 K Voltage Regulator 0.5A Positive
 F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
 $ENDCMP
@@ -2166,6 +2244,12 @@ K Voltage Regulator 100mA Positive
 F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
 $ENDCMP
 #
+$CMP MC78L06_SO8
+D Positive 100mA 30V Linear Regulator, Fixed Output 6V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
 $CMP MC78L06_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 6V, TO-92
 K Voltage Regulator 100mA Positive
@@ -2208,14 +2292,32 @@ K Voltage Regulator 100mA Positive
 F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
 $ENDCMP
 #
+$CMP MC78L15_SO8
+D Positive 100mA 30V Linear Regulator, Fixed Output 15V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
 $CMP MC78L15_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 15V, TO-92
 K Voltage Regulator 100mA Positive
 F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
 $ENDCMP
 #
+$CMP MC78L18_SO8
+D Positive 100mA 30V Linear Regulator, Fixed Output 18V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
 $CMP MC78L18_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 18V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L24_SO8
+D Positive 100mA 30V Linear Regulator, Fixed Output 24V, SO-8
 K Voltage Regulator 100mA Positive
 F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
 $ENDCMP
@@ -2365,19 +2467,19 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
 $CMP MCP1754ST-1802E/MB
-D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
 $CMP MCP1754ST-3302E/MB
-D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
 $CMP MCP1754ST-5002E/MB
-D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
@@ -2568,49 +2670,49 @@ K Adjustable Voltage Regulator 1.5A Negative
 F http://www.irf.com/product-info/datasheets/hirel/om1323.pdf
 $ENDCMP
 #
-$CMP SPX2920M3-3.3
+$CMP SPX2920M3-3.3_SOT223
 D 400mA Low drop-out regulator, Fixed Output 3.3V, SOT-223
 K REGULATOR LDO 3.3V
 F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
 $ENDCMP
 #
-$CMP SPX2920M3-5.0
+$CMP SPX2920M3-5.0_SOT223
 D 400mA Low drop-out regulator, Fixed Output 5V, SOT-223
 K REGULATOR LDO 5V
 F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
 $ENDCMP
 #
-$CMP SPX2920S-3.3
+$CMP SPX2920S-3.3_SO8
 D 400mA Fixed/Adjustable 1.2-20V Low Drop-out Voltage Regualtor, SO-8
 K LDO Voltage Regulator 400mA 3.3V Adjustable
 F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
 $ENDCMP
 #
-$CMP SPX2920S-5.0
+$CMP SPX2920S-5.0_SO8
 D 400mA Fixed/Adjustable 1.2-20V Low Drop-out Voltage Regualtor, SO-8
 K LDO Voltage Regulator 400mA 5V Adjustable
 F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
 $ENDCMP
 #
-$CMP SPX2920T-3.3
+$CMP SPX2920T-3.3_TO263
 D 400mA Low drop-out regulator, Fixed Output 3.3V, TO-263
 K REGULATOR LDO 3.3V
 F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
 $ENDCMP
 #
-$CMP SPX2920T-5.0
+$CMP SPX2920T-5.0_TO263
 D 400mA Low drop-out regulator, Fixed Output 5V, TO-263
 K REGULATOR LDO 5V
 F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
 $ENDCMP
 #
-$CMP SPX2920U-3.3
+$CMP SPX2920U-3.3_TO220
 D 400mA Low drop-out regulator, Fixed Output 3.3V, TO-220
 K REGULATOR LDO 3.3V
 F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
 $ENDCMP
 #
-$CMP SPX2920U-5.0
+$CMP SPX2920U-5.0_TO220
 D 400mA Low drop-out regulator, Fixed Output 5V, TO-220
 K REGULATOR LDO 5V
 F http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf
@@ -2664,259 +2766,295 @@ K Voltage Regulator 5.0V 500mA Positive CMOS LDO Microchip
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf
 $ENDCMP
 #
-$CMP TLV70012DCK
-D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SC70-5
-K 200mA LDO Regulator Fixed Positive
-F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
+$CMP TLV1117-15
+D 800mA Low-Dropout Linear Regulator, 1.5V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
 $ENDCMP
 #
-$CMP TLV70012DDC
+$CMP TLV1117-18
+D 800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-25
+D 800mA Low-Dropout Linear Regulator, 2.5V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-33
+D 800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-50
+D 800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-ADJ
+D 800mA Low-Dropout Linear Regulator, adjustable output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo adjustable positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV70012_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70012DSE
+$CMP TLV70012_SOT353
+D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5/SC-70-5/SOT-353
+K 200mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
+$ENDCMP
+#
+$CMP TLV70012_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70013DDC
+$CMP TLV70013_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.3V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70015DCK
-D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, SC70-5
-K 200mA LDO Regulator Fixed Positive
-F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
-$ENDCMP
-#
-$CMP TLV70015DDC
+$CMP TLV70015_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70015DSE
+$CMP TLV70015_SOT353
+D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5/SC-70-5/SOT-353
+K 200mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
+$ENDCMP
+#
+$CMP TLV70015_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70018DCK
-D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SC70-5
-K 200mA LDO Regulator Fixed Positive
-F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
-$ENDCMP
-#
-$CMP TLV70018DDC
+$CMP TLV70018_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70018DSE
+$CMP TLV70018_SOT353
+D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SC70-5
+K 200mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
+$ENDCMP
+#
+$CMP TLV70018_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70019DDC
+$CMP TLV70019_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70025DCK
-D 200 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, SC70-5
-K 200mA LDO Regulator Fixed Positive
-F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
-$ENDCMP
-#
-$CMP TLV70025DDC
+$CMP TLV70025_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70025DSE
+$CMP TLV70025_SOT353
+D 200 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, SC70-5
+K 200mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
+$ENDCMP
+#
+$CMP TLV70025_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70028DCK
+$CMP TLV70028_SOT353
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, SC70-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70028DSE
+$CMP TLV70028_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70029DSE
+$CMP TLV70029_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 2.9V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70030DCK
-D 200 mA Low Dropout Voltage Regulator, Fixed Output 3V, SC70-5
-K 200mA LDO Regulator Fixed Positive
-F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
-$ENDCMP
-#
-$CMP TLV70030DDC
+$CMP TLV70030_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70030DSE
+$CMP TLV70030_SOT353
+D 200 mA Low Dropout Voltage Regulator, Fixed Output 3V, SC70-5
+K 200mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
+$ENDCMP
+#
+$CMP TLV70030_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 3V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70031DSE
+$CMP TLV70031_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.1V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70032DDC
+$CMP TLV70032_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.2V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70033DCK
-D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SC70-5
-K 200mA LDO Regulator Fixed Positive
-F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
-$ENDCMP
-#
-$CMP TLV70033DDC
+$CMP TLV70033_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70033DSE
+$CMP TLV70033_SOT353
+D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SC70-5
+K 200mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
+$ENDCMP
+#
+$CMP TLV70033_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70036DDC
+$CMP TLV70036_SOT23-5
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.6V, SOT-23-5
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70036DSE
+$CMP TLV70036_WSON6
 D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.6V, WSON6
 K 200mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70025.pdf
 $ENDCMP
 #
-$CMP TLV70212DBV
+$CMP TLV70212_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70215DBV
+$CMP TLV70215_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70218DBV
+$CMP TLV70218_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70225DBV
+$CMP TLV70225_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70225DSE
+$CMP TLV70225_WSON6
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, WSON6
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70228DBV
+$CMP TLV70228_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70228DSE
+$CMP TLV70228_WSON6
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, WSON6
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70229DSE
+$CMP TLV70229_WSON6
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.9V, WSON6
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70230DBV
+$CMP TLV70230_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 3V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70231DBV
+$CMP TLV70231_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.1V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70233DBV
+$CMP TLV70233_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70233DSE
+$CMP TLV70233_WSON6
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70235DBV
+$CMP TLV70235_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.5V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70236DSE
+$CMP TLV70236_WSON6
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.6V, WSON6
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70237DBV
+$CMP TLV70237_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.7V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70237DSE
+$CMP TLV70237_WSON6
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.7V, WSON6
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
@@ -2928,31 +3066,31 @@ K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV70245DBV
+$CMP TLV70245_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 4.5V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV702475DBV
+$CMP TLV702475_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 4.75V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
 $ENDCMP
 #
-$CMP TLV71209DBV
+$CMP TLV71209_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv71209.pdf
 $ENDCMP
 #
-$CMP TLV71210DBV
+$CMP TLV71210_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.0V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv71209.pdf
 $ENDCMP
 #
-$CMP TLV71211DBV
+$CMP TLV71211_SOT23-5
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.1V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv71209.pdf
@@ -3024,127 +3162,103 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv713p.pdf
 $ENDCMP
 #
-$CMP TPS70202PWP
+$CMP TPS70202_HTSSOP20
 D 500mA/250mA Dual Adjustable Low Drop-out Regulator with Voltage Supervisor, PowerPAD TSSOP-20
 K Dual LDO Adjustable Regulator 500mA 250mA Voltage Supervisor
 F http://www.ti.com/lit/ds/symlink/tps70245.pdf
 $ENDCMP
 #
-$CMP TPS70245PWP
+$CMP TPS70245_HTSSOP20
 D 3.3V 500mA/1.2V 250mA Dual Low Drop-out Regulator with Voltage Supervisor, PowerPAD TSSOP-20
 K Dual 3.3V 1.2V LDO Regulator 500mA 250mA Voltage Supervisor
 F http://www.ti.com/lit/ds/symlink/tps70245.pdf
 $ENDCMP
 #
-$CMP TPS70248PWP
+$CMP TPS70248_HTSSOP20
 D 3.3V 500mA/1.5V 250mA Dual Low Drop-out Regulator with Voltage Supervisor, PowerPAD TSSOP-20
 K Dual 3.3V 1.5V LDO Regulator 500mA 250mA Voltage Supervisor
 F http://www.ti.com/lit/ds/symlink/tps70245.pdf
 $ENDCMP
 #
-$CMP TPS70251PWP
+$CMP TPS70251_HTSSOP20
 D 3.3V 500mA/1.8V 250mA Dual Low Drop-out Regulator with Voltage Supervisor, PowerPAD TSSOP-20
 K Dual 3.3V 1.8V LDO Regulator 500mA 250mA Voltage Supervisor
 F http://www.ti.com/lit/ds/symlink/tps70245.pdf
 $ENDCMP
 #
-$CMP TPS70258PWP
+$CMP TPS70258_HTSSOP20
 D 3.3V 500mA/2.5V 250mA Dual Low Drop-out Regulator with Voltage Supervisor, PowerPAD TSSOP-20
 K Dual 3.3V 2.5V LDO Regulator 500mA 250mA Voltage Supervisor
 F http://www.ti.com/lit/ds/symlink/tps70245.pdf
 $ENDCMP
 #
-$CMP TPS7101QD
-D 500mA Adjustable 1.2-9.75V Low Drop-out Voltage Regualtor, SO-8
+$CMP TPS7101
+D 500mA Adjustable 1.2-9.75V Low Drop-out Voltage Regualtor, SO-8/DIP-8
 K LDO Voltage Regulator 500mA Adjustable
 F http://www.ti.com/lit/ds/symlink/tps7133.pdf
 $ENDCMP
 #
-$CMP TPS7101QP
-D 500mA Adjustable 1.2-9.75V Low Drop-out Voltage Regualtor, DIP-8
-K LDO Voltage Regulator 500mA Adjustable
-F http://www.ti.com/lit/ds/symlink/tps7133.pdf
-$ENDCMP
-#
-$CMP TPS7133QD
-D 500mA Low Drop-out Voltage Regualtor, Fixed Output 3.3V, SO-8
+$CMP TPS7133
+D 500mA Low Drop-out Voltage Regualtor, Fixed Output 3.3V, SO-8/DIP-8
 K LDO Voltage Regulator 500mA
 F http://www.ti.com/lit/ds/symlink/tps7133.pdf
 $ENDCMP
 #
-$CMP TPS7133QP
-D 500mA Low Drop-out Voltage Regualtor, Fixed Output 3.3V, DIP-8
+$CMP TPS7148
+D 500mA Low Drop-out Voltage Regualtor, Fixed Output 4.85V, SO-8/DIP-8
 K LDO Voltage Regulator 500mA
 F http://www.ti.com/lit/ds/symlink/tps7133.pdf
 $ENDCMP
 #
-$CMP TPS7148QD
-D 500mA Low Drop-out Voltage Regualtor, Fixed Output 4.85V, SO-8
+$CMP TPS7150
+D 500mA Low Drop-out Voltage Regualtor, Fixed Output 5V, SO-8/DIP-8
 K LDO Voltage Regulator 500mA
 F http://www.ti.com/lit/ds/symlink/tps7133.pdf
 $ENDCMP
 #
-$CMP TPS7148QP
-D 500mA Low Drop-out Voltage Regualtor, Fixed Output 4.85V, DIP-8
-K LDO Voltage Regulator 500mA
-F http://www.ti.com/lit/ds/symlink/tps7133.pdf
-$ENDCMP
-#
-$CMP TPS7150QD
-D 500mA Low Drop-out Voltage Regualtor, Fixed Output 5V, SO-8
-K LDO Voltage Regulator 500mA
-F http://www.ti.com/lit/ds/symlink/tps7133.pdf
-$ENDCMP
-#
-$CMP TPS7150QP
-D 500mA Low Drop-out Voltage Regualtor, Fixed Output 5V, DIP-8
-K LDO Voltage Regulator 500mA
-F http://www.ti.com/lit/ds/symlink/tps7133.pdf
-$ENDCMP
-#
-$CMP TPS71518DCKR
+$CMP TPS71518__SC70
 D Low-drop Voltage Regulator, Io up to 50mA, Fixed Vo 1.8V, Ignd 3.2uA , SC70.
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
 $ENDCMP
 #
-$CMP TPS71519DCKR
+$CMP TPS71519__SC70
 D Low-drop Voltage Regulator, Io up to 50mA, Fixed Vo 1.9V, Ignd 3.2uA , SC70.
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
 $ENDCMP
 #
-$CMP TPS71523DCKR
+$CMP TPS71523__SC70
 D Low-drop Voltage Regulator, Io up to 50mA, Fixed Vo 2.3V, Ignd 3.2uA , SC70.
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
 $ENDCMP
 #
-$CMP TPS71525DCKR
+$CMP TPS71525__SC70
 D Low-drop Voltage Regulator, Io up to 50mA, Fixed Vo 2.5V, Ignd 3.2uA , SC70.
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
 $ENDCMP
 #
-$CMP TPS71530DCKR
+$CMP TPS71530__SC70
 D Low-drop Voltage Regulator, Io up to 50mA, Fixed Vo 3V, Ignd 3.2uA , SC70.
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
 $ENDCMP
 #
-$CMP TPS71533DCKR
+$CMP TPS71533__SC70
 D Low-drop Voltage Regulator, Io up to 50mA, Fixed Vo 3.3V, Ignd 3.2uA , SC70.
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
 $ENDCMP
 #
-$CMP TPS715345DCKR
+$CMP TPS715345__SC70
 D Low-drop Voltage Regulator, Io up to 50mA, Fixed Vo 3.45V, Ignd 3.2uA , SC70.
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
 $ENDCMP
 #
-$CMP TPS71550DCKR
+$CMP TPS71550__SC70
 D Low-drop Voltage Regulator, Io up to 50mA, Fixed Vo 5V, Ignd 3.2uA , SC70.
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
@@ -3222,122 +3336,122 @@ K Ultra Low Power Fixed Adjustable LDO 100mA
 F http://www.ti.com/lit/ds/symlink/tps76950-q1.pdf
 $ENDCMP
 #
-$CMP TPS77701D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Adjustable Output 1.5-5.5V, SO-8
-K 750mA LDO Regulator Adjustable Positive
-F http://www.ti.com/lit/ds/symlink/tps77725.pdf
-$ENDCMP
-#
-$CMP TPS77701PWP
+$CMP TPS77701_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Adjustable Output 1.5-5.5V, HTSSOP20
 K 750mA LDO Regulator Adjustable Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77715D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.5V, SO-8
-K 750mA LDO Regulator Fixed Positive
+$CMP TPS77701_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Adjustable Output 1.5-5.5V, SO-8
+K 750mA LDO Regulator Adjustable Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77715PWP
+$CMP TPS77715_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.5V, HTSSOP20
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77718D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.8V, SO-8
+$CMP TPS77715_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.5V, SO-8
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77718PWP
+$CMP TPS77718_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.8V, HTSSOP20
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77725D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 2.5V, SO-8
+$CMP TPS77718_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.8V, SO-8
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77725PWP
+$CMP TPS77725_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 2.5V, HTSSOP20
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77733D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 3.3V, SO-8
+$CMP TPS77725_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 2.5V, SO-8
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77733PWP
+$CMP TPS77733_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 3.3V, HTSSOP20
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77801D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Adjustable Output 1.2-5.5V, SO-8
-K 750mA LDO Regulator Adjustable Positive
+$CMP TPS77733_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 3.3V, SO-8
+K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77801PWP
+$CMP TPS77801_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Adjustable Output 1.2-5.5V, HTSSOP20
 K 750mA LDO Regulator Adjustable Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77815D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.5V, SO-8
-K 750mA LDO Regulator Fixed Positive
+$CMP TPS77801_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Adjustable Output 1.2-5.5V, SO-8
+K 750mA LDO Regulator Adjustable Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77815PWP
+$CMP TPS77815_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.5V, HTSSOP20
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77818D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.8V, SO-8
+$CMP TPS77815_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.5V, SO-8
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77818PWP
+$CMP TPS77818_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.8V, HTSSOP20
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77825D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 2.5V, SO-8
+$CMP TPS77818_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.8V, SO-8
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77825PWP
+$CMP TPS77825_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 2.5V, HTSSOP20
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77833D
-D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 3.3V, SO-8
+$CMP TPS77825_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 2.5V, SO-8
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
 #
-$CMP TPS77833PWP
+$CMP TPS77833_HTSSOP20
 D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 3.3V, HTSSOP20
+K 750mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tps77725.pdf
+$ENDCMP
+#
+$CMP TPS77833_SO8
+D 750 mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 3.3V, SO-8
 K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps77725.pdf
 $ENDCMP
