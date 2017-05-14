@@ -858,6 +858,18 @@ K Adjustable Voltage Regulator 1A Positive LDO
 F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
 $ENDCMP
 #
+$CMP ICL7663
+D 50mA 5V/Programmable Voltage Regulator, DIP-8/SO-8/TO-99
+K Linear Regulator 50mA 5V fixed
+F https://datasheets.maximintegrated.com/en/ds/ICL7663.pdf
+$ENDCMP
+#
+$CMP ICL7664
+D 50mA Dual Mode -5V/Programmable Negative Voltage Regulator, DIP-8/SO-8/TO-99
+K Linear Regulator 50mA -5V fixed negative
+F http://pe2bz.philpem.me.uk/pdf%20on%20typenumber/I-L/ICL7664.pdf
+$ENDCMP
+#
 $CMP KA378R05
 D Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 5V, TO-220F-4L
 K Voltage Regulator 3A Positive LDO Disable Pin
@@ -2466,27 +2478,21 @@ K Linear LDO Regulator 500mA 3.3V fixed
 F http://datasheets.maximintegrated.com/en/ds/MAX603-MAX604.pdf
 $ENDCMP
 #
-$CMP MAX666CPA
-D 50mA Dual Mode 5V/Programmable Micropower Voltage Regulatoor, PDIP-8
-K Linear LDO Regulator 50mA 5V
+$CMP MAX663
+D 50mA Dual Mode 5V/Programmable Micropower Voltage Regulator, DIP-8/SO-8
+K Linear LDO Regulator 50mA 5V fixed
 F http://pdfserv.maximintegrated.com/en/ds/MAX663-MAX666.pdf
 $ENDCMP
 #
-$CMP MAX666CSA
-D 50mA Dual Mode 5V/Programmable Micropower Voltage Regulatoor, SOIC-8
-K Linear LDO Regulator 50mA 5V
+$CMP MAX664
+D 50mA Dual Mode -5V/Programmable Micropower Negative Voltage Regulator, DIP-8/SO-8
+K Linear LDO Regulator 50mA -5V fixed negative
 F http://pdfserv.maximintegrated.com/en/ds/MAX663-MAX666.pdf
 $ENDCMP
 #
-$CMP MAX666EPA
-D 50mA Dual Mode 5V/Programmable Micropower Voltage Regulatoor, PDIP-8
-K Linear LDO Regulator 50mA 5V
-F http://pdfserv.maximintegrated.com/en/ds/MAX663-MAX666.pdf
-$ENDCMP
-#
-$CMP MAX666ESA
-D 50mA Dual Mode 5V/Programmable Micropower Voltage Regulatoor, SOIC-8
-K Linear LDO Regulator 50mA 5V
+$CMP MAX666
+D 50mA Dual Mode 5V/Programmable Micropower Voltage Regulator, DIP-8/SO-8
+K Linear LDO Regulator 50mA 5V fixed
 F http://pdfserv.maximintegrated.com/en/ds/MAX663-MAX666.pdf
 $ENDCMP
 #
