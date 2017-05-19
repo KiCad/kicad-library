@@ -1628,6 +1628,10 @@ D Testpoint, connection for test equipment
 K tp testpoint
 $ENDCMP
 #
+$CMP TR-AUDIO-2P
+D Microphone Input Transformer (2 P 1S)
+$ENDCMP
+#
 $CMP Thermistor
 D Thermistor, temperature-dependent resistor
 K r res thermistor
@@ -1701,9 +1705,19 @@ D Transformer, single primary, split secondary
 K transformer coil magnet
 $ENDCMP
 #
+$CMP Transformer_2P_1S
+D Transformer, dual primary, single secondary
+K transformer coil magnet
+$ENDCMP
+#
 $CMP Transformer_AUDIO
 D Audio transformer
 K transformer coil magnet sound
+$ENDCMP
+#
+$CMP Transformer_Audio_2P
+D Microphone input transformer
+K transformer coil magnet
 $ENDCMP
 #
 $CMP Transformer_SP_1S
