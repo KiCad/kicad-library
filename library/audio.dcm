@@ -94,11 +94,6 @@ D audio VCA
 K AUDIO VCA
 $ENDCMP
 #
-$CMP SSM2120P
-D Dual VCA & level detectors
-K AUDIO VCA
-$ENDCMP
-#
 $CMP SSM2122P
 D Dual VCA
 K AUDIO VCA
@@ -108,16 +103,6 @@ $CMP SSM2165
 D 8 pins microphone preamp and compressor
 K AUDIO
 F analog-dev/ssm2165.pdf
-$ENDCMP
-#
-$CMP SSM2210
-D Audio dual matched NPN transistor
-F AUDIO
-$ENDCMP
-#
-$CMP SSM2220
-D Audiao dual Matched PNP transistor (low noise)
-K AUDIO
 $ENDCMP
 #
 $CMP STK433
@@ -162,8 +147,8 @@ F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASH
 $ENDCMP
 #
 $CMP TDA2003V
-D 10W Car Radio Audio Amplifier, PentaWatt5V
-K TDA2003V Amplifier 10W Pentawatt
+D 10W Car Radio Audio Amplifier, TO220-5 (PentaWatt5V)
+K TDA2003H Amplifier 10W Pentawatt
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000123.pdf
 $ENDCMP
 #
@@ -186,7 +171,7 @@ F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASH
 $ENDCMP
 #
 $CMP TDA7294HS
-D Single 100W Audio Power Amplifier, with Mute and Standby Mode, MultiWatt15H
+D Single 100W Audio Power Amplifier, with Mute and Standby Mode, TO220-15 (MultiWatt15H)
 K TDA7294 Amplifier Single 100W
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000017.pdf
 $ENDCMP
@@ -207,11 +192,6 @@ $CMP THAT2181
 D VCA    (THAT Corporation)
 K AUDIO VCA
 F that_corporation/vca-2181x.pdf
-$ENDCMP
-#
-$CMP TR-AUDIO-2P
-D Microphone Input Transformer (2 P 1S)
-K TRANSFO
 $ENDCMP
 #
 #End Doc Library
