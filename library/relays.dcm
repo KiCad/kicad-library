@@ -1,19 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AZ850-x
-D Microminiature Polarised Dual Pole Relay
+D American Zettler, Microminiature Polarised Dual Pole Relay
 K Miniature Polarised Relay Dual Pole
 F http://www.azettler.com/pdfs/az850.pdf
 $ENDCMP
 #
 $CMP AZ850P1-x
-D Microminiature Polarised Dual Pole Relay Bistable
+D American Zettler, Microminiature Polarised Dual Pole Relay Bistable
 K Miniature Polarised Relay Dual Pole Bistable
 F http://www.azettler.com/pdfs/az850.pdf
 $ENDCMP
 #
 $CMP AZ850P2-x
-D Microminiature Polarised Dual Pole Relay Bistable
+D American Zettler, Microminiature Polarised Dual Pole Relay Bistable
 K Miniature Polarised Relay Dual Pole Bistable
 F http://www.azettler.com/pdfs/az850.pdf
 $ENDCMP
@@ -22,6 +22,12 @@ $CMP FINDER-30.22
 D FINDER 30.52, Dual Pole Relay, Subminiature 5mm Pitch, 2A
 K Dual Pole Relay
 F http://gfinder.findernet.com/assets/Series/354/S30EN.pdf
+$ENDCMP
+#
+$CMP FINDER-32.21-x000
+D FINDER 32.21-x000, Single Pole Relay, 6A
+K Single Pole Relay
+F https://gfinder.findernet.com/assets/Series/355/S32EN.pdf
 $ENDCMP
 #
 $CMP FINDER-32.21-x300
@@ -33,12 +39,6 @@ $ENDCMP
 $CMP FINDER-36.11-4301
 D FINDER 36.11-4301, Single Pole Relay SPST-NO Sugar Cube, 10A
 K Single Pole Relay SPST-NO Sugar Cube
-F http://gfinder.findernet.com/assets/Series/356/S36EN.pdf
-$ENDCMP
-#
-$CMP FINDER-36.11.4001
-D FINDER 36.11.4001, Single Pole Relay, Sugar Cube, 10A
-K Single Pole Relay Sugar Cube
 F http://gfinder.findernet.com/assets/Series/356/S36EN.pdf
 $ENDCMP
 #
@@ -79,31 +79,43 @@ F http://gfinder.findernet.com/assets/Series/359/S44EN.pdf
 $ENDCMP
 #
 $CMP FRT5
-D FRT5 relay
+D FORWARD INDUSTRIAL, Miniature Dual Pole Relay, DIP-like package
 K relay monostable
 F https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663
 $ENDCMP
 #
 $CMP FRT5_separated
-D FRT5 relay
+D FORWARD INDUSTRIAL, Miniature Dual Pole Relay, DIP-like package, separate subsymbols
 K relay monostable
 F https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663
 $ENDCMP
 #
 $CMP G5Q-1
-D OMRON G5G-1, Miniature Single Pole Relay, SPDT, 10A
+D Omron G5G relay, Miniature Single Pole, SPDT, 10A
 K Miniature Single Pole Relay
 F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
 $ENDCMP
 #
 $CMP G5Q-1A
-D G5G-1A, Miniature Single Pole Relay, SPST-NO, 10A
+D Omron G5Q relay, Miniature Single Pole, SPST-NO, 10A
 K Miniature Single Pole Relay
 F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
 $ENDCMP
 #
+$CMP G6E
+D Omron G6E relay, Subminiature, Sensitive SPDT Signal Switching Relay, Single-Side Stable
+K Single Pole Relay SPDT
+F https://www.omron.com/ecb/products/pdf/en-g6e.pdf
+$ENDCMP
+#
+$CMP G6EU
+D Omron G6E relay, Subminiature, Sensitive SPDT Signal Switching Relay, Single-winding latching
+K Single Pole Relay SPDT
+F https://www.omron.com/ecb/products/pdf/en-g6e.pdf
+$ENDCMP
+#
 $CMP IM00
-D IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC
+D IM Relay, standard version, monostable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC, THT package
 K relay monostable
 F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-98001&DocType=SS&DocLang=EN
 $ENDCMP
@@ -264,28 +276,40 @@ K relay bistable
 F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-98001&DocType=SS&DocLang=EN
 $ENDCMP
 #
-$CMP RM50-xx11
-D Single Pole Relay, Sugar Cube, 15A
-K Single Pole Relay Sugar Cube
-F http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf
-$ENDCMP
-#
 $CMP RM50-xx21
-D RELPOL RM50-xx21, Single Pole Relay SPST-NO, 6A
+D RELPOL, Single Pole Relay SPST-NO, 6A
 K Single Pole Relay SPST-NO
 F http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf
 $ENDCMP
 #
 $CMP RM84
-D RELPOL RM84, Dual Pole Relay, 5mm Pitch, 8A
+D RELPOL Dual Pole Relay, 5mm Pitch, 8A
 K Dual Pole Relay
 F http://www.relpol.pl/en/content/download/13766/168095/file/e_RM84.pdf
 $ENDCMP
 #
 $CMP RSM822
-D RELPOL RSM822, Dual Pole Relay, 5mm Pitch, 2A
+D RELPOL Dual Pole Relay, 5mm Pitch, 2A
 K Dual Pole Relay
 F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
+$ENDCMP
+#
+$CMP SANYOU_SRD_Form_A
+D Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact
+K Single Pole Relay SPST
+F http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
+$ENDCMP
+#
+$CMP SANYOU_SRD_Form_B
+D Sanyo SRD relay, Single Pole Miniature Power Relay, Opening Contact
+K Single Pole Relay SPST
+F http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
+$ENDCMP
+#
+$CMP SANYOU_SRD_Form_C
+D Sanyo SRD relay, Single Pole Miniature Power Relay, 
+K Single Pole Relay SPDT
+F http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
 $ENDCMP
 #
 $CMP TIANBO-HJR-4102-L
