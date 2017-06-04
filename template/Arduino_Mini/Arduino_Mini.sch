@@ -82,9 +82,9 @@ A5
 Text Label 10500 2700 0    60   ~ 0
 10(**/SS)
 Text Label 10500 2600 0    60   ~ 0
-11(MISO)
+11(MOSI)
 Text Label 10500 2500 0    60   ~ 0
-12(**/MOSI)
+12(**/MISO)
 Text Label 10500 2400 0    60   ~ 0
 13(SCK)
 Text Label 10500 2300 0    60   ~ 0

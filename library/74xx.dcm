@@ -30,6 +30,18 @@ D Hex Inverseur
 K HCMOS not inv
 $ENDCMP
 #
+$CMP 74HC240
+D 8bits Buffer/Line Driver 3 state Inverting
+K TTL BUFFER 3State inv
+F http://www.nxp.com/documents/data_sheet/74HC_HCT240.pdf
+$ENDCMP
+#
+$CMP 74HC244
+D 8bits Buffer/Line Driver 3 state
+K TTL BUFFER 3State 
+F http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf
+$ENDCMP
+#
 $CMP 74HC245
 D Octal BUS Transceivers, 3 State out
 K HCMOS BUS 3State
@@ -60,6 +72,18 @@ $ENDCMP
 $CMP 74HCT04
 D Hex Inverseur
 K HCTMOS not inv
+$ENDCMP
+#
+$CMP 74HCT240
+D 8 bit buffer; 3-state; inverting
+K octal buffer line driver inverting
+F http://www.nxp.com/documents/data_sheet/74HC_HCT240.pdf
+$ENDCMP
+#
+$CMP 74HCT244
+D 8bits Buffer/Line Driver 3 state
+K TTL BUFFER 3State 
+F http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf
 $ENDCMP
 #
 $CMP 74HCT541_PWR
@@ -190,6 +214,7 @@ $ENDCMP
 $CMP 74LS136
 D Quad Exclusive Or 2-inputs, Open Collect.
 K TTL XOR2 OpenCol
+F http://www.ti.com/lit/ds/symlink/sn54ls136.pdf
 $ENDCMP
 #
 $CMP 74LS137
@@ -677,6 +702,7 @@ $ENDCMP
 $CMP 74LS49
 D BDC to 7 segments decoder/driver, Open collect.
 K TTL DECOD DECOD7 OpenCol
+F http://www.ti.com/lit/ds/symlink/sn74ls49.pdf
 $ENDCMP
 #
 $CMP 74LS51
@@ -816,6 +842,12 @@ $ENDCMP
 $CMP 74ls670
 D 4 x 4 Register Files 3 State Out
 K TTL Register 3State
+$ENDCMP
+#
+$CMP SN74LVC1G332
+D 3-input OR Gate
+K 3 input OR
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g332.pdf
 $ENDCMP
 #
 #End Doc Library
