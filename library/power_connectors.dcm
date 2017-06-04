@@ -1,23 +1,49 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP WALLPLUG_220V
-D 3-pin wall plug (110VAC, 220VAC)
+$CMP Conn_WallPlug
+D 3-pin general wall plug with Earth wire (110VAC, 220VAC)
+K wall plug 110VAC 220VAC
+F ~
+$ENDCMP
+#
+$CMP Conn_WallPlug_ALT
+D 3-pin wall plug, alternate symbol (110VAC, 220VAC)
 K wall plug 110VAC 220VAC
 $ENDCMP
 #
-$CMP WALLPLUG_NOEARTH_220V
-D 2-pin wall plug (110VAC, 220VAC)
+$CMP Conn_WallPlug_ALT_NoEarth
+D 3-pin wall plug, alternate symbol, no earth wire (110VAC, 220VAC)
 K wall plug 110VAC 220VAC
 $ENDCMP
 #
-$CMP WALLSOCKET_220V
-D 3-pin wall socket (110VAC, 220VAC)
-K wall socket 110VAC 220VAC
+$CMP Conn_WallPlug_NoEarth
+D 3-pin general wall plug, no Earth wire (110VAC, 220VAC)
+K wall plug 110VAC 220VAC
+F ~
 $ENDCMP
 #
-$CMP WALLSOCKET_NOEARTH_220V
-D 3-pin wall socket (110VAC, 220VAC)
+$CMP Conn_WallSocket
+D 3-pin general wall socket, with Earth wire (110VAC, 220VAC)
 K wall socket 110VAC 220VAC
+F ~
+$ENDCMP
+#
+$CMP Conn_WallSocket_DE
+D 3-pin german wall socket with Earth wire (110VAC, 220VAC)
+K wall socket 110VAC 220VAC
+F ~
+$ENDCMP
+#
+$CMP Conn_WallSocket_DE_NoEarth
+D 3-pin german wall socket, no Earth wire (110VAC, 220VAC)
+K wall socket 110VAC 220VAC
+F ~
+$ENDCMP
+#
+$CMP Conn_WallSocket_NoEarth
+D 3-pin general wall socket, no Earth wire (110VAC, 220VAC)
+K wall socket 110VAC 220VAC
+F ~
 $ENDCMP
 #
 #End Doc Library
