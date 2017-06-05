@@ -1572,7 +1572,7 @@ K Adjustable Voltage Regulator 500mA Positive
 F http://www.national.com/ds/LM/LM117.pdf
 $ENDCMP
 #
-$CMP LM137K
+$CMP LM137_TO3
 D Negative 1.5A 35V Adjustable Linear Regulator, TO-3
 K Adjustable Voltage Regulator 1.5A Negative
 F http://www.ti.com/lit/ds/symlink/lm337-n.pdf
@@ -1696,6 +1696,18 @@ $CMP LM337_TO220
 D Negative 1.5A 35V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 1.5A Negative
 F http://www.ti.com/lit/ds/symlink/lm337-n.pdf
+$ENDCMP
+#
+$CMP LM337_TO252
+D Negative 1A 35V Adjustable Linear Regulator, TO-252(DPAK)
+K Adjustable Voltage Regulator 1A Negative
+F http://www.farnell.com/datasheets/1636957.pdf
+$ENDCMP
+#
+$CMP LM337_TO263
+D Negative 1A 35V Adjustable Linear Regulator, TO-263(D2-PAK)
+K Adjustable Voltage Regulator 1A Negative
+F https://www.onsemi.com/pub/Collateral/LM337-D.PDF
 $ENDCMP
 #
 $CMP LM337_TO3
@@ -3144,117 +3156,117 @@ K linear low dropout Regulator fixed ultra-low-noise
 F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
 $ENDCMP
 #
-$CMP NCP1117DT12G
-D 1A Low drop-out regulator, Fixed Output 12V, TO-252 (DPAK)
-K REGULATOR LDO 12V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117DT15G
-D 1A Low drop-out regulator, Fixed Output 1.5V, TO-252 (DPAK)
-K REGULATOR LDO 1.5V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117DT18G
-D 1A Low drop-out regulator, Fixed Output 1.8V, TO-252 (DPAK)
-K REGULATOR LDO 18.V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117DT19G
-D 1A Low drop-out regulator, Fixed Output 1.9V, TO-252 (DPAK)
-K REGULATOR LDO 1.9V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117DT20G
-D 1A Low drop-out regulator, Fixed Output 2.0V, TO-252 (DPAK)
-K REGULATOR LDO 2.0V 2V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117DT25G
-D 1A Low drop-out regulator, Fixed Output 2.5V, TO-252 (DPAK)
-K REGULATOR LDO 2.5V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117DT285G
-D 1A Low drop-out regulator, Fixed Output 2.85V, TO-252 (DPAK)
-K REGULATOR LDO 2.85V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117DT33G
-D 1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)
-K REGULATOR LDO 3.3V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117DT50G
-D 1A Low drop-out regulator, Fixed Output 5.0V, TO-252 (DPAK)
-K REGULATOR LDO 5.0V 5V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117DTAG
-D 1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, TO-252 (DPAK)
-K REGULATOR LDO ADJUSTABLE
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117ST12T3G
-D 1A Low drop-out regulator, Fixed Output 12V, SOT-223
-K REGULATOR LDO 12V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117ST15T3G
+$CMP NCP1117-1.5_SOT223
 D 1A Low drop-out regulator, Fixed Output 1.5V, SOT-223
 K REGULATOR LDO 1.5V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
-$CMP NCP1117ST18T3G
+$CMP NCP1117-1.5_TO252
+D 1A Low drop-out regulator, Fixed Output 1.5V, TO-252 (DPAK)
+K REGULATOR LDO 1.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-1.8_SOT223
 D 1A Low drop-out regulator, Fixed Output 1.8V, SOT-223
 K REGULATOR LDO 1.8V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
-$CMP NCP1117ST20T3G
+$CMP NCP1117-1.8_TO252
+D 1A Low drop-out regulator, Fixed Output 1.8V, TO-252 (DPAK)
+K REGULATOR LDO 18.V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-1.9_TO252
+D 1A Low drop-out regulator, Fixed Output 1.9V, TO-252 (DPAK)
+K REGULATOR LDO 1.9V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-12_SOT223
+D 1A Low drop-out regulator, Fixed Output 12V, SOT-223
+K REGULATOR LDO 12V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-12_TO252
+D 1A Low drop-out regulator, Fixed Output 12V, TO-252 (DPAK)
+K REGULATOR LDO 12V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.0_SOT223
 D 1A Low drop-out regulator, Fixed Output 2V, SOT-223
 K REGULATOR LDO 2V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
-$CMP NCP1117ST25T3G
+$CMP NCP1117-2.0_TO252
+D 1A Low drop-out regulator, Fixed Output 2.0V, TO-252 (DPAK)
+K REGULATOR LDO 2.0V 2V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.5_SOT223
 D 1A Low drop-out regulator, Fixed Output 2.5V, SOT-223
 K REGULATOR LDO 2.5V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
-$CMP NCP1117ST285T3G
+$CMP NCP1117-2.5_TO252
+D 1A Low drop-out regulator, Fixed Output 2.5V, TO-252 (DPAK)
+K REGULATOR LDO 2.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.85_SOT223
 D 1A Low drop-out regulator, Fixed Output 2.85V, SOT-223
 K REGULATOR LDO 2.85V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
-$CMP NCP1117ST33T3G
+$CMP NCP1117-2.85_TO252
+D 1A Low drop-out regulator, Fixed Output 2.85V, TO-252 (DPAK)
+K REGULATOR LDO 2.85V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-3.3_SOT223
 D 1A Low drop-out regulator, Fixed Output 3.3V, SOT-223
 K REGULATOR LDO 3.3V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
-$CMP NCP1117ST50T3G
+$CMP NCP1117-3.3_TO252
+D 1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)
+K REGULATOR LDO 3.3V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-5.0_SOT223
 D 1A Low drop-out regulator, Fixed Output 5V, SOT-223
 K REGULATOR LDO 5V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
-$CMP NCP1117STAT3G
+$CMP NCP1117-5.0_TO252
+D 1A Low drop-out regulator, Fixed Output 5.0V, TO-252 (DPAK)
+K REGULATOR LDO 5.0V 5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-ADJ_SOT223
 D 1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, SOT-223
 K REGULATOR LDO 12V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-ADJ_TO252
+D 1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, TO-252 (DPAK)
+K REGULATOR LDO ADJUSTABLE
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
@@ -3924,10 +3936,64 @@ K linear low dropout Regulator fixed
 F http://www.ti.com/lit/ds/symlink/tps763.pdf
 $ENDCMP
 #
-$CMP TPS769XX
-D Ultra Low Power 100mA Low Drop Out Regulator 1.2...5V, SOT-23-5
-K Ultra Low Power Fixed Adjustable LDO 100mA
-F http://www.ti.com/lit/ds/symlink/tps76950-q1.pdf
+$CMP TPS76901
+D Ultra Low Power 100mA Low Drop Adjustable Out Regulator, SOT-23-5
+K Ultra Low Power Adjustable LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
+$ENDCMP
+#
+$CMP TPS76912
+D Ultra Low Power 100mA Low Drop Out Regulator 1.2V, SOT-23-5
+K Ultra Low Power Fixed LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
+$ENDCMP
+#
+$CMP TPS76915
+D Ultra Low Power 100mA Low Drop Out Regulator 1.5V, SOT-23-5
+K Ultra Low Power Fixed LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
+$ENDCMP
+#
+$CMP TPS76918
+D Ultra Low Power 100mA Low Drop Out Regulator 1.8V, SOT-23-5
+K Ultra Low Power Fixed LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
+$ENDCMP
+#
+$CMP TPS76925
+D Ultra Low Power 100mA Low Drop Out Regulator 2.5V, SOT-23-5
+K Ultra Low Power Fixed LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
+$ENDCMP
+#
+$CMP TPS76927
+D Ultra Low Power 100mA Low Drop Out Regulator 2.7V, SOT-23-5
+K Ultra Low Power Fixed LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
+$ENDCMP
+#
+$CMP TPS76928
+D Ultra Low Power 100mA Low Drop Out Regulator 2.8V, SOT-23-5
+K Ultra Low Power Fixed LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
+$ENDCMP
+#
+$CMP TPS76930
+D Ultra Low Power 100mA Low Drop Out Regulator 3.0V, SOT-23-5
+K Ultra Low Power Fixed LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
+$ENDCMP
+#
+$CMP TPS76933
+D Ultra Low Power 100mA Low Drop Out Regulator 3.3V, SOT-23-5
+K Ultra Low Power Fixed LDO 100mA
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
+$ENDCMP
+#
+$CMP TPS76950
+D Ultra Low Power 100mA Low Drop Out Regulator 5.0V, SOT-23-5
+K Ultra Low Power Fixed LDO 100mA 5V
+F http://www.ti.com/lit/ds/symlink/tps769.pdf
 $ENDCMP
 #
 $CMP TPS77701_HTSSOP20
