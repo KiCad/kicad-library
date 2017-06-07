@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AP1117-ADJ
-D 1A Low Dropout regulator, positive, adjustable output, SOT-223
-K linear regulator ldo adjustable positive obsolete
-F http://www.diodes.com/datasheets/AP1117.pdf
-$ENDCMP
-#
 $CMP AP1117-15
 D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
 K linear regulator ldo fixed positive obsolete
@@ -33,6 +27,12 @@ $ENDCMP
 $CMP AP1117-50
 D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
 K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-ADJ
+D 1A Low Dropout regulator, positive, adjustable output, SOT-223
+K linear regulator ldo adjustable positive obsolete
 F http://www.diodes.com/datasheets/AP1117.pdf
 $ENDCMP
 #
@@ -1566,6 +1566,18 @@ K LDO regulator voltage
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
 $ENDCMP
 #
+$CMP LF47_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 4.7V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF47_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 4.7V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
 $CMP LF50_TO220
 D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 5.0V, TO-220
 K LDO regulator voltage
@@ -1610,6 +1622,18 @@ $ENDCMP
 #
 $CMP LF85_TO252
 D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 8.5V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF90_TO220
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 9.0V, TO-220
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF90_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 9.0V, TO-252 (DPAK)
 K LDO regulator voltage
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
 $ENDCMP
