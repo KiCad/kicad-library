@@ -3,11 +3,25 @@ EESchema-DOCLIB  Version 2.0
 $CMP 4N25
 D DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6
 K NPN DC Optocoupler Base Connected
+F https://www.vishay.com/docs/83725/4n25.pdf
 $ENDCMP
 #
 $CMP 4N26
 D DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 1500V, DIP6
 K NPN DC Optocoupler Base Connected
+F https://www.vishay.com/docs/83725/4n25.pdf
+$ENDCMP
+#
+$CMP 4N27
+D DC Optocoupler Base Connected, Vce 30V, CTR 10%, Viso 2500V, DIP6
+K NPN DC Optocoupler Base Connected
+F https://www.vishay.com/docs/83725/4n25.pdf
+$ENDCMP
+#
+$CMP 4N28
+D DC Optocoupler Base Connected, Vce 30V, CTR 10%, Viso 2500V, DIP6
+K NPN DC Optocoupler Base Connected
+F https://www.vishay.com/docs/83725/4n25.pdf
 $ENDCMP
 #
 $CMP 6N135
@@ -53,49 +67,56 @@ F http://cdn-reichelt.de/documents/datenblatt/A500/A90xxxx%23PE.pdf
 $ENDCMP
 #
 $CMP ACPL-C790
-D Precision Isolation Amplifer, ±3% Gain Tolerance, Bandwidth 200kHz, Stretched SO-8
+D Precision Isolation Amplifer, ±3% Gain Tolerance, Bandwidth 200kHz, SSO-8
 K Isolation Amplifer
 F http://docs.avagotech.com/docs/AV02-2460EN
 $ENDCMP
 #
 $CMP ACPL-C79A
-D Precision Isolation Amplifer, ±1% Gain Tolerance, Bandwidth 200kHz, Stretched SO-8
+D Precision Isolation Amplifer, ±1% Gain Tolerance, Bandwidth 200kHz, SSO-8
 K Isolation Amplifer
 F http://docs.avagotech.com/docs/AV02-2460EN
 $ENDCMP
 #
 $CMP ACPL-C79B
-D Precision Isolation Amplifer, ±0.5% Gain Tolerance, Bandwidth 200kHz, Stretched SO-8
+D Precision Isolation Amplifer, ±0.5% Gain Tolerance, Bandwidth 200kHz, SSO-8
 K Isolation Amplifer
 F http://docs.avagotech.com/docs/AV02-2460EN
 $ENDCMP
 #
 $CMP ACPL-C870
-D Precision Optycally Isolated Voltage Sensor, ±3% Gain Tolerance, Bandwidth 100kHz, Stretched SO-8
+D Precision Optycally Isolated Voltage Sensor, ±3% Gain Tolerance, Bandwidth 100kHz, SSO-8
 K Optycally Isolated Voltage Sensor
 F www.avagotech.com/docs/AV02-3563EN
 $ENDCMP
 #
 $CMP ACPL-C87A
-D Precision Optycally Isolated Voltage Sensor, ±1% Gain Tolerance, Bandwidth 100kHz, Stretched SO-8
+D Precision Optycally Isolated Voltage Sensor, ±1% Gain Tolerance, Bandwidth 100kHz, SSO-8
 K Optycally Isolated Voltage Sensor
 F www.avagotech.com/docs/AV02-3563EN
 $ENDCMP
 #
 $CMP ACPL-C87B
-D Precision Optycally Isolated Voltage Sensor, ±0.5% Gain Tolerance, Bandwidth 100kHz, Stretched SO-8
+D Precision Optycally Isolated Voltage Sensor, ±0.5% Gain Tolerance, Bandwidth 100kHz, SSO-8
 K Optycally Isolated Voltage Sensor
 F www.avagotech.com/docs/AV02-3563EN
 $ENDCMP
 #
 $CMP ACPL-P343
-D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, Stretched SO-6
+D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
+K MOSFET Driver IGBT Driver Optocoupler
+F http://www.avagotech.com/docs/AV02-2928EN
+$ENDCMP
+#
+$CMP ACPL-W343
+D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
 K MOSFET Driver IGBT Driver Optocoupler
 F http://www.avagotech.com/docs/AV02-2928EN
 $ENDCMP
 #
 $CMP ASMT-YTC2-0AA02
 D Triple LED RVB (Avago Technology)
+K LED RGB
 F http://www.avagotech.com/docs/AV02-2589EN
 $ENDCMP
 #
@@ -316,7 +337,7 @@ F http://www.avagotech.com/docs/AV02-0161EN
 $ENDCMP
 #
 $CMP IL300
-D Isolated Linear Photocoupler, High Gain, Wideband, DIP8/SMD8
+D Isolated Linear Photocoupler, High Gain, Wideband, DIP8/SMD-DIP8
 K Isolated Linear Photocoupler
 F http://www.vishay.com/docs/83622/il300.pdf
 $ENDCMP
@@ -388,38 +409,45 @@ F http://www.zdspb.com/media/manuals/LPT80A_sidelooker.pdf
 $ENDCMP
 #
 $CMP LTV-352T
-D DC Darlington Optocoupler, Vce 300V, CTR 1000%, MFSOP6
+D DC Darlington Optocoupler, Vce 300V, CTR 1000%, SO-4
 K NPN Darlington DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-002/S_110_LTV-352T%2020140520.pdf
 $ENDCMP
 #
 $CMP LTV-354T
-D AC/DC Optocoupler, Vce 35V, CTR 20%, MFSOP6
+D AC/DC Optocoupler, Vce 35V, CTR 20%, SO-4
 K NPN AC DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-004/S_110_LTV-354T%2020140520.pdf
 $ENDCMP
 #
 $CMP LTV-355T
-D DC Darlington Optocoupler, Vce 35V, CTR 600%, MFSOP6
+D DC Darlington Optocoupler, Vce 35V, CTR 600%, SO-4
 K NPN Darlington DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-006/S_110_LTV-355T%2020140520.pdf
 $ENDCMP
 #
 $CMP LTV-356T
-D DC Optocoupler, Vce 80V, CTR 50%, MFSOP6
+D DC Optocoupler, Vce 80V, CTR 50%, SO-4
 K NPN DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-010/S_110_LTV-356T%2020140520.pdf
 $ENDCMP
 #
 $CMP LTV-357T
-D DC Optocoupler, Vce 35V, CTR 50%, MFSOP6
+D DC Optocoupler, Vce 35V, CTR 50%, SO-4
 K NPN DC Optocoupler
+F https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf
 $ENDCMP
 #
 $CMP LTV-358T
-D DC Optocoupler, Vce 120V, CTR 50%, MFSOP6
+D DC Optocoupler, Vce 120V, CTR 50%, SO-4
 K NPN DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-022/S_110_LTV-358T%2020140520.pdf
 $ENDCMP
 #
 $CMP LTV-814
 D AC/DC Optocoupler, Vce 35V, CTR 20%, DIP4
 K NPN AC DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf
 $ENDCMP
 #
 $CMP LTV-817
@@ -431,6 +459,7 @@ $ENDCMP
 $CMP LTV-824
 D Dual AC/DC Optocoupler, Vce 35V, CTR 20%, DIP8
 K Dual NPN AC DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf
 $ENDCMP
 #
 $CMP LTV-827
@@ -442,6 +471,7 @@ $ENDCMP
 $CMP LTV-844
 D Quad AC/DC Optocoupler, Vce 35V, CTR 20%, DIP16
 K Quad NPN AC DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf
 $ENDCMP
 #
 $CMP LTV-847
@@ -594,31 +624,6 @@ K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
 $ENDCMP
 #
-$CMP OPTO-DARLINGTON
-D Generic DC Darlington Optocoupler
-K NPN Darlington DC Optocoupler
-$ENDCMP
-#
-$CMP OPTO-THYRISTOR
-D Generic DC Optocoupler Thyristor Based
-K OptoThyristor DC Optocoupler
-$ENDCMP
-#
-$CMP OPTO-TRANSISTOR
-D Generic Optocoupler with Base Connected
-K NPN DC Optocoupler Base Connected
-$ENDCMP
-#
-$CMP OPTO-TRANSISTOR-4
-D Generic DC Quad Optocoupler
-K NPN DC Quad Optocoupler
-$ENDCMP
-#
-$CMP OPTO-TRIAC
-D Generic Random Phase Opto-Triac
-K Opto-Triac Opto Triac Random Phase
-$ENDCMP
-#
 $CMP PC3H4
 D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
 K NPN AC DC Optocoupler
@@ -656,25 +661,25 @@ F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
 $CMP PL450B
-D Blue Laser Diode
+D Blue Laser Diode (450nm), TO-38
 K opto laserdiode
 F http://www.osram-os.com/Graphics/XPic5/00193831_0.pdf/PL%20450B.pdf
 $ENDCMP
 #
 $CMP PL520
-D Green Laser Diode
+D Green Laser Diode (520nm), TO-38
 K opto laserdiode
 F http://www.osram-os.com/Graphics/XPic7/00234693_0.pdf/PL%20520.pdf
 $ENDCMP
 #
 $CMP PLT5_488
-D Cyan Laser Diode
+D Cyan Laser Diode (488nm), TO-56
 K opto laserdiode
 F http://www.osram-os.com/Graphics/XPic6/00206440_0.pdf/PLT5%20488.pdf
 $ENDCMP
 #
 $CMP PLT5_510
-D Green Laser Diode
+D Green Laser Diode (510nm), TO-38
 K opto laserdiode
 F http://www.osram-os.com/Graphics/XPic2/00227065_0.pdf/PLT5%20510.pdf
 $ENDCMP
@@ -897,7 +902,7 @@ $ENDCMP
 #
 $CMP TCMT4600
 D Quad AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP16
-K NPN AC DC Quad Phototransistor Optocoupler 
+K NPN AC DC Quad Phototransistor Optocoupler
 F http://www.vishay.com/docs/83512/tcmt1600.pdf
 $ENDCMP
 #
@@ -914,27 +919,27 @@ F https://www.egr.msu.edu/eceshop/Parts_Inventory/datasheets/til111.pdf
 $ENDCMP
 #
 $CMP TLP127
-D DC Darlington Optocoupler, Vce 300V, CTR 1000%, MFSOP6
+D DC Darlington Optocoupler, Vce 300V, CTR 1000%, MFSOP4
 K NPN Darlington DC Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP127_en_datasheet_071001.pdf
+F http://www.soemtron.org/downloads/disposals/tlp127.pdf
 $ENDCMP
 #
 $CMP TLP130
 D AC DC Optocoupler Base Connected, Vce 80V, CTR 50-100%, MFSOP6
 K NPN AC DC Optocoupler Base Connected
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP130_en_datasheet_071001.pdf
+F https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/TLP130.pdf
 $ENDCMP
 #
 $CMP TLP131
 D DC Optocoupler Base Connected, Vce 80V, CTR 50-200%, MFSOP6
 K NPN DC Optocoupler Base Connected
-F http://www.toshiba-components.com/docs/opto/TLP131_en_datasheet.pdf
+F http://www.tme.eu/pt/Document/d6e20deeaaaf99574d9a1f80696118a9/TLP131(F).pdf
 $ENDCMP
 #
 $CMP TLP137
 D DC Optocoupler Base Connected, Vce 80V, CTR 100-200%, MFSOP6
 K NPN DC Optocoupler Base Connected
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP137_en_datasheet_071001.pdf
+F http://littlediode.com/datasheets/pdf/Datasheets-TLP/TLP137.PDF
 $ENDCMP
 #
 $CMP TLP141G
@@ -946,50 +951,55 @@ $ENDCMP
 $CMP TLP160G
 D Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, SOP6
 K Opto-Triac Opto Triac Random
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16916&prodName=TLP160G
 $ENDCMP
 #
 $CMP TLP160J
 D Random Phase Opto-Triac, Vdrm 600V, Ift 7mA, SOP6
 K Opto-Triac Opto Triac Random
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16916&prodName=TLP160G
 $ENDCMP
 #
 $CMP TLP161G
 D Zero Cross Opto-Triac, Vdrm 400V, Ift 5mA, SOP6
 K Opto-Triac Opto Triac Zero Cross
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16921&prodName=TLP161G
 $ENDCMP
 #
 $CMP TLP161J
 D Zero Cross Opto-Triac, Vdrm 600V, Ift 7mA, SOP6
 K Opto-Triac Opto Triac Zero Cross
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16921&prodName=TLP161G
 $ENDCMP
 #
 $CMP TLP175A
 D MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA, SOP6
 K MOSFET Output Photorelay 1-Form-A
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A
 $ENDCMP
 #
 $CMP TLP184
 D AC/DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
 K NPN AC DC Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP184_en_datasheet_120214.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=11793&prodName=TLP184
 $ENDCMP
 #
 $CMP TLP185
 D DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
 K NPN DC Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP185_en_datasheet_120214.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=11791&prodName=TLP185
 $ENDCMP
 #
 $CMP TLP222A
 D MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, DIP4
 K MOSFET Output Photorelay 1-Form-A
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP222A_TLP222A-2_en_datasheet_071001.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A
 $ENDCMP
 #
 $CMP TLP222A-2
 D Dual MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, DIP8
 K Dual MOSFET Output Photorelay 1-Form-A
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP222A_TLP222A-2_en_datasheet_071001.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A
 $ENDCMP
 #
 $CMP TLP250
@@ -1001,73 +1011,73 @@ $ENDCMP
 $CMP TLP290
 D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4
 K NPN AC DC Phototransistor Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP290_en_datasheet_120426.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12882&prodName=TLP290
 $ENDCMP
 #
 $CMP TLP290-4
 D Quad AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP16
 K NPN AC DC Quad Phototransistor Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP290-4_en_datasheet_120322.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4
 $ENDCMP
 #
 $CMP TLP291
 D DC Optocoupler, Vce 80V, CTR 50-100%, SOP4
 K NPN DC Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291_en_datasheet_120426.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291
 $ENDCMP
 #
 $CMP TLP291-4
 D Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16
 K NPN DC Quad Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291-4_en_datasheet_120322.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4
 $ENDCMP
 #
 $CMP TLP3021
 D Photo-Triac, Vdrm 400V, Ift 15mA, DIP6
 K Photo-Triac Opto Triac
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP3021(S)_TLP3023(S)_en_datasheet_101001.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=1421&prodName=TLP3021(S)
 $ENDCMP
 #
 $CMP TLP3022
 D Photo-Triac, Vdrm 400V, Ift 10mA, DIP6
 K Photo-Triac Opto Triac
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP3021(S)_TLP3023(S)_en_datasheet_101001.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=1421&prodName=TLP3021(S)
 $ENDCMP
 #
 $CMP TLP3023
 D Photo-Triac, Vdrm 400V, Ift 5mA, DIP6
 K Photo-Triac Opto Triac
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP3021(S)_TLP3023(S)_en_datasheet_101001.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=1421&prodName=TLP3021(S)
 $ENDCMP
 #
 $CMP TLP627
 D DC Darlington Optocoupler, Vce 300V, CTR 1000%, DIP4
 K NPN Darlington DC Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP627_TLP627-4_en_datasheet_071001.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627
 $ENDCMP
 #
 $CMP TLP627-2
 D DC Dual Darlington Optocoupler, Vce 300V, CTR 1000%, DIP8
 K NPN Dual Darlington DC Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP627_TLP627-4_en_datasheet_071001.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627
 $ENDCMP
 #
 $CMP TLP627-4
 D DC Quad Darlington Optocoupler, Vce 300V, CTR 1000%, DIP16
 K NPN Quad Darlington DC Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP627_TLP627-4_en_datasheet_071001.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627
 $ENDCMP
 #
 $CMP TLP785
 D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4
 K NPN DC Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP785_TLP785F_en_datasheet_120220.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785
 $ENDCMP
 #
 $CMP TLP785F
 D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4F
 K NPN DC Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP785_TLP785F_en_datasheet_120220.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785F
 $ENDCMP
 #
 $CMP TSAL4400
