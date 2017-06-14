@@ -168,6 +168,54 @@ K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
+$CMP DS1821C
+D Programmable Digital Thermostat and Thermometer
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
+$ENDCMP
+#
+$CMP DS1822
+D Econo 1-Wire Digital Thermometer TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS1822-PAR
+D Econo 1-Wire Parasite-Power Digital Thermometer
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1822-PAR.pdf
+$ENDCMP
+#
+$CMP DS18B20
+D Programmable Resolution 1-Wire Digital Thermometer TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18B20-PAR
+D 1-Wire Parasite-Power Digital Thermometer
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18B20-PAR.pdf
+$ENDCMP
+#
+$CMP DS18S20
+D High-Precision 1-Wire Digital Thermometer TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
+$ENDCMP
+#
+$CMP DS18S20-PAR
+D 1-Wire Parasite-Power Digital Thermometer
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20-PAR.pdf
+$ENDCMP
+#
+$CMP DS2401
+D Silicon Serial Number TO-92
+K OneWire 1Wire Maxim Dallas ID
+F http://pdfserv.maximintegrated.com/en/ds/DS2401.pdf
+$ENDCMP
+#
 $CMP Flir_LEPTON
 D LWIR camera 8 to 14um 80x60 pixel
 K LWIR camera
@@ -418,6 +466,24 @@ $CMP LV25-P
 D LEM Voltage transducer LV 25-P
 K Voltage transducer
 F http://www.lem.com/docs/products/lv_25-p.pdf
+$ENDCMP
+#
+$CMP MAX31820
+D 1-Wire Ambient Temperature Sensor
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf
+$ENDCMP
+#
+$CMP MAX31820PAR
+D 1-Wire, Parasite-Power, Ambient Temperature Sensor
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820PAR.pdf
+$ENDCMP
+#
+$CMP MAX31826
+D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM
+K 1Wire OneWire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
 $ENDCMP
 #
 $CMP MCP9501
