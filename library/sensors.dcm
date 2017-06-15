@@ -25,49 +25,49 @@ F http://www.honeywellscportal.com//index.php?ci_id=138832
 $ENDCMP
 #
 $CMP A1101ELHL
-D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C 
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1101LLHL
-D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1102ELHL
-D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +85C 
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +85C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1102LLHL
-D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1103ELHL
-D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +85C 
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +85C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1103LLHL
-D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1104LLHL
-D Hall effect switch, unipolar, Bop=240G, Brp=200G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=240G, Brp=200G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1106LLHL
-D Hall effect switch, unipolar, Bop=340G, Brp=240G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=340G, Brp=240G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
@@ -420,12 +420,6 @@ K Voltage transducer
 F http://www.lem.com/docs/products/lv_25-p.pdf
 $ENDCMP
 #
-$CMP MAX31855
-D Cold-Junction Compensated Thermocouple-to-Digital Converter
-K Thermocouple Converter
-F http://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/MAX31855.html#popuppdf
-$ENDCMP
-#
 $CMP MCP9501
 D Temperature Switch with Selectable Hysteresis, Open-Drain, Active-Low Output (Hot Option), SOT-23-5
 K Temperature Switch sensor
@@ -498,9 +492,21 @@ K temperature sensor thermistor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
 #
+$CMP MCP9804_DFN
+D Microchip Technology Digital Temperature Sensor DFN
+K temperature sensor I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf
+$ENDCMP
+#
+$CMP MCP9804_MSOP
+D Microchip Technology Digital Temperature Sensor MSOP
+K temperature sensor I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf
+$ENDCMP
+#
 $CMP MMA8653FCR1
 D 3-Axis 10-bit Digital Accelerometer with I2C interface
-K Accelerometer I2C 
+K Accelerometer I2C
 F http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8653FC.pdf
 $ENDCMP
 #
