@@ -1632,7 +1632,7 @@ F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
 $ENDCMP
 #
 $CMP LP2985LV
-D MICROPOWER 150mA Regulator 
+D MICROPOWER 150mA Regulator
 K REGUL POWER  SOT-23-5
 F regulator/LP2985.pdf
 $ENDCMP
@@ -2040,6 +2040,36 @@ $CMP LT3010
 D Adj Low drop Linear Regulator (MSOP package 9 pins), Vin <= 80V
 K REGUL POWER
 F linear-tec/lt3010.pdf
+$ENDCMP
+#
+$CMP LT3032
+D Positive/Negative adjustable voltage - Low noise low dropout linear regulator with 150mA
+K dual low-noise linear
+F http://cds.linear.com/docs/en/datasheet/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-12
+D Positive/Negative fixed voltage Low noise low dropout linear regulator with 150mA
+K dual low-noise linear
+F http://cds.linear.com/docs/en/datasheet/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-15
+D Positive/Negative fixed voltage Low noise low dropout linear regulator with 150mA
+K dual low-noise linear
+F http://cds.linear.com/docs/en/datasheet/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-3.3
+D Positive/Negative fixed voltage Low noise low dropout linear regulator with 150mA
+K dual low-noise linear
+F http://cds.linear.com/docs/en/datasheet/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-5
+D Positive/Negative fixed voltage Low noise low dropout linear regulator with 150mA
+K dual low-noise linear
+F http://cds.linear.com/docs/en/datasheet/3032ff.pdf
 $ENDCMP
 #
 $CMP LT3472
@@ -2782,19 +2812,19 @@ $ENDCMP
 #
 $CMP TC1054
 D 50mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
-K LDO regulator voltage 
+K LDO regulator voltage
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
 $ENDCMP
 #
 $CMP TC1055
 D 100mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
-K LDO regulator voltage 
+K LDO regulator voltage
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
 $ENDCMP
 #
 $CMP TC1186
 D 150mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
-K LDO regulator voltage 
+K LDO regulator voltage
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
 $ENDCMP
 #
