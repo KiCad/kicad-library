@@ -748,6 +748,12 @@ K Miniature Step-Up Boost Flyback SEPIC Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2735.pdf
 $ENDCMP
 #
+$CMP LM27761
+D low-noise regulated switched-capacitor voltage inverter with 2.7V-5.5V input to -1.5 to -5V output
+K low-noise switched capacitor voltage converter invert
+F http://www.ti.com/lit/ds/symlink/lm27761.pdf
+$ENDCMP
+#
 $CMP LM3407MY
 D LED Lighting CC Floating Buck Switching Regulator, eMSOP-8
 K LED Step-Down Switching Regulator
@@ -1057,6 +1063,12 @@ $CMP LTC3890-1
 D 60V dual 2-phase synchronous step-down DC/DC controller in SSOP-28 package
 K switching buck converter regulator dual-output
 F http://cds.linear.com/docs/en/datasheet/38901fb.pdf
+$ENDCMP
+#
+$CMP LTC660
+D Monolithic CMOS switched-capacitor from 1.5V to 5.5V up to 100mA(DIP)
+K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
+F http://cds.linear.com/docs/en/datasheet/660fa.pdf
 $ENDCMP
 #
 $CMP MAX1044
