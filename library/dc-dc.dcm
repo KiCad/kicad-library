@@ -949,6 +949,12 @@ D Low EMI DC/DC converter.
 F regulator/lt3439.pdf
 $ENDCMP
 #
+$CMP LT3472
+D Boost and Inverting DC/DC Converter for CCD Bias
+K DC/DC converter CCD Bias Boost
+F http://cds.linear.com/docs/en/datasheet/3472f.pdf
+$ENDCMP
+#
 $CMP LT3757EMSE
 D Boost, flyback, SEPIC and inverting regulator (MSOP package)
 $ENDCMP
@@ -980,6 +986,12 @@ $CMP LTC1878EMS8
 D Synchronous Step-Down Regulator
 K REGUL POWER
 F linear-tec/ltc1878.pdf
+$ENDCMP
+#
+$CMP LTC3406B-1.2
+D 1.5MHz, 600mA Synchronous Step-Down Regulator, ThinSOT
+K Regulator step-down
+F http://cds.linear.com/docs/en/datasheet/3406b12fs.pdf
 $ENDCMP
 #
 $CMP LTC3429
@@ -1305,6 +1317,12 @@ K REGUL POWER
 F micrel/mic2177.pdf
 $ENDCMP
 #
+$CMP MIC4690
+D 500kHz 1A SuperSwitcher™ Buck Regulator
+K regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
+$ENDCMP
+#
 $CMP NID60
 D 60W, 250kHz Step Down Converter
 K 60W, 250KHz Buck DC/DC
@@ -1441,6 +1459,12 @@ $CMP NMA1515SC
 D Isolated 1W Dual output DC/DC Converter 5V Input +/-15V Output, SIP Package
 K Murata DC/DC
 F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP PT6100
+D 1 Amp Adjustable Positive Step-down Integrated Switching Regulator
+K REG ADJ 1A
+F http://www.ti.com/lit/ds/symlink/pt6101.pdf
 $ENDCMP
 #
 $CMP ST1CC40PHR
