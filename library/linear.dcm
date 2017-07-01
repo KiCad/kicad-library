@@ -924,14 +924,26 @@ K quad comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf
 $ENDCMP
 #
-$CMP MCP6L91
+$CMP MCP6L91RT-E/MS
+D 10 MHz, 850 µA Op Amps, MSOP-8
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP MCP6L91T-E/OT
 D 10 MHz, 850 µA Op Amps, SOT-23-5
 K single opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
 #
-$CMP MCP6L91R
+$CMP MCP6L91RT-E/OT
 D 10 MHz, 850 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP MCP6L91RT-E/SN
+D 10 MHz, 850 µA Op Amps, SOIC-8
 K single opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
@@ -1326,27 +1338,45 @@ K dual opamp
 F www.st.com/resource/en/datasheet/ts912.pdf
 $ENDCMP
 #
-$CMP TSV911
+$CMP TSV911IDT
+D Single rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8
+K single opamp
+F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP TSV911ILT
 D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
 K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
 #
-$CMP TSV911R
+$CMP TSV911RILT
 D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
 K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
 #
-$CMP TSV912_DFN
+$CMP TSV912IDT
+D Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8
+K dual opamp
+F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP TSV912IQ2T
 D Dual rail-to-rail input/output 8 MHz operational amplifiers, DFN-8
 K dual opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
 #
-$CMP TSV912_MSOP_SOIC
-D Dual rail-to-rail input/output 8 MHz operational amplifiers, MSOP-8/SOIC-8
+$CMP TSV912IST
+D Dual rail-to-rail input/output 8 MHz operational amplifiers, MiniSO-8
 K dual opamp
+F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP TSV914
+D Quad rail-to-rail input/output 8 MHz operational amplifiers, SOIC-14/TSSOP-14
+K quad opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
 #
