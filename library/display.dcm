@@ -138,12 +138,6 @@ K LCD 12x2
 F http://www.vishay.com/docs/37299/37299.pdf
 $ENDCMP
 #
-$CMP LCD16X2
-D WC1602A0-SFYLYNC06
-K Generic LCD 16x2 Alphanumeric 16pin Green Backlight
-F http://www.kamami.pl/dl/wc1602a0.pdf
-$ENDCMP
-#
 $CMP LTS-6960HR
 D DISPLAY 7 SEGMENTS common A.
 K 7 SEGMENTS
@@ -165,6 +159,12 @@ $CMP RC1602A-GHW-ESX
 D RC1602A-GHW-ESX
 K LCD 16x2 Alphanumeric 16pin Gray Backlight
 F http://www.raystar-optronics.com/down.php?ProID=18
+$ENDCMP
+#
+$CMP WC1602A
+D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
+K LCD 16x2 Alphanumeric Green Backlight
+F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
 $ENDCMP
 #
 #End Doc Library
