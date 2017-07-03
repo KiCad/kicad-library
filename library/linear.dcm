@@ -690,8 +690,14 @@ K current sense amplifier
 F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
 $ENDCMP
 #
-$CMP LTC6362
-D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver
+$CMP LTC6362xDD
+D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, MSOP-8
+K single differential opamp
+F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
+$ENDCMP
+#
+$CMP LTC6362xMS8
+D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
 F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
 $ENDCMP
