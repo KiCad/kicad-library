@@ -19,12 +19,6 @@ LIBS:contrib
 LIBS:cypress
 LIBS:dc-dc
 LIBS:device
-LIBS:device_BASE_1978
-LIBS:device_BASE_2034
-LIBS:device_LOCAL_1978
-LIBS:device_LOCAL_2034
-LIBS:device_REMOTE_1978
-LIBS:device_REMOTE_2034
 LIBS:digital-audio
 LIBS:diode
 LIBS:display
@@ -63,8 +57,8 @@ LIBS:opto
 LIBS:Oscillators
 LIBS:philips
 LIBS:power
-LIBS:powerint
 LIBS:Power_Management
+LIBS:powerint
 LIBS:pspice
 LIBS:references
 LIBS:regul
@@ -88,8 +82,7 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
-LIBS:raspberrypi-gpio-40pin-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -103,28 +96,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_02X20 P1
-U 1 1 580C18BB
-P 2600 2050
-F 0 "P1" H 2600 3100 50  0000 C CNN
-F 1 "CONN_02X20" V 2600 2050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x20" H 2600 650 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/RPI-3B-V1_2-SCHEMATIC-REDUCED.pdf" H 2900 3500 50  0001 C CNN
-	1    2600 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR3
-U 1 1 580C1B61
-P 3000 950
-F 0 "#PWR3" H 3000 800 50  0001 C CNN
-F 1 "+5V" H 3000 1090 50  0000 C CNN
-F 2 "" H 3000 950 50  0000 C CNN
-F 3 "" H 3000 950 50  0000 C CNN
-	1    3000 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 950  3000 1200
 Wire Wire Line
@@ -132,24 +103,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 1200 2850 1200
 Connection ~ 3000 1100
-$Comp
-L GND #PWR4
-U 1 1 580C1D11
-P 3000 3150
-F 0 "#PWR4" H 3000 2900 50  0001 C CNN
-F 1 "GND" H 3000 3000 50  0000 C CNN
-F 2 "" H 3000 3150 50  0000 C CNN
-F 3 "" H 3000 3150 50  0000 C CNN
-	1    3000 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 3000 2850 3000
 Wire Wire Line
 	3000 1300 3000 3150
 Wire Wire Line
 	3000 2700 2850 2700
-Connection ~ 3000 3000
 Wire Wire Line
 	3000 2500 2850 2500
 Connection ~ 3000 2700
@@ -159,17 +116,6 @@ Connection ~ 3000 2500
 Wire Wire Line
 	3000 1700 2850 1700
 Connection ~ 3000 2000
-$Comp
-L GND #PWR2
-U 1 1 580C1E01
-P 2200 3150
-F 0 "#PWR2" H 2200 2900 50  0001 C CNN
-F 1 "GND" H 2200 3000 50  0000 C CNN
-F 2 "" H 2200 3150 50  0000 C CNN
-F 3 "" H 2200 3150 50  0000 C CNN
-	1    2200 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 3000 2350 3000
 Wire Wire Line
@@ -184,17 +130,6 @@ Wire Wire Line
 	2100 1100 2350 1100
 Wire Wire Line
 	2100 950  2100 1900
-$Comp
-L +3.3V #PWR1
-U 1 1 580C1BC1
-P 2100 950
-F 0 "#PWR1" H 2100 800 50  0001 C CNN
-F 1 "+3.3V" H 2100 1090 50  0000 C CNN
-F 2 "" H 2100 950 50  0000 C CNN
-F 3 "" H 2100 950 50  0000 C CNN
-	1    2100 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 1500 2350 1500
 Connection ~ 2200 2300
@@ -283,9 +218,9 @@ GPIO19
 Text Label 1250 2900 0    50   ~ 0
 GPIO26
 Text Label 3950 2900 2    50   ~ 0
-GPIO21
-Text Label 3950 2800 2    50   ~ 0
 GPIO20
+Text Label 3950 2800 2    50   ~ 0
+GPIO16
 Text Label 3950 2600 2    50   ~ 0
 GPIO12
 Text Label 3950 2400 2    50   ~ 0
@@ -357,4 +292,63 @@ F 3 "" H 3450 7400 60  0001 C CNN
 $EndComp
 Text Notes 3000 7050 0    50   ~ 0
 Mounting Holes
+$Comp
+L CONN_02X20 P?
+U 1 1 595DA26F
+P 2600 2050
+F 0 "P?" H 2600 3100 50  0000 C CNN
+F 1 "CONN_02X20" V 2600 2050 50  0000 C CNN
+F 2 "" H 2600 1100 50  0000 C CNN
+F 3 "" H 2600 1100 50  0000 C CNN
+	1    2600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3000 3950 3000
+Text Label 3950 3000 2    50   ~ 0
+GPIO21
+$Comp
+L +3.3V #PWR?
+U 1 1 595DA3F0
+P 2100 950
+F 0 "#PWR?" H 2100 800 50  0001 C CNN
+F 1 "+3.3V" H 2100 1090 50  0000 C CNN
+F 2 "" H 2100 950 50  0000 C CNN
+F 3 "" H 2100 950 50  0000 C CNN
+	1    2100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 595DA413
+P 3000 950
+F 0 "#PWR?" H 3000 800 50  0001 C CNN
+F 1 "+5V" H 3000 1090 50  0000 C CNN
+F 2 "" H 3000 950 50  0000 C CNN
+F 3 "" H 3000 950 50  0000 C CNN
+	1    3000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595DA472
+P 2200 3150
+F 0 "#PWR?" H 2200 2900 50  0001 C CNN
+F 1 "GND" H 2200 3000 50  0000 C CNN
+F 2 "" H 2200 3150 50  0000 C CNN
+F 3 "" H 2200 3150 50  0000 C CNN
+	1    2200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595DA490
+P 3000 3150
+F 0 "#PWR?" H 3000 2900 50  0001 C CNN
+F 1 "GND" H 3000 3000 50  0000 C CNN
+F 2 "" H 3000 3150 50  0000 C CNN
+F 3 "" H 3000 3150 50  0000 C CNN
+	1    3000 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
