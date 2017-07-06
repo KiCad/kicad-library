@@ -1,4 +1,4 @@
-update=7/5/2017 10:36:35 PM
+update=7/5/2017 10:51:37 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -87,8 +87,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=50
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -176,3 +174,5 @@ LibName80=Worldsemi
 LibName81=Xicor
 LibName82=xilinx
 LibName83=Zilog
+[general]
+version=1
