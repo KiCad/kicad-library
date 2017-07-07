@@ -13,6 +13,7 @@ set( template_lst
     ti-stellaris-boosterpack40
     ti-stellaris-boosterpack40_min
     BeagleBone-Black-Cape
+    minnowboard-ls-lure
     )
 
 
@@ -30,6 +31,7 @@ install( FILES
     fp-lib-table.for-pretty
     fp-lib-table.for-legacy
     fp-lib-table.for-eagle-6.4.0
+    sym-lib-table
     DESTINATION ${KICAD_TEMPLATE}
     COMPONENT resources
     )
