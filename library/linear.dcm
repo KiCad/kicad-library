@@ -1506,8 +1506,26 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/tlc274.pdf
 $ENDCMP
 #
-$CMP TLC555
-D Single LinCMOS Timer, DIP-8/SOIC-8/SSOP-8
+$CMP TLC555CD
+D Single LinCMOS Timer, SOIC-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CP
+D Single LinCMOS Timer, DIP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CPS
+D Single LinCMOS Timer, SSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CPW
+D Single LinCMOS Timer, TSSOP-14
 K single timer
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
