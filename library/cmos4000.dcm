@@ -100,6 +100,12 @@ D Phase Comp & VCO
 K CMOS PLL
 $ENDCMP
 #
+$CMP 4047
+D Monostable/Astable Multivibrator
+K CMOS monostable astable multivibrator
+F https://www.fairchildsemi.com/datasheets/CD/CD4047BC.pdf
+$ENDCMP
+#
 $CMP 4049
 D Hex Buffer Inverter
 K CMOS BUFFER
@@ -195,6 +201,12 @@ $ENDCMP
 $CMP 4538
 D Monostable
 K CMOS
+$ENDCMP
+#
+$CMP 4543
+D BCD to 7-segment latch/decoder/driver
+K CMOS 7-segment latch decoder driver
+F http://www.ti.com/lit/ds/symlink/cd4543b.pdf
 $ENDCMP
 #
 #End Doc Library
