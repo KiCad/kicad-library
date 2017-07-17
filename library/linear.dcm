@@ -576,8 +576,26 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm741.pdf
 $ENDCMP
 #
-$CMP LMC555
-D CMOS Timer, DIP-8/SOIC-8/SSOP-8
+$CMP LMC555xM
+D CMOS Timer, SOIC-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xMM
+D CMOS Timer, VSSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xN
+D CMOS Timer, DIP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xTP
+D CMOS Timer, DSBGA-8
 K single timer
 F http://www.ti.com/lit/ds/symlink/lmc555.pdf
 $ENDCMP
