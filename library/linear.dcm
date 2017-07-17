@@ -2,13 +2,19 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP AD620
 D Low Cost, Low Power, Instrumentation Amplifier, DIP-8/SOIC-8
-K Instrumentation opamp
+K Instrumentation amplifier
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf
+$ENDCMP
+#
+$CMP AD797
+D Ultralow Distortion, Ultralow Noise Op Amp, DIP-8/SOIC-8
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
 $ENDCMP
 #
 $CMP AD813
 D Single Supply, Low Power, Triple Video Amplifier, DIP-14/SOIC-14
-K triple op amp
+K triple opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD813.pdf
 $ENDCMP
 #
@@ -378,6 +384,12 @@ K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
 #
+$CMP LM2904
+D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
 $CMP LM293
 D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8
 K dual comparator
@@ -652,6 +664,12 @@ $CMP LT1011
 D Voltage Comparator, DIP-8/SOIC-8/TO-5-8
 K comp
 F http://cds.linear.com/docs/en/datasheet/1011afe.pdf
+$ENDCMP
+#
+$CMP LT1012
+D Single Picoamp Input Current, Microvolt Offset, Low Noise Op Amp, DIP-8/SOIC-8/TO-5-8
+K single opamp
+F http://cds.linear.com/docs/en/datasheet/1012afbs.pdf
 $ENDCMP
 #
 $CMP LT1016
@@ -1234,6 +1252,18 @@ $CMP OP07
 D Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8
 K single opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
+$ENDCMP
+#
+$CMP OP249
+D Precision JFET, High Speed, Dual Operational Amplifier, DIP-8
+K dual opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf
+$ENDCMP
+#
+$CMP OP249GS
+D Precision JFET, High Speed, Dual Operational Amplifier, SOIC-8
+K dual opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf
 $ENDCMP
 #
 $CMP OP275
