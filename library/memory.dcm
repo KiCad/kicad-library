@@ -5,6 +5,12 @@ D biPort RAM (1Ko)
 K RAM BiPort 1KO
 $ENDCMP
 #
+$CMP 24AA02
+D I2C Serial EEPROM, 2kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22124D.pdf
+$ENDCMP
+#
 $CMP 24LC00
 D I2C Serial EEPROM, 128 bits
 K I2C Serial EEPROM
@@ -233,6 +239,12 @@ $ENDCMP
 #
 $CMP AM29PDL128G
 D 128 Megabit (8 M x 16-Bit/4 M x 32-Bit), Simultaneous Operation Flash Memory with VersatileIO™ Control
+$ENDCMP
+#
+$CMP AS6C1616
+D 1024k x 16 bit low power CMOS SRAM
+K memory SRAM
+F http://www.alliancememory.com/pdf/AS6C1616(1).pdf
 $ENDCMP
 #
 $CMP AT24CS01-MAHM
