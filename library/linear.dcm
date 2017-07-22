@@ -318,14 +318,20 @@ K sample hold buffer unity gain
 F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
 $ENDCMP
 #
-$CMP LF398M
-D Sample And Hold Unity Gain Follower, SOIC-14
+$CMP LF398_DIP8
+D Sample And Hold Unity Gain Follower, DIP-8
 K sample hold buffer unity gain
 F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
 $ENDCMP
 #
-$CMP LF398N
-D Sample And Hold Unity Gain Follower, DIP-8
+$CMP LF398_SOIC8
+D Sample And Hold Unity Gain Follower, SOIC-8
+K sample hold buffer unity gain
+F http://cds.linear.com/docs/en/datasheet/lt0398s8.pdf
+$ENDCMP
+#
+$CMP LF398_SOIC14
+D Sample And Hold Unity Gain Follower, SOIC-14
 K sample hold buffer unity gain
 F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
 $ENDCMP
@@ -432,26 +438,14 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm318-n.pdf
 $ENDCMP
 #
-$CMP LM319D
-D High Speed Dual Comparator, SOIC-14
-K dual comparator
-F www.st.com/resource/en/datasheet/lm319.pdf
-$ENDCMP
-#
 $CMP LM319H
 D High Speed Dual Comparator, TO-100-10
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
 #
-$CMP LM319M
-D High Speed Dual Comparator, SOIC-14
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
-$ENDCMP
-#
-$CMP LM319N
-D High Speed Dual Comparator, DIP-14
+$CMP LM319
+D High Speed Dual Comparator, DIP-14/SOIC-14
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
@@ -584,12 +578,6 @@ $ENDCMP
 #
 $CMP LM733H
 D Single Differential Amplifier, TO-5-10
-K single differential video opamp
-F http://www.soemtron.org/downloads/disposals/lm733cn.pdf
-$ENDCMP
-#
-$CMP LM733H
-D Differential Amplifier, TO-5-10
 K single differential video opamp
 F http://www.soemtron.org/downloads/disposals/lm733cn.pdf
 $ENDCMP
