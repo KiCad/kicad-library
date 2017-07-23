@@ -120,6 +120,12 @@ K LED RGB
 F http://www.avagotech.com/docs/AV02-2589EN
 $ENDCMP
 #
+$CMP ASSR-1218
+D Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-A
+F https://docs.broadcom.com/docs/AV02-0173EN
+$ENDCMP
+#
 $CMP BP103
 D NPN Phototransistor
 K npn phototransistor
@@ -226,6 +232,12 @@ $CMP CNY17-4
 D DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6
 K NPN DC Optocoupler Base Connected
 F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CPC1017N
+D Form A, Solid State Relay (Photo MOSFET) 60V, 0.1A, 16Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-A
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
 $ENDCMP
 #
 $CMP CQY99
@@ -1008,6 +1020,42 @@ K MOSFET Driver IGBT Driver Optocoupler
 F http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
 $ENDCMP
 #
+$CMP TLP2703
+D 100 kbps, High-speed GaA&As, high-gain, 4.5 - 18 VCC, 5 kVrms, CTR 900%, SO-6L
+K NPN Darlington DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=15216&prodName=TLP2703
+$ENDCMP
+#
+$CMP TLP2745
+D 10-Mbps low-power non inverting photocouple,5 kVrms, 4.5 - 30 Vdd, push-pull output
+K Photocouple highspeed non inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=29405&prodName=TLP2745
+$ENDCMP
+#
+$CMP TLP2748
+D 10-Mbps inverting photocouple,5 kVrms, 4.5 - 30 Vdd, push-pull output, SO-6L
+K Photocouple highspeed inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=29407&prodName=TLP2748
+$ENDCMP
+#
+$CMP TLP2761
+D 15-Mbps inverting photocouple,5 kVrms, 2.7 - 5.5 Vdd, push-pull output
+K Photocouple highspeed inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=28819&prodName=TLP2761
+$ENDCMP
+#
+$CMP TLP2767
+D 50-Mbps high speed inverting photocouple,5 kVrms, 2.7 - 5.5 Vdd, push-pull output
+K Photocouple highspeed non inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=36717&prodName=TLP2767
+$ENDCMP
+#
+$CMP TLP2768A
+D 20-Mbps high speed inverting photocouple,5 kVrms, 2.7 - 5.5 Vdd, open collector, SO-6L
+K Photocouple highspeed inverting open collector output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=36717&prodName=TLP2768A
+$ENDCMP
+#
 $CMP TLP290
 D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4
 K NPN AC DC Phototransistor Optocoupler
@@ -1390,6 +1438,18 @@ $CMP VT93xx
 D light dependent resistor
 K light dependent photo resistor LDR
 F http://www.produktinfo.conrad.com/datenblaetter/125000-149999/140375-da-01-en-FOTOWIDERSTAND__VT_93_N2__THT_.pdf
+$ENDCMP
+#
+$CMP VTL5C
+D Low Cost Axial Vactrols
+K vactrol
+F http://www.qsl.net/wa1ion/vactrol/vactrol.pdf
+$ENDCMP
+#
+$CMP VTL5Cx2
+D Dual Element Axial Vactrols
+K vactrol
+F http://www.alliedelec.com/m/d/ecb1ed91959ae54d97cf67f5103d9b2b.pdf
 $ENDCMP
 #
 #End Doc Library
