@@ -11,8 +11,9 @@ K LED
 $ENDCMP
 #
 $CMP AG12864E
-D Graphics Display 128x64px,  1/64 Duty, KS108B Controller, AMPIRE
-K LCD Graphics 128x64 KS108 Ampire
+D Graphics Display 128x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
+K LCD STN Graphics 128x64
+F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
 $ENDCMP
 #
 $CMP CA56-12
@@ -60,8 +61,26 @@ K BAR DOT
 F Display/HDSP-48xx.pdf
 $ENDCMP
 #
+$CMP EA_DOGXL160-7
+D EA DOGXL160-7 Graphical Display 160x104 no back light I2C SPI 2.7-3.3V
+K Graphic display EA DOGXL160-7
+F http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+$ENDCMP
+#
+$CMP HDSM-441B
+D Double 7 segment Blue LED common anode SMD mount
+K Double 7 segment Blue LED common anode SMD mount
+F https://docs.broadcom.com/docs/AV02-1589EN
+$ENDCMP
+#
+$CMP HDSM-443B
+D Double 7 segment Blue LED common cathode SMD mount
+K Double 7 segment Blue LED common cathode SMD mount
+F https://docs.broadcom.com/docs/AV02-1589EN
+$ENDCMP
+#
 $CMP HY1602E
-D HY1602E
+D LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight, 8bit parallel, 5V VDD
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
 F http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
 $ENDCMP
@@ -133,14 +152,9 @@ F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-136(Ver.6B
 $ENDCMP
 #
 $CMP LCD-016N002L
-D 16 x 2 Character LCD
+D LCD 12x2, 8 bit parallel bus, 3V or 5V VDD
+K LCD 12x2
 F http://www.vishay.com/docs/37299/37299.pdf
-$ENDCMP
-#
-$CMP LCD16X2
-D WC1602A0-SFYLYNC06
-K Generic LCD 16x2 Alphanumeric 16pin Green Backlight
-F http://www.kamami.pl/dl/wc1602a0.pdf
 $ENDCMP
 #
 $CMP LTS-6960HR
@@ -164,6 +178,12 @@ $CMP RC1602A-GHW-ESX
 D RC1602A-GHW-ESX
 K LCD 16x2 Alphanumeric 16pin Gray Backlight
 F http://www.raystar-optronics.com/down.php?ProID=18
+$ENDCMP
+#
+$CMP WC1602A
+D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
+K LCD 16x2 Alphanumeric Green Backlight
+F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
 $ENDCMP
 #
 #End Doc Library
