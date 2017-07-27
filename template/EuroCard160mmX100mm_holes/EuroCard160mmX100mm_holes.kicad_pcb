@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 4)
@@ -98,66 +98,70 @@
     (uvia_drill 0.1)
   )
 
-  (module Mounting_Holes:MountingHole_3.5mm (layer F.Cu) (tedit 59754677) (tstamp 59755F5D)
-    (at 211.43 139.45)
-    (descr "Mounting Hole 3.5mm, no annular")
-    (tags "mounting hole 3.5mm no annular")
-    (fp_text reference REF** (at 0 -4.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole_3.5mm (at 0 4.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 3.75 0) (layer F.CrtYd) (width 0.05))
-    (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
-    (pad 1 np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
-  )
-
-  (module Mounting_Holes:MountingHole_3.5mm (layer F.Cu) (tedit 59754677) (tstamp 59755F56)
-    (at 211.43 50.55)
-    (descr "Mounting Hole 3.5mm, no annular")
-    (tags "mounting hole 3.5mm no annular")
-    (fp_text reference REF** (at 0 -4.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole_3.5mm (at 0 4.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
-    (fp_circle (center 0 0) (end 3.75 0) (layer F.CrtYd) (width 0.05))
-    (pad 1 np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
-  )
-
-  (module Mounting_Holes:MountingHole_3.5mm (layer F.Cu) (tedit 59754677) (tstamp 59755B13)
-    (at 58.57 50.55)
-    (descr "Mounting Hole 3.5mm, no annular")
-    (tags "mounting hole 3.5mm no annular")
-    (fp_text reference REF** (at 0 -4.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole_3.5mm (at 0 4.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 3.75 0) (layer F.CrtYd) (width 0.05))
-    (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
-    (pad 1 np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
-  )
-
-  (module Mounting_Holes:MountingHole_3.5mm (layer F.Cu) (tedit 59754677) (tstamp 597559B3)
+  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 5978FDB1) (tstamp 597559B3)
     (at 58.57 139.45)
-    (descr "Mounting Hole 3.5mm, no annular")
-    (tags "mounting hole 3.5mm no annular")
-    (fp_text reference REF** (at 0 -4.5) (layer F.SilkS) hide
+    (descr "Mounting Hole 2.7mm, no annular")
+    (tags "mounting hole 2.7mm no annular")
+    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.5mm (at 0 4.5) (layer F.Fab) hide
+    (fp_text value MountingHole_3.5mm (at 0 3.7) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
-    (fp_circle (center 0 0) (end 3.75 0) (layer F.CrtYd) (width 0.05))
-    (pad 1 np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
+    (fp_circle (center 0 0) (end 2.7 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.95 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
   )
 
+  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 5978FD9A) (tstamp 59755B13)
+    (at 58.57 50.55)
+    (descr "Mounting Hole 2.7mm, no annular")
+    (tags "mounting hole 2.7mm no annular")
+    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.5mm (at 0 3.7) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.7 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.95 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 5978FD65) (tstamp 59755F5D)
+    (at 212.24 139.45)
+    (descr "Mounting Hole 2.7mm, no annular")
+    (tags "mounting hole 2.7mm no annular")
+    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.5mm (at 0 3.7) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.7 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.95 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_2.7mm (layer F.Cu) (tedit 5978FD70) (tstamp 59755F56)
+    (at 212.24 50.55)
+    (descr "Mounting Hole 2.7mm, no annular")
+    (tags "mounting hole 2.7mm no annular")
+    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.5mm (at 0 3.7) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.7 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.95 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
+  )
+
+  (gr_line (start 215 47.5) (end 55 47.5) (angle 90) (layer F.CrtYd) (width 0.2))
+  (gr_line (start 55 47.5) (end 215 47.5) (angle 90) (layer B.CrtYd) (width 0.2))
+  (gr_line (start 55 142.5) (end 215 142.5) (angle 90) (layer B.CrtYd) (width 0.2) (tstamp 59795C8A))
+  (gr_line (start 55 142.5) (end 215 142.5) (angle 90) (layer F.CrtYd) (width 0.2))
   (gr_line (start 55 145) (end 215 145) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 55 45) (end 55 145) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 215 45) (end 55 45) (angle 90) (layer Edge.Cuts) (width 0.15))
