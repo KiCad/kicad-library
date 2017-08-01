@@ -16,16 +16,88 @@ K LCD STN Graphics 128x64
 F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
 $ENDCMP
 #
-$CMP CA56-12
-D Kingbright 4 x 7-segment common anode display
-K 7 SEGMENTS 4 display
+$CMP CA56-12CGKWA
+D 4 digit 7 segment Green LED, common anode
+K 4 digit 7 segment Green LED, common anode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12CGKWA(Ver.9A).pdf
+$ENDCMP
+#
+$CMP CA56-12EWA
+D 4 digit 7 segment high efficiency red LED, common anode
+K 4 digit 7 segment high efficiency red LED, common anode
 F http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf
 $ENDCMP
 #
-$CMP CC56-12
-D Kingbright 4 x 7-segment common cathode display
-K 7 SEGMENTS 4 display
-F http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12EWA.pdf
+$CMP CA56-12SEKWA
+D 4 digit 7 segment super bright orange LED, common anode
+K 4 digit 7 segment super bright orange LED, common anode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12SEKWA(Ver.7A).pdf
+$ENDCMP
+#
+$CMP CA56-12SRWA
+D 4 digit 7 segment super bright red LED, common anode
+K 4 digit 7 segment super bright red LED, common anode
+F http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12SRWA.pdf
+$ENDCMP
+#
+$CMP CA56-12SURKWA
+D 4 digit 7 segment hyper red LED, common anode
+K 4 digit 7 segment hyper red LED, common anode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12SURKWA(Ver.8A).pdf
+$ENDCMP
+#
+$CMP CA56-12SYKWA
+D 4 digit 7 segment super bright yellow LED, common anode
+K 4 digit 7 segment super bright yellow LED, common anode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12SYKWA(Ver.6A).pdf
+$ENDCMP
+#
+$CMP CC56-12CGKWA
+D 4 digit 7 segment green LED, common cathode
+K 4 digit 7 segment green LED, common cathode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf
+$ENDCMP
+#
+$CMP CC56-12EWA
+D 4 digit 7 segment high efficiency red LED, common cathode
+K 4 digit 7 segment high efficiency red LED, common cathode
+F http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf
+$ENDCMP
+#
+$CMP CC56-12GWA
+D 4 digit 7 segment green LED, common cathode
+K 4 digit 7 segment green LED, common cathode
+F http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12GWA.pdf
+$ENDCMP
+#
+$CMP CC56-12SEKWA
+D 4 digit 7 segment super bright orange LED, common cathode
+K 4 digit 7 segment super bright orange LED, common cathode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SEKWA(Ver.7A).pdf
+$ENDCMP
+#
+$CMP CC56-12SRWA
+D 4 digit 7 segment super bright red LED, common cathode
+K 4 digit 7 segment super bright red LED, common cathode
+F http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12SRWA.pdf
+$ENDCMP
+#
+$CMP CC56-12SURKWA
+D 4 digit 7 segment hyper red LED, common cathode
+K 4 digit 7 segment hyper red LED, common cathode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SURKWA(Ver.7A).pdf
+$ENDCMP
+#
+$CMP CC56-12SYKWA
+D 4 digit 7 segment super bright yellow LED, common cathode
+K 4 digit 7 segment super bright yellow LED, common cathode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SYKWA(Ver.6A).pdf
+$ENDCMP
+#
+$CMP CC56-12YWA
+D 4 digit 7 segment  yellow LED, common cathode
+K 4 digit 7 segment yellow LED, common cathode
+F http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf
 $ENDCMP
 #
 $CMP DA04-11
@@ -77,6 +149,18 @@ $CMP HDSM-443B
 D Double 7 segment Blue LED common cathode SMD mount
 K Double 7 segment Blue LED common cathode SMD mount
 F https://docs.broadcom.com/docs/AV02-1589EN
+$ENDCMP
+#
+$CMP HDSM-541B
+D Double 7 segment Blue LED common anode SMD mount
+K Double 7 segment Blue LED common anode SMD mount
+F https://docs.broadcom.com/docs/AV02-1588EN
+$ENDCMP
+#
+$CMP HDSM-543B
+D Double 7 segment Blue LED common cathode SMD mount
+K Double 7 segment Blue LED common cathode SMD mount
+F https://docs.broadcom.com/docs/AV02-1588EN
 $ENDCMP
 #
 $CMP HY1602E
@@ -169,15 +253,106 @@ K 7 SEGMENTS
 F Display/LTC-6980HR.pdf
 $ENDCMP
 #
+$CMP MAN3410A
+D Single digit 7 segment high efficient green LED common anode right hand decimal
+K 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN3420A
+D Single digit 7 segment high efficient green LED common anode left hand decimal
+K 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN3440A
+D Single digit 7 segment high efficient green LED common anode right hand decimal
+K 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN3610A
+D Single digit 7 segment orange LED common anode right hand decimal
+K Orange 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN3620A
+D Single digit 7 segment orange LED common anode left hand decimal
+K Orange 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN3630A
+D Overflow 7 segment orange LED common anode
+K Orange 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN3640A
+D Single digit 7 segment orange LED common anode right hand decimal
+K Orange 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN3810A
+D Single digit 7 segment yellow LED common anode right hand decimal
+K Yellow 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN3820A
+D Single digit 7 segment yellow LED common anode left hand decimal
+K Yellow 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN3840A
+D Single digit 7 segment yellow LED common anode right hand decimal
+K Yellow 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
 $CMP MAN71A
-D 7 segments display - Common anods
-K DISPLAY LED
+D Single digit 7 segment red LED common anode right hand decimal
+K Red 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN72A
+D Single digit 7 segment red LED common anode left hand decimal
+K Red 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN73A
+D Overflow 7 segment red LED common anode
+K Red Overflow 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP MAN74A
+D Single digit 7 segment red LED common anode right hand decimal
+K Red 7 segemnt LED common anode
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
 $ENDCMP
 #
 $CMP RC1602A-GHW-ESX
 D RC1602A-GHW-ESX
 K LCD 16x2 Alphanumeric 16pin Gray Backlight
 F http://www.raystar-optronics.com/down.php?ProID=18
+$ENDCMP
+#
+$CMP SBC18-11EGWA
+D Single digit 7 segment hyper red and green LED display, common cathode
+K 7 segment LED display common cathode
+F http://www.kingbrightusa.com/images/catalog/SPEC/SBC18-11EGWA.pdf
+$ENDCMP
+#
+$CMP SBC18-11SURKCGKWA
+D Single digit 7 segment hyper red and green LED display, common cathode
+K 7 segment LED display common cathode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/SBC18-11SURKCGKWA(Ver.6A).pdf
 $ENDCMP
 #
 $CMP WC1602A

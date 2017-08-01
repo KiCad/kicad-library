@@ -106,6 +106,18 @@ K BD9G341EFJ, Buck Converter
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
 $ENDCMP
 #
+$CMP CRE1S0305S3C
+D 3.3V to 5V 200mA DC-DC Converter with 3kV isolation 
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
+$ENDCMP
+#
+$CMP CRE1S0505S3C
+D 5V to 5V 200mA DC-DC Converter with 3kV isolation 
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
+$ENDCMP
+#
 $CMP GL2576-12SF8DR
 D 12V 3A, 52KHz Step Down Converter, SO8
 K 12V 3A 52KHz Buck DC/DC
@@ -1459,6 +1471,30 @@ $CMP NMA1515SC
 D Isolated 1W Dual output DC/DC Converter 5V Input +/-15V Output, SIP Package
 K Murata DC/DC
 F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NXE2S0505MC
+D 5V to 5V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1205MC
+D 12V to 5V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1212MC
+D 12V to 12V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1215MC
+D 12V to 15V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
 $ENDCMP
 #
 $CMP PT6100

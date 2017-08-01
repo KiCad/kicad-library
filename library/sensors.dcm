@@ -108,12 +108,6 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
-$CMP AD8418
-D Bidirectional zero-drift current sense amplifier, 20V/V
-K current sense amplifier shunt high side bidirectional
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
-$ENDCMP
-#
 $CMP AS5045B
 D Magnetic Position Sensor, 12-bit, PWM Output, ABI Output, SPI Interface
 K Magnetic Hall Encoder
@@ -162,6 +156,12 @@ K spectrometer
 F http://www.hamamatsu.com/resources/pdf/ssd/c12880ma_kacc1226e.pdf
 $ENDCMP
 #
+$CMP CCS811
+D Ultra-low power digital gas sensor for monitoring indoor air quality
+K metal oxide gas sensor MOX volatile organix comounds VOC i2c
+F http://ams.com/eng/content/download/951091/2269479/471718
+$ENDCMP
+#
 $CMP DHT11
 D - Temperature and humidity module
 K digital temperature humidity sensor
@@ -172,84 +172,6 @@ $CMP Flir_LEPTON
 D LWIR camera 8 to 14um 80x60 pixel
 K LWIR camera
 F https://cdn.sparkfun.com/datasheets/Sensors/Infrared/FLIR_Lepton_Data_Brief.pdf
-$ENDCMP
-#
-$CMP INA138
-D Unipolar high-side current shunt monitor, 36V common mode
-K current sensor shunt monitor
-F http://www.ti.com/lit/ds/symlink/ina138.pdf
-$ENDCMP
-#
-$CMP INA168
-D Unipolar high-side current shunt monitor, 60V common mode
-K current sensor shunt monitor
-F http://www.ti.com/lit/ds/symlink/ina138.pdf
-$ENDCMP
-#
-$CMP INA193
-D 20V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA194
-D 50V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA195
-D 100V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA196
-D 20V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA197
-D 50V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA198
-D 100V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA282
-D 50V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
-$ENDCMP
-#
-$CMP INA283
-D 200V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
-$ENDCMP
-#
-$CMP INA284
-D 500V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
-$ENDCMP
-#
-$CMP INA285
-D 1000V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
-$ENDCMP
-#
-$CMP INA286
-D 100V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
 $ENDCMP
 #
 $CMP KT100
@@ -622,24 +544,6 @@ $CMP TMP411
 D - Remote and Local TEMPERATURE SENSOR
 K Temperature sensor remote local i2c
 F http://www.ti.com.cn/cn/lit/ds/symlink/tmp411.pdf
-$ENDCMP
-#
-$CMP ZXCT1009
-D High side current sensor, SOT-23
-K High side current sensor monitor shunt
-F www.diodes.com/datasheets/ZXCT1009.pdf
-$ENDCMP
-#
-$CMP ZXCT1107
-D High side current sensor, SOT-23
-K High side current sensor monitor shunt
-F http://www.diodes.com/_files/datasheets/ZXCT1107_10.pdf
-$ENDCMP
-#
-$CMP ZXCT1109
-D High side current sensor, SOT-23
-K High side current sensor monitor shunt
-F http://www.diodes.com/_files/datasheets/ZXCT1107_10.pdf
 $ENDCMP
 #
 #End Doc Library
