@@ -42,6 +42,66 @@ K 8channel 12bit ADC DAC GPIO I2C Temperature
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
 $ENDCMP
 #
+$CMP AD5687BCPZ
+D Dual, 12-Bit nanoDAC+ with SPI Interface, LFCSP-16
+K dac 2nch 12bit spi 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689_5687.pdf
+$ENDCMP
+#
+$CMP AD5687BRUZ
+D Dual, 12-Bit nanoDAC+ with SPI Interface, TSSOP-16
+K dac 2nch 12bit spi 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689_5687.pdf
+$ENDCMP
+#
+$CMP AD5687RBCPZ
+D Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, SPI Interface, LFCSP-16
+K dac 2nch 12bit spi
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689R_5687R.pdf
+$ENDCMP
+#
+$CMP AD5687RBRUZ
+D Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, SPI Interface, TSSOP-16
+K dac 2nch 12bit spi
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689R_5687R.pdf
+$ENDCMP
+#
+$CMP AD5689BCPZ
+D Dual, 16-Bit nanoDAC+ with SPI Interface, LFCSP-16
+K dac 2nch 16bit spi
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689_5687.pdf
+$ENDCMP
+#
+$CMP AD5689BRUZ
+D Dual, 16-Bit nanoDAC+ with SPI Interface, TSSOP-16
+K dac 2nch 16bit spi
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689_5687.pdf
+$ENDCMP
+#
+$CMP AD5689RxCPZ
+D Dual, 16-Bit nanoDAC+ with 2 ppm/°C Reference, SPI Interface, LFCSP-16
+K dac 2nch 16bit spi
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689R_5687R.pdf
+$ENDCMP
+#
+$CMP AD5689RxRUZ
+D Dual, 16-Bit nanoDAC+ with 2 ppm/°C Reference, SPI Interface, TSSOP-16
+K dac 2nch 16bit spi
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689R_5687R.pdf
+$ENDCMP
+#
+$CMP AD5697RBCPZ
+D Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, I2C Interface, LFCSP-16
+K dac 2nch 12bit i2c
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5697R.pdf
+$ENDCMP
+#
+$CMP AD5697RBRUZ
+D Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, I2C Interface, TSSOP-16
+K dac 2nch 12bit i2c
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5697R.pdf
+$ENDCMP
+#
 $CMP AD7171
 D Single channel Analog to Digial Converter, 16-bit, differential input, 125Hz, SPI interface
 K sigma delta adc spi 1ch
@@ -204,6 +264,18 @@ K 8bit DAC 8CH
 F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
 $ENDCMP
 #
+$CMP AD7304
+D 3 V/5 V, Rail-to-Rail, Quad, 8-Bit DAC, SPI Interface, SOIC-16/TSSOP-16
+K dac 4ch 8bit spi
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7304_7305.pdf
+$ENDCMP
+#
+$CMP AD7305
+D 3 V/5 V, Rail-to-Rail, Quad, 8-Bit DAC, Parallel Interface, SOIC-20/TSSOP-20
+K dac 4ch 8bit parallel
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7304_7305.pdf
+$ENDCMP
+#
 $CMP AD7390
 D Serial-Input Micropower 12-Bit DAC, DIP-8/SOIC-8/TSSOP-8
 K SPI 12 bit DAC
@@ -256,6 +328,12 @@ $CMP AD775
 D DA Converter 8 bits - 20MHz, PDIP/SOIC-24
 K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD775.pdf
+$ENDCMP
+#
+$CMP AD7722
+D 16-Bit, 195 kSPS CMOS, Sigma-Delta ADC, MQFP-44
+K adc 1ch 16bit parallel serial
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7722.pdf
 $ENDCMP
 #
 $CMP AD7819
@@ -687,6 +765,42 @@ $CMP MCP3425A3T-E/CH
 D Single Delta-Sigma 16bit Analog to Digital Converter, I2C Interface, SOT-23-6
 K Sigma-Delta ADC Converter 16bit I2C 1ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22072b.pdf
+$ENDCMP
+#
+$CMP MCP3426-xMC
+D 16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, DFN-8
+K adc 2ch 16bit i2c
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf
+$ENDCMP
+#
+$CMP MCP3426-xMS
+D 16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, MSOP-8
+K adc 2ch 16bit i2c
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf
+$ENDCMP
+#
+$CMP MCP3426-xSN
+D 16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, SOIC-8
+K adc 2ch 16bit i2c
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf
+$ENDCMP
+#
+$CMP MCP3427-xMF
+D 16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, DFN-10
+K adc 2ch 16bit i2c
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf
+$ENDCMP
+#
+$CMP MCP3427-xUN
+D 16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, MSOP-10
+K adc 2ch 16bit i2c
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf
+$ENDCMP
+#
+$CMP MCP3428
+D 16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, SOIC-14/TSSOP-14
+K adc 4ch 16bit i2c
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf
 $ENDCMP
 #
 $CMP MCP3550-50-E/MS
