@@ -468,12 +468,6 @@ K operational transconductance amplifier OTA
 F http://www.ti.com/lit/ds/symlink/lm13700.pdf
 $ENDCMP
 #
-$CMP LM193
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
-$ENDCMP
-#
 $CMP LM201
 D Operational Amplifier, DIP-8/TO-99-8
 K single opamp
@@ -502,12 +496,6 @@ $CMP LM2904
 D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/lm358.pdf
-$ENDCMP
-#
-$CMP LM293
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
 #
 $CMP LM301
@@ -756,10 +744,28 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/lmv324.pdf
 $ENDCMP
 #
+$CMP LMV331
+D Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5
+K single comparator
+F http://www.ti.com/lit/ds/symlink/lmv331.pdf
+$ENDCMP
+#
+$CMP LMV339
+D Quad General-Purpose Low-Voltage Comparator, SOIC-14/TSSOP-14
+K quad comparator
+F http://www.ti.com/lit/ds/symlink/lmv331.pdf
+$ENDCMP
+#
 $CMP LMV358
 D Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8
 K single opamp
 F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+$CMP LMV393
+D Dual General-Purpose Low-Voltage Comparator, SOIC-8/TSSOP-8/VSSOP-8
+K dual comparator
+F http://www.ti.com/lit/ds/symlink/lmv331.pdf
 $ENDCMP
 #
 $CMP LMV601
