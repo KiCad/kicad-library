@@ -29,7 +29,7 @@ F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
 #
 $CMP CC2520
-D 2.4 GHz ZigBee/IEEE 802.15.4 RF transceiver 
+D 2.4 GHz ZigBee/IEEE 802.15.4 RF transceiver
 K 2.4GHz rf transceiver ZigBee 802.15.4
 F http://www.ti.com/lit/gpn/cc2520
 $ENDCMP
@@ -70,6 +70,12 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
+$CMP RFD77101
+D Simblee Bluetooth Smart Module with ARM Cortex-M0 and integrated antenna
+K Simblee ARM Cortex-M0 Bluetooth antenna
+F https://www.simblee.com/Simblee%20RFD77101%20Datasheet%20v1.0.pdf
+$ENDCMP
+#
 $CMP RN42
 D Class 2 Bluetooth Module with on-board antenna
 K Bluetooth Module
@@ -82,10 +88,34 @@ K Bluetooth Module
 F http://ww1.microchip.com/downloads/en/DeviceDoc/rn-42-ds-v2.32r.pdf
 $ENDCMP
 #
+$CMP RXM-GPS-FM
+D Module GPS Low Power, 14mA tracking, 22 channels
+K gps low-power
+F https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-fm.pdf
+$ENDCMP
+#
+$CMP RXM-GPS-RM
+D Module GPS Low Power, 14mA tracking, 22 channels
+K gps low-power
+F https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-rm.pdf
+$ENDCMP
+#
 $CMP SIM900
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
 K GSM GPRS Quad-Band SMS FAX
 F http://www.simcom.us/act_admin/supportfile/SIM900_HD_V1.01(091226).pdf
+$ENDCMP
+#
+$CMP SX1272
+D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
+K low-power lora transceiver
+F http://www.semtech.com/images/datasheet/sx1272.pdf
+$ENDCMP
+#
+$CMP SX1273
+D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 9, LoRA, QFN-28
+K low-power lora transceiver
+F http://www.semtech.com/images/datasheet/sx1272.pdf
 $ENDCMP
 #
 $CMP TD1205
@@ -110,6 +140,12 @@ $CMP TR-72D
 D IQRF common transceiver, GMSK modulation
 K IQRF common transceiver, GMSK modulation
 F http://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
+$CMP UL865
+D Telit 3G Module (GSM/GPRS/UMTS/HSPA), 3.8V, Digital voice and SMS, I2S, USB 2.0, UART, SPI. Manufacturer package
+K gsm 3g gprs umts hspa
+F http://www.telit.com/fileadmin/user_upload/products/Downloads/3G/Telit_UL865_Hardware_User_Guide_r8.pdf
 $ENDCMP
 #
 $CMP XBee_SMT

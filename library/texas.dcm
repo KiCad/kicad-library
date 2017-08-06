@@ -36,6 +36,30 @@ K 2Ch Dual Digital Isolator 25Mbps
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7321fc&fileType=pdf
 $ENDCMP
 #
+$CMP ISO7330C
+D Low Power Quad-Channel 3/0 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/lit/ds/symlink/iso7330-q1.pdf
+$ENDCMP
+#
+$CMP ISO7330FC
+D Low Power Quad-Channel 3/0 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/lit/ds/symlink/iso7330-q1.pdf
+$ENDCMP
+#
+$CMP ISO7331C
+D Low Power Quad-Channel 2/1 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/lit/ds/symlink/iso7331c.pdf
+$ENDCMP
+#
+$CMP ISO7331FC
+D Low Power Quad-Channel 2/1 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7341c&fileType=pdf
+$ENDCMP
+#
 $CMP ISO7340C
 D Low Power Quad-Channel 4/0 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
 K 4Ch Quad Digital Isolator 25Mbps
@@ -144,6 +168,12 @@ K Buck Boost step-up step-down
 F http://www.ti.com/lit/ds/symlink/lm5175.pdf
 $ENDCMP
 #
+$CMP LP3947
+D Single Cell Li-Ion LDO Battery Charger IC, Up to 1A, Support USB charging scheme
+K li-ion battery charger usb
+F http://www.ti.com/lit/ds/symlink/lp3947.pdf
+$ENDCMP
+#
 $CMP PCA9306
 D Dual bidirectional I2C Bus and SMBus voltage level translator
 K Dual bidirectional I2C Bus and SMBus voltage level translator
@@ -250,6 +280,18 @@ $CMP TPIC6595
 D Power logic 8-bit shift register
 K shift register
 F http://www.ti.com/lit/ds/symlink/tpic6595.pdf
+$ENDCMP
+#
+$CMP TPL0401A-10-Q1
+D 128-TAPS Single-Channel Digital Potentiometer, I2C Interface, SC-70-6
+K Digital Pot Potentiometer I2C
+F http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf
+$ENDCMP
+#
+$CMP TPL0401B-10-Q1
+D 128-TAPS Single-Channel Digital Potentiometer, I2C Interface, SC-70-6
+K Digital Pot Potentiometer I2C
+F http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf
 $ENDCMP
 #
 $CMP TPL9201_TSSOP
@@ -366,6 +408,12 @@ K USB2.0 hub
 F http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
 $ENDCMP
 #
+$CMP TUSB7340
+D USB 3.0 xHCI Host Controller
+K USB HUB PCIE
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tusb7320&fileType=pdf
+$ENDCMP
+#
 $CMP TUSB8041
 D four port USB 3.0 Hub
 K USB3.0 hub
@@ -388,6 +436,42 @@ $CMP TXB0102YZP
 D 2-Bit Bidirectional Voltage-Level Translator in DSBGA Package  With Auto Direction Sensing and ±15-kV ESD Protection
 K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/txb0102.pdf
+$ENDCMP
+#
+$CMP TXB0104D
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, SOIC-14
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104PW
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, TSSOP-14
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104RGY
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, Texas_PVGFN-14
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104RUT
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, Texas_PUQFN-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104YZT
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, DSBGA-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104ZXU
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, Texas_Junior-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
 $ENDCMP
 #
 $CMP TXB0108DQSR

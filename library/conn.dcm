@@ -545,6 +545,30 @@ D double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
 $ENDCMP
 #
+$CMP Conn_WallPlug
+D 3-pin general wall plug, no Earth wire (110VAC, 220VAC)
+K wall plug 110VAC 220VAC
+F ~
+$ENDCMP
+#
+$CMP Conn_WallPlug_Earth
+D 3-pin general wall plug, with Earth wire (110VAC, 220VAC)
+K wall plug 110VAC 220VAC
+F ~
+$ENDCMP
+#
+$CMP Conn_WallSocket
+D 3-pin german wall socket, no Earth wire (110VAC, 220VAC)
+K wall socket 110VAC 220VAC
+F ~
+$ENDCMP
+#
+$CMP Conn_WallSocket_Earth
+D 3-pin german wall socket, with Earth wire (110VAC, 220VAC)
+K wall socket 110VAC 220VAC
+F ~
+$ENDCMP
+#
 $CMP DB15_FEMALE
 D 15-pin female D-SUB connector (low-density/2 columns)
 K female D-SUB connector
@@ -949,6 +973,18 @@ $ENDCMP
 $CMP USB_B
 D USB Type B connector
 K connector USB
+$ENDCMP
+#
+$CMP USB_C_Plug
+D USB Type-C Plug connector
+K usb universal serial bus
+F http://www.usb.org/developers/docs/usb_31_033017.zip
+$ENDCMP
+#
+$CMP USB_C_Receptacle
+D USB Type-C Receptacle connector
+K usb universal serial bus
+F http://www.usb.org/developers/docs/usb_31_033017.zip
 $ENDCMP
 #
 $CMP USB_OTG

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 06/09/2012 18:10:13
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 14528
 D Monostable
@@ -45,10 +45,11 @@ $ENDCMP
 $CMP 4016
 D Quad Analog Switches
 K CMOS SWITCH
+F http://www.ti.com/lit/ds/symlink/cd4016b.pdf
 $ENDCMP
 #
 $CMP 4017
-D Jonhson Counter ( 10 outputs )
+D Johnson Counter ( 10 outputs )
 K CNT CNT10
 $ENDCMP
 #
@@ -59,7 +60,7 @@ F cmos4000/MC14020.pdf
 $ENDCMP
 #
 $CMP 4022
-D Jonhson Counter (8 states)
+D Johnson Counter (8 states)
 K CMOS CNT CNT8
 $ENDCMP
 #
@@ -84,7 +85,7 @@ K CMOS DECOD DECOD10
 $ENDCMP
 #
 $CMP 4029
-D Up/Down Counter 
+D Up/Down Counter
 K CMOS COUNTER
 $ENDCMP
 #
@@ -97,6 +98,12 @@ $ENDCMP
 $CMP 4046
 D Phase Comp & VCO
 K CMOS PLL
+$ENDCMP
+#
+$CMP 4047
+D Monostable/Astable Multivibrator
+K CMOS monostable astable multivibrator
+F https://www.fairchildsemi.com/datasheets/CD/CD4047BC.pdf
 $ENDCMP
 #
 $CMP 4049
@@ -124,9 +131,16 @@ D Triple analog Multiplexer 2 to 1 line
 K CMOS MUX MUX2
 $ENDCMP
 #
+$CMP 4056
+D BCD to 7-Segment Decoder/Driver, Strobed-Latch Function
+K CMOS LCD 7-segment decoder driver
+F http://www.ti.com/lit/ds/symlink/cd4056b.pdf
+$ENDCMP
+#
 $CMP 4066
-D Quad Ananlog Switches
+D Quad Analog Switches
 K CMOS SWITCH
+F http://www.ti.com/lit/ds/symlink/cd4066b.pdf
 $ENDCMP
 #
 $CMP 4069
@@ -187,6 +201,18 @@ $ENDCMP
 $CMP 4538
 D Monostable
 K CMOS
+$ENDCMP
+#
+$CMP 4543
+D BCD to 7-segment latch/decoder/driver
+K CMOS 7-segment latch decoder driver
+F http://www.ti.com/lit/ds/symlink/cd4543b.pdf
+$ENDCMP
+#
+$CMP HEF4093B
+D Quad 2-Input NAND Schmitt Trigger, SOIC-14
+K NAND2
+F https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf
 $ENDCMP
 #
 #End Doc Library
