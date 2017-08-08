@@ -107,13 +107,13 @@ F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regul
 $ENDCMP
 #
 $CMP CRE1S0305S3C
-D 3.3V to 5V 200mA DC-DC Converter with 3kV isolation 
+D 3.3V to 5V 200mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
 F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
 #
 $CMP CRE1S0505S3C
-D 5V to 5V 200mA DC-DC Converter with 3kV isolation 
+D 5V to 5V 200mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
 F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
@@ -1513,6 +1513,48 @@ $CMP NXE2S1215MC
 D 12V to 15V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
 F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP PAM2305AAB
+D 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+#
+$CMP PAM2305AAB330
+D Output 3.3V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+$CMP PAM2305AAB280
+D Output 2.8V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+$CMP PAM2305AAB250
+D Output 2.5V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+$CMP PAM2305AAB180
+D Output 1.8V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+$CMP PAM2305AAB150
+D Output 1.5V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+$CMP PAM2305AAB120
+D Output 1.2V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+$CMP PAM2305AABADJ
+D Output ADJ, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
 $ENDCMP
 #
 $CMP PT6100
