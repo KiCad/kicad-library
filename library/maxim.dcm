@@ -168,9 +168,33 @@ K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
 $ENDCMP
 #
-$CMP MAX712
-D Fast-charge Nickel  Metal  Hydride (NiMH) from a DC source
-K Fast-charge Nickel  Metal  Hydride (NiMH) from a DC source
+$CMP MAX712CPE
+D Fast-charge Nickel  Metal  Hydride (NiMH) from a DC source, 0 to +70 Degree Celcius
+K Fast-charge Nickel  Metal  Hydride (NiMH) from a DC source, 0 to +70 Degree Celcius
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX712CSE
+D Fast-charge Nickel Cadmium (NiCd) from a DC source, 0 to +70 Degree Celcius
+K Fast-charge Nickel Cadmium (NiCd) from a DC source, 0 to +70 Degree Celcius
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX712EPE
+D Fast-charge Nickel  Metal  Hydride (NiMH) from a DC source, -40 to +85 Degree Celcius
+K Fast-charge Nickel  Metal  Hydride (NiMH) from a DC source, -40 to +85 Degree Celcius
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX712ESE
+D Fast-charge Nickel Cadmium (NiCd) from a DC source, -40 to +85 Degree Celcius
+K Fast-charge Nickel Cadmium (NiCd) from a DC source, -40 to +85 Degree Celcius
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX712MJE
+D Fast-charge Nickel  Metal  Hydride (NiMH) from a DC source, ceramic, -55 to +125 Degree Celcius
+K Fast-charge Nickel  Metal  Hydride (NiMH) from a DC source, ceramic, -55 to +125 Degree Celcius
 F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
 $ENDCMP
 #
