@@ -135,10 +135,6 @@ D Afficheur LCD nLignes
 K DEV
 $ENDCMP
 #
-$CMP DISPLAY_3_LIGNE
-D DISPLAY EA7123-12C
-$ENDCMP
-#
 $CMP DOT-BAR
 D GRAPH unit
 K BAR DOT
@@ -155,6 +151,12 @@ $CMP EA_DOGXL160-7
 D EA DOGXL160-7 Graphical Display 160x104 no back light I2C SPI 2.7-3.3V
 K Graphic display EA DOGXL160-7
 F http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+$ENDCMP
+#
+$CMP EA_T123X-I2C
+D 3 Lines, 12 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power
+K 3 Lines, 12 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power
+F http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
 $ENDCMP
 #
 $CMP HDSM-441B
