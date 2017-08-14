@@ -12,6 +12,18 @@ K Current Sense, High Side Switch
 F http://www.infineon.com/dgdl/auips7121.pdf?fileId=5546d462533600a4015355a7d1721328
 $ENDCMP
 #
+$CMP IR1153S
+D Fixed 22.2kHz Frequency, µPFC One Cycle Ccontrol IC With Brown-Out Protection, Continuous Conduction Mode, SOIC-8
+K pfc controller ccm
+F https://www.infineon.com/dgdl/ir1153.pdf?fileId=5546d462533600a4015355c42a5b1649
+$ENDCMP
+#
+$CMP IR1155S
+D Programmable Frequency, One Cycle Ccontrol PFC IC, Continuous Conduction Mode, SOIC-8
+K pfc controller ccm
+F https://www.infineon.com/dgdl/ir1155spbf.pdf?fileId=5546d462533600a4015355c431f9164b
+$ENDCMP
+#
 $CMP IR2010
 D High and Low Side Driver, 200V, 3.0/3.0A, PDIP-14
 K Gate Driver
@@ -168,6 +180,24 @@ K Oscillating Gate Driver
 F https://www.infineon.com/dgdl/ir2155.pdf?fileId=5546d462533600a4015355c8dec316b6
 $ENDCMP
 #
+$CMP IR2175
+D Linear Current Sensing IC, PWM output, 600V, PDIP-8/SOIC-8
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir2175.pdf?fileId=5546d462533600a4015355c9161216c6
+$ENDCMP
+#
+$CMP IR21771S
+D Phase Current Sensor IC for AC Motor Control, PWM output, 600V, SOIC-16W
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir21771s.pdf?fileId=5546d462533600a4015355c9222c16c8
+$ENDCMP
+#
+$CMP IR2177S
+D Phase Current Sensor IC for AC Motor Control, PWM and ADC output, 600V, SOIC-16W
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir2177s.pdf?fileId=5546d462533600a4015355c92e7416cb
+$ENDCMP
+#
 $CMP IR2181
 D High and Low Side Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8
 K Gate Driver
@@ -222,6 +252,18 @@ K Gate Driver
 F https://www.infineon.com/dgdl/ir2114ss.pdf?fileId=5546d462533600a4015355c836cd168a
 $ENDCMP
 #
+$CMP IR22771S
+D Phase Current Sensor IC for AC Motor Control, PWM output, 1200V, SOIC-16W
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir21771s.pdf?fileId=5546d462533600a4015355c9222c16c8
+$ENDCMP
+#
+$CMP IR2277S
+D Phase Current Sensor IC for AC Motor Control, PWM and ADC output, 1200V, SOIC-16W
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir2177s.pdf?fileId=5546d462533600a4015355c92e7416cb
+$ENDCMP
+#
 $CMP IR2301
 D High and Low Side Driver, 600V, 200/350mA, PDIP-8/SOIC-8
 K Gate Driver
@@ -268,6 +310,12 @@ $CMP IR25607S
 D High and Low Side Driver, 600V, 2.0/2.0A, SOIC-16W
 K Gate Driver
 F https://www.infineon.com/dgdl/ir25607.pdf?fileId=5546d462533600a4015355ca0e7916f5
+$ENDCMP
+#
+$CMP IR25750L
+D SOT-23 Current Sensing IC, 600V, SOT-23-5
+K single current sense
+F https://www.infineon.com/dgdl/ir25750lpbf.pdf?fileId=5546d462533600a4015355ca1d0e16f7
 $ENDCMP
 #
 $CMP IR7106S
@@ -582,10 +630,22 @@ K Gate Driver Class D 2ch
 F https://www.infineon.com/dgdl/Infineon-IRS2452AM-DS-v01_00-EN.pdf?fileId=5546d462584d1d4a01584ee4f1f00713
 $ENDCMP
 #
+$CMP IRS2505L
+D Boost PFC and SMPS Control IC, Critical Conduction Mode, SOT-23-5
+K pfc controller crcm dcm
+F https://www.infineon.com/dgdl/irs2505lpbf.pdf?fileId=5546d462533600a40153567ad42c2819
+$ENDCMP
+#
 $CMP IRS25606S
 D Half-Bridge Driver, 600V, 200/350mA, SOIC-8
 K Gate Driver
 F https://www.infineon.com/dgdl/ir25606.pdf?fileId=5546d462533600a4015355ca002316f3
+$ENDCMP
+#
+$CMP IRS25751L
+D High-Voltage Start-Up IC, 480V, SOT-23-5
+K start up
+F https://www.infineon.com/dgdl/irs25751lpbf.pdf?fileId=5546d462533600a40153567b31da2837
 $ENDCMP
 #
 $CMP IRS2890DS
