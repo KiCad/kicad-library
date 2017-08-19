@@ -154,6 +154,12 @@ K Ethernet PHY MII RMII 10/100Mpbs
 F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
 $ENDCMP
 #
+$CMP DS89C21
+D Differential CMOS Line Driver and Receiver Pair, SOIC-8
+K rs422 tranciever
+F http://www.ti.com/lit/ds/symlink/ds89c21.pdf
+$ENDCMP
+#
 $CMP EL7242C
 D Translateur TTL->VMOS. Double driver VMOS
 $ENDCMP
@@ -240,6 +246,18 @@ $CMP ISL83491
 D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
 K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
+$ENDCMP
+#
+$CMP JoyWarrior24A10L
+D JoyWarrior 10bit, 3 axis, joystick controller, DIP-24/SOIC-24
+K joystick controller, 10bit, 3 axis
+F http://codemercs.com/downloads/joywarrior/JW_Datasheet.pdf
+$ENDCMP
+#
+$CMP JoyWarrior24A8L
+D JoyWarrior 8bit, 4 axis, joystick controller, DIP-24/SOIC-24
+K joystick controller, 8 bit, 4 axis
+F http://codemercs.com/downloads/joywarrior/JW_Datasheet.pdf
 $ENDCMP
 #
 $CMP LT1080
@@ -648,6 +666,24 @@ $CMP STMPE1600
 D IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 3.6V, QFN24
 K IO expander 16 GPIO
 F http://www.st.com/resource/en/datasheet/stmpe1600.pdf
+$ENDCMP
+#
+$CMP SpinWarrior24A3
+D SpinWarrior, 3 16bit absolute position rotary encoders, 6 digital inputs, DIP-24/SOIC-24
+K 16bit, absolute position, USB, rotary encoder
+F http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf
+$ENDCMP
+#
+$CMP SpinWarrior24R4
+D SpinWarrior, 4 8bit relative position rotary encoders, 7 switches, DIP-24/SOIC-24
+K 8bit, relative position, USB, rotary encoder
+F http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf
+$ENDCMP
+#
+$CMP SpinWarrior24R6
+D SpinWarrior, 6 8bit relative position rotary encoders, 3 switches, DIP-24/SOIC-24
+K 8bit, relative position, USB, rotary encoder
+F http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf
 $ENDCMP
 #
 $CMP TCA9534

@@ -112,13 +112,27 @@ K 7 SEGMENTS
 F Display/display-DC04-11GWA.pdf
 $ENDCMP
 #
+$CMP DE113-XX-XX
+D 3 and half digit 7 segment transmissive standard LCD with LO BAT, pin length 7.5mm, -20°C to +70°C, 3V-5V VDD
+K 3 and half digit 7 segment transmissive LCD with LO BAT
+F http://www.display-elektronik.de/filter/DE113-MS-20_75.pdf
+$ENDCMP
+#
+$CMP DE114-RS-20
+D 3 and half digit 7 segment reflective standard LCD with ~~ and BAT, pin length 6.35mm, -20°C to +70°C, 3V-5V VDD
+K 3 and half digit 7 segment reflective LCD with ~~ and BAT
+F http://www.display-elektronik.de/filter/DE114-RS-20_635.pdf
+$ENDCMP
+#
+$CMP DE170-XX-XX
+D 3 and half digit 7 segment reflective standard LCD with arrow, pin length 7.5mm, -20°C to +70°C, 3V-5V VDD
+K 3 and half digit 7 segment reflective LCD with arrow
+F http://www.display-elektronik.de/filter/DE170-RS-20_75.pdf
+$ENDCMP
+#
 $CMP DISPLAY
 D Afficheur LCD nLignes
 K DEV
-$ENDCMP
-#
-$CMP DISPLAY_3_LIGNE
-D DISPLAY EA7123-12C
 $ENDCMP
 #
 $CMP DOT-BAR
@@ -137,6 +151,18 @@ $CMP EA_DOGXL160-7
 D EA DOGXL160-7 Graphical Display 160x104 no back light I2C SPI 2.7-3.3V
 K Graphic display EA DOGXL160-7
 F http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+$ENDCMP
+#
+$CMP EA_T123X-I2C
+D 3 Lines, 12 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power
+K 3 Lines, 12 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power
+F http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
+$ENDCMP
+#
+$CMP ELD-426SYGWA
+D Double 7 segment brilliant yellow green LED common anode
+K Double 7 segment brilliant yellow green LED common anode
+F http://www.everlight.com/file/ProductFile/D426SYGWA-S530-E2.pdf
 $ENDCMP
 #
 $CMP HDSM-441B
