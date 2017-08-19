@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP IP3319CX6
+D Single channel common mode filter with integrated ESD protection network
+K common mode filter ESD protection
+F http://www.nxp.com/documents/data_sheet/IP3319CX6.pdf
+$ENDCMP
+#
 $CMP NUP2105L
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient
@@ -78,6 +84,12 @@ K diode
 F http://www.nxp.com/documents/data_sheet/PESDXL5UF_V_Y.pdf
 $ENDCMP
 #
+$CMP PRTR5V0U2X
+D Ultra low capacitance double rail-to-rail ESD protection diode, SOT-363
+K ESD protection diode
+F https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf
+$ENDCMP
+#
 $CMP SN65220
 D USB port transient suppressors
 K USB suppressor
@@ -138,10 +150,52 @@ K usb esd protection suppression transient
 F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
 $ENDCMP
 #
+$CMP SRV05-4
+D ESD Protection Diodes with Low Clamping Voltage, SOT-23-6
+K ESD protection diodes
+F http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF
+$ENDCMP
+#
 $CMP SZNUP2105L
 D Dual Line CAN Bus Protector, 24Vrwm, Automotive Grade
 K can esd protection suppression transient automotive
 F http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF
+$ENDCMP
+#
+$CMP TPD2EUSB30
+D 2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3
+K ESD protection USB 3.0
+F http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf
+$ENDCMP
+#
+$CMP TPD2EUSB30A
+D 2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3
+K ESD protection USB 3.0
+F http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf
+$ENDCMP
+#
+$CMP TPD2S017
+D 2-Channel Ultra-Low Clamp Voltage ESD Solution With Series-Resistor Isolation, SOT-23
+K ESD protection
+F http://www.ti.com/lit/ds/symlink/tpd2s017.pdf
+$ENDCMP
+#
+$CMP TPD4EUSB30
+D 4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10
+K ESD protection USB 3.0
+F http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf
+$ENDCMP
+#
+$CMP TPD4S1394
+D Firewire ESD Clamp With Live-Insertion Detection Circuit, X2SON-8
+K firewire ESD clamp
+F http://www.ti.com/lit/ds/symlink/tpd4s1394.pdf
+$ENDCMP
+#
+$CMP TPD8F003
+D 8 channel EMI filters with integrated ESD protection
+K EMI, ESD protection
+F http://www.ti.com/lit/ds/symlink/tpd6f003.pdf
 $ENDCMP
 #
 $CMP USB6B1

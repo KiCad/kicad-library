@@ -31,8 +31,8 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP5054
-D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C 
-K quad regulator dcdc buck synchronizable parallel 
+D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C
+K quad regulator dcdc buck synchronizable parallel
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
 $ENDCMP
 #
@@ -104,6 +104,18 @@ $CMP BD9G341EFJ
 D 12V-76V input voltage range 3A output current
 K BD9G341EFJ, Buck Converter
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
+$ENDCMP
+#
+$CMP CRE1S0305S3C
+D 3.3V to 5V 200mA DC-DC Converter with 3kV isolation 
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
+$ENDCMP
+#
+$CMP CRE1S0505S3C
+D 5V to 5V 200mA DC-DC Converter with 3kV isolation 
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
 #
 $CMP GL2576-12SF8DR
@@ -253,7 +265,7 @@ $ENDCMP
 $CMP LM2574HVH-12
 D LM2574N, 12V, 0.5A Step-Down VR, High Votage Input
 K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 500mA HV
-F www.national.com/ds/LM/LM2574.pdf
+F http://www.ti.com/lit/ds/symlink/lm2574.pdf
 $ENDCMP
 #
 $CMP LM2574HVH-15
@@ -748,6 +760,12 @@ K Miniature Step-Up Boost Flyback SEPIC Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2735.pdf
 $ENDCMP
 #
+$CMP LM27761
+D low-noise regulated switched-capacitor voltage inverter with 2.7V-5.5V input to -1.5 to -5V output
+K low-noise switched capacitor voltage converter invert
+F http://www.ti.com/lit/ds/symlink/lm27761.pdf
+$ENDCMP
+#
 $CMP LM3407MY
 D LED Lighting CC Floating Buck Switching Regulator, eMSOP-8
 K LED Step-Down Switching Regulator
@@ -943,6 +961,12 @@ D Low EMI DC/DC converter.
 F regulator/lt3439.pdf
 $ENDCMP
 #
+$CMP LT3472
+D Boost and Inverting DC/DC Converter for CCD Bias
+K DC/DC converter CCD Bias Boost
+F http://cds.linear.com/docs/en/datasheet/3472f.pdf
+$ENDCMP
+#
 $CMP LT3757EMSE
 D Boost, flyback, SEPIC and inverting regulator (MSOP package)
 $ENDCMP
@@ -956,6 +980,24 @@ $ENDCMP
 $CMP LTC1307
 D Switching Regulator (Single cell micropower)
 K POWER
+$ENDCMP
+#
+$CMP LTC1436A
+D High Efficiency Low Noise Synchronous Step-Down Switching Regulators, SSOP-24
+K buck controller 36V
+F http://cds.linear.com/docs/en/datasheet/14367afb.pdf
+$ENDCMP
+#
+$CMP LTC1436A-PLL
+D High Efficiency Low Noise Synchronous Step-Down Switching Regulators, SSOP-24
+K buck controller 36V
+F http://cds.linear.com/docs/en/datasheet/14367afb.pdf
+$ENDCMP
+#
+$CMP LTC1437A
+D High Efficiency Low Noise Synchronous Step-Down Switching Regulators, SSOP-28
+K buck controller 36V
+F http://cds.linear.com/docs/en/datasheet/14367afb.pdf
 $ENDCMP
 #
 $CMP LTC1624
@@ -974,6 +1016,12 @@ $CMP LTC1878EMS8
 D Synchronous Step-Down Regulator
 K REGUL POWER
 F linear-tec/ltc1878.pdf
+$ENDCMP
+#
+$CMP LTC3406B-1.2
+D 1.5MHz, 600mA Synchronous Step-Down Regulator, ThinSOT
+K Regulator step-down
+F http://cds.linear.com/docs/en/datasheet/3406b12fs.pdf
 $ENDCMP
 #
 $CMP LTC3429
@@ -1057,6 +1105,12 @@ $CMP LTC3890-1
 D 60V dual 2-phase synchronous step-down DC/DC controller in SSOP-28 package
 K switching buck converter regulator dual-output
 F http://cds.linear.com/docs/en/datasheet/38901fb.pdf
+$ENDCMP
+#
+$CMP LTC660
+D Monolithic CMOS switched-capacitor from 1.5V to 5.5V up to 100mA(DIP)
+K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
+F http://cds.linear.com/docs/en/datasheet/660fa.pdf
 $ENDCMP
 #
 $CMP MAX1044
@@ -1293,15 +1347,184 @@ K REGUL POWER
 F micrel/mic2177.pdf
 $ENDCMP
 #
+$CMP MIC4690
+D 500kHz 1A SuperSwitcher™ Buck Regulator
+K regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
+$ENDCMP
+#
 $CMP NID60
 D 60W, 250kHz Step Down Converter
 K 60W, 250KHz Buck DC/DC
 F https://www.meanwell-web.com/en/download_datasheet.php?products_id=NID60S24-12&type=3
 $ENDCMP
 #
+$CMP NMA0505DC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-5V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA0505SC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-5V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA0509DC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-9V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA0509SC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-9V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA0512DC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-12V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA0512SC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-12V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA0515DC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-15V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA0515SC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-15V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1205DC
+D Isolated 1W Dual output DC/DC Converter 12V Input +/-5V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1205SC
+D Isolated 1W Dual output DC/DC Converter 12V Input +/-5V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1209DC
+D Isolated 1W Dual output DC/DC Converter 12V Input +/-9V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1209SC
+D Isolated 1W Dual output DC/DC Converter 12V Input +/-9V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1212DC
+D Isolated 1W Dual output DC/DC Converter 12V Input +/-12V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1212SC
+D Isolated 1W Dual output DC/DC Converter 12V Input +/-12V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1215DC
+D Isolated 1W Dual output DC/DC Converter 12V Input +/-15V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1215SC
+D Isolated 1W Dual output DC/DC Converter 12V Input +/-15V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1505DC
+D Isolated 1W Dual output DC/DC Converter 15V Input +/-5V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1505SC
+D Isolated 1W Dual output DC/DC Converter 15V Input +/-5V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1512DC
+D Isolated 1W Dual output DC/DC Converter 15V Input +/-12V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1512SC
+D Isolated 1W Dual output DC/DC Converter 15V Input +/-12V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1515DC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-15V Output, DIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NMA1515SC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-15V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP NXE2S0505MC
+D 5V to 5V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1205MC
+D 12V to 5V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1212MC
+D 12V to 12V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP NXE2S1215MC
+D 12V to 15V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP PT6100
+D 1 Amp Adjustable Positive Step-down Integrated Switching Regulator
+K REG ADJ 1A
+F http://www.ti.com/lit/ds/symlink/pt6101.pdf
+$ENDCMP
+#
 $CMP ST1CC40PHR
 D DC/DC Buck CC Converter for LED's, Vin 18V, 3A, Power SO-8  (Preliminary)
 K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
+F http://www.ti.com/lit/ds/symlink/lm2574.pdf
 $ENDCMP
 #
 $CMP ST1S10PHR
@@ -1322,14 +1545,100 @@ K DC/DC Buck Conwerter 3A
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
 $ENDCMP
 #
+$CMP TEN20-2410WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=3.3V@5.5A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2411WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=5V@4A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2412WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=12V@1.67A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2413WIN
+D Isolated DC/DC Converter, Vin=9-36V, Vout=15V@1.33A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2421WIN
+D Isolated DC/DC Dual Supply Converter, Vin=9-36V, Vout=+-5V@2A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2422WIN
+D Isolated DC/DC Dual Supply Converter, Vin=9-36V, Vout=+-12V@835mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-2423WIN
+D Isolated DC/DC Dual Supply Converter, Vin=9-36V, Vout=+-15V@665mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4810WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=3.3V@5.5A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4811WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=5V@4A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4812WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=12V@1.67A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4813WIN
+D Isolated DC/DC Converter, Vin=18-75V, Vout=15V@1.33A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4821WIN
+D Isolated DC/DC Dual Supply Converter, Vin=18-75V, Vout=+-5V@2A
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4822WIN
+D Isolated DC/DC Dual Supply Converter, Vin=18-75V, Vout=+-12V@835mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP TEN20-4823WIN
+D Isolated DC/DC Dual Supply Converter, Vin=18-75V, Vout=+-15V@665mA
+K TRACO DC/DC
+F www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
 $CMP TL497
 D 500 mA step up/step down switching regulator
-F texas/tl497a.pdf
+K buck regulator
+F http://www.ti.com/lit/ds/symlink/tl497a.pdf
 $ENDCMP
 #
 $CMP TL497A
 D 500 mA step up/step down switching regulator
-F texas/tl497a.pdf
+K buck regulator
+F http://www.ti.com/lit/ds/symlink/tl497a.pdf
 $ENDCMP
 #
 $CMP TPS5430DDA

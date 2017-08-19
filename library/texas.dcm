@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DRV8860
+D 8-Channel Serial Interface Low-Side Driver
+K Relay Driver
+F http://www.ti.com/lit/ds/symlink/drv8860.pdf
+$ENDCMP
+#
+$CMP DRV8860_PWPR
+D 8-Channel Serial Interface Low-Side Driver
+K Relay Driver
+F http://www.ti.com/lit/ds/symlink/drv8860.pdf
+$ENDCMP
+#
 $CMP ISO7320C
 D Low Power Dual-Channel 2/0 Digital Isolator, 25Mbps 33ns, Fail-Safe High, SO8
 K 2Ch Dual Digital Isolator 25Mbps
@@ -22,6 +34,30 @@ $CMP ISO7321FC
 D Low Power Dual-Channel 1/1 Digital Isolator, 25Mbps 33ns, Fail-Safe Low, SO8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7321fc&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7330C
+D Low Power Quad-Channel 3/0 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/lit/ds/symlink/iso7330-q1.pdf
+$ENDCMP
+#
+$CMP ISO7330FC
+D Low Power Quad-Channel 3/0 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/lit/ds/symlink/iso7330-q1.pdf
+$ENDCMP
+#
+$CMP ISO7331C
+D Low Power Quad-Channel 2/1 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/lit/ds/symlink/iso7331c.pdf
+$ENDCMP
+#
+$CMP ISO7331FC
+D Low Power Quad-Channel 2/1 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7341c&fileType=pdf
 $ENDCMP
 #
 $CMP ISO7340C
@@ -120,6 +156,36 @@ K ARM Stellaris Cortex M4 MCU NRND
 F http://www.ti.com/lit/ds/symlink/tm4c1230h6pm.pdf
 $ENDCMP
 #
+$CMP LM5109MA
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109.pdf
+$ENDCMP
+#
+$CMP LM5109AMA
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109a.pdf
+$ENDCMP
+#
+$CMP LM5109ASD
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, WSON-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109a.pdf
+$ENDCMP
+#
+$CMP LM5109BMA
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109b.pdf
+$ENDCMP
+#
+$CMP LM5109BSD
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, WSON-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109b.pdf
+$ENDCMP
+#
 $CMP LM5175PWP
 D 42-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
 K Buck Boost step-up step-down
@@ -130,6 +196,30 @@ $CMP LM5175RHF
 D 42-V wide Vin synchronous 4-switch Buck-Boost controller, QFN-28 package
 K Buck Boost step-up step-down
 F http://www.ti.com/lit/ds/symlink/lm5175.pdf
+$ENDCMP
+#
+$CMP LP3947
+D Single Cell Li-Ion LDO Battery Charger IC, Up to 1A, Support USB charging scheme
+K li-ion battery charger usb
+F http://www.ti.com/lit/ds/symlink/lp3947.pdf
+$ENDCMP
+#
+$CMP MPY634KP
+D Wide Bandwidth Precision Analog Multiplier, DIP-14
+K analog multiplier
+F http://www.ti.com/lit/ds/symlink/mpy634.pdf
+$ENDCMP
+#
+$CMP MPY634KU
+D Wide Bandwidth Precision Analog Multiplier, SOIC-16W
+K analog multiplier
+F http://www.ti.com/lit/ds/symlink/mpy634.pdf
+$ENDCMP
+#
+$CMP PCA9306
+D Dual bidirectional I2C Bus and SMBus voltage level translator
+K Dual bidirectional I2C Bus and SMBus voltage level translator
+F http://www.ti.com/lit/ds/symlink/pca9306.pdf
 $ENDCMP
 #
 $CMP TCA9555PWR
@@ -166,6 +256,12 @@ $CMP TLC5940PWP
 D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, TSSOP package with thermal pad
 K PWM LED driver
 F http://www.ti.com/lit/ds/symlink/tlc5940.pdf
+$ENDCMP
+#
+$CMP TLC5973
+D 3 Channel 12bit PWM constant currend LED Driver with single wire interface
+K LED current driver 12bit PWM
+F http://www.ti.com/lit/ds/symlink/tlc5973.pdf
 $ENDCMP
 #
 $CMP TM4C1230C3PM
@@ -220,6 +316,24 @@ $CMP TMS470R1B768
 D ARM7TDM Microcontroller, 768KB Flash, 48KB RAM, PQFP-144
 K ARM 7TDM uC TMS470
 F http://www.ti.com/lit/ds/symlink/tms470r1b768.pdf
+$ENDCMP
+#
+$CMP TPL0401A-10-Q1
+D 128-TAPS Single-Channel Digital Potentiometer, I2C Interface, SC-70-6
+K Digital Pot Potentiometer I2C
+F http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf
+$ENDCMP
+#
+$CMP TPL0401B-10-Q1
+D 128-TAPS Single-Channel Digital Potentiometer, I2C Interface, SC-70-6
+K Digital Pot Potentiometer I2C
+F http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf
+$ENDCMP
+#
+$CMP TPL9201_TSSOP
+D 8-CHANNEL RELAY DRIVER WITH INTEGRATED 5-V LDO AND ZERO-VOLT DETECTION TSSOP-20
+K Relay Driver
+F http://www.ti.com/lit/ds/symlink/tpl9201.pdf
 $ENDCMP
 #
 $CMP TPS2041B
@@ -324,10 +438,82 @@ K 2-Port, 3-Port, 3.3V, EEPROM, Full Speed, Hub, Texas Instruments, USB1.1
 F http://www.ti.com/lit/ds/symlink/tusb2036.pdf
 $ENDCMP
 #
+$CMP TUSB4041I
+D four port USB 2.0 Hub
+K USB2.0 hub
+F http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
+$ENDCMP
+#
+$CMP TUSB7340
+D USB 3.0 xHCI Host Controller
+K USB HUB PCIE
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tusb7320&fileType=pdf
+$ENDCMP
+#
 $CMP TUSB8041
 D four port USB 3.0 Hub
 K USB3.0 hub
 F http://www.ti.com/lit/ds/symlink/tusb8041.pdf
+$ENDCMP
+#
+$CMP TXB0102DCT
+D 2-Bit Bidirectional Voltage-Level Translator in TSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0102.pdf
+$ENDCMP
+#
+$CMP TXB0102DCU
+D 2-Bit Bidirectional Voltage-Level Translator in VSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0102.pdf
+$ENDCMP
+#
+$CMP TXB0102YZP
+D 2-Bit Bidirectional Voltage-Level Translator in DSBGA Package  With Auto Direction Sensing and ±15-kV ESD Protection
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0102.pdf
+$ENDCMP
+#
+$CMP TXB0104D
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, SOIC-14
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104PW
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, TSSOP-14
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104RGY
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, Texas_PVGFN-14
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104RUT
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, Texas_PUQFN-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104YZT
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, DSBGA-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0104ZXU
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, Texas_Junior-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP TXB0108DQSR
+D 8-bit bidirectional voltage level translator with auto-direction sensing USON package
+K bidirectional voltage level translator
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
 $ENDCMP
 #
 $CMP UCC2891
