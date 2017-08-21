@@ -42,6 +42,36 @@ K Current-flow, voltage and temperature  measurement to support batterycapacity 
 F https://datasheets.maximintegrated.com/en/ds/DS2745.pdf
 $ENDCMP
 #
+$CMP LT3652EDD
+D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
+K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
+F http://cds.linear.com/docs/en/datasheet/3652fe.pdf
+$ENDCMP
+#
+$CMP LT3652EMSE
+D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, MSOP-12
+K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, MSOP-12
+F http://cds.linear.com/docs/en/datasheet/3652fe.pdf
+$ENDCMP
+#
+$CMP LT3652IDD
+D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
+K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
+F http://cds.linear.com/docs/en/datasheet/3652fe.pdf
+$ENDCMP
+#
+$CMP LT3652IMSE
+D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, MSOP-12
+K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, MSOP-12
+F http://cds.linear.com/docs/en/datasheet/3652fe.pdf
+$ENDCMP
+#
+$CMP LTC4001
+D Single cell (4.2V) programmable synchronous buck Li-Ion charger, 2A, 5.5V input
+K Li-Ion charger
+F http://cds.linear.com/docs/en/datasheet/4001f.pdf
+$ENDCMP
+#
 $CMP LTC4001-1
 D Single cell (4.1V) programmable synchronous buck Li-Ion charger, 2A, 5.5V input
 K Li-Ion Charger
@@ -70,6 +100,30 @@ $CMP LTC4002ES8-8.4
 D Standalone Li-Ion Switch Mode Battery Charger, 8.9-22V input, double cell, SOIC-8
 K lithium li-ion battery charger
 F http://cds.linear.com/docs/en/datasheet/4002f.pdf
+$ENDCMP
+#
+$CMP LTC4054ES5-4.2
+D Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD,  -40 to +85 degree Celcius, SOT-23
+K Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD,  -40 to +85 degree Celcius, SOT-23
+F https://www.elfa.se/Web/Downloads/42/xf/405442xf.pdf
+$ENDCMP
+#
+$CMP LTC4054XES5-4.2
+D Constant-current/constant-voltage linear charger for single cell lithium-ion batteries no Trickle Charge, 4.5V to 6.5V VDD,  -40 to +85 degree Celcius, SOT-23
+K Constant-current/constant-voltage linear charger for single cell lithium-ion batteries no Trickle Charge, 4.5V to 6.5V VDD,  -40 to +85 degree Celcius, SOT-23
+F https://www.elfa.se/Web/Downloads/42/xf/405442xf.pdf
+$ENDCMP
+#
+$CMP LTC4060EDHC
+D Complete fast charging system for 2, 3 or 4 series  NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, DFN-16
+K Complete fast charging system for 2, 3 or 4 series NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, DFN-16
+F https://www.elfa.se/Web/Downloads/_t/ds/ltc4060_eng_tds.pdf
+$ENDCMP
+#
+$CMP LTC4060EFE
+D Complete fast charging system for 2, 3 or 4 series NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, TSSOP-16
+K Complete fast charging system for 2, 3 or 4 series NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, TSSOP-16
+F https://www.elfa.se/Web/Downloads/_t/ds/ltc4060_eng_tds.pdf
 $ENDCMP
 #
 $CMP LTC6803-2
@@ -118,6 +172,66 @@ $CMP MAX1873TEEE
 D Charger for 4 lithium-ion (Li+), 10 NickelCadium (NiCD) cells or 10 NickelMetalHydride (NiMH), 9 to 28V VDD, -40 to +85 degree Celcius, QSOP-16
 K Charger for 4 lithium-ion (Li+), 10 NickelCadium (NiCD) cells or 10 NickelMetalHydride (NiMH), 9 to 28V VDD, -40 to +85 degree Celcius, QSOP-16
 F https://datasheets.maximintegrated.com/en/ds/MAX1873.pdf
+$ENDCMP
+#
+$CMP MAX712CPE
+D Fast-charge Nickel Metal Hydride (NiMH) from a DC source, 0 to +70 Degree Celcius, PDIP-16
+K Fast-charge Nickel Metal Hydride (NiMH) from a DC source, 0 to +70 Degree Celcius, PDIP-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX712CSE
+D Fast-charge Nickel Metal Hydride (NiMH) from a DC source, 0 to +70 Degree Celcius, SOIC-16
+K Fast-charge Nickel Metal Hydride (NiMH) from a DC source, 0 to +70 Degree Celcius, SOIC-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX712EPE
+D Fast-charge Nickel Metal Hydride (NiMH) from a DC source, -40 to +85 Degree Celcius, PDIP-16
+K Fast-charge Nickel Metal Hydride (NiMH) from a DC source, -40 to +85 Degree Celcius, PDIP-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX712ESE
+D Fast-charge Nickel Metal Hydride (NiMH) from a DC source, -40 to +85 Degree Celcius, SOIC-16
+K Fast-charge Nickel Metal Hydride (NiMH) from a DC source, -40 to +85 Degree Celcius, SOIC-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX712MJE
+D Fast-charge Nickel Metal Hydride (NiMH) from a DC source, ceramic, -55 to +125 Degree Celcius, PDIP-16
+K Fast-charge Nickel Metal Hydride (NiMH) from a DC source, ceramic, -55 to +125 Degree Celcius, PDIP-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX713CPE
+D Fast-charge Nickel Cadmium (NiCd) from a DC source, 0 to +70 Degree Celcius, PDIP-16
+K Fast-charge Nickel Cadmium (NiCd) from a DC source, 0 to +70 Degree Celcius, PDIP-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX713CSE
+D Fast-charge Nickel Cadmium (NiCd) from a DC source, 0 to +70 Degree Celcius, SOIC-16
+K Fast-charge Nickel Cadmium (NiCd) from a DC source, 0 to +70 Degree Celcius, SOIC-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX713EPE
+D Fast-charge Nickel Cadmium (NiCd) from a DC source, -40 to +85 Degree Celcius, PDIP-16
+K Fast-charge Nickel Cadmium (NiCd) from a DC source, -40 to +85 Degree Celcius, PDIP-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX713ESE
+D Fast-charge Nickel Cadmium (NiCd) from a DC source, -40 to +85 Degree Celcius, SOIC-16
+K Fast-charge Nickel Cadmium (NiCd) from a DC source, -40 to +85 Degree Celcius, SOIC-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
+$ENDCMP
+#
+$CMP MAX713MJE
+D Fast-charge Nickel Cadmium (NiCd) from a DC source, ceramic, -55 to +125 Degree Celcius, PDIP-16
+K Fast-charge Nickel Cadmium (NiCd) from a DC source, ceramic, -55 to +125 Degree Celcius, PDIP-16
+F https://datasheets.maximintegrated.com/en/ds/MAX712-MAX713.pdf
 $ENDCMP
 #
 $CMP MCP73811T-420I/OT
