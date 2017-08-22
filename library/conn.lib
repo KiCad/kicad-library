@@ -9252,30 +9252,11 @@ X Pin_40 40 200 -2000 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x01_Counter_Clockwise
+# Conn_02x01
 #
-DEF Conn_02x01_Counter_Clockwise J 0 40 Y N 1 F N
+DEF Conn_02x01 J 0 40 Y N 1 F N
 F0 "J" 50 100 50 H V C CNN
-F1 "Conn_02x01_Counter_Clockwise" 50 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_02x*
-$ENDFPLIST
-DRAW
-S -50 50 150 -50 1 1 10 f
-S -50 5 0 -5 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 300 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Conn_02x01_Odd_Even
-#
-DEF Conn_02x01_Odd_Even J 0 40 Y N 1 F N
-F0 "J" 50 100 50 H V C CNN
-F1 "Conn_02x01_Odd_Even" 50 -100 50 H V C CNN
+F1 "Conn_02x01" 50 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -9325,25 +9306,6 @@ S -50 5 0 -5 1 1 6 N
 S 150 5 100 -5 1 1 6 N
 X Pin_1a 1a -200 0 150 R 50 50 1 1 P
 X Pin_1b 1b 300 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Conn_02x01_Top_Bottom
-#
-DEF Conn_02x01_Top_Bottom J 0 40 Y N 1 F N
-F0 "J" 50 100 50 H V C CNN
-F1 "Conn_02x01_Top_Bottom" 50 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_02x*
-$ENDFPLIST
-DRAW
-S -50 50 150 -50 1 1 10 f
-S -50 5 0 -5 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 300 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -807,14 +807,8 @@ K connector
 F
 $ENDCMP
 #
-$CMP Conn_02x01_Counter_Clockwise
-D Generic connector, double row, 02x01, counter clockwise pin numbering scheme (similar to DIP packge numbering)
-K connector
-F
-$ENDCMP
-#
-$CMP Conn_02x01_Odd_Even
-D Generic connector, double row, 02x01, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+$CMP Conn_02x01
+D Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes.
 K connector
 F
 $ENDCMP
@@ -827,12 +821,6 @@ $ENDCMP
 #
 $CMP Conn_02x01_Row_Letter_Last
 D Generic connector, double row, 02x01, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb))
-K connector
-F
-$ENDCMP
-#
-$CMP Conn_02x01_Top_Bottom
-D Generic connector, double row, 02x01, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)
 K connector
 F
 $ENDCMP
