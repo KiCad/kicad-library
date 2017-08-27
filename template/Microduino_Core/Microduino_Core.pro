@@ -1,4 +1,4 @@
-update=Sun 27 Aug 2017 13:52:47 CEST
+update=Sun 27 Aug 2017 15:55:37 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,23 +39,11 @@ LibName9=adc-dac
 LibName10=memory
 LibName11=xilinx
 LibName12=microcontrollers
-LibName13=dsp
-LibName14=microchip
-LibName15=analog_switches
-LibName16=motorola
-LibName17=texas
-LibName18=intel
-LibName19=audio
-LibName20=interface
-LibName21=digital-audio
-LibName22=philips
-LibName23=display
-LibName24=cypress
-LibName25=siliconi
-LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
-LibName30=Microduino
+LibName13=audio
+LibName14=interface
+LibName15=opto
+LibName16=atmel
+LibName17=contrib
+LibName18=Microduino
 [general]
 version=1
