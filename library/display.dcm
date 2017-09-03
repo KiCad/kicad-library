@@ -112,13 +112,27 @@ K 7 SEGMENTS
 F Display/display-DC04-11GWA.pdf
 $ENDCMP
 #
+$CMP DE113-XX-XX
+D 3 and half digit 7 segment transmissive standard LCD with LO BAT, pin length 7.5mm, -20°C to +70°C, 3V-5V VDD
+K 3 and half digit 7 segment transmissive LCD with LO BAT
+F http://www.display-elektronik.de/filter/DE113-MS-20_75.pdf
+$ENDCMP
+#
+$CMP DE114-RS-20
+D 3 and half digit 7 segment reflective standard LCD with ~~ and BAT, pin length 6.35mm, -20°C to +70°C, 3V-5V VDD
+K 3 and half digit 7 segment reflective LCD with ~~ and BAT
+F http://www.display-elektronik.de/filter/DE114-RS-20_635.pdf
+$ENDCMP
+#
+$CMP DE170-XX-XX
+D 3 and half digit 7 segment reflective standard LCD with arrow, pin length 7.5mm, -20°C to +70°C, 3V-5V VDD
+K 3 and half digit 7 segment reflective LCD with arrow
+F http://www.display-elektronik.de/filter/DE170-RS-20_75.pdf
+$ENDCMP
+#
 $CMP DISPLAY
 D Afficheur LCD nLignes
 K DEV
-$ENDCMP
-#
-$CMP DISPLAY_3_LIGNE
-D DISPLAY EA7123-12C
 $ENDCMP
 #
 $CMP DOT-BAR
@@ -131,6 +145,12 @@ $CMP DOT-BAR2
 D BAR GRAPH Block
 K BAR DOT
 F Display/HDSP-48xx.pdf
+$ENDCMP
+#
+$CMP EA_DOGS104B-A
+D LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI 
+K LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI 
+F http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf
 $ENDCMP
 #
 $CMP EA_DOGXL160-7
@@ -149,6 +169,42 @@ $CMP EA_eDIPTFT57-ATP
 D TFT-graphical display with touch panel. 640x480, LED backlight, +5V VDD, RS-232, I2C or SPI
 K TFT-graphical display with touch panel. 640x480, LED backlight, +5V VDD, RS-232, I2C or SPI
 F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft57-ae.pdf
+$ENDCMP
+#
+$CMP EA_T123X-I2C
+D 3 Lines, 12 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power
+K 3 Lines, 12 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power
+F http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
+$ENDCMP
+#
+$CMP EA_eDIPTFT43-A
+D TFT graphical display, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI
+K TFT graphical display, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+$ENDCMP
+#
+$CMP EA_eDIPTFT43-ATC
+D TFT graphical display, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI
+K TFT graphical display, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+$ENDCMP
+#
+$CMP EA_eDIPTFT43-ATP
+D TFT graphical display with resistive touch panel, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI
+K TFT graphical display with resistive touch panel, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+$ENDCMP
+#
+$CMP EA_eDIPTFT43-ATS
+D TFT graphical display with capacitive touch panel, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI
+K TFT graphical display with capacitive touch panel, 480x272, 16 bit colour, LED backlight, 5V VDD, RS-232, I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+$ENDCMP
+#
+$CMP ELD-426SYGWA
+D Double 7 segment brilliant yellow green LED common anode
+K Double 7 segment brilliant yellow green LED common anode
+F http://www.everlight.com/file/ProductFile/D426SYGWA-S530-E2.pdf
 $ENDCMP
 #
 $CMP HDSM-441B
@@ -188,62 +244,62 @@ F www.newhavendisplay.com/app_notes/ILI9341.pdf
 $ENDCMP
 #
 $CMP KCSA02-105
-D 7 segment display, common anode, red, 5.08mm (0.2")
-K LED Kingbright SMD
-F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.9A).pdf
+D One digit 7 segment hyper red LED, common anode
+K One digit 7 segment hyper red LED, common anode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf
 $ENDCMP
 #
 $CMP KCSA02-106
-D 7 segment display, common anode, orange, 5.08mm (0.2")
-K LED Kingbright SMD
-F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-106(Ver.10A).pdf
+D One digit 7 segment super bright orange LED, common anode
+K One digit 7 segment super bright orange LED, common anode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-106(Ver.11A).pdf
 $ENDCMP
 #
 $CMP KCSA02-107
-D 7 segment display, common anode, yellow, 5.08mm (0.2")
-K LED Kingbright SMD
+D One digit 7 segment super bright orange LED, common anode
+K One digit 7 segment super bright orange LED, common anode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-107(Ver.10A).pdf
 $ENDCMP
 #
 $CMP KCSA02-123
-D 7 segment display, common anode, green, 5.08mm (0.2")
-K LED Kingbright SMD
+D One digit 7 segment green LED, common anode
+K One digit 7 segment green LED, common anode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-123(Ver.9A).pdf
 $ENDCMP
 #
 $CMP KCSA02-136
-D 7 segment display, common anode, blue, 5.08mm (0.2")
-K LED Kingbright SMD
+D One digit 7 segment blue LED, common anode
+K One digit 7 segment blue LED, common anode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-136(Ver.7B).pdf
 $ENDCMP
 #
 $CMP KCSC02-105
-D 7 segment display, common cathode, red, 5.08mm (0.2")
-K LED Kingbright SMD
+D One digit 7 segment hyper red LED, common cathode
+K One digit 7 segment hyper red LED, common cathode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf
 $ENDCMP
 #
 $CMP KCSC02-106
-D 7 segment display, common cathode, orange, 5.08mm (0.2")
-K LED Kingbright SMD
+D One digit 7 segment super bright orange LED, common cathode
+K One digit 7 segment super bright orange LED, common cathode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-106(Ver.10A).pdf
 $ENDCMP
 #
 $CMP KCSC02-107
-D 7 segment display, common cathode, yellow, 5.08mm (0.2")
-K LED Kingbright SMD
-F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-107(Ver.9A).pdf
+D One digit 7 segment super bright orange LED, common cathode
+K One digit 7 segment super bright orange LED, common cathode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-106(Ver.10A).pdf
 $ENDCMP
 #
 $CMP KCSC02-123
-D 7 segment display, common cathode, green, 5.08mm (0.2")
-K LED Kingbright SMD
-F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-123(Ver.9A).pdf
+D One digit 7 segment green LED, common cathode
+K One digit 7 segment green LED, common cathode
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-123(Ver.10A).pdf
 $ENDCMP
 #
 $CMP KCSC02-136
-D 7 segment display, common cathode, blue, 5.08mm (0.2")
-K LED Kingbright SMD
+D One digit 7 segment blue LED, common cathode
+K One digit 7 segment blue LED, common cathode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-136(Ver.6B).pdf
 $ENDCMP
 #
