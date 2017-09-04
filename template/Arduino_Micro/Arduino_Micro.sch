@@ -115,8 +115,8 @@ L CONN_01X17 P1
 U 1 1 56D719DF
 P 9550 2050
 F 0 "P1" H 9550 2950 50  0000 C CNN
-F 1 "Digital" V 9650 2050 50  0000 C CNN
-F 2 "Socket_Arduino_Micro:Socket_Strip_Arduino_1x17" H 9550 2050 50  0001 C CNN
+F 1 "Digital" H 9550 1150 50  0000 C CNN
+F 2 "Socket_Arduino_Micro:Socket_Strip_Arduino_1x17" V 9650 2050 30  0000 C CNN
 F 3 "" H 9550 2050 50  0000 C CNN
 	1    9550 2050
 	1    0    0    -1  
@@ -126,8 +126,8 @@ L CONN_01X17 P2
 U 1 1 56D71A21
 P 9950 2050
 F 0 "P2" H 9950 2950 50  0000 C CNN
-F 1 "Analog" V 10050 2050 50  0000 C CNN
-F 2 "Socket_Arduino_Micro:Socket_Strip_Arduino_1x17" H 9950 2050 50  0001 C CNN
+F 1 "Analog" H 9950 1150 50  0000 C CNN
+F 2 "Socket_Arduino_Micro:Socket_Strip_Arduino_1x17" V 10050 2050 30  0000 C CNN
 F 3 "" H 9950 2050 50  0000 C CNN
 	1    9950 2050
 	-1   0    0    -1  
@@ -214,12 +214,12 @@ $EndComp
 $Comp
 L +3.3V #PWR04
 U 1 1 56D72867
-P 10450 1100
-F 0 "#PWR04" H 10450 950 50  0001 C CNN
-F 1 "+3.3V" H 10450 1240 28  0000 C CNN
-F 2 "" H 10450 1100 50  0000 C CNN
-F 3 "" H 10450 1100 50  0000 C CNN
-	1    10450 1100
+P 10450 1000
+F 0 "#PWR04" H 10450 850 50  0001 C CNN
+F 1 "+3.3V" H 10450 1140 28  0000 C CNN
+F 2 "" H 10450 1000 50  0000 C CNN
+F 3 "" H 10450 1000 50  0000 C CNN
+	1    10450 1000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -249,7 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 1550 10250 3000
 Wire Wire Line
-	10450 1100 10450 2750
+	10450 1000 10450 2750
 Wire Wire Line
 	10450 2750 10150 2750
 Wire Notes Line
@@ -260,7 +260,7 @@ U 1 1 56D72ED3
 P 10800 650
 F 0 "P3" V 10900 650 50  0000 C CNN
 F 1 "CONN_01X01" H 10900 650 50  0001 C CNN
-F 2 "Socket_Arduino_Micro:1pin_Micro" H 10800 650 50  0001 C CNN
+F 2 "Socket_Arduino_Micro:1pin_Micro" H 10722 722 20  0000 C CNN
 F 3 "" H 10800 650 50  0000 C CNN
 	1    10800 650 
 	0    -1   -1   0   
@@ -271,7 +271,7 @@ U 1 1 56D72FBF
 P 10900 650
 F 0 "P4" V 11000 650 50  0000 C CNN
 F 1 "CONN_01X01" H 11000 650 50  0001 C CNN
-F 2 "Socket_Arduino_Micro:1pin_Micro" H 10900 650 50  0001 C CNN
+F 2 "Socket_Arduino_Micro:1pin_Micro" H 10900 650 20  0001 C CNN
 F 3 "" H 10900 650 50  0000 C CNN
 	1    10900 650 
 	0    -1   -1   0   
@@ -282,7 +282,7 @@ U 1 1 56D72FE7
 P 11000 650
 F 0 "P5" V 11100 650 50  0000 C CNN
 F 1 "CONN_01X01" H 11100 650 50  0001 C CNN
-F 2 "Socket_Arduino_Micro:1pin_Micro" H 11000 650 50  0001 C CNN
+F 2 "Socket_Arduino_Micro:1pin_Micro" H 11000 650 20  0001 C CNN
 F 3 "" H 11000 650 50  0000 C CNN
 	1    11000 650 
 	0    -1   -1   0   
@@ -293,7 +293,7 @@ U 1 1 56D73012
 P 11100 650
 F 0 "P6" V 11200 650 50  0000 C CNN
 F 1 "CONN_01X01" H 11200 650 50  0001 C CNN
-F 2 "Socket_Arduino_Micro:1pin_Micro" H 11100 650 50  0001 C CNN
+F 2 "Socket_Arduino_Micro:1pin_Micro" H 11019 581 20  0000 C CNN
 F 3 "" H 11100 650 50  0000 C CNN
 	1    11100 650 
 	0    -1   -1   0   
