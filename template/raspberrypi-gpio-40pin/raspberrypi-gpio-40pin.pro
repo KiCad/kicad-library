@@ -1,4 +1,4 @@
-update=Mon 04 Sep 2017 08:00:03 AM CDT
+update=Mon 04 Sep 2017 04:48:58 PM CDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -84,5 +84,6 @@ LibDir=../../library
 [eeschema/libraries]
 LibName1=conn
 LibName2=power
+LibName3=mechanical
 [general]
 version=1
