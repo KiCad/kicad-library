@@ -1,4 +1,4 @@
-update=Sun 27 Aug 2017 15:55:37 CEST
+update=Tue 05 Sep 2017 17:47:10 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,25 +25,8 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../library
+LibDir=
 [eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=memory
-LibName11=xilinx
-LibName12=microcontrollers
-LibName13=audio
-LibName14=interface
-LibName15=opto
-LibName16=atmel
-LibName17=contrib
-LibName18=Microduino
+LibName1=Microduino
 [general]
 version=1
