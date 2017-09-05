@@ -1,4 +1,4 @@
-update=Tue 05 Sep 2017 17:47:10 CEST
+update=Tue 05 Sep 2017 18:08:46 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,8 +25,8 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../../library
 [eeschema/libraries]
-LibName1=Microduino
+LibName1=modules
 [general]
 version=1
