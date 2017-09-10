@@ -2478,14 +2478,34 @@ K screw terminal
 F ~
 $ENDCMP
 #
-$CMP TEST_1P
-D point
-K point tp
+$CMP Test_Point
+D test point
+K test point tp
+F ~
 $ENDCMP
 #
-$CMP TEST_2P
-D point
+$CMP Test_Point_2Pole
+D 2-polar test point
 K point tp
+F ~
+$ENDCMP
+#
+$CMP Test_Point_ALT
+D test point (alternative shape)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP Test_Point_Flag
+D test point (alternative flag-style design)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP Test_Point_Probe
+D test point (alternative probe-style design)
+K test point tp
+F ~
 $ENDCMP
 #
 $CMP USB3_A
