@@ -246,6 +246,24 @@ K single opamp
 F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3140-a.pdf
 $ENDCMP
 #
+$CMP Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.DIP-8
+D Generic single amp symbol, DIP-8
+K single opamp
+F NA
+$ENDCMP
+#
+$CMP Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.MSOP-8
+D Generic single amp symbol, MSOP-8
+K single opamp
+F NA
+$ENDCMP
+#
+$CMP Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.SOIC-8
+D Generic single amp symbol, SOIC-8
+K single opamp
+F NA
+$ENDCMP
+#
 $CMP ICM7555
 D CMOS General Purpose Timer, DIP-8/SOIC-8
 K single timer 555
@@ -432,16 +450,16 @@ K sample hold buffer unity gain
 F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
 $ENDCMP
 #
-$CMP LF398_SOIC8
-D Sample And Hold Unity Gain Follower, SOIC-8
-K sample hold buffer unity gain
-F http://cds.linear.com/docs/en/datasheet/lt0398s8.pdf
-$ENDCMP
-#
 $CMP LF398_SOIC14
 D Sample And Hold Unity Gain Follower, SOIC-14
 K sample hold buffer unity gain
 F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
+$ENDCMP
+#
+$CMP LF398_SOIC8
+D Sample And Hold Unity Gain Follower, SOIC-8
+K sample hold buffer unity gain
+F http://cds.linear.com/docs/en/datasheet/lt0398s8.pdf
 $ENDCMP
 #
 $CMP LH0002H
@@ -534,14 +552,14 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm318-n.pdf
 $ENDCMP
 #
-$CMP LM319H
-D High Speed Dual Comparator, TO-100-10
+$CMP LM319
+D High Speed Dual Comparator, DIP-14/SOIC-14
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
 #
-$CMP LM319
-D High Speed Dual Comparator, DIP-14/SOIC-14
+$CMP LM319H
+D High Speed Dual Comparator, TO-100-10
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
@@ -1260,14 +1278,14 @@ K Current shunt monitor
 F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
 $ENDCMP
 #
-$CMP NCV210
-D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
+$CMP NCS211
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6
 K Current shunt monitor
 F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
 $ENDCMP
 #
-$CMP NCS211
-D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6
+$CMP NCV210
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
 K Current shunt monitor
 F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
 $ENDCMP
@@ -1452,12 +1470,6 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
-$CMP OPA2695xD
-D Dual, Ultra-Wideband, Current-Feedback Operational Amplifier with Disable, SOIC-8
-K dual opamp
-F http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf
-$ENDCMP
-#
 $CMP OPA2691
 D Dual Wideband, Current-Feedback Operational Amplifier, SOIC-8
 K dual current feedback opamp
@@ -1468,6 +1480,12 @@ $CMP OPA2691-14
 D Dual Wideband, Current-Feedback Operational Amplifier With Disable, SOIC-14
 K dual current feedback opamp
 F http://www.ti.com/lit/ds/sbos224d/sbos224d.pdf
+$ENDCMP
+#
+$CMP OPA2695xD
+D Dual, Ultra-Wideband, Current-Feedback Operational Amplifier with Disable, SOIC-8
+K dual opamp
+F http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf
 $ENDCMP
 #
 $CMP OPA2695xRGT
