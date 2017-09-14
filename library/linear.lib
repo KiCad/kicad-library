@@ -514,11 +514,11 @@ X ~ 8 200 -300 150 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.DIP-8
+# Generic.Amp.Single.DIP-8.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc
 #
-DEF Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.DIP-8 U 0 10 Y Y 1 F N
+DEF Generic.Amp.Single.DIP-8.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc U 0 10 Y Y 1 F N
 F0 "U" 0 250 50 H V L CNN
-F1 "Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.DIP-8" 0 150 50 H V L CNN
+F1 "Generic.Amp.Single.DIP-8.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc" 0 150 50 H V L CNN
 F2 "Housings_DIP:DIP-8_W7.62mm" 100 -150 50 H I L CNN
 F3 "" 150 150 50 H I C CNN
 ALIAS OPA340P
@@ -538,11 +538,11 @@ X NC 8 0 -100 100 U 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
-# Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.MSOP-8
+# Generic.Amp.Single.MSOP-8.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc
 #
-DEF Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.MSOP-8 U 0 10 Y Y 1 F N
+DEF Generic.Amp.Single.MSOP-8.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc U 0 10 Y Y 1 F N
 F0 "U" 0 250 50 H V L CNN
-F1 "Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.MSOP-8" 0 150 50 H V L CNN
+F1 "Generic.Amp.Single.MSOP-8.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc" 0 150 50 H V L CNN
 F2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" 100 -150 50 H I L CNN
 F3 "" 150 150 50 H I C CNN
 ALIAS MCP6L91RT-EMS
@@ -562,11 +562,32 @@ X NC 8 0 -100 100 U 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
-# Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.SOIC-8
+# Generic.Amp.Single.SC-70-5.Ninv-Pneg-Inv-Out-Ppos
 #
-DEF Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.SOIC-8 U 0 10 Y Y 1 F N
+DEF Generic.Amp.Single.SC-70-5.Ninv-Pneg-Inv-Out-Ppos U 0 20 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "Generic.Amp.Single.SC-70-5.Ninv-Pneg-Inv-Out-Ppos" 100 150 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SC-70-5" 50 -150 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS LMV321M7 LMV331M7 OPA333xxDCK OPA376xxDCK
+$FPLIST
+ SC?70?5*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V- 2 -100 -300 150 U 50 50 0 1 W
+X V+ 5 -100 300 150 D 50 50 0 1 W
+X + 1 -300 100 100 R 50 50 1 1 I
+X - 3 -300 -100 100 R 50 50 1 1 I
+X ~ 4 300 0 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Generic.Amp.Single.SOIC-8.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc
+#
+DEF Generic.Amp.Single.SOIC-8.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc U 0 10 Y Y 1 F N
 F0 "U" 0 250 50 H V L CNN
-F1 "Generic.Amp.Single.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc.SOIC-8" 0 150 50 H V L CNN
+F1 "Generic.Amp.Single.SOIC-8.Nc-Inv-Ninv-Pneg-Nc-Out-Ppos-Nc" 0 150 50 H V L CNN
 F2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" 100 -150 50 H I L CNN
 F3 "" 150 150 50 H I C CNN
 ALIAS OPA333xxD OPA340UA OPA376xxD MCP6L91RT-ESN TSV911IDT THS4631D OP179GS
@@ -586,32 +607,11 @@ X NC 8 0 -100 100 U 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
-# Generic.Amp.Single.Ninv-Pneg-Inv-Out-Ppos.SC-70-5
+# Generic.Amp.Single.SOT-23-5.Ninv-Pneg-Inv-Out-Ppos
 #
-DEF Generic.Amp.Single.Ninv-Pneg-Inv-Out-Ppos.SC-70-5 U 0 20 Y Y 1 F N
+DEF Generic.Amp.Single.SOT-23-5.Ninv-Pneg-Inv-Out-Ppos U 0 20 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "Generic.Amp.Single.Ninv-Pneg-Inv-Out-Ppos.SC-70-5" 100 150 50 H V L CNN
-F2 "TO_SOT_Packages_SMD:SC-70-5" 50 -150 50 H I L CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS LMV321M7 LMV331M7 OPA333xxDCK OPA376xxDCK
-$FPLIST
- SC?70?5*
-$ENDFPLIST
-DRAW
-P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
-X V- 2 -100 -300 150 U 50 50 0 1 W
-X V+ 5 -100 300 150 D 50 50 0 1 W
-X + 1 -300 100 100 R 50 50 1 1 I
-X - 3 -300 -100 100 R 50 50 1 1 I
-X ~ 4 300 0 100 L 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
-# Generic.Amp.Single.Ninv-Pneg-Inv-Out-Ppos.SOT-23-5
-#
-DEF Generic.Amp.Single.Ninv-Pneg-Inv-Out-Ppos.SOT-23-5 U 0 20 Y Y 1 F N
-F0 "U" 0 200 50 H V L CNN
-F1 "Generic.Amp.Single.Ninv-Pneg-Inv-Out-Ppos.SOT-23-5" 100 100 50 H V L CNN
+F1 "Generic.Amp.Single.SOT-23-5.Ninv-Pneg-Inv-Out-Ppos" 100 100 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-5" 50 -150 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS LMV321M5 LMV331M5 MCP6561U MCP6001U
@@ -628,11 +628,11 @@ X ~ 4 300 0 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# Generic.Amp.Single.Out-Ppos-Ninv-Inv-Pneg.SOT-23-5
+# Generic.Amp.Single.SOT-23-5.Out-Ppos-Ninv-Inv-Pneg
 #
-DEF Generic.Amp.Single.Out-Ppos-Ninv-Inv-Pneg.SOT-23-5 U 0 20 Y Y 1 F N
+DEF Generic.Amp.Single.SOT-23-5.Out-Ppos-Ninv-Inv-Pneg U 0 20 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "Generic.Amp.Single.Out-Ppos-Ninv-Inv-Pneg.SOT-23-5" 100 100 50 H V L CNN
+F1 "Generic.Amp.Single.SOT-23-5.Out-Ppos-Ninv-Inv-Pneg" 100 100 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-5" 650 -150 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 ALIAS OP179GRT
