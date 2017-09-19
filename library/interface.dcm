@@ -154,6 +154,12 @@ K Ethernet PHY MII RMII 10/100Mpbs
 F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
 $ENDCMP
 #
+$CMP DS89C21
+D Differential CMOS Line Driver and Receiver Pair, SOIC-8
+K rs422 tranciever
+F http://www.ti.com/lit/ds/symlink/ds89c21.pdf
+$ENDCMP
+#
 $CMP EL7242C
 D Translateur TTL->VMOS. Double driver VMOS
 $ENDCMP
@@ -242,6 +248,18 @@ K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
 $ENDCMP
 #
+$CMP JoyWarrior24A10L
+D JoyWarrior 10bit, 3 axis, joystick controller, DIP-24/SOIC-24
+K joystick controller, 10bit, 3 axis
+F http://codemercs.com/downloads/joywarrior/JW_Datasheet.pdf
+$ENDCMP
+#
+$CMP JoyWarrior24A8L
+D JoyWarrior 8bit, 4 axis, joystick controller, DIP-24/SOIC-24
+K joystick controller, 8 bit, 4 axis
+F http://codemercs.com/downloads/joywarrior/JW_Datasheet.pdf
+$ENDCMP
+#
 $CMP LT1080
 D Dual RS232 driver/receiver, 5V supply, 120kb/s
 K rs232 uart transceiver
@@ -306,6 +324,12 @@ $CMP MAX13450E
 D 20Mbps RS485 transceiver with integrated switchable termination
 K RS485
 F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
+$ENDCMP
+#
+$CMP MAX1487E
+D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
 $ENDCMP
 #
 $CMP MAX202
@@ -414,6 +438,54 @@ $CMP MAX3232
 D 3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors
 K rs232 uart transceiver line-driver
 F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
+$ENDCMP
+#
+$CMP MAX481E
+D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX483E
+D Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX485E
+D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX487E
+D Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX488E
+D Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-8 and SOIC-8
+K Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX489E
+D Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, with with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+K Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, with with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX490E
+D Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, -40 to +85 degree Celcius, DIP-8 and SOIC-8
+K Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, -40 to +85 degree Celcius, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX491E
+D Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+K Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
 $ENDCMP
 #
 $CMP MC1413
@@ -548,6 +620,48 @@ K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
 #
+$CMP PCI9030-PQFP176
+D PCI SMARTarget I/O Accelerator
+K PCI
+F http://lhcb-online.web.cern.ch/lhcb-online/ecs/ccpc/docs/plc-9030-databook.pdf
+$ENDCMP
+#
+$CMP SN65HVD230
+D CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC
+K can transeiver ti low-power
+F http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+$ENDCMP
+#
+$CMP SN65HVD231
+D CAN Bus Transceivers, 3.3V, 1Mbps,Ultra Low-Power capabilities, SOIC
+K can transeiver ti ulp low-power
+F http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+$ENDCMP
+#
+$CMP SN65HVD232
+D CAN Bus Transceivers, 3.3V, 1Mbps, SOIC
+K can transeiver ti
+F http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+$ENDCMP
+#
+$CMP SN65HVD233
+D CAN Bus Transceiver, 3.3V, 1Mbps, Loopback feature, SOIC
+K can transeiver ti
+F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
+$ENDCMP
+#
+$CMP SN65HVD234
+D CAN Bus Transceiver, 3.3V, 1Mbps, Enable feature, SOIC
+K can transeiver ti
+F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
+$ENDCMP
+#
+$CMP SN65HVD235
+D CAN Bus Transceiver, 3.3V, 1Mbps, Autobaud feature, SOIC
+K can transeiver ti
+F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
+$ENDCMP
+#
 $CMP SN75468
 D Higher Voltage, High Current Darlington Transistor Arrays
 K darlington transistor array
@@ -606,6 +720,30 @@ $CMP SP3485EP
 D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, DIP8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP STMPE1600
+D IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 3.6V, QFN24
+K IO expander 16 GPIO
+F http://www.st.com/resource/en/datasheet/stmpe1600.pdf
+$ENDCMP
+#
+$CMP SpinWarrior24A3
+D SpinWarrior, 3 16bit absolute position rotary encoders, 6 digital inputs, DIP-24/SOIC-24
+K 16bit, absolute position, USB, rotary encoder
+F http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf
+$ENDCMP
+#
+$CMP SpinWarrior24R4
+D SpinWarrior, 4 8bit relative position rotary encoders, 7 switches, DIP-24/SOIC-24
+K 8bit, relative position, USB, rotary encoder
+F http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf
+$ENDCMP
+#
+$CMP SpinWarrior24R6
+D SpinWarrior, 6 8bit relative position rotary encoders, 3 switches, DIP-24/SOIC-24
+K 8bit, relative position, USB, rotary encoder
+F http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf
 $ENDCMP
 #
 $CMP TCA9534

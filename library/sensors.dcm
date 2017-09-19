@@ -25,49 +25,49 @@ F http://www.honeywellscportal.com//index.php?ci_id=138832
 $ENDCMP
 #
 $CMP A1101ELHL
-D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C 
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1101LLHL
-D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1102ELHL
-D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +85C 
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +85C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1102LLHL
-D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1103ELHL
-D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +85C 
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +85C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1103LLHL
-D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1104LLHL
-D Hall effect switch, unipolar, Bop=240G, Brp=200G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=240G, Brp=200G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1106LLHL
-D Hall effect switch, unipolar, Bop=340G, Brp=240G, -40C to +125C 
+D Hall effect switch, unipolar, Bop=340G, Brp=240G, -40C to +125C
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
@@ -106,12 +106,6 @@ $CMP A1302KUA-T
 D Linear Hall Effect Sensor, SIP 3pin
 K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
-$ENDCMP
-#
-$CMP AD8418
-D Bidirectional zero-drift current sense amplifier, 20V/V
-K current sense amplifier shunt high side bidirectional
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
 $ENDCMP
 #
 $CMP AS5045B
@@ -162,94 +156,118 @@ K spectrometer
 F http://www.hamamatsu.com/resources/pdf/ssd/c12880ma_kacc1226e.pdf
 $ENDCMP
 #
+$CMP CCS811
+D Ultra-low power digital gas sensor for monitoring indoor air quality
+K metal oxide gas sensor MOX volatile organix comounds VOC i2c
+F http://ams.com/eng/content/download/951091/2269479/471718
+$ENDCMP
+#
 $CMP DHT11
 D - Temperature and humidity module
 K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
+$CMP DS1621
+D 1-Wire Digital Thermometer and Thermostat, DIP-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
+$ENDCMP
+#
+$CMP DS1621S
+D 1-Wire Digital Thermometer and Thermostat, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
+$ENDCMP
+#
+$CMP DS1621V
+D 1-Wire Digital Thermometer and Thermostat, SO-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
+$ENDCMP
+#
+$CMP DS1821C
+D Programmable Digital Thermostat and Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
+$ENDCMP
+#
+$CMP DS1822
+D Econo 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS1822-PAR
+D Econo 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1822-PAR.pdf
+$ENDCMP
+#
+$CMP DS1822Z
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS1825
+D 1-Wire Digital Temperature Sensor, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1825.pdf
+$ENDCMP
+#
+$CMP DS18B20
+D Programmable Resolution 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18B20-PAR
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18B20-PAR.pdf
+$ENDCMP
+#
+$CMP DS18B20U
+D Programmable Resolution 1-Wire Digital Thermometer, MSOP-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18B20Z
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18S20
+D High-Precision 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
+$ENDCMP
+#
+$CMP DS18S20-PAR
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20-PAR.pdf
+$ENDCMP
+#
+$CMP DS18S20Z
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
+$ENDCMP
+#
+$CMP DS28EA00
+D 1-Wire Digital Thermometer with Sequence Detect and PIO, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS28EA00.pdf
+$ENDCMP
+#
 $CMP Flir_LEPTON
 D LWIR camera 8 to 14um 80x60 pixel
 K LWIR camera
 F https://cdn.sparkfun.com/datasheets/Sensors/Infrared/FLIR_Lepton_Data_Brief.pdf
-$ENDCMP
-#
-$CMP INA138
-D Unipolar high-side current shunt monitor, 36V common mode
-K current sensor shunt monitor
-F http://www.ti.com/lit/ds/symlink/ina138.pdf
-$ENDCMP
-#
-$CMP INA168
-D Unipolar high-side current shunt monitor, 60V common mode
-K current sensor shunt monitor
-F http://www.ti.com/lit/ds/symlink/ina138.pdf
-$ENDCMP
-#
-$CMP INA193
-D 20V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA194
-D 50V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA195
-D 100V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA196
-D 20V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA197
-D 50V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA198
-D 100V/V Current shunt monitor with independent supply, -16V to +80V common mode range
-K Current sensor shunt monitor high low side
-F http://www.ti.com/lit/gpn/ina193
-$ENDCMP
-#
-$CMP INA282
-D 50V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
-$ENDCMP
-#
-$CMP INA283
-D 200V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
-$ENDCMP
-#
-$CMP INA284
-D 500V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
-$ENDCMP
-#
-$CMP INA285
-D 1000V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
-$ENDCMP
-#
-$CMP INA286
-D 100V/V High accuracy, wide common-mode range bidirectional current shunt monitor
-K current monitor shunt sensor bidirectional high low side common mode
-F http://www.ti.com/lit/ds/symlink/ina283.pdf
 $ENDCMP
 #
 $CMP KT100
@@ -396,6 +414,12 @@ K temperature sensor thermistor ntc
 F http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf
 $ENDCMP
 #
+$CMP LPS25HB
+D MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter
+K mems absolute baromeeter
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/58/d2/33/a4/42/89/42/0b/DM00066332.pdf/files/DM00066332.pdf/jcr:content/translations/en.DM00066332.pdf
+$ENDCMP
+#
 $CMP LSM303D
 D I2C/SPI, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
@@ -420,10 +444,22 @@ K Voltage transducer
 F http://www.lem.com/docs/products/lv_25-p.pdf
 $ENDCMP
 #
-$CMP MAX31855
-D Cold-Junction Compensated Thermocouple-to-Digital Converter
-K Thermocouple Converter
-F http://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/MAX31855.html#popuppdf
+$CMP MAX31820
+D 1-Wire Ambient Temperature Sensor, TO-92
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf
+$ENDCMP
+#
+$CMP MAX31820PAR
+D 1-Wire, Parasite-Power, Ambient Temperature Sensor, TO-92
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820PAR.pdf
+$ENDCMP
+#
+$CMP MAX31826
+D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
 $ENDCMP
 #
 $CMP MCP9501
@@ -512,7 +548,7 @@ $ENDCMP
 #
 $CMP MMA8653FCR1
 D 3-Axis 10-bit Digital Accelerometer with I2C interface
-K Accelerometer I2C 
+K Accelerometer I2C
 F http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8653FC.pdf
 $ENDCMP
 #
@@ -624,22 +660,28 @@ K Temperature sensor remote local i2c
 F http://www.ti.com.cn/cn/lit/ds/symlink/tmp411.pdf
 $ENDCMP
 #
-$CMP ZXCT1009
-D High side current sensor, SOT-23
-K High side current sensor monitor shunt
-F www.diodes.com/datasheets/ZXCT1009.pdf
+$CMP TSIC206-SO8
+D Digital temperature sensor, range -50 ... +150 °C, 0.5 K accuracy, SO-8
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
 $ENDCMP
 #
-$CMP ZXCT1107
-D High side current sensor, SOT-23
-K High side current sensor monitor shunt
-F http://www.diodes.com/_files/datasheets/ZXCT1107_10.pdf
+$CMP TSIC206-TO92
+D Digital temperature sensor, range -50 ... +150 °C, 0.5 K accuracy, TO-92
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
 $ENDCMP
 #
-$CMP ZXCT1109
-D High side current sensor, SOT-23
-K High side current sensor monitor shunt
-F http://www.diodes.com/_files/datasheets/ZXCT1107_10.pdf
+$CMP TSIC306-SO8
+D Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, SO-8
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
+$ENDCMP
+#
+$CMP TSIC306-TO92
+D Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, TO-92
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
 $ENDCMP
 #
 #End Doc Library
