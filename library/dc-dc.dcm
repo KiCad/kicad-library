@@ -760,6 +760,12 @@ K Miniature Step-Up Boost Flyback SEPIC Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2735.pdf
 $ENDCMP
 #
+$CMP LM2776
+D Switched capacitor inverter, inverts positive voltage +2.7 to +5.5V to negative, 200 mA, SOT-23-6
+K Switched capacitor inverter
+F http://www.ti.com/lit/ds/symlink/lm2776.pdf
+$ENDCMP
+#
 $CMP LM27761
 D low-noise regulated switched-capacitor voltage inverter with 2.7V-5.5V input to -1.5 to -5V output
 K low-noise switched capacitor voltage converter invert
@@ -1569,36 +1575,42 @@ K Voltage regulator switching buck fixed output analog
 F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
 $ENDCMP
 #
-$CMP PAM2305AAB330
-D Output 3.3V, 1A STEP-DOWN DC-DC CONVERTER
-K Voltage regulator switching buck fixed output analog
-F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
-$ENDCMP
-$CMP PAM2305AAB280
-D Output 2.8V, 1A STEP-DOWN DC-DC CONVERTER
-K Voltage regulator switching buck fixed output analog
-F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
-$ENDCMP
-$CMP PAM2305AAB250
-D Output 2.5V, 1A STEP-DOWN DC-DC CONVERTER
-K Voltage regulator switching buck fixed output analog
-F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
-$ENDCMP
-$CMP PAM2305AAB180
-D Output 1.8V, 1A STEP-DOWN DC-DC CONVERTER
-K Voltage regulator switching buck fixed output analog
-F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
-$ENDCMP
-$CMP PAM2305AAB150
-D Output 1.5V, 1A STEP-DOWN DC-DC CONVERTER
-K Voltage regulator switching buck fixed output analog
-F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
-$ENDCMP
 $CMP PAM2305AAB120
 D Output 1.2V, 1A STEP-DOWN DC-DC CONVERTER
 K Voltage regulator switching buck fixed output analog
 F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
 $ENDCMP
+#
+$CMP PAM2305AAB150
+D Output 1.5V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+#
+$CMP PAM2305AAB180
+D Output 1.8V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+#
+$CMP PAM2305AAB250
+D Output 2.5V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+#
+$CMP PAM2305AAB280
+D Output 2.8V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+#
+$CMP PAM2305AAB330
+D Output 3.3V, 1A STEP-DOWN DC-DC CONVERTER
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+#
 $CMP PAM2305AABADJ
 D Output ADJ, 1A STEP-DOWN DC-DC CONVERTER
 K Voltage regulator switching buck fixed output analog
