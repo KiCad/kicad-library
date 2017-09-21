@@ -168,6 +168,102 @@ K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
+$CMP DS1621
+D 1-Wire Digital Thermometer and Thermostat, DIP-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
+$ENDCMP
+#
+$CMP DS1621S
+D 1-Wire Digital Thermometer and Thermostat, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
+$ENDCMP
+#
+$CMP DS1621V
+D 1-Wire Digital Thermometer and Thermostat, SO-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
+$ENDCMP
+#
+$CMP DS1821C
+D Programmable Digital Thermostat and Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
+$ENDCMP
+#
+$CMP DS1822
+D Econo 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS1822-PAR
+D Econo 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1822-PAR.pdf
+$ENDCMP
+#
+$CMP DS1822Z
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS1825
+D 1-Wire Digital Temperature Sensor, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1825.pdf
+$ENDCMP
+#
+$CMP DS18B20
+D Programmable Resolution 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18B20-PAR
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18B20-PAR.pdf
+$ENDCMP
+#
+$CMP DS18B20U
+D Programmable Resolution 1-Wire Digital Thermometer, MSOP-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18B20Z
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18S20
+D High-Precision 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
+$ENDCMP
+#
+$CMP DS18S20-PAR
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20-PAR.pdf
+$ENDCMP
+#
+$CMP DS18S20Z
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
+$ENDCMP
+#
+$CMP DS28EA00
+D 1-Wire Digital Thermometer with Sequence Detect and PIO, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS28EA00.pdf
+$ENDCMP
+#
 $CMP Flir_LEPTON
 D LWIR camera 8 to 14um 80x60 pixel
 K LWIR camera
@@ -346,6 +442,24 @@ $CMP LV25-P
 D LEM Voltage transducer LV 25-P
 K Voltage transducer
 F http://www.lem.com/docs/products/lv_25-p.pdf
+$ENDCMP
+#
+$CMP MAX31820
+D 1-Wire Ambient Temperature Sensor, TO-92
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf
+$ENDCMP
+#
+$CMP MAX31820PAR
+D 1-Wire, Parasite-Power, Ambient Temperature Sensor, TO-92
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820PAR.pdf
+$ENDCMP
+#
+$CMP MAX31826
+D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
 $ENDCMP
 #
 $CMP MCP9501
@@ -544,6 +658,30 @@ $CMP TMP411
 D - Remote and Local TEMPERATURE SENSOR
 K Temperature sensor remote local i2c
 F http://www.ti.com.cn/cn/lit/ds/symlink/tmp411.pdf
+$ENDCMP
+#
+$CMP TSIC206-SO8
+D Digital temperature sensor, range -50 ... +150 °C, 0.5 K accuracy, SO-8
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
+$ENDCMP
+#
+$CMP TSIC206-TO92
+D Digital temperature sensor, range -50 ... +150 °C, 0.5 K accuracy, TO-92
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
+$ENDCMP
+#
+$CMP TSIC306-SO8
+D Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, SO-8
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
+$ENDCMP
+#
+$CMP TSIC306-TO92
+D Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, TO-92
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
 $ENDCMP
 #
 #End Doc Library
