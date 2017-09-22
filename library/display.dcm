@@ -10,6 +10,12 @@ D Generic 7 segment display, common cathode
 K LED
 $ENDCMP
 #
+$CMP AD-121F2
+D Single Digit 7-segment RGB LED Display, 1-inch digit height, common anode
+K RGB LED digit
+F http://usasyck.com/products/AD-121F2_cat_e.pdf
+$ENDCMP
+#
 $CMP AG12864E
 D Graphics Display 128x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
 K LCD STN Graphics 128x64
@@ -100,6 +106,12 @@ K 4 digit 7 segment yellow LED, common cathode
 F http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf
 $ENDCMP
 #
+$CMP CR2013-MI2120
+D ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V
+K GLCD TFT ILI9341 320x240 ILI9341 LCD Breakout
+F http://pan.baidu.com/s/11Y990
+$ENDCMP
+#
 $CMP DA04-11
 D 2 x 7 Segments common A.
 K 7 SEGMENTS
@@ -153,6 +165,18 @@ K Double 7 segment brilliant yellow green LED common anode
 F http://www.everlight.com/file/ProductFile/D426SYGWA-S530-E2.pdf
 $ENDCMP
 #
+$CMP EA_eDIPTFT32-A
+D TFT graphical display, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI
+K TFT graphical display, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+$ENDCMP
+#
+$CMP EA_eDIPTFT32-ATP
+D TFT graphical display with touch panel, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI
+K TFT graphical display with touch panel, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+$ENDCMP
+#
 $CMP EA_DOGS104B-A
 D LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI 
 K LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI 
@@ -163,6 +187,48 @@ $CMP EA_DOGXL160-7
 D EA DOGXL160-7 Graphical Display 160x104 no back light I2C SPI 2.7-3.3V
 K Graphic display EA DOGXL160-7
 F http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+$ENDCMP
+#
+$CMP EA_T123X-I2C
+D 3 Lines, 12 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power
+K 3 Lines, 12 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power
+F http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
+$ENDCMP
+#
+$CMP EA_eDIP128B-6LW
+D LCD-graphical display with LED backlight blue negative, 3.3V - 5V VDD, RS-232. I2C or SPI
+K LCD-graphical display with LED backlight blue negative, 3.3V - 5V VDD, RS-232. I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf
+$ENDCMP
+#
+$CMP EA_eDIP128B-6LWTP
+D LCD-graphical display with LED backlight and touch panel blue negative, 3.3V - 5V VDD, RS-232. I2C or SPI
+K LCD-graphical display with LED backlight and touch panel blue negative, 3.3V - 5V VDD, RS-232. I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf
+$ENDCMP
+#
+$CMP EA_eDIP128W-6LW
+D LCD-graphical display with LED backlight positive mode FSTN, 3.3V - 5V VDD, RS-232. I2C or SPI
+K LCD-graphical display with LED backlight positive mode FSTN, 3.3V - 5V VDD, RS-232. I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf
+$ENDCMP
+#
+$CMP EA_eDIP128W-6LWTP
+D LCD-graphical display with LED backlight and touch panel positive mode FSTN, 3.3V - 5V VDD, RS-232. I2C or SPI
+K LCD-graphical display with LED backlight and touch panel positive mode FSTN, 3.3V - 5V VDD, RS-232. I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf
+$ENDCMP
+#
+$CMP EA_eDIPTFT32-ATP
+D TFT graphical display with touch panel, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI
+K TFT graphical display with touch panel, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+$ENDCMP
+#
+$CMP EA_eDIPTFT32-A
+D TFT graphical display, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI
+K TFT graphical display, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI
+F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
 $ENDCMP
 #
 $CMP EA_eDIPTFT43-A
@@ -241,12 +307,6 @@ $CMP HY1602E
 D LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight, 8bit parallel, 5V VDD
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
 F http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
-$ENDCMP
-#
-$CMP ILI9341_LCD_Breakout
-D ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V
-K GLCD TFT ILI9341 320x240
-F www.newhavendisplay.com/app_notes/ILI9341.pdf
 $ENDCMP
 #
 $CMP KCSA02-105
