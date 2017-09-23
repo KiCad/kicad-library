@@ -12,20 +12,16 @@ K digital potentiometer
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
 $ENDCMP
 #
-$CMP AD5282_ABC
-D TSSOP16
-$ENDCMP
-#
 $CMP AD5290
-D Digital Potentiometer  256 steps   (SPI control) +- 15V
+D Digital Potentiometer  256 steps   (SPI control) +- 15V, MSOP-10
 K R POT
-F analog-dev/AD5290.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5290.pdf
 $ENDCMP
 #
 $CMP AD5293
-D Digital potentiometer 1024 pos (SPI)
+D Digital potentiometer 1024 pos (SPI), TSSOP-14
 K R POT
-F analog-dev/AD5293.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf
 $ENDCMP
 #
 $CMP AD9834
@@ -770,106 +766,124 @@ K I2C Hub
 F http://www.ti.com/lit/ds/symlink/tca9544a.pdf
 $ENDCMP
 #
-$CMP TCA9548A_QFN
-D I2C Hub, 8 Channels, QFN-24
-K I2C Hub
+$CMP TCA9548AMRGER
+D Low voltage 8-channel I2C switch with reset, QFN-24
+K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 $ENDCMP
 #
-$CMP TCA9548A_TSSOP
-D I2C Hub, 8 Channels, TSSOP-24
-K I2C Hub
+$CMP TCA9548APWR
+D Low voltage 8-channel I2C switch with reset, TSSOP-24
+K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TCA9548ARGER
+D Low voltage 8-channel I2C switch with reset, QFN-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TEA2014
+D Video switching circuite for TV, DIP-8
+K Video switching circuite for TV
+F http://pdf1.alldatasheet.com/datasheet-pdf/view/123244/STMICROELECTRONICS/TEA2014.html
 $ENDCMP
 #
 $CMP TJA1021T
-D TJA1021T, LIN 2.1/SAE J2602 transceiver, SOIC-8
+D LIN 2.1/SAE J2602 transceiver, SOIC-8
 K LIN 2.1 SAE J2602 Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1021.pdf
 $ENDCMP
 #
 $CMP TJA1021TK
-D TJA1021TK, LIN 2.1/SAE J2602 transceiver, DFN-8-1EP
+D LIN 2.1/SAE J2602 transceiver, DFN-8-1EP
 K LIN 2.1 SAE J2602 Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1021.pdf
 $ENDCMP
 #
 $CMP TJA1029T
-D TJA1029T, LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, SOIC-8
+D LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, SOIC-8
 K LIN 2.2A/SAE J2602 Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1029.pdf
 $ENDCMP
 #
 $CMP TJA1029TK
-D TJA1029TK, LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8-1EP
+D LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8-1EP
 K LIN 2.2A/SAE J2602 Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1029.pdf
 $ENDCMP
 #
 $CMP TJA1042T
-D TJA1042T, High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
+D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
 $CMP TJA1042T/3
-D TJA1042T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
+D High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
 $CMP TJA1042TK/3
-D TJA1042TK/3, High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
+D High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
 $CMP TJA1049T
-D TJA1049T, High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
+D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
 $CMP TJA1049T/3
-D TJA1049T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
+D High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
 $CMP TJA1049TK
-D TJA1049TK, High-Speed CAN Transceiver, standby mode, DFN-8-1EP
+D High-Speed CAN Transceiver, standby mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
 $CMP TJA1049TK/3
-D TJA1049TK/3, High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
+D High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
 $CMP TJA1051T
-D TJA1051T, High-Speed CAN Transceiver, silent mode, SOIC-8
+D High-Speed CAN Transceiver, silent mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
 $ENDCMP
 #
 $CMP TJA1051T/3
-D TJA1051T/3, High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8
+D High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
 $ENDCMP
 #
 $CMP TJA1051T/E
-D TJA1051T/E, High-Speed CAN Transceiver, enable pin, silent mode, SOIC-8
+D High-Speed CAN Transceiver, enable pin, silent mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
 $ENDCMP
 #
 $CMP TJA1051TK/3
-D TJA1051TK/3, High-Speed CAN Transceiver, separate VIO, silent mode, DFN-8-1EP
+D High-Speed CAN Transceiver, separate VIO, silent mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
+$ENDCMP
+#
+$CMP U2270B
+D IDIC read/write base stations in contactless identification and immobilizer systems, SO-16
+K IDIC read/write base stations in contactless identification and immobilizer systems
+F http://www.farnell.com/datasheets/94393.pdf
 $ENDCMP
 #
 $CMP ULN2002
@@ -921,8 +935,8 @@ F http://www.promelec.ru/pdf/1536.pdf
 $ENDCMP
 #
 $CMP ULN2803A
-D Darlington Transistor Arrays
-K darlington transistor array
+D Darlington Transistor Arrays, SOIC-18
+K Darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
 $ENDCMP
 #
@@ -939,13 +953,13 @@ F http://www.promelec.ru/pdf/1536.pdf
 $ENDCMP
 #
 $CMP XTR115U
-D 4-20mA Current Loop Transmitter, SO8
+D 4-20mA Current Loop Transmitter, VREF 2.5V, SO-8
 K 4-20mA Current Loop Transmitter
 F http://www.ti.com/lit/ds/symlink/xtr115.pdf
 $ENDCMP
 #
 $CMP XTR116U
-D 4-20mA Current Loop Transmitter, SO8
+D 4-20mA Current Loop Transmitter, VREF 4.096V, SO-8
 K 4-20mA Current Loop Transmitter
 F http://www.ti.com/lit/ds/symlink/xtr115.pdf
 $ENDCMP
