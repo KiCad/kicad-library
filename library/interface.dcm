@@ -25,7 +25,7 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf
 $ENDCMP
 #
 $CMP AD9834
-D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP20
+D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP-20
 K Direct Digital Synthesizer DDS
 F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
 $ENDCMP
@@ -73,67 +73,79 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pd
 $ENDCMP
 #
 $CMP ADUM4160
-D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection
+D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection, SOIC-16
 K usb isolation
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
+$CMP ADuM1200AR
+D Dual-channel digital isolator, Bidirectional communication, 3 V/5 V level translation, SOIC-8
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
 $CMP ADuM1200BR
-D Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200CR
-D Dual-Channel Digital Isolator, 25Mbps 45ns, SO8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200WS
-D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Tem. Grade, SO8
+D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 1Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200WT
-D Dual-Channel Digital Isolator, 10Mbps 50ns, Highest Tem. Grade, SO8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200WU
-D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Tem. Grade, SO8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
+$CMP ADuM1201AR
+D Dual-channel digital isolator, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
 $CMP ADuM1201BR
-D Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201CR
-D Dual-Channel Digital Isolator, 25Mbps 45ns, SO8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201WS
-D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Temp. Grade, SO8
+D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 1Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201WT
-D Dual-Channel Digital Isolator, 10Mbps 50ns, Hihgest Temp. Grade, SO8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, Hihgest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201WU
-D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, SO8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
@@ -670,6 +682,12 @@ K can transeiver ti
 F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
 $ENDCMP
 #
+$CMP SN65LBC176P
+D Differential bus transiver, DIP-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
 $CMP SN75468
 D Higher Voltage, High Current Darlington Transistor Arrays
 K darlington transistor array
@@ -680,6 +698,18 @@ $CMP SN75469
 D Higher Voltage, High Current Darlington Transistor Arrays
 K darlington transistor array
 F http://www.ti.com/lit/ds/slrs023e/slrs023e.pdf
+$ENDCMP
+#
+$CMP SN75LBC176P
+D Differential bus transiver, DIP-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SNJ55LBC176JG
+D Differential bus transiver, ceramic DIP-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SP3481CN
