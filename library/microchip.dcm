@@ -1,27 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ENC28J60-C/SS
-D ENC28J60 Single Chip Ethernet Interface, SSOP-28
+$CMP ENC28J60x-ML
+D ENC28J60 Single Chip Ethernet Interface,QFN
 K ENC Ethernet
-F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
-$CMP ENC28J60-I/ML
-D ENC28J60 Single Chip Ethernet Interface, QFN-28+EP
+$CMP ENC28J60x-SO
+D ENC28J60 Single Chip Ethernet Interface,SOIC
 K ENC Ethernet
-F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
-$CMP ENC28J60-I/SO
-D ENC28J60 Single Chip Ethernet Interface, SOIC-28
+$CMP ENC28J60x-SP
+D ENC28J60 Single Chip Ethernet Interface,SPDIP
 K ENC Ethernet
-F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
-$CMP ENC28J60-I/SP
-D ENC28J60 Single Chip Ethernet Interface, PDIP-28
+$CMP ENC28J60x-SS
+D ENC28J60 Single Chip Ethernet Interface,SSOP
 K ENC Ethernet
-F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP KSZ9031RNXCA
@@ -34,6 +34,90 @@ $CMP LAN8720A
 D LAN8720 Ethernet PHY with RMII interface
 K ETH PHY RMII
 F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
+$ENDCMP
+#
+$CMP MCP2050-330-E/MQ
+D LIN Transceiver with Voltage Regulator, 3.3V, QFN
+K LIN transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22299B.pdf
+$ENDCMP
+#
+$CMP MCP2050-330-E/P
+D LIN Transceiver with Voltage Regulator, 3.3V, PDIP
+K LIN transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22299B.pdf
+$ENDCMP
+#
+$CMP MCP2050-330-E/SL
+D LIN Transceiver with Voltage Regulator, 3.3V, SOIC
+K LIN transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22299B.pdf
+$ENDCMP
+#
+$CMP MCP2050-500-E/MQ
+D LIN Transceiver with Voltage Regulator, 5V, QFN
+K LIN transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22299B.pdf
+$ENDCMP
+#
+$CMP MCP2050-500-E/P
+D LIN Transceiver with Voltage Regulator, 5V, PDIP
+K LIN transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22299B.pdf
+$ENDCMP
+#
+$CMP MCP2050-500-E/SL
+D LIN Transceiver with Voltage Regulator, 5V, SOIC
+K LIN transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22299B.pdf
+$ENDCMP
+#
+$CMP MCP2200-E-SS
+D USB 2.0 to UART Protocol Converter with GPIO,Extended Temperature Range,SSOP
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200-I-MQ
+D USB 2.0 to UART Protocol Converter with GPIO,QFN
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200-I-SO
+D USB 2.0 to UART Protocol Converter with GPIO,SOIC
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200-I-SS
+D USB 2.0 to UART Protocol Converter with GPIO,SSOP
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200T-E-SS
+D USB 2.0 to UART Protocol Converter with GPIO,Extended Temperature Range,TnR,SSOP
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200T-I-MQ
+D USB 2.0 to UART Protocol Converter with GPIO,TnR,QFN
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200T-I-SO
+D USB 2.0 to UART Protocol Converter with GPIO,TnR,SOIC
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200T-I-SS
+D USB 2.0 to UART Protocol Converter with GPIO,TnR,SSOP
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
 #
 $CMP MCP23008
@@ -96,10 +180,34 @@ K realtime clock RTC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
 $ENDCMP
 #
-$CMP USB3300
+$CMP MIC4426
+D Dual 1.5A-Peak Low-Side MOSFET Driver
+K Driver, Dual MOSFET
+F http://www.intersil.com/content/dam/Intersil/documents/el72/el7202-12-22.pdf
+$ENDCMP
+#
+$CMP MIC4427
+D Dual 1.5A-Peak Low-Side MOSFET Driver
+K Driver, Dual MOSFET
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
+$ENDCMP
+#
+$CMP MIC4428
+D Dual 1.5A-Peak Low-Side MOSFET Driver
+K Driver, Dual MOSFET
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
+$ENDCMP
+#
+$CMP USB2514B_Bi
+D USB 2.0 Hi-Speed Hub Controller
+K USB2.0 Hi-Speed-USB-Hub Hub-Controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001692C.pdf
+$ENDCMP
+#
+$CMP USB3300-EZK
 D Hi-Speed USB Host, Device or OTG PHY with ULPI Interface
 K USB OTG Hi-Speed PHY ULPI Interface
-F http://microchip.com/downloads/en/DeviceDoc/00001783A.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001783C.pdf
 $ENDCMP
 #
 #End Doc Library

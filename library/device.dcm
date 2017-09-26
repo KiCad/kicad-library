@@ -43,7 +43,7 @@ $ENDCMP
 #
 $CMP Buzzer
 D Buzzer, polar
-K Quartz Resonator Ceramic 
+K Quartz Resonator Ceramic
 $ENDCMP
 #
 $CMP C
@@ -277,7 +277,7 @@ K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_KAK
-D Dual schottky diode, common anode 
+D Dual schottky diode, common anode
 K diode
 $ENDCMP
 #
@@ -337,6 +337,11 @@ K Shockley diode
 F https://en.wikipedia.org/wiki/Shockley_diode
 $ENDCMP
 #
+$CMP D_SiPM
+D Silicon photomultiplier for counting of individual photons
+K SiPM MPPC SPAD
+$ENDCMP
+#
 $CMP D_Small
 D Diode, small symbol
 K diode
@@ -348,31 +353,31 @@ K diode
 $ENDCMP
 #
 $CMP D_TVS
-D transient-voltage-suppression (TVS) diode
+D Bidirectional transient-voltage-suppression (TVS) diode
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
 $CMP D_TVS_ALT
-D transient-voltage-suppression (TVS) diode, alternativ symbol
+D Bidirectional transient-voltage-suppression (TVS) diode, alternative symbol
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
 $CMP D_TVS_x2_AAC
-D dual transient-voltage-suppression (TVS) diode (center=pin3)
+D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin3)
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
 $CMP D_TVS_x2_ACA
-D dual transient-voltage-suppression (TVS) diode (center=pin2)
+D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin2)
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
 $CMP D_TVS_x2_CAA
-D dual transient-voltage-suppression (TVS) diode (center=pin1)
+D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin1)
 K diode TVS thyrector
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
@@ -437,7 +442,7 @@ K diode
 $ENDCMP
 #
 $CMP D_x2_ACom_KAK
-D Dual diode, common anode 
+D Dual diode, common anode
 K diode
 $ENDCMP
 #
@@ -508,6 +513,12 @@ K EMI T-filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
+$CMP EMI_Filter_CommonMode
+D EMI 2-inductor common-mode-filter
+K EMI common mode filter
+F ~
+$ENDCMP
+#
 $CMP EMI_Filter_LCL
 D EMI T-filter (LCL)
 K EMI T-filter
@@ -572,7 +583,7 @@ $ENDCMP
 #
 $CMP Hall_Generator
 D Hall generator
-K Hall generator magnet 
+K Hall generator magnet
 $ENDCMP
 #
 $CMP Heater
@@ -660,6 +671,11 @@ D LED dual, common anode
 K led diode bicolor dual
 $ENDCMP
 #
+$CMP LED_PAD
+D LED with pad
+K led diode pad
+$ENDCMP
+#
 $CMP LED_RABG
 D LED RGB, common anode
 K led rgb diode
@@ -688,6 +704,16 @@ $ENDCMP
 $CMP LED_RGB_EP
 D LED RGB 6 pins, exposed pad
 K led rgb diode
+$ENDCMP
+#
+$CMP LED_Series
+D several LEDs in series
+K led diode
+$ENDCMP
+#
+$CMP LED_Series_PAD
+D LED with pad
+K led diode pad
 $ENDCMP
 #
 $CMP LED_Small
@@ -788,12 +814,12 @@ $ENDCMP
 #
 $CMP Microphone_Condenser
 D Condenser Microspcope
-K Capacitance condenser Microphone 
+K Capacitance condenser Microphone
 $ENDCMP
 #
 $CMP Microphone_Crystal
 D crystal microphone
-K microphone crystal 
+K microphone crystal
 $ENDCMP
 #
 $CMP Microphone_Ultrasound
@@ -812,22 +838,22 @@ K Oscilloscope
 $ENDCMP
 #
 $CMP POT
-D Potentionmeter
+D Potentiometer
 K resistor variable
 $ENDCMP
 #
 $CMP POT_Dual
-D Dual Potentionmeter
+D Dual Potentiometer
 K resistor variable
 $ENDCMP
 #
 $CMP POT_Dual_Separate
-D Dual Potentionmeter, separate units
+D Dual Potentiometer, separate units
 K resistor variable
 $ENDCMP
 #
 $CMP POT_TRIM
-D Trim-Potentionmeter
+D Trim-Potentiometer
 K resistor variable trimpot trimmer
 $ENDCMP
 #
@@ -844,6 +870,31 @@ $ENDCMP
 $CMP Polyfuse_Small
 D resettable fuse, polymeric positive temperature coefficient (PPTC), small symbol
 K resettable fuse PTC PPTC polyfuse polyswitch
+$ENDCMP
+#
+$CMP Q_DUAL_NPN_C2C1E1E2
+D Double NPN Transistors, Current mirror configuration
+K Transistor Double NPN
+$ENDCMP
+#
+$CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
+D Dual NPN/NPN Transistor, 6-pin package
+K NPN/NPN Transistor
+$ENDCMP
+#
+$CMP Q_DUAL_NPN_PNP_E1B1C2E2B2C1
+D Dual NPN/PNP Transistor, 6-pin package
+K NPN/PNP Transistor
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_C2C1E1E2
+D Double PNP Transistors, Current mirror configuration
+K Transistor Double PNP
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
+D Dual PNP/PNP Transistor, 6-pin package
+K PNP/PNP Transistor
 $ENDCMP
 #
 $CMP Q_NIGBT_CEG
@@ -1510,7 +1561,7 @@ $ENDCMP
 #
 $CMP R_Small
 D Resistor, small symbol
-K r resistor 
+K r resistor
 $ENDCMP
 #
 $CMP R_Variable
@@ -1540,6 +1591,11 @@ K rotary switch encoder switch push button
 F ~
 $ENDCMP
 #
+$CMP SPARK_GAP
+D Spark Gap
+K spark gap esd electrostatic suppression
+$ENDCMP
+#
 $CMP Solar_Cell
 D single solar cell
 K solar cell
@@ -1553,7 +1609,7 @@ F ~
 $ENDCMP
 #
 $CMP Speaker
-D speaker 
+D speaker
 K speaker sound
 $ENDCMP
 #
@@ -1565,11 +1621,6 @@ $ENDCMP
 $CMP Speaker_Ultrasound
 D ultrasonic transducer
 K crystal speaker ultrasonic transducer
-$ENDCMP
-#
-$CMP TEST
-D Testpoint, connection for test equipment
-K tp testpoint
 $ENDCMP
 #
 $CMP Thermistor
@@ -1584,27 +1635,27 @@ $ENDCMP
 #
 $CMP Thermistor_NTC_3wire
 D temperature dependent resistor, negative temperature coefficient (NTC), 3-wire interface
-K thermistor NTC resistor sensor RTD 
+K thermistor NTC resistor sensor RTD
 $ENDCMP
 #
 $CMP Thermistor_NTC_4wire
 D temperature dependent resistor, negative temperature coefficient (NTC), 4-wire interface
-K thermistor NTC resistor sensor RTD 
+K thermistor NTC resistor sensor RTD
 $ENDCMP
 #
 $CMP Thermistor_PTC
 D temperature dependent resistor, positive temperature coefficient (PTC)
-K resistor PTC thermistor sensor RTD 
+K resistor PTC thermistor sensor RTD
 $ENDCMP
 #
 $CMP Thermistor_PTC_3wire
 D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
-K resistor PTC thermistor sensor RTD 
+K resistor PTC thermistor sensor RTD
 $ENDCMP
 #
 $CMP Thermistor_PTC_4wire
 D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
-K resistor PTC thermistor sensor RTD 
+K resistor PTC thermistor sensor RTD
 $ENDCMP
 #
 $CMP Thermocouple
