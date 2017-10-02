@@ -151,15 +151,39 @@ F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP CH376T
-D File Management USB Flash Card SD Interface, TSSOP20
+D File Management USB Flash Card SD Interface, SSOP-20
 K File Management USB Flash Card SD Interface
 F http://iteadstudio.com/store/images/produce/Platform/FPGA/BlackGold/CH376DS1.PDF
 $ENDCMP
 #
 $CMP DP83848C
-D MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP48
+D MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP-48
 K Ethernet PHY MII RMII 10/100Mpbs
 F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
+$ENDCMP
+#
+$CMP DP83848I
+D MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP-48
+K Ethernet PHY MII RMII 10/100Mpbs
+F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
+$ENDCMP
+#
+$CMP DS7820
+D Dual line receiver, VDD +5V, DIP-14
+K Dual line receiver
+F http://pdf1.alldatasheet.com/datasheet-pdf/view/942427/NSC/DS7820.html
+$ENDCMP
+#
+$CMP DS7830
+D Dual differential line driver and dual four-input NAND or dual four-input AND function, VDD +5V, DIP-14
+K Dual differential line driver
+F http://pdf1.alldatasheet.com/datasheet-pdf/view/8473/NSC/DS7830J.html
+$ENDCMP
+#
+$CMP DS8830
+D Dual differential line driver and dual four-input NAND or dual four-input AND function, VDD +5V, DIP-14
+K Dual differential line driver
+F http://pdf1.alldatasheet.com/datasheet-pdf/view/8473/NSC/DS7830J.html
 $ENDCMP
 #
 $CMP DS89C21
@@ -168,8 +192,34 @@ K rs422 tranciever
 F http://www.ti.com/lit/ds/symlink/ds89c21.pdf
 $ENDCMP
 #
+$CMP DS90C124
+D DC-Balanced 24-Bit FPD-Link II Deserializer, TQFP-48
+K DC-Balanced 24-Bit FPD-Link II Deserializer
+F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
+$ENDCMP
+#
+$CMP DS90C241
+D DC-Balanced 24-Bit FPD-Link II Serializer, TQFP-48
+K DC-Balanced 24-Bit FPD-Link II Serializer
+F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
+$ENDCMP
+#
+$CMP EL2001
+D Monolithic high slew rate, buffer amplifier, DIP-8
+K Monolithic high slew rate, buffer amplifier
+F http://www.datasheetlib.com/datasheet/677973/el2001_intersil.html#datasheet
+$ENDCMP
+#
 $CMP EL7242C
 D Translateur TTL->VMOS. Double driver VMOS
+K Translateur TTL->VMOS. Double driver VMOS
+F http://pdf.datasheetcatalog.com/datasheet/elantec/EL7242CN.pdf
+$ENDCMP
+#
+$CMP FD1771
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F https://amaus.net/static/S100/western%20digital/datasheet/Western%20Digital%20FD1771%20Specification%20197710.pdf
 $ENDCMP
 #
 $CMP FUSB302B01MPX
@@ -874,13 +924,13 @@ K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
-$CMP TJA1042T/3
+$CMP TJA1042T-3
 D High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
-$CMP TJA1042TK/3
+$CMP TJA1042TK-3
 D High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
@@ -892,7 +942,7 @@ K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
-$CMP TJA1049T/3
+$CMP TJA1049T-3
 D High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
@@ -904,7 +954,7 @@ K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
-$CMP TJA1049TK/3
+$CMP TJA1049TK-3
 D High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
@@ -916,19 +966,19 @@ K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
 $ENDCMP
 #
-$CMP TJA1051T/3
+$CMP TJA1051T-3
 D High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
 $ENDCMP
 #
-$CMP TJA1051T/E
+$CMP TJA1051T-E
 D High-Speed CAN Transceiver, enable pin, silent mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
 $ENDCMP
 #
-$CMP TJA1051TK/3
+$CMP TJA1051TK-3
 D High-Speed CAN Transceiver, separate VIO, silent mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
