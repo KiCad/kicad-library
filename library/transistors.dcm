@@ -1130,10 +1130,22 @@ K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56
 $ENDCMP
 #
+$CMP BSP129
+D 240V Vds, 0.35A Id, N-Channel MOSFET, SOT-223
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f
+$ENDCMP
+#
 $CMP BSS138
 D 50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23
 K N-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP BSS83P
+D -60V Vds, -0.33A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.farnell.com/datasheets/1835997.pdf
 $ENDCMP
 #
 $CMP BSS84
@@ -2340,6 +2352,12 @@ K Dual HEXFET N-Channel P-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
 $ENDCMP
 #
+$CMP IRF7403
+D 30V Vds, 9.7A Id, N-Channel HEXFET Power MOSFET, SO-8
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irf7403pbf.pdf?fileId=5546d462533600a4015355fa23541b9c
+$ENDCMP
+#
 $CMP IRF7404
 D -20V Vds, -6.7A Id, P-Channel HEXFET Power MOSFET, SO-8
 K P-Channel MOSFET
@@ -2614,6 +2632,12 @@ $CMP Si4542DY
 D Dual N and P Channel MOSFET, 30V Vds, 6A Id, 28mΩ Rds @ 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
+$ENDCMP
+#
+$CMP STS2DNE60
+D 60V Vds, 2A Id, 180mOhm Rds, Dual N-Channel MOSFET, SO-8
+K Dual N-Channel MOSFET
+F www.st.com/resource/en/datasheet/CD00001537.pdf
 $ENDCMP
 #
 $CMP TIP120

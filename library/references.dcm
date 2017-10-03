@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD586
+D High Precision, 5 V Reference, DIP-8, SO-8
+K voltage reference
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD586.pdf
+$ENDCMP
+#
 $CMP CJ432
 D Shunt Regulator, SOT-23
 K diode device shunt regulator
@@ -7,37 +13,37 @@ F http://www.cj-elec.com/txUpfile/20134181474991806.pdf
 $ENDCMP
 #
 $CMP ISL21070CIH320Z-TK
-D ISL201070 Series, 2.0V 25μA Micropower Voltage Reference, SOT-23
+D 2.0V 25μA Micropower Voltage Reference, SOT-23
 K Micropower Voltage Reference 2.0V
 F http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf
 $ENDCMP
 #
 $CMP ISL21070CIH325Z-TK
-D ISL201070 Series, 2.5V 25μA Micropower Voltage Reference, SOT-23
+D 2.5V 25μA Micropower Voltage Reference, SOT-23
 K Micropower Voltage Reference 2.5V
 F http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf
 $ENDCMP
 #
 $CMP ISL21070DIH306Z-TK
-D ISL201070 Series, 0.6V 25μA Micropower Voltage Reference, SOT-23
+D 0.6V 25μA Micropower Voltage Reference, SOT-23
 K Micropower Voltage Reference 0.6V
 F http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf
 $ENDCMP
 #
-$CMP LM134H/NOPB
-D LM134H, 1μA to 10mA 3-Terminal Adjustable Current Source, TO-46
+$CMP LM134H
+D  1μA to 10mA 3-Terminal Adjustable Current Source, TO-46
 K Adjustable Current Source 10mA
 F http://www.ti.com/lit/ds/symlink/lm134.pdf
 $ENDCMP
 #
-$CMP LM234Z-3/NOPB
-D LM234Z-3, 1μA to 10mA 3-Terminal Adjustable Current Source, TO-92
+$CMP LM234Z-3
+D 1μA to 10mA 3-Terminal Adjustable Current Source, TO-92
 K Adjustable Current Source 10mA
 F http://www.ti.com/lit/ds/symlink/lm134.pdf
 $ENDCMP
 #
-$CMP LM234Z-6/NOPB
-D LM234Z-6, 1μA to 10mA 3-Terminal Adjustable Current Source, TO-92
+$CMP LM234Z-6
+D 1μA to 10mA 3-Terminal Adjustable Current Source, TO-92
 K Adjustable Current Source 10mA
 F http://www.ti.com/lit/ds/symlink/lm134.pdf
 $ENDCMP
@@ -90,26 +96,26 @@ K diode device voltage reference
 F http://www.ti.com/lit/ds/symlink/lm185-adj.pdf
 $ENDCMP
 #
-$CMP LM334M/NOPB
-D LM334M, 1μA to 10mA 3-Terminal Adjustable Current Source, SO-8
+$CMP LM334M
+D 1μA to 10mA 3-Terminal Adjustable Current Source, SO-8
 K Adjustable Current Source 10mA
 F http://www.ti.com/lit/ds/symlink/lm134.pdf
 $ENDCMP
 #
-$CMP LM334SM/NOPB
-D LM334SM, 1μA to 10mA 3-Terminal Adjustable Current Source, SO-8 Alternate
+$CMP LM334SM
+D 1μA to 10mA 3-Terminal Adjustable Current Source, SO-8 Alternate
+K Adjustable Current Source 10mA
+F http://www.ti.com/lit/ds/symlink/lm134.pdf
+$ENDCMP
+#
+$CMP LM334Z
+D 1μA to 10mA 3-Terminal Adjustable Current Source, TO-92
 K Adjustable Current Source 10mA
 F http://www.ti.com/lit/ds/symlink/lm134.pdf
 $ENDCMP
 #
 $CMP LM334Z/LFT1
-D LM334Z, 1μA to 10mA 3-Terminal Adjustable Current Source, TO-92
-K Adjustable Current Source 10mA
-F http://www.ti.com/lit/ds/symlink/lm134.pdf
-$ENDCMP
-#
-$CMP LM334Z/NOPB
-D LM334Z, 1μA to 10mA 3-Terminal Adjustable Current Source, TO-92
+D 1μA to 10mA 3-Terminal Adjustable Current Source, TO-92
 K Adjustable Current Source 10mA
 F http://www.ti.com/lit/ds/symlink/lm134.pdf
 $ENDCMP
@@ -318,128 +324,158 @@ K diode device voltage reference shunt
 F http://www.ti.com/lit/ds/symlink/lm4041-n.pdf
 $ENDCMP
 #
-$CMP LM4125AIM5-2.5/NOPB
-D LM4125A-2.5, 2.5V ±0.2% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
+$CMP LM4125AIM5-2.5
+D 2.5V ±0.2% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
 K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4125.pdf
 $ENDCMP
 #
-$CMP LM4125IM5-2.0/NOPB
-D LM4125-2.0, 2V ±0.5% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
+$CMP LM4125IM5-2.0
+D 2V ±0.5% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
 K Precision Micropower Low Dropout Voltage Reference 2V
 F http://www.ti.com/lit/ds/symlink/lm4125.pdf
 $ENDCMP
 #
-$CMP LM4125IM5-2.5/NOPB
-D LM4125-2.5, 2.5V ±0.5% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
+$CMP LM4125IM5-2.5
+D 2.5V ±0.5% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
 K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4125.pdf
 $ENDCMP
 #
 $CMP LT6657AHMS8-2.5
-D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 2.5V output
+D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 2.5V output, MSOP-8
 K voltage reference vref
 F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
 $ENDCMP
 #
 $CMP LT6657AHMS8-3
-D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 3.0V output
+D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 3.0V output, MSOP-8
 K voltage reference vref
 F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
 $ENDCMP
 #
 $CMP LT6657AHMS8-5
-D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 5.0V output
+D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 5.0V output, MSOP-8
 K voltage reference vref
 F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
 $ENDCMP
 #
 $CMP LT6657BHMS8-2.5
-D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 2.5V output
+D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 2.5V output, MSOP-8
 K voltage reference vref
 F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
 $ENDCMP
 #
 $CMP LT6657BHMS8-3
-D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 3.0V output
+D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 3.0V output, MSOP-8
 K voltage reference vref
 F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
 $ENDCMP
 #
 $CMP LT6657BHMS8-5
-D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 5.0V output
+D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 5.0V output, MSOP-8
 K voltage reference vref
 F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
 $ENDCMP
 #
 $CMP MAX6100
-D Low-dropout high current voltage reference, 1.800V, ±0.4% accuracy, SOT-23 package
+D Low-dropout high current voltage reference, 1.800V, ±0.4% accuracy, SOT-23
 K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
 $CMP MAX6101
-D Low-dropout high current voltage reference, 1.250V, ±0.4% accuracy, SOT-23 package
+D Low-dropout high current voltage reference, 1.250V, ±0.4% accuracy, SOT-23
 K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
 $CMP MAX6102
-D Low-dropout high current voltage reference, 2.500V, ±0.4% accuracy, SOT-23 package
+D Low-dropout high current voltage reference, 2.500V, ±0.4% accuracy, SOT-23
 K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
 $CMP MAX6103
-D Low-dropout high current voltage reference, 3.000V, ±0.4% accuracy, SOT-23 package
+D Low-dropout high current voltage reference, 3.000V, ±0.4% accuracy, SOT-23
 K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
 $CMP MAX6104
-D Low-dropout high current voltage reference, 4.096V, ±0.4% accuracy, SOT-23 package
+D Low-dropout high current voltage reference, 4.096V, ±0.4% accuracy, SOT-23
 K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
 $CMP MAX6105
-D Low-dropout high current voltage reference, 5.000V, ±0.4% accuracy, SOT-23 package
+D Low-dropout high current voltage reference, 5.000V, ±0.4% accuracy, SOT-23
 K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
 $CMP MAX6106
-D Low-dropout high current voltage reference, 2.048V, ±0.4% accuracy, SOT-23 package
+D Low-dropout high current voltage reference, 2.048V, ±0.4% accuracy, SOT-23
 K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
 $CMP MAX6107
-D Low-dropout high current voltage reference, 4.500V, ±0.4% accuracy, SOT-23 package
+D Low-dropout high current voltage reference, 4.500V, ±0.4% accuracy, SOT-23
 K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
-$CMP MCP1525T-I/TO
-D MCP1525, 2.5V Voltage Reference, TO-92
+$CMP MAX6325
+D 1ppm/°C Low-Noise +2.5V Voltage Reference, SO-8/DIP-8
+K precision voltage reference
+F http://datasheets.maximintegrated.com/en/ds/MAX6325-MAX6350.pdf
+$ENDCMP
+#
+$CMP MAX6341
+D 1ppm/°C Low-Noise +4.096V Voltage Reference, SO-8/DIP-8
+K precision voltage reference
+F http://datasheets.maximintegrated.com/en/ds/MAX6325-MAX6350.pdf
+$ENDCMP
+#
+$CMP MAX6350
+D 1ppm/°C Low-Noise +5V Voltage Reference, SO-8/DIP-8
+K precision voltage reference
+F http://datasheets.maximintegrated.com/en/ds/MAX6325-MAX6350.pdf
+$ENDCMP
+#
+$CMP MAX872
+D 10µA Low-Dropout Precision Voltage Reference, SO-8/DIP-8
+K Low-Dropout Precision Voltage Reference
+F https://pdfserv.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MAX874
+D 10µA Low-Dropout Precision Voltage Reference, SO-8/DIP-8
+K Low-Dropout Precision Voltage Reference
+F https://pdfserv.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MCP1525-TO
+D 2.5V Voltage Reference, TO-92
 K Voltage Reference 2.5V
 F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
 $ENDCMP
 #
-$CMP MCP1525T-I/TT
-D MCP1525, 2.5V Voltage Reference, SOT-23
+$CMP MCP1525-TT
+D 2.5V Voltage Reference, SOT-23
 K Voltage Reference 2.5V
 F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
 $ENDCMP
 #
-$CMP MCP1541-I/TT
-D MCP1541, 4.096V Voltage Reference, SOT-23
+$CMP MCP1541-TO
+D 4.096V Voltage Reference, TO-92
 K Voltage Reference 4.096V
 F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
 $ENDCMP
 #
-$CMP MCP1541T-I/TO
-D MCP1541, 4.096V Voltage Reference, TO-92
+$CMP MCP1541-TT
+D 4.096V Voltage Reference, SOT-23
 K Voltage Reference 4.096V
 F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
 $ENDCMP
@@ -451,7 +487,7 @@ F http://www.ti.com/lit/ds/symlink/ref02.pdf
 $ENDCMP
 #
 $CMP REF02AU
-D 5V ±15mV Precision Voltage Reference, SO8
+D 5V ±15mV Precision Voltage Reference, SO-8
 K Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref02.pdf
 $ENDCMP
@@ -463,7 +499,7 @@ F http://www.ti.com/lit/ds/symlink/ref02.pdf
 $ENDCMP
 #
 $CMP REF02BU
-D 5V ±10mV Precision Voltage Reference, SO8
+D 5V ±10mV Precision Voltage Reference, SO-8
 K Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref02.pdf
 $ENDCMP
@@ -475,7 +511,7 @@ F http://www.ti.com/lit/ds/symlink/ref102.pdf
 $ENDCMP
 #
 $CMP REF102AU
-D 10V ±10mV Precision Voltage Reference, SO8
+D 10V ±10mV Precision Voltage Reference, SO-8
 K Precision Voltage Reference 10V
 F http://www.ti.com/lit/ds/symlink/ref02.pdf
 $ENDCMP
@@ -487,7 +523,7 @@ F http://www.ti.com/lit/ds/symlink/ref102.pdf
 $ENDCMP
 #
 $CMP REF102BU
-D 10V ±5mV Precision Voltage Reference, SO8
+D 10V ±5mV Precision Voltage Reference, SO-8
 K Precision Voltage Reference 10V
 F http://www.ti.com/lit/ds/symlink/ref02.pdf
 $ENDCMP
@@ -499,126 +535,133 @@ F http://www.ti.com/lit/ds/symlink/ref102.pdf
 $ENDCMP
 #
 $CMP REF102CU
-D 10V ±2.5mV Precision Voltage Reference, SO8
+D 10V ±2.5mV Precision Voltage Reference, SO-8
 K Precision Voltage Reference 10V
 F http://www.ti.com/lit/ds/symlink/ref02.pdf
 $ENDCMP
 #
 $CMP REF191
-D Precision voltage references 2.048V
+D Precision voltage references 2.048V, DIP-8/SO-8/TSSOP-8
+K Precision voltage references
 F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF192
-D Precision voltage references 2.5V
+D Precision voltage references 2.5V, DIP-8/SO-8/TSSOP-8
+K Precision voltage references
 F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF193
-D Precision voltage references 3V
+D Precision voltage references 3V, DIP-8/SO-8/TSSOP-8
+K Precision voltage references
 F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF194
-D Precision voltage references 4.5V
+D Precision voltage references 4.5V, DIP-8/SO-8/TSSOP-8
+K Precision voltage references
 F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF195
-D Precision voltage references 5V
+D Precision voltage references 5V, DIP-8/SO-8/TSSOP-8
+K Precision voltage references
 F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF196
-D Precision voltage references 3.3V
+D Precision voltage references 3.3V, DIP-8/SO-8/TSSOP-8
+K Precision voltage references
 F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF198
-D Precision voltage references 4.096V
+D Precision voltage references 4.096V, DIP-8/SO-8/TSSOP-8
+K Precision voltage references
 F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF200AU
-D 2x100μA Current Sources/Sinks with Current Mirror
+D 2x100μA Current Sources/Sinks with Current Mirror, SO-8
 K Current Source/Sink 100μA
 F www.ti.com/lit/ds/symlink/ref200.pdf
 $ENDCMP
 #
 $CMP REF3012
-D 1.25V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference in SOT-23-3
+D 1.25V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3
 K voltage reference
 F http://www.ti.com/lit/ds/symlink/ref3033.pdf
 $ENDCMP
 #
 $CMP REF3020
-D 2.048V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference in SOT-23-3
+D 2.048V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3
 K voltage reference
 F http://www.ti.com/lit/ds/symlink/ref3033.pdf
 $ENDCMP
 #
 $CMP REF3025
-D 2.500V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference in SOT-23-3
+D 2.500V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3
 K voltage reference
 F http://www.ti.com/lit/ds/symlink/ref3033.pdf
 $ENDCMP
 #
 $CMP REF3030
-D 3.0V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference in SOT-23-3
+D 3.0V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3
 K voltage reference
 F http://www.ti.com/lit/ds/symlink/ref3033.pdf
 $ENDCMP
 #
 $CMP REF3033
-D 3.3V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference in SOT-23-3
+D 3.3V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3
 K voltage reference
 F http://www.ti.com/lit/ds/symlink/ref3033.pdf
 $ENDCMP
 #
 $CMP REF3040
-D 4.096V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference in SOT-23-3
+D 4.096V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3
 K voltage reference
 F http://www.ti.com/lit/ds/symlink/ref3033.pdf
 $ENDCMP
 #
 $CMP REF3212AMDBVREP
-D REF3212A, 1.25V 100μA Micropower Precision Voltage Reference, SOT-23-6
+D 1.25V 100μA Micropower Precision Voltage Reference, SOT-23-6
 K Micropower Prevision Voltage Reference 1.25V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3220AMDBVREP
-D REF3220A, 2.048V 100μA Micropower Precision Voltage Reference, SOT-23-6
+D 2.048V 100μA Micropower Precision Voltage Reference, SOT-23-6
 K Micropower Prevision Voltage Reference 2.048V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3225AMDBVREP
-D REF3225A, 2.5V 100μA Micropower Precision Voltage Reference, SOT-23-6
+D 2.5V 100μA Micropower Precision Voltage Reference, SOT-23-6
 K Micropower Prevision Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3230AMDBVREP
-D REF3230A, 3V 100μA Micropower Precision Voltage Reference, SOT-23-6
+D 3V 100μA Micropower Precision Voltage Reference, SOT-23-6
 K Micropower Prevision Voltage Reference 3V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3233AMDBVREP
-D REF3233A, 3.3V 100μA Micropower Precision Voltage Reference, SOT-23-6
+D 3.3V 100μA Micropower Precision Voltage Reference, SOT-23-6
 K Micropower Prevision Voltage Reference 3.3V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3240AMDBVREP
-D REF3240A, 4.096V 100μA Micropower Precision Voltage Reference, SOT-23-6
+D 4.096V 100μA Micropower Precision Voltage Reference, SOT-23-6
 K Micropower Prevision Voltage Reference 4.096V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF5010AD
-D 10V 0.1% 10mA Low Noise Precision Voltage Reference, SO8
+D 10V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 10V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -630,7 +673,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5010ID
-D 10V 0.05% 10mA Low Noise Precision Voltage Reference, SO8
+D 10V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 10V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -642,7 +685,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5020AD
-D 2.048V 0.1% 10mA Low Noise Precision Voltage Reference, SO8
+D 2.048V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 2.048V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -654,7 +697,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5020ID
-D 2.048V 0.05% 10mA Low Noise Precision Voltage Reference, SO8
+D 2.048V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 2.048V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -666,7 +709,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5025AD
-D 2.5V 0.1% 10mA Low Noise Precision Voltage Reference, SO8
+D 2.5V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -678,7 +721,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5025ID
-D 2.5V 0.05% 10mA Low Noise Precision Voltage Reference, SO8
+D 2.5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -690,7 +733,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5030AD
-D 3V 0.1% 10mA Low Noise Precision Voltage Reference, SO8
+D 3V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 3V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -702,7 +745,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5030ID
-D 3V 0.05% 10mA Low Noise Precision Voltage Reference, SO8
+D 3V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 3V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -714,7 +757,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5040AD
-D 4.096V 0.1% 10mA Low Noise Precision Voltage Reference, SO8
+D 4.096V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 4.096V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -726,7 +769,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5040ID
-D 4.096V 0.05% 10mA Low Noise Precision Voltage Reference, SO8
+D 4.096V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 4.096V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -738,7 +781,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5045AD
-D 4.5V 0.1% 10mA Low Noise Precision Voltage Reference, SO8
+D 4.5V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 4.5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -750,7 +793,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5045ID
-D 4.5V 0.05% 10mA Low Noise Precision Voltage Reference, SO8
+D 4.5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 4.5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -762,7 +805,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5050AD
-D 5V 0.1% 10mA Low Noise Precision Voltage Reference, SO8
+D 5V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -774,7 +817,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP REF5050ID
-D 5V 0.05% 10mA Low Noise Precision Voltage Reference, SO8
+D 5V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8
 K Low Noise Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
@@ -786,7 +829,7 @@ F http://www.ti.com/lit/ds/symlink/ref5030.pdf
 $ENDCMP
 #
 $CMP TL431D
-D Shunt Regulator, SO8
+D Shunt Regulator, SO-8
 K diode device shunt regulator
 F http://www.ti.com/lit/ds/symlink/tl431.pdf
 $ENDCMP
@@ -812,7 +855,7 @@ $ENDCMP
 $CMP TL431KTP
 D Shunt Regulator, TO-252
 K diode device shunt regulator
-F http://www.ti.com/lit/ds/symlink/tl431.pdf
+F http://www.jameco.com/Jameco/Products/ProdDS/760499.pdf
 $ENDCMP
 #
 $CMP TL431LP
@@ -861,6 +904,24 @@ $CMP TL432PK
 D Shunt Regulator, SOT-89
 K diode device shunt regulator
 F http://www.ti.com/lit/ds/symlink/tl431.pdf
+$ENDCMP
+#
+$CMP TLE2426xD
+D Rail splitter precision virtual ground with noice reduction, 4V to 40V, SO-8
+K Rail splitter precision virtual ground
+F http://www.ti.com/lit/ds/symlink/tle2426.pdf
+$ENDCMP
+#
+$CMP TLE2426xLP
+D Rail splitter precision virtual ground, 4V to 40V, narrow TO-92
+K Rail splitter precision virtual ground
+F http://www.ti.com/lit/ds/symlink/tle2426.pdf
+$ENDCMP
+#
+$CMP TLE2426xP
+D Rail splitter precision vitrual ground with noice reduction, 4V to 40V, 0 to +70 degree, DIP-8
+K Rail splitter precision vitrual ground
+F http://www.ti.com/lit/ds/symlink/tle2426.pdf
 $ENDCMP
 #
 #End Doc Library
