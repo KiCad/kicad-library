@@ -14,8 +14,6 @@ set( template_lst
     ti-stellaris-boosterpack40_min
     BeagleBone-Black-Cape
     minnowboard-ls-lure
-    EuroCard160mmX100mm
-    EuroCard160mmX100mm_holes
     )
 
 
