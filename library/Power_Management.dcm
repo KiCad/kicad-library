@@ -258,30 +258,6 @@ K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP1415
-D 1.5A High speed power MOSFET driver with inverting output
-K mosfet gate driver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf
-$ENDCMP
-#
-$CMP MCP1415R
-D 1.5A High speed power MOSFET driver with inverting output
-K mosfet gate driver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf
-$ENDCMP
-#
-$CMP MCP1416
-D 1.5A High speed power MOSFET driver with non-inverting output
-K mosfet gate driver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf
-$ENDCMP
-#
-$CMP MCP1416R
-D 1.5A High speed power MOSFET driver with non-inverting output
-K mosfet gate driver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf
-$ENDCMP
-#
 $CMP MIC2026-1BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
 K mosfet distribution
@@ -352,6 +328,78 @@ $CMP TCM810
 D Microcontroller reset monitor, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TL7702A
+D Supply-Voltage Supervisors, 2.53V, PDIP-8/SOIC-8
+K voltage supervisor
+F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf
+$ENDCMP
+#
+$CMP TL7702B
+D Supply-Voltage Supervisors, 2.53V, PDIP-8/SOIC-8
+K voltage supervisor
+F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705b.pdf
+$ENDCMP
+#
+$CMP TL7705A
+D Supply-Voltage Supervisors, 4.55V, PDIP-8/SOIC-8
+K voltage supervisor
+F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf
+$ENDCMP
+#
+$CMP TL7705ACPSR
+D Supply-Voltage Supervisors, 4.55V, SO-8
+K voltage supervisor
+F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf
+$ENDCMP
+#
+$CMP TL7705B
+D Supply-Voltage Supervisors, 4.55V, PDIP-8/SOIC-8
+K voltage supervisor
+F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705b.pdf
+$ENDCMP
+#
+$CMP TL7709A
+D Supply-Voltage Supervisors, 7.6V, PDIP-8/SOIC-8
+K voltage supervisor
+F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf
+$ENDCMP
+#
+$CMP TL7712A
+D Supply-Voltage Supervisors, 10.8V, PDIP-8/SOIC-8
+K voltage supervisor
+F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf
+$ENDCMP
+#
+$CMP TL7715A
+D Supply-Voltage Supervisors, 13.5V, PDIP-8/SOIC-8
+K voltage supervisor
+F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf
+$ENDCMP
+#
+$CMP TL7733B
+D Supply-Voltage Supervisors, 3.08V, PDIP-8/SOIC-8
+K voltage supervisor
+F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705b.pdf
+$ENDCMP
+#
+$CMP TPS3831
+D 150-nA, Ultralow Power, Supply Voltage Monitor, X2SON-4
+K supply voltage supervisor
+F http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf
+$ENDCMP
+#
+$CMP TPS3839DBZ
+D 150-nA, Ultralow Power, Supply Voltage Monitor, SOT-23
+K supply voltage supervisor
+F http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf
+$ENDCMP
+#
+$CMP TPS3839DQN
+D 150-nA, Ultralow Power, Supply Voltage Monitor, X2SON-4
+K supply voltage supervisor
+F http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf
 $ENDCMP
 #
 #End Doc Library

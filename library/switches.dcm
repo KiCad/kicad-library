@@ -5,6 +5,42 @@ D Rotary switch, 4-bit encoding
 K rotary hex
 $ENDCMP
 #
+$CMP SW_Coded_SH-7010
+D Rotary switch, 4-bit encoding, 10 positions, Real code
+K rotary bcd Real
+F https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+$ENDCMP
+#
+$CMP SW_Coded_SH-7030
+D Rotary switch, 4-bit encoding, 10 positions, Complementary code
+K rotary bcd Complementary
+F https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+$ENDCMP
+#
+$CMP SW_Coded_SH-7040
+D Rotary switch, 4-bit encoding, 10 positions, Gray code
+K rotary bcd Gray
+F https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+$ENDCMP
+#
+$CMP SW_Coded_SH-7050
+D Rotary switch, 4-bit encoding, 16 positions, Real code
+K rotary hex Real
+F https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+$ENDCMP
+#
+$CMP SW_Coded_SH-7070
+D Rotary switch, 4-bit encoding, 16 positions, Complementary code
+K rotary hex Complementary
+F https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+$ENDCMP
+#
+$CMP SW_Coded_SH-7080
+D Rotary switch, 4-bit encoding, 16 positions, Gray code
+K rotary hex Gray
+F https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+$ENDCMP
+#
 $CMP SW_DIP_x01
 D 1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
@@ -170,7 +206,7 @@ K reed magnetic switch
 $ENDCMP
 #
 $CMP SW_Reed_SPDT
-D SPDT reed switch 
+D SPDT reed switch
 K reed magnetic switch SPDT
 $ENDCMP
 #
