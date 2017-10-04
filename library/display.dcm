@@ -22,6 +22,18 @@ K LCD STN Graphics 128x64
 F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
 $ENDCMP
 #
+$CMP AY0438X-L
+D 32-Segment CMOS LCD Driver, CMOS and TTL-compatible inputs, VDD +3.0V to +8.5V, PLCC-44
+K 32-Segment CMOS LCD Driver
+F http://www.farnell.com/datasheets/43336.pdf
+$ENDCMP
+#
+$CMP AY0438X-P
+D 32-Segment CMOS LCD Driver, CMOS and TTL-compatible inputs, VDD +3.0V to +8.5V, DIP-40
+K 32-Segment CMOS LCD Driver
+F http://www.farnell.com/datasheets/43336.pdf
+$ENDCMP
+#
 $CMP CA56-12CGKWA
 D 4 digit 7 segment Green LED, common anode
 K 4 digit 7 segment Green LED, common anode
@@ -112,10 +124,28 @@ K GLCD TFT ILI9341 320x240 ILI9341 LCD Breakout
 F http://pan.baidu.com/s/11Y990
 $ENDCMP
 #
-$CMP DA04-11
-D 2 x 7 Segments common A.
+$CMP DA04-11CGKWA
+D 2 x 7 Segments common A. Green
 K 7 SEGMENTS
-F Display/display-DA04-11GWA.pdf
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/DA04-11CGKWA(Ver.6A).pdf
+$ENDCMP
+#
+$CMP DA04-11SEKWA
+D 2 x 7 Segments common A.  Super Bright Orange
+K 7 SEGMENTS
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/DA04-11SEKWA(Ver.9A).pdf
+$ENDCMP
+#
+$CMP DA04-11SURKWA
+D 2 x 7 Segments common A.   Hyper Red
+K 7 SEGMENTS
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/DA04-11SURKWA(Ver.10A).pdf
+$ENDCMP
+#
+$CMP DA04-11SYKWA
+D 2 x 7 Segments common A.   Super Bright Yellow
+K 7 SEGMENTS
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/DA04-11SYKWA(Ver.6A).pdf
 $ENDCMP
 #
 $CMP DA56-11CGKWA
@@ -164,12 +194,6 @@ $CMP DA56-11YWA
 D Double digit 7 segment super bright yellow LED common anode
 K Double digit 7 segment super bright yellow LED common anode
 F http://www.kingbrightusa.com/images/catalog/SPEC/DA56-11YWA.pdf
-$ENDCMP
-#
-$CMP DC04-11
-D 2 x 7 Segments common K.
-K 7 SEGMENTS
-F Display/display-DC04-11GWA.pdf
 $ENDCMP
 #
 $CMP DC56-11CGKWA
@@ -236,23 +260,6 @@ $CMP DE170-XX-XX
 D 3 and half digit 7 segment reflective standard LCD with arrow, pin length 7.5mm, -20°C to +70°C, 3V-5V VDD
 K 3 and half digit 7 segment reflective LCD with arrow
 F http://www.display-elektronik.de/filter/DE170-RS-20_75.pdf
-$ENDCMP
-#
-$CMP DISPLAY
-D Afficheur LCD nLignes
-K DEV
-$ENDCMP
-#
-$CMP DOT-BAR
-D GRAPH unit
-K BAR DOT
-F Display/HDSP-48xx.pdf
-$ENDCMP
-#
-$CMP DOT-BAR2
-D BAR GRAPH Block
-K BAR DOT
-F Display/HDSP-48xx.pdf
 $ENDCMP
 #
 $CMP EA_DOGS104B-A
@@ -489,6 +496,84 @@ K Double 7 segment Blue LED common cathode SMD mount
 F https://docs.broadcom.com/docs/AV02-1588EN
 $ENDCMP
 #
+$CMP HDSP-4830
+D 10-element LED arrays, high effecient red
+K 10-element LED arrays
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4830_2
+D BAR GRAPH 10 segment block, high efficiency red
+K BAR DOT
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4832
+D 10-element LED arrays, Mix of high effecient red, yellow and green
+K 10-element LED arrays
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4832_2
+D BAR GRAPH 10 segment block, Mix of high efficiency red, yellow and green
+K BAR DOT
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4836
+D 10-element LED arrays, Mix of high effecient red, yellow and green
+K 10-element LED arrays
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4836_2
+D BAR GRAPH 10 segment block, Mix of high efficiency red, yellow and green
+K BAR DOT
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4840
+D 10-element LED arrays, Yellow
+K 10-element LED arrays
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4840_2
+D BAR GRAPH 10 segment block, yellow
+K BAR DOT
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4850
+D 10-element LED arrays, Green
+K 10-element LED arrays
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4850_2
+D BAR GRAPH 10 segment block, green
+K BAR DOT
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-7xxx-A
+D 7 segement display
+K 7 segement display
+F http://pdf.datasheetcatalog.com/datasheet/hp/HDSP-A151-00000.pdf
+$ENDCMP
+#
+$CMP HLCP-J100
+D 10-element LED arrays, AIGaAs Red
+K 10-element LED arrays
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HLCP-J100_2
+D BAR GRAPH 10 segment block, AlGaAs red
+K BAR DOT
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
 $CMP HY1602E
 D LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight, 8bit parallel, 5V VDD
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
@@ -574,9 +659,9 @@ F Display/LTC-6960HR.pdf
 $ENDCMP
 #
 $CMP LTS-6980HR
-D DISPLAY 7 SEGMENTS common K
+D DISPLAY 7 SEGMENTS common K, high efficient red
 K 7 SEGMENTS
-F Display/LTC-6980HR.pdf
+F http://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf
 $ENDCMP
 #
 $CMP MAN3410A
@@ -670,7 +755,7 @@ F http://www.raystar-optronics.com/down.php?ProID=18
 $ENDCMP
 #
 $CMP RC1602A-GHW-ESX
-D RC1602A-GHW-ESX
+D LCD 16x2 Alphanumeric 16pin Gray Backlight
 K LCD 16x2 Alphanumeric 16pin Gray Backlight
 F http://www.raystar-optronics.com/down.php?ProID=18
 $ENDCMP
