@@ -97,53 +97,81 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
 $ENDCMP
 #
 $CMP APE1707H-12-HF
-D 12V 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
+D 2A, 150KHz PWM Buck DC/DC Converter, fixed 12.0V output voltage, TO-252-5 (D-PAK)
 K 12V 2A 150KHz PWM Buck DC/DC
+F http://pdf.datasheet.live/datasheets-1/advanced_power_electronics/APE1707H-12-HF.pdf
 $ENDCMP
 #
 $CMP APE1707H-33-HF
-D 3.3V 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
+D 2A, 150KHz PWM Buck DC/DC Converter, fixed 3.3V output voltage, TO-252-5 (D-PAK)
 K 3.3V 2A 150KHz PWM Buck DC/DC
+F http://pdf.datasheet.live/datasheets-1/advanced_power_electronics/APE1707H-12-HF.pdf
 $ENDCMP
 #
 $CMP APE1707H-50-HF
-D 5.0V 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
+D 2A, 150KHz PWM Buck DC/DC Converter, fixed 5.0V output voltage, TO-252-5 (D-PAK)
 K 5V 2A 150KHz PWM Buck DC/DC
+F http://pdf.datasheet.live/datasheets-1/advanced_power_electronics/APE1707H-12-HF.pdf
 $ENDCMP
 #
 $CMP APE1707H-HF
-D Adjustable 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
+D 2A, 150KHz PWM Buck DC/DC Converter, adjustable output voltage, TO-252-5 (D-PAK)
 K Adjustable 2A 150KHz PWM Buck DC/DC
+F http://pdf.datasheet.live/datasheets-1/advanced_power_electronics/APE1707H-12-HF.pdf
 $ENDCMP
 #
 $CMP APE1707M-12-HF
-D APE1707M-33-HF, 12V 2A, 150KHz PWM Buck DC/DC Converter, SO8
+D 2A, 150KHz PWM Buck DC/DC Converter, fixed 12.0V output voltage, SO-8
 K 12V 2A 150KHz PWM Buck DC/DC
 $ENDCMP
 #
 $CMP APE1707M-33-HF
-D 3.3V 2A, 150KHz PWM Buck DC/DC Converter, SO8
+D 2A, 150KHz PWM Buck DC/DC Converter, fixed 3.3V output voltage, SO-8
 K 3.3V 2A 150KHz PWM Buck DC/DC
 $ENDCMP
 #
 $CMP APE1707M-50-HF
-D 5.0V 2A, 150KHz PWM Buck DC/DC Converter, SO8
+D 2A, 150KHz PWM Buck DC/DC Converter, fixed 5.0V output voltage, SO-8
 K 5V 2A 150KHz PWM Buck DC/DC
 $ENDCMP
 #
 $CMP APE1707M-HF
-D Adjustable 2A, 150KHz PWM Buck DC/DC Converter, SO8
+D 2A, 150KHz PWM Buck DC/DC Converter, adjustable output voltage, SO-8
 K Adjustable 2A 150KHz PWM Buck DC/DC
 $ENDCMP
 #
+$CMP APE1707S-12-HF
+D 2A, 150KHz PWM Buck DC/DC Converter, fixed 12.0V output voltage, TO-263-5 (DD-PAK)
+K 12V 2A 150KHz PWM Buck DC/DC
+F http://pdf.datasheet.live/datasheets-1/advanced_power_electronics/APE1707S-12-HF.pdf
+$ENDCMP
+#
+$CMP APE1707S-33-HF
+D 2A, 150KHz PWM Buck DC/DC Converter, fixed 3.3V output voltage, TO-263-5 (DD-PAK)
+K 3.3V 2A 150KHz PWM Buck DC/DC
+F http://pdf.datasheet.live/datasheets-1/advanced_power_electronics/APE1707S-12-HF.pdf
+$ENDCMP
+#
+$CMP APE1707S-50-HF
+D 2A, 150KHz PWM Buck DC/DC Converter, fixed 5.0V output voltage, TO-263-5 (DD-PAK)
+K 5V 2A 150KHz PWM Buck DC/DC
+F http://pdf.datasheet.live/datasheets-1/advanced_power_electronics/APE1707S-12-HF.pdf
+$ENDCMP
+#
+$CMP APE1707S-HF
+D 2A, 150KHz PWM Buck DC/DC Converter, adjustable output voltage, TO-263-5 (DD-PAK)
+K Adjustable 2A 150KHz PWM Buck DC/DC
+F http://pdf.datasheet.live/datasheets-1/advanced_power_electronics/APE1707S-12-HF.pdf
+$ENDCMP
+#
 $CMP BD9001F
-D 48V 2A, Flexible Step-Down Switching Regulator, SO8
+D 48V 2A, Flexible Step-Down Switching Regulator, SO-8
 K DC-DC Step-Down Switching Regulator
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
 $ENDCMP
 #
 $CMP BD9778F
-D 35V 2A, Flexible Step-Down Switching Regulator, SO8
+D 35V 2A, Flexible Step-Down Switching Regulator, SO-8
 K DC-DC Step-Down Switching Regulator
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
 $ENDCMP
@@ -179,7 +207,7 @@ F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
 #
 $CMP GL2576-12SF8DR
-D 12V 3A, 52KHz Step Down Converter, SO8
+D 12V 3A, 52KHz Step Down Converter, SO-8
 K 12V 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
@@ -203,7 +231,7 @@ F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
 #
 $CMP GL2576-15SF8DR
-D 15V 3A, 52KHz Step Down Converter, SO8
+D 15V 3A, 52KHz Step Down Converter, SO-8
 K 15V 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
@@ -227,7 +255,7 @@ F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
 #
 $CMP GL2576-3.3SF8DR
-D 3.3V 3A, 52KHz Step Down Converter, SO8
+D 3.3V 3A, 52KHz Step Down Converter, SO-8
 K 3.3V 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
@@ -251,7 +279,7 @@ F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
 #
 $CMP GL2576-5.0SF8DR
-D 5V 3A, 52KHz Step Down Converter, SO8
+D 5V 3A, 52KHz Step Down Converter, SO-8
 K 5V 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
@@ -275,7 +303,7 @@ F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
 #
 $CMP GL2576-ASF8DR
-D Adjustable 3A, 52KHz Step Down Converter, SO8
+D Adjustable 3A, 52KHz Step Down Converter, SO-8
 K Adjustable 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
@@ -1270,7 +1298,7 @@ F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
 $ENDCMP
 #
 $CMP MAX5035AASA
-D 3.3V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO8
+D 3.3V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO-8
 K 3.3V 1A Step-Down Converter 76V Hi-Temp
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
@@ -1282,13 +1310,13 @@ F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
 $CMP MAX5035AUSA
-D 3.3V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO8
+D 3.3V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO-8
 K 3.3V 1A Step-Down Converter 76V
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
 $CMP MAX5035BASA
-D 5V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO8
+D 5V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO-8
 K 5V 1A Step-Down Converter 76V Hi-Temp
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
@@ -1300,13 +1328,13 @@ F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
 $CMP MAX5035BUSA
-D 5V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO8
+D 5V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO-8
 K 5V 1A Step-Down Converter 76V
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
 $CMP MAX5035CASA
-D 12V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO8
+D 12V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO-8
 K 12V 1A Step-Down Converter 76V
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
@@ -1318,13 +1346,13 @@ F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
 $CMP MAX5035CUSA
-D 12V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO8
+D 12V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO-8
 K 12V 1A Step-Down Converter 76V
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
 $CMP MAX5035DASA
-D AdjustableV 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO8
+D AdjustableV 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO-8
 K Adjustable V 1A Step-Down Converter 76V Hi-Temp
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
@@ -1336,19 +1364,19 @@ F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
 $CMP MAX5035DUSA
-D Adjustable 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO8
+D Adjustable 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO-8
 K Adjustable 1A Step-Down Converter 76V
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
 $CMP MAX5035EASA
-D Adjustable 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO8
+D Adjustable 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO-8
 K Adjustable 1A Step-Down Converter 76V Hi-Temp
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
 $CMP MAX5035EUSA
-D Adjustable 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO8
+D Adjustable 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, SO-8
 K Adjustable 1A Step-Down Converter 76V
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
