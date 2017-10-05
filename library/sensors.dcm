@@ -138,6 +138,24 @@ K sensor magnetic hall position rotation spi
 F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
 $ENDCMP
 #
+$CMP AS7261
+D Spectral Sensing Engine, 6-Channel XYZ Spectral_ID
+K 6-Channel XYZ Spectral_ID Device Electronic Shutter Smart Interface i2c uart
+F http://ams.com/eng/content/download/1008631/2361759/498838
+$ENDCMP
+#
+$CMP AS7262
+D Spectral Sensing Engine, 6-Channel Visible Spectral_ID
+K 6-Channel Visible Spectral_ID Device Electronic Shutter Smart Interface i2c uart
+F http://ams.com/eng/content/download/976551/2309439/498718
+$ENDCMP
+#
+$CMP AS7263
+D Spectral Sensing Engine, 6-Channel NIR Spectral_ID
+K 6-Channel NIR Spectral_ID Device Electronic Shutter Smart Interface i2c uart
+F http://ams.com/eng/content/download/976611/2309519/498778
+$ENDCMP
+#
 $CMP BD1020HFV
 D Analog Ouput Temperature Sensor
 K Temperature sensor
@@ -166,6 +184,12 @@ $CMP DHT11
 D - Temperature and humidity module
 K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
+$ENDCMP
+#
+$CMP ENS210
+D Relative Humidity and Temperature Sensor with I2C Interface
+K relative humidity temperature i2c pre-calibrated
+F http://ams.com/eng/content/download/950231/2267959/483138
 $ENDCMP
 #
 $CMP DS1621
@@ -610,6 +634,18 @@ $CMP MPXHZ6115A
 D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, media resistant gel, SSO package
 K absolute pressure sensor
 F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+$ENDCMP
+#
+$CMP PCA8886
+D Dual capacitive touch/proximity switch with auto-calibration, TSSOP-16
+K NXP capacitive touch sensor auto-calibration
+F http://www.nxp.com/docs/en/data-sheet/PCA8886.pdf
+$ENDCMP
+#
+$CMP PCF8883
+D Capacitive touch/proximity switch with auto-calibration, SOIC-8/WLCSP-8
+K NXP capacitive touch sensor auto-calibration
+F http://www.nxp.com/docs/en/data-sheet/PCF8883.pdf
 $ENDCMP
 #
 $CMP PT100
