@@ -1,23 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP LA25-P
-D LA 25-P Current transducer
-K LEM current transducers
-F http://www.lem.com/docs/products/la_25-p.pdf
-$ENDCMP
-#
-$CMP LA55-P
-D LA 55-P Current transducer
-K LEM current transducer
-F http://www.lem.com/docs/products/la_55-p_e.pdf
-$ENDCMP
-#
-$CMP LA100-P
-D LA 100-P Current transducer
-K LEM current transducer
-F http://www.lem.com/docs/products/la_100-p_e_.pdf
-$ENDCMP
-#
 $CMP ACS706ELC-05C
 D 15A, Hall Effect Linear Current Sensor, SO-8, OBSOLETE
 K hall effect current monitor sensor isolated obsolete
@@ -72,20 +54,14 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
 $ENDCMP
 #
-$CMP ACS722LLCTR-10AU-T
-D 10A Unidirectional hall-effect current sensor, +3.3V supply, 264mV/A, SO-8
-K hall effect current monitor sensor isolated
-F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
-$ENDCMP
-#
 $CMP ACS722LLCTR-10AB-T
 D ±10A Bidirectional hall-effect current sensor, +3.3V supply, 132mV/A, SO-8
 K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
 $ENDCMP
 #
-$CMP ACS722LLCTR-20AU-T
-D 20A Unidirectional hall-effect current sensor, +3.3V supply, 132mV/A, SO-8
+$CMP ACS722LLCTR-10AU-T
+D 10A Unidirectional hall-effect current sensor, +3.3V supply, 264mV/A, SO-8
 K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
 $ENDCMP
@@ -96,14 +72,20 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
 $ENDCMP
 #
-$CMP ACS722LLCTR-40AU-T
-D 40A Unidirectional hall-effect current sensor, +3.3V supply, 66mV/A, SO-8
+$CMP ACS722LLCTR-20AU-T
+D 20A Unidirectional hall-effect current sensor, +3.3V supply, 132mV/A, SO-8
 K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
 $ENDCMP
 #
 $CMP ACS722LLCTR-40AB-T
 D ±40A Bidirectional hall-effect current sensor, +3.3V supply, 33mV/A, SO-8
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS722LLCTR-40AU-T
+D 40A Unidirectional hall-effect current sensor, +3.3V supply, 66mV/A, SO-8
 K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
 $ENDCMP
@@ -118,6 +100,30 @@ $CMP ACS756SCB-100B
 D ±100A Bidirectional hall-effect current sensor, +5.0V supply, 20mV/A, CB-5 leadform
 K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS756-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS758ECB-200B
+D ±200A Bidirectional hall-effect current sensor, +5.0V supply, 10mV/A, CB-5 leadform
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS758ECB-200U
+D 200A Unidirectional hall-effect current sensor, +5.0V supply, 20mV/A, CB-5 leadform
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS758KCB-150B
+D ±150A Bidirectional hall-effect current sensor, +5.0V supply, 13.3mV/A, CB-5 leadform
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP ACS758KCB-150U
+D 150A Unidirectional hall-effect current sensor, +5.0V supply, 26.7mV/A, CB-5 leadform
+K hall effect current monitor sensor isolated
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
 $ENDCMP
 #
 $CMP ACS758LCB-050B
@@ -144,28 +150,16 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
 $ENDCMP
 #
-$CMP ACS758KCB-150B
-D ±150A Bidirectional hall-effect current sensor, +5.0V supply, 13.3mV/A, CB-5 leadform
+$CMP ACS759ECB-200B
+D ±200A Bidirectional hall-effect current sensor, +3.3V supply, 6.6mV/A, CB-5 leadform
 K hall effect current monitor sensor isolated
-F http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS759-Datasheet.ashx?la=en
 $ENDCMP
 #
-$CMP ACS758KCB-150U
-D 150A Unidirectional hall-effect current sensor, +5.0V supply, 26.7mV/A, CB-5 leadform
+$CMP ACS759KCB-150B
+D ±150A Bidirectional hall-effect current sensor, +3.3V supply, 8.8mV/A, CB-5 leadform
 K hall effect current monitor sensor isolated
-F http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
-$ENDCMP
-#
-$CMP ACS758ECB-200B
-D ±200A Bidirectional hall-effect current sensor, +5.0V supply, 10mV/A, CB-5 leadform
-K hall effect current monitor sensor isolated
-F http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
-$ENDCMP
-#
-$CMP ACS758ECB-200U
-D 200A Unidirectional hall-effect current sensor, +5.0V supply, 20mV/A, CB-5 leadform
-K hall effect current monitor sensor isolated
-F http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS759-Datasheet.ashx?la=en
 $ENDCMP
 #
 $CMP ACS759LCB-050B
@@ -180,16 +174,70 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS759-Datasheet.ashx?la=en
 $ENDCMP
 #
-$CMP ACS759KCB-150B
-D ±150A Bidirectional hall-effect current sensor, +3.3V supply, 8.8mV/A, CB-5 leadform
-K hall effect current monitor sensor isolated
-F http://www.allegromicro.com/~/media/Files/Datasheets/ACS759-Datasheet.ashx?la=en
+$CMP LA100-P
+D LA 100-P Current transducer
+K LEM current transducer
+F http://www.lem.com/docs/products/la_100-p_e_.pdf
 $ENDCMP
 #
-$CMP ACS759ECB-200B
-D ±200A Bidirectional hall-effect current sensor, +3.3V supply, 6.6mV/A, CB-5 leadform
-K hall effect current monitor sensor isolated
-F http://www.allegromicro.com/~/media/Files/Datasheets/ACS759-Datasheet.ashx?la=en
+$CMP LA25-P
+D LA 25-P Current transducer
+K LEM current transducers
+F http://www.lem.com/docs/products/la_25-p.pdf
+$ENDCMP
+#
+$CMP LA55-P
+D LA 55-P Current transducer
+K LEM current transducer
+F http://www.lem.com/docs/products/la_55-p_e.pdf
+$ENDCMP
+#
+$CMP LEM_HO-NP
+D Generic symbol for LEM current transducer HO-NP 5V supply voltage series
+K current transducer
+F http://www.lem.com/docs/products/ho-np-0000_series.pdf
+$ENDCMP
+#
+$CMP LEM_HO-NP_SP33
+D Generic symbol for LEM current transducer HO-NP/SP33 3.3V supply voltage series
+K current transducer
+F http://www.lem.com/docs/products/ho-np_sp33-1000_series.pdf
+$ENDCMP
+#
+$CMP LEM_HO_15-NP
+D LEM current transducer HO 15-NP-xxxx, 5V supply voltage, Nominal measurement current (Ipn) 15A, Standard option xxxx = 0000: 2.5V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
+K current transducer
+F http://www.lem.com/docs/products/ho-np-0000_series.pdf
+$ENDCMP
+#
+$CMP LEM_HO_15-NP_SP33
+D LEM current transducer HO 15-NP/SP33-xxxx, 3.3V supply voltage, Nominal measurement current (Ipn) 15A, Standard option xxxx = 1000: 1.65V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
+K current transducer
+F http://www.lem.com/docs/products/ho-np_sp33-1000_series.pdf
+$ENDCMP
+#
+$CMP LEM_HO_25-NP
+D LEM current transducer HO 25-NP-xxxx, 5V supply voltage, Nominal measurement current (Ipn) 25A, Standard option xxxx = 0000: 2.5V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
+K current transducer
+F http://www.lem.com/docs/products/ho-np-0000_series.pdf
+$ENDCMP
+#
+$CMP LEM_HO_25-NP_SP33
+D LEM current transducer HO 25-NP/SP33-xxxx, 3.3V supply voltage, Nominal measurement current (Ipn) 25A, Standard option xxxx = 1000: 1.65V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
+K current transducer
+F http://www.lem.com/docs/products/ho-np_sp33-1000_series.pdf
+$ENDCMP
+#
+$CMP LEM_HO_8-NP
+D LEM current transducer HO 8-NP-xxxx, 5V supply voltage, Nominal measurement current (Ipn) 8A, Standard option xxxx = 0000: 2.5V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
+K current transducer
+F http://www.lem.com/docs/products/ho-np-0000_series.pdf
+$ENDCMP
+#
+$CMP LEM_HO_8-NP_SP33
+D LEM current transducer HO 8-NP/SP33-xxxx, 3.3V supply voltage, Nominal measurement current (Ipn) 8A, Standard option xxxx = 1000: 1.65V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
+K current transducer
+F http://www.lem.com/docs/products/ho-np_sp33-1000_series.pdf
 $ENDCMP
 #
 #End Doc Library
