@@ -48,8 +48,20 @@ K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
+$CMP A1301EUA-T
+D Linear Hall Effect Sensor, SIP 3pin
+K hall switch
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
 $CMP A1301KLHLT-T
 D Linear Hall Effect Sensor, SOT-23W
+K hall switch
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP A1301KUA-T
+D Linear Hall Effect Sensor, SIP 3pin
 K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
@@ -62,18 +74,6 @@ $ENDCMP
 #
 $CMP A1302KLHLT-T
 D Linear Hall Effect Sensor, SOT-23W
-K hall switch
-F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
-$ENDCMP
-#
-$CMP A1301KUA-T
-D Linear Hall Effect Sensor, SIP 3pin
-K hall switch
-F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
-$ENDCMP
-#
-$CMP A1301EUA-T
-D Linear Hall Effect Sensor, SIP 3pin
 K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
@@ -102,16 +102,16 @@ K sensor magnetic hall position rotation i2c
 F http://ams.com/eng/content/download/438523/1341157/file/AS5048_Datasheet.pdf
 $ENDCMP
 #
-$CMP AS5055A
-D Magnetic position sensor, 12-bit, SPI interface
-K sensor magnetic hall position rotation spi
-F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
-$ENDCMP
-#
 $CMP AS5050A
 D Magnetic position sensor, 10-bit, SPI interface
 K sensor magnetic hall position rotation spi
 F http://ams.com/eng/content/download/552303/1541697/file/AS5050A_Datasheet_EN_v6.pdf
+$ENDCMP
+#
+$CMP AS5055A
+D Magnetic position sensor, 12-bit, SPI interface
+K sensor magnetic hall position rotation spi
+F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
 $ENDCMP
 #
 $CMP TLV493D

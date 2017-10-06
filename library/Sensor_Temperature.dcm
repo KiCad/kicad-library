@@ -24,10 +24,52 @@ K OneWire 1-Wire 1Wire Maxim Dallas
 F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
 $ENDCMP
 #
-$CMP KTY81
-D KTY81 series silicon temperature sensors
-K silicon temperature sensors
-F http://www.nxp.com/documents/data_sheet/KTY81_SER.pdf
+$CMP DS1821C
+D Programmable Digital Thermostat and Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
+$ENDCMP
+#
+$CMP DS1822
+D Econo 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS1822-PAR
+D Econo 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1822-PAR.pdf
+$ENDCMP
+#
+$CMP DS1825
+D 1-Wire Digital Temperature Sensor, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1825.pdf
+$ENDCMP
+#
+$CMP DS18B20
+D Programmable Resolution 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18B20-PAR
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18B20-PAR.pdf
+$ENDCMP
+#
+$CMP DS18S20
+D High-Precision 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
+$ENDCMP
+#
+$CMP DS18S20-PAR
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20-PAR.pdf
 $ENDCMP
 #
 $CMP KT100
@@ -40,6 +82,12 @@ $CMP KTY10
 D KTY10/KT100 series silicon temperature sensors
 K silicon temperature sensors
 F http://www.b-kainka.de/Daten/Sensor/kty10.pdf
+$ENDCMP
+#
+$CMP KTY81
+D KTY81 series silicon temperature sensors
+K silicon temperature sensors
+F http://www.nxp.com/documents/data_sheet/KTY81_SER.pdf
 $ENDCMP
 #
 $CMP KTY82
@@ -126,52 +174,10 @@ K OneWire 1-Wire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf
 $ENDCMP
 #
-$CMP DS1822
-D Econo 1-Wire Digital Thermometer, TO-92
-K OneWire 1Wire Dallas Maxim
-F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
-$ENDCMP
-#
-$CMP DS18B20
-D Programmable Resolution 1-Wire Digital Thermometer, TO-92
-K OneWire 1Wire Dallas Maxim
-F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
-$ENDCMP
-#
-$CMP DS18S20
-D High-Precision 1-Wire Digital Thermometer, TO-92
-K OneWire 1Wire Maxim Dallas
-F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
-$ENDCMP
-#
-$CMP DS1821C
-D Programmable Digital Thermostat and Thermometer, TO-92
-K OneWire 1Wire Maxim Dallas
-F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
-$ENDCMP
-#
 $CMP MAX31820PAR
 D 1-Wire, Parasite-Power, Ambient Temperature Sensor, TO-92
 K OneWire 1-Wire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31820PAR.pdf
-$ENDCMP
-#
-$CMP DS1822-PAR
-D Econo 1-Wire Parasite-Power Digital Thermometer, TO-92
-K OneWire 1Wire Maxim Dallas
-F http://datasheets.maximintegrated.com/en/ds/DS1822-PAR.pdf
-$ENDCMP
-#
-$CMP DS18B20-PAR
-D 1-Wire Parasite-Power Digital Thermometer, TO-92
-K OneWire 1Wire Maxim Dallas
-F http://datasheets.maximintegrated.com/en/ds/DS18B20-PAR.pdf
-$ENDCMP
-#
-$CMP DS18S20-PAR
-D 1-Wire Parasite-Power Digital Thermometer, TO-92
-K OneWire 1Wire Maxim Dallas
-F http://datasheets.maximintegrated.com/en/ds/DS18S20-PAR.pdf
 $ENDCMP
 #
 $CMP MAX31826
@@ -180,26 +186,20 @@ K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
 $ENDCMP
 #
-$CMP DS1825
-D 1-Wire Digital Temperature Sensor, MSOP-8
-K 1Wire OneWire Maxim Dallas
-F https://datasheets.maximintegrated.com/en/ds/DS1825.pdf
-$ENDCMP
-#
 $CMP MCP9501
 D Temperature Switch with Selectable Hysteresis, Open-Drain, Active-Low Output (Hot Option), SOT-23-5
 K Temperature Switch sensor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002268B.pdf
 $ENDCMP
 #
-$CMP MCP9503
-D Temperature Switch with Selectable Hysteresis, Open-Drain, Active-Low Output (Cold Option), SOT-23-5
+$CMP MCP9502
+D Temperature Switch with Selectable Hysteresis, Push-Pull, Active-High Output (Hot Option), SOT-23-5
 K Temperature Switch sensor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002268B.pdf
 $ENDCMP
 #
-$CMP MCP9502
-D Temperature Switch with Selectable Hysteresis, Push-Pull, Active-High Output (Hot Option), SOT-23-5
+$CMP MCP9503
+D Temperature Switch with Selectable Hysteresis, Open-Drain, Active-Low Output (Cold Option), SOT-23-5
 K Temperature Switch sensor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002268B.pdf
 $ENDCMP
@@ -216,14 +216,32 @@ K temperature sensor thermistor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
 #
+$CMP MCP9700AT-E/TT
+D Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
 $CMP MCP9700AT-H/LT
 D Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +150C, in SC-70-5 package
 K temperature sensor thermistor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
 #
+$CMP MCP9700AT-H/TT
+D Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +150C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
 $CMP MCP9700T-E/LT
 D Low power, analog thermistor temperature sensor, ±4C accuracy, -40C to +125C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-E/TT
+D Low power, analog thermistor temperature sensor, ±4C accuracy, -40C to +125C, in SOT-23-3 package
 K temperature sensor thermistor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
@@ -236,24 +254,6 @@ $ENDCMP
 #
 $CMP MCP9700T-H/TT
 D Low power, analog thermistor temperature sensor, ±4C accuracy, -40C to +150C, in SOT-23-3 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-E/TT
-D Low power, analog thermistor temperature sensor, ±4C accuracy, -40C to +125C, in SOT-23-3 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700AT-H/TT
-D Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +150C, in SOT-23-3 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700AT-E/TT
-D Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3 package
 K temperature sensor thermistor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
@@ -276,14 +276,14 @@ K platinum temperature sensor RTD
 F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
 $ENDCMP
 #
-$CMP PT500
-D PT500 platinum temperature sensor (RTD)
+$CMP PT1000
+D PT1000 platinum temperature sensor (RTD)
 K platinum temperature sensor RTD
 F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
 $ENDCMP
 #
-$CMP PT1000
-D PT1000 platinum temperature sensor (RTD)
+$CMP PT500
+D PT500 platinum temperature sensor (RTD)
 K platinum temperature sensor RTD
 F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
 $ENDCMP
@@ -312,14 +312,14 @@ K temperature digital
 F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
 $ENDCMP
 #
-$CMP TSIC306-SO8
-D Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, SO-8
+$CMP TSIC206-TO92
+D Digital temperature sensor, range -50 ... +150 °C, 0.5 K accuracy, TO-92
 K temperature digital
 F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
 $ENDCMP
 #
-$CMP TSIC206-TO92
-D Digital temperature sensor, range -50 ... +150 °C, 0.5 K accuracy, TO-92
+$CMP TSIC306-SO8
+D Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, SO-8
 K temperature digital
 F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
 $ENDCMP
