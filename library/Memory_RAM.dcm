@@ -27,11 +27,6 @@ D DRAM 16 MBits (1M x 16bits)
 K DRAM 2MO
 $ENDCMP
 #
-$CMP HM62256BLFP-7T
-D SRAM 32K x  8 bits, SOP28 450mil, 70ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
 $CMP HM62256BLFP-4SLT
 D SRAM 32K x  8 bits, SOP28 450mil, 45ns
 K SRAM 32KB High Speed CMOS Static RAM
@@ -43,6 +38,11 @@ K SRAM 32KB High Speed CMOS Static RAM
 $ENDCMP
 #
 $CMP HM62256BLFP-7SLT
+D SRAM 32K x  8 bits, SOP28 450mil, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLFP-7T
 D SRAM 32K x  8 bits, SOP28 450mil, 70ns
 K SRAM 32KB High Speed CMOS Static RAM
 $ENDCMP
@@ -67,11 +67,6 @@ D SRAM 32K x  8 bits, TSOP32 8x14mm, 85ns
 K SRAM 32KB High Speed CMOS Static RAM
 $ENDCMP
 #
-$CMP HM62256BLTM-8
-D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 85ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
 $CMP HM62256BLTM-4SL
 D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 45ns
 K SRAM 32KB High Speed CMOS Static RAM
@@ -92,9 +87,9 @@ D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 70ns
 K SRAM 32KB High Speed CMOS Static RAM
 $ENDCMP
 #
-$CMP HM628512BFP-7
-D SRAM 512K x 8-bit, 525mil SOP32, 70ns
-K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
+$CMP HM62256BLTM-8
+D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 85ns
+K SRAM 32KB High Speed CMOS Static RAM
 $ENDCMP
 #
 $CMP HM628512BFP-5
@@ -102,14 +97,13 @@ D SRAM 512K x 8-bit, 525mil SOP32, 55ns
 K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
 $ENDCMP
 #
-$CMP IDT71V65903S
-D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
+$CMP HM628512BFP-7
+D SRAM 512K x 8-bit, 525mil SOP32, 70ns
+K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
 $ENDCMP
 #
-$CMP MT48LC16M4A2TG
-D PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
-F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
+$CMP IDT71V65903S
+D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
 #
 $CMP MT48LC16M4A2P
@@ -118,9 +112,9 @@ K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
-$CMP MT48LC4M16A2TG
-D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
+$CMP MT48LC16M4A2TG
+D PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
@@ -130,13 +124,19 @@ K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
-$CMP MT48LC8M8A2TG
+$CMP MT48LC4M16A2TG
+D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
+F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
+$ENDCMP
+#
+$CMP MT48LC8M8A2P
 D PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
 K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
-$CMP MT48LC8M8A2P
+$CMP MT48LC8M8A2TG
 D PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
 K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
 F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf

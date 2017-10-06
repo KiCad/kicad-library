@@ -6,12 +6,6 @@ K I2C Serial EEPROM
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22124D.pdf
 $ENDCMP
 #
-$CMP 24LC16
-D I2C Serial EEPROM, 16kb
-K I2C Serial EEPROM
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf
-$ENDCMP
-#
 $CMP 24LC00
 D I2C Serial EEPROM, 128 bits
 K I2C Serial EEPROM
@@ -42,16 +36,10 @@ K I2C Serial EEPROM
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21710J.pdf
 $ENDCMP
 #
-$CMP 24LC32
-D I2C Serial EEPROM, 32kb
+$CMP 24LC1025
+D I2C Serial EEPROM, 1024kb
 K I2C Serial EEPROM
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf
-$ENDCMP
-#
-$CMP 24LC64
-D I2C Serial EEPROM, 64kb
-K I2C Serial EEPROM
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf
 $ENDCMP
 #
 $CMP 24LC128
@@ -60,10 +48,22 @@ K I2C Serial EEPROM
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21191s.pdf
 $ENDCMP
 #
+$CMP 24LC16
+D I2C Serial EEPROM, 16kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf
+$ENDCMP
+#
 $CMP 24LC256
 D I2C Serial EEPROM, 256kb
 K I2C Serial EEPROM
 F http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf
+$ENDCMP
+#
+$CMP 24LC32
+D I2C Serial EEPROM, 32kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf
 $ENDCMP
 #
 $CMP 24LC512
@@ -72,10 +72,10 @@ K I2C Serial EEPROM
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf
 $ENDCMP
 #
-$CMP 24LC1025
-D I2C Serial EEPROM, 1024kb
+$CMP 24LC64
+D I2C Serial EEPROM, 64kb
 K I2C Serial EEPROM
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf
 $ENDCMP
 #
 $CMP 25LC_EEPROM
@@ -84,22 +84,9 @@ K EEPROM memory SPI serial
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf
 $ENDCMP
 #
-$CMP AT25_EEPROM
-D Atmel serial EEPROM with SPI interface
-K serial EEPROM memory Atmel 
-F http://www.atmel.com/products/Memories/serial/spi.aspx
-$ENDCMP
-#
-$CMP BR25S_EEPROM
-D ROHM Semiconductor serial EEPROM with SPI interface in 8-pin package
-K serial SPI EEPROM memory external
-F http://www.rohm.com/web/global/products/-/product/BR25G128F-3
-$ENDCMP
-#
-$CMP CAT250_EEPROM
-D ON Semiconductor serial EEPROM with SPI interface in 8-pin package
-K serial EEPROM SPI interface memory external 
-F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
+$CMP 27128
+D REPROM 128KO
+K REPROM 128KO
 $ENDCMP
 #
 $CMP 2716
@@ -107,9 +94,24 @@ D REPROM 2KO
 K REPTOM 2KO
 $ENDCMP
 #
+$CMP 27256
+D REPROM 32 KO
+K REPROM 32KO
+$ENDCMP
+#
 $CMP 2732
 D REPROM 4 Ko
 K REPROM 4KO
+$ENDCMP
+#
+$CMP 27512
+D REPROM 64 Ko
+K REPROM 64KO
+$ENDCMP
+#
+$CMP 2764
+D REPROM 8Ko
+K REPROM 8KO
 $ENDCMP
 #
 $CMP 27C010
@@ -141,27 +143,12 @@ D REPROM 128KO
 K REPROM 128KO
 $ENDCMP
 #
-$CMP 27128
-D REPROM 128KO
-K REPROM 128KO
-$ENDCMP
-#
 $CMP 27C256
 D REPROM 32 KO
 K REPROM 32KO
 $ENDCMP
 #
-$CMP 27256
-D REPROM 32 KO
-K REPROM 32KO
-$ENDCMP
-#
 $CMP 27C512
-D REPROM 64 Ko
-K REPROM 64KO
-$ENDCMP
-#
-$CMP 27512
 D REPROM 64 Ko
 K REPROM 64KO
 $ENDCMP
@@ -172,11 +159,6 @@ K REPROM 64KO CMS
 $ENDCMP
 #
 $CMP 27C64
-D REPROM 8Ko
-K REPROM 8KO
-$ENDCMP
-#
-$CMP 2764
 D REPROM 8Ko
 K REPROM 8KO
 $ENDCMP
@@ -245,20 +227,8 @@ K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
-$CMP AT24CS02-MAHM
-D 2Kb (256x8) Serial EEPROM with Unique Serial Number, UDFN8
-K I2C Serial EEPROM Nonvolatile Memory
-F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
-$ENDCMP
-#
 $CMP AT24CS01-SSHM
 D 1Kb (128x8) Serial EEPROM with Unique Serial Number, SO8
-K I2C Serial EEPROM Nonvolatile Memory
-F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
-$ENDCMP
-#
-$CMP AT24CS02-SSHM
-D 2Kb (256x8) Serial EEPROM with Unique Serial Number, SO8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
@@ -269,14 +239,26 @@ K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
-$CMP AT24CS02-STUM
-D 2Kb (256x8) Serial EEPROM with Unique Serial Number, SOT-23-5
+$CMP AT24CS01-XHM
+D 1Kb (128x8) Serial EEPROM with Unique Serial Number, TSSOP8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
-$CMP AT24CS01-XHM
-D 1Kb (128x8) Serial EEPROM with Unique Serial Number, TSSOP8
+$CMP AT24CS02-MAHM
+D 2Kb (256x8) Serial EEPROM with Unique Serial Number, UDFN8
+K I2C Serial EEPROM Nonvolatile Memory
+F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
+$ENDCMP
+#
+$CMP AT24CS02-SSHM
+D 2Kb (256x8) Serial EEPROM with Unique Serial Number, SO8
+K I2C Serial EEPROM Nonvolatile Memory
+F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
+$ENDCMP
+#
+$CMP AT24CS02-STUM
+D 2Kb (256x8) Serial EEPROM with Unique Serial Number, SOT-23-5
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
@@ -399,6 +381,24 @@ $CMP AT24CS64-XHM
 D 64Kb (8192x8) Serial EEPROM with Unique Serial Number, TSSOP8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://www.atmel.com/Images/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf
+$ENDCMP
+#
+$CMP AT25_EEPROM
+D Atmel serial EEPROM with SPI interface
+K serial EEPROM memory Atmel 
+F http://www.atmel.com/products/Memories/serial/spi.aspx
+$ENDCMP
+#
+$CMP BR25S_EEPROM
+D ROHM Semiconductor serial EEPROM with SPI interface in 8-pin package
+K serial SPI EEPROM memory external
+F http://www.rohm.com/web/global/products/-/product/BR25G128F-3
+$ENDCMP
+#
+$CMP CAT250_EEPROM
+D ON Semiconductor serial EEPROM with SPI interface in 8-pin package
+K serial EEPROM SPI interface memory external 
+F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
 $ENDCMP
 #
 #End Doc Library
