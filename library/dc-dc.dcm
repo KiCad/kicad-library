@@ -354,8 +354,14 @@ K Switching LED driver
 F www.issi.com/WW/pdf/31LT3360.pdf
 $ENDCMP
 #
-$CMP ISL8117
-D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v output
+$CMP ISL8117FRZ
+D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v output, QFN-16
+K PWM step down buck converter controller synchronous POL
+F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
+$ENDCMP
+#
+$CMP ISL8117FVEZ
+D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v output, HTSSOP-16
 K PWM step down buck converter controller synchronous POL
 F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
 $ENDCMP
