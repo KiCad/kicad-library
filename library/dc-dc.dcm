@@ -193,9 +193,9 @@ F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regul
 $ENDCMP
 #
 $CMP BD9G341EFJ
-D 12V-76V input voltage range 3A output current
-K BD9G341EFJ, Buck Converter
-F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
+D 12V-76V input voltage range 3A output current, Buck Converter, Integrated FET, HTSOP-8
+K Buck Converter
+F https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/BD9G341EFJ.pdf
 $ENDCMP
 #
 $CMP CRE1S0305S3C
@@ -258,12 +258,6 @@ K 12V 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
 #
-$CMP GL2576-12TA5PR
-D 12V 3A, 52KHz Step Down Converter, TD2P-5
-K 12V 3A 52KHz Buck DC/DC
-F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
-$ENDCMP
-#
 $CMP GL2576-12TA5R
 D 12V 3A, 52KHz Step Down Converter, TO263-5 (D2-PAK)
 K 12V 3A 52KHz Buck DC/DC
@@ -278,12 +272,6 @@ $ENDCMP
 #
 $CMP GL2576-15SF8DR
 D 15V 3A, 52KHz Step Down Converter, SO-8
-K 15V 3A 52KHz Buck DC/DC
-F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
-$ENDCMP
-#
-$CMP GL2576-15TA5PR
-D 15V 3A, 52KHz Step Down Converter, TD2P-5
 K 15V 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
@@ -306,12 +294,6 @@ K 3.3V 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
 #
-$CMP GL2576-3.3TA5PR
-D 3.3V 3A, 52KHz Step Down Converter, TD2P-5
-K 3.3V 3A 52KHz Buck DC/DC
-F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
-$ENDCMP
-#
 $CMP GL2576-3.3TA5R
 D 3.3V 3A, 52KHz Step Down Converter, TO263-5 (D2-PAK)
 K 3.3V 3A 52KHz Buck DC/DC
@@ -330,12 +312,6 @@ K 5V 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
 #
-$CMP GL2576-5.0TA5PR
-D 5V 3A, 52KHz Step Down Converter, TD2P-5
-K 5V 3A 52KHz Buck DC/DC
-F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
-$ENDCMP
-#
 $CMP GL2576-5.0TA5R
 D 5V 3A, 52KHz Step Down Converter, TO263-5 (D2-PAK)
 K 5V 3A 52KHz Buck DC/DC
@@ -350,12 +326,6 @@ $ENDCMP
 #
 $CMP GL2576-ASF8DR
 D Adjustable 3A, 52KHz Step Down Converter, SO-8
-K Adjustable 3A 52KHz Buck DC/DC
-F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
-$ENDCMP
-#
-$CMP GL2576-ATA5PR
-D Adjustable 3A, 52KHz Step Down Converter, TD2P-5
 K Adjustable 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
@@ -384,75 +354,141 @@ K Switching LED driver
 F www.issi.com/WW/pdf/31LT3360.pdf
 $ENDCMP
 #
-$CMP ISL8117
-D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v output
+$CMP ISL8117FRZ
+D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v output, QFN-16
+K PWM step down buck converter controller synchronous POL
+F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
+$ENDCMP
+#
+$CMP ISL8117FVEZ
+D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v output, HTSSOP-16
 K PWM step down buck converter controller synchronous POL
 F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
 $ENDCMP
 #
 $CMP L5973D
-D 2.5A step down switching regulator
+D 2.5A step down switching regulator, HSOP-8
 K step down buck regulator
 F http://www.st.com/resource/en/datasheet/l5973d.pdf
 $ENDCMP
 #
-$CMP LM2574HVH-12
-D LM2574N, 12V, 0.5A Step-Down VR, High Votage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 500mA HV
+$CMP LM2574HVM-12
+D 12V, 0.5A Step-Down Voltage Regulator, High Voltage Input, SO-8
+K Step-Down Voltage Regulator 12V 500mA HV
 F http://www.ti.com/lit/ds/symlink/lm2574.pdf
 $ENDCMP
 #
-$CMP LM2574HVH-15
-D LM2574N, 15V, 0.5A Step-Down VR, High Votage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 15V 500mA HV
+$CMP LM2574HVM-15
+D 15V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, SO-8
+K Step-Down Voltage Regulator 15V 500mA HV
 F www.national.com/ds/LM/LM2574.pdf
 $ENDCMP
 #
-$CMP LM2574HVH-3.3
-D LM2574N, 3.3V, 0.5A Step-Down VR, High Votage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 500mA HV
+$CMP LM2574HVM-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, SO-8
+K Step-Down Voltage Regulator 3.3V 500mA HV
 F www.national.com/ds/LM/LM2574.pdf
 $ENDCMP
 #
-$CMP LM2574HVH-5
-D LM2574N, 5V, 0.5A Step-Down VR, High Votage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 500mA HV
+$CMP LM2574HVM-5
+D 5V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, SO-8
+K Step-Down Voltage Regulator 5V 500mA HV
 F www.national.com/ds/LM/LM2574.pdf
 $ENDCMP
 #
-$CMP LM2574HVH-ADJ
-D LM2574N, Adjustable Output, 0.5A Step-Down VR, High Votage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator Adjustable 500mA HV
+$CMP LM2574HVM-ADJ
+D Adjustable Output, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, SO-8
+K Step-Down Voltage Regulator Adjustable 500mA HV
+F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2574HVN-12
+D 12V, 0.5A Step-Down Voltage Regulator, High Voltage Input, DIP-8
+K Step-Down Voltage Regulator 12V 500mA HV
+F http://www.ti.com/lit/ds/symlink/lm2574.pdf
+$ENDCMP
+#
+$CMP LM2574HVN-15
+D 15V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, DIP-8
+K Step-Down Voltage Regulator 15V 500mA HV
+F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2574HVN-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, DIP-8
+K Step-Down Voltage Regulator 3.3V 500mA HV
+F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2574HVN-5
+D 5V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, DIP-8
+K Step-Down Voltage Regulator 5V 500mA HV
+F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2574HVN-ADJ
+D Adjustable Output, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, DIP-8
+K Step-Down Voltage Regulator Adjustable 500mA HV
+F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2574M-12
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 12V 500mA
+F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2574M-15
+D 15V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 15V 500mA
+F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2574M-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 3.3V 500mA
+F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2574M-5
+D 5V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 5V 500mA
+F www.national.com/ds/LM/LM2574.pdf
+$ENDCMP
+#
+$CMP LM2574M-ADJ
+D Adjustable Output, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator Adjustable 500mA
 F www.national.com/ds/LM/LM2574.pdf
 $ENDCMP
 #
 $CMP LM2574N-12
-D 12V, 0.5A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 500mA
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 12V 500mA
 F www.national.com/ds/LM/LM2574.pdf
 $ENDCMP
 #
 $CMP LM2574N-15
-D 15V, 0.5A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 15V 500mA
+D 15V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 15V 500mA
 F www.national.com/ds/LM/LM2574.pdf
 $ENDCMP
 #
 $CMP LM2574N-3.3
-D 3.3V, 0.5A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 500mA
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 3.3V 500mA
 F www.national.com/ds/LM/LM2574.pdf
 $ENDCMP
 #
 $CMP LM2574N-5
-D 5V, 0.5A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 500mA
+D 5V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 5V 500mA
 F www.national.com/ds/LM/LM2574.pdf
 $ENDCMP
 #
 $CMP LM2574N-ADJ
-D Adjustable Output, 0.5A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator Adjustable 500mA
+D Adjustable Output, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator Adjustable 500mA
 F www.national.com/ds/LM/LM2574.pdf
 $ENDCMP
 #
@@ -505,351 +541,369 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
 $ENDCMP
 #
 $CMP LM2576HVS-12
-D TO-263, 12V 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 3A High Voltage
+D 12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263
+K Step-Down Voltage Regulator 12V 3A High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576HVS-15
-D TO-263, 15V 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 15V 3A High Voltage
+D 15V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263
+K Step-Down Voltage Regulator 15V 3A High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576HVS-3.3
-D TO-263, 3.3V 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 3A High Voltage
+D 3.3V, 3A, SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263
+K Step-Down Voltage Regulator 3.3V 3A High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576HVS-5
-D TO-263, 5V 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 3A High Voltage
+D 5V 3A, SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263
+K Step-Down Voltage Regulator 5V 3A High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576HVS-ADJ
-D TO-263, Adjustable Output 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3A Adjustable High Voltage
+D Adjustable Output, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263
+K Step-Down Voltage Regulator 3A Adjustable High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576HVT-12
-D LM2576HVS, TO-220-5, 12V 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 3A High Voltage
+D 12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 12V 3A High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576HVT-15
-D LM2576HVS, TO-220-5, 15V 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 15V 3A High Voltage
+D 15V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 15V 3A High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576HVT-3.3
-D LM2576HVS, TO-220-5, 3.3V 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 3A High Voltage
+D 3.3V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 3.3V 3A High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576HVT-5
-D LM2576HVS, TO-220-5, 5V 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 3A High Voltage
+D 5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 5V 3A High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576HVT-ADJ
-D LM2576HVS, TO-220-5, Adjustable Output 3A Step-Down VR High Voltage Input
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3A Adjustable High Voltage
+D Adjustable Output, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 3A Adjustable High Voltage
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576S-12
-D TO-263, 12V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 3A
+D 12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-263
+K Step-Down Voltage Regulator 12V 3A
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576S-15
-D TO-263, 15V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 15V 3A
+D 15V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-263
+K Step-Down Voltage Regulator 15V 3A
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576S-3.3
-D TO-263, 3.3V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 3A
+D 3.3V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-263
+K Step-Down Voltage Regulator 3.3V 3A
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576S-5
-D TO-263, 5V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 3A
+D 5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-263
+K Step-Down Voltage Regulator 5V 3A
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576S-ADJ
-D TO-263, Adjustable Output 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3A Adjustable
+D Adjustable Output, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-263
+K Step-Down Voltage Regulator 3A Adjustable
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576T-12
-D LM2576S, TO-220-5, 12V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 3A
+D 12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 12V 3A
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576T-15
-D LM2576S, TO-220-5, 15V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 15V 3A
+D 15V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 15V 3A
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576T-3.3
-D LM2576S, TO-220-5, 3.3V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 3A
+D 3.3V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 3.3V 3A
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576T-5
-D LM2576S, TO-220-5, 5V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 3A
+D 5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 5V 3A
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
 $ENDCMP
 #
 $CMP LM2576T-ADJ
-D LM2576S, TO-220-5, Adjustable Output 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3A Adjustable
+D Adjustable Output, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 3A Adjustable
 F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2578
+D 750mA, Switching Regulator, adjustable output voltage, DIP-8/SOIC-8
+K switching regulator
+F http://www.ti.com/lit/ds/symlink/lm3578a.pdf
 $ENDCMP
 #
 $CMP LM2595S-12
-D 12V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 1A
-F www.national.com/ds/LM/LM2595.pdf
+D 12V, 1A Step-Down Voltage Regulator, TO-263-5
+K Step-Down Voltage Regulator 12V 1A
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf
 $ENDCMP
 #
 $CMP LM2595S-3.3
-D 3.3V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 1A
-F www.national.com/ds/LM/LM2595.pdf
+D 3.3V, 1A Step-Down Voltage Regulator, TO-263-5
+K Step-Down Voltage Regulator 3.3V 1A
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf
 $ENDCMP
 #
 $CMP LM2595S-5
-D 5V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 1A
-F www.national.com/ds/LM/LM2595.pdf
+D 5V, 1A Step-Down Voltage Regulator, TO-263-5
+K Step-Down Voltage Regulator 5V 1A
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf
 $ENDCMP
 #
 $CMP LM2595S-ADJ
-D Adjustable Output 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 1A Adjustable
-F www.national.com/ds/LM/LM2595.pdf
+D Adjustable Output 1A Step-Down Voltage Regulator, TO-263-5
+K Step-Down Voltage Regulator 1A Adjustable
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf
 $ENDCMP
 #
 $CMP LM2595T-12
-D LM2595M, 12V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 1A
-F www.national.com/ds/LM/LM2595.pdf
+D 12V, 1A Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 12V 1A
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf
 $ENDCMP
 #
 $CMP LM2595T-3.3
-D 3.3V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 1A
-F www.national.com/ds/LM/LM2595.pdf
+D 3.3V, 1A Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 3.3V 1A
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf
 $ENDCMP
 #
 $CMP LM2595T-5
-D 5V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 1A
-F www.national.com/ds/LM/LM2595.pdf
+D 5V, 1A Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 5V 1A
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf
 $ENDCMP
 #
 $CMP LM2595T-ADJ
-D Adjustable Output 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 1A Adjustable
-F www.national.com/ds/LM/LM2595.pdf
+D Adjustable Output 1A Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 1A Adjustable
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf
 $ENDCMP
 #
 $CMP LM2596S-12
-D TO-263, 12V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 3A
-F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+D 12V 3A Step-Down Voltage Regulator, TO-263
+K Step-Down Voltage Regulator 12V 3A
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
 $CMP LM2596S-3.3
-D TO-263, 3.3V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 3A
-F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+D 3.3V 3A Step-Down Voltage Regulator, TO-263
+K Step-Down Voltage Regulator 3.3V 3A
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
 $CMP LM2596S-5
-D TO-263, 5V 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 3A
-F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+D 5V 3A Step-Down Voltage Regulator, TO-263
+K Step-Down Voltage Regulator 5V 3A
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
 $CMP LM2596S-ADJ
-D TO-263, Adjustable 3A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator Adjustable 3A
-F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+D Adjustable 3A Step-Down Voltage Regulator, TO-263
+K Step-Down Voltage Regulator Adjustable 3A
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
 $CMP LM2596T-12
-D TO220-5, 12V 3A 150kHz Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 3A
-F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+D 12V 3A 150kHz Step-Down Voltage Regulator, TO-220
+K Step-Down Voltage Regulator 12V 3A
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
 $CMP LM2596T-3.3
-D TO220-5, 3.3V 3A 150kHz Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 3A
-F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+D 3.3V 3A 150kHz Step-Down Voltage Regulator, TO-220
+K Step-Down Voltage Regulator 3.3V 3A
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
 $CMP LM2596T-5
-D TO220-5, 5V 3A 150kHz Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 3A
-F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+D 5V 3A 150kHz Step-Down Voltage Regulator, TO-220
+K Step-Down Voltage Regulator 5V 3A
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
 $CMP LM2596T-ADJ
-D TO220-5, Adjustable 3A 150kHz Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator Adjustable 3A
-F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+D Adjustable 3A 150kHz Step-Down Voltage Regulator, TO-220
+K Step-Down Voltage Regulator Adjustable 3A
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
 $CMP LM2672M-12
-D 12V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 1A
-F www.national.com/ds/LM/LM2672.pdf
+D 12V, 1A Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 12V 1A
+F http://www.ti.com/lit/ds/symlink/lm2672.pdf
 $ENDCMP
 #
 $CMP LM2672M-3.3
-D 3.3V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 1A
-F www.national.com/ds/LM/LM2672.pdf
+D 3.3V, 1A Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 3.3V 1A
+F http://www.ti.com/lit/ds/symlink/lm2672.pdf
+$ENDCMP
+#
+$CMP LM2672M-5.0
+D 5V, 1A Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 5V 1A
+F http://www.ti.com/lit/ds/symlink/lm2672.pdf
 $ENDCMP
 #
 $CMP LM2672M-ADJ
-D Adjustable Output, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator
-F www.national.com/ds/LM/LM2672.pdf
+D Adjustable Output, 1A Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2672.pdf
 $ENDCMP
 #
 $CMP LM2672N-12
-D 12V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 1A
-F www.national.com/ds/LM/LM2672.pdf
+D 12V, 1A Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 12V 1A
+F http://www.ti.com/lit/ds/symlink/lm2672.pdf
 $ENDCMP
 #
 $CMP LM2672N-3.3
-D 3.3V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 1A
-F www.national.com/ds/LM/LM2672.pdf
+D 3.3V, 1A Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 3.3V 1A
+F http://www.ti.com/lit/ds/symlink/lm2672.pdf
+$ENDCMP
+#
+$CMP LM2672N-5.0
+D 5V, 1A Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 5V 1A
+F http://www.ti.com/lit/ds/symlink/lm2672.pdf
 $ENDCMP
 #
 $CMP LM2672N-ADJ
-D Adjustable Output, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator
-F www.national.com/ds/LM/LM2672.pdf
+D Adjustable Output, 1A Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2672.pdf
 $ENDCMP
 #
 $CMP LM2674M-12
-D 12V, 500 mA Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 500mA
-F www.national.com/ds/LM/LM2674.pdf
+D 12V, 500 mA Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 12V 500mA
+F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674M-3.3
-D 3.3V, 500 mA Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator
-F www.national.com/ds/LM/LM2674.pdf
+D 3.3V, 500 mA Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674M-5.0
-D 5V, 500 mA Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator
-F www.national.com/ds/LM/LM2674.pdf
+D 5V, 500 mA Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674M-ADJ
-D Adjustable Output, 500 mA Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator
-F www.national.com/ds/LM/LM2674.pdf
+D Adjustable Output, 500 mA Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-12
-D LM2674M, 12V, 500 mA Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 500mA
-F www.national.com/ds/LM/LM2674.pdf
+D 12V, 500 mA Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 12V 500mA
+F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-3.3
-D LM2674M, 3.3V, 500 mA Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator
-F www.national.com/ds/LM/LM2674.pdf
+D 3.3V, 500 mA Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-5.0
-D LM2674M, 5V, 500 mA Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator
-F www.national.com/ds/LM/LM2674.pdf
+D 5V, 500 mA Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-ADJ
-D LM2674M, Adjustable Output, 500 mA Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator
-F www.national.com/ds/LM/LM2674.pdf
+D Adjustable Output, 500 mA Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2675M-12
-D 12V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 1A
-F www.national.com/ds/LM/LM2675.pdf
+D 12V, 1A Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 12V 1A
+F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
 $CMP LM2675M-3.3
-D 3.3V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 1A
-F www.national.com/ds/LM/LM2675.pdf
+D 3.3V, 1A Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 3.3V 1A
+F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
 $CMP LM2675M-5
-D 5V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 1A
-F www.national.com/ds/LM/LM2675.pdf
+D 5V, 1A Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator 5V 1A
+F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
 $CMP LM2675M-ADJ
-D Adjustable Output, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator Adjustable
-F www.national.com/ds/LM/LM2675.pdf
+D Adjustable Output, 1A Step-Down Voltage Regulator, SO-8
+K Step-Down Voltage Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
 $CMP LM2675N-12
-D LM2675M, 12V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 12V 1A
-F www.national.com/ds/LM/LM2675.pdf
+D 12V, 1A Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 12V 1A
+F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
 $CMP LM2675N-3.3
-D LM2675M, 3.3V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 3.3V 1A
-F www.national.com/ds/LM/LM2675.pdf
+D 3.3V, 1A Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 3.3V 1A
+F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
 $CMP LM2675N-5
-D LM2675M, 5V, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator 5V 1A
-F www.national.com/ds/LM/LM2675.pdf
+D 5V, 1A Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator 5V 1A
+F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
 $CMP LM2675N-ADJ
-D LM2675M, Adjustable Output, 1A Step-Down VR
-K SIMPLE SWITCHER® Step-Down Voltage Regulator Adjustable
-F www.national.com/ds/LM/LM2675.pdf
+D Adjustable Output, 1A Step-Down Voltage Regulator, DIP-8
+K Step-Down Voltage Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
 $CMP LM27313XMF
@@ -882,8 +936,14 @@ K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2733.pdf
 $ENDCMP
 #
-$CMP LM2734
-D Thin SOT 1-A Load Step-Down DC-DC Regulator
+$CMP LM2734X
+D 1A Step-Down DC-DC Regulator, Adjustable Output Voltage, 1.6MHz, TSOT-23-5
+K Miniature Step-Down Buck Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2734.pdf
+$ENDCMP
+#
+$CMP LM2734Y
+D 1A Step-Down DC-DC Regulator, Adjustable Output Voltage, 550kHz, TSOT-23-5
 K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2734.pdf
 $ENDCMP
@@ -901,7 +961,7 @@ F http://www.ti.com/lit/ds/symlink/lm2776.pdf
 $ENDCMP
 #
 $CMP LM27761
-D low-noise regulated switched-capacitor voltage inverter with 2.7V-5.5V input to -1.5 to -5V output
+D low-noise regulated switched-capacitor voltage inverter with 2.7V-5.5V input to -1.5 to -5V output, WSON-8
 K low-noise switched capacitor voltage converter invert
 F http://www.ti.com/lit/ds/symlink/lm27761.pdf
 $ENDCMP
@@ -913,91 +973,91 @@ F http://www.ti.com/lit/ds/symlink/lm27762.pdf
 $ENDCMP
 #
 $CMP LM3407MY
-D LED Lighting CC Floating Buck Switching Regulator, eMSOP-8
+D LED Lighting CC Floating Buck Switching Regulator, MSOP-8
 K LED Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm3407.pdf
 $ENDCMP
 #
 $CMP LM3578
-D Switching Regulator (adjustable)
-K POWER REGUL
-F regulator\lm1578a.pdf
+D 750mA, Switching Regulator, adjustable output voltage, DIP-8/SOIC-8
+K switching regulator
+F http://www.ti.com/lit/ds/symlink/lm3578a.pdf
 $ENDCMP
 #
 $CMP LM3670MF
-D Miniature Step-Down DC-DC Converter, 2.5V < Vin < 5.5V
+D Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5
 K DC-DC buck conveter step down voltage regulator
-F www.ti.com/lit/ds/symlink/lm3670.pdf
+F http://www.ti.com/lit/ds/symlink/lm3670.pdf
 $ENDCMP
 #
 $CMP LM5006MM
-D 600 mA, 80V Constant On-Time Buck Switching Regulator
+D 600 mA, 80V Constant On-Time Buck Switching Regulator, MSOP-10
 K Constant On-Time Buck Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5006.pdf
 $ENDCMP
 #
 $CMP LM5007MM
-D 700 mA, 80V Step-Down Switching Regulator
+D 700 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
 K Step-Down Switching Regulator
-F www.national.com/ds/LM/LM5007.pdf
+F http://www.ti.com/lit/ds/symlink/lm5007.pdf
 $ENDCMP
 #
 $CMP LM5007SD
-D 700 mA, 80V Step-Down Switching Regulator
+D 700 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
 K Step-Down Switching Regulator
-F www.national.com/ds/LM/LM5007.pdf
+F http://www.ti.com/lit/ds/symlink/lm5007.pdf
 $ENDCMP
 #
 $CMP LM5008MM
-D 500 mA, 100V Step-Down Switching Regulator
+D 500 mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
 K Step-Down Switching Regulator
-F www.national.com/ds/LM/LM5008.pdf
+F http://www.ti.com/lit/ds/symlink/lm5008.pdf
 $ENDCMP
 #
 $CMP LM5008SD
-D 500 mA, 100V Step-Down Switching Regulator
+D 500 mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
 K Step-Down Switching Regulator
-F www.national.com/ds/LM/LM5008.pdf
-$ENDCMP
-#
-$CMP LM5008SDC
-D 500 mA, 100V Step-Down Switching Regulator
-K Step-Down Switching Regulator
-F www.national.com/ds/LM/LM5008.pdf
+F http://www.ti.com/lit/ds/symlink/lm5008.pdf
 $ENDCMP
 #
 $CMP LM5009MM
-D 150 mA, 100V Step-Down Switching Regulator
+D 150 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
 K Step-Down Switching Regulator
-F www.national.com/ds/LM/LM5009.pdf
+F http://www.ti.com/lit/ds/symlink/lm5009.pdf
+$ENDCMP
+#
+$CMP LM5009SD
+D 500 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
+K Step-Down Switching Regulator
+F http://www.ti.com/lit/ds/symlink/lm5009.pdf
 $ENDCMP
 #
 $CMP LM5017MR
-D 600 mA, 100V Step-Down Switching Regulator
+D 600 mA, 100V Step-Down Switching Regulator, PowerSO-8
 K Step-Down Switching Regulator High Voltage
-F http://www.national.com/ds/LM/LM5017.pdf
+F http://www.ti.com/lit/ds/symlink/lm5017.pdf
 $ENDCMP
 #
 $CMP LM5017SD
-D 600 mA, 100V Step-Down Switching Regulator
-K Step-Down Switching Regulator High Voltage High Frequency
-F http://www.national.com/ds/LM/LM5017.pdf
+D 600 mA, 100V Step-Down Switching Regulator, WSON-8
+K Step-Down Switching Regulator High Voltage
+F http://www.ti.com/lit/ds/symlink/lm5017.pdf
 $ENDCMP
 #
 $CMP LM5165
-D 150mA Step-Down Conveter, 3V-65V input, adjustable output voltage, DFN10 package
+D 150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10
 K step-down dc-dc buck regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lm5165.pdf
 $ENDCMP
 #
 $CMP LM5165X
-D 150mA Step-Down Conveter, 3V-65V input, 5.0V fixed output voltage, DFN10 package
+D 150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 5.0V fixed output voltage, DFN-10
 K step-down dc-dc buck regulator fixed 5V
 F http://www.ti.com/lit/ds/symlink/lm5165.pdf
 $ENDCMP
 #
 $CMP LM5165Y
-D 150mA Step-Down Conveter, 3V-65V input, 3.3V fixed output voltage, DFN10 package
+D 150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 3.3V fixed output voltage, DFN-10
 K step-down dc-dc buck regulator fixed 3V3
 F http://www.ti.com/lit/ds/symlink/lm5165.pdf
 $ENDCMP
@@ -1021,7 +1081,7 @@ F http://www.ti.com/lit/ds/symlink/lmr10510.pdf
 $ENDCMP
 #
 $CMP LMR10510YSD
-D LM10510, 1A, 5.5V Step-Down Voltage Regulator, 3MHz Frequency
+D 1A, 5.5V Step-Down Voltage Regulator, 3MHz Frequency, WSON-6
 K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr10510.pdf
 $ENDCMP
@@ -1057,13 +1117,13 @@ F http://www.ti.com/lit/ds/symlink/lmr62421.pdf
 $ENDCMP
 #
 $CMP LMR62421XSD
-D 2.1A, 24Vout Step-Up Voltage Regulator, 1.6MHz Frequency
+D 2.1A, 24Vout Step-Up Voltage Regulator, 1.6MHz Frequency, WSON-6
 K Miniature Step-Up Boost SEPIC Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr62421.pdf
 $ENDCMP
 #
 $CMP LMR64010XMF
-D LM64010, 1A, 40Vout Step-Up Voltage Regulator, 1.6MHz Frequency, SOT-23-5
+D 1A, 40Vout Step-Up Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr64010.pdf
 $ENDCMP
