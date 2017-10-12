@@ -95,6 +95,12 @@ K MCU
 F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68B09S.pdf
 $ENDCMP
 #
+$CMP MC68332
+D MCU 32 bit, PQFP-132
+K MCU 32 bit
+F http://pdf.datasheetcatalog.com/datasheet/motorola/SPAKMC332AVFC20.pdf
+$ENDCMP
+#
 $CMP MC6840
 D Peripheral Interface Adapter 1MHz, DIP-40
 K PIA
@@ -254,8 +260,16 @@ D Freescale PowerPC E600 core, package BGA1023 pins pitch 1mm
 K POWERPC
 $ENDCMP
 #
+$CMP P4080
+D QorIQ P4080 Communications Processor, BGA-1295
+K Communications Processor
+F https://www.nxp.com/jp/products/microcontrollers-and-processors/power-architecture-processors/qoriq-platforms/p-series/qoriq-p4080-p4040-p4081-multicore-communications-processors:P4080?&tab=Documentation_Tab&linkline=Data-Sheet
+$ENDCMP
+#
 $CMP P4080-BGA1295
-D QorIQ P4080 Communications Processor
+D QorIQ P4080 Communications Processor, BGA-1295
+K Communications Processor
+F https://www.nxp.com/jp/products/microcontrollers-and-processors/power-architecture-processors/qoriq-platforms/p-series/qoriq-p4080-p4040-p4081-multicore-communications-processors:P4080?&tab=Documentation_Tab&linkline=Data-Sheet
 $ENDCMP
 #
 #End Doc Library
