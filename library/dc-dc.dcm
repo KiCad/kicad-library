@@ -978,26 +978,26 @@ K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
 $ENDCMP
 #
-$CMP LM2841X
-D 300mA 42V Input Step-Down DC-DC Regulator, Adjustable Output Voltage, 550kHz, TSOT-23-5
-K Miniature Step-Down Buck Voltage Regulator
-F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
-$ENDCMP
-#
-$CMP LM2842X
-D 600mA 42V Input Step-Down DC-DC Regulator, Adjustable Output Voltage, 550kHz, TSOT-23-5
-K Miniature Step-Down Buck Voltage Regulator
-F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
-$ENDCMP
-#
 $CMP LM2840Y
 D 100mA 42V Input Step-Down DC-DC Regulator, Adjustable Output Voltage, 1.25MHz, TSOT-23-5
 K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
 $ENDCMP
 #
+$CMP LM2841X
+D 300mA 42V Input Step-Down DC-DC Regulator, Adjustable Output Voltage, 550kHz, TSOT-23-5
+K Miniature Step-Down Buck Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
+$ENDCMP
+#
 $CMP LM2841Y
 D 300mA 42V Input Step-Down DC-DC Regulator, Adjustable Output Voltage, 1.25MHz, TSOT-23-5
+K Miniature Step-Down Buck Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
+$ENDCMP
+#
+$CMP LM2842X
+D 600mA 42V Input Step-Down DC-DC Regulator, Adjustable Output Voltage, 550kHz, TSOT-23-5
 K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
 $ENDCMP
@@ -1182,8 +1182,38 @@ K monolithic bipolar switched capacitor voltage converter regulator inverter dou
 F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
 $ENDCMP
 #
-$CMP LT1073
-D Micropower DC/DC Converter Adjustable and Fixed 5V, 12V
+$CMP LT1073CN
+D Micropower DC/DC Converter Adjustable Output Voltage, DIP-8
+K Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+$ENDCMP
+#
+$CMP LT1073CN-12
+D Micropower DC/DC Converter, Fixed 12V Output Voltage, DIP-8
+K Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+$ENDCMP
+#
+$CMP LT1073CN-5
+D Micropower DC/DC Converter, Fixed 5V Output Voltage, DIP-8
+K Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+$ENDCMP
+#
+$CMP LT1073CS
+D Micropower DC/DC Converter Adjustable Output Voltage, SO-8
+K Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+$ENDCMP
+#
+$CMP LT1073CS-12
+D Micropower DC/DC Converter, Fixed 12V Output Voltage, SO-8
+K Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+$ENDCMP
+#
+$CMP LT1073CS-5
+D Micropower DC/DC Converter, Fixed 5V Output Voltage, SO-s8
 K Micropower DC/DC Converter
 F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
 $ENDCMP
