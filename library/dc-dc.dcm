@@ -1278,6 +1278,18 @@ K switching buck boost converter step-down step-up
 F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
 $ENDCMP
 #
+$CMP LT1307
+D Single Cell Micropower 600kHz PWM DC/DC Converter, 50µA Quiescent Current, MSOP-8/DIP-8/SO-8
+K Micropower PWM DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+$ENDCMP
+#
+$CMP LT1307B
+D Single Cell Micropower 600kHz PWM DC/DC Converter, 10µA Quiescent Current, MSOP-8/DIP-8/SO-8
+K Micropower PWM DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+$ENDCMP
+#
 $CMP LT1372CN8
 D 1.5A High Efficiency Switching Regulators, 500kHz, 35V Switch Voltage, Adjustable Output Voltage, SIP-8
 K Switching Regulator Adjustable
@@ -1444,11 +1456,6 @@ $CMP LTC1044
 D Switched Capacitor Voltage Converter, 1.5V to 9V supply operation, 200uA Max No Load Supply Current at 5V, DIP-8/TO-99
 K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
 F http://cds.linear.com/docs/en/datasheet/lt1044.pdf
-$ENDCMP
-#
-$CMP LTC1307
-D Switching Regulator (Single cell micropower)
-K POWER
 $ENDCMP
 #
 $CMP LTC1436A
