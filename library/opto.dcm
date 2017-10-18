@@ -114,6 +114,12 @@ K MOSFET Driver IGBT Driver Optocoupler
 F http://www.avagotech.com/docs/AV02-2928EN
 $ENDCMP
 #
+$CMP APDS-9301
+D ambient light sensor, i2c interface, 2.7-3.6V
+K ambient light sensor i2c
+F https://docs.broadcom.com/docs/AV02-2315EN
+$ENDCMP
+#
 $CMP ASMT-YTC2-0AA02
 D Triple LED RVB (Avago Technology)
 K LED RGB
@@ -430,6 +436,12 @@ $CMP LPT80A
 D NPN phototransistor
 K NPN phototransistor
 F http://www.osram-os.com/Graphics/XPic4/00209607_0.pdf/LPT%2080A.pdf
+$ENDCMP
+#
+$CMP LTR-303ALS-01
+D ambient light sensor, i2c interface, 0.01 to 64k lux, 2.4-3.6V
+K ambient light sensor i2c
+F http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
 $ENDCMP
 #
 $CMP LTV-352T
@@ -1438,6 +1450,12 @@ $CMP TSOP345xx
 D IR Receiver Modules for Remote Control Systems
 K opto IR receiver
 F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP348xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F https://www.vishay.com/docs/82489/tsop322.pdf
 $ENDCMP
 #
 $CMP TSOP34S40F
