@@ -616,6 +616,12 @@ D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
 $ENDCMP
 #
+$CMP M95256-WMN6P
+D SPI EEPROM, 256Kbit (32KB), No identification page, 2.5 to 5.5V, SO8
+K SPI EEPROM
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/9d/75/f0/3e/76/00/4c/0b/CD00103810.pdf/files/CD00103810.pdf/jcr:content/translations/en.CD00103810.pdf
+$ENDCMP
+#
 $CMP MB85RS16
 D FRAM memory (EEPROM compatible) with SPI interface in 8-pin package
 K FRAM, SPI
