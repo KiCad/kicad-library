@@ -1758,8 +1758,26 @@ K switching regulator boost step-up dc-dc
 F https://kanga.gerbilator.org/ICs/MAX777.pdf
 $ENDCMP
 #
+$CMP MC33063AD
+D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8
+K smps buck boost inverting
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MC33063AP
+D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, DIP-8
+K smps buck boost inverting
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MC33063MNTXG
+D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, DFN-8
+K smps buck boost inverting
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
 $CMP MC34063
-D 1.5A step up/down/inverting switching regulator
+D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8
 K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
@@ -1894,6 +1912,12 @@ $CMP MIC4690
 D 500kHz 1A SuperSwitcher™ Buck Regulator
 K regulator switching
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
+$ENDCMP
+#
+$CMP NCV33063AVD
+D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8
+K smps buck boost inverting
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
 $CMP NID60
@@ -2140,6 +2164,18 @@ $CMP R-78E9.0-0.5
 D 500mA step-down regulator, 12-28V input, 9V fixed output, replacement for LMxx linear regulators, -40°C to +85°C, TO-220 compatible package
 K dc-dc recom buck
 F https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+$ENDCMP
+#
+$CMP SC33063AD
+D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8
+K smps buck boost inverting
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP SC34063AP
+D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, DIP-8
+K smps buck boost inverting
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
 $CMP ST1CC40PHR
