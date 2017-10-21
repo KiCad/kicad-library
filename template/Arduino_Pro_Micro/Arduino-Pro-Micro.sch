@@ -31,7 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Arduino-Pro-Micro-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -192,7 +191,7 @@ F 3 "" H 10650 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9450 1250 9450 2450
-Text Notes 9200 650  0    60   ~ 0
+Text Notes 9250 650  0    60   ~ 0
 Shield Arduino Pro Micro
 Wire Notes Line
 	9100 500  9100 2700
