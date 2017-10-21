@@ -1740,10 +1740,22 @@ K Adjustable 1A Step-Down Converter 76V
 F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
 $ENDCMP
 #
-$CMP MAX777
-D Low voltage input, step-up, DC-DC converter
+$CMP MAX777L
+D 210mA, Low voltage input, step-up DC-DC converter, 5V output voltage, DIP-8/SO-8
 K switching regulator boost step-up dc-dc
-F http://www.ret.hu/DataSheets/38_ANALOG_IC/MAX_062/MAX777L_778L_779L.pdf
+F https://kanga.gerbilator.org/ICs/MAX777.pdf
+$ENDCMP
+#
+$CMP MAX778L
+D 210mA, Low voltage input, step-up DC-DC converter, 3V/3.3V output voltage, DIP-8/SO-8
+K switching regulator boost step-up dc-dc
+F https://kanga.gerbilator.org/ICs/MAX777.pdf
+$ENDCMP
+#
+$CMP MAX779L
+D 210mA, Low voltage input, step-up DC-DC converter, adjustable output voltage, DIP-8/SO-8
+K switching regulator boost step-up dc-dc
+F https://kanga.gerbilator.org/ICs/MAX777.pdf
 $ENDCMP
 #
 $CMP MC34063
