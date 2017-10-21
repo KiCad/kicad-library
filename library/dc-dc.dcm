@@ -2550,10 +2550,16 @@ K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
-$CMP ST1CC40PHR
-D DC/DC Buck CC Converter for LED's, Vin 18V, 3A, Power SO-8  (Preliminary)
+$CMP ST1CC40DR
+D 3A monolithic step-down current source with synchronous rectification, 3-18V Input Voltage, 850kHz, SO-8
 K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
-F http://www.ti.com/lit/ds/symlink/lm2574.pdf
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/71/e8/26/3c/c8/cc/46/e6/CD00292360/files/CD00292360.pdf/jcr:content/translations/en.CD00292360.pdf
+$ENDCMP
+#
+$CMP ST1CC40PUR
+D 3A monolithic step-down current source with synchronous rectification, 3-18V Input Voltage, 850kHz, DFN-8
+K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/71/e8/26/3c/c8/cc/46/e6/CD00292360/files/CD00292360.pdf/jcr:content/translations/en.CD00292360.pdf
 $ENDCMP
 #
 $CMP ST1S10PHR
