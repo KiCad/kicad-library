@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADG417BN
+D Single SPST Monolithic Quad LC²MOS Analog Switches, normally OFF, 25Ohm Ron, DIP-8
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf
+$ENDCMP
+#
+$CMP ADG417BR
+D Single SPST Monolithic Quad LC²MOS Analog Switches, normally OFF, 25Ohm Ron, SOIC-8
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf
+$ENDCMP
+#
+$CMP ADG419BN
+D Single SPDT Monolithic Quad LC²MOS Analog Switches, 25Ohm Ron, DIP-8
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf
+$ENDCMP
+#
+$CMP ADG419BR
+D Single SPDT Monolithic Quad LC²MOS Analog Switches, 25Ohm Ron, SOIC-8
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf
+$ENDCMP
+#
+$CMP ADG419BRM
+D Single SPDT Monolithic Quad LC²MOS Analog Switches, 25Ohm Ron, MSOP-8
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf
+$ENDCMP
+#
 $CMP ADG728
 D Single 8-to-1 CMOS Low Voltage 2-Wire Serially Controlled, Matrix Switches
 K analog switch selector multiplexer TWI I2C IIC 8-to-1
@@ -90,22 +120,40 @@ K CMOS Analog Switche
 F https://datasheets.maximintegrated.com/en/ds/DG411-DG413.pdf
 $ENDCMP
 #
-$CMP DG417
-D Analog Switch ( 8pins)
-K SWITCH
-F analog_mux&switches/DG417-DG419.pdf
+$CMP DG417xJ
+D Single SPST Monolithic Quad CMOS Analog Switches, normally ON, 20Ohm Ron, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
-$CMP DG418
-D Analog Switch ( 8pins)
-K SWITCH
-F analog_mux&switches/DG417-DG419.pdf
+$CMP DG417xY
+D Single SPST Monolithic Quad CMOS Analog Switches, normally ON, 20Ohm Ron, SOIC-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
-$CMP DG419
-D Analog Switch ( 8pins)
-K SWITCH
-F analog_mux&switches/DG417-DG419.pdf
+$CMP DG418xJ
+D Single SPST Monolithic Quad CMOS Analog Switches, normally OFF, 20Ohm Ron, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG418xY
+D Single SPST Monolithic Quad CMOS Analog Switches, normally OFF, 20Ohm Ron, SOIC-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG419xJ
+D Single SPDT Monolithic Quad CMOS Analog Switches, 20Ohm Ron, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG419xY
+D Single SPDT Monolithic Quad CMOS Analog Switches, 20Ohm Ron, SOIC-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
 $CMP DG441xJ
@@ -154,6 +202,42 @@ $CMP LCC110
 D opto mos 1 control, 2 switches A/B
 K SWITCH OPTO
 F opto/lcc110.pdf
+$ENDCMP
+#
+$CMP MAX317xPA
+D Single SPST Monolithic Quad CMOS Analog Switches, normally ON, 20Ohm Ron, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX317-MAX319.pdf
+$ENDCMP
+#
+$CMP MAX317xSA
+D Single SPST Monolithic Quad CMOS Analog Switches, normally ON, 20Ohm Ron, SOIC-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX317-MAX319.pdf
+$ENDCMP
+#
+$CMP MAX318xPA
+D Single SPST Monolithic Quad CMOS Analog Switches, normally OFF, 20Ohm Ron, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX317-MAX319.pdf
+$ENDCMP
+#
+$CMP MAX318xSA
+D Single SPST Monolithic Quad CMOS Analog Switches, normally OFF, 20Ohm Ron, SOIC-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX317-MAX319.pdf
+$ENDCMP
+#
+$CMP MAX319xPA
+D Single SPDT Monolithic Quad CMOS Analog Switches, 20Ohm Ron, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX317-MAX319.pdf
+$ENDCMP
+#
+$CMP MAX319xSA
+D Single SPDT Monolithic Quad CMOS Analog Switches, 20Ohm Ron, SOIC-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX317-MAX319.pdf
 $ENDCMP
 #
 $CMP NC7SB3157
