@@ -288,10 +288,16 @@ K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG441-DG442.pdf
 $ENDCMP
 #
-$CMP DG9421
-D Analog Switch ( 6pins TSOP)
+$CMP DG9421DV
+D Single SPST Precision Low-Voltage, Low-Glitch CMOS Analog Switch, normally ON, 2Ohm Ron, TSOP-6
 K CMOS Analog Switch
-F analog_mux&switches/dg9421-22.pdf
+F https://www.vishay.com/docs/70679/dg9421.pdf
+$ENDCMP
+#
+$CMP DG9422DV
+D Single SPST Precision Low-Voltage, Low-Glitch CMOS Analog Switch, normally OFF, 2Ohm Ron, TSOP-6
+K CMOS Analog Switch
+F https://www.vishay.com/docs/70679/dg9421.pdf
 $ENDCMP
 #
 $CMP LAA110
