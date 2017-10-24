@@ -42,26 +42,26 @@ K analog switch selector multiplexer TWI I2C IIC 4-to-1
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG728_729.pdf
 $ENDCMP
 #
-$CMP DG308xJ
-D Quad SPST Analog Switches, normally ON, 60Ohm Ron, DIP-16
-K CMOS Analog Switch
-F http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf
-$ENDCMP
-#
-$CMP DG308xY
-D Quad SPST Analog Switches, normally ON, 60Ohm Ron, SOIC-16
-K CMOS Analog Switch
-F http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf
-$ENDCMP
-#
-$CMP DG309xJ
+$CMP DG308AxJ
 D Quad SPST Analog Switches, normally OFF, 60Ohm Ron, DIP-16
 K CMOS Analog Switch
 F http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf
 $ENDCMP
 #
-$CMP DG309xY
+$CMP DG308AxY
 D Quad SPST Analog Switches, normally OFF, 60Ohm Ron, SOIC-16
+K CMOS Analog Switch
+F http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf
+$ENDCMP
+#
+$CMP DG309xJ
+D Quad SPST Analog Switches, normally ON, 60Ohm Ron, DIP-16
+K CMOS Analog Switch
+F http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf
+$ENDCMP
+#
+$CMP DG309xY
+D Quad SPST Analog Switches, normally ON, 60Ohm Ron, SOIC-16
 K CMOS Analog Switch
 F http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf
 $ENDCMP
@@ -121,19 +121,37 @@ F https://datasheets.maximintegrated.com/en/ds/DG411-DG413.pdf
 $ENDCMP
 #
 $CMP DG417LDJ
-D Single SPST 3V Logic Compatible CMOS Analog Switch, normally ON, 35Ohm Ron, DIP-8
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally ON, 35Ohm Ron, with Vlogic, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417L-DG419L.pdf
+$ENDCMP
+#
+$CMP DG417LDJ_Maxim
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally ON, 35Ohm Ron, Maxim-variant without Vlogic, DIP-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG417L-DG419L.pdf
 $ENDCMP
 #
 $CMP DG417LDY
-D Single SPST 3V Logic Compatible CMOS Analog Switch, normally ON, 20Ohm Ron, SOIC-8
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally ON, 20Ohm Ron, with Vlogic, SOIC-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG417LDY_Maxim
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally ON, 20Ohm Ron, Maxim-variant without Vlogic, SOIC-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
 $CMP DG417LEUA
-D Single SPST 3V Logic Compatible CMOS Analog Switch, normally ON, 20Ohm Ron, MSOP-8
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally ON, 20Ohm Ron, with Vlogic, MSOP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG417LEUA_Maxim
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally ON, 20Ohm Ron, Maxim-variant without Vlogic, MSOP-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
@@ -151,19 +169,37 @@ F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
 $CMP DG418LDJ
-D Single SPST 3V Logic Compatible CMOS Analog Switch, normally OFF, 35Ohm Ron, DIP-8
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally OFF, 35Ohm Ron, with Vlogic, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG418LDJ_Maxim
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally OFF, 35Ohm Ron, Maxim-variant without Vlogic, DIP-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
 $CMP DG418LDY
-D Single SPST 3V Logic Compatible CMOS Analog Switch, normally OFF, 35Ohm Ron, SOIC-8
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally OFF, 35Ohm Ron, with Vlogic, SOIC-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG418LDY_Maxim
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally OFF, 35Ohm Ron, Maxim-variant without Vlogic, SOIC-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
 $CMP DG418LEUA
-D Single SPST 3V Logic Compatible CMOS Analog Switch, normally OFF, 35Ohm Ron, MSOP-8
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally OFF, 35Ohm Ron, with Vlogic, MSOP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG418LEUA_Maxim
+D Single SPST 3V Logic Compatible CMOS Analog Switch, normally OFF, 35Ohm Ron, Maxim-variant without Vlogic, MSOP-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
@@ -181,19 +217,37 @@ F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
 $CMP DG419LDJ
-D Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, DIP-8
+D Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, with Vlogic, DIP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG419LDJ_Maxim
+D Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, Maxim-variant without Vlogic, DIP-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
 $CMP DG419LDY
-D Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, SOIC-8
+D Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, with Vlogic, SOIC-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG419LDY_Maxim
+D Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, Maxim-variant without Vlogic, SOIC-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
 #
 $CMP DG419LEUA
-D Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, MSOP-8
+D Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, with Vlogic, MSOP-8
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
+$ENDCMP
+#
+$CMP DG419LEUA_Maxim
+D Single SPDT 3V Logic Compatible CMOS Analog Switch, 35Ohm Ron, Maxim-variant without Vlogic, MSOP-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/DG417-DG419.pdf
 $ENDCMP
