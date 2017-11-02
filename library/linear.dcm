@@ -432,16 +432,16 @@ K sample hold buffer unity gain
 F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
 $ENDCMP
 #
-$CMP LF398_SOIC8
-D Sample And Hold Unity Gain Follower, SOIC-8
-K sample hold buffer unity gain
-F http://cds.linear.com/docs/en/datasheet/lt0398s8.pdf
-$ENDCMP
-#
 $CMP LF398_SOIC14
 D Sample And Hold Unity Gain Follower, SOIC-14
 K sample hold buffer unity gain
 F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
+$ENDCMP
+#
+$CMP LF398_SOIC8
+D Sample And Hold Unity Gain Follower, SOIC-8
+K sample hold buffer unity gain
+F http://cds.linear.com/docs/en/datasheet/lt0398s8.pdf
 $ENDCMP
 #
 $CMP LH0002H
@@ -466,12 +466,6 @@ $CMP LM13700
 D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16
 K operational transconductance amplifier OTA
 F http://www.ti.com/lit/ds/symlink/lm13700.pdf
-$ENDCMP
-#
-$CMP LM193
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
 #
 $CMP LM201
@@ -502,12 +496,6 @@ $CMP LM2904
 D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/lm358.pdf
-$ENDCMP
-#
-$CMP LM293
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
 #
 $CMP LM301
@@ -546,14 +534,14 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm318-n.pdf
 $ENDCMP
 #
-$CMP LM319H
-D High Speed Dual Comparator, TO-100-10
+$CMP LM319
+D High Speed Dual Comparator, DIP-14/SOIC-14
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
 #
-$CMP LM319
-D High Speed Dual Comparator, DIP-14/SOIC-14
+$CMP LM319H
+D High Speed Dual Comparator, TO-100-10
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
@@ -630,8 +618,14 @@ K dual timer
 F http://www.ti.com/lit/ds/symlink/lm556.pdf
 $ENDCMP
 #
-$CMP LM6171
-D Single High Speed Low Power Low Distortion Voltage Feedback Amplifier, DIP-8/SOIC-8
+$CMP LM6171D
+D High Speed Low Power Low Distortion Voltage Feedback Amplifier, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm6171.pdf
+$ENDCMP
+#
+$CMP LM6171xxN
+D Single High Speed Low Power Low Distortion Voltage Feedback Amplifier, DIP-8
 K single opamp
 F http://www.ti.com/lit/ds/symlink/lm6171.pdf
 $ENDCMP
@@ -756,10 +750,28 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/lmv324.pdf
 $ENDCMP
 #
+$CMP LMV331
+D Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5
+K single comparator
+F http://www.ti.com/lit/ds/symlink/lmv331.pdf
+$ENDCMP
+#
+$CMP LMV339
+D Quad General-Purpose Low-Voltage Comparator, SOIC-14/TSSOP-14
+K quad comparator
+F http://www.ti.com/lit/ds/symlink/lmv331.pdf
+$ENDCMP
+#
 $CMP LMV358
 D Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8
 K single opamp
 F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+$CMP LMV393
+D Dual General-Purpose Low-Voltage Comparator, SOIC-8/TSSOP-8/VSSOP-8
+K dual comparator
+F http://www.ti.com/lit/ds/symlink/lmv331.pdf
 $ENDCMP
 #
 $CMP LMV601
@@ -820,6 +832,12 @@ $CMP LT6106
 D 36V Low Cost, High Side Current Sense, SOT-23-5
 K current sense
 F http://cds.linear.com/docs/en/datasheet/6106fb.pdf
+$ENDCMP
+#
+$CMP LT6233
+D Dual 60MHz, Rail-to-Rail Output, 1.9nV/√Hz, 1.2mA, Operational Amplifier, SOIC-8
+K dual opamp
+F http://cds.linear.com/docs/en/datasheet/623345fc.pdf
 $ENDCMP
 #
 $CMP LTC1100xN8
@@ -1008,8 +1026,8 @@ K quad opamp
 F https://www.onsemi.com/pub/Collateral/MC33178-D.PDF
 $ENDCMP
 #
-$CMP MCP6001
-D 1MHz, Low-Power Op Amp, SOT-23-5/SC-70-5
+$CMP MCP6001-OT
+D 1MHz, Low-Power Op Amp, SOT-23-5
 K single opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
@@ -1022,6 +1040,12 @@ $ENDCMP
 #
 $CMP MCP6001U
 D 1MHz, Low-Power Op Amp, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6001x-LT
+D 1 MHz, Low-Power Op Amp, SC-70-5
 K single opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
@@ -1122,9 +1146,9 @@ K quad opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
 $ENDCMP
 #
-$CMP MCP6561
-D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5/SC-70-5
-K dual comparator
+$CMP MCP6561-OT
+D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
+K single comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf
 $ENDCMP
 #
@@ -1137,6 +1161,12 @@ $ENDCMP
 $CMP MCP6561U
 D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
 K dual comparator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf
+$ENDCMP
+#
+$CMP MCP6561x-LT
+D 1.8V Low-Power Push-Pull Output Comparator, SC-70-5
+K single comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf
 $ENDCMP
 #
@@ -1248,14 +1278,14 @@ K Current shunt monitor
 F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
 $ENDCMP
 #
-$CMP NCV210
-D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
+$CMP NCS211
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6
 K Current shunt monitor
 F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
 $ENDCMP
 #
-$CMP NCS211
-D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6
+$CMP NCV210
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
 K Current shunt monitor
 F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
 $ENDCMP
@@ -1344,6 +1374,18 @@ K single opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
 $ENDCMP
 #
+$CMP OP179GRT
+D Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
+$ENDCMP
+#
+$CMP OP179GS
+D Single Rail-to-Rail High Output Current Operational Amplifiers, SOIC-8
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
+$ENDCMP
+#
 $CMP OP249
 D Precision JFET, High Speed, Dual Operational Amplifier, DIP-8
 K dual opamp
@@ -1360,6 +1402,12 @@ $CMP OP275
 D Dual Bipolar/JFET, Audio Operational Amplifier, DIP-8/SOIC-8
 K dual opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/OP275.pdf
+$ENDCMP
+#
+$CMP OP279
+D Dual Rail-to-Rail High Output Current Operational Amplifiers, SOIC-8/TSSOP-8
+K dual opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
 $ENDCMP
 #
 $CMP OP77
@@ -1422,12 +1470,6 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
-$CMP OPA2695xD
-D Dual, Ultra-Wideband, Current-Feedback Operational Amplifier with Disable, SOIC-8
-K dual opamp
-F http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf
-$ENDCMP
-#
 $CMP OPA2691
 D Dual Wideband, Current-Feedback Operational Amplifier, SOIC-8
 K dual current feedback opamp
@@ -1440,10 +1482,40 @@ K dual current feedback opamp
 F http://www.ti.com/lit/ds/sbos224d/sbos224d.pdf
 $ENDCMP
 #
+$CMP OPA2695xD
+D Dual, Ultra-Wideband, Current-Feedback Operational Amplifier with Disable, SOIC-8
+K dual opamp
+F http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf
+$ENDCMP
+#
 $CMP OPA2695xRGT
 D Dual, Ultra-Wideband, Current-Feedback Operational Amplifier with Disable, QFN-16
 K dual opamp
 F http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf
+$ENDCMP
+#
+$CMP OPA330xxD
+D 50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SOIC
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa330.pdf
+$ENDCMP
+#
+$CMP OPA330xxDBV
+D 50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SOT
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa330.pdf
+$ENDCMP
+#
+$CMP OPA330xxDCK
+D 50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SC70
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa330.pdf
+$ENDCMP
+#
+$CMP OPA330xxYFF
+D 50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, DSBGA
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa330.pdf
 $ENDCMP
 #
 $CMP OPA333xxD
@@ -1710,8 +1782,14 @@ K single timer
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
-$CMP TS881
-D Rail-to-rail 0.9 V nanopower comparator, SOT-23-5/SC-70-5
+$CMP TS881xCx
+D Rail-to-rail 0.9 V nanopower comparator, SC-70-5
+K single comparator
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/a2/60/3e/5d/b2/c1/4a/e9/DM00057901.pdf/files/DM00057901.pdf/jcr:content/translations/en.DM00057901.pdf
+$ENDCMP
+#
+$CMP TS881xLx
+D Rail-to-rail 0.9 V nanopower comparator, SOT-23-5
 K single comparator
 F www.st.com/resource/en/datasheet/ts881.pdf
 $ENDCMP
@@ -1728,13 +1806,13 @@ K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
 #
-$CMP TSV911ILT
+$CMP TSV911RILT
 D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
 K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
 #
-$CMP TSV911RILT
+$CMP TSV911xxLx
 D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
 K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
@@ -1792,6 +1870,30 @@ $CMP ZXCT1110
 D Low Power High-Side Current Monitors, SOT-23-5
 K High side current monitor shunt
 F https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf
+$ENDCMP
+#
+$CMP LTC1151CN8
+D Dual ±15V, Zero-Drift, Operational Amplifier, DIP-8
+K dual opamp
+F http://www.linear.com/docs/3482
+$ENDCMP
+#
+$CMP LTC1151CSW
+D Dual ±15V, Zero-Drift, Operational Amplifier, SOIC-16W
+K dual opamp
+F http://www.linear.com/docs/3482
+$ENDCMP
+#
+$CMP LTC1152
+D Rail-to-Rail Input, Rail-to-Rail Output, Zero-Drift Op Amp, DIP-8, SOIC-8
+K single opamp
+F http://www.linear.com/docs/2857
+$ENDCMP
+#
+$CMP AD8230
+D 16 V Rail-to-Rail, Zero-Drift, Precision Instrumentation Amplifier, SOIC-8
+K single instrumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8230.pdf
 $ENDCMP
 #
 #End Doc Library
