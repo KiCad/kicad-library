@@ -114,6 +114,12 @@ K MOSFET Driver IGBT Driver Optocoupler
 F http://www.avagotech.com/docs/AV02-2928EN
 $ENDCMP
 #
+$CMP APDS-9301
+D ambient light sensor, i2c interface, 2.7-3.6V
+K ambient light sensor i2c
+F https://docs.broadcom.com/docs/AV02-2315EN
+$ENDCMP
+#
 $CMP ASMT-YTC2-0AA02
 D Triple LED RVB (Avago Technology)
 K LED RGB
@@ -390,6 +396,24 @@ K opto photodiode RGB colour sensor
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-5130PD7C(Ver.15).pdf
 $ENDCMP
 #
+$CMP LAA110
+D Dual Single-Pole, Normally Open OptoMOS® Relay, DIP-8
+K Dual MOSFET Output Photorelay 1-Form-A
+F http://www.clare.com/home/pdfs.nsf/www/LAA110.pdf/$file/LAA110.pdf
+$ENDCMP
+#
+$CMP LBB110
+D Dual Single-Pole, Normally Closed OptoMOS® Relay, DIP-8
+K Dual MOSFET Output Photorelay 1-Form-B
+F http://www.ixysic.com/home/pdfs.nsf/www/LBB110.pdf/$file/LBB110.pdf
+$ENDCMP
+#
+$CMP LCC110
+D 1-Form-C OptoMOS® Relay, DIP-8
+K MOSFET Output Photorelay 1-Form-C
+F http://www.ixysic.com/home/pdfs.nsf/www/LCC110.pdf/$file/LCC110.pdf
+$ENDCMP
+#
 $CMP LD271
 D 940nm IR-LED, 5mm
 K IR LED
@@ -430,6 +454,12 @@ $CMP LPT80A
 D NPN phototransistor
 K NPN phototransistor
 F http://www.osram-os.com/Graphics/XPic4/00209607_0.pdf/LPT%2080A.pdf
+$ENDCMP
+#
+$CMP LTR-303ALS-01
+D ambient light sensor, i2c interface, 0.01 to 64k lux, 2.4-3.6V
+K ambient light sensor i2c
+F http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
 $ENDCMP
 #
 $CMP LTV-352T
@@ -646,6 +676,12 @@ $CMP MOC3163M
 D Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, dv/dt 1000, DIP6
 K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
+$ENDCMP
+#
+$CMP NSL-32
+D Optocoupler, LED Input, Photocell Output
+K optocoupler
+F http://lunainc.com/wp-content/uploads/2016/06/NSL-32.pdf
 $ENDCMP
 #
 $CMP PC3H4
@@ -1432,6 +1468,12 @@ $CMP TSOP345xx
 D IR Receiver Modules for Remote Control Systems
 K opto IR receiver
 F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP348xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F https://www.vishay.com/docs/82489/tsop322.pdf
 $ENDCMP
 #
 $CMP TSOP34S40F

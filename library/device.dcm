@@ -15,6 +15,11 @@ D Antenna symbol
 K antenna
 $ENDCMP
 #
+$CMP Antenna_Chip
+D Ceramic Chip Antenna symbol with pin for PCB trace
+K antenna
+$ENDCMP
+#
 $CMP Antenna_Dipole
 D Dipole Antenna symbol
 K dipole antenna
@@ -619,111 +624,139 @@ $ENDCMP
 $CMP LED
 D LED generic
 K led diode
+F ~
 $ENDCMP
 #
 $CMP LED_ALT
 D LED generic, alternativ symbol
 K led diode
+F ~
 $ENDCMP
 #
 $CMP LED_ARGB
 D LED RGB, common anode (pin 1)
 K led rgb diode
+F ~
+$ENDCMP
+#
+$CMP LED_BGRA
+D LED RGB, common anode
+K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_CRGB
 D LED RGB, Common Cathode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_2pin
 D LED dual, 2pin version
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_AAC
 D LED dual, common cathode
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_AACC
 D LED dual, 4-pin
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_ACA
 D LED dual, common cathode
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_ACAC
 D LED dual, 4-pin
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_CAC
 D LED dual, common anode
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_CCA
 D LED dual, common anode
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_PAD
 D LED with pad
 K led diode pad
+F ~
 $ENDCMP
 #
 $CMP LED_RABG
 D LED RGB, common anode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RAGB
 D LED RGB, common anode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RCBG
 D LED RGB, Common Cathode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RCGB
 D LED RGB, Common Cathode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RGB
 D LED RGB 6 pins
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RGB_EP
 D LED RGB 6 pins, exposed pad
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_Series
 D several LEDs in series
 K led diode
+F ~
 $ENDCMP
 #
 $CMP LED_Series_PAD
 D LED with pad
 K led diode pad
+F ~
 $ENDCMP
 #
 $CMP LED_Small
 D LED, small symbol
 K led diode light-emitting-diode
+F ~
 $ENDCMP
 #
 $CMP LED_Small_ALT
 D LED, small symbol, alternativ symbol
 K led diode light-emitting-diode
+F ~
 $ENDCMP
 #
 $CMP LTRIM
@@ -890,6 +923,12 @@ $ENDCMP
 $CMP Q_DUAL_PNP_C2C1E1E2
 D Double PNP Transistors, Current mirror configuration
 K Transistor Double PNP
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_C1B1B2C2E2E1
+D Dual PNP/PNP Transistor, 6-pin package
+K PNP/PNP Transistor
+F https://www.diodes.com/assets/Datasheets/ds30437.pdf
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
@@ -1268,7 +1307,7 @@ K npn phototransistor
 $ENDCMP
 #
 $CMP Q_Photo_NPN_EC
-D Phototransistor NPN, 2-pin (C=1, E=2)
+D Phototransistor NPN, 2-pin (E=1, C=2)
 K NPN phototransistor
 $ENDCMP
 #
