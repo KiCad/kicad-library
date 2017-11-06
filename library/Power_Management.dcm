@@ -6,6 +6,12 @@ K gate driver
 F https://www.fairchildsemi.com/datasheets/FA/FAN7842.pdf
 $ENDCMP
 #
+$CMP HF81
+D X capacitor bleeder, SOIC-8
+K X capacitor discharge
+F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=142
+$ENDCMP
+#
 $CMP LM5051
 D Low side OR-ing FET controller, -6V to -100V operation
 K negative low-side or-ing ideal-diode
@@ -328,6 +334,12 @@ $CMP TCM810
 D Microcontroller reset monitor, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TEA1708T
+D GreenChip X capacitor discharge IC, SOIC-8
+K X capacitor discharge
+F https://www.nxp.com/docs/en/data-sheet/TEA1708T.pdf
 $ENDCMP
 #
 $CMP TL7702A
