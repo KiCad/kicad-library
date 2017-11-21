@@ -336,12 +336,6 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
-$CMP UC3842_SOIC8
-D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-8
-K SMPS PWM Controller
-F http://www.ti.com/lit/ds/symlink/uc3842.pdf
-$ENDCMP
-#
 $CMP UC3842_SOIC14
 D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-14
 K SMPS PWM Controller
@@ -354,14 +348,14 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
-$CMP UC3843_DIP8
-D Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, PDIP-8
+$CMP UC3842_SOIC8
+D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-8
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
-$CMP UC3843_SOIC8
-D Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8
+$CMP UC3843_DIP8
+D Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, PDIP-8
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
@@ -372,14 +366,14 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
-$CMP UC3844_DIP8
-D Current-Mode PWM Controllers, 50% Duty Cycle, 16V/10V UVLO, PDIP-8
+$CMP UC3843_SOIC8
+D Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
-$CMP UC3844_SOIC8
-D Current-Mode PWM Controllers, 50% Duty Cycle, 16V/10V UVLO, SOIC-8
+$CMP UC3844_DIP8
+D Current-Mode PWM Controllers, 50% Duty Cycle, 16V/10V UVLO, PDIP-8
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
@@ -390,20 +384,26 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
+$CMP UC3844_SOIC8
+D Current-Mode PWM Controllers, 50% Duty Cycle, 16V/10V UVLO, SOIC-8
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
 $CMP UC3845_DIP8
 D Current-Mode PWM Controllers, 50% Duty Cycle, 8.4V/7.6V UVLO, PDIP-8
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
-$CMP UC3845_SOIC8
-D Current-Mode PWM Controllers, 50% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8
+$CMP UC3845_SOIC14
+D Current-Mode PWM Controllers, 50% Duty Cycle, 8.4V/7.6V UVLO, SOIC-14
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
-$CMP UC3845_SOIC14
-D Current-Mode PWM Controllers, 50% Duty Cycle, 8.4V/7.6V UVLO, SOIC-14
+$CMP UC3845_SOIC8
+D Current-Mode PWM Controllers, 50% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
@@ -527,64 +527,76 @@ K SMPS Controller with MOSFET 12W AC-DC
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
 $ENDCMP
 #
-$CMP VTX-214-015-103
-D 3V Vigortronix 15W ACDC Converters
-K 3V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-103
+D 3V Vigortronix 10W ACDC Converters
+K 3V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
-$CMP VTX-214-015-105
-D 5V Vigortronix 15W ACDC Converters
-K 5V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-105
+D 5V Vigortronix 10W ACDC Converters
+K 5V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
-$CMP VTX-214-015-106
-D 6V Vigortronix 15W ACDC Converters
-K 6V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-106
+D 6V Vigortronix 10W ACDC Converters
+K 6V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
-$CMP VTX-214-015-107
-D 7V Vigortronix 15W ACDC Converters
-K 7V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-107
+D 7V Vigortronix 10W ACDC Converters
+K 7V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
-$CMP VTX-214-015-109
-D 9V Vigortronix 15W ACDC Converters
-K 9V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-108
+D 8V Vigortronix 10W ACDC Converters
+K 8V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
-$CMP VTX-214-015-112
-D 12V Vigortronix 15W ACDC Converters
-K 12V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-109
+D 9V Vigortronix 10W ACDC Converters
+K 9V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
-$CMP VTX-214-015-115
-D 15V Vigortronix 15W ACDC Converters
-K 15V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-110
+D 10V Vigortronix 10W ACDC Converters
+K 10V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
-$CMP VTX-214-015-118
-D 18V Vigortronix 15W ACDC Converters
-K 18V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-112
+D 12V Vigortronix 10W ACDC Converters
+K 12V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
-$CMP VTX-214-015-124
-D 24V Vigortronix 15W ACDC Converters
-K 24V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-115
+D 15V Vigortronix 10W ACDC Converters
+K 15V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
-$CMP VTX-214-015-148
-D 48V Vigortronix 15W ACDC Converters
-K 48V 15W AC-DC module power supply
-F http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+$CMP VTX-214-010-118
+D 18V Vigortronix 10W ACDC Converters
+K 18V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
+$ENDCMP
+#
+$CMP VTX-214-010-124
+D 24V Vigortronix 10W ACDC Converters
+K 24V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
+$ENDCMP
+#
+$CMP VTX-214-010-148
+D 48V Vigortronix 10W ACDC Converters
+K 48V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattMiniatureAC-DCConverters
 $ENDCMP
 #
 #End Doc Library
