@@ -1,50 +1,110 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD637xD
+D High Precision, Wideband RMS-to-DC Converter, SBDIP-14
+K true rms dc converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD637.pdf
+$ENDCMP
+#
+$CMP AD637xQ
+D High Precision, Wideband RMS-to-DC Converter, DIP-14
+K true rms dc converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD637.pdf
+$ENDCMP
+#
+$CMP AD637xRZ
+D High Precision, Wideband RMS-to-DC Converter, SOIC-16W
+K true rms dc converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD637.pdf
+$ENDCMP
+#
+$CMP AD654
+D Low Cost Monolithic Voltage-to-Frequency Converter, DIP-8/SOIC-8
+K voltage frequency converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD654.pdf
+$ENDCMP
+#
+$CMP AD736
+D Low Cost, Low Power, True RMS-to-DC Converter, DIP-8/SOIC-8
+K true rms dc converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD736.pdf
+$ENDCMP
+#
+$CMP AD9831
+D Direct Digital Synthesizer, Waveform Generator, LQFP-48
+K dds direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9831.pdf
+$ENDCMP
+#
+$CMP AD9852xST
+D CMOS 300 MSPS Complete DDS, LQFP-80
+K dds direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9852.pdf
+$ENDCMP
+#
+$CMP AD9852xSV
+D CMOS 300 MSPS Complete DDS, TQFP-80
+K dds direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9852.pdf
+$ENDCMP
+#
+$CMP AD9854xST
+D CMOS 300 MSPS Quadrature Complete DDS, LQFP-80
+K dds direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9854.pdf
+$ENDCMP
+#
+$CMP AD9854xSV
+D CMOS 300 MSPS Quadrature Complete DDS, TQFP-80
+K dds direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9854.pdf
+$ENDCMP
+#
 $CMP AD9910
-D 1GSPS, 14-Bit, 3.3V CMOS, Direct Digital Synthesizer
-K 1GSPS, 14-Bit, 3.3V CMOS, Direct Digital Synthesizer, DDS, Analog Devices
+D 1 GSPS, 14-Bit, 3.3 V CMOS, Direct Digital Synthesizer, QFP-100
+K dds direct digital synthesizer
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9910.pdf
 $ENDCMP
 #
 $CMP ADE7758
-D Poly Phase Multifunction Energy Metering, SO-24
-K Energy Metering
+D Poly Phase Multifunction Energy Metering IC with Per Phase Information, SOIC-24W
+K 3 phase energy metering
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADE7758.pdf
 $ENDCMP
 #
 $CMP ADM2484E
-D Isolated RS485/RS422 Transceiver, Half-/Full-Duplex, 500kbps,SOIC-16W
-K RS485 Transceiver RS422 Transceiver
+D 500 kbps, ESD Protected, Half-/Full-Duplex, iCoupler, Isolated RS-485 Transceiver, SOIC-16W
+K rs422 rs485 isolated transceiver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM2484E.pdf
 $ENDCMP
 #
 $CMP ADM2582E
-D Isolated RS485/RS422 Transciever,Integrated Isolated DC-DC Converter, 16Mbps,SO-20
-K RS485 Transciever,RS422 Transciever
+D Signal and Power Isolated RS-485 Transceiver with ±15 kV ESD Protection, 16Mbps, SO-20W
+K rs422 rs485 isolated transceiver
 F www.analog.com/media/en/technical-documentation/data-sheets/ADM2582E_2587E.pdf
 $ENDCMP
 #
 $CMP ADM2587E
-D Isolated RS485/RS422 Transciever,Integrated Isolated DC-DC Converter, 500kbps,SO-20
-K RS485 Transciever,RS422 Transciever
+D Signal and Power Isolated RS-485 Transceiver with ±15 kV ESD Protection, 500kbps, SO-20W
+K rs422 rs485 isolated transceiver
 F www.analog.com/media/en/technical-documentation/data-sheets/ADM2582E_2587E.pdf
 $ENDCMP
 #
 $CMP ADuM1410
-D Quad Channel Digital Isolator,10Mbps,SO-16
-K Digital Isolator
+D Quad Channel Digital Isolators, 4ch in, SOIC-16W
+K digital isolator 4ch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
 $ENDCMP
 #
 $CMP ADuM1411
-D Quad Channel Digital Isolator,10Mbps,SO-16
-K Digital Isolator
+D Quad Channel Digital Isolators, 3ch in/1ch out, SOIC-16W
+K digital isolator 4ch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
 $ENDCMP
 #
 $CMP ADuM1412
-D Quad Channel Digital Isolator,10Mbps,SO-16
-K Digital Isolator
+D Quad Channel Digital Isolators, 2ch in/2ch out, SOIC-16W
+K digital isolator 4ch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
 $ENDCMP
 #
@@ -55,14 +115,32 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5000.PD
 $ENDCMP
 #
 $CMP ADuM6000
-D Isolated 5 kV DC-to-DC Converter
-K Isolated DC-to-DC Converter 5kV
+D Isolated 5 kV DC-to-DC Converter, SOIC-16W
+K isolated converter
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
 $ENDCMP
 #
+$CMP ADuM7640
+D 1 kV RMS Six-Channel Digital Isolators, 6ch in, QSOP-20
+K digital isolator 6ch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7641
+D 1 kV RMS Six-Channel Digital Isolators, 5ch in/1ch out, QSOP-20
+K digital isolator 6ch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7642
+D 1 kV RMS Six-Channel Digital Isolators, 4ch in/2ch out, QSOP-20
+K digital isolator 6ch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
 $CMP ADuM7643
-D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP20
-K 6Ch Quad Digital Isolator 25Mbps
+D 1 kV RMS Six-Channel Digital Isolators, 3ch in/3ch out, QSOP-20
+K digital isolator 6ch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
 $ENDCMP
 #

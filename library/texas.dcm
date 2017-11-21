@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DRV8848
+D Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16
+K Dual H-Bridge motor driver
+F http://www.ti.com/lit/ds/symlink/drv8848.pdf
+$ENDCMP
+#
 $CMP DRV8860
 D 8-Channel Serial Interface Low-Side Driver
 K Relay Driver
@@ -96,6 +102,12 @@ K 4Ch Quad Digital Isolator 25Mbps
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7342fc&fileType=pdf
 $ENDCMP
 #
+$CMP LM25119
+D Wide Input Range, Dual Synchronous Buck Controller, WQFN 32
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/lm25119.pdf
+$ENDCMP
+#
 $CMP LM3S6911-EQC50
 D Ti Stellaris ARM-M3 MCU Ethernet PHY, LQFP100
 K MCU ARM M3 Stellaris PHY ETH NRND
@@ -156,12 +168,6 @@ K ARM Stellaris Cortex M4 MCU NRND
 F http://www.ti.com/lit/ds/symlink/tm4c1230h6pm.pdf
 $ENDCMP
 #
-$CMP LM5109MA
-D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
-K Half-Bridge Gate Driver
-F http://www.ti.com/lit/ds/symlink/lm5109.pdf
-$ENDCMP
-#
 $CMP LM5109AMA
 D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
 K Half-Bridge Gate Driver
@@ -184,6 +190,12 @@ $CMP LM5109BSD
 D Half-Bridge Gate Driver, Output Current 1.0A, 100V, WSON-8
 K Half-Bridge Gate Driver
 F http://www.ti.com/lit/ds/symlink/lm5109b.pdf
+$ENDCMP
+#
+$CMP LM5109MA
+D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
+K Half-Bridge Gate Driver
+F http://www.ti.com/lit/ds/symlink/lm5109.pdf
 $ENDCMP
 #
 $CMP LM5175PWP
@@ -222,20 +234,116 @@ K Dual bidirectional I2C Bus and SMBus voltage level translator
 F http://www.ti.com/lit/ds/symlink/pca9306.pdf
 $ENDCMP
 #
+$CMP TB5D1MD
+D Quad differential PECL driver
+K differential PECL driver
+F http://www.ti.com/lit/ds/symlink/tb5d2h.pdf
+$ENDCMP
+#
+$CMP TB5D1MDW
+D Quad differential PECL driver
+K differential PECL driver
+F http://www.ti.com/lit/ds/symlink/tb5d2h.pdf
+$ENDCMP
+#
+$CMP TB5D2H
+D Quad differential PECL driver
+K differential PECL driver
+F http://www.ti.com/lit/ds/symlink/tb5d2h.pdf
+$ENDCMP
+#
+$CMP TB5D2HDW
+D Quad differential PECL driver
+K differential PECL driver
+F http://www.ti.com/lit/ds/symlink/tb5d2h.pdf
+$ENDCMP
+#
+$CMP TB5R1D
+D Quad differential PECL reciver
+K differential PECL reciver
+F http://www.ti.com/lit/ds/symlink/tb5r1.pdf
+$ENDCMP
+#
+$CMP TB5R1DW
+D Quad differential PECL reciver
+K differential PECL reciver
+F http://www.ti.com/lit/ds/symlink/tb5r1.pdf
+$ENDCMP
+#
+$CMP TB5R2D
+D Quad differential PECL reciver
+K differential PECL reciver
+F http://www.ti.com/lit/ds/symlink/tb5r1.pdf
+$ENDCMP
+#
+$CMP TB5R2DW
+D Quad differential PECL reciver
+K differential PECL reciver
+F http://www.ti.com/lit/ds/symlink/tb5r1.pdf
+$ENDCMP
+#
+$CMP TCA9535DBR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535DBT
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535MRGER
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535PWR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, TSSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535RGER
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535RTWR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9555DBR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9555.pdf
+$ENDCMP
+#
+$CMP TCA9555DBT
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9555.pdf
+$ENDCMP
+#
 $CMP TCA9555PWR
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, TSSOP-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, TSSOP-24 package
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9555.pdf
 $ENDCMP
 #
 $CMP TCA9555RGER
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, QFN-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24 package
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9555.pdf
 $ENDCMP
 #
 $CMP TCA9555RTWR
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, QFN-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24 package
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9555.pdf
 $ENDCMP
@@ -256,6 +364,18 @@ $CMP TLC5940PWP
 D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, TSSOP package with thermal pad
 K PWM LED driver
 F http://www.ti.com/lit/ds/symlink/tlc5940.pdf
+$ENDCMP
+#
+$CMP TLC5947DAP
+D 24-Channel, 12-Bit PWM LED Driver, HTSSOP
+K PWM LED driver HTSSOP
+F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
+$ENDCMP
+#
+$CMP TLC5947RHB
+D 24-Channel, 12-Bit PWM LED Driver, QFN
+K PWM LED driver QFN
+F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
 $ENDCMP
 #
 $CMP TLC5973
@@ -316,6 +436,12 @@ $CMP TMS470R1B768
 D ARM7TDM Microcontroller, 768KB Flash, 48KB RAM, PQFP-144
 K ARM 7TDM uC TMS470
 F http://www.ti.com/lit/ds/symlink/tms470r1b768.pdf
+$ENDCMP
+#
+$CMP TPIC6595
+D Power Logic 8-bit Shift Register, DIP-8/SOIC-8
+K shift register 8bit
+F http://www.ti.com/lit/ds/symlink/tpic6595.pdf
 $ENDCMP
 #
 $CMP TPL0401A-10-Q1
@@ -394,42 +520,6 @@ $CMP TPS2561
 D Dual channel precision adjustable current-limited power switches
 K power switche current limited usb port
 F http://www.ti.com/lit/ds/symlink/tps2561.pdf
-$ENDCMP
-#
-$CMP TPS562200
-D 4.5 to 17V input, 2A synchronous step-down voltage regulator
-K step-down dcdc voltage regulator
-F http://www.ti.com/lit/ds/symlink/tps563200.pdf
-$ENDCMP
-#
-$CMP TPS563200
-D 4.5 to 17V input, 3A synchronous step-down voltage regulator
-K step-down dcdc voltage regulator
-F http://www.ti.com/lit/ds/symlink/tps563200.pdf
-$ENDCMP
-#
-$CMP TPS62130
-D 3-17V 3A Step-down converter in 3x3 QFN package
-K step-down dcdc converter
-F http://www.ti.com/lit/ds/symlink/tps62130.pdf
-$ENDCMP
-#
-$CMP TPS62132
-D 3-17V, 3A step-down converter
-K step down dcdc converter
-F http://www.ti.com/lit/ds/symlink/tps62130.pdf
-$ENDCMP
-#
-$CMP TS5A3159
-D 1-Ohm SPDT Analog Switch, Break-Before-Make
-K SDPT Switch
-F http://www.ti.com/lit/ds/symlink/ts5a3159.pdf
-$ENDCMP
-#
-$CMP TS5A3160
-D 1-Ohm SPDT Analog Switch, Make-Before-Break
-K SDPT Switch
-F http://www.ti.com/lit/ds/symlink/ts5a3160.pdf
 $ENDCMP
 #
 $CMP TUSB2036

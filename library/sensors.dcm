@@ -138,6 +138,24 @@ K sensor magnetic hall position rotation spi
 F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
 $ENDCMP
 #
+$CMP AS7261
+D Spectral Sensing Engine, 6-Channel XYZ Spectral_ID
+K 6-Channel XYZ Spectral_ID Device Electronic Shutter Smart Interface i2c uart
+F http://ams.com/eng/content/download/1008631/2361759/498838
+$ENDCMP
+#
+$CMP AS7262
+D Spectral Sensing Engine, 6-Channel Visible Spectral_ID
+K 6-Channel Visible Spectral_ID Device Electronic Shutter Smart Interface i2c uart
+F http://ams.com/eng/content/download/976551/2309439/498718
+$ENDCMP
+#
+$CMP AS7263
+D Spectral Sensing Engine, 6-Channel NIR Spectral_ID
+K 6-Channel NIR Spectral_ID Device Electronic Shutter Smart Interface i2c uart
+F http://ams.com/eng/content/download/976611/2309519/498778
+$ENDCMP
+#
 $CMP BD1020HFV
 D Analog Ouput Temperature Sensor
 K Temperature sensor
@@ -166,6 +184,108 @@ $CMP DHT11
 D - Temperature and humidity module
 K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
+$ENDCMP
+#
+$CMP ENS210
+D Relative Humidity and Temperature Sensor with I2C Interface
+K relative humidity temperature i2c pre-calibrated
+F http://ams.com/eng/content/download/950231/2267959/483138
+$ENDCMP
+#
+$CMP DS1621
+D 1-Wire Digital Thermometer and Thermostat, DIP-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
+$ENDCMP
+#
+$CMP DS1621S
+D 1-Wire Digital Thermometer and Thermostat, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
+$ENDCMP
+#
+$CMP DS1621V
+D 1-Wire Digital Thermometer and Thermostat, SO-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
+$ENDCMP
+#
+$CMP DS1821C
+D Programmable Digital Thermostat and Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
+$ENDCMP
+#
+$CMP DS1822
+D Econo 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS1822-PAR
+D Econo 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1822-PAR.pdf
+$ENDCMP
+#
+$CMP DS1822Z
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS1825
+D 1-Wire Digital Temperature Sensor, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS1825.pdf
+$ENDCMP
+#
+$CMP DS18B20
+D Programmable Resolution 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18B20-PAR
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18B20-PAR.pdf
+$ENDCMP
+#
+$CMP DS18B20U
+D Programmable Resolution 1-Wire Digital Thermometer, MSOP-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18B20Z
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+$ENDCMP
+#
+$CMP DS18S20
+D High-Precision 1-Wire Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
+$ENDCMP
+#
+$CMP DS18S20-PAR
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20-PAR.pdf
+$ENDCMP
+#
+$CMP DS18S20Z
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
+$ENDCMP
+#
+$CMP DS28EA00
+D 1-Wire Digital Thermometer with Sequence Detect and PIO, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS28EA00.pdf
 $ENDCMP
 #
 $CMP Flir_LEPTON
@@ -294,6 +414,18 @@ K digital temperature sensor
 F http://www.ti.com/lit/ds/symlink/lm73.pdf
 $ENDCMP
 #
+$CMP LM75B
+D Digital Temperature Sensor & Thermal Watchdog with LP on I2C and bus fault timeout, SOIC-8 and VSSOP-8
+K Temperature sensor
+F http://www.ti.com/lit/ds/symlink/lm75b.pdf
+$ENDCMP
+#
+$CMP LM75C
+D  Digital Temperature Sensor & Thermal Watchdog, SOIC-8 and VSSOP-8
+K Temperature sensor
+F http://www.ti.com/lit/ds/symlink/lm75b.pdf
+$ENDCMP
+#
 $CMP LMT84DCK
 D Analog temperature sensor, NTC, 0.4C accuracy, -5.5mV/C, -50C to +150C, 1.5 to 5.5V, SC-70-5 package
 K temperature sensor thermistor ntc
@@ -324,6 +456,12 @@ K mems absolute baromeeter
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/58/d2/33/a4/42/89/42/0b/DM00066332.pdf/files/DM00066332.pdf/jcr:content/translations/en.DM00066332.pdf
 $ENDCMP
 #
+$CMP LSM303C
+D I2C/SPI, 3D Accelerometer and 3D Magnetometer
+K Accelerometer Magnetometer MEMS
+F www.st.com/resource/en/datasheet/lsm303c.pdf
+$ENDCMP
+#
 $CMP LSM303D
 D I2C/SPI, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
@@ -336,6 +474,12 @@ K Accelerometer Magnetometer MEMS
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00027543.pdf
 $ENDCMP
 #
+$CMP LSM6DS3
+D I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope 
+K Accelerometer Gyroscope MEMS
+F www.st.com/resource/en/datasheet/lsm6ds3.pdf
+$ENDCMP
+#
 $CMP LSM9DS1
 D I2C SPI 9 axis IMU accelerometer gyroscope magnetometer
 K I2C SPI IMU accelerometer gyroscope magnetometer
@@ -346,6 +490,30 @@ $CMP LV25-P
 D LEM Voltage transducer LV 25-P
 K Voltage transducer
 F http://www.lem.com/docs/products/lv_25-p.pdf
+$ENDCMP
+#
+$CMP MAX31820
+D 1-Wire Ambient Temperature Sensor, TO-92
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf
+$ENDCMP
+#
+$CMP MAX31820PAR
+D 1-Wire, Parasite-Power, Ambient Temperature Sensor, TO-92
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820PAR.pdf
+$ENDCMP
+#
+$CMP MAX31826
+D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM, MSOP-8
+K 1Wire OneWire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
+$ENDCMP
+#
+$CMP MAX31856
+D Precision Thermocouple to Digital Converter with Linearization, TSSOP-14
+K Thermocouple converter serial
+F https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf
 $ENDCMP
 #
 $CMP MCP9501
@@ -498,6 +666,18 @@ K absolute pressure sensor
 F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
 $ENDCMP
 #
+$CMP PCA8886
+D Dual capacitive touch/proximity switch with auto-calibration, TSSOP-16
+K NXP capacitive touch sensor auto-calibration
+F http://www.nxp.com/docs/en/data-sheet/PCA8886.pdf
+$ENDCMP
+#
+$CMP PCF8883
+D Capacitive touch/proximity switch with auto-calibration, SOIC-8/WLCSP-8
+K NXP capacitive touch sensor auto-calibration
+F http://www.nxp.com/docs/en/data-sheet/PCF8883.pdf
+$ENDCMP
+#
 $CMP PT100
 D PT100 platinum temperature sensor (RTD)
 K platinum temperature sensor RTD
@@ -522,6 +702,12 @@ K digital temperature humidity sensor
 F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity_Sensors/Sensirion_Humidity_Sensors_SHT1x_Datasheet_V5.pdf
 $ENDCMP
 #
+$CMP Si7020-A20
+D I2C Humidity and Temperature Sensor, DFN-6
+K I2C Humidity Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7020-A20.pdf
+$ENDCMP
+#
 $CMP TLV493D
 D Low power 3D magnetic sensor, I2C interface, SOT23-6 package
 K magnetic field i2c
@@ -544,6 +730,30 @@ $CMP TMP411
 D - Remote and Local TEMPERATURE SENSOR
 K Temperature sensor remote local i2c
 F http://www.ti.com.cn/cn/lit/ds/symlink/tmp411.pdf
+$ENDCMP
+#
+$CMP TSIC206-SO8
+D Digital temperature sensor, range -50 ... +150 °C, 0.5 K accuracy, SO-8
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
+$ENDCMP
+#
+$CMP TSIC206-TO92
+D Digital temperature sensor, range -50 ... +150 °C, 0.5 K accuracy, TO-92
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
+$ENDCMP
+#
+$CMP TSIC306-SO8
+D Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, SO-8
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
+$ENDCMP
+#
+$CMP TSIC306-TO92
+D Digital temperature sensor, range -50 ... +150 °C, 0.3 K accuracy, TO-92
+K temperature digital
+F https://shop.bb-sensors.com/out/media/Datasheet_Digital_Semiconductor_temperatur_sensor_TSIC.pdf
 $ENDCMP
 #
 #End Doc Library

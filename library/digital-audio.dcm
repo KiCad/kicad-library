@@ -1,97 +1,141 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD1853
+D Stereo, 24-Bit, 192 kHz, Multibit Sigma-Delta DAC, SSOP-28
+K audio dac 2ch 24bit 192kHz
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD1853.pdf
+$ENDCMP
+#
+$CMP AD1855
+D Stereo, 96 kHz, Multibit Sigma-Delta DAC, SSOP-28
+K audio dac 2ch 24bit 96kHz
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD1855.pdf
+$ENDCMP
+#
+$CMP AD1955
+D High Performance Multibit Sigma-Delta DAC with SACD Playback, SSOP-28
+K audio dac 2ch 24bit 192kHz
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD1955.pdf
+$ENDCMP
+#
 $CMP AK5392VS
-D AK5392-VS, Enhanced Audio ADC, 2 channels Sigma Delta, 24bit, SO28
-K 24bit Sigma Delta Audio ADC 2ch
+D Enhanced Dual Bit Sigma-Delta 24Bit ADC, SOIC-28
+K audio adc 2ch 24bit
+F https://media.digikey.com/pdf/Data%20Sheets/AKM%20Semiconductor%20Inc.%20PDFs/AK5392.pdf
 $ENDCMP
 #
 $CMP AK5393VS
-D Enhanced Audio ADC, 2 channels Sigma Delta, 24bit 96kHz, SO28
-K 96kHz 24bit Sigma Delta Audio ADC 2ch
-F http://www.akm.com/akm/en/file/datasheet/AK5393VS.pdf
+D Enhanced Dual Bit Sigma-Delta 96kHz 24-Bit ADC, SOIC-28
+K audio adc 2ch 24bit 96kHz
+F https://www.akm.com/akm/en/file/datasheet/AK5393VS.pdf
 $ENDCMP
 #
 $CMP AK5394AVS
-D Super High Performance Audio ADC, 2 channels Sigma Delta, 24bit 192kHz, SO28
-K 192kHz 24bit Sigma Delta Audio ADC 2ch
+D Super High Performance 192kHz 24-Bit Sigma-Delta ADC, SOIC-28
+K audio adc 2ch 24bit 192kHz
 F http://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf
 $ENDCMP
 #
 $CMP CS4245
-D Stereo Audio CODEC, 104 dB, 24-Bit, 192 kHz
-K CS4245 stereo audio codec
-F http://www.cirrus.com/en/pubs/proDatasheet/CS4245_F3.pdf
+D 104 dB, 24-Bit, 192 kHz Stereo Audio CODEC, LQFP-48
+K audio codec 2ch 24bit 192kHz
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS4245_F3.pdf
 $ENDCMP
 #
 $CMP CS43L21
-D Stereo Audio DAC, 24-bit, 96 kHz, 98 dB
-K stereo audio dac
-F http://cirrus.com/en/pubs/proDatasheet/CS43L21_F1.pdf
+D Low-Power, Stereo Digital-to-Analog Converter, QFN-32
+K audio dac 2ch 24bit 96kHz
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS43L21_F1.pdf
 $ENDCMP
 #
 $CMP CS5361
-D Stereo Audio ADC, 24 bits, 192 kHz, 114 dB
-K stereo audio adc
-F http://www.cirrus.com/en/pubs/proDatasheet/CS5361_F2.pdf
+D 114 dB, 192 kHz, Multi-Bit Audio A/D Converter, SOIC-24/TSSOP-24
+K audio adc 2ch 24bit 192kHz
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS5361_F2.pdf
 $ENDCMP
 #
 $CMP CS8406
-D 192 kHz Digital Audio Interface Transmitter (SOIC-28)
-K digital audio interface transmitter spdif
-F http://cirrus.com/en/pubs/proDatasheet/CS8406_F6.pdf
+D 192 kHz Digital Audio Interface Transmitter, SOIC-28/TSSOP-28
+K audio digital interface transmitter 192kHz
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS8406_F6.pdf
 $ENDCMP
 #
 $CMP CS8414
-D 96KHz Digital Audio Receiver
-K digital audio interface receiver spdif
+D 96 kHz Digital Audio Receiver, SOIC-28
+K audio digital interface receiver
+F http://lampizator.eu/LAMPIZATOR/TRANSPORT/CS8414_receiver.pdf
 $ENDCMP
 #
-$CMP CS8416
-D 192 kHz Digital Audio Interface Receiver
-K digital audio interface receiver spdif
-F http://www.cirrus.com/en/pubs/proDatasheet/CS8416_F3.pdf
+$CMP CS8416-xNZ
+D 192 kHz Digital Audio Interface Receiver, QFN-28
+K audio digital interface receiver
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS8416_F3.pdf
 $ENDCMP
 #
-$CMP CS8416-N
-D 192 kHz Digital Audio Interface Receiver (QFN-28)
-K digital audio interface receiver spdif
-F http://www.cirrus.com/en/pubs/proDatasheet/CS8416_F3.pdf
+$CMP CS8416-xSZ
+D 192 kHz Digital Audio Interface Receiver, SOIC-28
+K audio digital interface receiver
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS8416_F3.pdf
 $ENDCMP
 #
-$CMP CS8416-S
-D 192 kHz Digital Audio Interface Receiver (SOIC-28)
-K digital audio interface receiver spdif
-F http://www.cirrus.com/en/pubs/proDatasheet/CS8416_F3.pdf
-$ENDCMP
-#
-$CMP CS8416-Z
-D 192 kHz Digital Audio Interface Receiver (TSSOP-28)
-K digital audio interface receiver spdif
-F http://www.cirrus.com/en/pubs/proDatasheet/CS8416_F3.pdf
+$CMP CS8416-xZZ
+D 192 kHz Digital Audio Interface Receiver, TSSOP-28
+K audio digital interface receiver
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS8416_F3.pdf
 $ENDCMP
 #
 $CMP CS8420
 D Digital Audio Sample Rate Converter, SOIC-28
-K digital audio sample rate converter
+K audio sample rate converter
 F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS8420_F4.pdf
 $ENDCMP
 #
+$CMP DSD1794A
+D 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, SW Control, SSOP-28
+K audio dac 2ch 24bit 192kHz
+F http://www.ti.com/lit/ds/symlink/dsd1794a.pdf
+$ENDCMP
+#
+$CMP PCM1792A
+D 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, SW Control, SSOP-28
+K audio dac 2ch 24bit 192kHz
+F http://www.ti.com/lit/ds/symlink/pcm1792a.pdf
+$ENDCMP
+#
+$CMP PCM1794A
+D 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28
+K audio dac 2ch 24bit 192kHz
+F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
+$ENDCMP
+#
 $CMP TLV320AIC23BPW
-D 8-96kHz Stero Audio CODEC w/ Headphone Amp, TSSOP28
-K Stero Audio CODEC 96kHz Headphone
-F www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
+D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, TSSOP-28
+K audio codec 2ch 96kHz headphone amplifier
+F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
 $ENDCMP
 #
 $CMP TLV320AIC23BRHD
-D 8-96kHz Stero Audio CODEC w/ Headphone Amp, QFN28
-K Stero Audio CODEC 96kHz Headphone
-F www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
+D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, QFN-28
+K audio codec 2ch 96kHz headphone amplifier
+F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
+$ENDCMP
+#
+$CMP TLV320AIC23BxQE
+D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, BGA-32
+K audio codec 2ch 96kHz headphone amplifier
+F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
 $ENDCMP
 #
 $CMP TPA5050
-D Stereo Digital Audio Delay Processor With I2C Control
-K AUDIO
-F digital-audio\tpa5050.pdf
+D Stereo Digital Audio Lip-Sync Delay Processor With I2C Control, QFN-16
+K audio delay
+F http://www.ti.com/lit/ds/symlink/tpa5050.pdf
+$ENDCMP
+#
+$CMP UDA1334ATS
+D Low Power Audio DAC with PLL, SSOP-16
+K audio dac 2ch 24bit 96kHz
+F http://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf
 $ENDCMP
 #
 #End Doc Library

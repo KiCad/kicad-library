@@ -12,24 +12,20 @@ K digital potentiometer
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
 $ENDCMP
 #
-$CMP AD5282_ABC
-D TSSOP16
-$ENDCMP
-#
 $CMP AD5290
-D Digital Potentiometer  256 steps   (SPI control) +- 15V
+D Digital Potentiometer  256 steps   (SPI control) +- 15V, MSOP-10
 K R POT
-F analog-dev/AD5290.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5290.pdf
 $ENDCMP
 #
 $CMP AD5293
-D Digital potentiometer 1024 pos (SPI)
+D Digital potentiometer 1024 pos (SPI), TSSOP-14
 K R POT
-F analog-dev/AD5293.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf
 $ENDCMP
 #
 $CMP AD9834
-D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP20
+D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP-20
 K Direct Digital Synthesizer DDS
 F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
 $ENDCMP
@@ -77,81 +73,117 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pd
 $ENDCMP
 #
 $CMP ADUM4160
-D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection
+D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection, SOIC-16
 K usb isolation
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
+$CMP ADuM1200AR
+D Dual-channel digital isolator, Bidirectional communication, 3 V/5 V level translation, SOIC-8
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
 $CMP ADuM1200BR
-D Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200CR
-D Dual-Channel Digital Isolator, 25Mbps 45ns, SO8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200WS
-D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Tem. Grade, SO8
+D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 1Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200WT
-D Dual-Channel Digital Isolator, 10Mbps 50ns, Highest Tem. Grade, SO8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200WU
-D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Tem. Grade, SO8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
+$CMP ADuM1201AR
+D Dual-channel digital isolator, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
 $CMP ADuM1201BR
-D Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201CR
-D Dual-Channel Digital Isolator, 25Mbps 45ns, SO8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201WS
-D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Temp. Grade, SO8
+D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 1Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201WT
-D Dual-Channel Digital Isolator, 10Mbps 50ns, Hihgest Temp. Grade, SO8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, Hihgest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201WU
-D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, SO8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP CH376T
-D File Management USB Flash Card SD Interface, TSSOP20
+D File Management USB Flash Card SD Interface, SSOP-20
 K File Management USB Flash Card SD Interface
 F http://iteadstudio.com/store/images/produce/Platform/FPGA/BlackGold/CH376DS1.PDF
 $ENDCMP
 #
 $CMP DP83848C
-D MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP48
+D MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP-48
 K Ethernet PHY MII RMII 10/100Mpbs
 F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
+$ENDCMP
+#
+$CMP DP83848I
+D MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP-48
+K Ethernet PHY MII RMII 10/100Mpbs
+F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
+$ENDCMP
+#
+$CMP DS7820
+D Dual line receiver, VDD +5V, DIP-14
+K Dual line receiver
+F http://pdf1.alldatasheet.com/datasheet-pdf/view/942427/NSC/DS7820.html
+$ENDCMP
+#
+$CMP DS7830
+D Dual differential line driver and dual four-input NAND or dual four-input AND function, VDD +5V, DIP-14
+K Dual differential line driver
+F http://pdf1.alldatasheet.com/datasheet-pdf/view/8473/NSC/DS7830J.html
+$ENDCMP
+#
+$CMP DS8830
+D Dual differential line driver and dual four-input NAND or dual four-input AND function, VDD +5V, DIP-14
+K Dual differential line driver
+F http://pdf1.alldatasheet.com/datasheet-pdf/view/8473/NSC/DS7830J.html
 $ENDCMP
 #
 $CMP DS89C21
@@ -160,8 +192,34 @@ K rs422 tranciever
 F http://www.ti.com/lit/ds/symlink/ds89c21.pdf
 $ENDCMP
 #
+$CMP DS90C124
+D DC-Balanced 24-Bit FPD-Link II Deserializer, TQFP-48
+K DC-Balanced 24-Bit FPD-Link II Deserializer
+F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
+$ENDCMP
+#
+$CMP DS90C241
+D DC-Balanced 24-Bit FPD-Link II Serializer, TQFP-48
+K DC-Balanced 24-Bit FPD-Link II Serializer
+F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
+$ENDCMP
+#
+$CMP EL2001
+D Monolithic high slew rate, buffer amplifier, DIP-8
+K Monolithic high slew rate, buffer amplifier
+F http://www.datasheetlib.com/datasheet/677973/el2001_intersil.html#datasheet
+$ENDCMP
+#
 $CMP EL7242C
 D Translateur TTL->VMOS. Double driver VMOS
+K Translateur TTL->VMOS. Double driver VMOS
+F http://pdf.datasheetcatalog.com/datasheet/elantec/EL7242CN.pdf
+$ENDCMP
+#
+$CMP FD1771
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F https://amaus.net/static/S100/western%20digital/datasheet/Western%20Digital%20FD1771%20Specification%20197710.pdf
 $ENDCMP
 #
 $CMP FUSB302B01MPX
@@ -242,6 +300,24 @@ K MOSFET driver array
 F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7667.pdf
 $ENDCMP
 #
+$CMP ICM7209
+D Timebase generator, DIP-8
+K Timebase generator
+F http://pdf.datasheetcatalog.com/datasheets/320/500974_DS.pdf
+$ENDCMP
+#
+$CMP IS31FL3216
+D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +85 degree, QFN-28
+K 16 channel LED controller with audio modulation mode
+F http://www.issi.com/WW/pdf/IS31FL3216.pdf
+$ENDCMP
+#
+$CMP IS31FL3216A
+D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +125 degree, QFN-28
+K 16 channel LED controller with audio modulation mode
+F http://www.issi.com/WW/pdf/IS31FL3216A.pdf
+$ENDCMP
+#
 $CMP ISL83491
 D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
 K RS485 RS422 transceiver full duplex
@@ -320,10 +396,10 @@ K rs485 transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
 $ENDCMP
 #
-$CMP MAX13450E
-D 20Mbps RS485 transceiver with integrated switchable termination
-K RS485
-F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
+$CMP MAX1487E
+D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
 $ENDCMP
 #
 $CMP MAX202
@@ -434,6 +510,54 @@ K rs232 uart transceiver line-driver
 F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
 $ENDCMP
 #
+$CMP MAX481E
+D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX483E
+D Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX485E
+D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX487E
+D Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX488E
+D Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-8 and SOIC-8
+K Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX489E
+D Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, with with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+K Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, with with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX490E
+D Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, -40 to +85 degree Celcius, DIP-8 and SOIC-8
+K Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, -40 to +85 degree Celcius, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX491E
+D Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+K Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
 $CMP MC1413
 D High Voltage, High Current Darlington Transistor Arrays
 K darlington transistor array
@@ -446,85 +570,103 @@ K darlington transistor array
 F http://www.onsemi.com/pub_link/Collateral/MC1413-D.PDF
 $ENDCMP
 #
-$CMP MCP2551-I/P
+$CMP MC3486N
+D Quadruple differential line receiver, SOIC-16
+K Quadruple differential line receiver
+F http://www.ti.com/lit/ds/symlink/mc3486.pdf
+$ENDCMP
+#
+$CMP MC3487DX
+D Four independent differential line drivers, SOIC-16
+K Four independent differential line drivers
+F http://www.ti.com/lit/ds/symlink/mc3487.pdf
+$ENDCMP
+#
+$CMP MC3487N
+D Four independent differential line drivers, DIP-16
+K Four independent differential line drivers
+F http://www.ti.com/lit/ds/symlink/mc3487.pdf
+$ENDCMP
+#
+$CMP MCP2551-I-P
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, PDIP8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
 $ENDCMP
 #
-$CMP MCP2551-I/SN
+$CMP MCP2551-I-SN
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
 $ENDCMP
 #
-$CMP MCP2561-E/MF
+$CMP MCP2561-E-MF
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, DFN8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2561-E/P
+$CMP MCP2561-E-P
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, DIP8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2561-E/SN
+$CMP MCP2561-E-SN
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, SOIC8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2561-H/MF
+$CMP MCP2561-H-MF
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +150C, DFN8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2561-H/P
+$CMP MCP2561-H-P
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +150C, DIP8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2561-H/SN
+$CMP MCP2561-H-SN
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +150C, SOIC8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2562-E/MF
+$CMP MCP2562-E-MF
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DFN8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2562-E/P
+$CMP MCP2562-E-P
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DIP8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2562-E/SN
+$CMP MCP2562-E-SN
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2562-H/MF
+$CMP MCP2562-H-MF
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, DFN8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2562-H/P
+$CMP MCP2562-H-P
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, DIP8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
-$CMP MCP2562-H/SN
+$CMP MCP2562-H-SN
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, SOIC8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
@@ -566,6 +708,24 @@ K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
 #
+$CMP PCI9030-PQFP176
+D PCI SMARTarget I/O Accelerator
+K PCI
+F http://lhcb-online.web.cern.ch/lhcb-online/ecs/ccpc/docs/plc-9030-databook.pdf
+$ENDCMP
+#
+$CMP S5933_PQ160
+D PCI 2.1 Compliant Master/Slave Device, PQFP-160
+K PCI 2.1 Compliant Master/Slave Device
+F http://datasheet.datasheetarchive.com/originals/distributors/Datasheets-35/DSA-684194.pdf
+$ENDCMP
+#
+$CMP SI9986
+D Integrated, buffered H-bridge with TTL compatible inputs, 1A, 12V, SOIC-8
+K integrated, buffered H-bridge
+F http://www.vishay.com/docs/70007/si9986.pdf
+$ENDCMP
+#
 $CMP SN65HVD230
 D CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC
 K can transeiver ti low-power
@@ -602,6 +762,30 @@ K can transeiver ti
 F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
 $ENDCMP
 #
+$CMP SN65LBC176D
+D Differential bus transiver, SOIC-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN65LBC176P
+D Differential bus transiver, DIP-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN65LBC176QD
+D Differential bus transiver, SOIC-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN65LBC176QDR
+D Differential bus transiver, SOIC-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
 $CMP SN75468
 D Higher Voltage, High Current Darlington Transistor Arrays
 K darlington transistor array
@@ -612,6 +796,24 @@ $CMP SN75469
 D Higher Voltage, High Current Darlington Transistor Arrays
 K darlington transistor array
 F http://www.ti.com/lit/ds/slrs023e/slrs023e.pdf
+$ENDCMP
+#
+$CMP SN75LBC176D
+D Differential bus transiver, SOIC-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN75LBC176P
+D Differential bus transiver, DIP-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SNJ55LBC176JG
+D Differential bus transiver, ceramic DIP-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SP3481CN
@@ -698,106 +900,190 @@ K I2C Hub
 F http://www.ti.com/lit/ds/symlink/tca9544a.pdf
 $ENDCMP
 #
-$CMP TCA9548A_QFN
-D I2C Hub, 8 Channels, QFN-24
-K I2C Hub
+$CMP TCA9548AMRGER
+D Low voltage 8-channel I2C switch with reset, QFN-24
+K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 $ENDCMP
 #
-$CMP TCA9548A_TSSOP
-D I2C Hub, 8 Channels, TSSOP-24
-K I2C Hub
+$CMP TCA9548APWR
+D Low voltage 8-channel I2C switch with reset, TSSOP-24
+K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TCA9548ARGER
+D Low voltage 8-channel I2C switch with reset, QFN-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TEA2014
+D Video switching circuite for TV, DIP-8
+K Video switching circuite for TV
+F http://pdf1.alldatasheet.com/datasheet-pdf/view/123244/STMICROELECTRONICS/TEA2014.html
 $ENDCMP
 #
 $CMP TJA1021T
-D TJA1021T, LIN 2.1/SAE J2602 transceiver, SOIC-8
+D LIN 2.1/SAE J2602 transceiver, SOIC-8
 K LIN 2.1 SAE J2602 Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1021.pdf
 $ENDCMP
 #
 $CMP TJA1021TK
-D TJA1021TK, LIN 2.1/SAE J2602 transceiver, DFN-8-1EP
+D LIN 2.1/SAE J2602 transceiver, DFN-8-1EP
 K LIN 2.1 SAE J2602 Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1021.pdf
 $ENDCMP
 #
 $CMP TJA1029T
-D TJA1029T, LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, SOIC-8
+D LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, SOIC-8
 K LIN 2.2A/SAE J2602 Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1029.pdf
 $ENDCMP
 #
 $CMP TJA1029TK
-D TJA1029TK, LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8-1EP
+D LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8-1EP
 K LIN 2.2A/SAE J2602 Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1029.pdf
 $ENDCMP
 #
 $CMP TJA1042T
-D TJA1042T, High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
+D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
-$CMP TJA1042T/3
-D TJA1042T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
+$CMP TJA1042T-3
+D High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
-$CMP TJA1042TK/3
-D TJA1042TK/3, High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
+$CMP TJA1042TK-3
+D High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
 $CMP TJA1049T
-D TJA1049T, High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
+D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
-$CMP TJA1049T/3
-D TJA1049T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
+$CMP TJA1049T-3
+D High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
 $CMP TJA1049TK
-D TJA1049TK, High-Speed CAN Transceiver, standby mode, DFN-8-1EP
+D High-Speed CAN Transceiver, standby mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
-$CMP TJA1049TK/3
-D TJA1049TK/3, High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
+$CMP TJA1049TK-3
+D High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
 $CMP TJA1051T
-D TJA1051T, High-Speed CAN Transceiver, silent mode, SOIC-8
+D High-Speed CAN Transceiver, silent mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
 $ENDCMP
 #
-$CMP TJA1051T/3
-D TJA1051T/3, High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8
+$CMP TJA1051T-3
+D High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
 $ENDCMP
 #
-$CMP TJA1051T/E
-D TJA1051T/E, High-Speed CAN Transceiver, enable pin, silent mode, SOIC-8
+$CMP TJA1051T-E
+D High-Speed CAN Transceiver, enable pin, silent mode, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
 $ENDCMP
 #
-$CMP TJA1051TK/3
-D TJA1051TK/3, High-Speed CAN Transceiver, separate VIO, silent mode, DFN-8-1EP
+$CMP TJA1051TK-3
+D High-Speed CAN Transceiver, separate VIO, silent mode, DFN-8-1EP
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1051.pdf
+$ENDCMP
+#
+$CMP TJA1052i-1
+D Isolated CAN Transceiver 1.0kV, up to 5Mbps
+K can transceiver isolated protected
+F https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
+$ENDCMP
+#
+$CMP TJA1052i-2
+D Isolated CAN Transceiver 2.5kV, up to 5Mbps
+K can transceiver isolated protected
+F https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
+$ENDCMP
+#
+$CMP TJA1052i-5
+D Isolated CAN Transceiver 5.0kV, up to 5Mbps
+K can transceiver isolated protected
+F https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
+$ENDCMP
+#
+$CMP U2270B
+D IDIC read/write base stations in contactless identification and immobilizer systems, SO-16
+K IDIC read/write base stations in contactless identification and immobilizer systems
+F http://www.farnell.com/datasheets/94393.pdf
+$ENDCMP
+#
+$CMP UA9637
+D Dual differential line receiver, DIP-8
+K Dual differential line receiver
+F http://pdf.datasheetcatalog.com/datasheets2/28/284473_1.pdf
+$ENDCMP
+#
+$CMP UA9638CD
+D Dual high-speed differential line driver, SOIC-8
+K Dual high-speed differential line driver
+F http://www.ti.com/lit/ds/symlink/ua9638.pdf
+$ENDCMP
+#
+$CMP UA9638CDE4
+D Dual high-speed differential line driver, SOIC-8
+K Dual high-speed differential line driver
+F http://www.ti.com/lit/ds/symlink/ua9638.pdf
+$ENDCMP
+#
+$CMP UA9638CDG4
+D Dual high-speed differential line driver, SOIC-8
+K Dual high-speed differential line driver
+F http://www.ti.com/lit/ds/symlink/ua9638.pdf
+$ENDCMP
+#
+$CMP UA9638CDR
+D Dual high-speed differential line driver, SOIC-8
+K Dual high-speed differential line driver
+F http://www.ti.com/lit/ds/symlink/ua9638.pdf
+$ENDCMP
+#
+$CMP UA9638CDRG4
+D Dual high-speed differential line driver, SOIC-8
+K Dual high-speed differential line driver
+F http://www.ti.com/lit/ds/symlink/ua9638.pdf
+$ENDCMP
+#
+$CMP UA9638CP
+D Dual high-speed differential line driver, DIP-8
+K Dual high-speed differential line driver
+F http://www.ti.com/lit/ds/symlink/ua9638.pdf
+$ENDCMP
+#
+$CMP UA9638CPE4
+D Dual high-speed differential line driver, DIP-8
+K Dual high-speed differential line driver
+F http://www.ti.com/lit/ds/symlink/ua9638.pdf
 $ENDCMP
 #
 $CMP ULN2002
@@ -849,8 +1135,8 @@ F http://www.promelec.ru/pdf/1536.pdf
 $ENDCMP
 #
 $CMP ULN2803A
-D Darlington Transistor Arrays
-K darlington transistor array
+D Darlington Transistor Arrays, SOIC-18
+K Darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
 $ENDCMP
 #
@@ -867,13 +1153,13 @@ F http://www.promelec.ru/pdf/1536.pdf
 $ENDCMP
 #
 $CMP XTR115U
-D 4-20mA Current Loop Transmitter, SO8
+D 4-20mA Current Loop Transmitter, VREF 2.5V, SO-8
 K 4-20mA Current Loop Transmitter
 F http://www.ti.com/lit/ds/symlink/xtr115.pdf
 $ENDCMP
 #
 $CMP XTR116U
-D 4-20mA Current Loop Transmitter, SO8
+D 4-20mA Current Loop Transmitter, VREF 4.096V, SO-8
 K 4-20mA Current Loop Transmitter
 F http://www.ti.com/lit/ds/symlink/xtr115.pdf
 $ENDCMP
