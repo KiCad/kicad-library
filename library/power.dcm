@@ -180,6 +180,11 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +7.5V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +8V
 D power-flag symbol
 K Power Flag Symbol
@@ -198,6 +203,16 @@ $ENDCMP
 $CMP +BATT
 D power-flag symbol (positive battery voltage)
 K Power Flag Symbol battery
+$ENDCMP
+#
+$CMP +VDC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +VSW
+D power-flag symbol
+K Power Flag Symbol
 $ENDCMP
 #
 $CMP -10V
@@ -280,6 +295,11 @@ D power-flag symbol (negative direct current)
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP -VSW
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP AC
 D power-flag symbol (alternating current)
 K Power Flag Symbol
@@ -338,6 +358,31 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP LINE
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP NEUT
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP PRI_HI
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP PRI_LO
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP PRI_MID
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP PWR_FLAG
 D general power-flag symbol
 K Power Flag Symbol
@@ -365,6 +410,11 @@ $ENDCMP
 #
 $CMP VCOM
 D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VD
+D power-flag symbol (direct current)
 K Power Flag Symbol
 $ENDCMP
 #

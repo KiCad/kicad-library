@@ -114,10 +114,22 @@ K MOSFET Driver IGBT Driver Optocoupler
 F http://www.avagotech.com/docs/AV02-2928EN
 $ENDCMP
 #
+$CMP APDS-9301
+D ambient light sensor, i2c interface, 2.7-3.6V
+K ambient light sensor i2c
+F https://docs.broadcom.com/docs/AV02-2315EN
+$ENDCMP
+#
 $CMP ASMT-YTC2-0AA02
 D Triple LED RVB (Avago Technology)
 K LED RGB
 F http://www.avagotech.com/docs/AV02-2589EN
+$ENDCMP
+#
+$CMP ASSR-1218
+D Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-A
+F https://docs.broadcom.com/docs/AV02-0173EN
 $ENDCMP
 #
 $CMP BP103
@@ -226,6 +238,12 @@ $CMP CNY17-4
 D DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6
 K NPN DC Optocoupler Base Connected
 F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CPC1017N
+D Form A, Solid State Relay (Photo MOSFET) 60V, 0.1A, 16Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-A
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
 $ENDCMP
 #
 $CMP CQY99
@@ -373,9 +391,27 @@ F https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/is485,486_e.pdf
 $ENDCMP
 #
 $CMP KPS-5130
-D RGB Color Sensor
-K opto photodiode RGB color sensor
-F http://www.farnell.com/datasheets/2013780.pdf
+D RGB Colour Sensor
+K opto photodiode RGB colour sensor
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-5130PD7C(Ver.15).pdf
+$ENDCMP
+#
+$CMP LAA110
+D Dual Single-Pole, Normally Open OptoMOS® Relay, DIP-8
+K Dual MOSFET Output Photorelay 1-Form-A
+F http://www.clare.com/home/pdfs.nsf/www/LAA110.pdf/$file/LAA110.pdf
+$ENDCMP
+#
+$CMP LBB110
+D Dual Single-Pole, Normally Closed OptoMOS® Relay, DIP-8
+K Dual MOSFET Output Photorelay 1-Form-B
+F http://www.ixysic.com/home/pdfs.nsf/www/LBB110.pdf/$file/LBB110.pdf
+$ENDCMP
+#
+$CMP LCC110
+D 1-Form-C OptoMOS® Relay, DIP-8
+K MOSFET Output Photorelay 1-Form-C
+F http://www.ixysic.com/home/pdfs.nsf/www/LCC110.pdf/$file/LCC110.pdf
 $ENDCMP
 #
 $CMP LD271
@@ -402,10 +438,28 @@ K light dependent photo resistor LDR
 F http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf
 $ENDCMP
 #
+$CMP LG206D
+D Photointerrupter infrared LED with photo IC, non-inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206D
+K Photointerrupter infrared LED with photo IC, non-inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206D
+F http://kodenshi.co.jp/products/pdf/sensor/photointerrupter_ic/LG206D.pdf
+$ENDCMP
+#
+$CMP LG206L
+D Photointerrupter infrared LED with photo IC, inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206X
+K Photointerrupter infrared LED with photo IC, inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206X
+F http://kodenshi.co.jp/products/pdf/sensor/photointerrupter_ic/LG206L.pdf
+$ENDCMP
+#
 $CMP LPT80A
-D NPN phototransistor, sielooker package
+D NPN phototransistor
 K NPN phototransistor
-F http://www.zdspb.com/media/manuals/LPT80A_sidelooker.pdf
+F http://www.osram-os.com/Graphics/XPic4/00209607_0.pdf/LPT%2080A.pdf
+$ENDCMP
+#
+$CMP LTR-303ALS-01
+D ambient light sensor, i2c interface, 0.01 to 64k lux, 2.4-3.6V
+K ambient light sensor i2c
+F http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
 $ENDCMP
 #
 $CMP LTV-352T
@@ -624,6 +678,12 @@ K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
 $ENDCMP
 #
+$CMP NSL-32
+D Optocoupler, LED Input, Photocell Output
+K optocoupler
+F http://lunainc.com/wp-content/uploads/2016/06/NSL-32.pdf
+$ENDCMP
+#
 $CMP PC3H4
 D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
 K NPN AC DC Optocoupler
@@ -682,6 +742,12 @@ $CMP PLT5_510
 D Green Laser Diode (510nm), TO-38
 K opto laserdiode
 F http://www.osram-os.com/Graphics/XPic2/00227065_0.pdf/PLT5%20510.pdf
+$ENDCMP
+#
+$CMP QSE159
+D Plastic Silicon Photosensor
+K opto IR
+F http://www.onsemi.com/pub/Collateral/QSE159-D.pdf
 $ENDCMP
 #
 $CMP S102S01
@@ -888,6 +954,138 @@ K opto IR LED
 F http://www.osram-os.com/Graphics/XPic2/00182155_0.pdf/SFH%20482%20E7800,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
 $ENDCMP
 #
+$CMP SFH617A-1
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X007T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, cUL, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X009T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X017T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X019T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X007T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X017T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
 $CMP SPL_PL90
 D Pulsed Laser Diode in Plastic Package 25 W Peak Power
 K opto laserdiode
@@ -921,31 +1119,37 @@ $ENDCMP
 $CMP TLP127
 D DC Darlington Optocoupler, Vce 300V, CTR 1000%, MFSOP4
 K NPN Darlington DC Optocoupler
-F http://www.soemtron.org/downloads/disposals/tlp127.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16902&prodName=TLP127
 $ENDCMP
 #
 $CMP TLP130
 D AC DC Optocoupler Base Connected, Vce 80V, CTR 50-100%, MFSOP6
 K NPN AC DC Optocoupler Base Connected
-F https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/TLP130.pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16740&prodName=TLP130
 $ENDCMP
 #
 $CMP TLP131
 D DC Optocoupler Base Connected, Vce 80V, CTR 50-200%, MFSOP6
 K NPN DC Optocoupler Base Connected
-F http://www.tme.eu/pt/Document/d6e20deeaaaf99574d9a1f80696118a9/TLP131(F).pdf
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16742&prodName=TLP131
 $ENDCMP
 #
 $CMP TLP137
 D DC Optocoupler Base Connected, Vce 80V, CTR 100-200%, MFSOP6
 K NPN DC Optocoupler Base Connected
-F http://littlediode.com/datasheets/pdf/Datasheets-TLP/TLP137.PDF
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16744&prodName=TLP137
 $ENDCMP
 #
 $CMP TLP141G
 D DC Optocoupler Thyristor Based, Vdrm 400V, It 150mA, Viso 2500V, MFSOP6
 K OptoThyristor DC Optocoupler
-F http://www.toshiba.com/taec/components2/Datasheet_Sync/209/4314.pdf
+F http://datasheet.octopart.com/TLP141G(U,F)-Toshiba-datasheet-134958.pdf
+$ENDCMP
+#
+$CMP TLP148G
+D DC Optocoupler Thyristor Based, Vdrm 400V, It 150mA, Viso 2500V, MFSOP6
+K OptoThyristor DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=1019&prodName=TLP148G
 $ENDCMP
 #
 $CMP TLP160G
@@ -957,7 +1161,7 @@ $ENDCMP
 $CMP TLP160J
 D Random Phase Opto-Triac, Vdrm 600V, Ift 7mA, SOP6
 K Opto-Triac Opto Triac Random
-F https://toshiba.semicon-storage.com/info/docget.jsp?did=16916&prodName=TLP160G
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16919&prodName=TLP160J
 $ENDCMP
 #
 $CMP TLP161G
@@ -969,7 +1173,7 @@ $ENDCMP
 $CMP TLP161J
 D Zero Cross Opto-Triac, Vdrm 600V, Ift 7mA, SOP6
 K Opto-Triac Opto Triac Zero Cross
-F https://toshiba.semicon-storage.com/info/docget.jsp?did=16921&prodName=TLP161G
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=4207&prodName=TLP161J
 $ENDCMP
 #
 $CMP TLP175A
@@ -984,10 +1188,22 @@ K NPN AC DC Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=11793&prodName=TLP184
 $ENDCMP
 #
+$CMP TLP184(SE
+D AC/DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
+K NPN AC DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=14118&prodName=TLP184(SE
+$ENDCMP
+#
 $CMP TLP185
 D DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
 K NPN DC Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=11791&prodName=TLP185
+$ENDCMP
+#
+$CMP TLP185(SE
+D DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
+K NPN DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=14111&prodName=TLP185(SE
 $ENDCMP
 #
 $CMP TLP222A
@@ -1006,6 +1222,42 @@ $CMP TLP250
 D Gate Drive Optocoupler, Output Current 1.5/1.5A
 K MOSFET Driver IGBT Driver Optocoupler
 F http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
+$ENDCMP
+#
+$CMP TLP2703
+D 100 kbps, High-speed GaA&As, high-gain, 4.5 - 18 VCC, 5 kVrms, CTR 900%, SO-6L
+K NPN Darlington DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=15216&prodName=TLP2703
+$ENDCMP
+#
+$CMP TLP2745
+D 10-Mbps low-power non inverting photocouple,5 kVrms, 4.5 - 30 Vdd, push-pull output
+K Photocouple highspeed non inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=29405&prodName=TLP2745
+$ENDCMP
+#
+$CMP TLP2748
+D 10-Mbps inverting photocouple,5 kVrms, 4.5 - 30 Vdd, push-pull output, SO-6L
+K Photocouple highspeed inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=29407&prodName=TLP2748
+$ENDCMP
+#
+$CMP TLP2761
+D 15-Mbps inverting photocouple,5 kVrms, 2.7 - 5.5 Vdd, push-pull output
+K Photocouple highspeed inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=28819&prodName=TLP2761
+$ENDCMP
+#
+$CMP TLP2767
+D 50-Mbps high speed inverting photocouple,5 kVrms, 2.7 - 5.5 Vdd, push-pull output
+K Photocouple highspeed non inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=36717&prodName=TLP2767
+$ENDCMP
+#
+$CMP TLP2768A
+D 20-Mbps high speed inverting photocouple,5 kVrms, 2.7 - 5.5 Vdd, open collector, SO-6L
+K Photocouple highspeed inverting open collector output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=36717&prodName=TLP2768A
 $ENDCMP
 #
 $CMP TLP290
@@ -1098,16 +1350,16 @@ K opto IR receiver
 F http://www.vishay.com/docs/82667/tsdp341.pdf
 $ENDCMP
 #
-$CMP TSL2550-SO8
+$CMP TSL2550D
 D Ambient Light Sensor with SMbus Interface, SO-8 interface
 K opto ambient light sensor
-F http://www.farnell.com/datasheets/48715.pdf
+F http://ams.com/eng/content/download/250130/975613/142977
 $ENDCMP
 #
-$CMP TSL2550-T4
-D Ambient Light Sensor with SMbus Interface, T-4 interface
+$CMP TSL2550T
+D Ambient Light Sensor with SMbus Interface, T-4 interface SMD
 K opto ambient light sensor
-F http://www.farnell.com/datasheets/48715.pdf
+F http://ams.com/eng/content/download/250130/975613/142977
 $ENDCMP
 #
 $CMP TSMP58000
@@ -1216,6 +1468,12 @@ $CMP TSOP345xx
 D IR Receiver Modules for Remote Control Systems
 K opto IR receiver
 F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP348xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F https://www.vishay.com/docs/82489/tsop322.pdf
 $ENDCMP
 #
 $CMP TSOP34S40F
@@ -1390,6 +1648,18 @@ $CMP VT93xx
 D light dependent resistor
 K light dependent photo resistor LDR
 F http://www.produktinfo.conrad.com/datenblaetter/125000-149999/140375-da-01-en-FOTOWIDERSTAND__VT_93_N2__THT_.pdf
+$ENDCMP
+#
+$CMP VTL5C
+D Low Cost Axial Vactrols
+K vactrol
+F http://www.qsl.net/wa1ion/vactrol/vactrol.pdf
+$ENDCMP
+#
+$CMP VTL5Cx2
+D Dual Element Axial Vactrols
+K vactrol
+F http://www.alliedelec.com/m/d/ecb1ed91959ae54d97cf67f5103d9b2b.pdf
 $ENDCMP
 #
 #End Doc Library
