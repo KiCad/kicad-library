@@ -1,0 +1,198 @@
+#VRML V2.0 utf8
+#modeled using blender3d http://blender.org
+
+# 'LQP03T'
+DEF _LQP03T Transform {
+children [
+Shape {
+	appearance Appearance {
+		material Material {
+			# Material 'White-ceramic'
+			diffuseColor 1 1 1
+			emissiveColor 0 0 0
+			specularColor 1 1 1
+			ambientIntensity 1
+			transparency 0
+			shininess 0.5
+		}
+	}
+	geometry IndexedFaceSet {
+		coord Coordinate { point [ 
+			0.059055 0.0531495 0.112204,
+			0.059055 0.0531495 0.0059055,
+			0.059055 -0.0531495 0.112204,
+			0.059055 -0.0531495 0.0059055,
+			-0.059055 0.0531495 0.0059055,
+			-0.059055 -0.0531495 0.112204,
+			-0.059055 0.0531495 0.112204,
+			-0.059055 -0.0531495 0.0059055 ]
+		}
+		coordIndex [ 
+			4, 1, 3, -1,
+			0, 1, 4, -1,
+			0, 6, 5, -1,
+			5, 7, 3, -1,
+			7, 4, 3, -1,
+			6, 0, 4, -1,
+			2, 0, 5, -1,
+			2, 5, 3, -1 ]
+	}
+}
+]
+}
+
+# 'LQP03T.topcoat'
+DEF _LQP03T_topcoat Transform {
+children [
+Shape {
+	appearance Appearance {
+		material Material {
+			# Material 'Resin'
+			diffuseColor 0.0695 0.0335 0.0305
+			emissiveColor 0 0 0
+			specularColor 0.0474 0.0399 0.0329
+			ambientIntensity 1
+			transparency 0.1
+			shininess 0.5
+		}
+	}
+	geometry IndexedFaceSet {
+		coord Coordinate { point [ 
+			-0.059055 -0.0531495 0.112441,
+			0.059055 -0.0531495 0.112441,
+			-0.059055 0.0531495 0.112441,
+			0.059055 0.0531495 0.112441 ]
+		}
+		coordIndex [ 
+			1, 3, 2, -1,
+			0, 1, 2, -1 ]
+	}
+}
+]
+}
+
+# 'LQP03T.pins'
+DEF _LQP03T_pins Transform {
+children [
+Shape {
+	appearance Appearance {
+		material Material {
+			# Material 'Tin-plated'
+			diffuseColor 0.8 0.8 0.8
+			emissiveColor 0 0 0
+			specularColor 1 1 1
+			ambientIntensity 1
+			transparency 0
+			shininess 1
+		}
+	}
+	geometry IndexedFaceSet {
+		coord Coordinate { point [ 
+			0.059055 0.059055 0.11811,
+			0.059055 0.059055 0,
+			0.059055 -0.059055 0.11811,
+			0.059055 -0.059055 0,
+			-0.059055 0.059055 0,
+			-0.059055 -0.059055 0.11811,
+			-0.059055 0.059055 0.11811,
+			-0.059055 -0.059055 0,
+			0.110728 -0.059055 0,
+			0.11811 -0.0547127 0.00535186,
+			0.110728 -0.059055 0.11811,
+			0.11811 -0.0547127 0.112758,
+			0.11811 0.0547127 0.00535186,
+			0.110728 0.059055 0,
+			0.11811 0.0547127 0.112758,
+			0.110728 0.059055 0.11811,
+			-0.11811 -0.0547127 0.00535186,
+			-0.110728 -0.059055 0,
+			-0.110728 -0.059055 0.11811,
+			-0.11811 -0.0547127 0.112758,
+			-0.110728 0.059055 0,
+			-0.11811 0.0547127 0.00535186,
+			-0.110728 0.059055 0.11811,
+			-0.11811 0.0547127 0.112758 ]
+		}
+		coordIndex [ 
+			23, 21, 16, -1,
+			1, 13, 8, -1,
+			15, 0, 2, -1,
+			15, 13, 1, -1,
+			11, 9, 12, -1,
+			20, 4, 7, -1,
+			6, 22, 18, -1,
+			6, 4, 20, -1,
+			18, 17, 7, -1,
+			12, 13, 15, -1,
+			10, 11, 14, -1,
+			8, 9, 11, -1,
+			8, 13, 12, -1,
+			18, 19, 16, -1,
+			22, 23, 19, -1,
+			20, 21, 23, -1,
+			17, 16, 21, -1,
+			2, 3, 8, -1,
+			6, 5, 7, -1,
+			0, 1, 3, -1,
+			19, 23, 16, -1,
+			3, 1, 8, -1,
+			10, 15, 2, -1,
+			0, 15, 1, -1,
+			14, 11, 12, -1,
+			17, 20, 7, -1,
+			5, 6, 18, -1,
+			22, 6, 20, -1,
+			5, 18, 7, -1,
+			14, 12, 15, -1,
+			15, 10, 14, -1,
+			10, 8, 11, -1,
+			9, 8, 12, -1,
+			17, 18, 16, -1,
+			18, 22, 19, -1,
+			22, 20, 23, -1,
+			20, 17, 21, -1,
+			10, 2, 8, -1,
+			4, 6, 7, -1,
+			2, 0, 3, -1 ]
+	}
+}
+]
+}
+
+# 'LQP03T.mark'
+DEF _LQP03T_mark Transform {
+children [
+Shape {
+	appearance Appearance {
+		material Material {
+			# Material 'White-mark'
+			diffuseColor 0.8 0.8 0.8
+			emissiveColor 0 0 0
+			specularColor 1 1 1
+			ambientIntensity 1
+			transparency 0
+			shininess 0.5
+		}
+	}
+	geometry IndexedFaceSet {
+		coord Coordinate { point [ 
+			-0.0295275 0.0147638 0.112795,
+			-0.039967 0.0104395 0.112795,
+			-0.0442913 0 0.112795,
+			-0.039967 -0.0104395 0.112795,
+			-0.0295275 -0.0147638 0.112795,
+			-0.0190879 -0.0104395 0.112795,
+			-0.0147638 0 0.112795,
+			-0.019088 0.0104396 0.112795 ]
+		}
+		coordIndex [ 
+			4, 5, 7, -1,
+			7, 0, 1, -1,
+			1, 2, 3, -1,
+			3, 4, 7, -1,
+			5, 6, 7, -1,
+			7, 1, 3, -1 ]
+	}
+}
+]
+}
