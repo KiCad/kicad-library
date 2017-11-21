@@ -29,7 +29,7 @@ F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
 #
 $CMP CC2520
-D 2.4 GHz ZigBee/IEEE 802.15.4 RF transceiver 
+D 2.4 GHz ZigBee/IEEE 802.15.4 RF transceiver
 K 2.4GHz rf transceiver ZigBee 802.15.4
 F http://www.ti.com/lit/gpn/cc2520
 $ENDCMP
@@ -46,6 +46,12 @@ K IQRF data controlled transceiver, GMSK modulation
 F http://iqrf.org/weben/downloads.php?id=337
 $ENDCMP
 #
+$CMP ESP-12E
+D 802.11 b/g/n Wi-Fi Module
+K 802.11 Wi-Fi
+F http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+$ENDCMP
+#
 $CMP HF-A11-SMT
 D WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO
 K WiFi IEEE802.11 b/g/n
@@ -56,6 +62,12 @@ $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
 F http://www.nemeus.fr/resources/uploads/2015/04/MM002-xx-EU_datasheet_v0.11.pdf
+$ENDCMP
+#
+$CMP MOD-nRF8001
+D Bluetooth Low Energy module based on nRF8001 chipset
+K Bluetooth Low Energy nRF8001
+F https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/
 $ENDCMP
 #
 $CMP NRF24L01
@@ -76,6 +88,66 @@ K Simblee ARM Cortex-M0 Bluetooth antenna
 F https://www.simblee.com/Simblee%20RFD77101%20Datasheet%20v1.0.pdf
 $ENDCMP
 #
+$CMP RFM69HW
+D ISM Radio Transciever Module, SPI interface
+K Radio, ISM, Transciever, Module, AES
+F http://www.hoperf.com/upload/rf/RFM69HW-V1.3.pdf
+$ENDCMP
+#
+$CMP RFM69W
+D ISM Radio Transciever Module, SPI interface
+K Radio, ISM, Transciever, Module, AES
+F http://www.hoperf.com/upload/rf/RFM69W-V1.3.pdf
+$ENDCMP
+#
+$CMP RFM95W-868S2
+D Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
+$ENDCMP
+#
+$CMP RFM95W-915S2
+D Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
+$ENDCMP
+#
+$CMP RFM96W-315S2
+D Low power long range transceiver module, SPI and parallel interface, 315 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
+$ENDCMP
+#
+$CMP RFM96W-433S2
+D Low power long range transceiver module, SPI and parallel interface, 433 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
+$ENDCMP
+#
+$CMP RFM97W-868S2
+D Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -139 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
+$ENDCMP
+#
+$CMP RFM97W-915S2
+D Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -139 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
+$ENDCMP
+#
+$CMP RFM98W-315S2
+D Low power long range transceiver module, SPI and parallel interface, 315 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
+$ENDCMP
+#
+$CMP RFM98W-433S2
+D Low power long range transceiver module, SPI and parallel interface, 433 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
+$ENDCMP
+#
 $CMP RN42
 D Class 2 Bluetooth Module with on-board antenna
 K Bluetooth Module
@@ -89,21 +161,57 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/rn-42-ds-v2.32r.pdf
 $ENDCMP
 #
 $CMP RXM-GPS-FM
-D Module GPS Low Power, 14mA tracking, 22 channels 
+D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
 F https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-fm.pdf
 $ENDCMP
 #
 $CMP RXM-GPS-RM
-D Module GPS Low Power, 14mA tracking, 22 channels 
+D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
 F https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-rm.pdf
+$ENDCMP
+#
+$CMP SA605D
+D High performance monolithic low-power FM IF system, SO-20
+K High performance monolithic low-power FM IF system
+F https://www.nxp.com/docs/en/data-sheet/SA605.pdf
+$ENDCMP
+#
+$CMP SA605DK
+D High performance monolithic low-power FM IF system, SSOP-20
+K High performance monolithic low-power FM IF system
+F https://www.nxp.com/docs/en/data-sheet/SA605.pdf
 $ENDCMP
 #
 $CMP SIM900
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
 K GSM GPRS Quad-Band SMS FAX
 F http://www.simcom.us/act_admin/supportfile/SIM900_HD_V1.01(091226).pdf
+$ENDCMP
+#
+$CMP SPBTLE-RF
+D Very Low Power network processor module for BLE v4.1, Hub capabilities
+K BLE bluetooth module low-power
+F http://www.st.com/resource/en/datasheet/spbtle-rf.pdf
+$ENDCMP
+#
+$CMP SPBTLE-RF0
+D Very Low Power network processor module for BLE v4.1
+K BLE bluetooth module low-power
+F http://www.st.com/resource/en/datasheet/spbtle-rf0.pdf
+$ENDCMP
+#
+$CMP SX1272
+D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
+K low-power lora transceiver
+F http://www.semtech.com/images/datasheet/sx1272.pdf
+$ENDCMP
+#
+$CMP SX1273
+D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 9, LoRA, QFN-28
+K low-power lora transceiver
+F http://www.semtech.com/images/datasheet/sx1272.pdf
 $ENDCMP
 #
 $CMP TD1205
@@ -128,6 +236,12 @@ $CMP TR-72D
 D IQRF common transceiver, GMSK modulation
 K IQRF common transceiver, GMSK modulation
 F http://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
+$CMP UL865
+D Telit 3G Module (GSM/GPRS/UMTS/HSPA), 3.8V, Digital voice and SMS, I2S, USB 2.0, UART, SPI. Manufacturer package
+K gsm 3g gprs umts hspa
+F http://www.telit.com/fileadmin/user_upload/products/Downloads/3G/Telit_UL865_Hardware_User_Guide_r8.pdf
 $ENDCMP
 #
 $CMP XBee_SMT

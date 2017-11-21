@@ -12,6 +12,18 @@ K full-bridge h-bridge
 F http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
 $ENDCMP
 #
+$CMP A4952_LY
+D Full-Bridge, DMOS PWM, Motor Driver, 40V, 2A, MSOP-10
+K Full-bridge h-bridge
+F www.allegromicro.com/~/media/Files/Datasheets/A4952-3-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP A4953_LJ
+D Full-Bridge, DMOS PWM, Motor Driver, 40V, 2A, SOIC-8
+K Full-bridge h-bridge
+F www.allegromicro.com/~/media/Files/Datasheets/A4952-3-Datasheet.ashx?la=en
+$ENDCMP
+#
 $CMP DRV8308
 D Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface
 K bldc mosfet-driver hall-sensor
@@ -24,16 +36,40 @@ K Stepper driver
 F http://www.ti.com/lit/ds/slvsc40f/slvsc40f.pdf
 $ENDCMP
 #
+$CMP DRV8833PW
+D Dual H-Bridge Motor Driver, TSSOP-16
+K H-bridge motor driver
+F http://www.ti.com/lit/ds/symlink/drv8833.pdf
+$ENDCMP
+#
+$CMP DRV8833PWP
+D Dual H-Bridge Motor Driver, HTSSOP-16
+K H-bridge motor driver
+F http://www.ti.com/lit/ds/symlink/drv8833.pdf
+$ENDCMP
+#
+$CMP DRV8833RTY
+D Dual H-Bridge Motor Driver, WQFN-16
+K H-bridge motor driver
+F http://www.ti.com/lit/ds/symlink/drv8833.pdf
+$ENDCMP
+#
 $CMP L293
 D Quadruple Half-H Drivers
-K Half-H Driver Motor 
+K Half-H Driver Motor
 F http://www.ti.com/lit/ds/symlink/l293.pdf
 $ENDCMP
 #
 $CMP L293D
 D Quadruple Half-H Drivers
-K Half-H Driver Motor 
+K Half-H Driver Motor
 F http://www.ti.com/lit/ds/symlink/l293.pdf
+$ENDCMP
+#
+$CMP L297
+D Stepper Motor Controller, DIP-20/SO-20
+K Stepper Motor Controller
+F www.st.com/resource/en/datasheet/cd00000063.pdf
 $ENDCMP
 #
 $CMP L298(H)N
@@ -142,6 +178,12 @@ $CMP STSPIN240
 D Low voltage dual brush DC motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package
 K motor driver dc brushed
 F www.st.com/resource/en/datasheet/stspin240.pdf
+$ENDCMP
+#
+$CMP TB6612FNG
+D Driver IC for Dual DC motor, SSOP-24
+K H-bridge motor driver
+F https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html
 $ENDCMP
 #
 $CMP TMC262

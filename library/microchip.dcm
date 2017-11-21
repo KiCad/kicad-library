@@ -1,27 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ENC28J60-C/SS
-D ENC28J60 Single Chip Ethernet Interface, SSOP-28
+$CMP ENC28J60x-ML
+D ENC28J60 Single Chip Ethernet Interface,QFN
 K ENC Ethernet
-F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
-$CMP ENC28J60-I/ML
-D ENC28J60 Single Chip Ethernet Interface, QFN-28+EP
+$CMP ENC28J60x-SO
+D ENC28J60 Single Chip Ethernet Interface,SOIC
 K ENC Ethernet
-F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
-$CMP ENC28J60-I/SO
-D ENC28J60 Single Chip Ethernet Interface, SOIC-28
+$CMP ENC28J60x-SP
+D ENC28J60 Single Chip Ethernet Interface,SPDIP
 K ENC Ethernet
-F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
-$CMP ENC28J60-I/SP
-D ENC28J60 Single Chip Ethernet Interface, PDIP-28
+$CMP ENC28J60x-SS
+D ENC28J60 Single Chip Ethernet Interface,SSOP
 K ENC Ethernet
-F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP KSZ9031RNXCA
@@ -70,6 +70,54 @@ $CMP MCP2050-500-E/SL
 D LIN Transceiver with Voltage Regulator, 5V, SOIC
 K LIN transceiver regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22299B.pdf
+$ENDCMP
+#
+$CMP MCP2200-E-SS
+D USB 2.0 to UART Protocol Converter with GPIO,Extended Temperature Range,SSOP
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200-I-MQ
+D USB 2.0 to UART Protocol Converter with GPIO,QFN
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200-I-SO
+D USB 2.0 to UART Protocol Converter with GPIO,SOIC
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200-I-SS
+D USB 2.0 to UART Protocol Converter with GPIO,SSOP
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200T-E-SS
+D USB 2.0 to UART Protocol Converter with GPIO,Extended Temperature Range,TnR,SSOP
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200T-I-MQ
+D USB 2.0 to UART Protocol Converter with GPIO,TnR,QFN
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200T-I-SO
+D USB 2.0 to UART Protocol Converter with GPIO,TnR,SOIC
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2200T-I-SS
+D USB 2.0 to UART Protocol Converter with GPIO,TnR,SSOP
+K USB UART Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
 #
 $CMP MCP23008
@@ -126,6 +174,12 @@ K CAN Controller SPI
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
 $ENDCMP
 #
+$CMP MCP3021
+D Low-Power 10-Bit A/D Converter with I2C Interface, SOT-23-5
+K ADC I2C
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011709
+$ENDCMP
+#
 $CMP MCP7940N
 D Real-Time Clock, I2C, Battery Backup
 K realtime clock RTC
@@ -150,16 +204,46 @@ K Driver, Dual MOSFET
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
 $ENDCMP
 #
+$CMP SY89312V
+D 3.3/5V, 4GHz ECL/PECL x2 divider, DFN-8
+K CLOCK DIVIDER
+F http://ww1.microchip.com/downloads/en/DeviceDoc/sy89312v.pdf
+$ENDCMP
+#
 $CMP USB2514B_Bi
 D USB 2.0 Hi-Speed Hub Controller
 K USB2.0 Hi-Speed-USB-Hub Hub-Controller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00001692C.pdf
 $ENDCMP
 #
-$CMP USB3300
+$CMP USB3300-EZK
 D Hi-Speed USB Host, Device or OTG PHY with ULPI Interface
 K USB OTG Hi-Speed PHY ULPI Interface
-F http://microchip.com/downloads/en/DeviceDoc/00001783A.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001783C.pdf
+$ENDCMP
+#
+$CMP MCP45HV31-MQ
+D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, QFN-20
+K I2C Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf
+$ENDCMP
+#
+$CMP MCP45HV31-ST
+D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, TSSOP-14
+K I2C Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf
+$ENDCMP
+#
+$CMP MCP45HV51-MQ
+D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, QFN-20
+K I2C Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf
+$ENDCMP
+#
+$CMP MCP45HV51-ST
+D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, TSSOP-14
+K I2C Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf
 $ENDCMP
 #
 #End Doc Library

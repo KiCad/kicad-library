@@ -15,6 +15,11 @@ D Antenna symbol
 K antenna
 $ENDCMP
 #
+$CMP Antenna_Chip
+D Ceramic Chip Antenna symbol with pin for PCB trace
+K antenna
+$ENDCMP
+#
 $CMP Antenna_Dipole
 D Dipole Antenna symbol
 K dipole antenna
@@ -43,7 +48,7 @@ $ENDCMP
 #
 $CMP Buzzer
 D Buzzer, polar
-K Quartz Resonator Ceramic 
+K Quartz Resonator Ceramic
 $ENDCMP
 #
 $CMP C
@@ -112,7 +117,7 @@ K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP Crystal_GND23_Small
-D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
+D Four pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
@@ -122,12 +127,12 @@ K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP Crystal_GND24_Small
-D Two pin crystal, two ground/package pins (pin2 and 4) small symbol
+D Four pin crystal, two ground/package pins (pin2 and 4) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP Crystal_GND2_Small
-D Two pin crystal, one ground/package pins (pin2) small symbol
+D Three pin crystal, one ground/package pins (pin2) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
@@ -137,7 +142,7 @@ K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP Crystal_GND3_Small
-D Two pin crystal, one ground/package pins (pin3) small symbol
+D Three pin crystal, one ground/package pins (pin3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
@@ -277,7 +282,7 @@ K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_KAK
-D Dual schottky diode, common anode 
+D Dual schottky diode, common anode
 K diode
 $ENDCMP
 #
@@ -442,7 +447,7 @@ K diode
 $ENDCMP
 #
 $CMP D_x2_ACom_KAK
-D Dual diode, common anode 
+D Dual diode, common anode
 K diode
 $ENDCMP
 #
@@ -583,7 +588,7 @@ $ENDCMP
 #
 $CMP Hall_Generator
 D Hall generator
-K Hall generator magnet 
+K Hall generator magnet
 $ENDCMP
 #
 $CMP Heater
@@ -619,111 +624,139 @@ $ENDCMP
 $CMP LED
 D LED generic
 K led diode
+F ~
 $ENDCMP
 #
 $CMP LED_ALT
 D LED generic, alternativ symbol
 K led diode
+F ~
 $ENDCMP
 #
 $CMP LED_ARGB
 D LED RGB, common anode (pin 1)
 K led rgb diode
+F ~
+$ENDCMP
+#
+$CMP LED_BGRA
+D LED RGB, common anode
+K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_CRGB
 D LED RGB, Common Cathode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_2pin
 D LED dual, 2pin version
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_AAC
 D LED dual, common cathode
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_AACC
 D LED dual, 4-pin
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_ACA
 D LED dual, common cathode
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_ACAC
 D LED dual, 4-pin
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_CAC
 D LED dual, common anode
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_Dual_CCA
 D LED dual, common anode
 K led diode bicolor dual
+F ~
 $ENDCMP
 #
 $CMP LED_PAD
 D LED with pad
 K led diode pad
+F ~
 $ENDCMP
 #
 $CMP LED_RABG
 D LED RGB, common anode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RAGB
 D LED RGB, common anode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RCBG
 D LED RGB, Common Cathode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RCGB
 D LED RGB, Common Cathode
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RGB
 D LED RGB 6 pins
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_RGB_EP
 D LED RGB 6 pins, exposed pad
 K led rgb diode
+F ~
 $ENDCMP
 #
 $CMP LED_Series
 D several LEDs in series
-K led diode 
+K led diode
+F ~
 $ENDCMP
 #
 $CMP LED_Series_PAD
 D LED with pad
 K led diode pad
+F ~
 $ENDCMP
 #
 $CMP LED_Small
 D LED, small symbol
 K led diode light-emitting-diode
+F ~
 $ENDCMP
 #
 $CMP LED_Small_ALT
 D LED, small symbol, alternativ symbol
 K led diode light-emitting-diode
+F ~
 $ENDCMP
 #
 $CMP LTRIM
@@ -814,12 +847,12 @@ $ENDCMP
 #
 $CMP Microphone_Condenser
 D Condenser Microspcope
-K Capacitance condenser Microphone 
+K Capacitance condenser Microphone
 $ENDCMP
 #
 $CMP Microphone_Crystal
 D crystal microphone
-K microphone crystal 
+K microphone crystal
 $ENDCMP
 #
 $CMP Microphone_Ultrasound
@@ -827,9 +860,44 @@ D Ultrasound receiver
 K Microphone Ultrasound crystal
 $ENDCMP
 #
+$CMP Net-Tie_2
+D Net Tie, 2 pins
+K net tie short
+$ENDCMP
+#
+$CMP Net-Tie_3
+D Net Tie, 3 pins
+K net tie short
+$ENDCMP
+#
+$CMP Net-Tie_3_Tee
+D Net Tie, 3 pins, tee
+K net tie short
+$ENDCMP
+#
+$CMP Net-Tie_4
+D Net Tie, 4 pins
+K net tie short
+$ENDCMP
+#
+$CMP Net-Tie_4_Cross
+D Net Tie, 4 pins, cross
+K net tie short
+$ENDCMP
+#
 $CMP Ohmmeter
 D Ohmmeter, measures resistance
 K Ohmmeter
+$ENDCMP
+#
+$CMP Opamp_Dual_Generic
+D Dual Opamp, SOIC-8/DIP-8/SSOP-8/TO-99
+K dual opamp
+$ENDCMP
+#
+$CMP Opamp_Quad_Generic
+D Quad Opamp, SOIC-14/DIP-14/SSOP-14
+K quad opamp
 $ENDCMP
 #
 $CMP Oscilloscope
@@ -890,6 +958,12 @@ $ENDCMP
 $CMP Q_DUAL_PNP_C2C1E1E2
 D Double PNP Transistors, Current mirror configuration
 K Transistor Double PNP
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_C1B1B2C2E2E1
+D Dual PNP/PNP Transistor, 6-pin package
+K PNP/PNP Transistor
+F https://www.diodes.com/assets/Datasheets/ds30437.pdf
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
@@ -1268,7 +1342,7 @@ K npn phototransistor
 $ENDCMP
 #
 $CMP Q_Photo_NPN_EC
-D Phototransistor NPN, 2-pin (C=1, E=2)
+D Phototransistor NPN, 2-pin (E=1, C=2)
 K NPN phototransistor
 $ENDCMP
 #
@@ -1561,7 +1635,7 @@ $ENDCMP
 #
 $CMP R_Small
 D Resistor, small symbol
-K r resistor 
+K r resistor
 $ENDCMP
 #
 $CMP R_Variable
@@ -1609,7 +1683,7 @@ F ~
 $ENDCMP
 #
 $CMP Speaker
-D speaker 
+D speaker
 K speaker sound
 $ENDCMP
 #
@@ -1621,11 +1695,6 @@ $ENDCMP
 $CMP Speaker_Ultrasound
 D ultrasonic transducer
 K crystal speaker ultrasonic transducer
-$ENDCMP
-#
-$CMP TEST
-D Testpoint, connection for test equipment
-K tp testpoint
 $ENDCMP
 #
 $CMP Thermistor
@@ -1640,27 +1709,27 @@ $ENDCMP
 #
 $CMP Thermistor_NTC_3wire
 D temperature dependent resistor, negative temperature coefficient (NTC), 3-wire interface
-K thermistor NTC resistor sensor RTD 
+K thermistor NTC resistor sensor RTD
 $ENDCMP
 #
 $CMP Thermistor_NTC_4wire
 D temperature dependent resistor, negative temperature coefficient (NTC), 4-wire interface
-K thermistor NTC resistor sensor RTD 
+K thermistor NTC resistor sensor RTD
 $ENDCMP
 #
 $CMP Thermistor_PTC
 D temperature dependent resistor, positive temperature coefficient (PTC)
-K resistor PTC thermistor sensor RTD 
+K resistor PTC thermistor sensor RTD
 $ENDCMP
 #
 $CMP Thermistor_PTC_3wire
 D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
-K resistor PTC thermistor sensor RTD 
+K resistor PTC thermistor sensor RTD
 $ENDCMP
 #
 $CMP Thermistor_PTC_4wire
 D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
-K resistor PTC thermistor sensor RTD 
+K resistor PTC thermistor sensor RTD
 $ENDCMP
 #
 $CMP Thermocouple
