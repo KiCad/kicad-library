@@ -126,6 +126,12 @@ K highside HS current sense amplifier linear buffered monitor
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8219.pdf
 $ENDCMP
 #
+$CMP AD8230
+D 16 V Rail-to-Rail, Zero-Drift, Precision Instrumentation Amplifier, SOIC-8
+K single instrumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8230.pdf
+$ENDCMP
+#
 $CMP AD8236
 D Single 40 μA Micropower Instrumentation Amplifier with Zero Crossover Distortion, MSOP-8
 K single instumentation amplifier
@@ -852,6 +858,24 @@ K single instrumentation amp
 F http://cds.linear.com/docs/en/datasheet/1100fc.pdf
 $ENDCMP
 #
+$CMP LTC1151CN8
+D Dual ±15V, Zero-Drift, Operational Amplifier, DIP-8
+K dual opamp
+F http://www.linear.com/docs/3482
+$ENDCMP
+#
+$CMP LTC1151CSW
+D Dual ±15V, Zero-Drift, Operational Amplifier, SOIC-16W
+K dual opamp
+F http://www.linear.com/docs/3482
+$ENDCMP
+#
+$CMP LTC1152
+D Rail-to-Rail Input, Rail-to-Rail Output, Zero-Drift Op Amp, DIP-8, SOIC-8
+K single opamp
+F http://www.linear.com/docs/2857
+$ENDCMP
+#
 $CMP LTC4414
 D 36V, Low Loss PowerPath Controller for Large PFETs, MSOP-8
 K active diode PFET controller
@@ -1422,6 +1446,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
+$CMP OPA1622
+D High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10
+K dual opamp audio
+F http://www.ti.com/lit/ds/symlink/opa1622.pdf
+$ENDCMP
+#
 $CMP OPA2134
 D Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
@@ -1450,6 +1480,18 @@ $CMP OPA2340
 D Dual Single-Supply, Rail-to-Rail Operational Amplifiers, MicroAmplifier Series, DIP-8/SOIC-8/SSOP-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa4340.pdf
+$ENDCMP
+#
+$CMP OPA2356xxD
+D Dual High Speed CMOS Operational Amplifiers, SOIC-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/opa2356.pdf
+$ENDCMP
+#
+$CMP OPA2356xxDGK
+D Dual High Speed CMOS Operational Amplifiers, VSSOP-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/opa2356.pdf
 $ENDCMP
 #
 $CMP OPA2376xxD
@@ -1554,6 +1596,18 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/opa340.pdf
 $ENDCMP
 #
+$CMP OPA356xxD
+D Single High Speed CMOS Operational Amplifier, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa356.pdf
+$ENDCMP
+#
+$CMP OPA356xxDBV
+D Single High Speed CMOS Operational Amplifier, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa356.pdf
+$ENDCMP
+#
 $CMP OPA376xxD
 D Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8
 K single opamp
@@ -1594,6 +1648,12 @@ $CMP OPA4376
 D Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
+$ENDCMP
+#
+$CMP OPA890ID
+D Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6
+K single opamp wideband low-power
+F https://www.ti.com/lit/ds/symlink/opa890.pdf
 $ENDCMP
 #
 $CMP RC4558
@@ -1870,30 +1930,6 @@ $CMP ZXCT1110
 D Low Power High-Side Current Monitors, SOT-23-5
 K High side current monitor shunt
 F https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf
-$ENDCMP
-#
-$CMP LTC1151CN8
-D Dual ±15V, Zero-Drift, Operational Amplifier, DIP-8
-K dual opamp
-F http://www.linear.com/docs/3482
-$ENDCMP
-#
-$CMP LTC1151CSW
-D Dual ±15V, Zero-Drift, Operational Amplifier, SOIC-16W
-K dual opamp
-F http://www.linear.com/docs/3482
-$ENDCMP
-#
-$CMP LTC1152
-D Rail-to-Rail Input, Rail-to-Rail Output, Zero-Drift Op Amp, DIP-8, SOIC-8
-K single opamp
-F http://www.linear.com/docs/2857
-$ENDCMP
-#
-$CMP AD8230
-D 16 V Rail-to-Rail, Zero-Drift, Precision Instrumentation Amplifier, SOIC-8
-K single instrumentation amplifier
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8230.pdf
 $ENDCMP
 #
 #End Doc Library

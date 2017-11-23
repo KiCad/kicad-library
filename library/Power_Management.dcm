@@ -6,6 +6,12 @@ K gate driver
 F https://www.fairchildsemi.com/datasheets/FA/FAN7842.pdf
 $ENDCMP
 #
+$CMP HF81
+D X capacitor bleeder, SOIC-8
+K X capacitor discharge
+F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=142
+$ENDCMP
+#
 $CMP LM5051
 D Low side OR-ing FET controller, -6V to -100V operation
 K negative low-side or-ing ideal-diode
@@ -294,6 +300,12 @@ K power switch FET driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
 $ENDCMP
 #
+$CMP PD70224
+D Ideal Dual Diode Bridge, QFN-40
+K dual ideal diode bridge
+F https://www.microsemi.com/document-portal/doc_download/131677-pd70224-data-sheet
+$ENDCMP
+#
 $CMP PM8834
 D 4 A dual low-side MOSFET driver (SO8 package)
 K mosfet driver
@@ -328,6 +340,12 @@ $CMP TCM810
 D Microcontroller reset monitor, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TEA1708T
+D GreenChip X capacitor discharge IC, SOIC-8
+K X capacitor discharge
+F https://www.nxp.com/docs/en/data-sheet/TEA1708T.pdf
 $ENDCMP
 #
 $CMP TL7702A
@@ -382,6 +400,18 @@ $CMP TL7733B
 D Supply-Voltage Supervisors, 3.08V, PDIP-8/SOIC-8
 K voltage supervisor
 F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705b.pdf
+$ENDCMP
+#
+$CMP TPS2592xx
+D 5V/12V eFuse Protection Switch (VSON-10)
+K efuse protection switch
+F http://www.ti.com/lit/ds/symlink/tps25925.pdf
+$ENDCMP
+#
+$CMP TPS22929D
+D High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package
+K high-side power distribution switch
+F http://www.ti.com/lit/ds/symlink/tps22929d.pdf
 $ENDCMP
 #
 $CMP TPS3831

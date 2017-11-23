@@ -456,6 +456,12 @@ K mems absolute baromeeter
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/58/d2/33/a4/42/89/42/0b/DM00066332.pdf/files/DM00066332.pdf/jcr:content/translations/en.DM00066332.pdf
 $ENDCMP
 #
+$CMP LSM303C
+D I2C/SPI, 3D Accelerometer and 3D Magnetometer
+K Accelerometer Magnetometer MEMS
+F www.st.com/resource/en/datasheet/lsm303c.pdf
+$ENDCMP
+#
 $CMP LSM303D
 D I2C/SPI, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
@@ -466,6 +472,12 @@ $CMP LSM303DLHC
 D I2C, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00027543.pdf
+$ENDCMP
+#
+$CMP LSM6DS3
+D I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope 
+K Accelerometer Gyroscope MEMS
+F www.st.com/resource/en/datasheet/lsm6ds3.pdf
 $ENDCMP
 #
 $CMP LSM9DS1
@@ -496,6 +508,12 @@ $CMP MAX31826
 D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM, MSOP-8
 K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
+$ENDCMP
+#
+$CMP MAX31856
+D Precision Thermocouple to Digital Converter with Linearization, TSSOP-14
+K Thermocouple converter serial
+F https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf
 $ENDCMP
 #
 $CMP MCP9501
