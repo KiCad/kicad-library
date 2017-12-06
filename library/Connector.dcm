@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4P4C
+D 4P4C connector
+K 4P4C RJ9 RJ10 RJ22 female connector
+$ENDCMP
+#
 $CMP Audio-Jack-2
 D 2-pin audio jack receptable (mono/TS connector)
 K audio jack receptable mono phone headphone TS connector
@@ -2322,9 +2327,19 @@ K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
 $ENDCMP
 #
+$CMP RJ10
+D 4P4C connector
+K RJ9 RJ10 RJ22 female 4P4C connector
+$ENDCMP
+#
 $CMP RJ12
 D RJ12 connector with 2 shield pins
 K RJ12 connector
+$ENDCMP
+#
+$CMP RJ22
+D 4P4C connector
+K RJ9 RJ10 RJ22 female 4P4C connector
 $ENDCMP
 #
 $CMP RJ45
@@ -2341,6 +2356,11 @@ $ENDCMP
 $CMP RJ45_LEDS
 D RJ45, status leds
 K RJ45 RJ45_LEDS
+$ENDCMP
+#
+$CMP RJ9
+D 4P4C connector
+K 4P4C RJ9 RJ10 RJ22 female connector
 $ENDCMP
 #
 $CMP Raspberry_Pi_2_3
