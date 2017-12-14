@@ -14,6 +14,6 @@ Please, check the [CONTRIBUTING.md](CONTRIBUTING.md) file, or refer to the [Wiki
 Further Information
 ===================
 
-* [KiCad Website](http://kicad-pcb.org/contribute/librarians/)
+* [KiCad Website](http://kicad-pcb.org/libraries/contribute/)
 * [KiCad Library Convention](https://github.com/KiCad/kicad-library/wiki/Kicad-Library-Convention) (KLC)
 * [KiCad Library Wiki](https://github.com/KiCad/kicad-library/wiki)
