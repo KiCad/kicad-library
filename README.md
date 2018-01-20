@@ -1,3 +1,9 @@
+**This is a legacy repository for use with KiCad 4.0.x. It will no longer be maintained.**
+The new repositories are found here:
+- https://github.com/KiCad/kicad-symbols
+- https://github.com/KiCad/kicad-packages3D
+- https://github.com/KiCad/kicad-templates
+
 KiCad Library
 =============
 
